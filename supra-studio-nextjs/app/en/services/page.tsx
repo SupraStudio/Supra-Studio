@@ -7,19 +7,19 @@ import MethodTimeline from "@/components/MethodTimeline";
 import Contact from "@/components/Contact";
 import { dict } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.services };
+export const metadata: Metadata = { ...dict.en.meta.services };
 
 export default function ServicesPage() {
   return (
     <>
       <ScrollReveal />
-      <Header hasHero={false} lang="fr" />
+      <Header hasHero={false} lang="en" />
       <main style={{ paddingTop: "calc(var(--section-pad) + 40px)" }}>
-        <Services hideCta lang="fr" />
-        <MethodTimeline lang="fr" />
-        <Contact lang="fr" />
+        <Services hideCta lang="en" />
+        <MethodTimeline lang="en" />
+        <Contact lang="en" />
       </main>
-      <Footer lang="fr" />
+      <Footer lang="en" />
     </>
   );
 }

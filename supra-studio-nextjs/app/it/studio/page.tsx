@@ -9,21 +9,21 @@ import SplitTwo from "@/components/SplitTwo";
 import Contact from "@/components/Contact";
 import { dict } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.studio };
+export const metadata: Metadata = { ...dict.it.meta.studio };
 
 export default function StudioPage() {
   return (
     <>
       <ScrollReveal />
-      <Header lang="fr" />
+      <Header lang="it" />
       <main>
-        <StudioHero lang="fr" />
-        <Vision lang="fr" />
-        <Studio full lang="fr" />
-        <SplitTwo lang="fr" />
-        <Contact lang="fr" />
+        <StudioHero lang="it" />
+        <Vision lang="it" />
+        <Studio full lang="it" />
+        <SplitTwo lang="it" />
+        <Contact lang="it" />
       </main>
-      <Footer lang="fr" />
+      <Footer lang="it" />
     </>
   );
 }

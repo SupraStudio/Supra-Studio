@@ -8,10 +8,10 @@ import Contact from "@/components/Contact";
 import { PROJECTS } from "@/lib/projects";
 import { dict, getDict } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.projects };
+export const metadata: Metadata = { ...dict.it.meta.projects };
 
 export default function ProjetsPage() {
-  const lang = "fr" as const;
+  const lang = "it" as const;
   const t = getDict(lang);
   const total = PROJECTS.length;
   const countries = new Set(

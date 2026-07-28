@@ -1,4 +1,7 @@
-export default function Hero() {
+import { getDict, localizedHref, type Lang } from "@/lib/i18n";
+
+export default function Hero({ lang = "fr" }: { lang?: Lang }) {
+  const t = getDict(lang);
   return (
     <section className="hero">
       <div className="hero-media">
@@ -9,25 +12,18 @@ export default function Hero() {
         />
       </div>
 
-      <span className="scroll-cue">Défiler</span>
+      <span className="scroll-cue">{t.scroll}</span>
 
       <div className="hero-content">
         <p className="hero-eyebrow">Paris · Bordeaux · Rome</p>
-        <h1 className="hero-title">
-          Architecte d&rsquo;intérieur Paris Paysagiste Paris
-        </h1>
+        <h1 className="hero-title">{t.home.heroTitle}</h1>
         <div className="hero-foot">
-          <p className="hero-sub">
-            Rénovation d&rsquo;appartements, maisons neuves, commerces,
-            hôtels, restaurants, bureaux et jardins, conçus dans une même
-            vision architecturale.
-          </p>
-          <a href="/studio" className="btn btn-light">
-            Découvrir le studio
+          <p className="hero-sub">{t.home.heroSub}</p>
+          <a href={localizedHref("/studio", lang)} className="btn btn-light">
+            {t.discoverStudio}
           </a>
         </div>
       </div>
     </section>
   );
 }
-

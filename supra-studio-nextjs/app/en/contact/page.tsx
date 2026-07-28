@@ -2,24 +2,20 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
-import Services from "@/components/Services";
-import MethodTimeline from "@/components/MethodTimeline";
 import Contact from "@/components/Contact";
 import { dict } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.services };
+export const metadata: Metadata = { ...dict.en.meta.contact };
 
-export default function ServicesPage() {
+export default function ContactPage() {
   return (
     <>
       <ScrollReveal />
-      <Header hasHero={false} lang="fr" />
+      <Header hasHero={false} lang="en" />
       <main style={{ paddingTop: "calc(var(--section-pad) + 40px)" }}>
-        <Services hideCta lang="fr" />
-        <MethodTimeline lang="fr" />
-        <Contact lang="fr" />
+        <Contact lang="en" />
       </main>
-      <Footer lang="fr" />
+      <Footer lang="en" />
     </>
   );
 }

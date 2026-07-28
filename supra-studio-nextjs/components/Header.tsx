@@ -1,18 +1,33 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { getDict, LOCALES, type Lang, localizedHref, stripLocaleFromPath } from "@/lib/i18n";
 
-const NAV_LINKS = [
-  { label: "Studio", href: "/studio" },
-  { label: "Services", href: "/services" },
-  { label: "Projets", href: "/projets" },
-  { label: "Contact", href: "/contact" },
-];
+export default function Header({
+  hasHero = true,
+  lang = "fr",
+}: {
+  hasHero?: boolean;
+  lang?: Lang;
+}) {
+  const t = getDict(lang);
+  const pathname = usePathname() || "/";
+  const basePath = stripLocaleFromPath(pathname);
 
-export default function Header({ hasHero = true }: { hasHero?: boolean }) {
+  const NAV_LINKS = [
+    { label: t.nav.studio, href: localizedHref("/studio", lang) },
+    { label: t.nav.projects, href: localizedHref("/projets", lang) },
+    { label: t.nav.services, href: localizedHref("/services", lang) },
+    { label: t.nav.contact, href: localizedHref("/contact", lang) },
+  ];
+
   const [scrolled, setScrolled] = useState(!hasHero);
   const [open, setOpen] = useState(false);
-  const [lang, setLang] = useState<"FR" | "EN" | "IT">("FR");
+
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
 
   useEffect(() => {
     if (!hasHero) return;
@@ -26,9 +41,22 @@ export default function Header({ hasHero = true }: { hasHero?: boolean }) {
     document.body.style.overflow = open ? "hidden" : "";
   }, [open]);
 
+  const LangLinks = () => (
+    <>
+      {LOCALES.map((l, i) => (
+        <span key={l} style={{ display: "flex", gap: 6 }}>
+          <a href={localizedHref(basePath, l)} className={lang === l ? "active" : ""}>
+            {l.toUpperCase()}
+          </a>
+          {i < LOCALES.length - 1 && <span aria-hidden="true">/</span>}
+        </span>
+      ))}
+    </>
+  );
+
   return (
     <header className={`site-header${scrolled ? " is-scrolled" : ""}`}>
-      <a href="/" className="logo" aria-label="Supra Studio — Accueil">
+      <a href={localizedHref("/", lang)} className="logo" aria-label="Supra Studio — Accueil">
         <img src="/assets/icons/LOGO_COMPLET_BLEU.svg" alt="Supra Studio" />
       </a>
 
@@ -39,31 +67,13 @@ export default function Header({ hasHero = true }: { hasHero?: boolean }) {
           </a>
         ))}
         <div className="mobile-lang">
-          {(["FR", "EN", "IT"] as const).map((l) => (
-            <button
-              key={l}
-              className={lang === l ? "active" : ""}
-              onClick={() => setLang(l)}
-            >
-              {l}
-            </button>
-          ))}
+          <LangLinks />
         </div>
       </nav>
 
       <div className="header-right">
         <div className="lang-switch">
-          {(["FR", "EN", "IT"] as const).map((l, i) => (
-            <span key={l} style={{ display: "flex", gap: 6 }}>
-              <button
-                className={lang === l ? "active" : ""}
-                onClick={() => setLang(l)}
-              >
-                {l}
-              </button>
-              {i < 2 && <span aria-hidden="true">/</span>}
-            </span>
-          ))}
+          <LangLinks />
         </div>
         <button
           className={`nav-toggle${open ? " is-open" : ""}`}

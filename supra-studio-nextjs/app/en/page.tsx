@@ -10,24 +10,28 @@ import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
+import type { Metadata } from "next";
+import { dict } from "@/lib/i18n";
+
+export const metadata: Metadata = { ...dict.en.meta.home };
 
 export default function Home() {
   return (
     <>
       <ScrollReveal />
-      <Header lang="fr" />
+      <Header lang="en" />
       <main>
-        <Hero lang="fr" />
-        <Intro lang="fr" />
-        <Stats lang="fr" />
-        <Expertise lang="fr" />
-        <Projects lang="fr" />
-        <Studio lang="fr" />
-        <SplitTwo lang="fr" />
-        <Services lang="fr" />
-        <Contact lang="fr" />
+        <Hero lang="en" />
+        <Intro lang="en" />
+        <Stats lang="en" />
+        <Expertise lang="en" />
+        <Projects lang="en" />
+        <Studio lang="en" />
+        <SplitTwo lang="en" />
+        <Services lang="en" />
+        <Contact lang="en" />
       </main>
-      <Footer lang="fr" />
+      <Footer lang="en" />
     </>
   );
 }

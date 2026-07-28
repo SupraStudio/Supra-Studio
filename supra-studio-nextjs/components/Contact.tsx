@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { getDict, type Lang } from "@/lib/i18n";
 
-export default function Contact() {
+export default function Contact({ lang = "fr" }: { lang?: Lang }) {
+  const t = getDict(lang);
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle"
   );
@@ -33,75 +35,75 @@ export default function Contact() {
       <div className="wrap contact-grid">
         <div className="reveal">
           <div className="section-label">
-            <span>Contact</span>
+            <span>{t.contactPage.label}</span>
           </div>
           <h2 className="section-title" style={{ marginBottom: 24 }}>
-            Parlons de votre projet
+            {t.contactPage.title}
           </h2>
 
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="field-row">
               <div className="field">
-                <input type="text" name="name" placeholder="Nom" required />
+                <input type="text" name="name" placeholder={t.contactPage.formName} required />
               </div>
               <div className="field">
-                <input type="email" name="email" placeholder="Email" required />
+                <input type="email" name="email" placeholder={t.contactPage.formEmail} required />
               </div>
             </div>
             <div className="field">
-              <input type="tel" name="phone" placeholder="Téléphone" />
+              <input type="tel" name="phone" placeholder={t.contactPage.formPhone} />
             </div>
             <div className="field">
               <textarea
                 name="message"
                 rows={5}
-                placeholder="Votre projet en quelques mots"
+                placeholder={t.contactPage.formMessage}
                 required
               />
             </div>
             <button type="submit" className="btn btn-fill" disabled={status === "sending"}>
-              {status === "sending" ? "Envoi..." : "Envoyer"}
+              {status === "sending" ? t.contactPage.sending : t.contactPage.submit}
             </button>
-            {status === "sent" && <p>Merci, votre message a bien été envoyé.</p>}
+            {status === "sent" && <p>{t.contactPage.sent}</p>}
             {status === "error" && (
-              <p>Une erreur est survenue, merci de réessayer.</p>
+              <p>{t.contactPage.error}</p>
             )}
           </form>
         </div>
 
         <div className="contact-info reveal">
           <div className="section-label">
-            <span>Coordonnées</span>
+            <span>{t.contactPage.infoLabel}</span>
           </div>
           <h2 className="section-title" style={{ marginBottom: 24 }}>
-            Nous rencontrer
+            {t.contactPage.meetTitle}
           </h2>
 
           <div className="info-block">
-            <h4>Adresse</h4>
+            <h4>{t.contactPage.addressLabel}</h4>
             <p>14 rue des Fonds Verts, 75012 Paris</p>
           </div>
           <div className="info-block">
-            <h4>Téléphone</h4>
+            <h4>{t.contactPage.phoneLabel}</h4>
             <a href="tel:+33643853761">06 43 85 37 61</a>
           </div>
           <div className="info-block">
-            <h4>Email</h4>
+            <h4>{t.contactPage.emailLabel}</h4>
             <a href="mailto:contact@suprastudio.fr">contact@suprastudio.fr</a>
           </div>
           <div className="info-block">
-            <h4>Prendre rendez-vous</h4>
+            <h4>{t.contactPage.appointmentLabel}</h4>
             <a
               href="https://calendly.com/suprastudio"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Réserver un créneau via Calendly ↗
+              {t.bookSlot}
             </a>
           </div>
 
           <div className="info-block">
-            <h4>Suivez-nous</h4>
+            <h4>{t.contactPage.followLabel}</h4>
             <div className="socials">
               <a
                 href="https://www.instagram.com/suprastudio__/"

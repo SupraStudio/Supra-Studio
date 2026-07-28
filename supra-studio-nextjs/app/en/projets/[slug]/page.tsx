@@ -16,7 +16,7 @@ export function generateMetadata({
   if (!project) return {};
   return {
     title: `${project.name} — Supra Studio`,
-    description: `${project.cat} — ${project.name}, ${project.location}. ${dict.fr.meta.projectSuffix}`,
+    description: `${project.cat} — ${project.name}, ${project.location}. ${dict.en.meta.projectSuffix}`,
   };
 }
 
@@ -25,5 +25,5 @@ export default function ProjectDetailPage({
 }: {
   params: { slug: string };
 }) {
-  return <ProjectDetail slug={params.slug} lang="fr" />;
+  return <ProjectDetail slug={params.slug} lang="en" />;
 }

@@ -1,14 +1,11 @@
-export default function Expertise() {
+import { getDict, type Lang } from "@/lib/i18n";
+
+export default function Expertise({ lang = "fr" }: { lang?: Lang }) {
+  const t = getDict(lang);
   return (
     <section className="expertise">
       <div className="wrap reveal">
-        <p className="expertise-quote">
-          À la croisée de l&rsquo;architecture, de l&rsquo;architecture
-          d&rsquo;intérieur et du paysage, nous nous engageons à offrir à
-          chaque client un projet sur-mesure, où matériaux naturels, lumière
-          et sobriété contemporaine s&rsquo;allient pour créer des espaces de
-          vie sensibles, durables et intemporels.
-        </p>
+        <p className="expertise-quote">{t.home.expertiseQuote}</p>
       </div>
     </section>
   );

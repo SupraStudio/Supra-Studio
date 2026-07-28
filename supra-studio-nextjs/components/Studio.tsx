@@ -1,4 +1,7 @@
-export default function Studio({ full = false }: { full?: boolean }) {
+import { getDict, localizedHref, type Lang } from "@/lib/i18n";
+
+export default function Studio({ full = false, lang = "fr" }: { full?: boolean; lang?: Lang }) {
+  const t = getDict(lang);
   return (
     <section className="studio" id="studio">
       <div className="wrap studio-grid">
@@ -21,27 +24,14 @@ export default function Studio({ full = false }: { full?: boolean }) {
 
         <div className="studio-text reveal">
           <div className="section-label">
-            <span>Le studio</span>
+            <span>{t.studioPage.sectionLabel}</span>
           </div>
-          <h2 className="section-title">Un duo, deux parcours</h2>
-          <p>
-            Supra Studio, c&rsquo;est la rencontre de deux parcours
-            complémentaires et internationaux. Beatrice, diplômée de La
-            Sapienza à Rome et habilitée HMONP à Paris, a travaillé au sein
-            d&rsquo;agences d&rsquo;architecture à Paris. Paul, formé à
-            Bordeaux en architecture d&rsquo;intérieur et en paysage, a lui
-            aussi travaillé à Paris, au sein d&rsquo;agences
-            d&rsquo;architecture et de paysage.
-          </p>
-          <p>
-            Ensemble, ils mettent en commun leurs expertises en architecture
-            d&rsquo;intérieur et en architecture paysagère, guidés par une
-            même exigence de justesse, de créativité et de qualité, de la
-            conception au suivi de chantier.
-          </p>
+          <h2 className="section-title">{t.studioPage.title}</h2>
+          <p>{t.studioPage.p1}</p>
+          <p>{t.studioPage.p2}</p>
           {!full && (
-            <a href="/studio" className="btn btn-dark">
-              En savoir plus sur le studio
+            <a href={localizedHref("/studio", lang)} className="btn btn-dark">
+              {t.learnMoreStudio}
             </a>
           )}
         </div>
