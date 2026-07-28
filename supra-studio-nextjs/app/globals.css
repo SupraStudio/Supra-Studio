@@ -570,10 +570,15 @@ button { font-family: inherit; cursor: pointer; }
 .project-row-text p:last-child { margin-bottom: 0; }
 .project-identity-inline { margin: 4px 0 0; }
 .project-row-textonly {
-  max-width: 62ch;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: clamp(28px, 5vw, 64px);
   margin-bottom: clamp(40px, 5vw, 64px);
 }
 .project-row-textonly:last-child { margin-bottom: 0; }
+.project-row-textonly-inner {
+  grid-column: 2;
+}
 .project-row-textonly h2 {
   font-family: var(--f-body);
   font-weight: 500;
@@ -596,6 +601,8 @@ button { font-family: inherit; cursor: pointer; }
   .project-row { grid-template-columns: 1fr; }
   .project-row-text { order: 2; }
   .project-row-image { order: 1; }
+  .project-row-textonly { grid-template-columns: 1fr; }
+  .project-row-textonly-inner { grid-column: 1; }
 }
 
 .project-plans {

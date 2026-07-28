@@ -71,10 +71,12 @@ export default function ProjectDetailPage({
                   if (!img) {
                     return (
                       <div className="project-row-textonly" key={i}>
-                        <h2>{section.heading}</h2>
-                        {section.paragraphs.map((para, j) => (
-                          <p key={j}>{para}</p>
-                        ))}
+                        <div className="project-row-textonly-inner">
+                          <h2>{section.heading}</h2>
+                          {section.paragraphs.map((para, j) => (
+                            <p key={j}>{para}</p>
+                          ))}
+                        </div>
                       </div>
                     );
                   }
