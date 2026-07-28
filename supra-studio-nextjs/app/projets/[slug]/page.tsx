@@ -65,46 +65,31 @@ export default function ProjectDetailPage({
 
             {project.longSections ? (
               <div className="project-rows reveal">
-                {project.longSections.map((section, i) => {
-                  const rowImages = [project.img, ...(project.gallery || [])];
-                  const img = rowImages[i];
-                  if (!img) {
-                    return (
-                      <div className="project-row-textonly" key={i}>
-                        <div className="project-row-textonly-inner">
-                          <h2>{section.heading}</h2>
-                          {section.paragraphs.map((para, j) => (
-                            <p key={j}>{para}</p>
-                          ))}
-                        </div>
+                <div className="project-combined">
+                  <div className="project-combined-media">
+                    {[project.img, ...(project.gallery || [])].map((src, i) => (
+                      <div className="project-combined-image" key={`img-${i}`}>
+                        <img src={src} alt={project.name} loading="lazy" />
                       </div>
-                    );
-                  }
-                  return (
-                    <div className="project-row" key={i}>
-                      <div className="project-row-image">
-                        <img src={img} alt={project.name} loading="lazy" />
-                      </div>
-                      <div className="project-row-text">
+                    ))}
+                    {project.plans?.map((plan, i) => (
+                      <figure className="project-combined-image" key={`plan-${i}`}>
+                        <img src={plan.src} alt={plan.caption} loading="lazy" />
+                        <figcaption>{plan.caption}</figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                  <div className="project-combined-text">
+                    {project.longSections.map((section, i) => (
+                      <div className="project-combined-section" key={i}>
                         <h2>{section.heading}</h2>
                         {section.paragraphs.map((para, j) => (
                           <p key={j}>{para}</p>
                         ))}
                       </div>
-                    </div>
-                  );
-                })}
-
-                {project.plans?.map((plan, i) => (
-                  <div className="project-row" key={`plan-${i}`}>
-                    <div className="project-row-image">
-                      <img src={plan.src} alt={plan.caption} loading="lazy" />
-                    </div>
-                    <div className="project-row-text">
-                      <h2>{plan.caption}</h2>
-                    </div>
+                    ))}
                   </div>
-                ))}
+                </div>
 
                 {(project.locationImage || project.identityTable) && (
                   <div className="project-row">

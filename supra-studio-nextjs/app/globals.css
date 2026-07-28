@@ -569,17 +569,36 @@ button { font-family: inherit; cursor: pointer; }
 }
 .project-row-text p:last-child { margin-bottom: 0; }
 .project-identity-inline { margin: 4px 0 0; }
-.project-row-textonly {
+.project-combined {
   display: grid;
   grid-template-columns: 2.6fr 1fr;
   gap: clamp(28px, 5vw, 64px);
-  margin-bottom: clamp(40px, 5vw, 64px);
+  align-items: end;
+  margin-bottom: clamp(10px, 1.2vw, 18px);
 }
-.project-row-textonly:last-child { margin-bottom: 0; }
-.project-row-textonly-inner {
-  grid-column: 2;
+.project-combined-media {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, 2.6vw, 32px);
 }
-.project-row-textonly h2 {
+.project-combined-image {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.project-combined-image img { width: 100%; height: auto; display: block; }
+.project-combined-image figcaption {
+  padding: 10px 2px 0;
+  font-size: 12px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--bleu);
+  opacity: .8;
+}
+.project-combined-text { }
+.project-combined-section { margin-bottom: clamp(22px, 2.8vw, 32px); }
+.project-combined-section:last-child { margin-bottom: 0; }
+.project-combined-section h2 {
   font-family: var(--f-body);
   font-weight: 500;
   font-size: 12.5px;
@@ -587,22 +606,21 @@ button { font-family: inherit; cursor: pointer; }
   text-transform: uppercase;
   color: var(--bleu);
   opacity: .85;
-  margin: 0 0 12px;
+  margin: 0 0 10px;
 }
-.project-row-textonly p {
+.project-combined-section p {
   font-size: 13.5px;
   line-height: 1.6;
   color: var(--charbon);
   opacity: .9;
-  margin: 0 0 10px;
+  margin: 0 0 8px;
 }
-.project-row-textonly p:last-child { margin-bottom: 0; }
+.project-combined-section p:last-child { margin-bottom: 0; }
 @media (max-width: 860px) {
   .project-row { grid-template-columns: 1fr; }
   .project-row-text { order: 2; }
   .project-row-image { order: 1; }
-  .project-row-textonly { grid-template-columns: 1fr; }
-  .project-row-textonly-inner { grid-column: 1; }
+  .project-combined { grid-template-columns: 1fr; align-items: start; }
 }
 
 .project-plans {
