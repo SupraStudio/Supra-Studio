@@ -257,21 +257,74 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "brasserie",
-    img: "/assets/images/projet-03-cuisine.jpg",
+    img: "/assets/images/brasserie-facade.jpg",
     images: [
-      "/assets/images/projet-03-cuisine.jpg",
-      "/assets/images/projet-03-salon.jpg",
+      "/assets/images/brasserie-facade.jpg",
+      "/assets/images/brasserie-facade-angle.jpg",
     ],
     cat: "Architecture d'intérieur",
     name: "Brasserie",
     location: "Paris, France",
-    type: "Rénovation professionnelle complète",
-    programme: "Salle de restauration, bar, cuisine principale et secondaire, sanitaires",
-    surface: "205 m²",
+    type: "Restaurant — établissement commercial",
+    programme: "Salle de restauration, comptoir, cuisine professionnelle, espaces techniques",
     annee: "2026",
-    description: [
-      "Pour cette brasserie parisienne, nous avons dessiné un espace où marbre vert, laiton et bois habillent le comptoir et la salle, dans une ambiance à la fois chaleureuse et intemporelle. La circulation entre bar, cuisine ouverte et salle a été repensée pour fluidifier le service.",
-      "Chaque matériau a été choisi pour vieillir avec élégance, dans un lieu pensé pour accueillir aussi bien un déjeuner rapide qu'un dîner prolongé.",
+    gallery: [
+      "/assets/images/brasserie-facade-angle.jpg",
+      "/assets/images/brasserie-bar.jpg",
+      "/assets/images/brasserie-salle.jpg",
+      "/assets/images/brasserie-comptoir.jpg",
+    ],
+    plans: [
+      { src: "/assets/images/brasserie-plan-rdc.jpg", caption: "RDC existant / RDC projet" },
+      { src: "/assets/images/brasserie-plan-r1.jpg", caption: "R-1 existant / R-1 projet" },
+    ],
+    longSections: [
+      {
+        heading: "Révéler la mémoire d'un lieu pour lui offrir une nouvelle vie",
+        paragraphs: [
+          "Au cœur de la rive gauche parisienne, ce projet de réhabilitation transforme une brasserie des années 1970 en un lieu contemporain tout en préservant l'identité construite au fil des décennies.",
+          "Derrière une façade discrète se cache un intérieur marqué par son époque, où certains éléments architecturaux témoignent encore de l'histoire du lieu. L'ambition du projet n'est pas d'effacer cette mémoire, mais au contraire de s'appuyer sur elle comme point de départ de la conception. Les éléments existants deviennent ainsi une matière architecturale capable de dialoguer avec de nouveaux usages et une écriture contemporaine.",
+        ],
+      },
+      {
+        heading: "Une architecture intérieure entre héritage et modernité",
+        paragraphs: [
+          "Le projet repose sur un travail de révélation et de réinterprétation des éléments présents. Les plafonds sculpturaux, les miroirs fumés, la serrurerie métallique, les portes en bois d'origine et les carreaux graphiques du sous-sol sont conservés et valorisés afin de préserver l'âme singulière de la brasserie.",
+          "Ces éléments historiques sont associés à une palette de matériaux sobres et intemporels — bois, métal, verre texturé, pierre et céramique — qui prolongent l'identité du lieu sans chercher à reproduire son esthétique passée. L'objectif est de créer un équilibre subtil entre la richesse de l'existant et les attentes contemporaines d'un établissement parisien.",
+        ],
+      },
+      {
+        heading: "Un dialogue entre le restaurant et son environnement urbain",
+        paragraphs: [
+          "La conception intérieure s'inscrit dans une réflexion plus large sur la relation entre la brasserie et son quartier. Les tonalités minérales de la rive gauche, les matières présentes dans l'espace public parisien et les nuances du paysage urbain nourrissent l'atmosphère du projet.",
+          "Cette continuité entre intérieur et extérieur permet d'ancrer naturellement le lieu dans son contexte tout en affirmant une identité propre. La brasserie devient ainsi un espace chaleureux et vivant, à la fois inscrit dans son histoire et ouvert sur la ville.",
+        ],
+      },
+      {
+        heading: "Une transformation pensée autour des usages",
+        paragraphs: [
+          "Au-delà de l'ambiance architecturale, le projet repense l'organisation complète du lieu afin d'améliorer l'expérience des clients et les conditions d'exploitation.",
+          "Les circulations, les espaces de service et les zones techniques sont restructurés pour offrir davantage de fluidité, de confort et d'efficacité au quotidien. Cette rénovation de brasserie parisienne associe ainsi deux ambitions complémentaires : préserver la mémoire d'un lieu existant et l'adapter aux usages contemporains.",
+          "Une transformation où l'histoire devient une matière de conception.",
+        ],
+      },
+    ],
+    identityTable: [
+      { label: "Projet", value: "Réhabilitation d'une brasserie parisienne" },
+      { label: "Localisation", value: "Paris, France" },
+      { label: "Type", value: "Restaurant — établissement commercial" },
+      { label: "Mission", value: "Architecture intérieure et rénovation" },
+      { label: "Programme", value: "Salle de restauration, comptoir, cuisine professionnelle, espaces techniques" },
+      { label: "Statut", value: "Étude" },
+    ],
+    keywords: [
+      "Rénovation de brasserie à Paris",
+      "Architecture intérieure commerciale",
+      "Réhabilitation de restaurant",
+      "Architecte d'intérieur Paris",
+      "Transformation de commerce",
+      "Restaurant contemporain",
+      "Patrimoine architectural",
     ],
   },
   {
