@@ -569,6 +569,29 @@ button { font-family: inherit; cursor: pointer; }
 }
 .project-row-text p:last-child { margin-bottom: 0; }
 .project-identity-inline { margin: 4px 0 0; }
+.project-row-textonly {
+  max-width: 62ch;
+  margin-bottom: clamp(40px, 5vw, 64px);
+}
+.project-row-textonly:last-child { margin-bottom: 0; }
+.project-row-textonly h2 {
+  font-family: var(--f-body);
+  font-weight: 500;
+  font-size: 12.5px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--bleu);
+  opacity: .85;
+  margin: 0 0 12px;
+}
+.project-row-textonly p {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--charbon);
+  opacity: .9;
+  margin: 0 0 10px;
+}
+.project-row-textonly p:last-child { margin-bottom: 0; }
 @media (max-width: 860px) {
   .project-row { grid-template-columns: 1fr; }
   .project-row-text { order: 2; }

@@ -68,13 +68,21 @@ export default function ProjectDetailPage({
                 {project.longSections.map((section, i) => {
                   const rowImages = [project.img, ...(project.gallery || [])];
                   const img = rowImages[i];
+                  if (!img) {
+                    return (
+                      <div className="project-row-textonly" key={i}>
+                        <h2>{section.heading}</h2>
+                        {section.paragraphs.map((para, j) => (
+                          <p key={j}>{para}</p>
+                        ))}
+                      </div>
+                    );
+                  }
                   return (
                     <div className="project-row" key={i}>
-                      {img && (
-                        <div className="project-row-image">
-                          <img src={img} alt={project.name} loading="lazy" />
-                        </div>
-                      )}
+                      <div className="project-row-image">
+                        <img src={img} alt={project.name} loading="lazy" />
+                      </div>
                       <div className="project-row-text">
                         <h2>{section.heading}</h2>
                         {section.paragraphs.map((para, j) => (

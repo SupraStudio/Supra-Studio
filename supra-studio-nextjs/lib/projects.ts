@@ -135,6 +135,59 @@ export const PROJECTS: Project[] = [
       "Casa Duy réinvente un appartement romain autour d'une palette chaleureuse de bois et de tons crème, où chaque pièce dialogue avec la lumière naturelle. Le salon et la salle à manger s'organisent autour d'une bibliothèque sur-mesure, point d'ancrage du lieu.",
       "Le mobilier, choisi avec soin, mêle pièces contemporaines et objets plus intemporels, pour un intérieur sensible, sans être figé dans un style unique.",
     ],
+    gallery: ["/assets/images/casaduy-2.jpg"],
+    plans: [{ src: "/assets/images/casaduy-plan.jpg", caption: "Plan" }],
+    locationImage: "/assets/images/casaduy-map.jpg",
+    longSections: [
+      {
+        heading: "Révéler le potentiel d'un appartement des années 1970",
+        paragraphs: [
+          "À Rome, cette rénovation complète d'un appartement de 80 m² transforme un logement des années 1970 en un espace de vie contemporain, lumineux et fonctionnel. Notre intervention repense entièrement l'organisation intérieure afin d'adapter l'appartement aux modes de vie actuels, tout en valorisant les qualités de l'existant.",
+          "Plutôt que d'effacer l'histoire du lieu, le projet s'appuie sur sa structure et ses contraintes techniques pour construire une nouvelle manière d'habiter. Chaque intervention découle d'une lecture attentive de l'existant afin de révéler son potentiel architectural.",
+        ],
+      },
+      {
+        heading: "Une organisation plus fluide des espaces",
+        paragraphs: [
+          "Le cœur du projet réside dans la réorganisation des volumes. Les espaces de vie sont décloisonnés pour former une pièce principale ouverte où cuisine, salle à manger et séjour se prolongent naturellement les uns dans les autres. Les circulations deviennent plus intuitives, les perspectives s'allongent et la lumière naturelle traverse désormais l'ensemble de l'appartement.",
+          "À l'inverse, les espaces de nuit sont volontairement préservés afin d'offrir davantage d'intimité. Cette séparation entre les espaces de réception et les espaces privés apporte un équilibre fonctionnel tout en améliorant le confort quotidien.",
+        ],
+      },
+      {
+        heading: "Des matériaux naturels au service de l'architecture",
+        paragraphs: [
+          "Le choix des matériaux participe pleinement à la composition du projet. Le bois, la faïence, la terre cuite et le béton ciré dessinent une palette sobre et intemporelle qui met en valeur les volumes sans les surcharger.",
+          "Le bois accompagne les circulations, souligne les transitions entre les espaces et crée un fil conducteur à travers tout l'appartement. Les matières minérales apportent texture et profondeur tandis que les teintes naturelles renforcent la sensation de calme et de lumière.",
+        ],
+      },
+      {
+        heading: "Une rénovation pensée autour de la lumière",
+        paragraphs: [
+          "L'ouverture des volumes permet de révéler tout le potentiel lumineux de l'appartement. Les perspectives sont dégagées, les cloisons inutiles disparaissent et chaque pièce bénéficie d'une meilleure diffusion de la lumière naturelle.",
+          "Cette rénovation d'appartement à Rome illustre notre approche de l'architecture intérieure : transformer l'existant avec sobriété, tirer parti des contraintes du lieu et concevoir des espaces durables, où la qualité des usages naît d'un équilibre entre lumière, matière et proportions.",
+        ],
+      },
+    ],
+    identityTable: [
+      { label: "Projet", value: "Rénovation complète d'un appartement" },
+      { label: "Localisation", value: "Rome, Italie" },
+      { label: "Surface", value: "80 m²" },
+      { label: "Type", value: "Appartement dans un immeuble des années 1970" },
+      { label: "Mission", value: "Architecture intérieure et rénovation" },
+      { label: "Statut", value: "Étude" },
+    ],
+    keywords: [
+      "Rénovation d'appartement",
+      "Architecte d'intérieur",
+      "Architecture intérieure",
+      "Appartement contemporain",
+      "Appartement à Rome",
+      "Réhabilitation",
+      "Rénovation complète",
+      "Cuisine ouverte",
+      "Optimisation des espaces",
+      "Matériaux naturels",
+    ],
   },
   {
     slug: "brasserie",
