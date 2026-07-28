@@ -135,8 +135,7 @@ export const PROJECTS: Project[] = [
       "Casa Duy réinvente un appartement romain autour d'une palette chaleureuse de bois et de tons crème, où chaque pièce dialogue avec la lumière naturelle. Le salon et la salle à manger s'organisent autour d'une bibliothèque sur-mesure, point d'ancrage du lieu.",
       "Le mobilier, choisi avec soin, mêle pièces contemporaines et objets plus intemporels, pour un intérieur sensible, sans être figé dans un style unique.",
     ],
-    gallery: ["/assets/images/casaduy-2.jpg"],
-    plans: [{ src: "/assets/images/casaduy-plan.jpg", caption: "Plan" }],
+    gallery: ["/assets/images/casaduy-2.jpg", "/assets/images/casaduy-plan.jpg"],
     locationImage: "/assets/images/casaduy-map.jpg",
     longSections: [
       {

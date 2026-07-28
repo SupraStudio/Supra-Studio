@@ -535,7 +535,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .project-row {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2.6fr 1fr;
   gap: clamp(28px, 5vw, 64px);
   align-items: end;
   margin-bottom: clamp(48px, 6vw, 80px);
@@ -561,7 +561,7 @@ button { font-family: inherit; cursor: pointer; }
   margin: 0 0 12px;
 }
 .project-row-text p {
-  font-size: 14.5px;
+  font-size: 13.5px;
   line-height: 1.6;
   color: var(--charbon);
   opacity: .9;
@@ -571,7 +571,7 @@ button { font-family: inherit; cursor: pointer; }
 .project-identity-inline { margin: 4px 0 0; }
 .project-row-textonly {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2.6fr 1fr;
   gap: clamp(28px, 5vw, 64px);
   margin-bottom: clamp(40px, 5vw, 64px);
 }
@@ -590,7 +590,7 @@ button { font-family: inherit; cursor: pointer; }
   margin: 0 0 12px;
 }
 .project-row-textonly p {
-  font-size: 14.5px;
+  font-size: 13.5px;
   line-height: 1.6;
   color: var(--charbon);
   opacity: .9;
