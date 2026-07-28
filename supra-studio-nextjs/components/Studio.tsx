@@ -5,14 +5,8 @@ export default function Studio() {
         <div className="studio-media-wrap reveal">
           <div className="studio-media">
             <img
-              src="/assets/images/projet-03-salon.jpg"
-              alt="Salon rénové par Supra Studio, Paris"
-            />
-          </div>
-          <div className="studio-media secondary">
-            <img
-              src="/assets/images/projet-02-chambre.jpg"
-              alt="Chambre rénovée par Supra Studio"
+              src="/assets/images/fondateurs.jpg"
+              alt="Beatrice et Paul, fondateurs de Supra Studio"
             />
           </div>
         </div>

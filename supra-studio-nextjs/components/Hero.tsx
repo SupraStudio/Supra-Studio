@@ -13,16 +13,14 @@ export default function Hero() {
 
       <div className="hero-content">
         <p className="hero-eyebrow">Paris · Bordeaux · Rome</p>
+        <h1 className="hero-title">
+          Architecte d&rsquo;intérieur Paris Paysagiste Paris
+        </h1>
         <img
           className="hero-logo"
           src="/assets/icons/LOGO_COMPLET_BLEU.svg"
           alt="Supra Studio"
         />
-        <h1 className="hero-title">
-          Architecte d&rsquo;intérieur Paris
-          <br />
-          Paysagiste Paris
-        </h1>
         <div className="hero-foot">
           <p className="hero-sub">
             Architecte d&rsquo;intérieur Paris, paysagiste Paris — rénovation
