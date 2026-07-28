@@ -14,7 +14,10 @@ export const metadata: Metadata = {
 };
 
 export default function ProjetsPage() {
-  const [thumbA, thumbB] = PROJECTS;
+  const total = PROJECTS.length;
+  const countries = new Set(
+    PROJECTS.map((p) => p.location.split(",").pop()?.trim())
+  ).size;
 
   return (
     <>
@@ -34,12 +37,18 @@ export default function ProjetsPage() {
                 matière, lumière et usage, entre Paris, Bordeaux et Rome.
               </p>
             </div>
-            <div className="page-hero-collage">
-              <div className="page-hero-thumb">
-                <img src={thumbA.img} alt={thumbA.name} />
+            <div className="page-hero-stats">
+              <div className="stat">
+                <p className="stat-figure">0{total}</p>
+                <p className="stat-label">Projets présentés</p>
               </div>
-              <div className="page-hero-thumb secondary">
-                <img src={thumbB.img} alt={thumbB.name} />
+              <div className="stat">
+                <p className="stat-figure">0{countries}</p>
+                <p className="stat-label">Pays représentés</p>
+              </div>
+              <div className="stat">
+                <p className="stat-figure">Paris · Bordeaux · Rome</p>
+                <p className="stat-label">Nos terrains d&rsquo;intervention</p>
               </div>
             </div>
           </div>

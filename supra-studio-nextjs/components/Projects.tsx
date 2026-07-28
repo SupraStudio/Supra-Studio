@@ -25,13 +25,42 @@ export default function Projects({ full = false }: { full?: boolean }) {
               href={p.wip ? undefined : `/projets/${p.slug}`}
               key={i}
             >
-              <img src={p.img} alt={p.name} loading="lazy" />
-              <div className="overlay" />
-              {p.wip && <span className="wip-badge">Work in progress</span>}
-              <div className="info">
+              <div className="project-card-media">
+                <img src={p.img} alt={p.name} loading="lazy" />
+                {p.wip && <span className="wip-badge">Work in progress</span>}
+              </div>
+              <div className="project-card-info">
                 <p className="cat">{p.cat}</p>
-                <p className="name">{p.name}</p>
+                <h3 className="name">{p.name}</h3>
                 <p className="location">{p.location}</p>
+                {(p.type || p.programme || p.surface || p.annee) && (
+                  <dl className="project-meta">
+                    {p.type && (
+                      <>
+                        <dt>Type de projet</dt>
+                        <dd>{p.type}</dd>
+                      </>
+                    )}
+                    {p.programme && (
+                      <>
+                        <dt>Programme</dt>
+                        <dd>{p.programme}</dd>
+                      </>
+                    )}
+                    {p.surface && (
+                      <>
+                        <dt>Surface</dt>
+                        <dd>{p.surface}</dd>
+                      </>
+                    )}
+                    {p.annee && (
+                      <>
+                        <dt>Année</dt>
+                        <dd>{p.annee}</dd>
+                      </>
+                    )}
+                  </dl>
+                )}
               </div>
             </a>
           ))}

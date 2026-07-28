@@ -53,9 +53,11 @@ export default function Services({ hideCta = false }: { hideCta?: boolean }) {
             </div>
           ))}
         </div>
+      </div>
 
-        {!hideCta && (
-          <div className="services-cta reveal">
+      {!hideCta && (
+        <div className="services-cta-bleed reveal">
+          <div className="services-cta">
             <p>De la conception à la livraison, un projet clé en main.</p>
             <a
               href="https://calendly.com/suprastudio"
@@ -66,8 +68,8 @@ export default function Services({ hideCta = false }: { hideCta?: boolean }) {
               Prendre rendez-vous
             </a>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </section>
   );
 }

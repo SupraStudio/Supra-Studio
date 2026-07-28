@@ -2,7 +2,7 @@ import { PROJECTS } from "@/lib/projects";
 
 export default function ProjectsMarquee() {
   const names = PROJECTS.map((p) => p.name);
-  const loop = [...names, ...names];
+  const loop = [...names, ...names, ...names, ...names];
 
   return (
     <div className="marquee">

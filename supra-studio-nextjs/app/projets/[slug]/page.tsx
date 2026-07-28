@@ -92,11 +92,12 @@ export default function ProjectDetailPage({
               <div className="projects-stack reveal">
                 {others.slice(0, 2).map((p) => (
                   <a className="project-card" href={`/projets/${p.slug}`} key={p.slug}>
-                    <img src={p.img} alt={p.name} loading="lazy" />
-                    <div className="overlay" />
-                    <div className="info">
+                    <div className="project-card-media">
+                      <img src={p.img} alt={p.name} loading="lazy" />
+                    </div>
+                    <div className="project-card-info">
                       <p className="cat">{p.cat}</p>
-                      <p className="name">{p.name}</p>
+                      <h3 className="name">{p.name}</h3>
                       <p className="location">{p.location}</p>
                     </div>
                   </a>
