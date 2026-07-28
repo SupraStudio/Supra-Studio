@@ -1,10 +1,12 @@
 import { PROJECTS } from "@/lib/projects";
 
 export default function Projects({ full = false }: { full?: boolean }) {
-  return (
-    <section className="projects" id="projets">
-      <div className="wrap">
-        {!full && (
+  if (!full) {
+    // Homepage teaser — previous style: single full-bleed image with
+    // category/name/location overlaid directly on the photo.
+    return (
+      <section className="projects" id="projets">
+        <div className="wrap">
           <div className="section-head reveal">
             <div>
               <div className="section-label">
@@ -16,8 +18,35 @@ export default function Projects({ full = false }: { full?: boolean }) {
               Voir tous les projets ↗
             </a>
           </div>
-        )}
 
+          <div className="projects-stack reveal">
+            {PROJECTS.map((p, i) => (
+              <a
+                className={`project-teaser${p.wip ? " is-wip" : ""}`}
+                href={p.wip ? undefined : `/projets/${p.slug}`}
+                key={i}
+              >
+                <img src={p.img} alt={p.name} loading="lazy" />
+                <div className="overlay" />
+                {p.wip && <span className="wip-badge">Work in progress</span>}
+                <div className="info">
+                  <p className="cat">{p.cat}</p>
+                  <p className="name">{p.name}</p>
+                  <p className="location">{p.location}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  // Full Projets page — identity-card style: contained image (with
+  // category/name/location overlaid on it) + a metadata panel alongside.
+  return (
+    <section className="projects" id="projets">
+      <div className="wrap">
         <div className="projects-stack reveal">
           {PROJECTS.map((p, i) => (
             <a
@@ -27,12 +56,15 @@ export default function Projects({ full = false }: { full?: boolean }) {
             >
               <div className="project-card-media">
                 <img src={p.img} alt={p.name} loading="lazy" />
+                <div className="overlay" />
                 {p.wip && <span className="wip-badge">Work in progress</span>}
+                <div className="info">
+                  <p className="cat">{p.cat}</p>
+                  <p className="name">{p.name}</p>
+                  <p className="location">{p.location}</p>
+                </div>
               </div>
               <div className="project-card-info">
-                <p className="cat">{p.cat}</p>
-                <h3 className="name">{p.name}</h3>
-                <p className="location">{p.location}</p>
                 {(p.type || p.programme || p.surface || p.annee) && (
                   <dl className="project-meta">
                     {p.type && (
