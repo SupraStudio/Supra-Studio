@@ -11,6 +11,13 @@ export type Project = {
   annee?: string;
   description?: string[];
   wip?: boolean;
+  // Rich detail-page content (optional — used when a project has full material)
+  longSections?: { heading: string; paragraphs: string[] }[];
+  gallery?: string[];
+  plans?: { src: string; caption: string }[];
+  locationImage?: string;
+  identityTable?: { label: string; value: string }[];
+  keywords?: string[];
 };
 
 export const PROJECTS: Project[] = [
@@ -28,6 +35,70 @@ export const PROJECTS: Project[] = [
     description: [
       "Niché entre pins parasols et essences méditerranéennes, ce jardin prolonge une villa familiale près de Sabaudia. Nous avons pensé chaque séquence — pergola, piscine, terrasse ombragée — comme une pièce à part entière de la maison, où la limite entre intérieur et extérieur s'efface.",
       "La palette végétale, choisie pour résister au climat local et évoluer avec les saisons, s'accorde aux matériaux en terre cuite et à la pierre existante, pour un jardin qui semble avoir toujours été là.",
+    ],
+    gallery: [
+      "/assets/images/giardino-2.jpg",
+      "/assets/images/giardino-nuit.jpg",
+      "/assets/images/giardino-3.jpg",
+    ],
+    plans: [
+      { src: "/assets/images/giardino-plan-rdc.jpg", caption: "Plan RDC" },
+      { src: "/assets/images/giardino-coupe-aa.jpg", caption: "Coupe AA" },
+    ],
+    locationImage: "/assets/images/giardino-map.jpg",
+    longSections: [
+      {
+        heading: "Un jardin conçu comme une extension de la maison",
+        paragraphs: [
+          "À Sabaudia, sur le littoral italien, ce projet d'aménagement paysager transforme un jardin privé de 300 m² en un véritable espace de vie à ciel ouvert. Autour d'une piscine existante, notre intervention redéfinit les usages et les perspectives afin de créer un jardin contemporain, où nature, architecture et lumière composent une atmosphère méditerranéenne à la fois sobre et chaleureuse.",
+          "Chaque espace est pensé comme une séquence du paysage. Les circulations s'articulent naturellement entre la terrasse, la piscine, les espaces de détente et les zones plantées, offrant une lecture fluide et une continuité entre la maison et son environnement extérieur.",
+        ],
+      },
+      {
+        heading: "Une composition paysagère entre ouverture et intimité",
+        paragraphs: [
+          "L'aménagement repose sur un équilibre subtil entre espaces ouverts et végétation structurante. De larges massifs plantés accompagnent les limites de la parcelle afin de préserver l'intimité tout en laissant respirer le jardin. Les perspectives sont volontairement maîtrisées : elles guident le regard, révèlent la profondeur du terrain et renforcent la sensation d'espace.",
+          "Cette composition permet de créer un jardin vivant, dont les ambiances évoluent au fil des déplacements et des saisons.",
+        ],
+      },
+      {
+        heading: "Le végétal comme matière d'architecture",
+        paragraphs: [
+          "Le projet s'appuie sur une palette végétale inspirée des paysages méditerranéens. Arbres, arbustes persistants, plantes grasses, succulentes et vivaces aux floraisons blanches, mauves et bleutées composent un paysage résilient, adapté au climat de Sabaudia.",
+          "Au-delà de son esthétique, le végétal participe au confort du jardin. Les arbres créent des zones d'ombre naturelles, rafraîchissent les espaces de vie en été et accompagnent les différents usages extérieurs tout au long de la journée.",
+          "Autour de la piscine, un platelage en bois apporte chaleur et douceur. Les matériaux naturels dialoguent avec les plantations pour créer une ambiance intemporelle, où chaque élément trouve sa juste place.",
+        ],
+      },
+      {
+        heading: "Une expérience du jardin, de jour comme de nuit",
+        paragraphs: [
+          "À la tombée du jour, le paysage change de perception. Un éclairage discret révèle les volumes végétaux, accompagne les cheminements et prolonge les usages extérieurs sans perturber la quiétude du lieu.",
+          "Plus qu'un simple projet d'aménagement de jardin, cette réalisation traduit notre vision du paysage : concevoir des espaces extérieurs durables, sensibles et intemporels, où le végétal, la matière et la lumière participent pleinement à la qualité de vie.",
+        ],
+      },
+    ],
+    identityTable: [
+      { label: "Projet", value: "Aménagement d'un jardin privé avec piscine" },
+      { label: "Localisation", value: "Sabaudia, Italie" },
+      { label: "Surface", value: "300 m²" },
+      { label: "Mission", value: "Conception paysagère" },
+      {
+        label: "Programme",
+        value:
+          "Requalification d'un jardin existant, création d'une terrasse en bois, aménagement des abords de la piscine, espaces de détente",
+      },
+      { label: "Statut", value: "Étude" },
+    ],
+    keywords: [
+      "Architecte paysagiste",
+      "Aménagement paysager",
+      "Conception de jardin",
+      "Jardin contemporain",
+      "Jardin méditerranéen",
+      "Jardin avec piscine",
+      "Terrasse en bois",
+      "Paysage résidentiel",
+      "Architecture du paysage",
     ],
   },
   {

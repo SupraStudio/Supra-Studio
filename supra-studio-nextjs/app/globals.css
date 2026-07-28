@@ -530,6 +530,103 @@ button { font-family: inherit; cursor: pointer; }
 }
 .project-text p:last-child { margin-bottom: 0; }
 
+.project-long {
+  max-width: 68ch;
+  margin-top: clamp(28px, 4vw, 44px);
+}
+.project-long-section { margin-bottom: clamp(32px, 4vw, 48px); }
+.project-long-section:last-child { margin-bottom: 0; }
+.project-long-section h2 {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: clamp(21px, 2.2vw, 28px);
+  color: var(--bleu);
+  margin: 0 0 16px;
+}
+.project-long-section p {
+  font-size: 16.5px;
+  color: var(--charbon);
+  margin: 0 0 16px;
+}
+.project-long-section p:last-child { margin-bottom: 0; }
+
+.project-plans {
+  margin-top: clamp(40px, 5vw, 64px);
+}
+.project-plans-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(14px, 2vw, 24px);
+  margin-top: 20px;
+}
+.project-plans-grid figure {
+  margin: 0;
+  background: var(--ivoire-deep);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.project-plans-grid img { width: 100%; height: auto; display: block; }
+.project-plans-grid figcaption {
+  padding: 12px 16px;
+  font-size: 12.5px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--bleu);
+}
+@media (max-width: 700px) {
+  .project-plans-grid { grid-template-columns: 1fr; }
+}
+
+.project-location {
+  margin-top: clamp(40px, 5vw, 64px);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.project-location img { width: 100%; height: auto; display: block; }
+
+.project-identity {
+  margin-top: clamp(40px, 5vw, 64px);
+  max-width: 68ch;
+}
+.project-identity dl { margin: 20px 0 0; }
+.project-identity-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 20px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--bleu-line);
+}
+.project-identity-row dt {
+  font-size: 11.5px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--bleu);
+  opacity: .8;
+  margin: 0;
+}
+.project-identity-row dd {
+  font-size: 15px;
+  color: var(--charbon);
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .project-identity-row { grid-template-columns: 1fr; gap: 4px; }
+}
+
+.project-keywords {
+  margin-top: clamp(32px, 4vw, 48px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.project-keywords span {
+  font-size: 12.5px;
+  color: var(--bleu);
+  border: 1px solid var(--bleu-line);
+  border-radius: 20px;
+  padding: 6px 14px;
+}
+
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

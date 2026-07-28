@@ -63,12 +63,25 @@ export default function ProjectDetailPage({
               ← Tous les projets
             </a>
 
-            {project.description && (
-              <div className="project-text reveal">
-                {project.description.map((para, i) => (
-                  <p key={i}>{para}</p>
+            {project.longSections ? (
+              <div className="project-long reveal">
+                {project.longSections.map((section, i) => (
+                  <div className="project-long-section" key={i}>
+                    <h2>{section.heading}</h2>
+                    {section.paragraphs.map((para, j) => (
+                      <p key={j}>{para}</p>
+                    ))}
+                  </div>
                 ))}
               </div>
+            ) : (
+              project.description && (
+                <div className="project-text reveal">
+                  {project.description.map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
+                </div>
+              )
             )}
 
             {project.images.length > 1 && (
@@ -77,6 +90,62 @@ export default function ProjectDetailPage({
                   <div className="project-gallery-item" key={i}>
                     <img src={img} alt={`${project.name} — vue ${i + 2}`} loading="lazy" />
                   </div>
+                ))}
+              </div>
+            )}
+
+            {project.gallery && (
+              <div className="project-gallery reveal">
+                {project.gallery.map((img, i) => (
+                  <div className="project-gallery-item" key={i}>
+                    <img src={img} alt={`${project.name} — vue`} loading="lazy" />
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {project.plans && (
+              <div className="project-plans reveal">
+                <div className="section-label">
+                  <span>Plans</span>
+                </div>
+                <div className="project-plans-grid">
+                  {project.plans.map((plan, i) => (
+                    <figure key={i}>
+                      <img src={plan.src} alt={plan.caption} loading="lazy" />
+                      <figcaption>{plan.caption}</figcaption>
+                    </figure>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {project.locationImage && (
+              <div className="project-location reveal">
+                <img src={project.locationImage} alt={`Localisation — ${project.location}`} loading="lazy" />
+              </div>
+            )}
+
+            {project.identityTable && (
+              <div className="project-identity reveal">
+                <div className="section-label">
+                  <span>Fiche d&rsquo;identité</span>
+                </div>
+                <dl>
+                  {project.identityTable.map((row, i) => (
+                    <div className="project-identity-row" key={i}>
+                      <dt>{row.label}</dt>
+                      <dd>{row.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            )}
+
+            {project.keywords && (
+              <div className="project-keywords reveal">
+                {project.keywords.map((k, i) => (
+                  <span key={i}>{k}</span>
                 ))}
               </div>
             )}
