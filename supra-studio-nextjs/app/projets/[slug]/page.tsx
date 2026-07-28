@@ -64,25 +64,64 @@ export default function ProjectDetailPage({
             </a>
 
             {project.longSections ? (
-              <div className="project-showcase reveal">
+              <div className="project-rows reveal">
                 {project.longSections.map((section, i) => {
-                  const img = project.gallery?.[i];
+                  const rowImages = [project.img, ...(project.gallery || [])];
+                  const img = rowImages[i];
                   return (
-                    <div className="project-showcase-block" key={i}>
-                      <div className="project-caption">
+                    <div className="project-row" key={i}>
+                      {img && (
+                        <div className="project-row-image">
+                          <img src={img} alt={project.name} loading="lazy" />
+                        </div>
+                      )}
+                      <div className="project-row-text">
                         <h2>{section.heading}</h2>
                         {section.paragraphs.map((para, j) => (
                           <p key={j}>{para}</p>
                         ))}
                       </div>
-                      {img && (
-                        <div className="project-full-image">
-                          <img src={img} alt={project.name} loading="lazy" />
-                        </div>
-                      )}
                     </div>
                   );
                 })}
+
+                {project.plans?.map((plan, i) => (
+                  <div className="project-row" key={`plan-${i}`}>
+                    <div className="project-row-image">
+                      <img src={plan.src} alt={plan.caption} loading="lazy" />
+                    </div>
+                    <div className="project-row-text">
+                      <h2>{plan.caption}</h2>
+                    </div>
+                  </div>
+                ))}
+
+                {(project.locationImage || project.identityTable) && (
+                  <div className="project-row">
+                    {project.locationImage && (
+                      <div className="project-row-image">
+                        <img
+                          src={project.locationImage}
+                          alt={`Localisation — ${project.location}`}
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+                    {project.identityTable && (
+                      <div className="project-row-text">
+                        <h2>Fiche d&rsquo;identité</h2>
+                        <dl className="project-identity-inline">
+                          {project.identityTable.map((row, i) => (
+                            <div className="project-identity-row" key={i}>
+                              <dt>{row.label}</dt>
+                              <dd>{row.value}</dd>
+                            </div>
+                          ))}
+                        </dl>
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
             ) : (
               <>
@@ -113,45 +152,49 @@ export default function ProjectDetailPage({
                     ))}
                   </div>
                 )}
-              </>
-            )}
 
-            {project.plans && (
-              <div className="project-plans reveal">
-                <div className="section-label">
-                  <span>Plans</span>
-                </div>
-                <div className="project-plans-grid">
-                  {project.plans.map((plan, i) => (
-                    <figure key={i}>
-                      <img src={plan.src} alt={plan.caption} loading="lazy" />
-                      <figcaption>{plan.caption}</figcaption>
-                    </figure>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {project.locationImage && (
-              <div className="project-location reveal">
-                <img src={project.locationImage} alt={`Localisation — ${project.location}`} loading="lazy" />
-              </div>
-            )}
-
-            {project.identityTable && (
-              <div className="project-identity reveal">
-                <div className="section-label">
-                  <span>Fiche d&rsquo;identité</span>
-                </div>
-                <dl>
-                  {project.identityTable.map((row, i) => (
-                    <div className="project-identity-row" key={i}>
-                      <dt>{row.label}</dt>
-                      <dd>{row.value}</dd>
+                {project.plans && (
+                  <div className="project-plans reveal">
+                    <div className="section-label">
+                      <span>Plans</span>
                     </div>
-                  ))}
-                </dl>
-              </div>
+                    <div className="project-plans-grid">
+                      {project.plans.map((plan, i) => (
+                        <figure key={i}>
+                          <img src={plan.src} alt={plan.caption} loading="lazy" />
+                          <figcaption>{plan.caption}</figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {project.locationImage && (
+                  <div className="project-location reveal">
+                    <img
+                      src={project.locationImage}
+                      alt={`Localisation — ${project.location}`}
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+
+                {project.identityTable && (
+                  <div className="project-identity reveal">
+                    <div className="section-label">
+                      <span>Fiche d&rsquo;identité</span>
+                    </div>
+                    <dl>
+                      {project.identityTable.map((row, i) => (
+                        <div className="project-identity-row" key={i}>
+                          <dt>{row.label}</dt>
+                          <dd>{row.value}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </div>
+                )}
+              </>
             )}
 
             {project.keywords && (
