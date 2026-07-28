@@ -20,7 +20,11 @@ export default function Projects({ full = false }: { full?: boolean }) {
 
         <div className="projects-stack reveal">
           {PROJECTS.map((p, i) => (
-            <a className="project-card" href="/projets" key={i}>
+            <a
+              className={`project-card${p.wip ? " is-wip" : ""}`}
+              href={p.wip ? undefined : `/projets/${p.slug}`}
+              key={i}
+            >
               <img src={p.img} alt={p.name} loading="lazy" />
               <div className="overlay" />
               {p.wip && <span className="wip-badge">Work in progress</span>}
