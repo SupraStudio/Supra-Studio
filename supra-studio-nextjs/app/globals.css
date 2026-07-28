@@ -394,18 +394,18 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .expertise {
-  padding: clamp(30px, 4vw, 48px) 0 clamp(20px, 3vw, 32px);
+  padding: clamp(56px, 7vw, 96px) 0 clamp(56px, 7vw, 96px);
 }
 .expertise-quote {
   font-family: var(--f-display);
-  font-size: clamp(20px, 2.4vw, 30px);
+  font-size: clamp(24px, 2.9vw, 36px);
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.32;
   color: var(--bleu);
-  max-width: 62ch;
+  max-width: 68ch;
   margin: 0;
 }
-.projects { padding: clamp(20px, 3vw, 32px) 0 var(--section-pad); }
+.projects { padding: clamp(20px, 3vw, 40px) 0 var(--section-pad); }
 .section-head {
   display: flex;
   align-items: flex-end;

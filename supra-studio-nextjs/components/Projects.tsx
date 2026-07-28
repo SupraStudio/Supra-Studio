@@ -19,8 +19,8 @@ const PROJECTS = [
   },
   {
     img: "/assets/images/projet-03-cuisine.jpg",
-    cat: "Aménagement · Cuisine",
-    name: "Appartement particulier",
+    cat: "Architecture d'intérieur",
+    name: "Brasserie",
     location: "Paris, France",
   },
   {

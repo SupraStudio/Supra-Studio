@@ -16,16 +16,11 @@ export default function Hero() {
         <h1 className="hero-title">
           Architecte d&rsquo;intérieur Paris Paysagiste Paris
         </h1>
-        <img
-          className="hero-logo"
-          src="/assets/icons/LOGO_COMPLET_BLEU.svg"
-          alt="Supra Studio"
-        />
         <div className="hero-foot">
           <p className="hero-sub">
-            Architecte d&rsquo;intérieur Paris, paysagiste Paris — rénovation
-            d&rsquo;appartements, maisons neuves et aménagements extérieurs
-            haut de gamme.
+            Rénovation d&rsquo;appartements, maisons neuves, commerces,
+            hôtels, restaurants, bureaux et jardins, conçus dans une même
+            vision architecturale.
           </p>
           <a href="/studio" className="btn btn-light">
             Découvrir le studio
