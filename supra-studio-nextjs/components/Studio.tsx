@@ -2,19 +2,21 @@ export default function Studio({ full = false }: { full?: boolean }) {
   return (
     <section className="studio" id="studio">
       <div className="wrap studio-grid">
-        <div className="studio-media-wrap reveal studio-duo">
+        <div className={`studio-media-wrap reveal${full ? " studio-duo" : ""}`}>
           <div className="studio-media">
             <img
               src="/assets/images/fondateurs.jpg"
               alt="Beatrice et Paul, fondateurs de Supra Studio"
             />
           </div>
-          <div className="studio-media">
-            <img
-              src="/assets/images/fondateurs2.jpg"
-              alt="Beatrice et Paul, fondateurs de Supra Studio"
-            />
-          </div>
+          {full && (
+            <div className="studio-media">
+              <img
+                src="/assets/images/fondateurs2.jpg"
+                alt="Beatrice et Paul, fondateurs de Supra Studio"
+              />
+            </div>
+          )}
         </div>
 
         <div className="studio-text reveal">
