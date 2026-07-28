@@ -411,7 +411,7 @@ button { font-family: inherit; cursor: pointer; }
    VISION (Studio page intro)
    ============================================ */
 .vision {
-  padding: calc(var(--section-pad) + 40px) 0 clamp(40px, 5vw, 64px);
+  padding: clamp(56px, 7vw, 96px) 0 clamp(40px, 5vw, 64px);
 }
 .vision-title {
   font-family: var(--f-display);

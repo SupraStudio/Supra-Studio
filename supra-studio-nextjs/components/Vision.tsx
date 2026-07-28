@@ -5,9 +5,6 @@ export default function Vision() {
         <div className="section-label">
           <span>Architecte d&rsquo;intérieur Paris, paysagiste D.E. Paris</span>
         </div>
-        <h1 className="vision-title">
-          Notre vision : révéler la lumière, élever l&rsquo;ordinaire
-        </h1>
         <p className="vision-text">
           Ici se dévoilent nos projets d&rsquo;architecture d&rsquo;intérieur
           et de paysage, entre Paris, Bordeaux et Rome — appartements
