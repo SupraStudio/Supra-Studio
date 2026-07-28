@@ -25,7 +25,7 @@ const STEPS = [
   },
 ];
 
-export default function Services() {
+export default function Services({ hideCta = false }: { hideCta?: boolean }) {
   return (
     <section className="services" id="services">
       <div className="wrap">
@@ -58,17 +58,19 @@ export default function Services() {
           ))}
         </div>
 
-        <div className="services-cta reveal">
-          <p>De la conception à la livraison, un projet clé en main.</p>
-          <a
-            href="https://calendly.com/suprastudio"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-light"
-          >
-            Prendre rendez-vous
-          </a>
-        </div>
+        {!hideCta && (
+          <div className="services-cta reveal">
+            <p>De la conception à la livraison, un projet clé en main.</p>
+            <a
+              href="https://calendly.com/suprastudio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-light"
+            >
+              Prendre rendez-vous
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-export default function Studio() {
+export default function Studio({ full = false }: { full?: boolean }) {
   return (
     <section className="studio" id="studio">
       <div className="wrap studio-grid">
@@ -31,9 +31,11 @@ export default function Studio() {
             même exigence de justesse, de créativité et de qualité, de la
             conception au suivi de chantier.
           </p>
-          <a href="/studio" className="btn btn-dark">
-            En savoir plus sur le studio
-          </a>
+          {!full && (
+            <a href="/studio" className="btn btn-dark">
+              En savoir plus sur le studio
+            </a>
+          )}
         </div>
       </div>
     </section>

@@ -406,6 +406,76 @@ button { font-family: inherit; cursor: pointer; }
   margin: 0;
 }
 .projects { padding: clamp(20px, 3vw, 40px) 0 var(--section-pad); }
+
+/* ============================================
+   VISION (Studio page intro)
+   ============================================ */
+.vision {
+  padding: calc(var(--section-pad) + 40px) 0 clamp(40px, 5vw, 64px);
+}
+.vision-title {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: clamp(30px, 4.4vw, 52px);
+  line-height: 1.1;
+  max-width: 20ch;
+  margin: 18px 0 32px;
+}
+.vision-text {
+  font-size: 16.5px;
+  color: var(--charbon);
+  max-width: 72ch;
+  margin: 0;
+}
+
+/* ============================================
+   METHOD TIMELINE (Services page, 6 steps)
+   ============================================ */
+.method { padding: 0 0 var(--section-pad); }
+.method-list { border-top: 1px solid var(--bleu-line); }
+.method-item {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: clamp(16px, 3vw, 44px);
+  padding: clamp(26px, 3.4vw, 40px) 0;
+  border-bottom: 1px solid var(--bleu-line);
+  align-items: start;
+}
+.method-num {
+  font-family: var(--f-display);
+  font-size: 15px;
+  opacity: .55;
+  padding-top: 4px;
+}
+.method-item h3 {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: clamp(19px, 1.9vw, 24px);
+  margin: 0 0 10px;
+}
+.method-item p {
+  font-size: 15.5px;
+  color: var(--charbon);
+  margin: 0;
+  max-width: 70ch;
+}
+
+/* ============================================
+   PAGE HERO (simple title band for Projets / Contact)
+   ============================================ */
+.page-hero {
+  padding: calc(var(--section-pad) + 40px) 0 clamp(32px, 4vw, 48px);
+}
+.page-hero .section-title {
+  font-size: clamp(30px, 4.4vw, 52px);
+}
+.page-hero p {
+  font-size: 16.5px;
+  color: var(--charbon);
+  max-width: 65ch;
+  margin: 16px 0 0;
+}
+
 .section-head {
   display: flex;
   align-items: flex-end;
@@ -615,6 +685,7 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 780px) {
   .service-item { grid-template-columns: 50px 1fr; }
   .service-body { grid-column: span 2; }
+  .method-item { grid-template-columns: 50px 1fr; }
 }
 
 .services-cta {
