@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const NAV_LINKS = [
-  { label: "Le Studio", href: "/studio" },
+  { label: "Studio", href: "/studio" },
   { label: "Services", href: "/services" },
   { label: "Projets", href: "/projets" },
   { label: "Contact", href: "/contact" },
@@ -34,7 +34,7 @@ export default function Header() {
       <nav className={`main-nav${open ? " is-open" : ""}`} aria-label="Navigation principale">
         {NAV_LINKS.map((l) => (
           <a key={l.href} href={l.href} onClick={() => setOpen(false)}>
-            {l.label} <span className="arrow">↗</span>
+            {l.label}
           </a>
         ))}
         <div className="mobile-lang">

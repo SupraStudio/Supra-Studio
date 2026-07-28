@@ -4,7 +4,7 @@ export default function Intro() {
       <div className="wrap intro-grid reveal">
         <p className="intro-quote">
           « Nous sommes un studio d&rsquo;architectes d&rsquo;intérieurs et de
-          paysage à Paris. »
+          paysage à Paris, Rome et Bordeaux. »
         </p>
         <div className="intro-text">
           <p>

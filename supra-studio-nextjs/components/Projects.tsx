@@ -3,31 +3,26 @@ const PROJECTS = [
     img: "/assets/images/projet-01-exterieur.jpg",
     cat: "Paysage · Extérieur",
     name: "Jardin & piscine, Rome",
-    size: "is-wide",
   },
   {
     img: "/assets/images/projet-02-salon.jpg",
     cat: "Architecture d'intérieur",
     name: "Appartement, Paris",
-    size: "",
   },
   {
     img: "/assets/images/projet-03-salon.jpg",
     cat: "Rénovation · Salon",
     name: "Appartement particulier",
-    size: "",
   },
   {
     img: "/assets/images/projet-03-cuisine.jpg",
     cat: "Aménagement · Cuisine",
     name: "Appartement particulier",
-    size: "is-wide",
   },
   {
     img: "/assets/images/projet-02-chambre.jpg",
     cat: "Rénovation · Chambre",
     name: "Appartement, Paris",
-    size: "",
   },
 ];
 
@@ -47,13 +42,9 @@ export default function Projects() {
           </a>
         </div>
 
-        <div className="projects-grid reveal">
+        <div className="projects-stack reveal">
           {PROJECTS.map((p, i) => (
-            <a
-              className={`project-card ${p.size}`}
-              href="/projets"
-              key={i}
-            >
+            <a className="project-card" href="/projets" key={i}>
               <img src={p.img} alt={p.name} loading="lazy" />
               <div className="overlay" />
               <div className="info">
@@ -67,3 +58,4 @@ export default function Projects() {
     </section>
   );
 }
+

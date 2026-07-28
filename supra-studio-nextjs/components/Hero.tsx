@@ -3,8 +3,8 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-media">
         <img
-          src="/assets/images/projet-01-exterieur.jpg"
-          alt="Jardin méditerranéen et piscine, projet Supra Studio"
+          src="/assets/images/projet-02-salon.jpg"
+          alt="Salon rénové par Supra Studio, Paris"
           fetchPriority="high"
         />
       </div>
@@ -13,9 +13,15 @@ export default function Hero() {
 
       <div className="hero-content">
         <p className="hero-eyebrow">Paris · Bordeaux · Rome</p>
+        <img
+          className="hero-logo"
+          src="/assets/icons/LOGO_COMPLET_BLEU.svg"
+          alt="Supra Studio"
+        />
         <h1 className="hero-title">
-          Nous sommes un studio d&rsquo;architecture d&rsquo;intérieur et de
-          paysage à Paris
+          Architecte d&rsquo;intérieur Paris
+          <br />
+          Paysagiste Paris
         </h1>
         <div className="hero-foot">
           <p className="hero-sub">
@@ -31,3 +37,4 @@ export default function Hero() {
     </section>
   );
 }
+

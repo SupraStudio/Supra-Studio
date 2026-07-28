@@ -127,10 +127,10 @@ button { font-family: inherit; cursor: pointer; }
 }
 .site-header .logo {
   display: block;
-  width: 148px;
+  width: 200px;
   transition: width .4s var(--ease);
 }
-.site-header.is-scrolled .logo { width: 120px; }
+.site-header.is-scrolled .logo { width: 156px; }
 .site-header.is-scrolled .logo img { filter: none; }
 .logo img {
   width: 100%;
@@ -170,7 +170,7 @@ button { font-family: inherit; cursor: pointer; }
   transition: width .3s var(--ease);
 }
 .main-nav a:hover::after { width: 100%; }
-.main-nav .arrow { font-size: 11px; transform: translateY(-1px); }
+.main-nav .mobile-lang { display: none; }
 
 .header-right { display: flex; align-items: center; gap: 28px; }
 
@@ -255,6 +255,12 @@ button { font-family: inherit; cursor: pointer; }
   width: 30px; height: 1px;
   background: var(--ivoire);
   opacity: .7;
+}
+
+.hero-logo {
+  width: clamp(120px, 14vw, 190px);
+  margin: 0 0 20px;
+  filter: brightness(0) invert(1);
 }
 
 .hero-title {
@@ -387,9 +393,18 @@ button { font-family: inherit; cursor: pointer; }
   .stat:first-child { border-top: none; }
 }
 
-/* ============================================
-   PROJECTS
-   ============================================ */
+.expertise {
+  padding: clamp(40px, 5vw, 72px) 0;
+}
+.expertise-quote {
+  font-family: var(--f-display);
+  font-size: clamp(20px, 2.4vw, 30px);
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--bleu);
+  max-width: 62ch;
+  margin: 0;
+}
 .projects { padding: var(--section-pad) 0; }
 .section-head {
   display: flex;
@@ -418,33 +433,31 @@ button { font-family: inherit; cursor: pointer; }
 }
 .link-arrow:hover { border-color: var(--bleu); }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: clamp(10px, 1.6vw, 20px);
+.projects-stack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(14px, 2vw, 24px);
 }
 .project-card {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--ivoire-deep);
-  aspect-ratio: 4/5;
-  grid-column: span 3;
+  aspect-ratio: 16/8;
+  display: block;
 }
-.project-card.is-wide { grid-column: span 4; }
-.project-card.is-narrow { grid-column: span 2; }
 .project-card img {
   width: 100%; height: 100%; object-fit: cover;
   transition: transform .7s var(--ease);
 }
-.project-card:hover img { transform: scale(1.05); }
+.project-card:hover img { transform: scale(1.03); }
 .project-card .overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,.55) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%);
 }
 .project-card .info {
   position: absolute; left: 0; right: 0; bottom: 0;
-  padding: 20px;
+  padding: 22px 26px;
   color: var(--ivoire);
 }
 .project-card .info .cat {
@@ -452,20 +465,10 @@ button { font-family: inherit; cursor: pointer; }
   margin: 0 0 4px;
 }
 .project-card .info .name {
-  font-family: var(--f-display); font-size: 19px; margin: 0;
+  font-family: var(--f-display); font-size: 20px; margin: 0;
 }
-.project-card.soon { display: flex; align-items: center; justify-content: center; }
-.project-card.soon .placeholder {
-  text-align: center; color: var(--bleu); padding: 20px;
-}
-.project-card.soon .placeholder p {
-  font-size: 12px; letter-spacing: .1em; text-transform: uppercase; margin: 10px 0 0; opacity: .7;
-}
-.project-card.soon svg { opacity: .35; }
-
-@media (max-width: 900px) {
-  .projects-grid { grid-template-columns: repeat(2, 1fr); }
-  .project-card, .project-card.is-wide, .project-card.is-narrow { grid-column: span 1; }
+@media (max-width: 700px) {
+  .project-card { aspect-ratio: 4/3; }
 }
 
 /* ============================================
@@ -556,7 +559,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ============================================
    SERVICES
    ============================================ */
-.services { padding: var(--section-pad) 0; }
+.services { padding: clamp(40px, 5vw, 64px) 0 var(--section-pad); }
 .services-intro {
   max-width: 62ch;
   margin: 0 0 clamp(36px, 5vw, 64px);

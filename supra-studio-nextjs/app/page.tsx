@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import Stats from "@/components/Stats";
+import Expertise from "@/components/Expertise";
 import Projects from "@/components/Projects";
 import Studio from "@/components/Studio";
 import SplitTwo from "@/components/SplitTwo";
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <Intro />
         <Stats />
+        <Expertise />
         <Projects />
         <Studio />
         <SplitTwo />
