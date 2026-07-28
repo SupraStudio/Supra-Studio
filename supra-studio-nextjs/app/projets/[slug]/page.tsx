@@ -64,44 +64,56 @@ export default function ProjectDetailPage({
             </a>
 
             {project.longSections ? (
-              <div className="project-long reveal">
-                {project.longSections.map((section, i) => (
-                  <div className="project-long-section" key={i}>
-                    <h2>{section.heading}</h2>
-                    {section.paragraphs.map((para, j) => (
-                      <p key={j}>{para}</p>
-                    ))}
-                  </div>
-                ))}
+              <div className="project-showcase reveal">
+                {project.longSections.map((section, i) => {
+                  const img = project.gallery?.[i];
+                  return (
+                    <div className="project-showcase-block" key={i}>
+                      <div className="project-caption">
+                        <h2>{section.heading}</h2>
+                        {section.paragraphs.map((para, j) => (
+                          <p key={j}>{para}</p>
+                        ))}
+                      </div>
+                      {img && (
+                        <div className="project-full-image">
+                          <img src={img} alt={project.name} loading="lazy" />
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             ) : (
-              project.description && (
-                <div className="project-text reveal">
-                  {project.description.map((para, i) => (
-                    <p key={i}>{para}</p>
-                  ))}
-                </div>
-              )
-            )}
-
-            {project.images.length > 1 && (
-              <div className="project-gallery reveal">
-                {project.images.slice(1).map((img, i) => (
-                  <div className="project-gallery-item" key={i}>
-                    <img src={img} alt={`${project.name} — vue ${i + 2}`} loading="lazy" />
+              <>
+                {project.description && (
+                  <div className="project-text reveal">
+                    {project.description.map((para, i) => (
+                      <p key={i}>{para}</p>
+                    ))}
                   </div>
-                ))}
-              </div>
-            )}
+                )}
 
-            {project.gallery && (
-              <div className="project-gallery reveal">
-                {project.gallery.map((img, i) => (
-                  <div className="project-gallery-item" key={i}>
-                    <img src={img} alt={`${project.name} — vue`} loading="lazy" />
+                {project.images.length > 1 && (
+                  <div className="project-gallery reveal">
+                    {project.images.slice(1).map((img, i) => (
+                      <div className="project-gallery-item" key={i}>
+                        <img src={img} alt={`${project.name} — vue ${i + 2}`} loading="lazy" />
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
+                )}
+
+                {project.gallery && (
+                  <div className="project-gallery reveal">
+                    {project.gallery.map((img, i) => (
+                      <div className="project-gallery-item" key={i}>
+                        <img src={img} alt={`${project.name} — vue`} loading="lazy" />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </>
             )}
 
             {project.plans && (
