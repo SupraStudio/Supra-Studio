@@ -662,7 +662,7 @@ button { font-family: inherit; cursor: pointer; }
 /* Projets page identity card — contained image (text overlaid on it) + metadata panel, no image inside the panel */
 .project-card {
   display: grid;
-  grid-template-columns: 2.2fr 1fr;
+  grid-template-columns: 2.8fr 1fr;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--ivoire-deep);
@@ -706,8 +706,9 @@ button { font-family: inherit; cursor: pointer; }
 }
 .project-meta {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1px 16px;
+  grid-template-columns: auto 1fr;
+  column-gap: 14px;
+  row-gap: 1px;
   margin: 0;
 }
 .project-meta dt {
