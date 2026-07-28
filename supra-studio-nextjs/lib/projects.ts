@@ -103,10 +103,10 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "maison-kleber",
-    img: "/assets/images/kleber-facade-jour.jpg",
+    img: "/assets/images/kleber-salon-escalier.jpg",
     images: [
+      "/assets/images/kleber-salon-escalier.jpg",
       "/assets/images/kleber-facade-jour.jpg",
-      "/assets/images/kleber-facade-nuit.jpg",
     ],
     cat: "Architecture & architecture d'intérieur",
     name: "Maison Kléber",
@@ -116,10 +116,10 @@ export const PROJECTS: Project[] = [
     surface: "120 m²",
     annee: "2026",
     gallery: [
+      "/assets/images/kleber-facade-jour.jpg",
       "/assets/images/kleber-facade-nuit.jpg",
       "/assets/images/kleber-garage.jpg",
       "/assets/images/kleber-salon-cuisine.jpg",
-      "/assets/images/kleber-salon-escalier.jpg",
       "/assets/images/kleber-cuisine.jpg",
       "/assets/images/kleber-chambre-toit.jpg",
       "/assets/images/kleber-chambre-claustra.jpg",
@@ -257,9 +257,9 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "brasserie",
-    img: "/assets/images/brasserie-facade.jpg",
+    img: "/assets/images/brasserie-salle.jpg",
     images: [
-      "/assets/images/brasserie-facade.jpg",
+      "/assets/images/brasserie-salle.jpg",
       "/assets/images/brasserie-facade-angle.jpg",
     ],
     cat: "Architecture d'intérieur",
@@ -269,9 +269,9 @@ export const PROJECTS: Project[] = [
     programme: "Salle de restauration, comptoir, cuisine professionnelle, espaces techniques",
     annee: "2026",
     gallery: [
+      "/assets/images/brasserie-facade.jpg",
       "/assets/images/brasserie-facade-angle.jpg",
       "/assets/images/brasserie-bar.jpg",
-      "/assets/images/brasserie-salle.jpg",
       "/assets/images/brasserie-comptoir.jpg",
     ],
     plans: [
