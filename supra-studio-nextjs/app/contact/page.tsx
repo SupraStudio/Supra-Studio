@@ -14,7 +14,7 @@ export default function ContactPage() {
   return (
     <>
       <ScrollReveal />
-      <Header />
+      <Header hasHero={false} />
       <main style={{ paddingTop: "calc(var(--section-pad) + 40px)" }}>
         <Contact />
       </main>

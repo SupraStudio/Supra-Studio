@@ -588,7 +588,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ============================================
    STUDIO SPLIT
    ============================================ */
-.studio { padding: var(--section-pad) 0; }
+.studio { padding: var(--section-pad) 0 clamp(24px, 3vw, 40px); }
 .studio-grid {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -612,6 +612,11 @@ button { font-family: inherit; cursor: pointer; }
   border: 6px solid var(--ivoire);
 }
 .studio-media-wrap { position: relative; }
+.studio-media-wrap.studio-duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(10px, 1.5vw, 18px);
+}
 
 .studio-text .section-title { margin-bottom: 22px; }
 .studio-text p { font-size: 16px; color: var(--charbon); margin: 0 0 18px; }
@@ -620,13 +625,14 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 860px) {
   .studio-grid { grid-template-columns: 1fr; }
   .studio-media.secondary { display: none; }
+  .studio-media-wrap.studio-duo { grid-template-columns: 1fr 1fr; }
 }
 
 /* ============================================
    TWO-COL: ARTISANS + VALEURS
    ============================================ */
 .split-two {
-  padding: var(--section-pad) 0 clamp(20px, 3vw, 32px);
+  padding: clamp(24px, 3vw, 40px) 0 clamp(20px, 3vw, 32px);
   border-top: 1px solid var(--bleu-line);
 }
 .split-two-grid {

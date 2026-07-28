@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import Services from "@/components/Services";
 import MethodTimeline from "@/components/MethodTimeline";
+import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
   title: "Nos Services — Supra Studio | Architecture d'intérieur & Paysage",
@@ -15,10 +16,11 @@ export default function ServicesPage() {
   return (
     <>
       <ScrollReveal />
-      <Header />
+      <Header hasHero={false} />
       <main style={{ paddingTop: "calc(var(--section-pad) + 40px)" }}>
         <Services hideCta />
         <MethodTimeline />
+        <Contact />
       </main>
       <Footer />
     </>

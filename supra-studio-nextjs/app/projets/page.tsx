@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
   title: "Nos Projets — Supra Studio | Architecture d'intérieur & Paysage",
@@ -14,7 +15,7 @@ export default function ProjetsPage() {
   return (
     <>
       <ScrollReveal />
-      <Header />
+      <Header hasHero={false} />
       <main>
         <section className="page-hero">
           <div className="wrap reveal">
@@ -30,6 +31,7 @@ export default function ProjetsPage() {
           </div>
         </section>
         <Projects full />
+        <Contact />
       </main>
       <Footer />
     </>

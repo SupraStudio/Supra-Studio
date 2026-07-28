@@ -9,17 +9,18 @@ const NAV_LINKS = [
   { label: "Contact", href: "/contact" },
 ];
 
-export default function Header() {
-  const [scrolled, setScrolled] = useState(false);
+export default function Header({ hasHero = true }: { hasHero?: boolean }) {
+  const [scrolled, setScrolled] = useState(!hasHero);
   const [open, setOpen] = useState(false);
   const [lang, setLang] = useState<"FR" | "EN" | "IT">("FR");
 
   useEffect(() => {
+    if (!hasHero) return;
     const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [hasHero]);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
