@@ -4,19 +4,19 @@ export default function Projects({ full = false }: { full?: boolean }) {
   return (
     <section className="projects" id="projets">
       <div className="wrap">
-        <div className="section-head reveal">
-          <div>
-            <div className="section-label">
-              <span>Réalisations</span>
+        {!full && (
+          <div className="section-head reveal">
+            <div>
+              <div className="section-label">
+                <span>Réalisations</span>
+              </div>
+              <h2 className="section-title">Nos projets</h2>
             </div>
-            <h2 className="section-title">Nos projets</h2>
-          </div>
-          {!full && (
             <a href="/projets" className="link-arrow">
               Voir tous les projets ↗
             </a>
-          )}
-        </div>
+          </div>
+        )}
 
         <div className="projects-stack reveal">
           {PROJECTS.map((p, i) => (
