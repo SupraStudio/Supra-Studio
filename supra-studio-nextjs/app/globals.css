@@ -1375,8 +1375,8 @@ button { font-family: inherit; cursor: pointer; }
   left: 0; right: 0; bottom: 0;
   z-index: 200;
   background: rgba(239, 237, 232, 0.4);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-top: 1px solid var(--bleu-line);
   padding: 16px var(--gutter);
   display: flex;
@@ -1384,6 +1384,7 @@ button { font-family: inherit; cursor: pointer; }
   justify-content: space-between;
   gap: 24px;
   flex-wrap: wrap;
+  transition: background-color .3s var(--ease), border-color .3s var(--ease);
 }
 .cookie-banner-text {
   font-family: var(--f-body);
@@ -1394,12 +1395,14 @@ button { font-family: inherit; cursor: pointer; }
   margin: 0;
   max-width: 62ch;
   text-shadow: 0 1px 6px rgba(239,237,232,.6);
+  transition: color .3s var(--ease), text-shadow .3s var(--ease);
 }
 .cookie-banner-text a {
   color: var(--bleu);
   text-decoration: underline;
   text-underline-offset: 2px;
   opacity: 1;
+  transition: color .3s var(--ease);
 }
 .cookie-banner-actions {
   display: flex;
@@ -1419,9 +1422,28 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--bleu);
   cursor: pointer;
   white-space: nowrap;
-  transition: background-color .3s var(--ease), color .3s var(--ease);
+  transition: background-color .3s var(--ease), color .3s var(--ease), border-color .3s var(--ease);
 }
 .cookie-btn:hover { background: var(--bleu); color: var(--ivoire); }
+
+/* Variant shown while the banner overlaps a full-bleed dark hero image */
+.cookie-banner-on-hero {
+  background: rgba(20, 20, 20, 0.28);
+  border-top-color: rgba(239, 237, 232, 0.35);
+}
+.cookie-banner-on-hero .cookie-banner-text {
+  color: var(--ivoire);
+  text-shadow: 0 1px 6px rgba(0,0,0,.4);
+}
+.cookie-banner-on-hero .cookie-banner-text a { color: var(--ivoire); }
+.cookie-banner-on-hero .cookie-btn {
+  border-color: var(--ivoire);
+  color: var(--ivoire);
+}
+.cookie-banner-on-hero .cookie-btn:hover {
+  background: var(--ivoire);
+  color: var(--bleu);
+}
 
 @media (max-width: 700px) {
   .cookie-banner {

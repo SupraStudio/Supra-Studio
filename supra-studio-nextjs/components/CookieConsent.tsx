@@ -3,11 +3,24 @@
 import { useEffect, useState } from "react";
 import Script from "next/script";
 import { usePathname } from "next/navigation";
-import { getDict, getLangFromPath, localizedHref } from "@/lib/i18n";
+import {
+  getDict,
+  getLangFromPath,
+  localizedHref,
+  stripLocaleFromPath,
+} from "@/lib/i18n";
 
 type Consent = "accepted" | "declined" | null;
 
 const STORAGE_KEY = "supra_cookie_consent";
+
+// Pages that open on a full-bleed dark hero image (home, studio, project detail).
+function pathHasHero(basePath: string) {
+  if (basePath === "/") return true;
+  if (basePath === "/studio") return true;
+  if (basePath.startsWith("/projets/")) return true;
+  return false;
+}
 
 export default function CookieConsent({ gaId }: { gaId?: string }) {
   const pathname = usePathname() || "/";
@@ -16,6 +29,7 @@ export default function CookieConsent({ gaId }: { gaId?: string }) {
 
   const [consent, setConsent] = useState<Consent>(null);
   const [ready, setReady] = useState(false);
+  const [onHero, setOnHero] = useState(false);
 
   useEffect(() => {
     try {
@@ -28,6 +42,16 @@ export default function CookieConsent({ gaId }: { gaId?: string }) {
     }
     setReady(true);
   }, []);
+
+  useEffect(() => {
+    const heroPage = pathHasHero(stripLocaleFromPath(pathname));
+    function update() {
+      setOnHero(heroPage && window.scrollY < 10);
+    }
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    return () => window.removeEventListener("scroll", update);
+  }, [pathname]);
 
   function choose(value: "accepted" | "declined") {
     try {
@@ -58,7 +82,11 @@ export default function CookieConsent({ gaId }: { gaId?: string }) {
       )}
 
       {ready && consent === null && (
-        <div className="cookie-banner" role="dialog" aria-label={t.cookieBanner.title}>
+        <div
+          className={`cookie-banner${onHero ? " cookie-banner-on-hero" : ""}`}
+          role="dialog"
+          aria-label={t.cookieBanner.title}
+        >
           <p className="cookie-banner-text">
             {t.cookieBanner.text}{" "}
             <a href={localizedHref("/politique-confidentialite", lang)}>
