@@ -68,14 +68,14 @@ export default function CookieConsent({ gaId }: { gaId?: string }) {
           <div className="cookie-banner-actions">
             <button
               type="button"
-              className="cookie-btn cookie-btn-decline"
+              className="cookie-btn"
               onClick={() => choose("declined")}
             >
               {t.cookieBanner.decline}
             </button>
             <button
               type="button"
-              className="cookie-btn cookie-btn-accept"
+              className="cookie-btn"
               onClick={() => choose("accepted")}
             >
               {t.cookieBanner.accept}
