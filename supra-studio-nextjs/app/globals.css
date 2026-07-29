@@ -1374,9 +1374,9 @@ button { font-family: inherit; cursor: pointer; }
   position: fixed;
   left: 0; right: 0; bottom: 0;
   z-index: 200;
-  background: rgba(239, 237, 232, 0.72);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(239, 237, 232, 0.4);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   border-top: 1px solid var(--bleu-line);
   padding: 16px var(--gutter);
   display: flex;
@@ -1390,9 +1390,10 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 12.5px;
   line-height: 1.5;
   color: var(--charbon);
-  opacity: .85;
+  opacity: .95;
   margin: 0;
   max-width: 62ch;
+  text-shadow: 0 1px 6px rgba(239,237,232,.6);
 }
 .cookie-banner-text a {
   color: var(--bleu);
