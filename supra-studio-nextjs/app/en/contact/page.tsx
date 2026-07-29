@@ -12,7 +12,7 @@ export default function ContactPage() {
     <>
       <ScrollReveal />
       <Header hasHero={false} lang="en" />
-      <main style={{ paddingTop: "calc(var(--section-pad) + 40px)" }}>
+      <main className="contact-page-main" style={{ paddingTop: "calc(var(--section-pad) + 40px)" }}>
         <Contact lang="en" />
       </main>
       <Footer lang="en" />

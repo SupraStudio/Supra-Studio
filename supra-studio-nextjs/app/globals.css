@@ -191,20 +191,22 @@ button { font-family: inherit; cursor: pointer; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--bleu);
+  background: transparent;
   color: var(--ivoire);
   font-family: var(--f-body);
   font-size: 12px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 10px 18px;
+  padding: 9px 18px;
+  border: 1px solid currentColor;
   border-radius: var(--radius);
   white-space: nowrap;
-  transition: background-color .3s var(--ease), color .3s var(--ease), transform .2s var(--ease);
+  transition: background-color .3s var(--ease), color .3s var(--ease);
 }
-.btn-header-cta:hover { background: var(--bleu-deep, #0030cc); transform: translateY(-1px); }
-.btn-header-cta svg { width: 15px; height: 15px; flex-shrink: 0; }
+.btn-header-cta:hover { background: var(--ivoire); color: var(--bleu); }
+.site-header.is-scrolled .btn-header-cta { color: var(--bleu); }
+.site-header.is-scrolled .btn-header-cta:hover { background: var(--bleu); color: var(--ivoire); }
 .btn-header-cta .cta-short { display: none; }
 
 .nav-toggle {
@@ -307,6 +309,26 @@ button { font-family: inherit; cursor: pointer; }
   opacity: .95;
   margin: 0;
 }
+
+.hero-definition {
+  max-width: 46ch;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.hero-definition-word {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0 0 2px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.hero-definition-ipa { font-family: var(--f-body); font-size: 14px; font-weight: 400; opacity: .65; }
+.hero-definition-pos { font-style: italic; opacity: .8; margin: 0 0 12px; font-size: 13px; }
+.hero-definition-list { margin: 0 0 12px; padding-left: 18px; opacity: .95; }
+.hero-definition-list li { margin-bottom: 4px; }
+.hero-definition-epigraph { font-style: italic; opacity: .95; margin: 0; max-width: 40ch; }
 
 .btn {
   display: inline-flex;
@@ -569,7 +591,9 @@ button { font-family: inherit; cursor: pointer; }
   width: 100%;
   height: auto;
   display: block;
+  transition: transform .7s var(--ease);
 }
+.project-row-image:hover img { transform: scale(1.04); }
 .project-row-text h2 {
   font-family: var(--f-body);
   font-weight: 500;
@@ -606,7 +630,11 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius);
   overflow: hidden;
 }
-.project-combined-image img { width: 100%; height: auto; display: block; }
+.project-combined-image img {
+  width: 100%; height: auto; display: block;
+  transition: transform .7s var(--ease);
+}
+.project-combined-image:hover img { transform: scale(1.04); }
 .project-combined-image figcaption {
   padding: 10px 2px 0;
   font-size: 12px;
@@ -658,7 +686,8 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius);
   overflow: hidden;
 }
-.project-plans-grid img { width: 100%; height: auto; display: block; }
+.project-plans-grid img { width: 100%; height: auto; display: block; transition: transform .7s var(--ease); }
+.project-plans-grid figure:hover img { transform: scale(1.04); }
 .project-plans-grid figcaption {
   padding: 12px 16px;
   font-size: 12.5px;
@@ -675,7 +704,8 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius);
   overflow: hidden;
 }
-.project-location img { width: 100%; height: auto; display: block; }
+.project-location img { width: 100%; height: auto; display: block; transition: transform .7s var(--ease); }
+.project-location:hover img { transform: scale(1.04); }
 
 .project-identity {
   margin-top: clamp(40px, 5vw, 64px);
@@ -731,7 +761,11 @@ button { font-family: inherit; cursor: pointer; }
   overflow: hidden;
   border-radius: var(--radius);
 }
-.project-gallery-item img { width: 100%; height: 100%; object-fit: cover; }
+.project-gallery-item img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform .7s var(--ease);
+}
+.project-gallery-item:hover img { transform: scale(1.04); }
 @media (max-width: 700px) {
   .project-gallery { grid-template-columns: 1fr; }
 }
@@ -1129,6 +1163,7 @@ button { font-family: inherit; cursor: pointer; }
   padding: var(--section-pad) 0 clamp(50px,6vw,80px);
   border-top: 1px solid var(--bleu-line);
 }
+.contact-page-main .contact { border-top: none; }
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

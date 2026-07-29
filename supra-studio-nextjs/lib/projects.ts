@@ -267,6 +267,7 @@ export const PROJECTS: Project[] = [
     location: "Paris, France",
     type: "Restaurant — établissement commercial",
     programme: "Salle de restauration, comptoir, cuisine professionnelle, espaces techniques",
+    surface: "205 m²",
     annee: "2026",
     gallery: [
       "/assets/images/brasserie-facade.jpg",
@@ -312,6 +313,7 @@ export const PROJECTS: Project[] = [
     identityTable: [
       { label: "Projet", value: "Réhabilitation d'une brasserie parisienne" },
       { label: "Localisation", value: "Paris, France" },
+      { label: "Surface", value: "205 m²" },
       { label: "Type", value: "Restaurant — établissement commercial" },
       { label: "Mission", value: "Architecture intérieure et rénovation" },
       { label: "Programme", value: "Salle de restauration, comptoir, cuisine professionnelle, espaces techniques" },

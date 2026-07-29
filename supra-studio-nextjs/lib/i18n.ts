@@ -49,6 +49,16 @@ export const dict = {
     },
     studioPage: {
       heroTitle: "Notre vision : révéler la lumière, élever l'ordinaire",
+      definition: {
+        word: "su·pra",
+        ipa: "/sy.pʁa/",
+        pos: "préposition, latin",
+        defs: [
+          "Au-dessus, au-delà.",
+          "(figuré) D'un lieu qui se contente de fonctionner à un lieu qui élève ceux qui l'habitent.",
+        ],
+        epigraph: "Ce qui dépasse le fonctionnel pour atteindre l'essentiel.",
+      },
       visionLabel: "Architecte d'intérieur Paris, paysagiste D.E. Paris",
       visionText:
         "Ici se dévoilent nos projets d'architecture d'intérieur et de paysage, entre Paris, Bordeaux et Rome — appartements rénovés, maisons neuves, jardins et terrasses pensés comme des prolongements de l'espace habité. Chaque réalisation traduit une même recherche : celle d'une justesse entre matière, lumière et usage. Nous privilégions les matériaux naturels, les lignes épurées et une conception écoresponsable, pour des lieux qui traversent le temps sans jamais se démoder. Au fil de ces pages, vous découvrirez notre manière d'habiter les seuils — entre intérieur et extérieur, entre sobriété et caractère — et notre conviction que la simplicité, lorsqu'elle est juste, devient une forme de sophistication.",
@@ -233,6 +243,16 @@ export const dict = {
     },
     studioPage: {
       heroTitle: "Our vision: reveal the light, elevate the everyday",
+      definition: {
+        word: "su·pra",
+        ipa: "/sy.pʁa/",
+        pos: "preposition, Latin",
+        defs: [
+          "Above, beyond.",
+          "(figuratively) From a place that settles for functioning, to a place that elevates those who inhabit it.",
+        ],
+        epigraph: "What goes beyond the functional to reach the essential.",
+      },
       visionLabel: "Interior architect in Paris, landscape designer D.E. Paris",
       visionText:
         "Here you'll discover our interior architecture and landscape projects, between Paris, Bordeaux and Rome — renovated apartments, new houses, gardens and terraces conceived as extensions of the living space. Each project reflects the same pursuit: a rightness between material, light and use. We favour natural materials, clean lines and an eco-responsible approach, for places that stand the test of time without ever going out of style. Throughout these pages, you'll discover our way of inhabiting thresholds — between indoors and outdoors, between restraint and character — and our conviction that simplicity, when it is right, becomes a form of sophistication.",
@@ -417,6 +437,16 @@ export const dict = {
     },
     studioPage: {
       heroTitle: "La nostra visione: rivelare la luce, elevare l'ordinario",
+      definition: {
+        word: "su·pra",
+        ipa: "/sy.pʁa/",
+        pos: "preposizione, latino",
+        defs: [
+          "Al di sopra, al di là.",
+          "(in senso figurato) Da un luogo che si accontenta di funzionare, a un luogo che eleva chi lo abita.",
+        ],
+        epigraph: "Ciò che va oltre il funzionale per raggiungere l'essenziale.",
+      },
       visionLabel: "Architetto d'interni Parigi, paesaggista D.E. Parigi",
       visionText:
         "Qui si svelano i nostri progetti di architettura d'interni e di paesaggio, tra Parigi, Bordeaux e Roma — appartamenti ristrutturati, case nuove, giardini e terrazze concepiti come prolungamenti dello spazio abitato. Ogni realizzazione racconta la stessa ricerca: quella di un giusto equilibrio tra materia, luce e uso. Prediligiamo materiali naturali, linee essenziali e una progettazione eco-responsabile, per luoghi capaci di attraversare il tempo senza mai passare di moda. Sfogliando queste pagine scoprirete il nostro modo di abitare le soglie — tra interno ed esterno, tra sobrietà e carattere — e la nostra convinzione che la semplicità, quando è giusta, diventa una forma di raffinatezza.",

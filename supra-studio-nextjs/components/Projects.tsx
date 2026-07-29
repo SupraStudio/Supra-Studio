@@ -70,18 +70,12 @@ export default function Projects({ full = false, lang = "fr" }: { full?: boolean
                 </div>
               </div>
               <div className="project-card-info">
-                {(p.type || p.programme || p.surface || p.annee) && (
+                {(p.type || p.surface || p.annee) && (
                   <dl className="project-meta">
                     {p.type && (
                       <>
                         <dt>{t.projectsPage.typeLabel}</dt>
                         <dd>{p.type}</dd>
-                      </>
-                    )}
-                    {p.programme && (
-                      <>
-                        <dt>{t.projectsPage.programmeLabel}</dt>
-                        <dd>{p.programme}</dd>
                       </>
                     )}
                     {p.surface && (

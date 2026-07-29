@@ -400,6 +400,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       identityTable: [
         { label: "Project", value: "Refurbishment of a Parisian brasserie" },
         { label: "Location", value: "Paris, France" },
+        { label: "Area", value: "205 m²" },
         { label: "Type", value: "Restaurant — commercial premises" },
         { label: "Scope", value: "Interior architecture and renovation" },
         { label: "Programme", value: "Dining room, counter, professional kitchen, technical areas" },
@@ -453,6 +454,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       identityTable: [
         { label: "Progetto", value: "Riqualificazione di una brasserie parigina" },
         { label: "Localizzazione", value: "Parigi, Francia" },
+        { label: "Superficie", value: "205 m²" },
         { label: "Tipo", value: "Ristorante — locale commerciale" },
         { label: "Incarico", value: "Architettura d'interni e ristrutturazione" },
         { label: "Programma", value: "Sala ristorante, bancone, cucina professionale, spazi tecnici" },
