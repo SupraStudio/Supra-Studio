@@ -14,7 +14,7 @@ export default function ServicesPage() {
     <>
       <ScrollReveal />
       <Header hasHero={false} lang="en" />
-      <main style={{ paddingTop: "calc(var(--section-pad) + 40px)" }}>
+      <main className="page-main-offset">
         <Services hideCta lang="en" />
         <MethodTimeline lang="en" />
         <Contact lang="en" />
