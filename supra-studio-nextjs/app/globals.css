@@ -797,7 +797,7 @@ button { font-family: inherit; cursor: pointer; }
 
 
 .page-hero {
-  padding: calc(var(--section-pad) + 40px + clamp(20px, 3vw, 32px)) 0 clamp(32px, 4vw, 48px);
+  padding: calc(var(--section-pad) + 72px + clamp(20px, 3vw, 32px)) 0 clamp(32px, 4vw, 48px);
 }
 .page-main-offset { padding-top: calc(var(--section-pad) + 40px); }
 .page-hero .section-title {
@@ -1208,16 +1208,17 @@ button { font-family: inherit; cursor: pointer; }
 .info-block p, .info-block a { font-size: 16px; margin: 0 0 4px; display: block; }
 .info-block a:hover { text-decoration: underline; }
 
-.socials { display: flex; gap: 18px; margin-top: 10px; }
+.socials { display: flex; gap: 16px; margin-top: 10px; }
 .socials a {
-  width: 40px; height: 40px;
-  border: 1px solid var(--bleu-line);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  transition: background-color .3s, color .3s;
+  color: var(--bleu);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: .8;
+  transition: opacity .3s;
 }
-.socials a:hover { background: var(--bleu); color: var(--ivoire); }
-.socials svg { width: 17px; height: 17px; display: block; }
+.socials a:hover { opacity: 1; }
+.socials svg { width: 20px; height: 20px; display: block; }
 
 .site-footer {
   border-top: 1px solid var(--bleu-line);
@@ -1271,17 +1272,17 @@ button { font-family: inherit; cursor: pointer; }
   }
   .main-nav .mobile-lang a { color: var(--bleu); opacity:.5; font-size: 13px; text-decoration: none; }
   .main-nav .mobile-lang a.active { opacity: 1; text-decoration: underline; }
-  .mobile-socials { display: flex; gap: 12px; margin-top: 6px; }
+  .mobile-socials { display: flex; gap: 16px; margin-top: 6px; }
   .mobile-socials a {
-    width: 28px; height: 28px;
-    border: 1px solid var(--bleu-line);
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
     color: var(--bleu);
-    transition: background-color .3s, color .3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .8;
+    transition: opacity .3s;
   }
-  .mobile-socials a:hover { background: var(--bleu); color: var(--ivoire); }
-  .mobile-socials svg { width: 13px; height: 13px; display: block; }
+  .mobile-socials a:hover { opacity: 1; }
+  .mobile-socials svg { width: 17px; height: 17px; display: block; }
   .nav-toggle { display: flex; z-index: 95; }
   .nav-toggle.is-open span:nth-child(1) { transform: translateY(8.5px) rotate(45deg); }
   .nav-toggle.is-open span:nth-child(2) { opacity: 0; }
@@ -1295,7 +1296,9 @@ button { font-family: inherit; cursor: pointer; }
 
   /* Extra clearance so the first section label is never hidden under the
      fixed header on pages without a hero (Projets, Services, Contact). */
-  .page-hero,
+  .page-hero {
+    padding-top: calc(var(--section-pad) + 108px);
+  }
   .page-main-offset {
     padding-top: calc(var(--section-pad) + 76px);
   }
