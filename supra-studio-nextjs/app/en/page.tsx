@@ -27,7 +27,7 @@ export default function Home() {
         <Expertise lang="en" />
         <Projects lang="en" />
         <Studio lang="en" />
-        <SplitTwo lang="en" />
+        <SplitTwo lang="en" compact />
         <Services lang="en" />
         <Contact lang="en" />
       </main>

@@ -19,7 +19,7 @@ Ouvrir http://localhost:3000
 ## À compléter avant mise en ligne
 
 - **`components/Contact.tsx`** : remplacer `https://formspree.io/f/REPLACE_ME` par votre vrai endpoint de formulaire (créez un compte gratuit sur formspree.io, ou utilisez EmailJS).
-- **Lien Calendly** : remplacer `https://calendly.com/suprastudio` (présent dans `Services.tsx` et `Contact.tsx`) par votre vrai lien Calendly.
+- **Lien Calendly** : centralisé dans `lib/i18n.ts` (`CALENDLY_URL`) et utilisé partout sur le site (header, hero implicite, Services, MethodTimeline, Contact).
 - **Projets** : les 5 visuels affichés dans `components/Projects.tsx` sont vos rendus/photos fournis jusqu'ici, à renommer/recatégoriser avec les vrais noms et types de projets une fois les 5 projets définitifs choisis.
 - **Multilingue (FR/EN/IT)** : le sélecteur de langue dans le header est pour l'instant un stub visuel (il ne change pas encore le contenu). La structure du contenu est prête à être dupliquée par langue quand vous le souhaitez.
 

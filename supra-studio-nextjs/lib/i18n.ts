@@ -2,6 +2,8 @@ export type Lang = "fr" | "en" | "it";
 
 export const LOCALES: Lang[] = ["fr", "en", "it"];
 
+export const CALENDLY_URL = "https://calendly.com/paul-cohen-suprastudio/30min";
+
 // Prefix used in the URL for each locale. French stays unprefixed (default).
 export const LOCALE_PREFIX: Record<Lang, string> = {
   fr: "",
@@ -17,6 +19,7 @@ export const dict = {
     learnMoreStudio: "En savoir plus sur le studio",
     seeAllProjects: "Voir tous les projets ↗",
     bookAppointment: "Prendre rendez-vous",
+    bookShort: "RDV",
     bookSlot: "Réserver un créneau via Calendly ↗",
     ctaLine: "De la conception à la livraison, un projet clé en main.",
     workInProgress: "Work in progress",
@@ -57,10 +60,15 @@ export const dict = {
       partnersTitle: "Artisans & entreprises locales",
       partnersText:
         "Nous nous entourons d'entreprises locales et d'artisans qualifiés, choisis avec la même exigence que celle apportée à chaque projet. Cette collaboration étroite, dès la phase de conception, nous permet d'assurer un suivi de chantier rigoureux et une réalisation fidèle à chaque détail imaginé.",
+      partnersTagline:
+        "Des entreprises locales et des artisans qualifiés, choisis avec la même exigence à chaque projet.",
       valuesLabel: "Notre engagement",
       valuesTitle: "Nos valeurs et engagements",
       valuesText:
         "Rénovation d'appartement, conception de maison neuve, aménagement intérieur sur-mesure ou architecture paysagère : à chaque projet, Supra Studio dépasse le simple plan pour révéler la lumière et la justesse propres à chaque lieu. Notre priorité : des projets sensibles, durables et pleinement personnalisés — pensés pour être vécus, du premier trait à la livraison.",
+      valuesTagline:
+        "Des projets sensibles, durables et pleinement personnalisés, pensés pour être vécus.",
+      learnMore: "En savoir plus →",
     },
     servicesPage: {
       label: "Nos services",
@@ -195,6 +203,7 @@ export const dict = {
     learnMoreStudio: "Learn more about the studio",
     seeAllProjects: "See all projects ↗",
     bookAppointment: "Book an appointment",
+    bookShort: "Book",
     bookSlot: "Book a slot via Calendly ↗",
     ctaLine: "From concept to completion, a turnkey project.",
     workInProgress: "Work in progress",
@@ -235,10 +244,15 @@ export const dict = {
       partnersTitle: "Craftspeople & local businesses",
       partnersText:
         "We work with local businesses and skilled craftspeople, chosen with the same rigour we bring to every project. This close collaboration, from the design phase onward, allows us to ensure rigorous site supervision and a build that stays true to every detail we imagined.",
+      partnersTagline:
+        "Local businesses and skilled craftspeople, chosen with the same rigour on every project.",
       valuesLabel: "Our commitment",
       valuesTitle: "Our values and commitments",
       valuesText:
         "Apartment renovation, new house design, bespoke interior fit-out or landscape architecture: on every project, Supra Studio goes beyond the plan to reveal the light and rightness specific to each place. Our priority: sensitive, sustainable and fully personalised projects — designed to be lived in, from the first sketch to handover.",
+      valuesTagline:
+        "Sensitive, sustainable and fully personalised projects, designed to be lived in.",
+      learnMore: "Learn more →",
     },
     servicesPage: {
       label: "Our services",
@@ -373,6 +387,7 @@ export const dict = {
     learnMoreStudio: "Scopri di più sullo studio",
     seeAllProjects: "Vedi tutti i progetti ↗",
     bookAppointment: "Prenota un appuntamento",
+    bookShort: "Prenota",
     bookSlot: "Prenota un appuntamento via Calendly ↗",
     ctaLine: "Dalla progettazione alla consegna, un progetto chiavi in mano.",
     workInProgress: "In corso",
@@ -413,10 +428,15 @@ export const dict = {
       partnersTitle: "Artigiani e imprese locali",
       partnersText:
         "Ci circondiamo di imprese locali e artigiani qualificati, scelti con la stessa esigenza dedicata a ogni progetto. Questa stretta collaborazione, fin dalla fase di progettazione, ci permette di garantire una direzione lavori rigorosa e una realizzazione fedele a ogni dettaglio immaginato.",
+      partnersTagline:
+        "Imprese locali e artigiani qualificati, scelti con la stessa esigenza per ogni progetto.",
       valuesLabel: "Il nostro impegno",
       valuesTitle: "I nostri valori e impegni",
       valuesText:
         "Ristrutturazione di appartamenti, progettazione di case nuove, allestimento d'interni su misura o architettura del paesaggio: in ogni progetto, Supra Studio va oltre la semplice pianta per rivelare la luce e la coerenza proprie di ogni luogo. La nostra priorità: progetti sensibili, durevoli e pienamente personalizzati — pensati per essere vissuti, dal primo tratto alla consegna.",
+      valuesTagline:
+        "Progetti sensibili, durevoli e pienamente personalizzati, pensati per essere vissuti.",
+      learnMore: "Scopri di più →",
     },
     servicesPage: {
       label: "I nostri servizi",

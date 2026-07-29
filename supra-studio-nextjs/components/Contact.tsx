@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { getDict, type Lang } from "@/lib/i18n";
+import { getDict, CALENDLY_URL, type Lang } from "@/lib/i18n";
 
 export default function Contact({ lang = "fr" }: { lang?: Lang }) {
   const t = getDict(lang);
@@ -94,7 +94,7 @@ export default function Contact({ lang = "fr" }: { lang?: Lang }) {
           <div className="info-block">
             <h4>{t.contactPage.appointmentLabel}</h4>
             <a
-              href="https://calendly.com/suprastudio"
+              href={CALENDLY_URL}
               target="_blank"
               rel="noopener noreferrer"
             >

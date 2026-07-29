@@ -1,4 +1,4 @@
-import { getDict, type Lang } from "@/lib/i18n";
+import { getDict, CALENDLY_URL, type Lang } from "@/lib/i18n";
 
 export default function Services({ hideCta = false, lang = "fr" }: { hideCta?: boolean; lang?: Lang }) {
   const t = getDict(lang);
@@ -30,7 +30,7 @@ export default function Services({ hideCta = false, lang = "fr" }: { hideCta?: b
           <div className="services-cta">
             <p>{t.ctaLine}</p>
             <a
-              href="https://calendly.com/suprastudio"
+              href={CALENDLY_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-light"
