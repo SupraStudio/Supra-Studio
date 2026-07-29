@@ -130,6 +130,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
             "Ce site utilise des cookies techniques strictement nécessaires à son fonctionnement (par exemple pour mémoriser votre choix de langue).",
             "Il utilise également Google Analytics afin de mesurer la fréquentation du site (nombre de visites, pages consultées, provenance). Les adresses IP sont anonymisées avant traitement. Ces données sont traitées par Google LLC, qui peut les transférer hors de l'Union européenne dans le cadre des clauses contractuelles types de la Commission européenne. Vous pouvez vous opposer à ce suivi via le module de désactivation proposé par Google : https://tools.google.com/dlpage/gaoptout.",
             "Aucun cookie publicitaire n'est déposé sur ce site.",
+            "Lors de votre première visite, un bandeau vous permet d'accepter ou de refuser le dépôt du cookie Google Analytics. Votre choix est mémorisé sur votre appareil ; vous pouvez le modifier à tout moment en effaçant les données de navigation de ce site dans votre navigateur.",
           ],
         },
         {
@@ -270,6 +271,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
             "This website uses technical cookies that are strictly necessary for it to function (for example, to remember your language preference).",
             "It also uses Google Analytics to measure website traffic (number of visits, pages viewed, referral source). IP addresses are anonymised before processing. This data is processed by Google LLC, which may transfer it outside the European Union under the European Commission's standard contractual clauses. You can opt out of this tracking using Google's opt-out tool: https://tools.google.com/dlpage/gaoptout.",
             "No advertising cookies are set on this website.",
+            "On your first visit, a banner lets you accept or decline the Google Analytics cookie. Your choice is stored on your device; you can change it at any time by clearing this website's browsing data in your browser.",
           ],
         },
         {
@@ -410,6 +412,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
             "Questo sito utilizza cookie tecnici strettamente necessari al suo funzionamento (ad esempio per memorizzare la lingua scelta).",
             "Utilizza inoltre Google Analytics per misurare l'affluenza al sito (numero di visite, pagine consultate, provenienza). Gli indirizzi IP vengono anonimizzati prima del trattamento. Questi dati sono trattati da Google LLC, che può trasferirli al di fuori dell'Unione Europea nell'ambito delle clausole contrattuali tipo della Commissione Europea. Potete opporvi a questo tracciamento tramite lo strumento di disattivazione proposto da Google: https://tools.google.com/dlpage/gaoptout.",
             "Nessun cookie pubblicitario è installato su questo sito.",
+            "Alla vostra prima visita, un banner vi permette di accettare o rifiutare il cookie di Google Analytics. La vostra scelta viene memorizzata sul vostro dispositivo; potete modificarla in qualsiasi momento cancellando i dati di navigazione di questo sito dal vostro browser.",
           ],
         },
         {

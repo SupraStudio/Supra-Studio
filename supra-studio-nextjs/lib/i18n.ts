@@ -28,6 +28,13 @@ export const dict = {
     identityCard: "Fiche d'identité",
     plansLabel: "Plans",
     footer: { rights: "Tous droits réservés", legal: "Mentions légales", privacy: "Confidentialité" },
+    cookieBanner: {
+      title: "Cookies",
+      text: "Nous utilisons Google Analytics pour mesurer la fréquentation de ce site. Vos données ne sont utilisées qu'à cette fin.",
+      link: "En savoir plus",
+      accept: "Accepter",
+      decline: "Refuser",
+    },
     home: {
       heroTitle: "Architecte d'intérieur Paris Paysagiste Paris",
       heroSub:
@@ -230,6 +237,13 @@ export const dict = {
     identityCard: "Project profile",
     plansLabel: "Plans",
     footer: { rights: "All rights reserved", legal: "Legal notice", privacy: "Privacy" },
+    cookieBanner: {
+      title: "Cookies",
+      text: "We use Google Analytics to measure traffic on this website. Your data is used only for that purpose.",
+      link: "Learn more",
+      accept: "Accept",
+      decline: "Decline",
+    },
     home: {
       heroTitle: "Interior Architect Paris Landscape Designer Paris",
       heroSub:
@@ -432,6 +446,13 @@ export const dict = {
     identityCard: "Scheda del progetto",
     plansLabel: "Piante",
     footer: { rights: "Tutti i diritti riservati", legal: "Note legali", privacy: "Privacy" },
+    cookieBanner: {
+      title: "Cookie",
+      text: "Utilizziamo Google Analytics per misurare l'affluenza a questo sito. I vostri dati sono utilizzati solo per questo scopo.",
+      link: "Scopri di più",
+      accept: "Accetta",
+      decline: "Rifiuta",
+    },
     home: {
       heroTitle: "Architetto d'interni Parigi Paesaggista Parigi",
       heroSub:
@@ -646,6 +667,13 @@ export function localizedHref(basePath: string, lang: Lang) {
   const prefix = LOCALE_PREFIX[lang];
   if (basePath === "/") return prefix || "/";
   return `${prefix}${basePath}`;
+}
+
+// Returns the current Lang based on a pathname's locale prefix (defaults to "fr").
+export function getLangFromPath(pathname: string): Lang {
+  if (pathname === "/en" || pathname.startsWith("/en/")) return "en";
+  if (pathname === "/it" || pathname.startsWith("/it/")) return "it";
+  return "fr";
 }
 
 // Strips a known locale prefix from a pathname, returning the French-style base path.
