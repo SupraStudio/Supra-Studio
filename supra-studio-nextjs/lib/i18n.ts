@@ -30,7 +30,7 @@ export const dict = {
     footer: { rights: "Tous droits réservés", legal: "Mentions légales", privacy: "Confidentialité" },
     cookieBanner: {
       title: "Cookies",
-      text: "Nous utilisons Google Analytics pour mesurer la fréquentation de ce site. Vos données ne sont utilisées qu'à cette fin.",
+      text: "Nous utilisons Google Analytics pour mesurer l'audience du site.",
       link: "En savoir plus",
       accept: "Accepter",
       decline: "Refuser",
@@ -239,7 +239,7 @@ export const dict = {
     footer: { rights: "All rights reserved", legal: "Legal notice", privacy: "Privacy" },
     cookieBanner: {
       title: "Cookies",
-      text: "We use Google Analytics to measure traffic on this website. Your data is used only for that purpose.",
+      text: "We use Google Analytics to measure our website's audience.",
       link: "Learn more",
       accept: "Accept",
       decline: "Decline",
@@ -448,7 +448,7 @@ export const dict = {
     footer: { rights: "Tutti i diritti riservati", legal: "Note legali", privacy: "Privacy" },
     cookieBanner: {
       title: "Cookie",
-      text: "Utilizziamo Google Analytics per misurare l'affluenza a questo sito. I vostri dati sono utilizzati solo per questo scopo.",
+      text: "Utilizziamo Google Analytics per misurare l'affluenza al sito.",
       link: "Scopri di più",
       accept: "Accetta",
       decline: "Rifiuta",
