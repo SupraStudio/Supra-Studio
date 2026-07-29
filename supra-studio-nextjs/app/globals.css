@@ -1217,7 +1217,7 @@ button { font-family: inherit; cursor: pointer; }
   transition: background-color .3s, color .3s;
 }
 .socials a:hover { background: var(--bleu); color: var(--ivoire); }
-.socials svg { width: 16px; height: 16px; }
+.socials svg { width: 17px; height: 17px; display: block; }
 
 .site-footer {
   border-top: 1px solid var(--bleu-line);
@@ -1271,9 +1271,9 @@ button { font-family: inherit; cursor: pointer; }
   }
   .main-nav .mobile-lang a { color: var(--bleu); opacity:.5; font-size: 13px; text-decoration: none; }
   .main-nav .mobile-lang a.active { opacity: 1; text-decoration: underline; }
-  .mobile-socials { display: flex; gap: 14px; margin-top: 6px; }
+  .mobile-socials { display: flex; gap: 12px; margin-top: 6px; }
   .mobile-socials a {
-    width: 36px; height: 36px;
+    width: 28px; height: 28px;
     border: 1px solid var(--bleu-line);
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
@@ -1281,7 +1281,7 @@ button { font-family: inherit; cursor: pointer; }
     transition: background-color .3s, color .3s;
   }
   .mobile-socials a:hover { background: var(--bleu); color: var(--ivoire); }
-  .mobile-socials svg { width: 15px; height: 15px; }
+  .mobile-socials svg { width: 13px; height: 13px; display: block; }
   .nav-toggle { display: flex; z-index: 95; }
   .nav-toggle.is-open span:nth-child(1) { transform: translateY(8.5px) rotate(45deg); }
   .nav-toggle.is-open span:nth-child(2) { opacity: 0; }
@@ -1294,7 +1294,8 @@ button { font-family: inherit; cursor: pointer; }
   .site-header.is-scrolled .btn-header-cta { display: inline-flex; }
 
   /* Extra clearance so the first section label is never hidden under the
-     fixed header on pages without a hero (Services, Contact). */
+     fixed header on pages without a hero (Projets, Services, Contact). */
+  .page-hero,
   .page-main-offset {
     padding-top: calc(var(--section-pad) + 76px);
   }

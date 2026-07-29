@@ -29,8 +29,9 @@ export default function SocialLinks({ className = "socials" }: { className?: str
         rel="noopener noreferrer"
         aria-label="Pinterest"
       >
-        <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 0a12 12 0 0 0-4.37 23.17c-.06-.98-.11-2.5.02-3.58.12-.94.8-6 .8-6s-.2-.4-.2-1c0-.94.55-1.65 1.23-1.65.58 0 .86.44.86.96 0 .58-.37 1.46-.56 2.27-.16.68.34 1.23 1 1.23 1.2 0 2.13-1.27 2.13-3.1 0-1.62-1.16-2.75-2.83-2.75-1.93 0-3.06 1.44-3.06 2.94 0 .58.22 1.2.5 1.54a.2.2 0 0 1 .05.19c-.05.22-.17.68-.2.78-.03.13-.1.16-.24.1-1.13-.53-1.83-2.17-1.83-3.5 0-2.85 2.07-5.47 5.97-5.47 3.13 0 5.57 2.23 5.57 5.2 0 3.1-1.96 5.6-4.67 5.6-.91 0-1.77-.47-2.06-1.03l-.56 2.14c-.2.78-.75 1.75-1.11 2.35A12 12 0 1 0 12 0z" />
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M8 5v14" />
+          <path d="M8 5h5a4 4 0 0 1 0 8H8" />
         </svg>
       </a>
     </div>
