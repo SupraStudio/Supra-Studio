@@ -6,9 +6,9 @@ import Projects from "@/components/Projects";
 import ProjectsMarquee from "@/components/ProjectsMarquee";
 import Contact from "@/components/Contact";
 import { PROJECTS } from "@/lib/projects";
-import { dict, getDict } from "@/lib/i18n";
+import { dict, getDict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.en.meta.projects };
+export const metadata: Metadata = { ...dict.en.meta.projects, alternates: hreflangAlternates("/projets") };
 
 export default function ProjetsPage() {
   const lang = "en" as const;

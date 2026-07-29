@@ -94,7 +94,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           heading: "2. Données collectées",
           paragraphs: [
             "Lorsque vous utilisez le formulaire de contact du site, nous collectons les données suivantes : nom, adresse email, numéro de téléphone (facultatif) et le contenu de votre message.",
-            "Nous ne collectons aucune autre donnée personnelle à votre insu. Le site n'utilise pas, à ce jour, de cookies de suivi publicitaire ou d'analyse d'audience tierce.",
+            "Nous ne collectons aucune autre donnée personnelle à votre insu. Le site utilise Google Analytics pour mesurer sa fréquentation (voir la section « Cookies » ci-dessous).",
           ],
         },
         {
@@ -127,7 +127,9 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
         {
           heading: "7. Cookies",
           paragraphs: [
-            "Ce site utilise uniquement des cookies techniques strictement nécessaires à son fonctionnement (par exemple pour mémoriser votre choix de langue). Aucun cookie de mesure d'audience ou publicitaire n'est déposé à ce jour. Si cela venait à évoluer, un bandeau de consentement vous serait proposé conformément à la réglementation en vigueur.",
+            "Ce site utilise des cookies techniques strictement nécessaires à son fonctionnement (par exemple pour mémoriser votre choix de langue).",
+            "Il utilise également Google Analytics afin de mesurer la fréquentation du site (nombre de visites, pages consultées, provenance). Les adresses IP sont anonymisées avant traitement. Ces données sont traitées par Google LLC, qui peut les transférer hors de l'Union européenne dans le cadre des clauses contractuelles types de la Commission européenne. Vous pouvez vous opposer à ce suivi via le module de désactivation proposé par Google : https://tools.google.com/dlpage/gaoptout.",
+            "Aucun cookie publicitaire n'est déposé sur ce site.",
           ],
         },
         {
@@ -232,7 +234,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           heading: "2. Data collected",
           paragraphs: [
             "When you use the website's contact form, we collect the following data: name, email address, phone number (optional) and the content of your message.",
-            "We do not collect any other personal data without your knowledge. The website does not currently use advertising tracking cookies or third-party analytics cookies.",
+            "We do not collect any other personal data without your knowledge. The website uses Google Analytics to measure audience traffic (see the “Cookies” section below).",
           ],
         },
         {
@@ -265,7 +267,9 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
         {
           heading: "7. Cookies",
           paragraphs: [
-            "This website only uses technical cookies that are strictly necessary for it to function (for example, to remember your language preference). No audience-measurement or advertising cookies are currently set. Should this change, a consent banner will be provided in accordance with applicable regulations.",
+            "This website uses technical cookies that are strictly necessary for it to function (for example, to remember your language preference).",
+            "It also uses Google Analytics to measure website traffic (number of visits, pages viewed, referral source). IP addresses are anonymised before processing. This data is processed by Google LLC, which may transfer it outside the European Union under the European Commission's standard contractual clauses. You can opt out of this tracking using Google's opt-out tool: https://tools.google.com/dlpage/gaoptout.",
+            "No advertising cookies are set on this website.",
           ],
         },
         {
@@ -370,7 +374,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           heading: "2. Dati raccolti",
           paragraphs: [
             "Quando utilizzate il modulo di contatto del sito, raccogliamo i seguenti dati: nome, indirizzo email, numero di telefono (facoltativo) e il contenuto del vostro messaggio.",
-            "Non raccogliamo alcun altro dato personale a vostra insaputa. Il sito non utilizza, ad oggi, cookie di tracciamento pubblicitario o di analisi di terze parti.",
+            "Non raccogliamo alcun altro dato personale a vostra insaputa. Il sito utilizza Google Analytics per misurare l'affluenza (vedere la sezione «Cookie» qui sotto).",
           ],
         },
         {
@@ -403,7 +407,9 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
         {
           heading: "7. Cookie",
           paragraphs: [
-            "Questo sito utilizza esclusivamente cookie tecnici strettamente necessari al suo funzionamento (ad esempio per memorizzare la lingua scelta). Nessun cookie di misurazione dell'audience o pubblicitario è attualmente installato. Qualora ciò dovesse cambiare, vi verrà proposto un banner di consenso conforme alla normativa vigente.",
+            "Questo sito utilizza cookie tecnici strettamente necessari al suo funzionamento (ad esempio per memorizzare la lingua scelta).",
+            "Utilizza inoltre Google Analytics per misurare l'affluenza al sito (numero di visite, pagine consultate, provenienza). Gli indirizzi IP vengono anonimizzati prima del trattamento. Questi dati sono trattati da Google LLC, che può trasferirli al di fuori dell'Unione Europea nell'ambito delle clausole contrattuali tipo della Commissione Europea. Potete opporvi a questo tracciamento tramite lo strumento di disattivazione proposto da Google: https://tools.google.com/dlpage/gaoptout.",
+            "Nessun cookie pubblicitario è installato su questo sito.",
           ],
         },
         {

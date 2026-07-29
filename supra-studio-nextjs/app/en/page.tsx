@@ -11,9 +11,9 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import type { Metadata } from "next";
-import { dict } from "@/lib/i18n";
+import { dict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.en.meta.home };
+export const metadata: Metadata = { ...dict.en.meta.home, alternates: hreflangAlternates("/") };
 
 export default function Home() {
   return (

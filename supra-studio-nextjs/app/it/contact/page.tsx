@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import Contact from "@/components/Contact";
-import { dict } from "@/lib/i18n";
+import { dict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.it.meta.contact };
+export const metadata: Metadata = { ...dict.it.meta.contact, alternates: hreflangAlternates("/contact") };
 
 export default function ContactPage() {
   return (

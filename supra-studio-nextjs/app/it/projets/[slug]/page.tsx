@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { PROJECTS } from "@/lib/projects";
-import { dict } from "@/lib/i18n";
+import { dict, hreflangAlternates } from "@/lib/i18n";
 import ProjectDetail, { getProjectBySlug } from "@/components/ProjectDetail";
 
 export function generateStaticParams() {
@@ -17,6 +17,7 @@ export function generateMetadata({
   return {
     title: `${project.name} — Supra Studio`,
     description: `${project.cat} — ${project.name}, ${project.location}. ${dict.it.meta.projectSuffix}`,
+    alternates: hreflangAlternates(`/projets/${project.slug}`),
   };
 }
 

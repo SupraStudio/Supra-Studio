@@ -620,6 +620,23 @@ export const dict = {
   },
 } as const;
 
+export const SITE_URL = "https://www.suprastudio.fr";
+
+// Builds correct canonical + hreflang alternates for a given French-style
+// base path (e.g. "/", "/studio", "/projets/casa-duy").
+export function hreflangAlternates(basePath: string) {
+  const path = basePath === "/" ? "" : basePath;
+  return {
+    canonical: `${SITE_URL}${path}`,
+    languages: {
+      fr: `${SITE_URL}${path}`,
+      en: `${SITE_URL}/en${path}`,
+      it: `${SITE_URL}/it${path}`,
+      "x-default": `${SITE_URL}${path}`,
+    },
+  };
+}
+
 export function getDict(lang: Lang) {
   return dict[lang];
 }

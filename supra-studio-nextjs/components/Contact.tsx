@@ -17,12 +17,15 @@ export default function Contact({ lang = "fr" }: { lang?: Lang }) {
     const data = new FormData(form);
 
     try {
-      // NOTE: replace with your real form endpoint (e.g. Formspree, EmailJS)
-      // before going live — see the message accompanying this project.
-      const res = await fetch("https://formspree.io/f/REPLACE_ME", {
+      const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { Accept: "application/json" },
-        body: data,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.get("name"),
+          email: data.get("email"),
+          phone: data.get("phone"),
+          message: data.get("message"),
+        }),
       });
       setStatus(res.ok ? "sent" : "error");
       if (res.ok) form.reset();
