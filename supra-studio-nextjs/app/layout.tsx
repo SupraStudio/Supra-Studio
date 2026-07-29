@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.suprastudio.fr"),
   title: "Supra Studio — Architecte d'intérieur & Paysagiste à Paris",
   description:
-    "Architecte d'intérieur et paysagiste à Paris. Rénovation, maison neuve, aménagement extérieur haut de gamme. Duo franco-italien, entre Paris, Bordeaux et Rome.",
+    "Architecte d'intérieur et paysagiste à Paris : rénovation, maisons neuves et jardins sur-mesure. Duo franco-italien, entre Paris, Bordeaux et Rome.",
   keywords: [
     "architecte d'intérieur Paris",
     "paysagiste Paris",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Supra Studio — Architecte d'intérieur & Paysagiste à Paris",
     description:
-      "Atelier d'architecture d'intérieur et de paysage basé à Paris, entre Paris, Bordeaux et Rome.",
+      "Architecte d'intérieur et paysagiste à Paris : rénovation, maisons neuves et jardins sur-mesure, entre Paris, Bordeaux et Rome.",
     url: "https://www.suprastudio.fr",
     siteName: "Supra Studio",
     locale: "fr_FR",

@@ -188,7 +188,7 @@ export const dict = {
       home: {
         title: "Supra Studio — Architecte d'intérieur & Paysagiste à Paris",
         description:
-          "Architecte d'intérieur et paysagiste à Paris. Rénovation, maison neuve, aménagement extérieur haut de gamme. Duo franco-italien, entre Paris, Bordeaux et Rome.",
+          "Architecte d'intérieur et paysagiste à Paris : rénovation, maisons neuves et jardins sur-mesure. Duo franco-italien, entre Paris, Bordeaux et Rome.",
       },
       studio: {
         title: "Le Studio — Supra Studio | Architecte d'intérieur & Paysagiste Paris",
@@ -397,7 +397,7 @@ export const dict = {
       home: {
         title: "Supra Studio — Interior Architect & Landscape Designer in Paris",
         description:
-          "Interior architect and landscape designer in Paris. Renovation, new-build houses, high-end outdoor design. French-Italian duo, between Paris, Bordeaux and Rome.",
+          "Interior architect and landscape designer in Paris: renovations, new-build homes and bespoke gardens. French-Italian duo, between Paris, Bordeaux and Rome.",
       },
       studio: {
         title: "The Studio — Supra Studio | Interior Architect & Landscape Designer Paris",
@@ -606,7 +606,7 @@ export const dict = {
       home: {
         title: "Supra Studio — Architetto d'interni e Paesaggista a Parigi",
         description:
-          "Architetto d'interni e paesaggista a Parigi. Ristrutturazione, case nuove, allestimento esterno di alta gamma. Duo franco-italiano, tra Parigi, Bordeaux e Roma.",
+          "Architetto d'interni e paesaggista a Parigi: ristrutturazioni, case nuove e giardini su misura. Duo franco-italiano, tra Parigi, Bordeaux e Roma.",
       },
       studio: {
         title: "Lo Studio — Supra Studio | Architetto d'interni e Paesaggista Parigi",
