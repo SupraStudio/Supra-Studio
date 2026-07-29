@@ -1404,6 +1404,7 @@ button { font-family: inherit; cursor: pointer; }
   opacity: 1;
   transition: color .3s var(--ease);
 }
+.cookie-banner-break { display: none; }
 .cookie-banner-actions {
   display: flex;
   gap: 10px;
@@ -1460,4 +1461,6 @@ button { font-family: inherit; cursor: pointer; }
   }
   .cookie-banner-actions { justify-content: center; gap: 8px; }
   .cookie-btn { padding: 7px 16px; font-size: 10px; }
+  .cookie-banner-break { display: block; }
+  .cookie-banner-link { white-space: nowrap; }
 }

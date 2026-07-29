@@ -88,8 +88,12 @@ export default function CookieConsent({ gaId }: { gaId?: string }) {
           aria-label={t.cookieBanner.title}
         >
           <p className="cookie-banner-text">
-            {t.cookieBanner.text}{" "}
-            <a href={localizedHref("/politique-confidentialite", lang)}>
+            {t.cookieBanner.text}
+            <br className="cookie-banner-break" />{" "}
+            <a
+              className="cookie-banner-link"
+              href={localizedHref("/politique-confidentialite", lang)}
+            >
               {t.cookieBanner.link}
             </a>
           </p>
