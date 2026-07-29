@@ -204,6 +204,14 @@ export const dict = {
           "Contactez Supra Studio pour votre projet d'architecture d'intérieur ou de paysage à Paris. 14 rue des Fonds Verts, 75012 Paris — contact@suprastudio.fr.",
       },
       projectSuffix: "Un projet Supra Studio, atelier d'architecture d'intérieur et de paysage.",
+      legalNotice: {
+        title: "Mentions légales — Supra Studio",
+        description: "Mentions légales du site Supra Studio : éditeur, hébergement, propriété intellectuelle et droit applicable.",
+      },
+      privacy: {
+        title: "Politique de confidentialité — Supra Studio",
+        description: "Politique de confidentialité du site Supra Studio : données collectées, finalités, durée de conservation et vos droits RGPD.",
+      },
     },
   },
   en: {
@@ -398,6 +406,14 @@ export const dict = {
           "Contact Supra Studio for your interior architecture or landscape design project in Paris. 14 rue des Fonds Verts, 75012 Paris — contact@suprastudio.fr.",
       },
       projectSuffix: "A Supra Studio project, interior architecture and landscape design practice.",
+      legalNotice: {
+        title: "Legal Notice — Supra Studio",
+        description: "Legal notice for the Supra Studio website: publisher, hosting, intellectual property and governing law.",
+      },
+      privacy: {
+        title: "Privacy Policy — Supra Studio",
+        description: "Privacy policy for the Supra Studio website: data collected, purposes, retention period and your GDPR rights.",
+      },
     },
   },
   it: {
@@ -592,6 +608,14 @@ export const dict = {
           "Contattate Supra Studio per il vostro progetto di architettura d'interni o paesaggio a Parigi. 14 rue des Fonds Verts, 75012 Parigi — contact@suprastudio.fr.",
       },
       projectSuffix: "Un progetto Supra Studio, studio di architettura d'interni e paesaggio.",
+      legalNotice: {
+        title: "Note legali — Supra Studio",
+        description: "Note legali del sito Supra Studio: editore, hosting, proprietà intellettuale e legge applicabile.",
+      },
+      privacy: {
+        title: "Informativa sulla privacy — Supra Studio",
+        description: "Informativa sulla privacy del sito Supra Studio: dati raccolti, finalità, periodo di conservazione e i vostri diritti GDPR.",
+      },
     },
   },
 } as const;
