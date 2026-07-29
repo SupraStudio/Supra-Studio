@@ -171,6 +171,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .main-nav a:hover::after { width: 100%; }
 .main-nav .mobile-lang { display: none; }
+.mobile-socials { display: none; }
 
 .header-right { display: flex; align-items: center; gap: 20px; }
 
@@ -266,11 +267,12 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  opacity: .92;
+  opacity: .95;
   margin: 0 0 22px;
   display: flex;
   align-items: center;
   gap: 12px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5), 0 4px 18px rgba(0,0,0,.4);
 }
 .hero-eyebrow::before {
   content: '';
@@ -795,7 +797,7 @@ button { font-family: inherit; cursor: pointer; }
 
 
 .page-hero {
-  padding: calc(var(--section-pad) + 40px) 0 clamp(32px, 4vw, 48px);
+  padding: calc(var(--section-pad) + 40px + clamp(20px, 3vw, 32px)) 0 clamp(32px, 4vw, 48px);
 }
 .page-main-offset { padding-top: calc(var(--section-pad) + 40px); }
 .page-hero .section-title {
@@ -1269,6 +1271,17 @@ button { font-family: inherit; cursor: pointer; }
   }
   .main-nav .mobile-lang a { color: var(--bleu); opacity:.5; font-size: 13px; text-decoration: none; }
   .main-nav .mobile-lang a.active { opacity: 1; text-decoration: underline; }
+  .mobile-socials { display: flex; gap: 14px; margin-top: 6px; }
+  .mobile-socials a {
+    width: 36px; height: 36px;
+    border: 1px solid var(--bleu-line);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--bleu);
+    transition: background-color .3s, color .3s;
+  }
+  .mobile-socials a:hover { background: var(--bleu); color: var(--ivoire); }
+  .mobile-socials svg { width: 15px; height: 15px; }
   .nav-toggle { display: flex; z-index: 95; }
   .nav-toggle.is-open span:nth-child(1) { transform: translateY(8.5px) rotate(45deg); }
   .nav-toggle.is-open span:nth-child(2) { opacity: 0; }
@@ -1281,8 +1294,7 @@ button { font-family: inherit; cursor: pointer; }
   .site-header.is-scrolled .btn-header-cta { display: inline-flex; }
 
   /* Extra clearance so the first section label is never hidden under the
-     fixed header on pages without a hero (Projets, Services, Contact). */
-  .page-hero,
+     fixed header on pages without a hero (Services, Contact). */
   .page-main-offset {
     padding-top: calc(var(--section-pad) + 76px);
   }
@@ -1290,7 +1302,7 @@ button { font-family: inherit; cursor: pointer; }
 
 @media (max-width: 780px) {
   .method .services-cta p {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.25;
   }
 }

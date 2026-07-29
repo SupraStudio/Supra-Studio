@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { getDict, LOCALES, CALENDLY_URL, type Lang, localizedHref, stripLocaleFromPath } from "@/lib/i18n";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Header({
   hasHero = true,
@@ -69,6 +70,7 @@ export default function Header({
         <div className="mobile-lang">
           <LangLinks />
         </div>
+        <SocialLinks className="mobile-socials" />
       </nav>
 
       <div className="header-right">
