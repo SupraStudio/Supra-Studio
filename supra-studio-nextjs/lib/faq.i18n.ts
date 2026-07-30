@@ -68,6 +68,66 @@ export const FAQ_I18N: Record<string, Partial<Record<"en" | "it", FaqTranslation
         "Il nostro studio ha sede tra Parigi, Bordeaux e Roma, e interviene su progetti residenziali e commerciali in questi tre territori così come altrove, in Francia e a livello internazionale, a seconda del progetto. Non esitate a contattarci per discutere della fattibilità di un accompagnamento a distanza dal vostro luogo.",
     },
   },
+  "difference-architecte-architecte-interieur": {
+    en: {
+      question: "What's the difference between an architect and an interior architect?",
+      answer:
+        "An architect mainly works on a building's exterior envelope and is the only professional legally authorised to file a building permit application beyond certain size thresholds. An interior architect, like our studio, focuses on layout, interior volumes, materials and how spaces are used — with a solid understanding of technical constraints (structure, utilities, regulations). For projects requiring a building permit, we work hand in hand with partner architects, so you have a single point of contact for the whole project.",
+    },
+    it: {
+      question: "Qual è la differenza tra un architetto e un architetto d'interni?",
+      answer:
+        "L'architetto interviene principalmente sull'involucro esterno dell'edificio ed è l'unico abilitato a depositare una richiesta di permesso di costruire oltre determinate soglie di superficie. L'architetto d'interni, come il nostro studio, si concentra sull'organizzazione degli spazi, sui volumi interni, sui materiali e sugli usi — con una solida conoscenza dei vincoli tecnici (struttura, impianti, normative). Per i progetti che richiedono un permesso di costruire, collaboriamo con architetti partner, in modo che abbiate un unico interlocutore per l'intero progetto.",
+    },
+  },
+  "duree-projet": {
+    en: {
+      question: "How long does a renovation or design project take?",
+      answer:
+        "It depends on the scale of the project. For an apartment renovation, expect roughly 2 to 4 months of design, followed by 3 to 6 months on site depending on the surface area and the scope of works. For a landscaping project or a new build, timelines vary and are set out from the feasibility study onward. We always draw up a projected schedule with you before the site work begins, so you know what to expect at every stage.",
+    },
+    it: {
+      question: "Quanto dura un progetto di ristrutturazione o di arredamento?",
+      answer:
+        "Dipende dall'ampiezza del progetto. Per la ristrutturazione di un appartamento, prevedete generalmente dai 2 ai 4 mesi di progettazione, poi dai 3 ai 6 mesi di cantiere a seconda della superficie e della natura dei lavori. Per un progetto paesaggistico o una nuova costruzione, i tempi variano e vengono definiti fin dallo studio di fattibilità. Stabiliamo sempre un calendario previsionale con voi prima dell'inizio del cantiere, in modo che sappiate cosa aspettarvi ad ogni fase.",
+    },
+  },
+  "garanties-assurances": {
+    en: {
+      question: "Is the studio covered by professional guarantees and insurance?",
+      answer:
+        "Yes. As site supervisor, our studio carries professional civil liability insurance, covering the quality of our design and site-supervision work. The firms and craftspeople we bring onto your project are, for their part, covered by the ten-year structural warranty required by French law for construction and structural work — we systematically check these certificates are valid before any site work begins. You can move forward with complete peace of mind at every stage of your project.",
+    },
+    it: {
+      question: "Lo studio è coperto da garanzie e assicurazioni professionali?",
+      answer:
+        "Sì. In qualità di direttore dei lavori, il nostro studio è coperto da un'assicurazione di responsabilità civile professionale, che garantisce la qualità delle nostre prestazioni di progettazione e direzione lavori. Le imprese e gli artigiani che mobilitiamo per i vostri cantieri sono, dal canto loro, coperti dalla garanzia decennale obbligatoria per i lavori di costruzione e le opere strutturali — verifichiamo sistematicamente la validità di questi attestati prima dell'avvio di qualsiasi cantiere. Potete quindi procedere con la massima serenità, in ogni fase del vostro progetto.",
+    },
+  },
+  "petits-projets": {
+    en: {
+      question: "Does the studio only take on large, high-end projects?",
+      answer:
+        "Not necessarily. While our portfolio highlights exceptional projects, we consider every enquiry with the same care, whatever the scale of the project in mind. The initial consultation visit lets us assess together whether our support is the right fit for your needs.",
+    },
+    it: {
+      question: "Lo studio si occupa solo di grandi progetti di alta gamma?",
+      answer:
+        "Non necessariamente. Se le nostre realizzazioni mettono in luce progetti d'eccezione, consideriamo ogni richiesta con la stessa attenzione, qualunque sia l'ampiezza del progetto immaginato. La visita conoscitiva iniziale ci permette di valutare insieme se il nostro accompagnamento corrisponde alle vostre esigenze.",
+    },
+  },
+  "autorisations-urbanisme": {
+    en: {
+      question: "Does the studio handle permit and authorisation processes (co-ownership, planning)?",
+      answer:
+        "Yes. Before any site work begins, we check the necessary authorisations — co-ownership approval, a prior works declaration or a building permit depending on the project's scale — and support you in putting the files together. Often seen as tedious, this step is an integral part of our site-supervision role: you don't have to manage it alone.",
+    },
+    it: {
+      question: "Lo studio si occupa delle pratiche autorizzative (condominio, urbanistica)?",
+      answer:
+        "Sì. Prima dell'avvio di qualsiasi cantiere, verifichiamo le autorizzazioni necessarie — accordo condominiale, comunicazione di inizio lavori o permesso di costruire a seconda dell'ampiezza del progetto — e vi accompagniamo nella costituzione dei dossier. Questa fase, spesso percepita come noiosa, fa parte integrante della nostra missione di direzione lavori: non dovete gestirla da soli.",
+    },
+  },
 };
 
 export function localizeFaqItem(item: FaqItem, lang: Lang): FaqItem {

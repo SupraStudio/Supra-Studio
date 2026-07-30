@@ -13,7 +13,7 @@ const FRENCH_SPEAKING_COUNTRIES = new Set([
 ]);
 
 const BOT_PATTERN =
-  /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|whatsapp|telegrambot|discordbot|semrush|ahrefs|mj12bot|pingdom|uptimerobot/i;
+  /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|whatsapp|telegrambot|discordbot|semrush|ahrefs|mj12bot|pingdom|uptimerobot|google|apis-google/i;
 
 function isStaticOrExcludedPath(pathname: string) {
   return (
