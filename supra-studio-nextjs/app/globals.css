@@ -1566,9 +1566,35 @@ button { font-family: inherit; cursor: pointer; }
 }
 .journal-article-text p:last-child { margin-bottom: 0; }
 
+.journal-article-sections .journal-article-section {
+  margin-bottom: clamp(32px, 4vw, 48px);
+}
+.journal-article-sections .journal-article-section:last-child { margin-bottom: 0; }
+.journal-article-sections .journal-article-section h2 {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: clamp(20px, 2.2vw, 26px);
+  color: var(--charbon);
+  margin: 0 0 16px;
+  line-height: 1.2;
+}
+.journal-inline-link {
+  color: var(--bleu);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.journal-inline-link:hover { opacity: .75; }
+
 /* ============================================
    REVIEWS — AVIS CLIENTS (carrousel éditorial, tout en bleu, sans vignette)
    ============================================ */
+.reviews {
+  /* Resserre le gap hérité de la section précédente (SplitTwo, Services, MethodTimeline
+     ont chacun leur propre padding bas) sans risquer de chevauchement. */
+  margin-top: clamp(-24px, -1.8vw, -8px);
+  /* Respiration avant la ligne .contact { border-top }, pour ne pas la chevaucher. */
+  padding-bottom: var(--section-pad);
+}
 .reviews-badge {
   display: flex;
   align-items: center;

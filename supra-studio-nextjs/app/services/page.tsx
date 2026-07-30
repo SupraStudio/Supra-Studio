@@ -19,7 +19,7 @@ export default function ServicesPage() {
       <main className="page-main-offset">
         <Services hideCta asH1 lang="fr" />
         <MethodTimeline lang="fr" />
-        <Reviews lang="fr" ids={["demo-5", "demo-2"]} variant="compact" title={t.reviews.servicesTitle} />
+        <Reviews lang="fr" ids={["henri", "brian-duy-nguyen"]} variant="compact" title={t.reviews.servicesTitle} />
         <Contact lang="fr" />
       </main>
       <Footer lang="fr" />

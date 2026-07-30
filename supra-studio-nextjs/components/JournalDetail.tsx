@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -15,6 +16,31 @@ function formatDate(iso: string, lang: Lang) {
     day: "numeric",
     month: "long",
     year: "numeric",
+  });
+}
+
+// Petit parseur pour **gras** et [texte](url) à l'intérieur d'un paragraphe de contenu.
+function renderRichText(text: string): ReactNode[] {
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g);
+  return parts.filter(Boolean).map((part, i) => {
+    const bold = part.match(/^\*\*([^*]+)\*\*$/);
+    if (bold) return <strong key={i}>{bold[1]}</strong>;
+    const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (link) {
+      const [, label, href] = link;
+      const external = href.startsWith("http");
+      return (
+        <a
+          key={i}
+          href={href}
+          className="journal-inline-link"
+          {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+        >
+          {label}
+        </a>
+      );
+    }
+    return part;
   });
 }
 
@@ -35,7 +61,11 @@ export default function JournalDetail({ slug, lang }: { slug: string; lang: Lang
       <main>
         <section className="hero journal-hero">
           <div className="hero-media">
-            <img src={article.cover} alt={article.title} fetchPriority="high" />
+            <img
+              src={article.heroImage || article.cover}
+              alt={article.title}
+              fetchPriority="high"
+            />
           </div>
           <div className="hero-content">
             <p className="hero-eyebrow">{article.category}</p>
@@ -53,11 +83,26 @@ export default function JournalDetail({ slug, lang }: { slug: string; lang: Lang
               {t.journalPage.backToJournal}
             </a>
 
-            <div className="journal-article-text reveal">
-              {article.content.map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
-            </div>
+            {article.sections ? (
+              <div className="journal-article-text journal-article-sections reveal">
+                {article.sections.map((section, i) => (
+                  <div className="journal-article-section" key={i}>
+                    <h2>{section.heading}</h2>
+                    {section.paragraphs.map((para, j) => (
+                      <p key={j}>{renderRichText(para)}</p>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            ) : (
+              article.content && (
+                <div className="journal-article-text reveal">
+                  {article.content.map((para, i) => (
+                    <p key={i}>{renderRichText(para)}</p>
+                  ))}
+                </div>
+              )
+            )}
 
             {article.keywords && (
               <div className="project-keywords reveal">

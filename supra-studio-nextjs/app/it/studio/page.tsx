@@ -23,7 +23,7 @@ export default function StudioPage() {
         <Vision lang="it" />
         <Studio full lang="it" />
         <SplitTwo lang="it" />
-        <Reviews lang="it" ids={["demo-3", "demo-4"]} variant="compact" title={t.reviews.studioTitle} />
+        <Reviews lang="it" ids={["louis-guiter", "gui-hun"]} variant="compact" title={t.reviews.studioTitle} />
         <Contact lang="it" />
       </main>
       <Footer lang="it" />

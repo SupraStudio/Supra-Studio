@@ -30,7 +30,7 @@ export default function Home() {
         <Studio lang="fr" />
         <SplitTwo lang="fr" compact />
         <Services lang="fr" />
-        <Reviews lang="fr" ids={["demo-1", "demo-2", "demo-3"]} variant="grid" />
+        <Reviews lang="fr" ids={["margot-cohen", "antonella-de-ninno", "brian-duy-nguyen"]} variant="grid" />
         <Contact lang="fr" />
       </main>
       <Footer lang="fr" />
