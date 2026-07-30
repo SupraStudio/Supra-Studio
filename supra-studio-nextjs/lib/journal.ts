@@ -252,6 +252,344 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     keywords: ["Rooftop Paris", "Terrasse végétalisée", "Design paysager urbain"],
     relatedProjects: ["giardino-de-ninno"],
   },
+  {
+    slug: "renovation-appartement-ancien-patrimoine-contemporain",
+    title: "Rénovation d'un appartement ancien : Réussir l'alliance du patrimoine et du contemporain",
+    metaTitle: "Rénovation d'Appartement Ancien : Allier Patrimoine et Modernité",
+    excerpt:
+      "Comment rénover un appartement haussmannien ou ancien à Paris ? Conservation des moulures, agencement contemporain et matériaux nobles.",
+    date: "2026-08-04",
+    category: "Rénovation & Architecture d'Intérieur",
+    cover: "/assets/images/renovation-appartement-ancien-salon-cheminee-marbre-paris.jpg",
+    readingTime: "5 min",
+    intro:
+      "Parquets Point de Hongrie, moulures sculptées, cheminées en marbre et belles hauteurs sous plafond : le charme de l'ancien demeure une valeur sûre. Comment sublimer cet héritage architectural tout en l'adaptant aux modes de vie contemporains ?",
+    sections: [
+      {
+        heading: "Sublimer l'histoire sans la figer",
+        paragraphs: [
+          "Rénover un appartement haussmannien ou ancien nécessite un équilibre délicat. Il ne s'agit ni de transformer le lieu en musée nostalgique, ni de gommer son histoire par un minimalisme froid. L'enjeu est de faire dialoguer le vocabulaire classique avec des lignes architecturales sur-mesure, épurées et fonctionnelles.",
+        ],
+      },
+      {
+        heading: "1. Restaurer et mettre en valeur les éléments d'origine",
+        paragraphs: [
+          "Avant d'insérer des éléments contemporains, la première étape d'un projet de rénovation réussi réside dans la sauvegarde de l'existant :",
+          "**Les parquets anciens :** conservation, ponçage à blanc et protection par des huiles mat ou des vernis invisibles pour restaurer la patine d'origine.",
+          "**Les moulures et stucs :** réparation artisanale des ornements en plâtre endommagés par le temps ou les anciennes cloisons.",
+          "**Les cheminées et miroirs dorés :** restauration du marbre et intégration comme pièces maîtresses dans la nouvelle scénographie.",
+        ],
+        image: {
+          src: "/assets/images/renovation-appartement-haussmannien-chantier-moulures-paris.jpg",
+          caption: "Chantier de restauration d'un appartement ancien, moulures et parquet Point de Hongrie",
+        },
+      },
+      {
+        heading: "2. Redéfinir les volumes pour la vie d'aujourd'hui",
+        paragraphs: [
+          "Les appartements du XIXe siècle étaient conçus selon une distribution très cloisonnée (enfilade de salons, pièces de service isolées). La rénovation contemporaine vise à réintroduire de la fluidité et de la clarté.",
+          "L'ouverture de grands espaces de vie (séjour/cuisine) se fait grâce à la dépose de cloisons non porteuses ou à la création d'ouvertures sous IPN. Pour conserver la mémoire des pièces d'origine, on conserve au plafond les retombées de moulures qui marquent subtilement les anciennes limites.",
+        ],
+      },
+      {
+        heading: "3. La menuiserie sur-mesure comme trait d'union",
+        paragraphs: [
+          "L'insertion d'agencements sur-mesure au design très épuré (bibliothèques intégrées, dressing toute hauteur, îlots de cuisine minéraux) offre un contraste saisissant et élégant avec l'enveloppe classique.",
+          "En dessinant des meubles qui s'alignent parfaitement avec les soubassements ou qui s'arrêtent à quelques centimètres des moulures sans jamais les étouffer, on crée un dialogue harmonieux entre le savoir-faire ébéniste d'aujourd'hui et l'artisanat d'autrefois.",
+        ],
+        image: {
+          src: "/assets/images/renovation-appartement-ancien-cuisine-ilot-marbre-paris.jpg",
+          caption: "Îlot de cuisine minéral intégré dans une rénovation d'appartement ancien",
+        },
+      },
+      {
+        heading: "4. Moderniser le confort technique en toute discrétion",
+        paragraphs: [
+          "L'un des plus grands défis de l'architecture d'intérieur dans l'ancien concerne l'intégration des équipements modernes sans altérer l'esthétique :",
+          "**Passage encastré des réseaux électriques et de plomberie.**",
+          "**Intégration de climatisations invisibles ou de réseaux de ventilation gainés dans des faux-plafonds partiels.**",
+          "**Scénographie lumineuse combinant éclairage d'ambiance indirect (gorges lumineuses) et spots orientables discrets pour mettre en valeur les hauteurs.**",
+        ],
+      },
+      {
+        heading: "Votre projet de rénovation avec notre Studio",
+        paragraphs: [
+          "Notre studio d'architecture d'intérieur accompagne les propriétaires exigeants dans la restructuration globale et la valorisation d'appartements d'exception.",
+          "**Vous souhaitez rénover un appartement ancien ou haussmannien ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une première visite conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+    ],
+    keywords: ["Rénovation appartement ancien", "Appartement haussmannien", "Patrimoine architectural"],
+    relatedProjects: ["brasserie", "casa-duy"],
+  },
+  {
+    slug: "cuisine-ouverte-haut-de-gamme-agencement-sur-mesure",
+    title: "Cuisine ouverte sur-mesure : L'art de l'intégrer dans une pièce de vie haut de gamme",
+    metaTitle: "Cuisine Ouverte Haut de Gamme : Agencement & Luxe Sur-Mesure",
+    excerpt:
+      "Comment intégrer une cuisine ouverte sur-mesure dans une pièce de vie haut de gamme ? Matériaux nobles, îlot central minéral et électroménager invisible.",
+    date: "2026-08-11",
+    category: "Architecture d'Intérieur & Agencement",
+    cover: "/assets/images/cuisine-ouverte-sur-mesure-salon-vue-paris.jpg",
+    readingTime: "5 min",
+    intro:
+      "Longtemps reléguée aux fonctions purement techniques, la cuisine s'impose désormais comme le cœur battant de l'habitat contemporain. Lorsqu'elle s'ouvre sur le séjour, l'enjeu architectural consiste à effacer son caractère utilitaire pour en faire un objet de design d'exception, parfaitement intégré au vocabulaire de la pièce de vie.",
+    sections: [
+      {
+        heading: "Redéfinir la cuisine : Du fonctionnel à la pièce maîtresse",
+        paragraphs: [
+          "Dans une rénovation résidentielle haut de gamme, ouvrir la cuisine ne signifie pas simplement abattre un mur. C'est repenser l'équilibre visuel, la gestion des odeurs et du bruit, ainsi que la circulation globale. La cuisine doit savoir se faire discrète lors des réceptions tout en offrant un confort d'usage absolu au quotidien.",
+        ],
+      },
+      {
+        heading: "1. L'îlot central monolithique : Sculpture minérale et point de rassemblement",
+        paragraphs: [
+          "L'îlot central est la pièce maîtresse de la cuisine ouverte. Pour préserver l'élégance du séjour, le parti pris architectural s'oriente vers des formes affirmées et des matières d'exception.",
+          "**Les blocs de pierre naturelle :** marbre de Calacatta, quartzite ou travertin adouci façonnés en monobloc. La continuité du veinage sur les retombées en cascade apporte une dimension sculpturale.",
+          "**Le dialogue avec le mobilier d'art :** l'îlot ne doit plus ressembler à un meuble technique, mais répondre aux lignes de la table à manger ou du buffet du salon.",
+          "**Les fonctions dissimulées :** plaques d'induction à aspiration intégrée à la table de cuisson pour supprimer la hotte suspendue traditionnelle et libérer totalement les perspectives visuelles.",
+        ],
+        image: {
+          src: "/assets/images/cuisine-ouverte-piece-de-vie-salon-rome.jpg",
+          caption: "L'îlot de cuisine en dialogue avec le mobilier de la pièce de vie",
+        },
+      },
+      {
+        heading: "2. Le concept de « Cuisine Invisible » : Agencements toute hauteur",
+        paragraphs: [
+          "Pour fondre la cuisine dans le décor de l'appartement ou de la maison, la menuiserie sur-mesure joue un rôle prépondérant.",
+          "Le principe des **façades à portes escamotables (système à galandage)** permet de dissimuler l'électroménager, la zone de lavage et le petit électroménager derrière de grands panneaux toute hauteur en bois noble (chêne fumé, noyer d'Amérique, laque satinée). Une fois les portes fermées, la cuisine s'efface complètement au profit d'un mur d'agencement épuré.",
+        ],
+      },
+      {
+        heading: "3. Matériaux nobles et transition de sol",
+        paragraphs: [
+          "Pour réussir la jonction entre le séjour et la cuisine :",
+          "**L'harmonie des sols :** soit en prolongeant le parquet en point de Hongrie dans la zone cuisine grâce à des traitements de surface haute résistance, soit en créant un calepinage sur-mesure en incrustant une pierre naturelle ou un terrazzo dans le bois.",
+          "**La crédence comme œuvre d'art :** utilisation de laiton brossé, de miroir vieilli à la feuille ou de céramique artisanale pour refléter la lumière du séjour.",
+        ],
+        image: {
+          src: "/assets/images/cuisine-ouverte-bois-sur-mesure-famille.jpg",
+          caption: "Matériaux nobles et bois sur-mesure dans une cuisine ouverte familiale",
+        },
+      },
+      {
+        heading: "4. Éclairage : Passer du mode préparation au mode réception",
+        paragraphs: [
+          "L'éclairage d'une cuisine ouverte doit être modulable :",
+          "**Un éclairage fonctionnel ciblé :** rubans LED invisibles intégrés sous les meubles hauts pour éclairer le plan de travail de manière homogène.",
+          "**Un éclairage d'ambiance théâtral :** suspensions design au-dessus de l'îlot et spots encastrés basse luminance pour créer une atmosphère chaleureuse et intimiste dès que le repas est servi.",
+        ],
+      },
+      {
+        heading: "Votre projet d'agencement sur-mesure avec le Studio",
+        paragraphs: [
+          "Chaque cuisine dessinée par notre studio est une création unique, conçue sur-mesure en collaboration avec nos artisans ébénistes et marbriers.",
+          "**Vous imaginez une cuisine ouverte sur-mesure pour votre pièce de vie ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour en discuter, ou [contactez-nous](/contact) pour nous présenter votre projet.",
+        ],
+      },
+    ],
+    keywords: ["Cuisine ouverte sur-mesure", "Agencement haut de gamme", "Îlot central marbre"],
+    relatedProjects: ["maison-kleber", "casa-duy"],
+  },
+  {
+    slug: "suite-parentale-haut-de-gamme-dressing-salle-de-bains",
+    title: "Concevoir une suite parentale d'exception : L'alliance du confort et du sur-mesure",
+    metaTitle: "Concevoir une Suite Parentale d'Exception : Luxe, Dressing & Bains",
+    excerpt:
+      "Comment aménager une suite parentale haut de gamme ? Organisation de l'espace, dressing sur-mesure et salle de bains d'hôtel particulier.",
+    date: "2026-08-18",
+    category: "Architecture d'Intérieur & Espaces Privés",
+    cover: "/assets/images/suite-parentale-chambre-parisienne-salle-de-bain-marbre.jpg",
+    readingTime: "5 min",
+    intro:
+      "Véritable sanctuaire privé au cœur de l'habitat, la suite parentale a profondément évolué. Loin de la simple chambre avec salle d'eau attenante, elle est aujourd'hui pensée comme une suite d'hôtel particulier : un espace fluide et intime regroupant nuit, dressing sur-mesure et salle de bains bien-être.",
+    sections: [
+      {
+        heading: "Repenser la suite parentale comme un espace fluide",
+        paragraphs: [
+          "L'agencement d'une suite parentale réussie repose sur la circulation. Les frontières s'allègent : les portes battantes traditionnelles s'effacent au profit de claustras en bois, de verrières en métal patiné ou de cloisons japonaises coulissantes, permettant à la lumière de traverser toute la profondeur du volume.",
+        ],
+      },
+      {
+        heading: "1. La tête de lit architecturale : Élément fondateur de la chambre",
+        paragraphs: [
+          "Dans la zone nuit, la tête de lit dessinée par l'architecte d'intérieur structure la pièce :",
+          "**Intégration multi-fonctions :** elle intègre dans une même composition en menuiserie les chevets suspendus, les liseuses encastrées, les prises invisibles et les niches d'exposition.",
+          "**Matières enveloppantes :** utilisation de panneaux en bois cannelé, de velours tendus acoustiques ou de peintures à la chaux pour apporter du relief et une sensation de cocon apaisant.",
+        ],
+      },
+      {
+        heading: "2. Le dressing sur-mesure : L'élégance de la haute couture",
+        paragraphs: [
+          "Un dressing haut de gamme ne se contente pas de ranger : il met en scène la garde-robe.",
+          "**Menuiseries intérieures :** utilisation d'essences de bois chaleureuses (noyer, frêne teinté) associées à des inserts en cuir ou en suédine dans les tiroirs d'accessoires.",
+          "**Jeux de transparence :** façades en verre teinté vitré avec structures aluminium ultra-fines pour laisser deviner les pièces sans charger visuellement l'espace.",
+          "**Mise en lumière intégrée :** éclairage LED indirect à détection de présence sous chaque étagère pour un confort visuel digne des plus grandes maisons de luxe.",
+        ],
+        image: {
+          src: "/assets/images/suite-parentale-dressing-sur-mesure-baignoire-ilot.jpg",
+          caption: "Dressing sur-mesure et salle de bains ouverte, suite parentale",
+        },
+      },
+      {
+        heading: "3. La salle de bains : Une expérience spa à domicile",
+        paragraphs: [
+          "La salle de bains de la suite parentale devient un lieu de ressourcement.",
+          "**Baignoire îlot sculpturale ou douche à l'italienne XXL :** intégration de receveurs affleurants en pierre naturelle avec banc maçonné et ciel de pluie encastré au plafond.",
+          "**Matériaux minéraux et durables :** terrazzo grand format, travertin adouci, robinetterie encastrée en finition bronze ou laiton brossé.",
+          "**Gestion de la ventilation et de la lumière :** intégration discrète des équipements techniques et valorisation de la lumière naturelle par des verrières dépolies ou du verre strié.",
+        ],
+        image: {
+          src: "/assets/images/suite-parentale-salle-de-bain-terre-cuite-douche-italienne.jpg",
+          caption: "Douche à l'italienne et matériaux naturels, salle de bains suite parentale",
+        },
+      },
+      {
+        heading: "Créer votre cocon privé avec notre Studio",
+        paragraphs: [
+          "De la redistribution des volumes jusqu'au choix du moindre textile, notre équipe d'architectes d'intérieur conçoit des suites parentales d'exception adaptées à votre rythme de vie.",
+          "**Vous rêvez d'une suite parentale sur-mesure ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour en discuter, ou [contactez-nous](/contact) pour nous présenter votre projet.",
+        ],
+      },
+    ],
+    keywords: ["Suite parentale", "Dressing sur-mesure", "Salle de bains luxe"],
+    relatedProjects: ["maison-kleber", "casa-duy"],
+  },
+  {
+    slug: "renovation-globale-appartement-maison-architecture-interieur",
+    title: "Rénovation globale d'exception : Redessiner l'art de vivre et valoriser le patrimoine",
+    metaTitle: "Rénovation Globale d'Appartement & Maison : Guide d'Architecture d'Intérieur",
+    excerpt:
+      "Comment aborder la rénovation globale et la restructuration complète d'un bien d'exception ? Processus, redistribution des volumes et valeur patrimoniale.",
+    date: "2026-08-25",
+    category: "Rénovation & Architecture d'Intérieur",
+    cover: "/assets/images/renovation-globale-maitrise-oeuvre-architecte-client.jpg",
+    heroImage: "/assets/images/renovation-globale-chantier-restructuration-appartement.jpg",
+    readingTime: "6 min",
+    intro:
+      "S'engager dans la rénovation globale d'un appartement ou d'une maison d'exception dépasse la simple remise au goût du jour. C'est l'opportunité de repenser intégralement l'expérience de l'habitat, d'adapter un lieu à un mode de vie contemporain et d'en pérenniser la valeur patrimoniale par des choix d'agencement et de matériaux exigeants.",
+    sections: [
+      {
+        heading: "La rénovation globale : Une vision d'ensemble indispensable",
+        paragraphs: [
+          "Entreprendre des travaux pièce par pièce mène souvent à une fragmentation visuelle et technique. À l'inverse, la restructuration complète orchestrée par un architecte d'intérieur permet de poser un diagnostic global sur le bien : flux de circulation, apport de lumière naturelle, logique structurelle et cohérence esthétique d'un bout à l'autre de l'espace.",
+        ],
+      },
+      {
+        heading: "1. La redistribution des volumes : Libérer le potentiel spatial",
+        paragraphs: [
+          "Chaque lieu possède sa propre écriture architecturale. Le premier rôle de l'architecte d'intérieur consiste à lire cette structure d'origine pour en révéler tout le potentiel.",
+          "**La rationalisation des espaces :** éliminer les mètres carrés perdus (couloirs sombres, dégagements superflus) pour agrandir les pièces de réception et créer des perspectives traversantes.",
+          "**Le travail sur la lumière naturelle :** repenser l'orientation des fonctions selon la course du soleil, créer des verrières sur-mesure ou insérer des cloisons légères qui laissent filer le jour.",
+          "**La hiérarchisation des zones :** marquer une séparation fluide mais claire entre les espaces de réception (salon, salle à manger, cuisine) et la sphère intime (chambres, dressing, suites).",
+        ],
+      },
+      {
+        heading: "2. L'intégration invisible de la technique et du confort",
+        paragraphs: [
+          "La marque d'une rénovation haut de gamme réside dans ce qui ne se voit pas. Les performances techniques s'intègrent de manière totalement imperceptible pour laisser toute la place à l'esthétique.",
+          "**L'isolation et l'efficience énergétique :** amélioration des performances thermiques et acoustiques (doublages isolants hautes performances, menuiseries extérieures sur-mesure respectant les contraintes d'urbanisme).",
+          "**La domotique et la scénographie lumineuse :** gestion centralisée des ambiances, dissimulation des réseaux électriques et intégration discrète d'éclairages indirects (gorges lumineuses, fentes encastrées).",
+          "**Le confort climatique :** intégration invisible des systèmes de chauffage et de rafraîchissement d'air au sein des faux-plafonds ou des menuiseries d'agencement.",
+        ],
+      },
+      {
+        heading: "3. La continuité des matières : Créer une signature visuelle unifiée",
+        paragraphs: [
+          "Pour offrir une sensation d'apaisement et d'harmonie globale, le choix des matériaux répond à un fil conducteur rigoureux.",
+          "Plutôt que d'accumuler des effets de style différents dans chaque pièce, la rénovation globale privilégie une palette restreinte de matières nobles et intemporelles — parquets en bois massif, enduits à la chaux, pierres naturelles, laiton brossé — déclinée avec subtilité à travers l'ensemble du projet.",
+        ],
+      },
+      {
+        heading: "4. De l'esquisse au suivi de chantier : La maîtrise d'œuvre rigoureuse",
+        paragraphs: [
+          "Mener à bien une rénovation complète exige une méthode d'accompagnement éprouvée :",
+          "**Phase de conception (APS/APD) :** plans 2D, modélisations 3D, choix des matériaux et chiffrage détaillé.",
+          "**Consultation et sélection des artisans :** mobilisation d'un réseau de compagnons et d'entreprises qualifiées pour chaque corps d'état.",
+          "**Maîtrise d'œuvre et suivi de chantier :** coordination rigoureuse des plannings, contrôle de la qualité d'exécution et respect des engagements budgétaires jusqu'à la livraison clé en main.",
+        ],
+        image: {
+          src: "/assets/images/renovation-globale-suivi-chantier-artisans-cuisine.jpg",
+          caption: "Suivi de chantier et coordination des artisans, rénovation globale",
+        },
+      },
+      {
+        heading: "Confier votre projet de rénovation globale au Studio",
+        paragraphs: [
+          "Que vous veniez d'acquérir un bien à restructurer ou que vous souhaitiez métamorphoser votre résidence actuelle, notre agence d'architecture d'intérieur conçoit des projets sur-mesure façonnés pour durer.",
+          "**Vous avez un projet de rénovation globale ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une première visite conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+    ],
+    keywords: ["Rénovation globale", "Restructuration appartement", "Maîtrise d'œuvre"],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
+  {
+    slug: "vision-architecturale-volumes-lumiere-matiere",
+    title: "Sculpter l'espace : Quand la vision architecturale transcende l'intérieur",
+    metaTitle: "L'Architecture d'Intérieur : Sculpture des Volumes, Lumière & Matière",
+    excerpt:
+      "Comment la vision architecturale transforme un espace ? Découvrez l'art de sculpter les volumes, d'apprivoiser la lumière et d'orchestrer les matières nobles.",
+    date: "2026-09-01",
+    category: "Vision & Architecture d'Intérieur",
+    cover: "/assets/images/architecture-interieur-volumes-lumiere-escalier-suspendu.jpg",
+    readingTime: "6 min",
+    intro:
+      "Au-delà de l'agencement et de l'ameublement, l'architecture d'intérieur s'attache à la substance même du lieu. Elle n'habille pas des pièces existantes : elle orchestre les vides, façonne les volumes et capture la lumière pour créer des lieux de vie qui suscitent une émotion durable.",
+    sections: [
+      {
+        heading: "1. La volumétrie : Jouer avec les pleins et les vides",
+        paragraphs: [
+          "Chaque projet d'architecture commence par une lecture tridimensionnelle de l'espace. Avant même d'envisager la moindre couleur, l'enjeu est de définir des proportions justes.",
+          "**La verticalité et la hauteur sous plafond :** valoriser les volumes par des éléments verticaux toute hauteur (portes toute hauteur sans imposte, menuiseries intégrées, claustras géométriques) qui étirent le regard.",
+          "**Le travail du vide :** savoir préserver des espaces d'air et de respiration. Dans une architecture contemporaine haut de gamme, le vide n'est pas un manque, mais un élément de composition à part entière qui met en valeur les pièces maîtresses.",
+          "**Les perspectives et alignements :** créer des enfilades visuelles et des axes de fuite clairs qui traversent l'appartement ou la maison de part en part.",
+        ],
+      },
+      {
+        heading: "2. La lumière comme matériau de construction",
+        paragraphs: [
+          "La lumière n'est pas un simple apport fonctionnel ; c'est le matériau le plus vivant de l'architecte. Elle révèle les textures, transforme les teintes au fil des heures et rythme la journée.",
+          "**La captation du jour :** repenser les ouvertures, utiliser des verrières architecturales sur-mesure ou du verre texturé pour diffuser une lumière douce dans les zones aveugles.",
+          "**L'éclairage architectural nocturne :** bannir le point lumineux central unique au profit d'une scénographie lumineuse invisible. L'intégration de gorges lumineuses, de fentes encastrées et de spots basse luminance permet de sculpter les formes dès le crépuscule.",
+        ],
+        image: {
+          src: "/assets/images/architecture-interieur-matiere-cuisine-travertin-oliviers.jpg",
+          caption: "La lumière naturelle sublime la matière, cuisine ouverte sur une oliveraie",
+        },
+      },
+      {
+        heading: "3. La vérité de la matière : L'éloge du brut et du noble",
+        paragraphs: [
+          "L'architecture contemporaine s'éloigne des artifices pour célébrer la noblesse des matières texturées et pérennes.",
+          "L'association de surfaces minérales (pierre naturelle adoucie, béton architectonique, enduits à la chaux ou à l'argile) et de touches chaleureuses (bois massif, laiton patiné, textiles en lin brut) crée une tension visuelle élégante. Ce contraste apporte à l'intérieur une présence tactile et une patine qui s'embellit avec le temps.",
+        ],
+        image: {
+          src: "/assets/images/architecture-interieur-matiere-travertin-salle-de-bain.jpg",
+          caption: "Pierre naturelle et matières nobles, salle de bains contemporaine",
+        },
+      },
+      {
+        heading: "4. L'intégration invisible du détail technique",
+        paragraphs: [
+          "Ce qui distingue une approche architecturale rigoureuse d'un simple aménagement, c'est le soin porté au détail d'exécution :",
+          "**Les plinthes à effleurage :** intégrées au nu du mur pour une pureté de ligne absolue.",
+          "**Les portes à galandage et châssis invisibles :** sans encadrement apparent (système Filomuro), permettant aux cloisons de se présenter comme de purs plans de masse.",
+          "**Le calepinage millimétré :** l'alignement parfait des joints de carrelage, des dalles de pierre et des calepinages de bois pour une harmonie géométrique parfaite.",
+        ],
+      },
+      {
+        heading: "Faire dialoguer votre lieu avec l'architecture avec le Studio",
+        paragraphs: [
+          "Notre studio aborde chaque projet avec la rigueur de l'architecte et la sensibilité du designer, pour bâtir des espaces sur-mesure où chaque détail trouve sa justification.",
+          "**Vous avez une vision pour votre espace ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour en discuter, ou [contactez-nous](/contact) pour nous présenter votre projet.",
+        ],
+      },
+    ],
+    keywords: ["Architecture d'intérieur", "Volumes et lumière", "Matériaux nobles"],
+    relatedProjects: ["maison-kleber", "giardino-de-ninno"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

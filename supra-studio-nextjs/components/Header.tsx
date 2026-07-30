@@ -47,7 +47,13 @@ export default function Header({
     <>
       {LOCALES.map((l, i) => (
         <span key={l} style={{ display: "flex", gap: 6 }}>
-          <a href={localizedHref(basePath, l)} className={lang === l ? "active" : ""}>
+          <a
+            href={localizedHref(basePath, l)}
+            className={lang === l ? "active" : ""}
+            onClick={() => {
+              document.cookie = `supra_lang=${l};max-age=${60 * 60 * 24 * 365};path=/`;
+            }}
+          >
             {l.toUpperCase()}
           </a>
           {i < LOCALES.length - 1 && <span aria-hidden="true">/</span>}
