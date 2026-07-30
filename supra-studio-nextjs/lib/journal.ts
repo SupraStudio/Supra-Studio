@@ -42,7 +42,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "Rénovation, gain de temps, réseau d'artisans, valorisation du bien : découvrez pourquoi faire appel à un architecte d'intérieur à Paris change tout dans votre projet.",
     date: "2026-07-28",
     category: "Conseils & expertise",
-    cover: "/assets/images/journal-architecte-interieur-paris.png",
+    cover: "/assets/images/architectes-echange-materiaux-projet-paris.png",
     readingTime: "6 min",
     sections: [
       {
@@ -90,7 +90,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "**Vous avez un projet de rénovation ou d'aménagement intérieur à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une première visite conseil, ou [contactez-nous](/contact) pour en discuter.",
         ],
         image: {
-          src: "/assets/images/fondateurs.jpg",
+          src: "/assets/images/paul-beatrice-fondateurs-supra-studio.jpg",
           caption: "Paul et Beatrice, fondateurs de Supra Studio",
           afterParagraph: 0,
         },
@@ -112,10 +112,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "Découvrez comment l'architecture d'intérieur et le design paysager s'unissent pour effacer les frontières entre maison et jardin. Conseils d'expert In & Out.",
     date: "2026-07-14",
     category: "Architecture d'Intérieur & Paysage",
-    cover: "/assets/images/journal-in-out-jour.png",
+    cover: "/assets/images/continuite-interieur-jardin-terrasse-jour.png",
     // Bandeau de la page détail : la version nocturne, plus spectaculaire, en écho au
     // dernier chapitre de l'article consacré à l'éclairage scénographique.
-    heroImage: "/assets/images/journal-in-out-nuit.jpg",
+    heroImage: "/assets/images/continuite-interieur-jardin-eclairage-nuit.jpg",
     readingTime: "5 min",
     intro:
       "Effacer la frontière entre le cocon intérieur et le paysage extérieur est l'un des piliers de l'architecture contemporaine. Quand le séjour semble se prolonger sur la terrasse et que le jardin s'invite dans le salon, l'espace gagne en volume, en sérénité et en clarté. Décryptage d'une démarche de conception In & Out.",
@@ -136,7 +136,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "**La trame de pose :** conserver le même sens de pose pour les lames de parquet d'intérieur et les lames de terrasse en bois ou grès cérame extérieur.",
         ],
         image: {
-          src: "/assets/images/journal-in-out-jour.png",
+          src: "/assets/images/continuite-interieur-jardin-terrasse-jour.png",
           caption: "Continuité du sol entre le séjour et la terrasse",
         },
       },
@@ -162,7 +162,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "En éclairant avec sobriété des éléments cibles du jardin (un massif de graminées, un tronc d'arbre, un mur en pierre sèche), vous étirez la profondeur de champ depuis votre canapé. Privilégiez des lumières rasantes et chaudes (2700K à 3000K) pour préserver la magie du lieu sans éblouir.",
         ],
         image: {
-          src: "/assets/images/journal-in-out-nuit.jpg",
+          src: "/assets/images/continuite-interieur-jardin-eclairage-nuit.jpg",
           caption: "Le jardin mis en scène par la lumière, à la tombée de la nuit",
         },
       },
@@ -185,8 +185,8 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "Comment végétaliser et aménager une terrasse ou un rooftop urbain à Paris ? Contraintes techniques, choix des plantes et mobilier sur-mesure.",
     date: "2026-06-30",
     category: "Design Paysager & Espaces Urbains",
-    cover: "/assets/images/journal-rooftop-paris.png",
-    heroImage: "/assets/images/journal-rooftop-paris.png",
+    cover: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
+    heroImage: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
     readingTime: "5 min",
     intro:
       "En milieu urbain, disposer d'une terrasse ou d'un rooftop est un privilège rare. Transformer ces mètres carrés en ciel ouvert en de véritables pépites végétales suspendues exige toutefois une maîtrise rigoureuse des contraintes techniques, climatiques et esthétiques.",
@@ -197,7 +197,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "Aménager un rooftop à Paris ou dans une métropole ne s'improvise pas. Contrairement à un jardin en pleine terre, les espaces extérieurs en étage sont soumis à des contraintes structurelles strictes (charge au m², prise au vent, exposition solaire intense) et nécessitent des solutions sur-mesure.",
         ],
         image: {
-          src: "/assets/images/journal-rooftop-paris.png",
+          src: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
           caption: "Rooftop végétalisé avec vue sur la tour Eiffel",
         },
       },
@@ -217,7 +217,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "Pour y parvenir, privilégiez un écran végétal dynamique plutôt qu'un mur occultant rigide. L'association de bambous non traçants (Fargesia), de graminées hautes (Miscanthus, Stipa) et d'arbustes à feuillage persistant crée un filtre végétal léger qui bouge sous la brise et préserve votre intimité avec élégance.",
         ],
         image: {
-          src: "/assets/images/journal-rooftop-bordeaux.png",
+          src: "/assets/images/rooftop-bordeaux-vue-cathedrale.png",
           caption: "Bacs sur-mesure et vue sur les toits de Bordeaux",
         },
       },
@@ -237,7 +237,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "L'intégration de bancs coffres en bois imputrescible (Ipé ou Kebony), d'une cuisine d'été discrète et d'un ombrage rétractable transforme la terrasse en une véritable pièce de vie supplémentaire, utilisable du printemps à l'automne.",
         ],
         image: {
-          src: "/assets/images/journal-rooftop-rome.png",
+          src: "/assets/images/rooftop-rome-cuisine-ete-colisee.png",
           caption: "Cuisine d'été et pergola sur-mesure, rooftop à Rome",
         },
       },

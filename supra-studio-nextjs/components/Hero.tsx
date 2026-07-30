@@ -6,7 +6,7 @@ export default function Hero({ lang = "fr" }: { lang?: Lang }) {
     <section className="hero">
       <div className="hero-media">
         <img
-          src="/assets/images/projet-02-salon.jpg"
+          src="/assets/images/architecte-interieur-paris-salon-renove.jpg"
           alt="Salon rénové par Supra Studio, Paris"
           fetchPriority="high"
         />

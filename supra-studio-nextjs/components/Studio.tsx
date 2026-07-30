@@ -8,14 +8,14 @@ export default function Studio({ full = false, lang = "fr" }: { full?: boolean; 
         <div className={`studio-media-wrap reveal${full ? " studio-duo" : ""}`}>
           <div className="studio-media">
             <img
-              src="/assets/images/fondateurs.jpg"
+              src="/assets/images/paul-beatrice-fondateurs-supra-studio.jpg"
               alt="Beatrice et Paul, fondateurs de Supra Studio"
             />
           </div>
           {full && (
             <div className="studio-media">
               <img
-                src="/assets/images/fondateurs2.jpg"
+                src="/assets/images/duo-architectes-supra-studio-portrait.jpg"
                 alt="Beatrice et Paul, fondateurs de Supra Studio"
               />
             </div>

@@ -35,7 +35,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Designing a rooftop in Paris — or in any major city — isn't something to improvise. Unlike a garden at ground level, elevated outdoor spaces are subject to strict structural constraints (load per square metre, wind exposure, intense sun exposure) and require bespoke solutions.",
           ],
           image: {
-            src: "/assets/images/journal-rooftop-paris.png",
+            src: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
             caption: "Planted rooftop with a view of the Eiffel Tower",
           },
         },
@@ -55,7 +55,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "To achieve this, favour a dynamic planted screen over a rigid, view-blocking wall. Combining non-invasive clumping bamboo (Fargesia), tall ornamental grasses (Miscanthus, Stipa) and evergreen shrubs creates a light green filter that moves in the breeze and preserves your privacy with elegance.",
           ],
           image: {
-            src: "/assets/images/journal-rooftop-bordeaux.png",
+            src: "/assets/images/rooftop-bordeaux-vue-cathedrale.png",
             caption: "Bespoke planters and rooftop view over Bordeaux",
           },
         },
@@ -75,7 +75,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Adding built-in storage benches in rot-resistant timber (Ipe or Kebony), a discreet summer kitchen and retractable shade turns the terrace into a genuine extra living room, usable from spring through autumn.",
           ],
           image: {
-            src: "/assets/images/journal-rooftop-rome.png",
+            src: "/assets/images/rooftop-rome-cuisine-ete-colisee.png",
             caption: "Summer kitchen and bespoke pergola, rooftop in Rome",
           },
         },
@@ -105,7 +105,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Sistemare un rooftop a Parigi, o in qualsiasi metropoli, non si improvvisa. A differenza di un giardino a terra, gli spazi esterni in quota sono soggetti a rigidi vincoli strutturali (carico al m², esposizione al vento, forte irraggiamento solare) e richiedono soluzioni su misura.",
           ],
           image: {
-            src: "/assets/images/journal-rooftop-paris.png",
+            src: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
             caption: "Rooftop con vista sulla Torre Eiffel",
           },
         },
@@ -125,7 +125,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Per riuscirci, privilegiate uno schermo vegetale dinamico piuttosto che un muro rigido che oscura la vista. L'abbinamento di bambù non invasivi (Fargesia), graminacee alte (Miscanthus, Stipa) e arbusti sempreverdi crea un filtro vegetale leggero che si muove con la brezza e preserva la vostra intimità con eleganza.",
           ],
           image: {
-            src: "/assets/images/journal-rooftop-bordeaux.png",
+            src: "/assets/images/rooftop-bordeaux-vue-cathedrale.png",
             caption: "Fioriere su misura e vista sui tetti di Bordeaux",
           },
         },
@@ -145,7 +145,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "L'integrazione di panche contenitore in legno imputrescibile (Ipé o Kebony), di una cucina estiva discreta e di un ombreggiamento retrattile trasforma la terrazza in un vero e proprio ambiente di vita supplementare, utilizzabile dalla primavera all'autunno.",
           ],
           image: {
-            src: "/assets/images/journal-rooftop-rome.png",
+            src: "/assets/images/rooftop-rome-cuisine-ete-colisee.png",
             caption: "Cucina estiva e pergola su misura, rooftop a Roma",
           },
         },
@@ -187,7 +187,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**The laying pattern:** keeping the same laying direction for indoor flooring and outdoor timber or porcelain stoneware decking.",
           ],
           image: {
-            src: "/assets/images/journal-in-out-jour.png",
+            src: "/assets/images/continuite-interieur-jardin-terrasse-jour.png",
             caption: "Continuity of the floor between the living room and the terrace",
           },
         },
@@ -213,7 +213,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "By subtly lighting target features in the garden (a bed of ornamental grasses, a tree trunk, a dry-stone wall), you extend the depth of field as seen from your sofa. Favour warm, grazing light (2700K to 3000K) to preserve the magic of the place without glare.",
           ],
           image: {
-            src: "/assets/images/journal-in-out-nuit.jpg",
+            src: "/assets/images/continuite-interieur-jardin-eclairage-nuit.jpg",
             caption: "The garden staged by light, at nightfall",
           },
         },
@@ -253,7 +253,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**La trama di posa:** mantenere lo stesso senso di posa per le doghe del parquet interno e le doghe della terrazza in legno o gres porcellanato esterno.",
           ],
           image: {
-            src: "/assets/images/journal-in-out-jour.png",
+            src: "/assets/images/continuite-interieur-jardin-terrasse-jour.png",
             caption: "Continuità del pavimento tra il soggiorno e la terrazza",
           },
         },
@@ -279,7 +279,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Illuminando con sobrietà elementi mirati del giardino (una macchia di graminacee, un tronco d'albero, un muro in pietra a secco), estendete la profondità di campo dal vostro divano. Privilegiate luci radenti e calde (2700K-3000K) per preservare la magia del luogo senza abbagliare.",
           ],
           image: {
-            src: "/assets/images/journal-in-out-nuit.jpg",
+            src: "/assets/images/continuite-interieur-jardin-eclairage-nuit.jpg",
             caption: "Il giardino messo in scena dalla luce, al calar della notte",
           },
         },
@@ -346,7 +346,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Have a renovation or interior design project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
           ],
           image: {
-            src: "/assets/images/fondateurs.jpg",
+            src: "/assets/images/paul-beatrice-fondateurs-supra-studio.jpg",
             caption: "Paul and Beatrice, founders of Supra Studio",
             afterParagraph: 0,
           },
@@ -405,7 +405,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Avete un progetto di ristrutturazione o di sistemazione d'interni a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
           ],
           image: {
-            src: "/assets/images/fondateurs.jpg",
+            src: "/assets/images/paul-beatrice-fondateurs-supra-studio.jpg",
             caption: "Paul e Beatrice, fondatori di Supra Studio",
             afterParagraph: 0,
           },

@@ -6,7 +6,7 @@ export default function StudioHero({ lang = "fr" }: { lang?: Lang }) {
     <section className="hero">
       <div className="hero-media">
         <img
-          src="/assets/images/studio-hero-paris.jpg"
+          src="/assets/images/toits-paris-architecte-interieur-paysagiste.jpg"
           alt="Toits de Paris, vue depuis Montmartre"
           fetchPriority="high"
         />

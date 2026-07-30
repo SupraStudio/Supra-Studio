@@ -59,7 +59,7 @@ export default function Header({
   return (
     <header className={`site-header${scrolled ? " is-scrolled" : ""}`}>
       <a href={localizedHref("/", lang)} className="logo" aria-label="Supra Studio — Accueil">
-        <img src="/assets/icons/LOGO_COMPLET_BLEU.svg" alt="Supra Studio" />
+        <img src="/assets/icons/logo-supra-studio-architecte-interieur-paysagiste.svg" alt="Supra Studio" />
       </a>
 
       <nav className={`main-nav${open ? " is-open" : ""}`} aria-label="Navigation principale">

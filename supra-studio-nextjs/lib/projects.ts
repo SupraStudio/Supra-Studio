@@ -23,8 +23,8 @@ export type Project = {
 export const PROJECTS: Project[] = [
   {
     slug: "giardino-de-ninno",
-    img: "/assets/images/projet-01-exterieur.jpg",
-    images: ["/assets/images/projet-01-exterieur.jpg"],
+    img: "/assets/images/jardin-piscine-villa-sabaudia-italie.jpg",
+    images: ["/assets/images/jardin-piscine-villa-sabaudia-italie.jpg"],
     cat: "Paysage",
     name: "Giardino De Ninno",
     location: "Sabaudia, Latina, Italia",
@@ -37,15 +37,15 @@ export const PROJECTS: Project[] = [
       "La palette végétale, choisie pour résister au climat local et évoluer avec les saisons, s'accorde aux matériaux en terre cuite et à la pierre existante, pour un jardin qui semble avoir toujours été là.",
     ],
     gallery: [
-      "/assets/images/giardino-2.jpg",
-      "/assets/images/giardino-nuit.jpg",
-      "/assets/images/giardino-3.jpg",
+      "/assets/images/jardin-mediterraneen-terrasse-bois-sabaudia.jpg",
+      "/assets/images/jardin-eclairage-nocturne-piscine-sabaudia.jpg",
+      "/assets/images/jardin-vegetation-mediterraneenne-sabaudia.jpg",
     ],
     plans: [
-      { src: "/assets/images/giardino-plan-rdc.jpg", caption: "Plan RDC" },
-      { src: "/assets/images/giardino-coupe-aa.jpg", caption: "Coupe AA" },
+      { src: "/assets/images/plan-jardin-piscine-sabaudia-rdc.jpg", caption: "Plan RDC" },
+      { src: "/assets/images/coupe-jardin-piscine-sabaudia.jpg", caption: "Coupe AA" },
     ],
-    locationImage: "/assets/images/giardino-map.jpg",
+    locationImage: "/assets/images/localisation-jardin-sabaudia-italie.jpg",
     longSections: [
       {
         heading: "Un jardin conçu comme une extension de la maison",
@@ -103,10 +103,10 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "maison-kleber",
-    img: "/assets/images/kleber-salon-escalier.jpg",
+    img: "/assets/images/maison-kleber-bordeaux-salon-escalier.jpg",
     images: [
-      "/assets/images/kleber-salon-escalier.jpg",
-      "/assets/images/kleber-facade-jour.jpg",
+      "/assets/images/maison-kleber-bordeaux-salon-escalier.jpg",
+      "/assets/images/maison-kleber-bordeaux-facade-jour.jpg",
     ],
     cat: "Architecture & architecture d'intérieur",
     name: "Maison Kléber",
@@ -116,23 +116,23 @@ export const PROJECTS: Project[] = [
     surface: "120 m²",
     annee: "2026",
     gallery: [
-      "/assets/images/kleber-facade-jour.jpg",
-      "/assets/images/kleber-facade-nuit.jpg",
-      "/assets/images/kleber-garage.jpg",
-      "/assets/images/kleber-salon-cuisine.jpg",
-      "/assets/images/kleber-cuisine.jpg",
-      "/assets/images/kleber-chambre-toit.jpg",
-      "/assets/images/kleber-chambre-claustra.jpg",
-      "/assets/images/kleber-chambre-bureau.jpg",
-      "/assets/images/kleber-sdb-double-vasque.jpg",
-      "/assets/images/kleber-sdb-douche.jpg",
+      "/assets/images/maison-kleber-bordeaux-facade-jour.jpg",
+      "/assets/images/maison-kleber-bordeaux-facade-nuit.jpg",
+      "/assets/images/maison-kleber-bordeaux-garage-transforme.jpg",
+      "/assets/images/maison-kleber-bordeaux-salon-cuisine-ouverte.jpg",
+      "/assets/images/maison-kleber-bordeaux-cuisine-bois.jpg",
+      "/assets/images/maison-kleber-bordeaux-chambre-toiture.jpg",
+      "/assets/images/maison-kleber-bordeaux-chambre-claustra.jpg",
+      "/assets/images/maison-kleber-bordeaux-chambre-bureau.jpg",
+      "/assets/images/maison-kleber-bordeaux-salle-de-bain-double-vasque.jpg",
+      "/assets/images/maison-kleber-bordeaux-salle-de-bain-douche.jpg",
     ],
     plans: [
-      { src: "/assets/images/kleber-plan-existant-rdc.jpg", caption: "Existant / RDC projet" },
-      { src: "/assets/images/kleber-plan-r1-r2.jpg", caption: "R+1 / R+2" },
-      { src: "/assets/images/kleber-plan-r3-toiture.jpg", caption: "R+3 / Toiture" },
+      { src: "/assets/images/maison-kleber-bordeaux-plan-existant-rdc.jpg", caption: "Existant / RDC projet" },
+      { src: "/assets/images/maison-kleber-bordeaux-plan-r1-r2.jpg", caption: "R+1 / R+2" },
+      { src: "/assets/images/maison-kleber-bordeaux-plan-r3-toiture.jpg", caption: "R+3 / Toiture" },
     ],
-    locationImage: "/assets/images/kleber-map.jpg",
+    locationImage: "/assets/images/maison-kleber-bordeaux-localisation.jpg",
     longSections: [
       {
         heading: "Transformation architecturale : D'un espace de stationnement à une maison familiale",
@@ -189,8 +189,8 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "casa-duy",
-    img: "/assets/images/projet-04-casaduy.jpg",
-    images: ["/assets/images/projet-04-casaduy.jpg"],
+    img: "/assets/images/casa-duy-rome-renovation-appartement-salon.jpg",
+    images: ["/assets/images/casa-duy-rome-renovation-appartement-salon.jpg"],
     cat: "Architecture d'intérieur",
     name: "Casa Duy",
     location: "Rome, Lazio, Italia",
@@ -202,8 +202,8 @@ export const PROJECTS: Project[] = [
       "Casa Duy réinvente un appartement romain autour d'une palette chaleureuse de bois et de tons crème, où chaque pièce dialogue avec la lumière naturelle. Le salon et la salle à manger s'organisent autour d'une bibliothèque sur-mesure, point d'ancrage du lieu.",
       "Le mobilier, choisi avec soin, mêle pièces contemporaines et objets plus intemporels, pour un intérieur sensible, sans être figé dans un style unique.",
     ],
-    gallery: ["/assets/images/casaduy-2.jpg", "/assets/images/casaduy-plan.jpg"],
-    locationImage: "/assets/images/casaduy-map.jpg",
+    gallery: ["/assets/images/casa-duy-rome-bibliotheque-sur-mesure.jpg", "/assets/images/casa-duy-rome-plan-appartement.jpg"],
+    locationImage: "/assets/images/casa-duy-rome-localisation.jpg",
     longSections: [
       {
         heading: "Rénovation d'appartement : Révéler le potentiel d'un espace des années 1970",
@@ -257,10 +257,10 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "brasserie",
-    img: "/assets/images/brasserie-salle.jpg",
+    img: "/assets/images/brasserie-paris-salle-restaurant-renovee.jpg",
     images: [
-      "/assets/images/brasserie-salle.jpg",
-      "/assets/images/brasserie-facade-angle.jpg",
+      "/assets/images/brasserie-paris-salle-restaurant-renovee.jpg",
+      "/assets/images/brasserie-paris-facade-angle.jpg",
     ],
     cat: "Architecture d'intérieur",
     name: "Brasserie",
@@ -270,14 +270,14 @@ export const PROJECTS: Project[] = [
     surface: "205 m²",
     annee: "2026",
     gallery: [
-      "/assets/images/brasserie-facade.jpg",
-      "/assets/images/brasserie-facade-angle.jpg",
-      "/assets/images/brasserie-bar.jpg",
-      "/assets/images/brasserie-comptoir.jpg",
+      "/assets/images/brasserie-paris-facade.jpg",
+      "/assets/images/brasserie-paris-facade-angle.jpg",
+      "/assets/images/brasserie-paris-bar-comptoir.jpg",
+      "/assets/images/brasserie-paris-comptoir-detail.jpg",
     ],
     plans: [
-      { src: "/assets/images/brasserie-plan-rdc.jpg", caption: "RDC existant / RDC projet" },
-      { src: "/assets/images/brasserie-plan-r1.jpg", caption: "R-1 existant / R-1 projet" },
+      { src: "/assets/images/brasserie-paris-plan-rdc.jpg", caption: "RDC existant / RDC projet" },
+      { src: "/assets/images/brasserie-paris-plan-r1-sous-sol.jpg", caption: "R-1 existant / R-1 projet" },
     ],
     longSections: [
       {
@@ -331,8 +331,8 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "une-maison-dans-le-paysage",
-    img: "/assets/images/projet-05-foretlandes.jpg",
-    images: ["/assets/images/projet-05-foretlandes.jpg"],
+    img: "/assets/images/maison-le-porge-foret-landaise-paysage.jpg",
+    images: ["/assets/images/maison-le-porge-foret-landaise-paysage.jpg"],
     cat: "Architecture, architecture d'intérieur & paysage",
     name: "Une Maison dans le Paysage",
     location: "Le Porge, Gironde, France",
