@@ -16,13 +16,18 @@ export type JournalArticle = {
   // Articles courts : paragraphes simples, sans sous-titres.
   content?: string[];
   // Articles longs : sections avec sous-titre H2 + paragraphes (comme les pages projet).
-  // `image` optionnelle : illustration insérée à la fin de la section.
+  // `image` optionnelle : illustration insérée dans la section.
+  // `afterParagraph` (index 0-based) place l'image juste après ce paragraphe précis ;
+  // sans cet index, l'image est insérée à la fin de la section (comportement par défaut).
   sections?: {
     heading: string;
     paragraphs: string[];
-    image?: { src: string; caption?: string };
+    image?: { src: string; caption?: string; afterParagraph?: number };
   }[];
   keywords?: string[];
+  // Slugs des projets (lib/projects.ts) en lien thématique avec l'article, affichés en
+  // bas de la page détail.
+  relatedProjects?: string[];
 };
 
 // Source de vérité en français. Les traductions EN/IT vivent dans journal.i18n.ts
@@ -85,6 +90,11 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "Basés entre Paris, Bordeaux et Rome, nous privilégions les matériaux naturels, les lignes épurées et une approche écoresponsable, pour des intérieurs sensibles et durables plutôt que suivant une mode passagère. Que votre projet soit une rénovation d'appartement, la conception d'une maison neuve ou l'aménagement d'un jardin, notre studio vous accompagne de la première esquisse à la réception du chantier.",
           "**Vous avez un projet de rénovation ou d'aménagement intérieur à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une première visite conseil, ou [contactez-nous](/contact) pour en discuter.",
         ],
+        image: {
+          src: "/assets/images/fondateurs.jpg",
+          caption: "Paul et Beatrice, fondateurs de Supra Studio",
+          afterParagraph: 0,
+        },
       },
     ],
     keywords: [
@@ -92,6 +102,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "Rénovation appartement Paris",
       "Conseils rénovation",
     ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
   },
   {
     slug: "continuite-visuelle-interieur-jardin-architecture-in-out",
@@ -150,6 +161,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "À la tombée du jour, si le jardin s'éteint, la baie vitrée se transforme en un miroir noir, refermant visuellement le salon sur lui-même. Un éclairage paysager bien étudié permet de conserver cette sensation d'espace même au cœur de la nuit.",
           "En éclairant avec sobriété des éléments cibles du jardin (un massif de graminées, un tronc d'arbre, un mur en pierre sèche), vous étirez la profondeur de champ depuis votre canapé. Privilégiez des lumières rasantes et chaudes (2700K à 3000K) pour préserver la magie du lieu sans éblouir.",
         ],
+        image: {
+          src: "/assets/images/journal-in-out-nuit.jpg",
+          caption: "Le jardin mis en scène par la lumière, à la tombée de la nuit",
+        },
       },
       {
         heading: "Concevoir votre projet In & Out avec le Studio",
@@ -160,6 +175,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
     ],
     keywords: ["Architecture In & Out", "Continuité intérieur extérieur", "Design paysager"],
+    relatedProjects: ["giardino-de-ninno"],
   },
   {
     slug: "comment-vegetaliser-terrasse-rooftop-urbain-paris",
@@ -180,6 +196,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
         paragraphs: [
           "Aménager un rooftop à Paris ou dans une métropole ne s'improvise pas. Contrairement à un jardin en pleine terre, les espaces extérieurs en étage sont soumis à des contraintes structurelles strictes (charge au m², prise au vent, exposition solaire intense) et nécessitent des solutions sur-mesure.",
         ],
+        image: {
+          src: "/assets/images/journal-rooftop-paris.png",
+          caption: "Rooftop végétalisé avec vue sur la tour Eiffel",
+        },
       },
       {
         heading: "1. Valider les contraintes techniques et de charge",
@@ -230,6 +250,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
     ],
     keywords: ["Rooftop Paris", "Terrasse végétalisée", "Design paysager urbain"],
+    relatedProjects: ["giardino-de-ninno"],
   },
 ];
 

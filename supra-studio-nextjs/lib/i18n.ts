@@ -91,7 +91,7 @@ export const dict = {
     servicesPage: {
       label: "Nos services",
       title: "Un Accompagnement Sur-Mesure :\nDe la Conception à la Maîtrise d'Œuvre",
-      h1Title: "Architecture d'Intérieur & Paysage : Nos Prestations Sur-Mesure",
+      h1Title: "Architecture d'Intérieur & Paysage :\nNos Prestations Sur-Mesure",
       intro:
         "Supra Studio réunit des compétences en architecture d'intérieur et en architecture paysagère, enrichies par une formation et une expérience en conception architecturale. Quatre missions complémentaires, mobilisables ensemble ou séparément selon les besoins de votre projet.",
       steps: [
@@ -171,13 +171,14 @@ export const dict = {
     journalPage: {
       label: "Journal",
       title: "Le Journal de Supra Studio",
-      h1Title: "Journal : Architecture d'Intérieur, Paysage & Actualités du Studio",
+      h1Title: "Journal :\nArchitecture d'Intérieur, Paysage & Actualités du Studio",
       desc: "Coulisses de chantier, réflexions sur la matière et la lumière, actualités du studio : le journal de Supra Studio, entre Paris, Bordeaux et Rome.",
       backToJournal: "← Tous les articles",
       readMore: "Lire l'article →",
       publishedOn: "Publié le",
       minRead: "min de lecture",
       discoverAlso: "À lire aussi",
+      relatedProjects: "Projets liés",
       empty: "Les premiers articles arrivent très bientôt.",
     },
     reviews: {
@@ -340,7 +341,7 @@ export const dict = {
     servicesPage: {
       label: "Our services",
       title: "Bespoke Support:\nFrom Design to Site Supervision",
-      h1Title: "Interior Architecture & Landscape Design: Our Bespoke Services",
+      h1Title: "Interior Architecture & Landscape Design:\nOur Bespoke Services",
       intro:
         "Supra Studio brings together expertise in interior architecture and landscape architecture, enriched by training and experience in architectural design. Four complementary services, which can be mobilised together or separately depending on your project's needs.",
       steps: [
@@ -420,13 +421,14 @@ export const dict = {
     journalPage: {
       label: "Journal",
       title: "The Supra Studio Journal",
-      h1Title: "Journal: Interior Architecture, Landscape Design & Studio News",
+      h1Title: "Journal:\nInterior Architecture, Landscape Design & Studio News",
       desc: "Behind the scenes on site, thoughts on material and light, studio news: the Supra Studio journal, between Paris, Bordeaux and Rome.",
       backToJournal: "← All articles",
       readMore: "Read the article →",
       publishedOn: "Published on",
       minRead: "min read",
       discoverAlso: "Also worth reading",
+      relatedProjects: "Related projects",
       empty: "The first articles are coming very soon.",
     },
     reviews: {
@@ -589,7 +591,7 @@ export const dict = {
     servicesPage: {
       label: "I nostri servizi",
       title: "Un Accompagnamento Su Misura:\nDalla Progettazione alla Direzione Lavori",
-      h1Title: "Architettura d'Interni & Paesaggio: I Nostri Servizi Su Misura",
+      h1Title: "Architettura d'Interni & Paesaggio:\nI Nostri Servizi Su Misura",
       intro:
         "Supra Studio riunisce competenze in architettura d'interni e architettura del paesaggio, arricchite da una formazione e un'esperienza nella progettazione architettonica. Quattro missioni complementari, attivabili insieme o separatamente a seconda delle esigenze del vostro progetto.",
       steps: [
@@ -669,13 +671,14 @@ export const dict = {
     journalPage: {
       label: "Journal",
       title: "Il Journal di Supra Studio",
-      h1Title: "Journal: Architettura d'Interni, Paesaggio e Novità dello Studio",
+      h1Title: "Journal:\nArchitettura d'Interni, Paesaggio e Novità dello Studio",
       desc: "Dietro le quinte del cantiere, riflessioni sulla materia e sulla luce, novità dello studio: il journal di Supra Studio, tra Parigi, Bordeaux e Roma.",
       backToJournal: "← Tutti gli articoli",
       readMore: "Leggi l'articolo →",
       publishedOn: "Pubblicato il",
       minRead: "min di lettura",
       discoverAlso: "Da leggere anche",
+      relatedProjects: "Progetti correlati",
       empty: "I primi articoli arrivano molto presto.",
     },
     reviews: {

@@ -12,7 +12,7 @@ type ArticleTranslation = {
   sections?: {
     heading: string;
     paragraphs: string[];
-    image?: { src: string; caption?: string };
+    image?: { src: string; caption?: string; afterParagraph?: number };
   }[];
   keywords?: string[];
 };
@@ -34,6 +34,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
           paragraphs: [
             "Designing a rooftop in Paris — or in any major city — isn't something to improvise. Unlike a garden at ground level, elevated outdoor spaces are subject to strict structural constraints (load per square metre, wind exposure, intense sun exposure) and require bespoke solutions.",
           ],
+          image: {
+            src: "/assets/images/journal-rooftop-paris.png",
+            caption: "Planted rooftop with a view of the Eiffel Tower",
+          },
         },
         {
           heading: "1. Confirming the technical and load constraints",
@@ -100,6 +104,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
           paragraphs: [
             "Sistemare un rooftop a Parigi, o in qualsiasi metropoli, non si improvvisa. A differenza di un giardino a terra, gli spazi esterni in quota sono soggetti a rigidi vincoli strutturali (carico al m², esposizione al vento, forte irraggiamento solare) e richiedono soluzioni su misura.",
           ],
+          image: {
+            src: "/assets/images/journal-rooftop-paris.png",
+            caption: "Rooftop con vista sulla Torre Eiffel",
+          },
         },
         {
           heading: "1. Verificare i vincoli tecnici e di carico",
@@ -204,6 +212,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "At nightfall, if the garden goes dark, the picture window turns into a black mirror, visually closing the lounge in on itself. Well-designed landscape lighting keeps that sense of space alive even at the heart of the night.",
             "By subtly lighting target features in the garden (a bed of ornamental grasses, a tree trunk, a dry-stone wall), you extend the depth of field as seen from your sofa. Favour warm, grazing light (2700K to 3000K) to preserve the magic of the place without glare.",
           ],
+          image: {
+            src: "/assets/images/journal-in-out-nuit.jpg",
+            caption: "The garden staged by light, at nightfall",
+          },
         },
         {
           heading: "Designing your In & Out project with the Studio",
@@ -266,6 +278,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Al calar della notte, se il giardino si spegne, la vetrata si trasforma in uno specchio nero, richiudendo visivamente il salotto su se stesso. Un'illuminazione paesaggistica ben studiata permette di conservare questa sensazione di spazio anche nel cuore della notte.",
             "Illuminando con sobrietà elementi mirati del giardino (una macchia di graminacee, un tronco d'albero, un muro in pietra a secco), estendete la profondità di campo dal vostro divano. Privilegiate luci radenti e calde (2700K-3000K) per preservare la magia del luogo senza abbagliare.",
           ],
+          image: {
+            src: "/assets/images/journal-in-out-nuit.jpg",
+            caption: "Il giardino messo in scena dalla luce, al calar della notte",
+          },
         },
         {
           heading: "Progettare il vostro progetto In & Out con lo Studio",
@@ -329,6 +345,11 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Based between Paris, Bordeaux and Rome, we favour natural materials, clean lines and an eco-responsible approach, for sensitive, lasting interiors rather than a passing trend. Whether your project is an apartment renovation, the design of a new-build house or the layout of a garden, our studio supports you from the first sketch through to handover.",
             "**Have a renovation or interior design project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
           ],
+          image: {
+            src: "/assets/images/fondateurs.jpg",
+            caption: "Paul and Beatrice, founders of Supra Studio",
+            afterParagraph: 0,
+          },
         },
       ],
       keywords: ["Interior architect Paris", "Apartment renovation Paris", "Renovation advice"],
@@ -383,6 +404,11 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Con sede tra Parigi, Bordeaux e Roma, privilegiamo i materiali naturali, le linee essenziali e un approccio ecoresponsabile, per interni sensibili e duraturi piuttosto che seguendo una moda passeggera. Che il vostro progetto sia la ristrutturazione di un appartamento, la progettazione di una casa nuova o la sistemazione di un giardino, il nostro studio vi accompagna dal primo schizzo fino alla consegna del cantiere.",
             "**Avete un progetto di ristrutturazione o di sistemazione d'interni a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
           ],
+          image: {
+            src: "/assets/images/fondateurs.jpg",
+            caption: "Paul e Beatrice, fondatori di Supra Studio",
+            afterParagraph: 0,
+          },
         },
       ],
       keywords: [

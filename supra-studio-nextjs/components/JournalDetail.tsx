@@ -1,11 +1,13 @@
 import { notFound } from "next/navigation";
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import Contact from "@/components/Contact";
 import { getArticleBySlug, getSortedArticles } from "@/lib/journal";
 import { localizeArticle } from "@/lib/journal.i18n";
+import { PROJECTS } from "@/lib/projects";
+import { localizeProject } from "@/lib/projects.i18n";
 import { getDict, localizedHref, type Lang } from "@/lib/i18n";
 
 export { getArticleBySlug };
@@ -46,6 +48,15 @@ function renderRichText(text: string): ReactNode[] {
   });
 }
 
+function ArticleImage({ src, alt, caption }: { src: string; alt: string; caption?: string }) {
+  return (
+    <figure className="journal-article-image">
+      <img src={src} alt={alt} loading="lazy" />
+      {caption && <figcaption>{caption}</figcaption>}
+    </figure>
+  );
+}
+
 export default function JournalDetail({ slug, lang }: { slug: string; lang: Lang }) {
   const raw = getArticleBySlug(slug);
   if (!raw) notFound();
@@ -55,6 +66,11 @@ export default function JournalDetail({ slug, lang }: { slug: string; lang: Lang
   const others = getSortedArticles()
     .filter((a) => a.slug !== article.slug)
     .map((a) => localizeArticle(a, lang));
+
+  const relatedProjects = (article.relatedProjects || [])
+    .map((slug) => PROJECTS.find((p) => p.slug === slug && !p.wip))
+    .filter((p): p is (typeof PROJECTS)[number] => Boolean(p))
+    .map((p) => localizeProject(p, lang));
 
   return (
     <>
@@ -95,19 +111,23 @@ export default function JournalDetail({ slug, lang }: { slug: string; lang: Lang
                   <div className="journal-article-section" key={i}>
                     <h2>{section.heading}</h2>
                     {section.paragraphs.map((para, j) => (
-                      <p key={j}>{renderRichText(para)}</p>
-                    ))}
-                    {section.image && (
-                      <figure className="journal-article-image">
-                        <img
-                          src={section.image.src}
-                          alt={section.image.caption || section.heading}
-                          loading="lazy"
-                        />
-                        {section.image.caption && (
-                          <figcaption>{section.image.caption}</figcaption>
+                      <Fragment key={j}>
+                        <p>{renderRichText(para)}</p>
+                        {section.image && section.image.afterParagraph === j && (
+                          <ArticleImage
+                            src={section.image.src}
+                            alt={section.image.caption || section.heading}
+                            caption={section.image.caption}
+                          />
                         )}
-                      </figure>
+                      </Fragment>
+                    ))}
+                    {section.image && section.image.afterParagraph === undefined && (
+                      <ArticleImage
+                        src={section.image.src}
+                        alt={section.image.caption || section.heading}
+                        caption={section.image.caption}
+                      />
                     )}
                   </div>
                 ))}
@@ -131,6 +151,33 @@ export default function JournalDetail({ slug, lang }: { slug: string; lang: Lang
             )}
           </div>
         </section>
+
+        {relatedProjects.length > 0 && (
+          <section className="project-others">
+            <div className="wrap">
+              <div className="section-label reveal">
+                <span>{t.journalPage.relatedProjects}</span>
+              </div>
+              <div className="projects-stack reveal">
+                {relatedProjects.map((p) => (
+                  <a
+                    className="project-teaser"
+                    href={localizedHref(`/projets/${p.slug}`, lang)}
+                    key={p.slug}
+                  >
+                    <img src={p.img} alt={p.name} loading="lazy" />
+                    <div className="overlay" />
+                    <div className="info">
+                      <p className="cat">{p.cat}</p>
+                      <p className="name">{p.name}</p>
+                      <p className="location">{p.location}</p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {others.length > 0 && (
           <section className="project-others">

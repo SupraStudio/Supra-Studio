@@ -11,7 +11,7 @@ export default function SplitTwo({
   const studioHref = localizedHref("/studio", lang);
 
   return (
-    <section className="split-two">
+    <section className={`split-two${compact ? " split-two-compact" : ""}`}>
       <div className="wrap split-two-grid">
         <div className="reveal">
           <div className="section-label">
