@@ -1567,13 +1567,14 @@ button { font-family: inherit; cursor: pointer; }
 .journal-article-text p:last-child { margin-bottom: 0; }
 
 /* ============================================
-   REVIEWS — AVIS CLIENTS (design éditorial sur-mesure)
+   REVIEWS — AVIS CLIENTS (carrousel éditorial, tout en bleu, sans vignette)
    ============================================ */
 .reviews-badge {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 11px;
+  font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--bleu);
@@ -1598,63 +1599,84 @@ button { font-family: inherit; cursor: pointer; }
   opacity: 1;
 }
 
-.reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: clamp(16px, 2vw, 24px);
+/* Carrousel : un seul avis visible à la fois, directement sur le fond ivoire —
+   les autres restent dans le DOM (texte indexable) mais visuellement masqués. */
+.review-carousel {
+  position: relative;
   margin-top: clamp(24px, 3vw, 36px);
+  max-width: 62ch;
 }
-.reviews-grid-compact {
-  grid-template-columns: repeat(2, 1fr);
-}
-@media (max-width: 860px) {
-  .reviews-grid,
-  .reviews-grid-compact {
-    grid-template-columns: 1fr;
-  }
-}
-
-.review-card {
+.review-slide {
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: clamp(22px, 2.4vw, 30px);
-  background: var(--ivoire-deep);
-  border: 1px solid var(--bleu-line);
-  border-radius: var(--radius);
+  gap: 14px;
+}
+.review-slide:not(.is-active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.review-slide.is-active {
+  animation: review-fade-in .7s var(--ease);
+}
+@keyframes review-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.review-slide blockquote {
   margin: 0;
 }
-.review-card blockquote {
-  margin: 0;
-  flex: 1;
-}
-.review-card blockquote p {
+.review-slide blockquote p {
   font-family: var(--f-display);
   font-weight: 400;
   font-style: italic;
-  font-size: 16px;
+  font-size: clamp(17px, 1.8vw, 21px);
   line-height: 1.5;
-  color: var(--charbon);
+  color: var(--bleu);
   margin: 0;
 }
-.review-card figcaption {
+.review-slide figcaption {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  margin-top: auto;
-  padding-top: 4px;
-  border-top: 1px solid var(--bleu-line);
 }
 .review-author {
   font-size: 12px;
+  font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--bleu);
 }
 .review-context {
   font-size: 12px;
-  color: var(--charbon);
+  font-weight: 400;
+  color: var(--bleu);
   opacity: .65;
+}
+
+.review-dots {
+  display: flex;
+  gap: 8px;
+  margin-top: clamp(20px, 2.4vw, 28px);
+}
+.review-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--bleu);
+  background: transparent;
+  opacity: .4;
+  cursor: pointer;
+  transition: opacity .3s var(--ease), background-color .3s var(--ease);
+}
+.review-dot.is-active {
+  opacity: 1;
+  background: var(--bleu);
 }
 
 .reviews-link {
