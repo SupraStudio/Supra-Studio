@@ -90,7 +90,7 @@ export const dict = {
     },
     servicesPage: {
       label: "Nos services",
-      title: "Un Accompagnement Sur-Mesure : De la Conception à la Maîtrise d'Œuvre",
+      title: "Un Accompagnement Sur-Mesure :\nDe la Conception à la Maîtrise d'Œuvre",
       h1Title: "Architecture d'Intérieur & Paysage : Nos Prestations Sur-Mesure",
       intro:
         "Supra Studio réunit des compétences en architecture d'intérieur et en architecture paysagère, enrichies par une formation et une expérience en conception architecturale. Quatre missions complémentaires, mobilisables ensemble ou séparément selon les besoins de votre projet.",
@@ -339,7 +339,7 @@ export const dict = {
     },
     servicesPage: {
       label: "Our services",
-      title: "Bespoke Support: From Design to Site Supervision",
+      title: "Bespoke Support:\nFrom Design to Site Supervision",
       h1Title: "Interior Architecture & Landscape Design: Our Bespoke Services",
       intro:
         "Supra Studio brings together expertise in interior architecture and landscape architecture, enriched by training and experience in architectural design. Four complementary services, which can be mobilised together or separately depending on your project's needs.",
@@ -588,7 +588,7 @@ export const dict = {
     },
     servicesPage: {
       label: "I nostri servizi",
-      title: "Un Accompagnamento Su Misura: Dalla Progettazione alla Direzione Lavori",
+      title: "Un Accompagnamento Su Misura:\nDalla Progettazione alla Direzione Lavori",
       h1Title: "Architettura d'Interni & Paesaggio: I Nostri Servizi Su Misura",
       intro:
         "Supra Studio riunisce competenze in architettura d'interni e architettura del paesaggio, arricchite da una formazione e un'esperienza nella progettazione architettonica. Quattro missioni complementari, attivabili insieme o separatamente a seconda delle esigenze del vostro progetto.",
