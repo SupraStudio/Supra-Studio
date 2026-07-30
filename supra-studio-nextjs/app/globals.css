@@ -803,6 +803,7 @@ button { font-family: inherit; cursor: pointer; }
 .page-main-offset { padding-top: calc(var(--section-pad) + 40px); }
 .page-hero .section-title {
   font-size: clamp(30px, 4.4vw, 52px);
+  line-height: 1.2;
 }
 .page-hero p {
   font-size: 16.5px;
@@ -1626,6 +1627,12 @@ button { font-family: inherit; cursor: pointer; }
   margin-top: clamp(-24px, -1.8vw, -8px);
   /* Respiration avant la ligne .contact { border-top }, pour ne pas la chevaucher. */
   padding-bottom: var(--section-pad);
+}
+/* Sur Studio et Services, la section avis suit directement SplitTwo / MethodTimeline
+   (pas de padding généreux entre les deux comme sur l'accueil) — on ajoute donc de
+   l'espace au lieu de le resserrer. */
+.reviews-compact {
+  margin-top: clamp(48px, 6vw, 80px);
 }
 .reviews-badge {
   display: flex;
