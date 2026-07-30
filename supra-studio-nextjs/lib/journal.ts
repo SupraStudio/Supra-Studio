@@ -28,6 +28,8 @@ export type JournalArticle = {
   // Slugs des projets (lib/projects.ts) en lien thématique avec l'article, affichés en
   // bas de la page détail.
   relatedProjects?: string[];
+  // Si true, l'article reste toujours en tête de la liste du Journal, quelle que soit sa date.
+  pinned?: boolean;
 };
 
 // Source de vérité en français. Les traductions EN/IT vivent dans journal.i18n.ts
@@ -38,12 +40,9 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     title: "Pourquoi faire appel à un architecte d'intérieur à Paris ?",
     excerpt:
       "Rénovation, gain de temps, réseau d'artisans, valorisation du bien : découvrez pourquoi faire appel à un architecte d'intérieur à Paris change tout dans votre projet.",
-    date: "2026-08-04",
+    date: "2026-07-28",
     category: "Conseils & expertise",
     cover: "/assets/images/journal-architecte-interieur-paris.png",
-    // Bandeau de la page détail : on reprend l'image du hero de la page Studio, pour la
-    // cohérence visuelle entre le Journal et le reste du site.
-    heroImage: "/assets/images/studio-hero-paris.jpg",
     readingTime: "6 min",
     sections: [
       {
@@ -103,6 +102,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "Conseils rénovation",
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
+    pinned: true,
   },
   {
     slug: "continuite-visuelle-interieur-jardin-architecture-in-out",
@@ -110,7 +110,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Architecture In & Out : Créer une Continuité entre Intérieur et Jardin",
     excerpt:
       "Découvrez comment l'architecture d'intérieur et le design paysager s'unissent pour effacer les frontières entre maison et jardin. Conseils d'expert In & Out.",
-    date: "2026-08-11",
+    date: "2026-07-14",
     category: "Architecture d'Intérieur & Paysage",
     cover: "/assets/images/journal-in-out-jour.png",
     // Bandeau de la page détail : la version nocturne, plus spectaculaire, en écho au
@@ -183,7 +183,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Aménager une Terrasse ou un Rooftop à Paris : Guide Design & Paysage",
     excerpt:
       "Comment végétaliser et aménager une terrasse ou un rooftop urbain à Paris ? Contraintes techniques, choix des plantes et mobilier sur-mesure.",
-    date: "2026-08-18",
+    date: "2026-06-30",
     category: "Design Paysager & Espaces Urbains",
     cover: "/assets/images/journal-rooftop-paris.png",
     heroImage: "/assets/images/journal-rooftop-paris.png",
@@ -260,5 +260,8 @@ export function getArticleBySlug(slug: string) {
 
 // Articles triés du plus récent au plus ancien.
 export function getSortedArticles() {
-  return [...JOURNAL_ARTICLES].sort((a, b) => (a.date < b.date ? 1 : -1));
+  return [...JOURNAL_ARTICLES].sort((a, b) => {
+    if (!!a.pinned !== !!b.pinned) return a.pinned ? -1 : 1;
+    return a.date < b.date ? 1 : -1;
+  });
 }
