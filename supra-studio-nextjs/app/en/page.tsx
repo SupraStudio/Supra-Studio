@@ -7,6 +7,7 @@ import Projects from "@/components/Projects";
 import Studio from "@/components/Studio";
 import SplitTwo from "@/components/SplitTwo";
 import Services from "@/components/Services";
+import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -29,6 +30,7 @@ export default function Home() {
         <Studio lang="en" />
         <SplitTwo lang="en" compact />
         <Services lang="en" />
+        <Reviews lang="en" ids={["demo-1", "demo-2", "demo-3"]} variant="grid" />
         <Contact lang="en" />
       </main>
       <Footer lang="en" />

@@ -26,7 +26,7 @@ export default function Studio({ full = false, lang = "fr" }: { full?: boolean; 
           <div className="section-label">
             <span>{t.studioPage.sectionLabel}</span>
           </div>
-          <h2 className="section-title">{t.studioPage.title}</h2>
+          <h2 className="section-title">{full ? t.studioPage.title : t.studioPage.titleHome}</h2>
           <p>{t.studioPage.p1}</p>
           <p>{t.studioPage.p2}</p>
           {!full && (

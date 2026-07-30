@@ -19,6 +19,7 @@ export default function Header({
   const NAV_LINKS = [
     { label: t.nav.studio, href: localizedHref("/studio", lang) },
     { label: t.nav.projects, href: localizedHref("/projets", lang) },
+    { label: t.nav.journal, href: localizedHref("/journal", lang) },
     { label: t.nav.services, href: localizedHref("/services", lang) },
     { label: t.nav.contact, href: localizedHref("/contact", lang) },
   ];

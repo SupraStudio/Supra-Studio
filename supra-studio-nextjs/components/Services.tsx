@@ -1,16 +1,25 @@
 import { getDict, CALENDLY_URL, type Lang } from "@/lib/i18n";
 
-export default function Services({ hideCta = false, lang = "fr" }: { hideCta?: boolean; lang?: Lang }) {
+export default function Services({
+  hideCta = false,
+  asH1 = false,
+  lang = "fr",
+}: {
+  hideCta?: boolean;
+  asH1?: boolean;
+  lang?: Lang;
+}) {
   const t = getDict(lang);
+  const Title = asH1 ? "h1" : "h2";
   return (
     <section className="services" id="services">
       <div className="wrap">
         <div className="section-label reveal">
           <span>{t.servicesPage.label}</span>
         </div>
-        <h2 className="section-title reveal" style={{ marginBottom: 24 }}>
-          {t.servicesPage.title}
-        </h2>
+        <Title className="section-title reveal" style={{ marginBottom: 24 }}>
+          {asH1 ? t.servicesPage.h1Title : t.servicesPage.title}
+        </Title>
         <p className="services-intro reveal">{t.servicesPage.intro}</p>
 
         <div className="services-grid reveal">

@@ -13,7 +13,7 @@ export default function ContactPage() {
       <ScrollReveal />
       <Header hasHero={false} lang="it" />
       <main className="contact-page-main page-main-offset">
-        <Contact lang="it" />
+        <Contact asH1 lang="it" />
       </main>
       <Footer lang="it" />
     </>

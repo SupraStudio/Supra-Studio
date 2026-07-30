@@ -4,8 +4,9 @@ import { useState } from "react";
 import { getDict, CALENDLY_URL, type Lang } from "@/lib/i18n";
 import SocialLinks from "@/components/SocialLinks";
 
-export default function Contact({ lang = "fr" }: { lang?: Lang }) {
+export default function Contact({ asH1 = false, lang = "fr" }: { asH1?: boolean; lang?: Lang }) {
   const t = getDict(lang);
+  const Title = asH1 ? "h1" : "h2";
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle"
   );
@@ -41,9 +42,9 @@ export default function Contact({ lang = "fr" }: { lang?: Lang }) {
           <div className="section-label">
             <span>{t.contactPage.label}</span>
           </div>
-          <h2 className="section-title" style={{ marginBottom: 24 }}>
-            {t.contactPage.title}
-          </h2>
+          <Title className="section-title" style={{ marginBottom: 24 }}>
+            {asH1 ? t.contactPage.h1Title : t.contactPage.title}
+          </Title>
 
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="field-row">

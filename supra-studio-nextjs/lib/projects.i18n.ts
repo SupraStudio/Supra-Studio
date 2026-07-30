@@ -25,7 +25,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "A landscape composition between openness and intimacy",
+          heading: "A bespoke landscape design, between openness and intimacy",
           paragraphs: [
             "The design rests on a subtle balance between open spaces and structuring vegetation. Wide planted beds accompany the boundaries of the plot to preserve privacy while letting the garden breathe. Sightlines are deliberately controlled: they guide the eye, reveal the depth of the plot and reinforce the sense of space.",
             "This composition creates a living garden, whose moods shift with movement through it and with the seasons.",
@@ -40,7 +40,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "A garden experienced by day and by night",
+          heading: "Lighting and scenography: a garden experienced by day and by night",
           paragraphs: [
             "As dusk falls, the landscape shifts in perception. Discreet lighting reveals the volumes of the planting, accompanies the pathways and extends outdoor uses into the evening without disturbing the tranquillity of the place.",
             "More than a simple garden design project, this realisation expresses our vision of landscape: designing outdoor spaces that are sustainable, sensitive and timeless, where planting, material and light fully contribute to quality of life.",
@@ -84,7 +84,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "Una composizione paesaggistica tra apertura e intimità",
+          heading: "Una progettazione paesaggistica su misura, tra apertura e intimità",
           paragraphs: [
             "La sistemazione si basa su un equilibrio sottile tra spazi aperti e vegetazione strutturante. Ampie aiuole piantumate accompagnano i confini del lotto per preservare l'intimità lasciando comunque respirare il giardino. Le prospettive sono volutamente controllate: guidano lo sguardo, rivelano la profondità del terreno e rafforzano la sensazione di spazio.",
             "Questa composizione permette di creare un giardino vivo, le cui atmosfere evolvono con gli spostamenti e con le stagioni.",
@@ -99,7 +99,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "Un'esperienza del giardino, di giorno come di notte",
+          heading: "Illuminazione e scenografia: un'esperienza del giardino, di giorno come di notte",
           paragraphs: [
             "Al calare della sera, il paesaggio cambia percezione. Un'illuminazione discreta rivela i volumi vegetali, accompagna i percorsi e prolunga gli usi esterni senza disturbare la quiete del luogo.",
             "Più di un semplice progetto di sistemazione del giardino, questa realizzazione traduce la nostra visione del paesaggio: concepire spazi esterni durevoli, sensibili e senza tempo, in cui il vegetale, la materia e la luce contribuiscono pienamente alla qualità della vita.",
@@ -138,14 +138,14 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       programme: "Transformation of a former garage into a townhouse — reversed loft and rooftop",
       longSections: [
         {
-          heading: "From a parking space to a family home",
+          heading: "Architectural transformation: from a parking space to a family home",
           paragraphs: [
             "In the heart of a residential neighbourhood of Bordeaux, this project transforms a former garage into a contemporary 120 m² townhouse. Set on a narrow plot, the existing structure offered neither quality of use nor any real relationship with the street. The project proposes a complete rebuild, envisioning a bright, functional home suited to contemporary ways of living.",
             "This transformation rests on a simple idea: turning constraint into a resource. The narrowness of the plot becomes the starting point for a vertical architecture in which each level reveals a new way of inhabiting the house.",
           ],
         },
         {
-          heading: "A house conceived around verticality",
+          heading: "Optimising the volumes: a house conceived around verticality",
           paragraphs: [
             "The interior layout draws on the principle of the \"reversed loft\". Technical functions are placed on the ground floor, freeing the upper levels for the living spaces. This distribution offers the best qualities of light and views to the rooms used daily.",
             "The living room, dining room and open kitchen therefore occupy the second floor, where the volumes extend into a vast through-space bathed in natural light. Beneath the roof, an additional bedroom opens onto a terrace shielded from view, a true outdoor room at the heart of the urban fabric.",
@@ -153,7 +153,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "Light as a material of the project",
+          heading: "Bringing in natural light: light as a true material of architecture",
           paragraphs: [
             "On such a constrained plot, light becomes a genuine material of architecture.",
             "Large vertical openings animate the street facade, while skylights, light wells and glass block bring natural light into the very heart of the house. The through-views reinforce the sense of space and offer atmospheres that shift throughout the day.",
@@ -161,7 +161,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "Restrained, durable materials",
+          heading: "Eco-responsible selection: restrained, noble and durable materials",
           paragraphs: [
             "The project draws on a palette of natural materials in which limestone, timber, polished concrete, metalwork and ceramic tile engage in a contemporary, timeless dialogue.",
             "Bespoke furniture accompanies the architecture at every level. Integrated from the design stage, it optimises the spaces, structures the volumes and responds to the specific constraints of this townhouse built on a narrow plot.",
@@ -196,14 +196,14 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       programme: "Trasformazione di un ex garage in casa di città — loft invertito e rooftop",
       longSections: [
         {
-          heading: "Da posto auto a casa familiare",
+          heading: "Trasformazione architettonica: da posto auto a casa familiare",
           paragraphs: [
             "Nel cuore di un quartiere residenziale di Bordeaux, questo progetto trasforma un ex garage in una casa di città contemporanea di 120 m². Situata su un lotto stretto, la costruzione esistente non offriva né qualità d'uso né una vera relazione con la strada. Il progetto propone una ricostruzione completa per immaginare un'abitazione luminosa, funzionale e adatta agli stili di vita contemporanei.",
             "Questa trasformazione si basa su un'idea semplice: fare della costrizione una risorsa. La ridotta larghezza del lotto diventa il punto di partenza di un'architettura verticale in cui ogni livello rivela un nuovo modo di abitare.",
           ],
         },
         {
-          heading: "Una casa pensata attorno alla verticalità",
+          heading: "Ottimizzazione dei volumi: una casa pensata attorno alla verticalità",
           paragraphs: [
             "L'organizzazione interna si ispira al principio del \"loft invertito\". Le funzioni tecniche trovano posto al piano terra, liberando i livelli superiori per gli spazi di vita. Questa ripartizione permette di offrire le migliori qualità di luce e di vista alle stanze utilizzate quotidianamente.",
             "Il soggiorno, la sala da pranzo e la cucina aperta occupano così il secondo piano, dove i volumi si prolungano in un ampio spazio passante bagnato di luce naturale. Sotto il tetto, una camera supplementare si apre su una terrazza protetta dagli sguardi, vera stanza esterna nel cuore del tessuto urbano.",
@@ -211,7 +211,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "La luce come materiale di progetto",
+          heading: "Apporto di luce naturale: la luce come vero materiale d'architettura",
           paragraphs: [
             "Su un lotto così vincolato, la luce diventa un vero materiale d'architettura.",
             "Grandi aperture verticali animano la facciata sulla strada, mentre lucernari, pozzi di luce e vetromattone diffondono la luce naturale fino al cuore della casa. Le prospettive passanti rafforzano la sensazione di spazio e offrono atmosfere che si evolvono nel corso della giornata.",
@@ -219,7 +219,7 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
           ],
         },
         {
-          heading: "Materiali sobri e duraturi",
+          heading: "Selezione eco-responsabile: materiali sobri, nobili e duraturi",
           paragraphs: [
             "Il progetto si basa su una tavolozza di materiali naturali in cui pietra calcarea, legno, cemento lucidato, serramenti metallici e ceramica dialogano in una scrittura contemporanea e senza tempo.",
             "L'arredo su misura accompagna l'architettura a ogni livello. Integrato fin dalla progettazione, ottimizza gli spazi, struttura i volumi e risponde ai vincoli propri di questa casa di città costruita su un lotto stretto.",
@@ -256,28 +256,28 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       programme: "Opening up the living spaces and reorganising the rooms",
       longSections: [
         {
-          heading: "Revealing the potential of a 1970s apartment",
+          heading: "Apartment renovation: revealing the potential of a 1970s space",
           paragraphs: [
             "In Rome, this complete renovation of an 80 m² apartment transforms a 1970s home into a contemporary, bright and functional living space. Our intervention entirely rethinks the interior layout to adapt the apartment to today's ways of living, while making the most of the qualities of the existing structure.",
             "Rather than erasing the history of the place, the project builds on its structure and technical constraints to construct a new way of inhabiting it. Every intervention stems from a careful reading of the existing fabric, in order to reveal its architectural potential.",
           ],
         },
         {
-          heading: "A more fluid organisation of the spaces",
+          heading: "Redefining the volumes: a more fluid organisation of the spaces",
           paragraphs: [
             "At the heart of the project lies the reorganisation of the volumes. The living spaces are opened up to form a single open living area where the kitchen, dining room and lounge extend naturally into one another. Circulation becomes more intuitive, sightlines lengthen and natural light now travels through the whole apartment.",
             "By contrast, the night-time spaces are deliberately preserved to offer greater privacy. This separation between the reception spaces and the private spaces brings a functional balance while improving everyday comfort.",
           ],
         },
         {
-          heading: "Natural materials in the service of architecture",
+          heading: "Natural, noble materials in the service of interior architecture",
           paragraphs: [
             "The choice of materials plays a full part in the composition of the project. Timber, ceramic tile, terracotta and polished concrete outline a restrained, timeless palette that showcases the volumes without overloading them.",
             "Timber accompanies the circulation, underlines the transitions between spaces and creates a connecting thread throughout the apartment. Mineral materials bring texture and depth, while natural tones reinforce the sense of calm and light.",
           ],
         },
         {
-          heading: "A renovation conceived around light",
+          heading: "Optimising natural light: a renovation conceived around clarity",
           paragraphs: [
             "Opening up the volumes reveals the full lighting potential of the apartment. Sightlines are cleared, unnecessary partitions disappear and every room benefits from a better spread of natural light.",
             "This apartment renovation in Rome illustrates our approach to interior architecture: transforming the existing structure with restraint, making the most of the constraints of the place, and designing sustainable spaces where the quality of use arises from a balance between light, material and proportion.",
@@ -311,28 +311,28 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       programme: "Apertura degli spazi di vita e ridistribuzione degli ambienti",
       longSections: [
         {
-          heading: "Rivelare il potenziale di un appartamento anni '70",
+          heading: "Ristrutturazione di un appartamento: rivelare il potenziale di uno spazio anni '70",
           paragraphs: [
             "A Roma, questa ristrutturazione completa di un appartamento di 80 m² trasforma un'abitazione degli anni '70 in uno spazio di vita contemporaneo, luminoso e funzionale. Il nostro intervento ripensa interamente l'organizzazione interna per adattare l'appartamento agli stili di vita attuali, valorizzando al contempo le qualità dell'esistente.",
             "Anziché cancellare la storia del luogo, il progetto si appoggia sulla sua struttura e sui suoi vincoli tecnici per costruire un nuovo modo di abitare. Ogni intervento nasce da una lettura attenta dell'esistente, per rivelarne il potenziale architettonico.",
           ],
         },
         {
-          heading: "Un'organizzazione più fluida degli spazi",
+          heading: "Ridefinizione dei volumi: un'organizzazione più fluida degli spazi",
           paragraphs: [
             "Il cuore del progetto risiede nella riorganizzazione dei volumi. Gli spazi di vita vengono liberati dai tramezzi per formare un unico ambiente principale aperto, in cui cucina, sala da pranzo e soggiorno si prolungano naturalmente l'uno nell'altro. I percorsi diventano più intuitivi, le prospettive si allungano e la luce naturale attraversa ora l'intero appartamento.",
             "Al contrario, gli spazi notte sono volutamente preservati per offrire maggiore intimità. Questa separazione tra gli spazi di ricevimento e gli spazi privati porta un equilibrio funzionale migliorando al tempo stesso il comfort quotidiano.",
           ],
         },
         {
-          heading: "Materiali naturali al servizio dell'architettura",
+          heading: "Materiali naturali e nobili al servizio dell'architettura d'interni",
           paragraphs: [
             "La scelta dei materiali partecipa pienamente alla composizione del progetto. Legno, ceramica, cotto e cemento lucidato disegnano una tavolozza sobria e senza tempo che valorizza i volumi senza appesantirli.",
             "Il legno accompagna i percorsi, sottolinea le transizioni tra gli spazi e crea un filo conduttore in tutto l'appartamento. I materiali minerali apportano texture e profondità, mentre le tonalità naturali rafforzano la sensazione di calma e luce.",
           ],
         },
         {
-          heading: "Una ristrutturazione pensata attorno alla luce",
+          heading: "Ottimizzazione della luce naturale: una ristrutturazione pensata attorno alla chiarezza",
           paragraphs: [
             "L'apertura dei volumi permette di rivelare tutto il potenziale luminoso dell'appartamento. Le prospettive si liberano, le partizioni superflue scompaiono e ogni stanza beneficia di una migliore diffusione della luce naturale.",
             "Questa ristrutturazione di un appartamento a Roma illustra il nostro approccio all'architettura d'interni: trasformare l'esistente con sobrietà, trarre vantaggio dai vincoli del luogo e concepire spazi durevoli, in cui la qualità d'uso nasce da un equilibrio tra luce, materia e proporzioni.",
@@ -368,28 +368,28 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       programme: "Dining room, counter, professional kitchen, technical areas",
       longSections: [
         {
-          heading: "Revealing the memory of a place to give it new life",
+          heading: "Brasserie refurbishment: revealing the memory of a place to give it new life",
           paragraphs: [
             "In the heart of the Paris Left Bank, this refurbishment project transforms a 1970s brasserie into a contemporary venue while preserving the identity built up over the decades.",
             "Behind a discreet facade lies an interior marked by its era, where certain architectural elements still bear witness to the history of the place. The ambition of the project is not to erase this memory, but on the contrary to build on it as the starting point of the design. The existing elements thus become an architectural material capable of engaging in dialogue with new uses and a contemporary language.",
           ],
         },
         {
-          heading: "An interior architecture between heritage and modernity",
+          heading: "Design & Identity: an interior architecture between heritage and modernity",
           paragraphs: [
             "The project is built on a process of revealing and reinterpreting the elements already in place. The sculptural ceilings, smoked mirrors, metal ironwork, original wooden doors and graphic basement tiles are preserved and enhanced in order to safeguard the brasserie's singular soul.",
             "These historic elements are paired with a palette of restrained, timeless materials — wood, metal, textured glass, stone and ceramic — that extend the identity of the place without seeking to replicate its past aesthetic. The aim is to create a subtle balance between the richness of the existing structure and the contemporary expectations of a Parisian establishment.",
           ],
         },
         {
-          heading: "A dialogue between the restaurant and its urban surroundings",
+          heading: "Indoor/outdoor opening: a dialogue between the brasserie and its urban surroundings",
           paragraphs: [
             "The interior design is part of a broader reflection on the relationship between the brasserie and its neighbourhood. The mineral tones of the Left Bank, the materials present in Parisian public space and the nuances of the urban landscape feed the atmosphere of the project.",
             "This continuity between indoors and outdoors naturally anchors the place in its context while affirming its own identity. The brasserie thus becomes a warm, lively space, at once rooted in its history and open to the city.",
           ],
         },
         {
-          heading: "A transformation conceived around use",
+          heading: "Optimising flow and space: a transformation conceived around use",
           paragraphs: [
             "Beyond the architectural atmosphere, the project rethinks the entire organisation of the venue to improve the customer experience and the conditions of operation.",
             "Circulation, service areas and technical zones are restructured to offer greater fluidity, comfort and efficiency on a daily basis. This renovation of a Parisian brasserie thus combines two complementary ambitions: preserving the memory of an existing place and adapting it to contemporary use.",
@@ -422,28 +422,28 @@ export const PROJECT_I18N: Record<string, Partial<Record<"en" | "it", ProjectTra
       programme: "Sala ristorante, bancone, cucina professionale, spazi tecnici",
       longSections: [
         {
-          heading: "Rivelare la memoria di un luogo per dargli nuova vita",
+          heading: "Riqualificazione di una brasserie: rivelare la memoria di un luogo per dargli nuova vita",
           paragraphs: [
             "Nel cuore della rive gauche parigina, questo progetto di riqualificazione trasforma una brasserie degli anni '70 in un luogo contemporaneo, preservandone l'identità costruita nel corso dei decenni.",
             "Dietro una facciata discreta si cela un interno segnato dalla propria epoca, dove alcuni elementi architettonici testimoniano ancora la storia del luogo. L'ambizione del progetto non è cancellare questa memoria, ma al contrario farne il punto di partenza della progettazione. Gli elementi esistenti diventano così una materia architettonica capace di dialogare con nuovi usi e una scrittura contemporanea.",
           ],
         },
         {
-          heading: "Un'architettura d'interni tra eredità e modernità",
+          heading: "Design & Identity: un'architettura d'interni tra eredità e modernità",
           paragraphs: [
             "Il progetto si basa su un lavoro di rivelazione e reinterpretazione degli elementi presenti. I soffitti scultorei, gli specchi fumé, i serramenti metallici, le porte in legno originali e le piastrelle grafiche del seminterrato vengono conservati e valorizzati per preservare l'anima singolare della brasserie.",
             "Questi elementi storici sono associati a una tavolozza di materiali sobri e senza tempo — legno, metallo, vetro strutturato, pietra e ceramica — che prolungano l'identità del luogo senza cercare di riprodurne l'estetica passata. L'obiettivo è creare un equilibrio sottile tra la ricchezza dell'esistente e le attese contemporanee di un locale parigino.",
           ],
         },
         {
-          heading: "Un dialogo tra il ristorante e il suo contesto urbano",
+          heading: "Apertura In & Out: un dialogo tra la brasserie e il suo contesto urbano",
           paragraphs: [
             "La progettazione d'interni si inserisce in una riflessione più ampia sulla relazione tra la brasserie e il suo quartiere. Le tonalità minerali della rive gauche, le materie presenti nello spazio pubblico parigino e le sfumature del paesaggio urbano alimentano l'atmosfera del progetto.",
             "Questa continuità tra interno ed esterno permette di ancorare naturalmente il luogo al suo contesto, affermando al contempo un'identità propria. La brasserie diventa così uno spazio caldo e vivo, radicato nella propria storia e aperto sulla città.",
           ],
         },
         {
-          heading: "Una trasformazione pensata attorno agli usi",
+          heading: "Ottimizzazione dei flussi e degli spazi: una trasformazione pensata attorno agli usi",
           paragraphs: [
             "Al di là dell'atmosfera architettonica, il progetto ripensa l'intera organizzazione del locale per migliorare l'esperienza dei clienti e le condizioni di gestione.",
             "I percorsi, gli spazi di servizio e le zone tecniche sono ristrutturati per offrire maggiore fluidità, comfort ed efficienza quotidiana. Questa ristrutturazione di una brasserie parigina unisce così due ambizioni complementari: preservare la memoria di un luogo esistente e adattarlo agli usi contemporanei.",

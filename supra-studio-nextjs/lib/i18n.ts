@@ -13,7 +13,7 @@ export const LOCALE_PREFIX: Record<Lang, string> = {
 
 export const dict = {
   fr: {
-    nav: { studio: "Studio", projects: "Projets", services: "Services", contact: "Contact" },
+    nav: { studio: "Studio", projects: "Projets", journal: "Journal", services: "Services", contact: "Contact" },
     scroll: "Défiler",
     discoverStudio: "Découvrir le studio",
     learnMoreStudio: "En savoir plus sur le studio",
@@ -36,7 +36,7 @@ export const dict = {
       decline: "Refuser",
     },
     home: {
-      heroTitle: "Architecte d'intérieur Paris Paysagiste Paris",
+      heroTitleLines: ["Architecte d'intérieur à Paris", "Paysagiste à Paris"],
       heroSub:
         "Rénovation d'appartements, maisons neuves, commerces, hôtels, restaurants, bureaux et jardins, conçus dans une même vision architecturale.",
       introQuote:
@@ -70,7 +70,8 @@ export const dict = {
       visionText:
         "Ici se dévoilent nos projets d'architecture d'intérieur et de paysage, entre Paris, Bordeaux et Rome — appartements rénovés, maisons neuves, jardins et terrasses pensés comme des prolongements de l'espace habité. Chaque réalisation traduit une même recherche : celle d'une justesse entre matière, lumière et usage. Nous privilégions les matériaux naturels, les lignes épurées et une conception écoresponsable, pour des lieux qui traversent le temps sans jamais se démoder. Au fil de ces pages, vous découvrirez notre manière d'habiter les seuils — entre intérieur et extérieur, entre sobriété et caractère — et notre conviction que la simplicité, lorsqu'elle est juste, devient une forme de sophistication.",
       sectionLabel: "Le studio",
-      title: "Un duo, deux parcours",
+      title: "Deux parcours, une vision de l'Architecture d'Intérieur et du Paysage",
+      titleHome: "Un duo, deux parcours : L'Alliance de l'Architecture d'intérieur et du Paysage",
       p1: "Supra Studio, c'est la rencontre de deux parcours complémentaires et internationaux. Beatrice, diplômée de La Sapienza à Rome et habilitée HMONP à Paris, a travaillé au sein d'agences d'architecture à Paris. Paul, formé à Bordeaux en architecture d'intérieur et en paysage, a lui aussi travaillé à Paris, au sein d'agences d'architecture et de paysage.",
       p2: "Ensemble, ils mettent en commun leurs expertises en architecture d'intérieur et en architecture paysagère, guidés par une même exigence de justesse, de créativité et de qualité, de la conception au suivi de chantier.",
       partnersLabel: "Nos partenaires",
@@ -89,7 +90,8 @@ export const dict = {
     },
     servicesPage: {
       label: "Nos services",
-      title: "Un accompagnement complet, de l'idée à la réalisation",
+      title: "Un Accompagnement Sur-Mesure : De la Conception à la Maîtrise d'Œuvre",
+      h1Title: "Architecture d'Intérieur & Paysage : Nos Prestations Sur-Mesure",
       intro:
         "Supra Studio réunit des compétences en architecture d'intérieur et en architecture paysagère, enrichies par une formation et une expérience en conception architecturale. Quatre missions complémentaires, mobilisables ensemble ou séparément selon les besoins de votre projet.",
       steps: [
@@ -119,7 +121,7 @@ export const dict = {
         },
       ],
       methodLabel: "Notre méthode de travail",
-      methodTitle: "De la rencontre à la livraison",
+      methodTitle: "De la rencontre à la livraison : Notre processus de conception et maîtrise d'œuvre",
       methodSteps: [
         {
           num: "01",
@@ -155,7 +157,8 @@ export const dict = {
     },
     projectsPage: {
       label: "Réalisations",
-      title: "Nos projets",
+      title: "Nos réalisations en Architecture d'intérieur et Paysage",
+      h1Title: "Nos Projets d'Architecture d'Intérieur et Paysage : Paris, Bordeaux & Rome",
       desc: "Appartements rénovés, maisons neuves, jardins et commerces — chaque projet traduit une même recherche de justesse entre matière, lumière et usage, entre Paris, Bordeaux et Rome.",
       presented: "Projets présentés",
       countries: "Pays représentés",
@@ -165,9 +168,31 @@ export const dict = {
       surfaceLabel: "Surface",
       yearLabel: "Année",
     },
+    journalPage: {
+      label: "Journal",
+      title: "Le Journal de Supra Studio",
+      h1Title: "Journal : Architecture d'Intérieur, Paysage & Actualités du Studio",
+      desc: "Coulisses de chantier, réflexions sur la matière et la lumière, actualités du studio : le journal de Supra Studio, entre Paris, Bordeaux et Rome.",
+      backToJournal: "← Tous les articles",
+      readMore: "Lire l'article →",
+      publishedOn: "Publié le",
+      minRead: "min de lecture",
+      discoverAlso: "À lire aussi",
+      empty: "Les premiers articles arrivent très bientôt.",
+    },
+    reviews: {
+      label: "Avis clients",
+      title: "Ils nous font confiance",
+      studioTitle: "Une relation de confiance, du premier échange à la livraison",
+      servicesTitle: "Une conception et une maîtrise d'œuvre saluées par nos clients",
+      ratingBadgeLabel: "Note Google",
+      reviewsCountSuffix: "avis",
+      linkText: "Voir tous nos avis sur Google →",
+    },
     contactPage: {
       label: "Contact",
       title: "Parlons de votre projet",
+      h1Title: "Architecte d'Intérieur & Paysagiste à Paris : Parlons de Votre Projet",
       formName: "Nom",
       formEmail: "Email",
       formPhone: "Téléphone",
@@ -205,6 +230,11 @@ export const dict = {
         description:
           "Appartements rénovés, maisons neuves, jardins et restaurants : découvrez les réalisations de Supra Studio à Paris, Bordeaux et Rome.",
       },
+      journal: {
+        title: "Journal — Supra Studio | Architecture d'intérieur & Paysage",
+        description:
+          "Le journal de Supra Studio : coulisses de chantier, réflexions sur la matière et la lumière, actualités du studio, entre Paris, Bordeaux et Rome.",
+      },
       contact: {
         title: "Contact — Supra Studio | Architecte d'intérieur & Paysagiste Paris",
         description:
@@ -222,7 +252,7 @@ export const dict = {
     },
   },
   en: {
-    nav: { studio: "Studio", projects: "Projects", services: "Services", contact: "Contact" },
+    nav: { studio: "Studio", projects: "Projects", journal: "Journal", services: "Services", contact: "Contact" },
     scroll: "Scroll",
     discoverStudio: "Discover the studio",
     learnMoreStudio: "Learn more about the studio",
@@ -245,7 +275,7 @@ export const dict = {
       decline: "Decline",
     },
     home: {
-      heroTitle: "Interior Architect Paris Landscape Designer Paris",
+      heroTitleLines: ["Interior Architect in Paris", "Landscape Designer in Paris"],
       heroSub:
         "Apartment renovations, new houses, shops, hotels, restaurants, offices and gardens, designed within a single architectural vision.",
       introQuote:
@@ -279,7 +309,8 @@ export const dict = {
       visionText:
         "Here you'll discover our interior architecture and landscape projects, between Paris, Bordeaux and Rome — renovated apartments, new houses, gardens and terraces conceived as extensions of the living space. Each project reflects the same pursuit: a rightness between material, light and use. We favour natural materials, clean lines and an eco-responsible approach, for places that stand the test of time without ever going out of style. Throughout these pages, you'll discover our way of inhabiting thresholds — between indoors and outdoors, between restraint and character — and our conviction that simplicity, when it is right, becomes a form of sophistication.",
       sectionLabel: "The studio",
-      title: "A duo, two paths",
+      title: "Two paths, one vision of Interior Architecture and Landscape Design",
+      titleHome: "A duo, two paths: The Alliance of Interior Architecture and Landscape Design",
       p1: "Supra Studio is the meeting of two complementary, international paths. Beatrice, a graduate of La Sapienza in Rome and HMONP-qualified in Paris, worked within architecture firms in Paris. Paul, trained in Bordeaux in interior architecture and landscape design, also worked in Paris, within architecture and landscape agencies.",
       p2: "Together, they combine their expertise in interior architecture and landscape architecture, guided by the same demand for precision, creativity and quality, from design through to site supervision.",
       partnersLabel: "Our partners",
@@ -298,7 +329,8 @@ export const dict = {
     },
     servicesPage: {
       label: "Our services",
-      title: "Complete support, from idea to completion",
+      title: "Bespoke Support: From Design to Site Supervision",
+      h1Title: "Interior Architecture & Landscape Design: Our Bespoke Services",
       intro:
         "Supra Studio brings together expertise in interior architecture and landscape architecture, enriched by training and experience in architectural design. Four complementary services, which can be mobilised together or separately depending on your project's needs.",
       steps: [
@@ -328,7 +360,7 @@ export const dict = {
         },
       ],
       methodLabel: "Our working method",
-      methodTitle: "From first meeting to handover",
+      methodTitle: "From First Meeting to Handover: Our Design and Site Supervision Process",
       methodSteps: [
         {
           num: "01",
@@ -364,7 +396,8 @@ export const dict = {
     },
     projectsPage: {
       label: "Our work",
-      title: "Our projects",
+      title: "Our Interior Architecture and Landscape Projects",
+      h1Title: "Our Interior Architecture and Landscape Design Projects: Paris, Bordeaux & Rome",
       desc: "Renovated apartments, new houses, gardens and shops — every project reflects the same pursuit of rightness between material, light and use, between Paris, Bordeaux and Rome.",
       presented: "Projects featured",
       countries: "Countries represented",
@@ -374,9 +407,31 @@ export const dict = {
       surfaceLabel: "Area",
       yearLabel: "Year",
     },
+    journalPage: {
+      label: "Journal",
+      title: "The Supra Studio Journal",
+      h1Title: "Journal: Interior Architecture, Landscape Design & Studio News",
+      desc: "Behind the scenes on site, thoughts on material and light, studio news: the Supra Studio journal, between Paris, Bordeaux and Rome.",
+      backToJournal: "← All articles",
+      readMore: "Read the article →",
+      publishedOn: "Published on",
+      minRead: "min read",
+      discoverAlso: "Also worth reading",
+      empty: "The first articles are coming very soon.",
+    },
+    reviews: {
+      label: "Client reviews",
+      title: "Trusted by our clients",
+      studioTitle: "A trusted relationship, from the first conversation to handover",
+      servicesTitle: "Design and site supervision praised by our clients",
+      ratingBadgeLabel: "Google rating",
+      reviewsCountSuffix: "reviews",
+      linkText: "See all our reviews on Google →",
+    },
     contactPage: {
       label: "Contact",
       title: "Let's talk about your project",
+      h1Title: "Interior Architect & Landscape Designer in Paris: Let's Talk About Your Project",
       formName: "Name",
       formEmail: "Email",
       formPhone: "Phone",
@@ -414,6 +469,11 @@ export const dict = {
         description:
           "Renovated apartments, new houses, gardens and restaurants: discover Supra Studio's projects in Paris, Bordeaux and Rome.",
       },
+      journal: {
+        title: "Journal — Supra Studio | Interior Architecture & Landscape",
+        description:
+          "The Supra Studio journal: behind the scenes on site, thoughts on material and light, studio news, between Paris, Bordeaux and Rome.",
+      },
       contact: {
         title: "Contact — Supra Studio | Interior Architect & Landscape Designer Paris",
         description:
@@ -431,7 +491,7 @@ export const dict = {
     },
   },
   it: {
-    nav: { studio: "Studio", projects: "Progetti", services: "Servizi", contact: "Contatti" },
+    nav: { studio: "Studio", projects: "Progetti", journal: "Journal", services: "Servizi", contact: "Contatti" },
     scroll: "Scorri",
     discoverStudio: "Scopri lo studio",
     learnMoreStudio: "Scopri di più sullo studio",
@@ -454,7 +514,7 @@ export const dict = {
       decline: "Rifiuta",
     },
     home: {
-      heroTitle: "Architetto d'interni Parigi Paesaggista Parigi",
+      heroTitleLines: ["Architetto d'Interni a Parigi", "Paesaggista a Parigi"],
       heroSub:
         "Ristrutturazione di appartamenti, case nuove, negozi, hotel, ristoranti, uffici e giardini, concepiti secondo un'unica visione architettonica.",
       introQuote:
@@ -488,7 +548,8 @@ export const dict = {
       visionText:
         "Qui si svelano i nostri progetti di architettura d'interni e di paesaggio, tra Parigi, Bordeaux e Roma — appartamenti ristrutturati, case nuove, giardini e terrazze concepiti come prolungamenti dello spazio abitato. Ogni realizzazione racconta la stessa ricerca: quella di un giusto equilibrio tra materia, luce e uso. Prediligiamo materiali naturali, linee essenziali e una progettazione eco-responsabile, per luoghi capaci di attraversare il tempo senza mai passare di moda. Sfogliando queste pagine scoprirete il nostro modo di abitare le soglie — tra interno ed esterno, tra sobrietà e carattere — e la nostra convinzione che la semplicità, quando è giusta, diventa una forma di raffinatezza.",
       sectionLabel: "Lo studio",
-      title: "Un duo, due percorsi",
+      title: "Due percorsi, una visione dell'Architettura d'Interni e del Paesaggio",
+      titleHome: "Un duo, due percorsi: L'Alleanza tra Architettura d'Interni e Paesaggio",
       p1: "Supra Studio nasce dall'incontro di due percorsi complementari e internazionali. Beatrice, laureata alla Sapienza di Roma e abilitata HMONP a Parigi, ha lavorato presso studi di architettura a Parigi. Paul, formatosi a Bordeaux in architettura d'interni e paesaggio, ha lavorato anch'egli a Parigi, presso studi di architettura e paesaggio.",
       p2: "Insieme mettono in comune le loro competenze in architettura d'interni e architettura del paesaggio, guidati dalla stessa esigenza di precisione, creatività e qualità, dalla progettazione fino alla direzione lavori.",
       partnersLabel: "I nostri partner",
@@ -507,7 +568,8 @@ export const dict = {
     },
     servicesPage: {
       label: "I nostri servizi",
-      title: "Un accompagnamento completo, dall'idea alla realizzazione",
+      title: "Un Accompagnamento Su Misura: Dalla Progettazione alla Direzione Lavori",
+      h1Title: "Architettura d'Interni & Paesaggio: I Nostri Servizi Su Misura",
       intro:
         "Supra Studio riunisce competenze in architettura d'interni e architettura del paesaggio, arricchite da una formazione e un'esperienza nella progettazione architettonica. Quattro missioni complementari, attivabili insieme o separatamente a seconda delle esigenze del vostro progetto.",
       steps: [
@@ -537,7 +599,7 @@ export const dict = {
         },
       ],
       methodLabel: "Il nostro metodo di lavoro",
-      methodTitle: "Dall'incontro alla consegna",
+      methodTitle: "Dall'Incontro alla Consegna: Il Nostro Processo di Progettazione e Direzione Lavori",
       methodSteps: [
         {
           num: "01",
@@ -573,7 +635,8 @@ export const dict = {
     },
     projectsPage: {
       label: "Realizzazioni",
-      title: "I nostri progetti",
+      title: "Le nostre realizzazioni in Architettura d'Interni e Paesaggio",
+      h1Title: "I Nostri Progetti di Architettura d'Interni e Paesaggio: Parigi, Bordeaux e Roma",
       desc: "Appartamenti ristrutturati, case nuove, giardini e negozi — ogni progetto racconta la stessa ricerca di coerenza tra materia, luce e uso, tra Parigi, Bordeaux e Roma.",
       presented: "Progetti presentati",
       countries: "Paesi rappresentati",
@@ -583,9 +646,31 @@ export const dict = {
       surfaceLabel: "Superficie",
       yearLabel: "Anno",
     },
+    journalPage: {
+      label: "Journal",
+      title: "Il Journal di Supra Studio",
+      h1Title: "Journal: Architettura d'Interni, Paesaggio e Novità dello Studio",
+      desc: "Dietro le quinte del cantiere, riflessioni sulla materia e sulla luce, novità dello studio: il journal di Supra Studio, tra Parigi, Bordeaux e Roma.",
+      backToJournal: "← Tutti gli articoli",
+      readMore: "Leggi l'articolo →",
+      publishedOn: "Pubblicato il",
+      minRead: "min di lettura",
+      discoverAlso: "Da leggere anche",
+      empty: "I primi articoli arrivano molto presto.",
+    },
+    reviews: {
+      label: "Recensioni clienti",
+      title: "La fiducia dei nostri clienti",
+      studioTitle: "Un rapporto di fiducia, dal primo scambio alla consegna",
+      servicesTitle: "Progettazione e direzione lavori apprezzate dai nostri clienti",
+      ratingBadgeLabel: "Valutazione Google",
+      reviewsCountSuffix: "recensioni",
+      linkText: "Vedi tutte le recensioni su Google →",
+    },
     contactPage: {
       label: "Contatti",
       title: "Parliamo del vostro progetto",
+      h1Title: "Architetto d'Interni & Paesaggista a Parigi: Parliamo del Vostro Progetto",
       formName: "Nome",
       formEmail: "Email",
       formPhone: "Telefono",
@@ -622,6 +707,11 @@ export const dict = {
         title: "I Nostri Progetti — Supra Studio | Architettura d'interni e Paesaggio",
         description:
           "Appartamenti ristrutturati, case nuove, giardini e ristoranti: scoprite le realizzazioni di Supra Studio a Parigi, Bordeaux e Roma.",
+      },
+      journal: {
+        title: "Journal — Supra Studio | Architettura d'interni e Paesaggio",
+        description:
+          "Il journal di Supra Studio: dietro le quinte del cantiere, riflessioni sulla materia e sulla luce, novità dello studio, tra Parigi, Bordeaux e Roma.",
       },
       contact: {
         title: "Contatti — Supra Studio | Architetto d'interni e Paesaggista Parigi",

@@ -16,7 +16,10 @@ export default function Hero({ lang = "fr" }: { lang?: Lang }) {
 
       <div className="hero-content">
         <p className="hero-eyebrow">Paris · Bordeaux · Rome</p>
-        <h1 className="hero-title">{t.home.heroTitle}</h1>
+        <h1 className="hero-title">
+          <span className="hero-title-line">{t.home.heroTitleLines[0]}</span>
+          <span className="hero-title-line">{t.home.heroTitleLines[1]}</span>
+        </h1>
         <div className="hero-foot">
           <p className="hero-sub">{t.home.heroSub}</p>
           <a href={localizedHref("/studio", lang)} className="btn btn-light">

@@ -29,7 +29,7 @@ export default function ProjetsPage() {
               <div className="section-label">
                 <span>{t.projectsPage.label}</span>
               </div>
-              <h1 className="section-title">{t.projectsPage.title}</h1>
+              <h1 className="section-title">{t.projectsPage.h1Title}</h1>
               <p>{t.projectsPage.desc}</p>
             </div>
             <div className="page-hero-stats">
