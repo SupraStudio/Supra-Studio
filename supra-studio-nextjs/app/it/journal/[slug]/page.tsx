@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JOURNAL_ARTICLES } from "@/lib/journal";
+import { localizeArticle } from "@/lib/journal.i18n";
 import { dict, hreflangAlternates } from "@/lib/i18n";
 import JournalDetail, { getArticleBySlug } from "@/components/JournalDetail";
 
@@ -12,10 +13,11 @@ export function generateMetadata({
 }: {
   params: { slug: string };
 }): Metadata {
-  const article = getArticleBySlug(params.slug);
-  if (!article) return {};
+  const raw = getArticleBySlug(params.slug);
+  if (!raw) return {};
+  const article = localizeArticle(raw, "it");
   return {
-    title: `${article.title} — Supra Studio`,
+    title: `${article.metaTitle || article.title} — Supra Studio`,
     description: article.excerpt,
     alternates: hreflangAlternates(`/journal/${article.slug}`),
   };
