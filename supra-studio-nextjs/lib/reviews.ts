@@ -53,7 +53,7 @@ export const REVIEWS: Review[] = [
     quote:
       "J'ai eu une excellente expérience avec Supra Studio. Ils ont conçu un jardin méditerranéen exactement comme je l'imaginais, en parfaite harmonie avec mes goûts. Très à l'écoute dès le début, ils ont su transformer mes besoins en solutions créatives et concrètes. Le travail a été réalisé rapidement et avec beaucoup de professionnalisme. Je recommande vivement pour leur compétence, leur efficacité et leur approche personnalisée.",
     author: "Antonella D.",
-    context: "Jardin méditerranéen, Sabaudia",
+    context: "Giardino De Ninno, Sabaudia",
     rating: 5,
   },
   {
@@ -65,7 +65,7 @@ export const REVIEWS: Review[] = [
     quote:
       "I had a fantastic experience working with Supra Studio. Beatrice and Paul have been helping me with my house project in Rome, and I couldn't be happier with their work. They are not only highly skilled but also incredibly thoughtful in the way they guide you through the entire process. From the very beginning, they took the time to understand my vision and consistently brought fresh, creative ideas that I wouldn't have thought of myself. What I really appreciated is how they made everything feel clear and manageable, even when decisions were complex. Their professionalism, attention to detail, and ability to translate ideas into something tangible truly stand out. I always felt supported and confident moving forward thanks to their guidance. Highly recommend them if you're looking for a team that combines creativity with a strong sense of client care.",
     author: "Brian D.",
-    context: "Maison, Rome",
+    context: "Casa Duy, Rome",
     rating: 5,
   },
 ];

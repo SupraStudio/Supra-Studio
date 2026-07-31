@@ -14,12 +14,12 @@ export const REVIEWS_I18N: Record<string, Partial<Record<"en" | "it", ReviewTran
     it: { context: "Casa Kléber, Bordeaux" },
   },
   "antonella-de-ninno": {
-    en: { context: "Mediterranean garden, Sabaudia" },
-    it: { context: "Giardino mediterraneo, Sabaudia" },
+    en: { context: "Giardino De Ninno, Sabaudia" },
+    it: { context: "Giardino De Ninno, Sabaudia" },
   },
   "brian-duy-nguyen": {
-    en: { context: "House project, Rome" },
-    it: { context: "Progetto casa, Roma" },
+    en: { context: "Casa Duy, Rome" },
+    it: { context: "Casa Duy, Roma" },
   },
 };
 

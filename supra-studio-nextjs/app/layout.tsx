@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Supra Studio",
     locale: "fr_FR",
     type: "website",
-    images: ["/assets/images/jardin-piscine-villa-sabaudia-italie.jpg"],
+    images: ["/assets/images/maison-kleber-bordeaux-salon-escalier.jpg"],
   },
   alternates: {
     canonical: "https://www.suprastudio.fr",
@@ -33,7 +33,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   name: "Supra Studio",
-  image: "https://www.suprastudio.fr/assets/images/jardin-piscine-villa-sabaudia-italie.jpg",
+  image: "https://www.suprastudio.fr/assets/images/maison-kleber-bordeaux-salon-escalier.jpg",
   "@id": "https://www.suprastudio.fr",
   url: "https://www.suprastudio.fr",
   telephone: "+33643853761",

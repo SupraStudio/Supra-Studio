@@ -54,6 +54,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "19th-century apartments were designed with a highly compartmentalised layout (a suite of interconnecting rooms, isolated service areas). Contemporary renovation aims to reintroduce fluidity and clarity.",
             "Opening up large living spaces (living room/kitchen) is achieved by removing non-load-bearing partitions or creating openings under steel beams. To preserve the memory of the original rooms, ceiling mouldings that subtly mark the former boundaries are kept.",
           ],
+          image: {
+            src: "/assets/images/renovation-appartement-ancien-salon-cheminee-marbre-paris.jpg",
+            caption: "Renovated living room: restored marble fireplace and herringbone parquet",
+          },
         },
         {
           heading: "3. Bespoke joinery as a bridge between eras",
@@ -120,6 +124,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Gli appartamenti del XIX secolo erano concepiti secondo una distribuzione molto compartimentata (infilata di saloni, ambienti di servizio isolati). La ristrutturazione contemporanea mira a reintrodurre fluidità e chiarezza.",
             "L'apertura di grandi spazi di vita (soggiorno/cucina) avviene grazie alla rimozione di tramezzature non portanti o alla creazione di aperture su travi metalliche. Per conservare la memoria degli ambienti originali, si mantengono a soffitto le cornici che segnano sottilmente gli antichi limiti.",
           ],
+          image: {
+            src: "/assets/images/renovation-appartement-ancien-salon-cheminee-marbre-paris.jpg",
+            caption: "Salotto ristrutturato: camino in marmo e parquet a spina ungherese restaurati",
+          },
         },
         {
           heading: "3. La falegnameria su misura come trait d'union",
@@ -208,6 +216,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Targeted functional lighting:** invisible LED strips built into the wall units to evenly light the worktop.",
             "**Theatrical ambient lighting:** designer pendants above the island and recessed low-glare spotlights to create a warm, intimate atmosphere once the meal is served.",
           ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-sur-mesure-salon-vue-paris.jpg",
+            caption: "Open-plan kitchen in entertaining mode, at dusk",
+          },
         },
         {
           heading: "Your bespoke layout project with the Studio",
@@ -274,6 +286,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Un'illuminazione funzionale mirata:** strisce LED invisibili integrate sotto i pensili per illuminare il piano di lavoro in modo omogeneo.",
             "**Un'illuminazione d'atmosfera teatrale:** sospensioni di design sopra l'isola e faretti incassati a bassa luminanza per creare un'atmosfera calda e intima non appena il pasto viene servito.",
           ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-sur-mesure-salon-vue-paris.jpg",
+            caption: "Cucina open space in modalità ricevimento, al calar della sera",
+          },
         },
         {
           heading: "Il vostro progetto di arredo su misura con lo Studio",
@@ -302,6 +318,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
           paragraphs: [
             "A successful primary suite layout is built around circulation. Boundaries become lighter: traditional hinged doors give way to wooden screens, patinated metal glazed partitions or sliding Japanese-style panels, allowing light to travel through the full depth of the space.",
           ],
+          image: {
+            src: "/assets/images/suite-parentale-chambre-parisienne-salle-de-bain-marbre.jpg",
+            caption: "Parisian primary suite, bedroom and marble bathroom",
+          },
         },
         {
           heading: "1. The architectural headboard: The bedroom's founding element",
@@ -362,6 +382,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
           paragraphs: [
             "L'organizzazione di una suite padronale riuscita si basa sulla circolazione. I confini si alleggeriscono: le porte battenti tradizionali lasciano il posto a frangivista in legno, vetrate in metallo patinato o pareti scorrevoli in stile giapponese, permettendo alla luce di attraversare tutta la profondità del volume.",
           ],
+          image: {
+            src: "/assets/images/suite-parentale-chambre-parisienne-salle-de-bain-marbre.jpg",
+            caption: "Suite padronale parigina, camera e bagno in marmo",
+          },
         },
         {
           heading: "1. La testata del letto architettonica: Elemento fondante della camera",
@@ -469,6 +493,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Whether you have just acquired a property to restructure or wish to transform your current residence, our interior architecture practice designs bespoke projects built to last.",
             "**Have a whole-home renovation project?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
           ],
+          image: {
+            src: "/assets/images/renovation-globale-maitrise-oeuvre-architecte-client.jpg",
+            caption: "A trusted relationship between architect and client, from first conversation to handover",
+          },
         },
       ],
       keywords: ["Whole-home renovation", "Apartment restructuring", "Site supervision"],
@@ -533,6 +561,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "Che abbiate appena acquisito un immobile da ristrutturare o desideriate trasformare la vostra residenza attuale, il nostro studio di architettura d'interni progetta interventi su misura pensati per durare.",
             "**Avete un progetto di ristrutturazione globale?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
           ],
+          image: {
+            src: "/assets/images/renovation-globale-maitrise-oeuvre-architecte-client.jpg",
+            caption: "Un rapporto di fiducia tra architetto e cliente, dal primo incontro alla consegna",
+          },
         },
       ],
       keywords: ["Ristrutturazione globale", "Ristrutturazione appartamento", "Direzione lavori"],
@@ -557,6 +589,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Working with the void:** knowing how to preserve pockets of air and breathing room. In high-end contemporary architecture, the void isn't a lack but a compositional element in its own right that showcases the key pieces.",
             "**Perspectives and alignments:** creating visual enfilades and clear vanishing lines that run through the apartment or house from end to end.",
           ],
+          image: {
+            src: "/assets/images/architecture-interieur-volumes-lumiere-escalier-suspendu.jpg",
+            caption: "Suspended staircase and skylight, a play of architectural volumes",
+          },
         },
         {
           heading: "2. Light as a building material",
@@ -618,6 +654,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Il lavoro sul vuoto:** saper preservare spazi d'aria e di respiro. In un'architettura contemporanea di alta gamma, il vuoto non è una mancanza, ma un elemento compositivo a pieno titolo che valorizza gli elementi principali.",
             "**Le prospettive e gli allineamenti:** creare infilate visive e assi di fuga chiari che attraversano l'appartamento o la casa da un capo all'altro.",
           ],
+          image: {
+            src: "/assets/images/architecture-interieur-volumes-lumiere-escalier-suspendu.jpg",
+            caption: "Scala sospesa e lucernario, un gioco di volumi architettonici",
+          },
         },
         {
           heading: "2. La luce come materiale da costruzione",
@@ -952,6 +992,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "It's probably the most persistent misconception: people imagine the interior architect as someone who comes to choose a paint colour or match up cushions. In reality, their work begins much earlier — with understanding what already exists. Structural constraints of the building, the flow of natural light, the location of utilities (water, electricity, ventilation), co-ownership rules: all technical elements that an untrained eye doesn't always know how to read, yet which determine what is actually possible to do in a space.",
             "An interior architect designs a project as a whole — layout, volumes, materials, light, uses — before turning to decoration. It's this overall vision that sets a thoughtfully designed interior apart from one that has simply been decorated.",
           ],
+          image: {
+            src: "/assets/images/architectes-echange-materiaux-projet-paris.png",
+            caption: "Discussing materials and plans for a project, Supra Studio",
+          },
         },
         {
           heading: "Saving time and avoiding costly mistakes",
@@ -1011,6 +1055,10 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "È probabilmente il luogo comune più radicato: si immagina l'architetto d'interni come qualcuno che viene a scegliere una tinta o ad abbinare dei cuscini. In realtà, il suo lavoro inizia molto prima — nella comprensione dell'esistente. Vincoli strutturali dell'edificio, distribuzione della luce naturale, posizione degli impianti (acqua, elettricità, ventilazione), regole condominiali: tutti elementi tecnici che un occhio inesperto non sa sempre leggere, ma che determinano ciò che è realmente possibile fare in un luogo.",
             "Un architetto d'interni concepisce un progetto globale — piante, volumi, materiali, luce, usi — prima di occuparsi della decorazione. È questa visione d'insieme a distinguere un interno pensato da un interno semplicemente decorato.",
           ],
+          image: {
+            src: "/assets/images/architectes-echange-materiaux-projet-paris.png",
+            caption: "Confronto sui materiali e sulle piante di un progetto, Supra Studio",
+          },
         },
         {
           heading: "Risparmiare tempo ed evitare errori costosi",

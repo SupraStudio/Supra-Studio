@@ -32,9 +32,8 @@ export default function Journal({ lang = "fr" }: { lang?: Lang }) {
                   <img src={a.cover} alt={a.title} loading="lazy" />
                 </div>
                 <div className="journal-card-body">
-                  <p className="journal-meta">
-                    <span className="journal-category">{a.category}</span>
-                    <span aria-hidden="true"> · </span>
+                  <p className="journal-category">{a.category}</p>
+                  <p className="journal-date">
                     <time dateTime={a.date}>{formatDate(a.date, lang)}</time>
                   </p>
                   <h3 className="journal-card-title">{a.title}</h3>

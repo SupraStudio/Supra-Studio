@@ -52,6 +52,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "C'est sans doute l'idée reçue la plus tenace : on imagine l'architecte d'intérieur comme quelqu'un qui vient choisir une peinture ou assortir des coussins. En réalité, son travail commence bien avant — dans la compréhension de l'existant. Contraintes structurelles du bâti, circulation de la lumière naturelle, emplacement des réseaux (eau, électricité, ventilation), règles de copropriété : autant d'éléments techniques qu'un œil non averti ne sait pas toujours lire, et qui déterminent pourtant ce qu'il est réellement possible de faire dans un lieu.",
           "Un architecte d'intérieur conçoit un projet global — plans, volumes, matières, lumière, usages — avant de s'intéresser à la décoration. C'est cette vision d'ensemble qui distingue un intérieur pensé d'un intérieur simplement décoré.",
         ],
+        image: {
+          src: "/assets/images/architectes-echange-materiaux-projet-paris.png",
+          caption: "Échange autour des matériaux et des plans d'un projet, Supra Studio",
+        },
       },
       {
         heading: "Gagner du temps et éviter les erreurs coûteuses",
@@ -110,12 +114,9 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Architecture In & Out : Créer une Continuité entre Intérieur et Jardin",
     excerpt:
       "Découvrez comment l'architecture d'intérieur et le design paysager s'unissent pour effacer les frontières entre maison et jardin. Conseils d'expert In & Out.",
-    date: "2026-07-14",
+    date: "2026-06-30",
     category: "Architecture d'Intérieur & Paysage",
     cover: "/assets/images/continuite-interieur-jardin-terrasse-jour.png",
-    // Bandeau de la page détail : la version nocturne, plus spectaculaire, en écho au
-    // dernier chapitre de l'article consacré à l'éclairage scénographique.
-    heroImage: "/assets/images/continuite-interieur-jardin-eclairage-nuit.jpg",
     readingTime: "5 min",
     intro:
       "Effacer la frontière entre le cocon intérieur et le paysage extérieur est l'un des piliers de l'architecture contemporaine. Quand le séjour semble se prolonger sur la terrasse et que le jardin s'invite dans le salon, l'espace gagne en volume, en sérénité et en clarté. Décryptage d'une démarche de conception In & Out.",
@@ -183,7 +184,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Aménager une Terrasse ou un Rooftop à Paris : Guide Design & Paysage",
     excerpt:
       "Comment végétaliser et aménager une terrasse ou un rooftop urbain à Paris ? Contraintes techniques, choix des plantes et mobilier sur-mesure.",
-    date: "2026-06-30",
+    date: "2026-06-16",
     category: "Design Paysager & Espaces Urbains",
     cover: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
     heroImage: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
@@ -258,7 +259,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Rénovation d'Appartement Ancien : Allier Patrimoine et Modernité",
     excerpt:
       "Comment rénover un appartement haussmannien ou ancien à Paris ? Conservation des moulures, agencement contemporain et matériaux nobles.",
-    date: "2026-08-04",
+    date: "2026-07-14",
     category: "Rénovation & Architecture d'Intérieur",
     cover: "/assets/images/renovation-appartement-ancien-salon-cheminee-marbre-paris.jpg",
     readingTime: "5 min",
@@ -290,6 +291,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "Les appartements du XIXe siècle étaient conçus selon une distribution très cloisonnée (enfilade de salons, pièces de service isolées). La rénovation contemporaine vise à réintroduire de la fluidité et de la clarté.",
           "L'ouverture de grands espaces de vie (séjour/cuisine) se fait grâce à la dépose de cloisons non porteuses ou à la création d'ouvertures sous IPN. Pour conserver la mémoire des pièces d'origine, on conserve au plafond les retombées de moulures qui marquent subtilement les anciennes limites.",
         ],
+        image: {
+          src: "/assets/images/renovation-appartement-ancien-salon-cheminee-marbre-paris.jpg",
+          caption: "Salon rénové : cheminée en marbre et parquet Point de Hongrie restaurés",
+        },
       },
       {
         heading: "3. La menuiserie sur-mesure comme trait d'union",
@@ -328,7 +333,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Cuisine Ouverte Haut de Gamme : Agencement & Luxe Sur-Mesure",
     excerpt:
       "Comment intégrer une cuisine ouverte sur-mesure dans une pièce de vie haut de gamme ? Matériaux nobles, îlot central minéral et électroménager invisible.",
-    date: "2026-08-11",
+    date: "2026-07-07",
     category: "Architecture d'Intérieur & Agencement",
     cover: "/assets/images/cuisine-ouverte-sur-mesure-salon-vue-paris.jpg",
     readingTime: "5 min",
@@ -380,6 +385,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "**Un éclairage fonctionnel ciblé :** rubans LED invisibles intégrés sous les meubles hauts pour éclairer le plan de travail de manière homogène.",
           "**Un éclairage d'ambiance théâtral :** suspensions design au-dessus de l'îlot et spots encastrés basse luminance pour créer une atmosphère chaleureuse et intimiste dès que le repas est servi.",
         ],
+        image: {
+          src: "/assets/images/cuisine-ouverte-sur-mesure-salon-vue-paris.jpg",
+          caption: "Cuisine ouverte en mode réception, à la tombée du jour",
+        },
       },
       {
         heading: "Votre projet d'agencement sur-mesure avec le Studio",
@@ -398,9 +407,9 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Concevoir une Suite Parentale d'Exception : Luxe, Dressing & Bains",
     excerpt:
       "Comment aménager une suite parentale haut de gamme ? Organisation de l'espace, dressing sur-mesure et salle de bains d'hôtel particulier.",
-    date: "2026-08-18",
+    date: "2026-06-23",
     category: "Architecture d'Intérieur & Espaces Privés",
-    cover: "/assets/images/suite-parentale-chambre-parisienne-salle-de-bain-marbre.jpg",
+    cover: "/assets/images/suite-parentale-dressing-sur-mesure-baignoire-ilot.jpg",
     readingTime: "5 min",
     intro:
       "Véritable sanctuaire privé au cœur de l'habitat, la suite parentale a profondément évolué. Loin de la simple chambre avec salle d'eau attenante, elle est aujourd'hui pensée comme une suite d'hôtel particulier : un espace fluide et intime regroupant nuit, dressing sur-mesure et salle de bains bien-être.",
@@ -410,6 +419,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
         paragraphs: [
           "L'agencement d'une suite parentale réussie repose sur la circulation. Les frontières s'allègent : les portes battantes traditionnelles s'effacent au profit de claustras en bois, de verrières en métal patiné ou de cloisons japonaises coulissantes, permettant à la lumière de traverser toute la profondeur du volume.",
         ],
+        image: {
+          src: "/assets/images/suite-parentale-chambre-parisienne-salle-de-bain-marbre.jpg",
+          caption: "Suite parentale parisienne, chambre et salle de bains en marbre",
+        },
       },
       {
         heading: "1. La tête de lit architecturale : Élément fondateur de la chambre",
@@ -462,10 +475,9 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "Rénovation Globale d'Appartement & Maison : Guide d'Architecture d'Intérieur",
     excerpt:
       "Comment aborder la rénovation globale et la restructuration complète d'un bien d'exception ? Processus, redistribution des volumes et valeur patrimoniale.",
-    date: "2026-08-25",
+    date: "2026-07-21",
     category: "Rénovation & Architecture d'Intérieur",
-    cover: "/assets/images/renovation-globale-maitrise-oeuvre-architecte-client.jpg",
-    heroImage: "/assets/images/renovation-globale-chantier-restructuration-appartement.jpg",
+    cover: "/assets/images/renovation-globale-chantier-restructuration-appartement.jpg",
     readingTime: "6 min",
     intro:
       "S'engager dans la rénovation globale d'un appartement ou d'une maison d'exception dépasse la simple remise au goût du jour. C'est l'opportunité de repenser intégralement l'expérience de l'habitat, d'adapter un lieu à un mode de vie contemporain et d'en pérenniser la valeur patrimoniale par des choix d'agencement et de matériaux exigeants.",
@@ -520,6 +532,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "Que vous veniez d'acquérir un bien à restructurer ou que vous souhaitiez métamorphoser votre résidence actuelle, notre agence d'architecture d'intérieur conçoit des projets sur-mesure façonnés pour durer.",
           "**Vous avez un projet de rénovation globale ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une première visite conseil, ou [contactez-nous](/contact) pour en discuter.",
         ],
+        image: {
+          src: "/assets/images/renovation-globale-maitrise-oeuvre-architecte-client.jpg",
+          caption: "Une relation de confiance entre l'architecte et le client, du premier échange à la livraison",
+        },
       },
     ],
     keywords: ["Rénovation globale", "Restructuration appartement", "Maîtrise d'œuvre"],
@@ -531,7 +547,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     metaTitle: "L'Architecture d'Intérieur : Sculpture des Volumes, Lumière & Matière",
     excerpt:
       "Comment la vision architecturale transforme un espace ? Découvrez l'art de sculpter les volumes, d'apprivoiser la lumière et d'orchestrer les matières nobles.",
-    date: "2026-09-01",
+    date: "2026-06-09",
     category: "Vision & Architecture d'Intérieur",
     cover: "/assets/images/architecture-interieur-volumes-lumiere-escalier-suspendu.jpg",
     readingTime: "6 min",
@@ -546,6 +562,10 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "**Le travail du vide :** savoir préserver des espaces d'air et de respiration. Dans une architecture contemporaine haut de gamme, le vide n'est pas un manque, mais un élément de composition à part entière qui met en valeur les pièces maîtresses.",
           "**Les perspectives et alignements :** créer des enfilades visuelles et des axes de fuite clairs qui traversent l'appartement ou la maison de part en part.",
         ],
+        image: {
+          src: "/assets/images/architecture-interieur-volumes-lumiere-escalier-suspendu.jpg",
+          caption: "Escalier suspendu et puits de lumière, jeu de volumes architecturaux",
+        },
       },
       {
         heading: "2. La lumière comme matériau de construction",
