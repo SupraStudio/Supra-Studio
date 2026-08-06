@@ -610,6 +610,112 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     keywords: ["Architecture d'intérieur", "Volumes et lumière", "Matériaux nobles"],
     relatedProjects: ["maison-kleber", "giardino-de-ninno"],
   },
+  {
+    slug: "materiaux-biosources-architecture-durable-interieur-paysage",
+    title:
+      "Les matériaux biosourcés en architecture : concevoir des espaces durables, sains et esthétiques",
+    metaTitle:
+      "Matériaux Biosourcés en Architecture : Espaces Durables et Sains",
+    excerpt:
+      "Bois, chanvre, paille, liège : comment les matériaux biosourcés transforment l'architecture, l'aménagement intérieur et le paysage vers plus de sobriété et de sensibilité.",
+    date: "2026-08-06",
+    category: "Matériaux & Éco-conception",
+    cover: "/assets/images/salon-materiaux-biosources-bois-pierre-paris.png",
+    readingTime: "6 min",
+    intro:
+      "Face aux enjeux environnementaux actuels, l'architecture évolue vers des pratiques plus responsables, intégrant davantage de matériaux naturels et renouvelables dans la conception des bâtiments, des espaces intérieurs et des jardins. Chez Supra Studio, nous considérons les matériaux biosourcés comme une véritable opportunité architecturale : ils permettent de créer des lieux plus sensibles, plus durables et davantage connectés à leur environnement.",
+    sections: [
+      {
+        heading: "Qu'est-ce qu'un matériau biosourcé ?",
+        paragraphs: [
+          "Un matériau biosourcé est un matériau issu en partie ou totalement de ressources renouvelables provenant du vivant : végétaux, animaux ou sous-produits agricoles. Contrairement aux matériaux conventionnels issus principalement de ressources fossiles ou minérales, il participe au développement d'une architecture plus circulaire en valorisant des matières naturelles disponibles.",
+          "Parmi les plus utilisés en architecture, on retrouve le bois et ses dérivés, la paille, le chanvre, le liège, la fibre de bois, le lin, la laine de mouton, la ouate de cellulose, ainsi que les enduits naturels à base de terre ou de chaux. Ces matériaux peuvent être employés aussi bien dans la structure d'un bâtiment que dans son isolation, son aménagement intérieur ou ses espaces paysagers.",
+        ],
+      },
+      {
+        heading: "Le bois, un matériau architectural intemporel",
+        paragraphs: [
+          "Le bois est probablement le matériau biosourcé le plus connu et le plus utilisé dans la construction. Grâce à ses qualités mécaniques, son faible impact carbone et son aspect chaleureux, il trouve sa place dans de nombreux projets contemporains : ossature, charpente, bardage extérieur, menuiseries, mobilier sur mesure, aménagements intérieurs.",
+          "Au-delà de ses performances techniques, le bois apporte une dimension sensible à l'architecture. Sa texture, son vieillissement naturel et ses variations de teintes créent des espaces vivants et authentiques. Dans une approche architecturale globale, le choix de l'essence, de son origine et de sa mise en œuvre devient un véritable parti pris esthétique.",
+        ],
+        image: {
+          src: "/assets/images/salon-materiaux-biosources-bois-pierre-paris.png",
+          caption:
+            "Salon parisien associant bois massif, pierre naturelle et terre cuite, Supra Studio",
+        },
+      },
+      {
+        heading: "Le chanvre et la paille : des isolants naturels performants",
+        paragraphs: [
+          "Les isolants biosourcés connaissent aujourd'hui un fort développement grâce à leurs performances thermiques et leur capacité à améliorer le confort intérieur. Le chanvre, par exemple, offre une bonne régulation naturelle de l'humidité, une isolation thermique efficace, un confort acoustique appréciable et un faible impact environnemental.",
+          "La paille, souvent associée à une architecture écologique alternative, est également un matériau performant lorsqu'elle est correctement mise en œuvre. Elle permet de réaliser des bâtiments énergétiquement performants tout en valorisant une ressource agricole locale — la preuve qu'une architecture durable peut aussi être innovante et contemporaine.",
+        ],
+      },
+      {
+        heading:
+          "Le bois, le liège et les fibres naturelles dans l'aménagement intérieur",
+        paragraphs: [
+          "L'utilisation des matériaux biosourcés ne concerne pas uniquement la construction : ils jouent également un rôle majeur en architecture intérieure. Les espaces intérieurs influencent directement notre perception du confort et de la qualité de vie, et les matériaux naturels permettent de créer des ambiances plus chaleureuses et intemporelles.",
+          "Dans un projet d'architecture intérieure, ils s'intègrent à travers des agencements sur mesure en bois massif, des panneaux décoratifs en fibres naturelles, des revêtements en liège, des textiles naturels (lin, laine, chanvre) ou des peintures et enduits naturels. Ils apportent une richesse sensorielle particulière — toucher, matière, odeur, lumière — pour des intérieurs agréables à vivre sur le long terme, et pas seulement beaux à regarder.",
+        ],
+      },
+      {
+        heading:
+          "Les matériaux naturels dans le paysage : reconnecter architecture et nature",
+        paragraphs: [
+          "L'approche biosourcée dépasse les limites du bâtiment et concerne également l'aménagement des espaces extérieurs. Dans un projet de paysage, le choix des matériaux influence fortement la relation entre architecture et environnement : terrasses en bois local, clôtures en bois non traité, mobilier extérieur en matériaux naturels, paillages végétaux, structures en fibres végétales, aménagements utilisant des ressources locales.",
+          "L'objectif est de créer des espaces extérieurs qui s'intègrent naturellement dans leur contexte tout en limitant leur impact environnemental. Le paysage devient alors un prolongement de l'architecture, conçu avec la même attention portée aux matières et aux usages.",
+        ],
+        image: {
+          src: "/assets/images/patio-terre-crue-pierre-naturelle-materiaux-biosources.png",
+          caption:
+            "Patio en terre crue et pierre naturelle, végétation méditerranéenne",
+          afterParagraph: 1,
+        },
+      },
+      {
+        heading: "Réduire l'impact environnemental du projet",
+        paragraphs: [
+          "Les matériaux biosourcés contribuent à diminuer l'empreinte carbone des constructions grâce à leur origine renouvelable, à une capacité de stockage du carbone pour certains matériaux comme le bois, à une production souvent moins énergivore et à une valorisation des ressources locales. Ils participent ainsi à une démarche d'architecture plus responsable.",
+        ],
+      },
+      {
+        heading: "Améliorer le confort des habitants",
+        paragraphs: [
+          "Au-delà de l'aspect environnemental, les matériaux naturels améliorent également la qualité des espaces : meilleure régulation de l'humidité, confort thermique renforcé, qualité acoustique et atmosphère intérieure plus saine. L'architecture durable ne se limite donc pas à la performance énergétique : elle concerne aussi le bien-être quotidien des occupants.",
+        ],
+      },
+      {
+        heading: "Donner une identité unique au projet",
+        paragraphs: [
+          "Chaque matériau possède une histoire, une texture et une manière particulière de vieillir. Le choix de matériaux biosourcés permet de créer des espaces plus authentiques et moins standardisés. Dans une démarche d'architecture sur mesure, la matière devient un élément essentiel du projet, au même titre que la lumière, les volumes ou les usages.",
+        ],
+      },
+      {
+        heading: "Vers une architecture plus durable et plus sensible",
+        paragraphs: [
+          "L'utilisation des matériaux biosourcés représente une évolution majeure dans les métiers de l'architecture, de l'architecture intérieure et du paysage. Plus qu'une simple tendance écologique, ils offrent une nouvelle manière de concevoir les espaces : une architecture attentive aux ressources, aux usages et aux sensations.",
+          "Chez Supra Studio, nous intégrons cette réflexion dans nos projets en recherchant un équilibre entre design contemporain, qualité des matériaux et respect de l'environnement. Une architecture durable n'est pas seulement une architecture qui consomme moins : c'est une architecture qui crée des lieux plus agréables, plus justes et plus durables dans le temps.",
+          "**Vous portez un projet intégrant des matériaux naturels ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une première visite conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes sur les matériaux biosourcés",
+        paragraphs: [
+          "**Quels sont les principaux matériaux biosourcés utilisés en architecture ?** Le bois, le chanvre, la paille, le liège, la fibre de bois, le lin, la laine de mouton et la ouate de cellulose.",
+          "**Les matériaux biosourcés sont-ils adaptés à la rénovation ?** Oui : leurs qualités d'isolation, de régulation de l'humidité et leur capacité à améliorer le confort intérieur en font un choix particulièrement pertinent en rénovation.",
+          "**Les matériaux biosourcés sont-ils plus chers ?** Le coût dépend du matériau choisi, de sa disponibilité et de sa mise en œuvre. Certains représentent un investissement initial supérieur, mais offrent souvent des bénéfices durables en termes de confort et de performance.",
+          "**Peut-on utiliser des matériaux biosourcés dans un projet haut de gamme ?** Oui : ils sont aujourd'hui largement utilisés dans des projets premium grâce à leur qualité esthétique, leur authenticité et leur capacité à créer des espaces uniques.",
+        ],
+      },
+    ],
+    keywords: [
+      "Matériaux biosourcés",
+      "Architecture durable",
+      "Éco-conception",
+    ],
+    relatedProjects: ["maison-kleber", "giardino-de-ninno"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

@@ -1110,6 +1110,198 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "materiaux-biosources-architecture-durable-interieur-paysage": {
+    en: {
+      title:
+        "Bio-based materials in architecture: designing sustainable, healthy and beautiful spaces",
+      metaTitle: "Bio-Based Materials in Architecture: Sustainable, Healthy Spaces",
+      excerpt:
+        "Wood, hemp, straw, cork: how bio-based materials are transforming architecture, interior design and landscaping towards more sobriety and sensitivity.",
+      category: "Materials & Eco-Design",
+      readingTime: "6 min",
+      intro:
+        "Faced with today's environmental challenges, architecture is moving towards more responsible practices, integrating more natural and renewable materials into the design of buildings, interior spaces and gardens. At Supra Studio, we see bio-based materials as a genuine architectural opportunity: they help create places that are more sensitive, more sustainable and more connected to their surroundings.",
+      sections: [
+        {
+          heading: "What is a bio-based material?",
+          paragraphs: [
+            "A bio-based material is a material derived, in part or entirely, from renewable resources of living origin: plants, animals or agricultural by-products. Unlike conventional materials derived mainly from fossil or mineral resources, it contributes to a more circular architecture by making use of available natural matter.",
+            "Among the most widely used in architecture are wood and its derivatives, straw, hemp, cork, wood fibre, linen, sheep's wool, cellulose wadding, and natural earth or lime-based renders. These materials can be used in a building's structure as much as in its insulation, interior fittings or landscaped spaces.",
+          ],
+        },
+        {
+          heading: "Wood, a timeless architectural material",
+          paragraphs: [
+            "Wood is probably the best-known and most widely used bio-based material in construction. Thanks to its mechanical qualities, low carbon footprint and warm appearance, it finds its place in many contemporary projects: framing, roof structures, exterior cladding, joinery, bespoke furniture, interior fittings.",
+            "Beyond its technical performance, wood brings a sensory dimension to architecture. Its texture, natural ageing and variations in tone create spaces that feel alive and authentic. In an overall architectural approach, the choice of species, origin and implementation becomes a genuine aesthetic statement.",
+          ],
+          image: {
+            src: "/assets/images/salon-materiaux-biosources-bois-pierre-paris.png",
+            caption:
+              "Parisian living room combining solid wood, natural stone and terracotta, Supra Studio",
+          },
+        },
+        {
+          heading: "Hemp and straw: high-performance natural insulation",
+          paragraphs: [
+            "Bio-based insulation materials are seeing strong growth today thanks to their thermal performance and their capacity to improve indoor comfort. Hemp, for instance, offers good natural humidity regulation, effective thermal insulation, appreciable acoustic comfort and a low environmental impact.",
+            "Straw, often associated with alternative ecological architecture, is also a high-performance material when correctly implemented. It makes it possible to build energy-efficient structures while making use of a local agricultural resource — proof that sustainable architecture can also be innovative and contemporary.",
+          ],
+        },
+        {
+          heading: "Wood, cork and natural fibres in interior design",
+          paragraphs: [
+            "The use of bio-based materials is not limited to construction: they also play a major role in interior architecture. Interior spaces directly shape our perception of comfort and quality of life, and natural materials help create warmer, timeless atmospheres.",
+            "In an interior architecture project, they can be integrated through bespoke solid-wood fittings, decorative panels in natural fibres, cork wall coverings, natural textiles (linen, wool, hemp) or natural paints and renders. They bring a particular sensory richness — touch, texture, scent, light — for interiors that remain pleasant to live in over the long term, not just pleasant to look at.",
+          ],
+        },
+        {
+          heading:
+            "Natural materials in the landscape: reconnecting architecture and nature",
+          paragraphs: [
+            "The bio-based approach goes beyond the limits of the building and also concerns the design of outdoor spaces. In a landscape project, the choice of materials strongly influences the relationship between architecture and environment: local wood decking, untreated wood fencing, outdoor furniture in natural materials, vegetal mulching, plant-fibre structures, layouts using local resources.",
+            "The aim is to create outdoor spaces that blend naturally into their context while limiting their environmental impact. The landscape then becomes an extension of the architecture, designed with the same attention to materials and uses.",
+          ],
+          image: {
+            src: "/assets/images/patio-terre-crue-pierre-naturelle-materiaux-biosources.png",
+            caption: "Courtyard in raw earth and natural stone, Mediterranean planting",
+            afterParagraph: 1,
+          },
+        },
+        {
+          heading: "Reducing the project's environmental impact",
+          paragraphs: [
+            "Bio-based materials help reduce the carbon footprint of buildings thanks to their renewable origin, the carbon-storage capacity of certain materials such as wood, often less energy-intensive production, and the use of local resources. They thus contribute to a more responsible approach to architecture.",
+          ],
+        },
+        {
+          heading: "Improving residents' comfort",
+          paragraphs: [
+            "Beyond the environmental aspect, natural materials also improve the quality of spaces: better humidity regulation, enhanced thermal comfort, better acoustic quality and a healthier indoor atmosphere. Sustainable architecture is therefore not limited to energy performance: it is also about the daily well-being of occupants.",
+          ],
+        },
+        {
+          heading: "Giving the project a unique identity",
+          paragraphs: [
+            "Every material has a history, a texture and a particular way of ageing. Choosing bio-based materials makes it possible to create spaces that are more authentic and less standardised. In a bespoke architectural approach, matter becomes an essential element of the project, on a par with light, volume or use.",
+          ],
+        },
+        {
+          heading: "Towards a more sustainable, more sensitive architecture",
+          paragraphs: [
+            "The use of bio-based materials represents a major shift in the professions of architecture, interior architecture and landscape design. More than a simple ecological trend, they offer a new way of designing spaces: an architecture attentive to resources, uses and sensations.",
+            "At Supra Studio, we bring this thinking into our projects, seeking a balance between contemporary design, quality of materials and respect for the environment. Sustainable architecture is not just architecture that consumes less: it is architecture that creates places that are more pleasant, fairer and more enduring over time.",
+            "**Working on a project involving natural materials?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions about bio-based materials",
+          paragraphs: [
+            "**What are the main bio-based materials used in architecture?** Wood, hemp, straw, cork, wood fibre, linen, sheep's wool and cellulose wadding.",
+            "**Are bio-based materials suitable for renovation?** Yes: their insulating qualities, humidity regulation and ability to improve indoor comfort make them a particularly relevant choice for renovation projects.",
+            "**Are bio-based materials more expensive?** Cost depends on the material chosen, its availability and how it is implemented. Some represent a higher initial investment, but often deliver lasting benefits in terms of comfort and performance.",
+            "**Can bio-based materials be used in a high-end project?** Yes: they are widely used today in premium architectural projects thanks to their aesthetic quality, authenticity and ability to create unique spaces.",
+          ],
+        },
+      ],
+      keywords: ["Bio-based materials", "Sustainable architecture", "Eco-design"],
+    },
+    it: {
+      title:
+        "I materiali biobased in architettura: progettare spazi sostenibili, sani ed estetici",
+      metaTitle: "Materiali Biobased in Architettura: Spazi Sostenibili e Sani",
+      excerpt:
+        "Legno, canapa, paglia, sughero: come i materiali biobased trasformano l'architettura, l'interior design e il paesaggio verso più sobrietà e sensibilità.",
+      category: "Materiali & Eco-progettazione",
+      readingTime: "6 min",
+      intro:
+        "Di fronte alle attuali sfide ambientali, l'architettura si evolve verso pratiche più responsabili, integrando sempre più materiali naturali e rinnovabili nella progettazione di edifici, spazi interni e giardini. Da Supra Studio consideriamo i materiali biobased una vera opportunità architettonica: permettono di creare luoghi più sensibili, più durevoli e più connessi al loro ambiente.",
+      sections: [
+        {
+          heading: "Cos'è un materiale biobased?",
+          paragraphs: [
+            "Un materiale biobased è un materiale derivato, in parte o totalmente, da risorse rinnovabili di origine vivente: vegetali, animali o sottoprodotti agricoli. A differenza dei materiali convenzionali derivati principalmente da risorse fossili o minerali, contribuisce a un'architettura più circolare valorizzando materie naturali disponibili.",
+            "Tra i più utilizzati in architettura troviamo il legno e i suoi derivati, la paglia, la canapa, il sughero, la fibra di legno, il lino, la lana di pecora, l'ovatta di cellulosa, oltre a intonaci naturali a base di terra o di calce. Questi materiali possono essere impiegati sia nella struttura di un edificio che nel suo isolamento, nell'allestimento interno o negli spazi paesaggistici.",
+          ],
+        },
+        {
+          heading: "Il legno, un materiale architettonico intramontabile",
+          paragraphs: [
+            "Il legno è probabilmente il materiale biobased più noto e utilizzato nell'edilizia. Grazie alle sue qualità meccaniche, al basso impatto di carbonio e all'aspetto caldo, trova spazio in numerosi progetti contemporanei: struttura, copertura, rivestimento esterno, serramenti, mobili su misura, allestimenti interni.",
+            "Oltre alle prestazioni tecniche, il legno porta una dimensione sensibile all'architettura. La sua texture, l'invecchiamento naturale e le variazioni di tonalità creano spazi vivi e autentici. In un approccio architettonico globale, la scelta dell'essenza, della sua origine e della sua messa in opera diventa una vera scelta estetica.",
+          ],
+          image: {
+            src: "/assets/images/salon-materiaux-biosources-bois-pierre-paris.png",
+            caption:
+              "Salotto parigino che unisce legno massello, pietra naturale e cotto, Supra Studio",
+          },
+        },
+        {
+          heading: "Canapa e paglia: isolanti naturali performanti",
+          paragraphs: [
+            "Gli isolanti biobased conoscono oggi un forte sviluppo grazie alle loro prestazioni termiche e alla capacità di migliorare il confort interno. La canapa, ad esempio, offre una buona regolazione naturale dell'umidità, un buon isolamento termico, un confort acustico apprezzabile e un basso impatto ambientale.",
+            "La paglia, spesso associata a un'architettura ecologica alternativa, è anch'essa un materiale performante se correttamente messa in opera. Permette di realizzare edifici energeticamente efficienti valorizzando al contempo una risorsa agricola locale — la prova che un'architettura sostenibile può essere anche innovativa e contemporanea.",
+          ],
+        },
+        {
+          heading: "Legno, sughero e fibre naturali nell'allestimento interno",
+          paragraphs: [
+            "L'uso dei materiali biobased non riguarda solo l'edilizia: essi giocano anche un ruolo importante nell'architettura d'interni. Gli spazi interni influenzano direttamente la nostra percezione del confort e della qualità della vita, e i materiali naturali permettono di creare atmosfere più calde e intramontabili.",
+            "In un progetto di architettura d'interni, si integrano tramite allestimenti su misura in legno massello, pannelli decorativi in fibre naturali, rivestimenti in sughero, tessuti naturali (lino, lana, canapa) o pitture e intonaci naturali. Portano una particolare ricchezza sensoriale — tatto, materia, profumo, luce — per interni piacevoli da vivere nel tempo, non solo belli da vedere.",
+          ],
+        },
+        {
+          heading:
+            "I materiali naturali nel paesaggio: riconnettere architettura e natura",
+          paragraphs: [
+            "L'approccio biobased supera i limiti dell'edificio e riguarda anche la progettazione degli spazi esterni. In un progetto paesaggistico, la scelta dei materiali influenza fortemente il rapporto tra architettura e ambiente: terrazze in legno locale, recinzioni in legno non trattato, arredi esterni in materiali naturali, pacciamature vegetali, strutture in fibre vegetali, allestimenti che utilizzano risorse locali.",
+            "L'obiettivo è creare spazi esterni che si integrino naturalmente nel loro contesto limitando l'impatto ambientale. Il paesaggio diventa così un prolungamento dell'architettura, progettato con la stessa attenzione ai materiali e agli usi.",
+          ],
+          image: {
+            src: "/assets/images/patio-terre-crue-pierre-naturelle-materiaux-biosources.png",
+            caption: "Patio in terra cruda e pietra naturale, vegetazione mediterranea",
+            afterParagraph: 1,
+          },
+        },
+        {
+          heading: "Ridurre l'impatto ambientale del progetto",
+          paragraphs: [
+            "I materiali biobased contribuiscono a diminuire l'impronta di carbonio delle costruzioni grazie alla loro origine rinnovabile, alla capacità di stoccaggio del carbonio di alcuni materiali come il legno, a una produzione spesso meno energivora e alla valorizzazione delle risorse locali. Partecipano così a un approccio architettonico più responsabile.",
+          ],
+        },
+        {
+          heading: "Migliorare il confort degli abitanti",
+          paragraphs: [
+            "Oltre all'aspetto ambientale, i materiali naturali migliorano anche la qualità degli spazi: migliore regolazione dell'umidità, confort termico rafforzato, migliore qualità acustica e atmosfera interna più sana. L'architettura sostenibile non si limita quindi alla performance energetica: riguarda anche il benessere quotidiano degli abitanti.",
+          ],
+        },
+        {
+          heading: "Dare un'identità unica al progetto",
+          paragraphs: [
+            "Ogni materiale ha una storia, una texture e un modo particolare di invecchiare. La scelta di materiali biobased permette di creare spazi più autentici e meno standardizzati. In un approccio architettonico su misura, la materia diventa un elemento essenziale del progetto, allo stesso livello della luce, dei volumi o degli usi.",
+          ],
+        },
+        {
+          heading: "Verso un'architettura più sostenibile e più sensibile",
+          paragraphs: [
+            "L'uso dei materiali biobased rappresenta un'evoluzione importante nei mestieri dell'architettura, dell'architettura d'interni e del paesaggio. Più di una semplice tendenza ecologica, offrono un nuovo modo di concepire gli spazi: un'architettura attenta alle risorse, agli usi e alle sensazioni.",
+            "Da Supra Studio integriamo questa riflessione nei nostri progetti ricercando un equilibrio tra design contemporaneo, qualità dei materiali e rispetto dell'ambiente. Un'architettura sostenibile non è solo un'architettura che consuma meno: è un'architettura che crea luoghi più piacevoli, più giusti e più durevoli nel tempo.",
+            "**Avete un progetto che integra materiali naturali?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti sui materiali biobased",
+          paragraphs: [
+            "**Quali sono i principali materiali biobased usati in architettura?** Legno, canapa, paglia, sughero, fibra di legno, lino, lana di pecora e ovatta di cellulosa.",
+            "**I materiali biobased sono adatti alla ristrutturazione?** Sì: le loro qualità isolanti, di regolazione dell'umidità e la capacità di migliorare il confort interno ne fanno una scelta particolarmente pertinente in ristrutturazione.",
+            "**I materiali biobased sono più costosi?** Il costo dipende dal materiale scelto, dalla sua disponibilità e dalla sua messa in opera. Alcuni rappresentano un investimento iniziale superiore, ma offrono spesso benefici duraturi in termini di confort e prestazioni.",
+            "**Si possono usare materiali biobased in un progetto di alta gamma?** Sì: oggi sono ampiamente utilizzati in progetti architettonici premium grazie alla loro qualità estetica, autenticità e capacità di creare spazi unici.",
+          ],
+        },
+      ],
+      keywords: ["Materiali biobased", "Architettura sostenibile", "Eco-progettazione"],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {
