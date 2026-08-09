@@ -1893,6 +1893,8 @@ button { font-family: inherit; cursor: pointer; }
   display: flex;
   flex-direction: column;
   gap: 6px;
+  min-width: 0;
+  flex: 1;
 }
 .areas-question-title {
   font-family: var(--f-display);
@@ -1905,7 +1907,10 @@ button { font-family: inherit; cursor: pointer; }
   line-height: 1.5;
   color: var(--charbon);
   opacity: .75;
-  max-width: 52ch;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .areas-icon {
   position: relative;
