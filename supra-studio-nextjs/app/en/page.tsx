@@ -14,7 +14,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import type { Metadata } from "next";
 import { dict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.en.meta.home, alternates: hreflangAlternates("/") };
+export const metadata: Metadata = { ...dict.en.meta.home, alternates: hreflangAlternates("/", "en") };
 
 export default function Home() {
   return (

@@ -767,11 +767,17 @@ export const dict = {
 export const SITE_URL = "https://www.suprastudio.fr";
 
 // Builds correct canonical + hreflang alternates for a given French-style
-// base path (e.g. "/", "/studio", "/projets/casa-duy").
-export function hreflangAlternates(basePath: string) {
+// base path (e.g. "/", "/studio", "/projets/casa-duy") and the language of
+// the page calling it. The canonical MUST always point to the page itself
+// (self-referencing) — never to the French URL from an EN/IT page — otherwise
+// Google receives contradictory signals (hreflang says "these are language
+// alternates", canonical says "the real page is elsewhere") and may drop
+// pages from the index entirely.
+export function hreflangAlternates(basePath: string, lang: Lang = "fr") {
   const path = basePath === "/" ? "" : basePath;
+  const selfPrefix = LOCALE_PREFIX[lang];
   return {
-    canonical: `${SITE_URL}${path}`,
+    canonical: `${SITE_URL}${selfPrefix}${path}`,
     languages: {
       fr: `${SITE_URL}${path}`,
       en: `${SITE_URL}/en${path}`,

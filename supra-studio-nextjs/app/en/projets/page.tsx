@@ -8,7 +8,7 @@ import Contact from "@/components/Contact";
 import { PROJECTS } from "@/lib/projects";
 import { dict, getDict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.en.meta.projects, alternates: hreflangAlternates("/projets") };
+export const metadata: Metadata = { ...dict.en.meta.projects, alternates: hreflangAlternates("/projets", "en") };
 
 export default function ProjetsPage() {
   const lang = "en" as const;

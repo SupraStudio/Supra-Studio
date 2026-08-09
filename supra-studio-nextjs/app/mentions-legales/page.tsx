@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 import { LEGAL } from "@/lib/legal";
 import { dict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.legalNotice, alternates: hreflangAlternates("/mentions-legales") };
+export const metadata: Metadata = { ...dict.fr.meta.legalNotice, alternates: hreflangAlternates("/mentions-legales", "fr") };
 
 export default function MentionsLegalesPage() {
   return <LegalPage doc={LEGAL.fr.notice} lang="fr" />;

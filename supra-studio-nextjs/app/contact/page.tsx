@@ -5,7 +5,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import Contact from "@/components/Contact";
 import { dict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.contact, alternates: hreflangAlternates("/contact") };
+export const metadata: Metadata = { ...dict.fr.meta.contact, alternates: hreflangAlternates("/contact", "fr") };
 
 export default function ContactPage() {
   return (

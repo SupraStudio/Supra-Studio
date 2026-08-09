@@ -19,7 +19,7 @@ export function generateMetadata({
   return {
     title: `${article.metaTitle || article.title} — Supra Studio`,
     description: article.excerpt,
-    alternates: hreflangAlternates(`/journal/${article.slug}`),
+    alternates: hreflangAlternates(`/journal/${article.slug}`, "fr"),
   };
 }
 

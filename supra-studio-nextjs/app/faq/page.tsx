@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import { getLocalizedFaqItems } from "@/lib/faq.i18n";
 import { dict, getDict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.faq, alternates: hreflangAlternates("/faq") };
+export const metadata: Metadata = { ...dict.fr.meta.faq, alternates: hreflangAlternates("/faq", "fr") };
 
 export default function FaqPage() {
   const lang = "fr" as const;

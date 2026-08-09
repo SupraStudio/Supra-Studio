@@ -8,7 +8,7 @@ import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import { dict, hreflangAlternates, getDict } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.fr.meta.services, alternates: hreflangAlternates("/services") };
+export const metadata: Metadata = { ...dict.fr.meta.services, alternates: hreflangAlternates("/services", "fr") };
 
 export default function ServicesPage() {
   const t = getDict("fr");

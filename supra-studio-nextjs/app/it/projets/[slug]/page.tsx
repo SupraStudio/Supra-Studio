@@ -17,7 +17,7 @@ export function generateMetadata({
   return {
     title: `${project.name} — Supra Studio`,
     description: `${project.cat} — ${project.name}, ${project.location}. ${dict.it.meta.projectSuffix}`,
-    alternates: hreflangAlternates(`/projets/${project.slug}`),
+    alternates: hreflangAlternates(`/projets/${project.slug}`, "it"),
   };
 }
 

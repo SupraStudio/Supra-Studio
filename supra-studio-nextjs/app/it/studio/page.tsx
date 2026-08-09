@@ -10,7 +10,7 @@ import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import { dict, hreflangAlternates, getDict } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.it.meta.studio, alternates: hreflangAlternates("/studio") };
+export const metadata: Metadata = { ...dict.it.meta.studio, alternates: hreflangAlternates("/studio", "it") };
 
 export default function StudioPage() {
   const t = getDict("it");

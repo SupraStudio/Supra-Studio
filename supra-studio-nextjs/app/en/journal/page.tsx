@@ -6,7 +6,7 @@ import Journal from "@/components/Journal";
 import Contact from "@/components/Contact";
 import { dict, getDict, hreflangAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { ...dict.en.meta.journal, alternates: hreflangAlternates("/journal") };
+export const metadata: Metadata = { ...dict.en.meta.journal, alternates: hreflangAlternates("/journal", "en") };
 
 export default function JournalPage() {
   const lang = "en" as const;
