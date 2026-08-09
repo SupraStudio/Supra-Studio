@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import Services from "@/components/Services";
+import InterventionAreas from "@/components/InterventionAreas";
 import MethodTimeline from "@/components/MethodTimeline";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
@@ -18,6 +19,7 @@ export default function ServicesPage() {
       <Header hasHero={false} lang="it" />
       <main className="page-main-offset">
         <Services hideCta asH1 lang="it" />
+        <InterventionAreas lang="it" />
         <MethodTimeline lang="it" />
         <Reviews lang="it" ids={["henri", "brian-duy-nguyen"]} variant="compact" title={t.reviews.servicesTitle} />
         <Contact lang="it" />
