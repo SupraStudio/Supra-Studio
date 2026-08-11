@@ -1302,6 +1302,152 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       keywords: ["Materiali biobased", "Architettura sostenibile", "Eco-progettazione"],
     },
   },
+  "prix-architecte-interieur-paris-m2-2026": {
+    en: {
+      title:
+        "Interior architect fees in Paris per m² in 2026: what to budget for your project",
+      metaTitle: "Interior Architect Fees Paris per m² 2026: Costs & Budget",
+      excerpt:
+        "Hourly rate, price per m², or percentage of works cost: the fee ranges in Paris in 2026 and the factors that make a project's budget vary.",
+      category: "Advice & Expertise",
+      readingTime: "7 min",
+      intro:
+        "Renovating an apartment in Paris quickly raises a question: how much does hiring an interior architect actually cost? Between hourly rates, price per square metre and a percentage of the works cost, billing methods vary from one practice to another, which makes comparing quotes difficult for anyone unfamiliar with the sector. At Supra Studio, we believe a clear budget, explained upfront, is part of building trust with our clients.",
+      sections: [
+        {
+          heading: "Hourly rate",
+          paragraphs: [
+            "Suited to a one-off service — an opinion, a consultation visit, reviewing a plan — the hourly rate offers full transparency on the time spent by the architect. In Paris, it generally falls between €100 and €200 excl. VAT per hour in 2026, depending on the practice's experience and the complexity of the question at hand. It is the most flexible formula, but also the hardest to anticipate if the need is not clearly defined from the outset.",
+          ],
+        },
+        {
+          heading: "Price per square metre for design",
+          paragraphs: [
+            "Widely used for a design brief — plans, renderings, material selection — the price per m² makes it possible to know the budget from the launch of the project. In Paris, it ranges in 2026 from €90 to €200 per m² for design alone, and can rise to between €150 and €300 per m² when the brief includes a detailed technical file (execution drawings, coordination with a structural consultant). The advantage of this formula is its predictability: the amount is fixed before work begins, whatever the actual design time required.",
+          ],
+          image: {
+            src: "/assets/images/rendez-vous-architecte-interieur-devis-paris.png",
+            caption: "Drawing up a personalised quote during a consultation visit, Supra Studio",
+          },
+        },
+        {
+          heading: "Percentage of the works cost",
+          paragraphs: [
+            "This is the reference model for a fully managed renovation, with on-site supervision. Fees are then calculated on the total amount of the contractors' quotes (masonry, electrical work, plumbing, painting, joinery). In Paris in 2026, this rate is most often between 10% and 15% of the works cost excl. VAT, decreasing with the scale of the project: around 12–15% for works under €100,000, 10–12% between €100,000 and €200,000, and 7–10% beyond €200,000. This method aligns the architect's fee with the real scale of the project, but requires a good early estimate of the works cost to avoid unpleasant surprises.",
+          ],
+        },
+        {
+          heading: "What to budget in practice",
+          paragraphs: [
+            "As a rough guide: a full brief (design, plans, site supervision) for a 60 m² Parisian apartment represents a 2026 fee budget of between €8,000 and €12,000 excl. VAT, excluding the cost of the works themselves. For a small space or a one-off advisory brief, the budget can start at around €2,500. For the complete renovation of a large family apartment involving a full reconfiguration of the space, it can exceed €20,000.",
+            "These fees, however, are only part of the overall budget of a renovation project. In Paris in 2026, the cost of the works themselves varies significantly depending on their scale: a simple refresh (paint, flooring, minor plumbing) sits around €300 to €800 per m², a standard renovation without major structural work between €700 and €1,400 per m², and a heavy renovation involving reconfiguring partitions, redoing the plumbing and creating new spaces between €1,200 and €2,500 per m², or even more in older Haussmann-era buildings requiring a complete transformation. Including architect's fees, site coordination and insurance, the overall budget for a well-supported Parisian project is most often between €1,400 and €1,800 per m².",
+          ],
+        },
+        {
+          heading: "The factors that make the price vary",
+          paragraphs: [
+            "Several factors explain why two projects of comparable size can show very different budgets. The condition of the existing building plays a decisive role: a Haussmann-era building requiring deep renovation, with warped floors or old plumbing to be entirely replaced, costs noticeably more to work on than a recent building in good condition.",
+            "The scope of the brief directly affects the fee budget: a simple consultation visit has nothing to do with a full brief including design, filing planning applications and site supervision through to completion. Changing the layout has a specific cost: every wall moved involves a structural study, co-ownership approval, demolition and rebuilding, which can add several thousand euros to the overall budget.",
+            "The co-ownership regulations can also weigh on the schedule, and therefore on the cost: restricted working hours or a ban on certain structural works extend the length of the works. Finally, the desired level of finish can make the budget vary twofold: between a standard paint finish and a bespoke lime render or polished concrete, the price difference is significant — a choice that is as much about aesthetics as about the budget allocated to the project.",
+          ],
+        },
+        {
+          heading: "How we set a budget at Supra Studio",
+          paragraphs: [
+            "As every project is unique, we do not offer a fixed price list. Our first step is always an on-site consultation visit, which allows us to assess the condition of the building, the technical complexity of the project and the real scope of the brief required — from simple design advice to full support through to completion of the works. On this basis, we draw up a personalised, detailed quote, before any commitment on your part.",
+            "This approach allows us to adjust our fees to the reality of each place rather than applying a generic flat rate — in keeping with our conviction that a successful project is built on a precise reading of the existing building, before any question of budget.",
+            "**Planning a renovation project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What is the average price of an interior architect in Paris in 2026?** Fees are most often between €90 and €200 per m² for a design brief, or between 10% and 15% of the works cost for a full brief with site supervision.",
+            "**Does the price depend on the size of the apartment?** Yes, but not in strict proportion: a project's fixed costs (administrative procedures, site setup, coordination) are spread over a larger number of m² in bigger spaces, which explains a price per m² that decreases slightly beyond 80–100 m².",
+            "**Can you hire an interior architect on a small budget?** Yes. A one-off brief — a consultation visit, an opinion on a plan, partial support — remains accessible from around €2,500, and can be enough to secure the essential choices of a project without committing to a full fee budget.",
+            "**Should the cost of the works be included in the architect's budget?** No: design and supervision fees are separate from the cost of the works carried out by contractors. It is essential to budget for both separately to get a realistic picture of the project's total cost.",
+          ],
+        },
+      ],
+      keywords: [
+        "Interior architect fees Paris",
+        "Interior architect price per m2",
+        "Renovation budget Paris",
+      ],
+    },
+    it: {
+      title:
+        "Prezzo di un architetto d'interni a Parigi al m² nel 2026: cosa prevedere per il vostro progetto",
+      metaTitle: "Prezzo Architetto d'Interni Parigi al m² 2026: Costi e Budget",
+      excerpt:
+        "Tariffa oraria, forfait al m² o percentuale sui lavori: le fasce di prezzo praticate a Parigi nel 2026 e i criteri che fanno variare il budget di un progetto.",
+      category: "Consigli & competenza",
+      readingTime: "7 min",
+      intro:
+        "Ristrutturare un appartamento a Parigi porta rapidamente a una domanda: quanto costa realmente l'intervento di un architetto d'interni? Tra tariffa oraria, forfait al metro quadro e percentuale sull'importo dei lavori, i metodi di fatturazione variano da uno studio all'altro, il che rende difficile confrontare i preventivi per chi non è del settore. Da Supra Studio, riteniamo che un budget chiaro, spiegato in anticipo, faccia parte integrante di un rapporto di fiducia con i nostri clienti.",
+      sections: [
+        {
+          heading: "La tariffa oraria",
+          paragraphs: [
+            "Adatta a una prestazione puntuale — un parere, una visita conoscitiva, la revisione di un piano — la tariffa oraria offre una trasparenza totale sul tempo dedicato dall'architetto. A Parigi, nel 2026 si situa generalmente tra 100 € e 200 € + IVA all'ora, secondo l'esperienza dello studio e la complessità della richiesta. È la formula più flessibile, ma anche la più difficile da anticipare se il bisogno non è chiaramente definito in partenza.",
+          ],
+        },
+        {
+          heading: "Il forfait al metro quadro per la progettazione",
+          paragraphs: [
+            "Molto diffuso per un incarico di progettazione — piani, rendering, scelta dei materiali — il forfait al m² permette di conoscere il budget già dall'avvio del progetto. A Parigi, nel 2026 oscilla tra 90 € e 200 € al m² per la sola progettazione, e può salire tra 150 € e 300 € al m² quando l'incarico include un fascicolo tecnico dettagliato (piani esecutivi, coordinamento con uno studio tecnico). Il vantaggio di questa formula è la sua prevedibilità: l'importo è fissato prima dell'avvio dei lavori, indipendentemente dalla durata reale della progettazione.",
+          ],
+          image: {
+            src: "/assets/images/rendez-vous-architecte-interieur-devis-paris.png",
+            caption: "Elaborazione di un preventivo personalizzato durante una visita conoscitiva, Supra Studio",
+          },
+        },
+        {
+          heading: "La percentuale sull'importo dei lavori",
+          paragraphs: [
+            "È il modello di riferimento per una ristrutturazione gestita dall'inizio alla fine, con direzione lavori. Gli onorari sono allora calcolati sull'importo totale dei preventivi degli artigiani (muratura, elettricità, idraulica, pittura, falegnameria). Nel 2026 a Parigi, questa percentuale si situa più spesso tra il 10% e il 15% dell'importo dei lavori + IVA, con una progressione decrescente secondo l'ampiezza del cantiere: intorno al 12-15% per lavori inferiori a 100.000 €, 10-12% tra 100.000 € e 200.000 €, e 7-10% oltre 200.000 €. Questo metodo allinea la remunerazione dell'architetto all'ampiezza reale del progetto, ma richiede di anticipare bene l'importo dei lavori per evitare brutte sorprese.",
+          ],
+        },
+        {
+          heading: "Quanto prevedere in concreto",
+          paragraphs: [
+            "Per dare un ordine di grandezza: un incarico completo (progettazione, piani, direzione lavori) per un appartamento parigino di 60 m² rappresenta nel 2026 un budget di onorari compreso tra 8.000 € e 12.000 € + IVA, escluso il costo dei lavori stessi. Per una piccola superficie o un incarico di consulenza puntuale, il budget può partire da circa 2.500 €. Per la ristrutturazione completa di un grande appartamento familiare con riorganizzazione dei volumi, può superare i 20.000 €.",
+            "Questi onorari rappresentano tuttavia solo una parte del budget complessivo di un progetto di ristrutturazione. A Parigi nel 2026, il costo dei lavori stessi varia molto secondo la loro ampiezza: un semplice rinnovamento (pitture, pavimenti, piccola idraulica) si situa intorno a 300-800 € al m², una ristrutturazione standard senza opere murarie importanti tra 700 € e 1.400 € al m², e una ristrutturazione pesante con riorganizzazione delle pareti, rifacimento dell'impianto idraulico e creazione di nuovi spazi tra 1.200 € e 2.500 € al m², talvolta di più negli edifici haussmanniani antichi che richiedono una trasformazione completa. Integrando onorari dell'architetto, coordinamento del cantiere e assicurazioni, il budget complessivo di un progetto parigino ben accompagnato si situa più spesso tra 1.400 € e 1.800 € al m².",
+          ],
+        },
+        {
+          heading: "I fattori che fanno variare il prezzo",
+          paragraphs: [
+            "Diversi elementi spiegano perché due progetti di superficie comparabile possano presentare budget molto diversi. Lo stato dell'edificio esistente gioca un ruolo determinante: un palazzo haussmanniano da ristrutturare in profondità, con pavimenti deformati o un impianto idraulico antico da sostituire integralmente, costa sensibilmente di più da trattare rispetto a un edificio recente in buone condizioni.",
+            "L'ampiezza dell'incarico influenza direttamente il budget di onorari: una semplice visita conoscitiva non ha nulla a che vedere con un incarico completo che include la progettazione, il deposito delle autorizzazioni e la direzione lavori fino alla consegna. La modifica della pianta ha un costo specifico: ogni parete spostata implica uno studio strutturale, un'autorizzazione condominiale, la demolizione e il ripristino, il che può aggiungere diverse migliaia di euro al budget complessivo.",
+            "Il regolamento condominiale può inoltre pesare sul calendario, e quindi sul costo: orari di cantiere limitati o il divieto di alcune opere murarie importanti allungano la durata dei lavori. Il livello di finitura desiderato infine fa variare il budget anche del doppio: tra una pittura standard e un intonaco a base di calce o un cemento levigato su misura, la differenza di prezzo è significativa — una scelta che riguarda tanto l'estetica quanto il budget destinato al progetto.",
+          ],
+        },
+        {
+          heading: "Come stabiliamo un budget da Supra Studio",
+          paragraphs: [
+            "Poiché ogni progetto è unico, non proponiamo un listino tariffario fisso. Il nostro primo passo è sempre una visita conoscitiva sul posto, che ci permette di valutare lo stato dell'edificio, la complessità tecnica del progetto e l'ampiezza reale dell'incarico desiderato — dalla semplice consulenza progettuale all'accompagnamento completo fino alla consegna del cantiere. Su questa base, elaboriamo un preventivo personalizzato e dettagliato, prima di qualsiasi impegno da parte vostra.",
+            "Questo approccio ci permette di adattare i nostri onorari alla realtà di ogni luogo piuttosto che applicare un forfait generico — in continuità con la nostra convinzione che un progetto riuscito si costruisca su una lettura precisa dell'edificio, prima di qualsiasi questione di budget.",
+            "**State preparando un progetto di ristrutturazione a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è il prezzo medio di un architetto d'interni a Parigi nel 2026?** Gli onorari si situano più spesso tra 90 € e 200 € al m² per un incarico di progettazione, oppure tra il 10% e il 15% dell'importo dei lavori per un incarico completo con direzione lavori.",
+            "**Il prezzo dipende dalla dimensione dell'appartamento?** Sì, ma non in modo strettamente proporzionale: i costi fissi di un progetto (pratiche amministrative, allestimento del cantiere, coordinamento) si ripartiscono su un numero maggiore di m² nelle grandi superfici, il che spiega un prezzo al m² leggermente decrescente oltre gli 80-100 m².",
+            "**Un budget limitato permette di rivolgersi a un architetto d'interni?** Sì. Un incarico puntuale — visita conoscitiva, parere su un piano, accompagnamento parziale — resta accessibile a partire da circa 2.500 €, e può bastare a garantire le scelte essenziali di un progetto senza impegnare un budget di onorari completo.",
+            "**Bisogna includere il costo dei lavori nel budget dell'architetto?** No: gli onorari di progettazione e direzione lavori sono distinti dal costo dei lavori realizzati dagli artigiani. È essenziale preventivare i due separatamente per avere una visione realistica del costo totale del progetto.",
+          ],
+        },
+      ],
+      keywords: [
+        "Prezzo architetto d'interni Parigi",
+        "Onorari architetto d'interni",
+        "Budget ristrutturazione Parigi",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {

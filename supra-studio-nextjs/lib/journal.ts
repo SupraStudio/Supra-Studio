@@ -716,6 +716,82 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["maison-kleber", "giardino-de-ninno"],
   },
+  {
+    slug: "prix-architecte-interieur-paris-m2-2026",
+    title:
+      "Prix d'un architecte d'intérieur à Paris au m² en 2026 : combien prévoir pour votre projet ?",
+    metaTitle: "Prix Architecte d'Intérieur Paris au m² 2026 : Honoraires & Budget",
+    excerpt:
+      "Tarif horaire, forfait au m² ou pourcentage des travaux : les fourchettes de prix pratiquées à Paris en 2026 et les critères qui font varier le budget d'un projet à l'autre.",
+    date: "2026-08-11",
+    category: "Conseils & expertise",
+    cover: "/assets/images/visite-technique-metre-laser-appartement-paris.png",
+    readingTime: "7 min",
+    intro:
+      "Rénover un appartement à Paris soulève rapidement une question : combien coûte réellement l'intervention d'un architecte d'intérieur ? Entre tarif horaire, forfait au mètre carré et pourcentage du montant des travaux, les modes de facturation varient d'une agence à l'autre, ce qui rend la comparaison des devis difficile pour qui n'est pas familier du secteur. Chez Supra Studio, nous pensons qu'un budget clair, expliqué en amont, fait partie intégrante d'une relation de confiance avec nos clients.",
+    sections: [
+      {
+        heading: "Le tarif horaire",
+        paragraphs: [
+          "Adapté à une prestation ponctuelle — un avis, une visite-conseil, la relecture d'un plan — le tarif horaire offre une transparence totale sur le temps passé par l'architecte. À Paris, il se situe généralement entre 100 € et 200 € HT de l'heure en 2026, selon l'expérience de l'agence et la complexité de la question posée. C'est la formule la plus flexible, mais aussi la plus difficile à anticiper si le besoin n'est pas clairement délimité au départ.",
+        ],
+      },
+      {
+        heading: "Le forfait au mètre carré pour la conception",
+        paragraphs: [
+          "Très répandu pour une mission de conception — plans, perspectives, sélection des matériaux — le forfait au m² permet de connaître le budget dès le lancement du projet. À Paris, il oscille en 2026 entre 90 € et 200 € par m² pour une conception seule, et peut grimper entre 150 € et 300 € par m² lorsque la mission inclut un dossier technique détaillé (plans d'exécution, coordination avec un bureau d'études). L'avantage de cette formule est sa prévisibilité : le montant est fixé avant le démarrage des travaux, quelle que soit la durée réelle de conception.",
+        ],
+        image: {
+          src: "/assets/images/rendez-vous-architecte-interieur-devis-paris.png",
+          caption: "Établissement d'un devis personnalisé lors d'une visite-conseil, Supra Studio",
+        },
+      },
+      {
+        heading: "Le pourcentage du montant des travaux",
+        paragraphs: [
+          "C'est le modèle de référence pour une rénovation pilotée de A à Z, avec suivi de chantier. Les honoraires sont alors calculés sur le montant total des devis des artisans (maçonnerie, électricité, plomberie, peinture, menuiserie). En 2026 à Paris, ce taux se situe le plus souvent entre 10 % et 15 % du montant des travaux HT, avec une dégressivité selon l'ampleur du chantier : autour de 12 à 15 % pour des travaux inférieurs à 100 000 €, 10 à 12 % entre 100 000 € et 200 000 €, et 7 à 10 % au-delà de 200 000 €. Cette méthode aligne la rémunération de l'architecte sur l'ampleur réelle du projet, mais suppose de bien anticiper le montant des travaux pour éviter les mauvaises surprises.",
+        ],
+      },
+      {
+        heading: "Combien prévoir concrètement ?",
+        paragraphs: [
+          "Pour donner un ordre de grandeur : une mission complète (conception, plans, suivi de chantier) pour un appartement parisien de 60 m² représente en 2026 un budget d'honoraires compris entre 8 000 € et 12 000 € HT, hors coût des travaux eux-mêmes. Pour une petite surface ou une mission de conseil ponctuel, le budget peut démarrer autour de 2 500 €. Pour la rénovation complète d'un grand appartement familial avec redistribution des volumes, il peut dépasser 20 000 €.",
+          "Ces honoraires ne représentent toutefois qu'une partie du budget global d'un projet de rénovation. À Paris en 2026, le coût des travaux eux-mêmes varie fortement selon leur ampleur : un rafraîchissement simple (peintures, sols, petite plomberie) se situe autour de 300 € à 800 € par m², une rénovation standard sans gros œuvre entre 700 € et 1 400 € par m², et une rénovation lourde avec redistribution des cloisons, reprise de plomberie et création de nouveaux espaces entre 1 200 € et 2 500 € par m², voire davantage dans l'ancien haussmannien nécessitant une transformation complète. En intégrant honoraires d'architecte, coordination de chantier et assurances, le budget global d'un projet parisien bien accompagné se situe le plus souvent entre 1 400 € et 1 800 € par m².",
+        ],
+      },
+      {
+        heading: "Les facteurs qui font varier le prix",
+        paragraphs: [
+          "Plusieurs éléments expliquent pourquoi deux projets de surface comparable peuvent afficher des budgets très différents. L'état du bâti existant joue un rôle déterminant : un immeuble haussmannien à rénover en profondeur, avec des planchers déformés ou une plomberie ancienne à remplacer intégralement, coûte sensiblement plus cher à traiter qu'un appartement récent en bon état.",
+          "L'étendue de la mission influence directement le budget d'honoraires : une simple visite-conseil n'a rien à voir avec une mission complète incluant la conception, le dépôt des autorisations et le suivi de chantier jusqu'à la livraison. La modification du plan a un coût spécifique : chaque mur déplacé implique une étude structurelle, une autorisation de copropriété, la dépose et la reprise, ce qui peut ajouter plusieurs milliers d'euros au budget global.",
+          "Le règlement de copropriété peut également peser sur le calendrier, et donc sur le coût : des horaires de chantier restreints ou une interdiction de certains gros œuvres allongent la durée des travaux. Le niveau de finition recherché enfin fait varier le budget du simple au double : entre une peinture standard et un enduit à la chaux ou un béton ciré sur mesure, l'écart de prix est significatif — un choix qui relève autant de l'esthétique que du budget alloué au projet.",
+        ],
+      },
+      {
+        heading: "Comment nous établissons un budget chez Supra Studio",
+        paragraphs: [
+          "Chaque projet étant singulier, nous ne proposons pas de grille tarifaire figée. Notre première étape est toujours une visite-conseil sur place, qui nous permet d'évaluer l'état du bâti, la complexité technique du projet et l'ampleur réelle de la mission souhaitée — de la simple conception à l'accompagnement complet jusqu'à la livraison du chantier. Sur cette base, nous établissons un devis personnalisé et détaillé, avant tout engagement de votre part.",
+          "Cette approche nous permet d'ajuster nos honoraires à la réalité de chaque lieu plutôt que d'appliquer un forfait générique — dans la continuité de notre conviction qu'un projet réussi se construit sur une lecture précise du bâti, avant toute question de budget.",
+          "**Vous préparez un projet de rénovation à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quel est le prix moyen d'un architecte d'intérieur à Paris en 2026 ?** Les honoraires se situent le plus souvent entre 90 € et 200 € par m² pour une mission de conception, ou entre 10 % et 15 % du montant des travaux pour une mission complète avec suivi de chantier.",
+          "**Le prix dépend-il de la taille de l'appartement ?** Oui, mais pas de façon strictement proportionnelle : les coûts fixes d'un projet (démarches administratives, installation de chantier, coordination) se répartissent sur un plus grand nombre de m² dans les grandes surfaces, ce qui explique un prix au m² légèrement dégressif au-delà de 80-100 m².",
+          "**Un petit budget permet-il de faire appel à un architecte d'intérieur ?** Oui. Une mission ponctuelle — visite-conseil, avis sur un plan, accompagnement partiel — reste accessible dès 2 500 € environ, et peut suffire à sécuriser les choix essentiels d'un projet sans mobiliser un budget d'honoraires complet.",
+          "**Faut-il inclure le coût des travaux dans le budget de l'architecte ?** Non : les honoraires de conception et de suivi sont distincts du coût des travaux réalisés par les artisans. Il est essentiel de budgéter les deux séparément pour avoir une vision réaliste du coût total du projet.",
+        ],
+      },
+    ],
+    keywords: [
+      "Prix architecte d'intérieur Paris",
+      "Honoraires architecte d'intérieur",
+      "Budget rénovation Paris",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
