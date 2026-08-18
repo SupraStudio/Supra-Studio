@@ -1448,6 +1448,164 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "amenagement-studio-paris-optimiser-30m2": {
+    en: {
+      title: "Studio apartment layout in Paris: how to make the most of 30 m²?",
+      metaTitle: "Studio Apartment Layout Paris 30 m²: Our Architect's Advice",
+      excerpt:
+        "Layout, a fold-down bed or mezzanine, a compact kitchen, bespoke storage: how a 30 m² Parisian studio can offer real everyday comfort without ever feeling cramped.",
+      category: "Interior Architecture & Fittings",
+      readingTime: "6 min",
+      intro:
+        "A 30 m² studio in Paris is not simply a small apartment: it is a design exercise in its own right, where every square metre has to serve several functions at once. Sleeping, cooking, working, entertaining — in a studio, all these different lives unfold in the same room, sometimes in the same square metre depending on the time of day. Well designed, a studio of this size can nonetheless offer real everyday comfort, without ever feeling cramped.",
+      sections: [
+        {
+          heading: "Rethinking the layout before buying a single piece of furniture",
+          paragraphs: [
+            "The first mistake in a small space is to start with the furniture. A well-designed studio instead starts with an analysis of the existing layout: where the natural light falls, what the technical constraints are (water supply, electrical network, load-bearing walls), and which uses need to coexist during the day. A 30 m² studio actually contains several invisible \"rooms\" — a sleeping area, a dining area, a work area, sometimes a living area — which need to be organised in sequence rather than stacked on top of one another.",
+            "This layout work often makes it possible to gain several usable square metres without touching the structure: moving a kitchenette a few tens of centimetres, orienting the bed differently, or redrawing the circulation between the entrance and the window can transform how the space feels, well before any question of decoration.",
+          ],
+        },
+        {
+          heading: "The bed: the studio's strategic piece",
+          paragraphs: [
+            "In a studio, the bed often takes up the largest volume on the floor — so it is the first element to rethink. Several solutions free up the space it occupies during the day: a fold-down bed integrated into a bespoke unit, a mezzanine if the ceiling height allows it (generally from 2.50 m), or a good-quality sofa bed if the budget or layout do not allow for a fixed installation.",
+            "The mezzanine remains the most radical and most effective solution in terms of square metres regained: it completely frees the floor for a living area or an office, at the cost of a reduced ceiling height for sleeping. The fold-down bed, meanwhile, offers an interesting compromise in studios with standard ceiling heights, provided it is integrated into a bespoke fitting that hides the mechanism and extends the aesthetic of the rest of the room.",
+          ],
+          image: {
+            src: "/assets/images/lit-escamotable-kitchenette-studio-paris.jpg",
+            caption: "Integrated fold-down bed and bespoke kitchenette, Parisian studio, Supra Studio",
+          },
+        },
+        {
+          heading: "A compact but fully functional kitchen",
+          paragraphs: [
+            "A studio kitchenette does not need to be large to be efficient, but it needs to be designed with the same rigour as a 20 m² open kitchen. A bespoke layout makes it possible to use every centimetre of worktop, to integrate reduced-size appliances without losing functionality, and to conceal the kitchen behind a front that matches the rest of the room when it is not in use — for example with sliding doors or a closed cabinet.",
+            "The choice of materials plays an important role here: using the same tone or the same material for the kitchen front and the adjacent storage allows the eye to perceive a single coherent volume, rather than a collection of separate elements, which visually enlarges the space.",
+          ],
+        },
+        {
+          heading: "Bespoke storage to make use of every corner",
+          paragraphs: [
+            "In a studio, standard off-the-shelf storage rarely adapts well to the available volumes — it almost always leaves wasted space. Bespoke fittings, by contrast, make it possible to use corners that would otherwise go to waste: a recess turned into a wardrobe, ceiling height put to use with high-level storage, the space under a raised bed converted into a dressing area or a desk.",
+            "Full-height storage, reaching the ceiling, is particularly effective in a studio: it multiplies storage capacity without adding to the floor footprint, and its continuous vertical line also gives an impression of height to the room.",
+          ],
+        },
+        {
+          heading: "Light, mirrors and visual continuity",
+          paragraphs: [
+            "A well-designed studio always feels larger than it actually is — an effect achieved as much through light as through layout. Favouring a light, continuous palette across walls, floors and furniture avoids visually fragmenting the space into separate zones. A well-placed mirror, especially facing the window, extends the natural light and creates a sense of depth.",
+            "Artificial lighting deserves the same attention: rather than a single central ceiling light, several low, indirect light sources (wall lights, floor lamps, lighting built into the storage) create a warmer atmosphere and help distinguish the room's different uses, even without partitions.",
+          ],
+        },
+        {
+          heading: "A bathroom designed down to the millimetre",
+          paragraphs: [
+            "In a studio, the bathroom is often the most space-constrained room. An extra-flat shower tray rather than a bathtub, a wall-hung vanity unit to visually free up the floor, or a glazed shower screen rather than a curtain all help create a greater sense of space without sacrificing everyday comfort. As with the kitchenette, a bespoke layout makes it possible to use the entire available volume, including the least obvious corners.",
+          ],
+        },
+        {
+          heading: "How we approach a studio project at Supra Studio",
+          paragraphs: [
+            "A 30 m² studio is never a \"small project\" in the true sense: it is often the most demanding exercise in interior architecture, where every layout decision affects the whole space. Our approach begins, as with any project, with an on-site consultation visit, to assess the existing configuration, the light, the technical constraints and the future occupant's priority uses. We then design a layout and bespoke fittings — furniture, storage, kitchen, bathroom — conceived as a coherent whole rather than a succession of separately purchased pieces of furniture.",
+            "**Planning to lay out a studio in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What is the minimum ceiling height for a mezzanine in a studio?** A mezzanine generally requires a ceiling height of at least 2.50 m at its highest point, to keep sufficient headroom both below and above. Below that, a fold-down bed or a good-quality sofa bed remain the most suitable solutions.",
+            "**Is bespoke fitting worth it in a studio, even on a small budget?** Bespoke fittings cost more upfront than standard furniture, but they make it possible to use volumes that no off-the-shelf furniture can occupy efficiently. In a studio, where every centimetre counts, this investment often translates into a functional gain that would be hard to achieve otherwise.",
+            "**How can spaces be separated in a studio without building partitions?** Several solutions exist without building a partition: a change of flooring material, a change in level, a low piece of furniture acting as a visual divider, or lighting varied by zone. These techniques distinguish the different uses while keeping the sense of an open, bright space.",
+            "**Can a 30 m² studio fit in a real work corner?** Yes, provided it is built into the layout from the design stage rather than added afterwards. A desk integrated into a bespoke fitting — for example extending a storage unit or slotted under a mezzanine — takes up far less space than a freestanding desk while remaining fully functional.",
+          ],
+        },
+      ],
+      keywords: [
+        "Studio apartment layout Paris",
+        "Optimising small spaces",
+        "Bespoke studio fittings",
+      ],
+    },
+    it: {
+      title: "Allestimento monolocale a Parigi: come ottimizzare 30 m²?",
+      metaTitle: "Allestimento Monolocale Parigi 30 m²: I Consigli del Nostro Studio",
+      excerpt:
+        "Pianta, letto a scomparsa o soppalco, cucina compatta, contenitori su misura: come un monolocale parigino di 30 m² può offrire un vero confort quotidiano senza mai sembrare stretto.",
+      category: "Architettura d'Interni & Arredo",
+      readingTime: "6 min",
+      intro:
+        "Un monolocale di 30 m² a Parigi non è semplicemente un piccolo appartamento: è un vero e proprio esercizio di progettazione, in cui ogni metro quadro deve svolgere più funzioni contemporaneamente. Dormire, cucinare, lavorare, ricevere ospiti — in un monolocale, tutte queste vite si svolgono nella stessa stanza, talvolta nello stesso metro quadro a seconda dell'ora del giorno. Ben progettato, un monolocale di queste dimensioni può comunque offrire un confort di vita reale, senza mai dare l'impressione di essere stretti.",
+      sections: [
+        {
+          heading: "Ripensare la pianta prima di acquistare qualsiasi mobile",
+          paragraphs: [
+            "Il primo errore, in uno spazio ridotto, è iniziare dai mobili. Un monolocale ben pensato parte al contrario da un'analisi della pianta esistente: dove si trova la luce naturale, quali sono i vincoli tecnici (allacci idraulici, impianto elettrico, muri portanti), e quali usi devono convivere durante la giornata. Un monolocale di 30 m² ospita in realtà diverse \"stanze\" invisibili — un angolo notte, un angolo pranzo, un angolo lavoro, talvolta un angolo salotto — che vanno organizzate in sequenza piuttosto che sovrapposte.",
+            "Questa riflessione sulla pianta permette spesso di guadagnare diversi metri quadri utili senza toccare la struttura: spostare una cucina compatta di qualche decina di centimetri, orientare diversamente il letto, o ridisegnare la circolazione tra l'ingresso e la finestra può trasformare la percezione dello spazio, ben prima di qualsiasi questione decorativa.",
+          ],
+        },
+        {
+          heading: "Il letto, elemento strategico del monolocale",
+          paragraphs: [
+            "In un monolocale, il letto occupa spesso il volume maggiore a terra — è quindi il primo elemento da ripensare. Diverse soluzioni permettono di liberare lo spazio che occupa di giorno: un letto a scomparsa integrato in un mobile su misura, un soppalco se l'altezza del soffitto lo consente (generalmente a partire da 2,50 m), o un divano letto di qualità se il budget o la configurazione non permettono un'installazione fissa.",
+            "Il soppalco resta la soluzione più radicale e più efficace in termini di metri quadri recuperati: libera completamente il pavimento per un soggiorno o uno studio, al prezzo di un'altezza ridotta per dormire. Il letto a scomparsa, invece, offre un compromesso interessante nei monolocali con altezza standard, a condizione di essere integrato in un arredo su misura che nasconda il meccanismo e prolunghi l'estetica del resto della stanza.",
+          ],
+          image: {
+            src: "/assets/images/lit-escamotable-kitchenette-studio-paris.jpg",
+            caption: "Letto a scomparsa integrato e cucina compatta su misura, monolocale parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Una cucina compatta, ma pienamente funzionale",
+          paragraphs: [
+            "La cucina di un monolocale non ha bisogno di essere grande per essere efficiente, ma va pensata con lo stesso rigore di una cucina aperta di 20 m². Un arredo su misura permette di sfruttare ogni centimetro di piano di lavoro, di integrare elettrodomestici di dimensioni ridotte senza perdere funzionalità, e di nascondere la cucina dietro un fronte coordinato con il resto della stanza quando non è in uso — ad esempio tramite ante scorrevoli o un mobile chiuso.",
+            "La scelta dei materiali gioca qui un ruolo importante: una stessa tonalità o uno stesso materiale tra il fronte cucina e i contenitori adiacenti permette all'occhio di percepire un unico volume coerente, piuttosto che un accumulo di elementi distinti, il che amplia visivamente lo spazio.",
+          ],
+        },
+        {
+          heading: "Contenitori su misura per sfruttare ogni angolo",
+          paragraphs: [
+            "In un monolocale, i mobili contenitori standard reperibili in commercio raramente si adattano bene ai volumi disponibili — lasciano quasi sempre spazi inutilizzati. L'arredo su misura permette invece di sfruttare angoli altrimenti inutilizzabili: un rientro trasformato in guardaroba, un'altezza valorizzata da contenitori nella parte alta, uno spazio sotto un letto rialzato convertito in cabina armadio o scrivania.",
+            "I contenitori a tutta altezza, fino al soffitto, sono particolarmente efficaci in un monolocale: moltiplicano la capacità di contenimento senza aggiungere ingombro a terra, e la loro linea verticale continua dà anche un'impressione di altezza alla stanza.",
+          ],
+        },
+        {
+          heading: "Luce, specchi e continuità visiva",
+          paragraphs: [
+            "Un monolocale ben allestito si percepisce sempre più grande di quanto non sia in realtà — un effetto ottenuto tanto dalla luce quanto dalla pianta. Privilegiare una palette di tonalità chiare e continue tra pareti, pavimenti e mobili evita di frammentare visivamente lo spazio in più zone. Uno specchio ben posizionato, in particolare di fronte alla finestra, prolunga la luce naturale e dà una sensazione di profondità.",
+            "La luce artificiale merita la stessa attenzione: piuttosto che un plafoniere centrale unico, più fonti di luce basse e indirette (applique, lampade da terra, illuminazione integrata nei contenitori) creano un'atmosfera più calda e permettono di distinguere i diversi usi della stanza, anche in assenza di pareti divisorie.",
+          ],
+        },
+        {
+          heading: "Un bagno pensato al millimetro",
+          paragraphs: [
+            "In un monolocale, il bagno è spesso la stanza più limitata in termini di superficie. Un piatto doccia extra-piatto piuttosto che una vasca, un mobile lavabo sospeso per liberare visivamente il pavimento, o una parete doccia in vetro piuttosto che una tenda permettono di guadagnare in sensazione di spazio senza sacrificare il confort d'uso. Come per la cucina, un arredo su misura permette di utilizzare l'intero volume disponibile, compresi gli angoli meno evidenti.",
+          ],
+        },
+        {
+          heading: "Come affrontiamo un progetto di monolocale da Supra Studio",
+          paragraphs: [
+            "Un monolocale di 30 m² non è mai un \"piccolo progetto\" in senso proprio: è spesso l'esercizio più impegnativo in architettura d'interni, dove ogni decisione sulla pianta ha ripercussioni sull'intero spazio. Il nostro approccio inizia, come per ogni progetto, con una visita conoscitiva sul posto, per valutare la configurazione esistente, la luce, i vincoli tecnici e gli usi prioritari del futuro abitante. Progettiamo poi una pianta e un arredo su misura — mobili, contenitori, cucina, bagno — pensati come un insieme coerente piuttosto che come una successione di mobili acquistati separatamente.",
+            "**State progettando l'allestimento di un monolocale a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è l'altezza minima del soffitto per installare un soppalco in un monolocale?** Un soppalco richiede generalmente un'altezza del soffitto di almeno 2,50 m nel punto più alto, per conservare un'altezza sufficiente sia sotto che sopra. Al di sotto, un letto a scomparsa o un divano letto di qualità restano le soluzioni più adatte.",
+            "**Conviene puntare sul su misura in un monolocale, anche con un budget limitato?** Il su misura ha un costo iniziale più elevato di un mobile standard, ma permette di sfruttare volumi che nessun mobile in commercio può occupare efficacemente. In un monolocale, dove ogni centimetro conta, questo investimento si traduce spesso in un guadagno di funzionalità difficile da ottenere altrimenti.",
+            "**Come separare gli spazi in un monolocale senza costruire pareti divisorie?** Esistono diverse soluzioni senza costruire una parete: un cambio di materiale a terra, un dislivello, un mobile basso che funge da separazione visiva, o un gioco di illuminazione differenziato per zona. Queste tecniche permettono di distinguere gli usi mantenendo la sensazione di uno spazio aperto e luminoso.",
+            "**Un monolocale di 30 m² può ospitare un vero angolo scrivania?** Sì, a condizione di integrarlo fin dalla progettazione della pianta piuttosto che aggiungerlo in un secondo momento. Una scrivania integrata in un arredo su misura — ad esempio in prolungamento di un mobile contenitore o inserita sotto un soppalco — occupa molto meno spazio di una scrivania autonoma restando pienamente funzionale.",
+          ],
+        },
+      ],
+      keywords: [
+        "Allestimento monolocale Parigi",
+        "Ottimizzare piccoli spazi",
+        "Arredo su misura monolocale",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {

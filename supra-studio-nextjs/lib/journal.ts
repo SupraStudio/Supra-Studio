@@ -792,6 +792,88 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },
+  {
+    slug: "amenagement-studio-paris-optimiser-30m2",
+    title: "Aménagement studio à Paris : comment bien optimiser 30 m² ?",
+    metaTitle: "Aménagement Studio Paris 30 m² : Nos Conseils d'Architecte",
+    excerpt:
+      "Plan, lit escamotable ou mezzanine, cuisine compacte, rangements sur mesure : comment un studio parisien de 30 m² peut offrir un vrai confort de vie, sans jamais paraître à l'étroit.",
+    date: "2026-08-18",
+    category: "Architecture d'Intérieur & Agencement",
+    cover: "/assets/images/studio-parisien-agencement-sur-mesure-cuisine-bureau.jpg",
+    readingTime: "6 min",
+    intro:
+      "Un studio de 30 m² à Paris n'est pas un petit appartement : c'est un exercice de conception à part entière, où chaque mètre carré doit remplir plusieurs fonctions à la fois. Dormir, cuisiner, travailler, recevoir — dans un studio, toutes ces vies se déroulent dans la même pièce, parfois dans le même mètre carré selon l'heure de la journée. Bien aménagé, un studio de cette taille peut pourtant offrir un confort de vie réel, sans jamais donner l'impression d'être à l'étroit.",
+    sections: [
+      {
+        heading: "Repenser le plan avant d'acheter le moindre meuble",
+        paragraphs: [
+          "La première erreur, dans un petit espace, est de commencer par le mobilier. Un studio bien pensé part au contraire d'une analyse du plan existant : où se trouve la lumière naturelle, quelles sont les contraintes techniques (arrivées d'eau, réseau électrique, murs porteurs), et quels usages doivent cohabiter dans la journée. Un studio de 30 m² accueille en réalité plusieurs \"pièces\" invisibles — un coin nuit, un coin repas, un coin travail, parfois un coin salon — qu'il faut organiser en séquence plutôt qu'en superposition.",
+          "Cette réflexion de plan permet souvent de gagner plusieurs mètres carrés utiles sans toucher à la structure : déplacer une kitchenette de quelques dizaines de centimètres, orienter le lit différemment, ou redessiner la circulation entre l'entrée et la fenêtre peut transformer la perception de l'espace, bien avant toute question de décoration.",
+        ],
+      },
+      {
+        heading: "Le lit, poste stratégique du studio",
+        paragraphs: [
+          "Dans un studio, le lit occupe souvent le plus grand volume au sol — c'est donc le premier élément à repenser. Plusieurs solutions permettent de libérer l'espace qu'il occupe en journée : un lit escamotable intégré dans un caisson sur mesure, une mezzanine si la hauteur sous plafond le permet (généralement à partir de 2,50 m), ou un canapé-lit de qualité si le budget ou la configuration ne permettent pas d'installation fixe.",
+          "La mezzanine reste la solution la plus radicale et la plus efficace en termes de mètres carrés regagnés : elle libère entièrement le sol pour un salon ou un bureau, au prix d'une hauteur sous plafond réduite pour dormir. Le lit escamotable, lui, offre un compromis intéressant dans les studios à plafond standard, à condition d'être intégré dans un agencement sur mesure qui dissimule le mécanisme et prolonge l'esthétique du reste de la pièce.",
+        ],
+        image: {
+          src: "/assets/images/lit-escamotable-kitchenette-studio-paris.jpg",
+          caption: "Lit escamotable intégré et kitchenette sur mesure, studio parisien, Supra Studio",
+        },
+      },
+      {
+        heading: "Une cuisine compacte, mais entièrement fonctionnelle",
+        paragraphs: [
+          "La kitchenette d'un studio n'a pas besoin d'être grande pour être efficace, mais elle doit être pensée avec la même rigueur qu'une cuisine ouverte de 20 m². Un agencement sur mesure permet d'exploiter chaque centimètre de linéaire, d'intégrer les appareils électroménagers à taille réduite sans perdre en fonctionnalité, et de dissimuler la cuisine derrière une façade coordonnée avec le reste de la pièce lorsqu'elle n'est pas utilisée — par exemple à l'aide de portes coulissantes ou d'un meuble fermé.",
+          "Le choix des matériaux joue ici un rôle important : une même teinte ou un même matériau entre la façade de cuisine et les rangements adjacents permet à l'œil de percevoir un seul volume cohérent, plutôt qu'une accumulation d'éléments distincts, ce qui agrandit visuellement l'espace.",
+        ],
+      },
+      {
+        heading: "Des rangements sur mesure pour exploiter chaque recoin",
+        paragraphs: [
+          "Dans un studio, le rangement standard trouvé dans le commerce s'adapte rarement bien aux volumes disponibles — il laisse presque toujours des espaces perdus. L'agencement sur mesure permet au contraire d'exploiter des recoins autrement inutilisables : un renfoncement transformé en penderie, une hauteur sous plafond valorisée par des rangements en partie haute, un espace sous un lit surélevé converti en dressing ou en bureau.",
+          "Les rangements toute hauteur, jusqu'au plafond, sont particulièrement efficaces dans un studio : ils multiplient la capacité de rangement sans ajouter d'emprise au sol, et leur ligne verticale continue donne également une impression de hauteur à la pièce.",
+        ],
+      },
+      {
+        heading: "Lumière, miroirs et continuité visuelle",
+        paragraphs: [
+          "Un studio bien aménagé se perçoit toujours plus grand qu'il ne l'est réellement — un effet obtenu autant par la lumière que par le plan. Privilégier une palette de teintes claires et continues entre les murs, les sols et le mobilier évite de fragmenter visuellement l'espace en plusieurs zones. Un miroir bien positionné, notamment face à la fenêtre, prolonge la lumière naturelle et donne une sensation de profondeur.",
+          "La lumière artificielle mérite la même attention : plutôt qu'un plafonnier central unique, plusieurs sources de lumière basses et indirectes (appliques, lampadaires, éclairage intégré aux rangements) créent une ambiance plus chaleureuse et permettent de distinguer les différents usages de la pièce, même en l'absence de cloisons.",
+        ],
+      },
+      {
+        heading: "Une salle d'eau pensée au millimètre",
+        paragraphs: [
+          "Dans un studio, la salle d'eau est souvent la pièce la plus contrainte en surface. Un receveur de douche extra-plat plutôt qu'une baignoire, un meuble vasque suspendu pour libérer le sol visuellement, ou une paroi de douche vitrée plutôt qu'un rideau permettent de gagner en sensation d'espace sans sacrifier le confort d'usage. Comme pour la kitchenette, un agencement sur mesure permet d'utiliser l'intégralité du volume disponible, y compris les recoins les moins évidents.",
+        ],
+      },
+      {
+        heading: "Comment nous abordons un projet de studio chez Supra Studio",
+        paragraphs: [
+          "Un studio de 30 m² n'est jamais un \"petit projet\" au sens propre : c'est souvent l'exercice le plus exigeant en architecture intérieure, où chaque décision de plan a des répercussions sur l'ensemble de l'espace. Notre approche commence, comme pour tout projet, par une visite-conseil sur place, pour évaluer la configuration existante, la lumière, les contraintes techniques et les usages prioritaires du futur habitant. Nous concevons ensuite un plan et un agencement sur mesure — mobilier, rangements, cuisine, salle d'eau — pensés comme un ensemble cohérent plutôt que comme une succession de meubles achetés séparément.",
+          "**Vous préparez l'aménagement d'un studio à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quelle surface minimale pour installer une mezzanine dans un studio ?** Une mezzanine nécessite généralement une hauteur sous plafond d'au moins 2,50 m au point le plus haut, pour conserver une hauteur suffisante à la fois en dessous et au-dessus. En deçà, un lit escamotable ou un canapé-lit de qualité restent les solutions les plus adaptées.",
+          "**Faut-il privilégier le sur-mesure dans un studio, même avec un petit budget ?** Le sur-mesure a un coût plus élevé qu'un meuble standard à l'achat, mais il permet d'exploiter des volumes qu'aucun meuble du commerce ne peut occuper efficacement. Sur un studio, où chaque centimètre compte, cet investissement se traduit souvent par un gain de fonctionnalité difficile à obtenir autrement.",
+          "**Comment séparer les espaces dans un studio sans cloisonner ?** Plusieurs solutions existent sans construire de cloison : un changement de matériau au sol, une différence de niveau, un meuble bas faisant office de séparation visuelle, ou un jeu d'éclairage différencié par zone. Ces techniques permettent de distinguer les usages tout en conservant la sensation d'un espace ouvert et lumineux.",
+          "**Un studio de 30 m² peut-il accueillir un vrai coin bureau ?** Oui, à condition de l'intégrer dès la conception du plan plutôt que de l'ajouter après coup. Un bureau intégré à un agencement sur mesure — par exemple prolongeant un meuble de rangement ou glissé sous une mezzanine — occupe beaucoup moins d'espace qu'un bureau autonome tout en restant pleinement fonctionnel.",
+        ],
+      },
+    ],
+    keywords: [
+      "Aménagement studio Paris",
+      "Optimiser petit espace",
+      "Agencement sur mesure studio",
+    ],
+    relatedProjects: ["casa-duy"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
