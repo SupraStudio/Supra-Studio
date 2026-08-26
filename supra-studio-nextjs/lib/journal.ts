@@ -874,6 +874,115 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy"],
   },
+  {
+    slug: "transformer-2-pieces-en-3-pieces-paris",
+    title:
+      "Transformation d'un 2 pièces en 3 pièces à Paris : repenser l'espace sans perdre en confort",
+    metaTitle: "Transformer un 2 Pièces en 3 Pièces à Paris",
+    excerpt:
+      "Diviser le séjour, repenser le plan, déplacer la cuisine : comment transformer un 2 pièces parisien en 3 pièces sans assombrir l'appartement ni perdre en confort.",
+    date: "2026-08-26",
+    category: "Rénovation & Architecture d'Intérieur",
+    cover: "/assets/images/transformation-2-pieces-3-pieces-paris-cuisine-verte.jpg",
+    readingTime: "8 min",
+    intro:
+      "À Paris, chaque mètre carré compte. Lorsque les besoins évoluent, un appartement de deux pièces peut rapidement devenir trop petit : arrivée d'un enfant, création d'un espace de télétravail, besoin d'une chambre supplémentaire ou simplement envie de mieux répartir les fonctions du logement. Transformer un 2 pièces en 3 pièces à Paris est pourtant rarement une simple question de cloisonnement : dans un appartement compact, créer une pièce supplémentaire sans assombrir le séjour, réduire les circulations ou donner une impression d'exiguïté demande une véritable réflexion d'architecture intérieure. L'enjeu est de gagner une pièce sans perdre la qualité de l'espace.",
+    sections: [
+      {
+        heading: "Transformer un 2 pièces en 3 pièces : une question d'usage avant tout",
+        paragraphs: [
+          "Un appartement de deux pièces est généralement composé d'un séjour, d'une chambre, d'une cuisine et d'une salle de bains. Pour créer un trois pièces, la première idée consiste souvent à diviser le séjour afin d'obtenir une seconde chambre. Cette solution peut fonctionner, mais elle n'est pas toujours la meilleure. À Paris, les appartements présentent souvent des plans anciens, des murs porteurs, des fenêtres peu nombreuses, des pièces traversantes ou au contraire très cloisonnées. La transformation doit donc partir de l'existant.",
+          "Avant de déplacer une cloison, il faut comprendre comment le logement est réellement utilisé : où se trouve la lumière naturelle, quelles pièces bénéficient des fenêtres, peut-on déplacer la cuisine, les cloisons existantes sont-elles porteuses, où sont les réseaux d'eau et d'évacuation, quelle surface peut réellement être consacrée à une nouvelle chambre, comment conserver une pièce de vie agréable, et faut-il privilégier une chambre classique, une chambre d'enfant ou un bureau pouvant évoluer. Une bonne transformation ne consiste pas à ajouter artificiellement une pièce : elle consiste à recomposer l'appartement autour de nouveaux usages.",
+        ],
+      },
+      {
+        heading: "Diviser le séjour",
+        paragraphs: [
+          "C'est la solution la plus évidente lorsque le salon dispose d'une surface importante. Une partie du séjour peut être transformée en chambre en créant une nouvelle cloison. Pour conserver un espace de vie agréable, le dessin de cette séparation est essentiel.",
+          "Une cloison pleine peut rapidement rendre le séjour sombre. Selon la configuration, on peut alors travailler avec une verrière, une cloison vitrée, une imposte, une porte vitrée ou une séparation partiellement ouverte. L'objectif est de créer une véritable pièce tout en conservant la circulation de la lumière.",
+        ],
+        image: {
+          src: "/assets/images/verriere-cloison-vitree-bureau-appartement-paris.jpg",
+          caption: "Verrière séparant un bureau du séjour, appartement parisien, Supra Studio",
+        },
+      },
+      {
+        heading: "Repenser complètement le plan",
+        paragraphs: [
+          "Dans certains appartements, la meilleure solution consiste à revoir l'organisation générale plutôt qu'à simplement diviser une pièce. Déplacer la cuisine, réduire une circulation inutile ou redistribuer l'entrée peut permettre de récupérer plusieurs mètres carrés utiles. Un couloir trop large, une cuisine mal positionnée ou une succession de petites pièces peuvent parfois représenter un potentiel important — c'est particulièrement intéressant dans les appartements parisiens anciens, où le plan existant ne correspond plus nécessairement aux modes de vie contemporains.",
+        ],
+      },
+      {
+        heading: "Transformer une cuisine séparée",
+        paragraphs: [
+          "Lorsque la cuisine possède une surface relativement importante, elle peut parfois être déplacée ou intégrée au séjour. Cette stratégie permet de libérer une pièce supplémentaire pour créer une chambre. La création d'une cuisine ouverte peut également agrandir visuellement la pièce de vie, mais elle doit être étudiée avec soin : position des réseaux, ventilation, évacuations, rangements et intégration esthétique doivent être anticipés dès la conception.",
+        ],
+      },
+      {
+        heading: "Créer une petite chambre plutôt qu'une grande pièce multifonctionnelle",
+        paragraphs: [
+          "À Paris, quelques mètres carrés supplémentaires peuvent faire une grande différence. Une chambre de petite dimension peut parfaitement fonctionner si son plan est pensé sur mesure : lit intégré, rangements toute hauteur, portes coulissantes, mobilier réalisé sur mesure et circulation réduite au minimum. Dans un appartement compact, la qualité du plan compte souvent davantage que la taille brute de chaque pièce.",
+        ],
+      },
+      {
+        heading: "Peut-on transformer un 2 pièces de 40 m² en 3 pièces ?",
+        paragraphs: [
+          "Oui, mais la faisabilité dépend entièrement du plan existant. Un appartement de 40 m² peut, dans certaines configurations, devenir un véritable trois pièces. Dans d'autres, créer une troisième pièce conduirait à des espaces trop petits ou insuffisamment éclairés. La question n'est donc pas uniquement celle de la surface : un appartement de 40 m² bien distribué peut être beaucoup plus confortable qu'un appartement de 45 m² mal organisé.",
+          "Pour chaque projet, il faut notamment étudier la position et la dimension des fenêtres, la hauteur sous plafond, les murs porteurs, les gaines techniques, les arrivées et évacuations d'eau, les possibilités de déplacement de la cuisine, les contraintes de copropriété, les besoins de ventilation, ainsi que la surface et la configuration des futures chambres. Une étude de faisabilité permet de vérifier ces éléments avant de s'engager dans les travaux.",
+        ],
+      },
+      {
+        heading: "Créer une chambre supplémentaire sans assombrir l'appartement",
+        paragraphs: [
+          "C'est probablement l'un des principaux défis d'une transformation de 2 pièces en 3 pièces. La lumière naturelle est particulièrement précieuse dans un petit appartement : une cloison supplémentaire peut rapidement transformer un logement lumineux en succession de pièces sombres. L'architecture intérieure permet alors de travailler sur plusieurs niveaux — les séparations peuvent être vitrées ou semi-transparentes, les portes peuvent être coulissantes, les circulations peuvent être réduites, et les perspectives visuelles peuvent être conservées depuis l'entrée jusqu'au séjour.",
+          "Les matériaux jouent également un rôle important : couleurs claires, menuiseries sur mesure, miroirs intégrés avec parcimonie, bois, textiles et éclairage architectural permettent de créer des espaces chaleureux sans les alourdir. L'objectif n'est pas de faire paraître artificiellement l'appartement plus grand, mais de faire circuler la lumière et les regards de manière cohérente.",
+        ],
+      },
+      {
+        heading: "L'architecture sur mesure pour gagner de la place",
+        paragraphs: [
+          "Dans un appartement parisien, le mobilier fait partie intégrante du projet architectural. Lorsqu'un 2 pièces devient un 3 pièces, chaque centimètre peut être optimisé : une bibliothèque peut intégrer une porte, un meuble peut séparer deux fonctions, une tête de lit peut devenir un rangement, une banquette peut intégrer des coffres, une cuisine peut être dessinée jusqu'au plafond.",
+          "Le sur-mesure permet surtout d'éviter d'accumuler du mobilier indépendant dans des pièces déjà petites. Cette approche donne également une cohérence esthétique à l'ensemble du logement : moins de meubles, mais mieux intégrés.",
+        ],
+      },
+      {
+        heading: "Transformer un 2 pièces en 3 pièces à Paris : quelles autorisations ?",
+        paragraphs: [
+          "Avant de commencer les travaux, il est important d'identifier les contraintes techniques et administratives du projet. La modification de cloisons intérieures peut être relativement simple lorsqu'elle ne touche pas à la structure de l'immeuble. En revanche, les interventions sur un mur porteur, les réseaux collectifs, les façades ou certaines parties communes peuvent nécessiter des autorisations spécifiques.",
+          "Dans une copropriété parisienne, le règlement de copropriété doit également être consulté. Selon la nature des travaux, il peut être nécessaire de solliciter l'accord de la copropriété, de la mairie ou de faire intervenir un bureau d'études. C'est pourquoi une transformation réussie commence toujours par une analyse précise de l'existant et des contraintes du bâtiment.",
+        ],
+      },
+      {
+        heading: "Une transformation cohérente avec l'histoire de l'appartement",
+        paragraphs: [
+          "Transformer un appartement parisien ne signifie pas nécessairement effacer son caractère existant. Au contraire, la transformation peut être l'occasion de révéler certains éléments : parquet ancien, moulures, hauteur sous plafond, portes, cheminées, matériaux ou proportions caractéristiques de l'appartement. L'architecture intérieure contemporaine peut dialoguer avec ces éléments plutôt que de les remplacer systématiquement. Créer une chambre supplémentaire devient alors un projet global : améliorer le plan, les usages et le confort tout en conservant l'identité du lieu.",
+        ],
+      },
+      {
+        heading: "Un 2 pièces peut devenir un 3 pièces sans perdre son âme",
+        paragraphs: [
+          "La transformation d'un 2 pièces en 3 pièces à Paris est avant tout un exercice d'équilibre. Il faut trouver la bonne répartition entre chambre, séjour, cuisine, rangements et circulations, optimiser les mètres carrés sans donner l'impression d'un appartement surchargé, et créer une nouvelle pièce tout en conservant lumière, perspectives et confort. Chaque appartement possède ses propres contraintes et son propre potentiel : il n'existe donc pas de plan type pour passer de deux à trois pièces.",
+          "Chez Supra Studio, nous abordons ce type de projet comme une véritable démarche d'architecture intérieure : analyse de l'existant, étude de faisabilité, recherche de plusieurs scénarios d'aménagement, conception du plan et travail sur les matériaux, la lumière et le mobilier sur mesure. L'objectif est simple : faire mieux avec l'espace existant, plutôt que simplement faire entrer davantage de pièces.",
+          "**Votre appartement parisien ne correspond plus à votre mode de vie ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quel budget prévoir pour transformer un 2 pièces en 3 pièces à Paris ?** Le budget dépend de l'ampleur des travaux (simple cloisonnement ou redistribution complète du plan, déplacement de cuisine). Pour des fourchettes de prix détaillées selon le type d'intervention, consultez notre article sur le [prix d'un architecte d'intérieur à Paris](/journal/prix-architecte-interieur-paris-m2-2026).",
+          "**Faut-il l'accord de la copropriété pour ce type de projet ?** Cela dépend de la nature des travaux : la modification d'une cloison non porteuse ne nécessite généralement pas d'autorisation de copropriété, mais toute intervention touchant un mur porteur, une façade ou des parties communes doit être soumise au syndic, voire à la mairie selon les cas.",
+          "**Combien de temps prennent des travaux de transformation d'un 2 pièces en 3 pièces ?** La durée varie selon l'ampleur du projet : un simple cloisonnement peut se réaliser en quelques semaines, tandis qu'une redistribution complète du plan avec déplacement de cuisine et reprise des réseaux demande généralement plusieurs mois, conception comprise.",
+          "**Peut-on transformer un 2 pièces en 3 pièces sans toucher à un mur porteur ?** Oui, c'est même la configuration la plus simple et la plus rapide à mettre en œuvre. C'est notamment le cas lorsque le séjour est suffisamment grand pour être divisé par une cloison non porteuse, ou lorsque l'appartement comporte des circulations ou des pièces annexes qui peuvent être réorganisées sans intervention structurelle.",
+        ],
+      },
+    ],
+    keywords: [
+      "2 pièces en 3 pièces Paris",
+      "Transformation appartement Paris",
+      "Rénovation appartement Paris",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

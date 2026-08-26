@@ -1606,6 +1606,218 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "transformer-2-pieces-en-3-pieces-paris": {
+    en: {
+      title:
+        "Turning a 1-bedroom into a 2-bedroom apartment in Paris: rethinking space without losing comfort",
+      metaTitle: "Turning a 1-Bed into a 2-Bed Apartment in Paris",
+      excerpt:
+        "Dividing the living room, rethinking the layout, moving the kitchen: how to turn a Paris 1-bedroom into a 2-bedroom apartment without darkening it or losing everyday comfort.",
+      category: "Renovation & Interior Architecture",
+      readingTime: "8 min",
+      intro:
+        "In Paris, every square metre counts. As needs change, a one-bedroom apartment can quickly become too small: a new baby, the need for a home office, an extra bedroom, or simply a wish to better distribute the home's functions. Turning a one-bedroom into a two-bedroom apartment in Paris is rarely just a matter of adding a partition, though: in a compact apartment, creating an extra room without darkening the living room, cluttering circulation, or making the space feel cramped calls for genuine interior architecture thinking. The challenge is to gain a room without losing the quality of the space.",
+      sections: [
+        {
+          heading: "Turning a 1-bedroom into a 2-bedroom: a question of use above all",
+          paragraphs: [
+            "A one-bedroom apartment is generally made up of a living room, a bedroom, a kitchen and a bathroom. To create a second bedroom, the first idea is often to divide the living room. This can work, but it isn't always the best option. In Paris, apartments often have older layouts, load-bearing walls, few windows, and rooms that are either through-facing or, on the contrary, heavily partitioned. The transformation therefore has to start from what already exists.",
+            "Before moving a single partition, it's essential to understand how the home is actually used: where the natural light falls, which rooms benefit from windows, whether the kitchen can be moved, whether the existing partitions are load-bearing, where the water supply and drainage run, how much space can realistically be given to a new bedroom, how to keep an enjoyable living room, and whether to aim for a standard bedroom, a child's room, or a flexible office. A good transformation isn't about artificially bolting on a room — it's about reorganising the apartment around new uses.",
+          ],
+        },
+        {
+          heading: "Dividing the living room",
+          paragraphs: [
+            "This is the most obvious solution when the living room is generously sized. Part of the living room can be turned into a bedroom by adding a new partition. To keep an enjoyable living space, the design of this divider is essential.",
+            "A solid partition can quickly make the living room feel dark. Depending on the layout, it may be worth working with a glazed screen, a glass partition, a fanlight, a glazed door, or a partially open divider. The aim is to create a genuine room while keeping light flowing through the space.",
+          ],
+          image: {
+            src: "/assets/images/verriere-cloison-vitree-bureau-appartement-paris.jpg",
+            caption: "Glazed partition separating a home office from the living room, Parisian apartment, Supra Studio",
+          },
+        },
+        {
+          heading: "Rethinking the whole layout",
+          paragraphs: [
+            "In some apartments, the best solution is to reconsider the overall layout rather than simply dividing one room. Moving the kitchen, cutting an unnecessary circulation area, or reorganising the entrance hall can free up several usable square metres. An overly wide hallway, a poorly positioned kitchen, or a string of small rooms can sometimes hold significant potential — this is particularly relevant in older Parisian apartments, where the existing layout no longer necessarily matches contemporary ways of living.",
+          ],
+        },
+        {
+          heading: "Transforming a separate kitchen",
+          paragraphs: [
+            "When the kitchen is a reasonably generous size, it can sometimes be moved or merged with the living room. This strategy frees up an extra room to create a bedroom. Creating an open kitchen can also visually enlarge the living space, but it needs careful planning: the position of utilities, ventilation, drainage, storage and aesthetic integration all need to be anticipated from the design stage.",
+          ],
+        },
+        {
+          heading: "Creating a small bedroom rather than one large multi-purpose room",
+          paragraphs: [
+            "In Paris, a few extra square metres can make a real difference. A small bedroom can work perfectly well if its layout is designed bespoke: an integrated bed, full-height storage, sliding doors, made-to-measure furniture and circulation kept to a minimum. In a compact apartment, the quality of the layout often matters more than the raw size of each room.",
+          ],
+        },
+        {
+          heading: "Can a 40 m² one-bedroom become a two-bedroom apartment?",
+          paragraphs: [
+            "Yes, but feasibility depends entirely on the existing layout. A 40 m² apartment can, in some configurations, become a genuine two-bedroom home. In others, creating a second bedroom would result in spaces that are too small or poorly lit. So the question isn't only one of surface area: a well laid-out 40 m² apartment can be far more comfortable than a poorly organised 45 m² one.",
+            "For every project, it's worth studying the position and size of the windows, the ceiling height, the load-bearing walls, the service ducts, the water supply and drainage, the possibilities for moving the kitchen, the co-ownership constraints, ventilation requirements, and the size and layout of the future bedrooms. A feasibility study makes it possible to check all of this before committing to the works.",
+          ],
+        },
+        {
+          heading: "Creating an extra bedroom without darkening the apartment",
+          paragraphs: [
+            "This is probably one of the main challenges of turning a one-bedroom into a two-bedroom apartment. Natural light is especially precious in a small apartment: an extra partition can quickly turn a bright home into a series of dark rooms. Interior architecture makes it possible to work on several fronts at once — dividers can be glazed or semi-transparent, doors can slide, circulation can be reduced, and visual sightlines can be preserved from the entrance through to the living room.",
+            "Materials also play an important role: light colours, bespoke joinery, mirrors used sparingly, wood, textiles and architectural lighting all help create warm spaces without weighing them down. The aim isn't to make the apartment look artificially bigger, but to let light and sightlines flow through it coherently.",
+          ],
+        },
+        {
+          heading: "Bespoke design to gain space",
+          paragraphs: [
+            "In a Parisian apartment, furniture is an integral part of the architectural project. When a one-bedroom becomes a two-bedroom, every centimetre can be optimised: a bookcase can conceal a door, a piece of furniture can separate two functions, a headboard can double as storage, a bench seat can include hidden compartments, a kitchen can be designed right up to the ceiling.",
+            "Bespoke design above all helps avoid accumulating standalone furniture in already small rooms. This approach also gives the whole home a stronger aesthetic coherence: fewer pieces of furniture, but better integrated.",
+          ],
+        },
+        {
+          heading: "Turning a 1-bedroom into a 2-bedroom apartment in Paris: what approvals are needed?",
+          paragraphs: [
+            "Before starting works, it's important to identify the project's technical and administrative constraints. Modifying interior partitions can be relatively straightforward when it doesn't affect the building's structure. However, work on a load-bearing wall, shared services, façades or certain common areas may require specific approvals.",
+            "In a Parisian co-ownership building, the co-ownership regulations also need to be checked. Depending on the nature of the works, it may be necessary to seek approval from the co-ownership association, the local council, or bring in a structural engineer. This is why a successful transformation always starts with a precise analysis of the existing building and its constraints.",
+          ],
+        },
+        {
+          heading: "A transformation that stays true to the apartment's history",
+          paragraphs: [
+            "Transforming a Parisian apartment doesn't have to mean erasing its existing character. On the contrary, the transformation can be an opportunity to reveal certain features: period flooring, mouldings, ceiling height, doors, fireplaces, materials or proportions characteristic of the apartment. Contemporary interior architecture can engage in dialogue with these features rather than systematically replacing them. Creating an extra bedroom then becomes a wider project: improving the layout, the uses and the comfort while preserving the character of the place.",
+          ],
+        },
+        {
+          heading: "A 1-bedroom can become a 2-bedroom without losing its soul",
+          paragraphs: [
+            "Turning a one-bedroom into a two-bedroom apartment in Paris is above all an exercise in balance. It means finding the right distribution between bedroom, living room, kitchen, storage and circulation, optimising the square metres without making the apartment feel overloaded, and creating a new room while preserving light, sightlines and comfort. Every apartment has its own constraints and its own potential — so there is no standard layout for going from one bedroom to two.",
+            "At Supra Studio, we approach this type of project as a genuine exercise in interior architecture: analysing the existing building, carrying out a feasibility study, exploring several layout scenarios, designing the plan and working on materials, light and bespoke furniture. The goal is simple: make better use of the existing space, rather than simply squeezing in more rooms.",
+            "**Does your Parisian apartment no longer suit your way of life?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What budget should I plan for turning a 1-bedroom into a 2-bedroom apartment in Paris?** The budget depends on the scale of the works (a simple partition versus a full layout reorganisation with a kitchen move). For detailed price ranges by type of work, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Do I need co-ownership approval for this type of project?** It depends on the nature of the works: modifying a non-load-bearing partition generally doesn't require co-ownership approval, but any work affecting a load-bearing wall, a façade or common areas must be submitted to the building manager, and sometimes to the local council.",
+            "**How long does this type of transformation take?** Duration varies with the scale of the project: a simple partition can be completed in a few weeks, while a full layout reorganisation involving moving the kitchen and reworking utilities generally takes several months, including design time.",
+            "**Can a 1-bedroom become a 2-bedroom without touching a load-bearing wall?** Yes — this is actually the simplest and quickest configuration to carry out. It's especially the case when the living room is large enough to be divided by a non-load-bearing partition, or when the apartment has circulation areas or secondary rooms that can be reorganised without any structural work.",
+          ],
+        },
+      ],
+      keywords: [
+        "1-bed to 2-bed apartment Paris",
+        "Apartment transformation Paris",
+        "Apartment renovation Paris",
+      ],
+    },
+    it: {
+      title:
+        "Trasformare un bilocale in trilocale a Parigi: ripensare lo spazio senza perdere in confort",
+      metaTitle: "Trasformare un Bilocale in Trilocale a Parigi",
+      excerpt:
+        "Dividere il soggiorno, ripensare la pianta, spostare la cucina: come trasformare un bilocale parigino in trilocale senza oscurare l'appartamento né perdere in confort.",
+      category: "Ristrutturazione & Architettura d'Interni",
+      readingTime: "8 min",
+      intro:
+        "A Parigi, ogni metro quadro conta. Quando le esigenze cambiano, un bilocale può rapidamente diventare troppo piccolo: l'arrivo di un figlio, la necessità di uno spazio per lavorare da casa, il bisogno di una camera in più o semplicemente il desiderio di ripartire meglio le funzioni dell'abitazione. Trasformare un bilocale in trilocale a Parigi è però raramente una semplice questione di tramezzi: in un appartamento compatto, creare una stanza in più senza oscurare il soggiorno, appesantire la circolazione o dare un'impressione di ristrettezza richiede una vera riflessione di architettura d'interni. La sfida è guadagnare una stanza senza perdere la qualità dello spazio.",
+      sections: [
+        {
+          heading: "Trasformare un bilocale in trilocale: una questione di uso prima di tutto",
+          paragraphs: [
+            "Un bilocale è generalmente composto da un soggiorno, una camera, una cucina e un bagno. Per creare un trilocale, la prima idea consiste spesso nel dividere il soggiorno per ottenere una seconda camera. Questa soluzione può funzionare, ma non è sempre la migliore. A Parigi, gli appartamenti presentano spesso piante antiche, muri portanti, poche finestre, stanze passanti o al contrario molto suddivise. La trasformazione deve quindi partire dall'esistente.",
+            "Prima di spostare un tramezzo, bisogna capire come l'abitazione viene realmente utilizzata: dove si trova la luce naturale, quali stanze beneficiano delle finestre, se si può spostare la cucina, se i tramezzi esistenti sono portanti, dove si trovano gli impianti idraulici, quale superficie può realmente essere dedicata a una nuova camera, come conservare un soggiorno piacevole, e se privilegiare una camera classica, una cameretta per bambini o uno studio che possa evolvere. Una buona trasformazione non consiste nell'aggiungere artificialmente una stanza: consiste nel ricomporre l'appartamento attorno a nuovi usi.",
+          ],
+        },
+        {
+          heading: "Dividere il soggiorno",
+          paragraphs: [
+            "È la soluzione più evidente quando il soggiorno dispone di una superficie importante. Una parte del soggiorno può essere trasformata in camera creando un nuovo tramezzo. Per conservare uno spazio di vita piacevole, il disegno di questa separazione è essenziale.",
+            "Un tramezzo pieno può rapidamente rendere il soggiorno buio. A seconda della configurazione, si può allora lavorare con una vetrata, una parete vetrata, un sopraluce, una porta vetrata o una separazione parzialmente aperta. L'obiettivo è creare una vera stanza conservando al contempo la circolazione della luce.",
+          ],
+          image: {
+            src: "/assets/images/verriere-cloison-vitree-bureau-appartement-paris.jpg",
+            caption: "Vetrata che separa uno studio dal soggiorno, appartamento parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Ripensare completamente la pianta",
+          paragraphs: [
+            "In alcuni appartamenti, la soluzione migliore consiste nel rivedere l'organizzazione generale piuttosto che semplicemente dividere una stanza. Spostare la cucina, ridurre una circolazione inutile o ridistribuire l'ingresso può permettere di recuperare diversi metri quadri utili. Un corridoio troppo largo, una cucina mal posizionata o una successione di piccole stanze possono talvolta rappresentare un potenziale importante — è particolarmente interessante negli appartamenti parigini antichi, dove la pianta esistente non corrisponde più necessariamente agli stili di vita contemporanei.",
+          ],
+        },
+        {
+          heading: "Trasformare una cucina separata",
+          paragraphs: [
+            "Quando la cucina possiede una superficie relativamente importante, può talvolta essere spostata o integrata nel soggiorno. Questa strategia permette di liberare una stanza supplementare per creare una camera. La creazione di una cucina aperta può inoltre ampliare visivamente lo spazio giorno, ma va studiata con cura: posizione degli impianti, ventilazione, scarichi, contenitori e integrazione estetica devono essere anticipati fin dalla progettazione.",
+          ],
+        },
+        {
+          heading: "Creare una piccola camera piuttosto che un grande ambiente multifunzionale",
+          paragraphs: [
+            "A Parigi, qualche metro quadro in più può fare una grande differenza. Una camera di piccole dimensioni può funzionare perfettamente se la sua pianta è pensata su misura: letto integrato, contenitori a tutta altezza, porte scorrevoli, mobili realizzati su misura e circolazione ridotta al minimo. In un appartamento compatto, la qualità della pianta conta spesso più della dimensione grezza di ogni stanza.",
+          ],
+        },
+        {
+          heading: "Si può trasformare un bilocale di 40 m² in trilocale?",
+          paragraphs: [
+            "Sì, ma la fattibilità dipende interamente dalla pianta esistente. Un appartamento di 40 m² può, in alcune configurazioni, diventare un vero trilocale. In altre, creare una terza stanza porterebbe a spazi troppo piccoli o poco illuminati. La questione non è quindi unicamente quella della superficie: un appartamento di 40 m² ben distribuito può essere molto più confortevole di un appartamento di 45 m² mal organizzato.",
+            "Per ogni progetto, bisogna in particolare studiare la posizione e la dimensione delle finestre, l'altezza del soffitto, i muri portanti, i cavedi tecnici, gli allacci e gli scarichi idraulici, le possibilità di spostamento della cucina, i vincoli condominiali, le esigenze di ventilazione, nonché la superficie e la configurazione delle future camere. Uno studio di fattibilità permette di verificare questi elementi prima di impegnarsi nei lavori.",
+          ],
+        },
+        {
+          heading: "Creare una camera supplementare senza oscurare l'appartamento",
+          paragraphs: [
+            "È probabilmente una delle principali sfide di una trasformazione da bilocale a trilocale. La luce naturale è particolarmente preziosa in un piccolo appartamento: un tramezzo supplementare può rapidamente trasformare un'abitazione luminosa in una successione di stanze buie. L'architettura d'interni permette allora di lavorare su più livelli — le separazioni possono essere vetrate o semi-trasparenti, le porte possono essere scorrevoli, le circolazioni possono essere ridotte, e le prospettive visive possono essere conservate dall'ingresso fino al soggiorno.",
+            "Anche i materiali giocano un ruolo importante: colori chiari, infissi su misura, specchi integrati con parsimonia, legno, tessuti e illuminazione architettonica permettono di creare spazi caldi senza appesantirli. L'obiettivo non è far sembrare artificialmente l'appartamento più grande, ma far circolare la luce e gli sguardi in modo coerente.",
+          ],
+        },
+        {
+          heading: "L'arredo su misura per guadagnare spazio",
+          paragraphs: [
+            "In un appartamento parigino, l'arredo fa parte integrante del progetto architettonico. Quando un bilocale diventa un trilocale, ogni centimetro può essere ottimizzato: una libreria può integrare una porta, un mobile può separare due funzioni, una testiera può diventare un contenitore, una panca può integrare dei cassoni, una cucina può essere disegnata fino al soffitto.",
+            "Il su misura permette soprattutto di evitare di accumulare mobili indipendenti in stanze già piccole. Questo approccio dà inoltre una coerenza estetica all'insieme dell'abitazione: meno mobili, ma meglio integrati.",
+          ],
+        },
+        {
+          heading: "Trasformare un bilocale in trilocale a Parigi: quali autorizzazioni?",
+          paragraphs: [
+            "Prima di iniziare i lavori, è importante identificare i vincoli tecnici e amministrativi del progetto. La modifica di tramezzi interni può essere relativamente semplice quando non tocca la struttura dell'edificio. Al contrario, gli interventi su un muro portante, gli impianti collettivi, le facciate o alcune parti comuni possono richiedere autorizzazioni specifiche.",
+            "In un condominio parigino, va inoltre consultato il regolamento condominiale. A seconda della natura dei lavori, può essere necessario richiedere l'accordo del condominio, del comune, o far intervenire uno studio tecnico. Per questo una trasformazione riuscita inizia sempre con un'analisi precisa dell'esistente e dei vincoli dell'edificio.",
+          ],
+        },
+        {
+          heading: "Una trasformazione coerente con la storia dell'appartamento",
+          paragraphs: [
+            "Trasformare un appartamento parigino non significa necessariamente cancellarne il carattere esistente. Al contrario, la trasformazione può essere l'occasione per rivelare alcuni elementi: parquet antico, cornici, altezza del soffitto, porte, camini, materiali o proporzioni caratteristiche dell'appartamento. L'architettura d'interni contemporanea può dialogare con questi elementi piuttosto che sostituirli sistematicamente. Creare una camera supplementare diventa allora un progetto globale: migliorare la pianta, gli usi e il confort conservando l'identità del luogo.",
+          ],
+        },
+        {
+          heading: "Un bilocale può diventare un trilocale senza perdere la sua anima",
+          paragraphs: [
+            "La trasformazione di un bilocale in trilocale a Parigi è prima di tutto un esercizio di equilibrio. Bisogna trovare la giusta ripartizione tra camera, soggiorno, cucina, contenitori e circolazioni, ottimizzare i metri quadri senza dare l'impressione di un appartamento sovraccarico, e creare una nuova stanza conservando luce, prospettive e confort. Ogni appartamento possiede i propri vincoli e il proprio potenziale: non esiste quindi una pianta tipo per passare da due a tre locali.",
+            "Da Supra Studio, affrontiamo questo tipo di progetto come un vero e proprio percorso di architettura d'interni: analisi dell'esistente, studio di fattibilità, ricerca di diversi scenari di allestimento, progettazione della pianta e lavoro su materiali, luce e arredo su misura. L'obiettivo è semplice: fare meglio con lo spazio esistente, piuttosto che semplicemente far entrare più stanze.",
+            "**Il vostro appartamento parigino non corrisponde più al vostro stile di vita?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Che budget prevedere per trasformare un bilocale in trilocale a Parigi?** Il budget dipende dall'ampiezza dei lavori (semplice tramezzo o riorganizzazione completa della pianta, spostamento della cucina). Per fasce di prezzo dettagliate secondo il tipo di intervento, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Serve l'accordo del condominio per questo tipo di progetto?** Dipende dalla natura dei lavori: la modifica di un tramezzo non portante generalmente non richiede l'autorizzazione del condominio, ma qualsiasi intervento su un muro portante, una facciata o parti comuni deve essere sottoposto all'amministratore, ed eventualmente al comune.",
+            "**Quanto tempo richiedono i lavori di trasformazione da bilocale a trilocale?** La durata varia secondo l'ampiezza del progetto: un semplice tramezzo può essere realizzato in poche settimane, mentre una riorganizzazione completa della pianta con spostamento della cucina e rifacimento degli impianti richiede generalmente diversi mesi, progettazione inclusa.",
+            "**Si può trasformare un bilocale in trilocale senza toccare un muro portante?** Sì, è anzi la configurazione più semplice e rapida da realizzare. È il caso in particolare quando il soggiorno è sufficientemente grande da essere diviso da un tramezzo non portante, o quando l'appartamento presenta circolazioni o vani accessori che possono essere riorganizzati senza interventi strutturali.",
+          ],
+        },
+      ],
+      keywords: [
+        "Bilocale in trilocale Parigi",
+        "Trasformazione appartamento Parigi",
+        "Ristrutturazione appartamento Parigi",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {

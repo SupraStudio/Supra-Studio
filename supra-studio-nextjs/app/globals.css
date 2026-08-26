@@ -297,6 +297,18 @@ button { font-family: inherit; cursor: pointer; }
   margin: 0 0 28px;
 }
 .hero-title-line { display: block; }
+.hero-title-line--brand {
+  font-size: 0.42em;
+  font-family: var(--f-body);
+  letter-spacing: 0.04em;
+  opacity: .8;
+  margin-top: 0.3em;
+}
+.hero-title-pipe {
+  opacity: .35;
+  font-weight: 300;
+}
+
 
 .hero-foot {
   display: flex;

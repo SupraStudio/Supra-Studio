@@ -17,8 +17,19 @@ export default function Hero({ lang = "fr" }: { lang?: Lang }) {
       <div className="hero-content">
         <p className="hero-eyebrow">Paris · Bordeaux · Rome</p>
         <h1 className="hero-title">
-          <span className="hero-title-line">{t.home.heroTitleLines[0]}</span>
-          <span className="hero-title-line">{t.home.heroTitleLines[1]}</span>
+          {t.home.heroTitleLines.map((line: string, i: number) => {
+            const isBrand = i === t.home.heroTitleLines.length - 1;
+            const hasPipe = line.startsWith("| ");
+            return (
+              <span
+                key={i}
+                className={`hero-title-line${isBrand ? " hero-title-line--brand" : ""}`}
+              >
+                {hasPipe && <span className="hero-title-pipe"> | </span>}
+                {hasPipe ? line.slice(2) : line}
+              </span>
+            );
+          })}
         </h1>
         <div className="hero-foot">
           <p className="hero-sub">{t.home.heroSub}</p>
