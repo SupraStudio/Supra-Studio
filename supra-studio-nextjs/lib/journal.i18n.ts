@@ -1818,6 +1818,176 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "cuisine-ouverte-paris-amenagement-optimal": {
+    en: {
+      title: "Open-plan kitchen in Paris: how to get the layout right",
+      metaTitle: "Open-Plan Kitchen Paris: Optimal Layout",
+      excerpt:
+        "Work triangle, island or peninsula, managing smells and noise: how to plan the layout of a Parisian open-plan kitchen so it stays comfortable day to day.",
+      category: "Interior Architecture & Fittings",
+      readingTime: "7 min",
+      intro:
+        "Opening up the kitchen onto the living room has become one of the most requested renovation projects in Paris. More light, a living space that feels bigger, a renewed sense of togetherness between cooking and family life: the benefits are real. But knocking down a wall is never enough to make a good open-plan kitchen on its own. A poorly planned open kitchen can instead become a daily source of irritation: cooking smells drifting into the living room, an extractor hood droning through a conversation, mess visible from the sofa, circulation blocked when two people are cooking at once. Getting the layout of an open-plan kitchen right isn't just a question of aesthetics: it's a genuine exercise in interior architecture, one that has to anticipate real-life use before any material is chosen.",
+      sections: [
+        {
+          heading: "Planning the layout before the opening itself",
+          paragraphs: [
+            "The first mistake is to treat opening up a kitchen as simply removing a wall. Before any demolition, the right questions need to be asked: how does the household actually cook? How many people are active in the kitchen at once? Does the room need to be able to close off visually when entertaining? Where does the dining table fit into the equation?",
+            "These questions shape the kitchen's layout long before any material or colour is chosen. A couple who rarely cooks together doesn't have the same circulation needs as a family where several people are active around the worktop at once. A Paris studio or one-bedroom doesn't allow for the same volumes as a 90 m² family apartment. The optimal layout always starts from these real uses, never from a standard plan copied from one project to the next.",
+          ],
+        },
+        {
+          heading: "Organising circulation around the work triangle",
+          paragraphs: [
+            "In a kitchen, three zones concentrate most of the activity: cooking, washing up, and storage (fridge and pantry). How these three points are arranged — what interior architects call the work triangle — directly shapes everyday comfort.",
+            "In an open-plan kitchen, this triangle needs to stay compact and unobstructed, while still allowing smooth circulation towards the living room. A worktop that's too long forces unnecessary trips back and forth; a triangle that's too tight can instead create awkward crossovers when several people cook together. The right balance depends on the available floor area, the shape of the room and how many people regularly use the kitchen. This is also the stage at which the position of the island or peninsula — often the centrepiece of the layout — gets decided.",
+          ],
+          image: {
+            src: "/assets/images/ilot-cuisine-ouverte-convivialite-appartement-parisien.jpg",
+            caption: "Kitchen island and smooth circulation towards the living room, Parisian apartment, Supra Studio",
+          },
+        },
+        {
+          heading: "Island or peninsula: which solution for which floor area?",
+          paragraphs: [
+            "The central island has become the symbol of the contemporary open-plan kitchen: it structures the space, offers an extra worktop, and naturally becomes a place to linger over a coffee while chatting. But an island needs enough clearance around it — at least 90 to 100 cm of circulation on every side — to stay comfortable to use. In a kitchen that's too tight, a poorly sized island becomes an obstacle rather than an asset.",
+            "In smaller Parisian apartments, a peninsula — a worktop extended and attached along one side — is often a more relevant alternative: it keeps the functional and social advantages of an island while freeing up more circulation space. The choice between the two should be made based on the room's actual dimensions, not on aesthetic preference alone.",
+          ],
+        },
+        {
+          heading: "Managing smells and noise: the invisible challenge of an open kitchen",
+          paragraphs: [
+            "This is often the least anticipated aspect, yet the most decisive for everyday comfort. A kitchen opening onto the living room immediately exposes the whole living space to cooking smells and appliance noise. An undersized or poorly positioned extractor hood, or a hob without effective extraction, can quickly make an open-plan kitchen uncomfortable — particularly with strong-smelling cooking.",
+            "Several solutions make it possible to anticipate this issue at the design stage: a high-capacity extractor hood correctly sized for the room's volume, an extraction system integrated into the hob itself to reduce noise and visual clutter, or reinforced mechanical ventilation. The choice also depends on the building's technical constraints — in a Parisian co-ownership building, whether extraction can run to the outside or into an existing shared duct needs to be checked before any commitment, which requires a good understanding of the co-ownership rules and existing services.",
+          ],
+        },
+        {
+          heading: "Storage designed to disappear",
+          paragraphs: [
+            "An open-plan kitchen works all the better when it can stay discreet outside of meal preparation. Bespoke fittings make it possible to integrate appliances behind fronts that match the rest of the furniture, multiply high-level storage to free up the worktop, and hide everyday crockery in deep drawers rather than open shelving.",
+            "This search for visual continuity with the rest of the living space is exactly what sets a successful open-plan kitchen apart from a simple kitchen with no door. The choice of materials — a front colour that matches the living room storage, a worktop that extends a console table or a low cabinet — reinforces this sense of unity, rather than juxtaposing two separate worlds within the same room.",
+          ],
+        },
+        {
+          heading: "Light and continuity with the living room",
+          paragraphs: [
+            "A well-designed open kitchen doesn't stand apart from the living room through a change of style, but through carefully managed continuity. Zoned lighting — low pendants above the island, indirect lighting built into the fronts, dedicated spotlights over the worktop — makes it possible to distinguish uses without visually partitioning the space. A continuous floor covering between the kitchen and the living room also contributes to this sense of unity, essential in Parisian apartments where every square metre needs to feel generous.",
+          ],
+        },
+        {
+          heading: "Technical constraints to anticipate in Paris",
+          paragraphs: [
+            "In older Parisian buildings, opening up a kitchen almost always means dealing with technical constraints: a load-bearing wall requiring a structural study, moving the water supply and drainage, upgrading the electrical network for appliances, or checking ventilation options within the co-ownership building. These elements need to be studied at the feasibility stage, before even drawing up the final kitchen layout, to avoid costly surprises during the works.",
+          ],
+        },
+        {
+          heading: "How we approach an open-plan kitchen project at Supra Studio",
+          paragraphs: [
+            "At Supra Studio, designing an open-plan kitchen always starts with a precise reading of the household's uses and the property's technical constraints, before any question of materials or style. We study circulation, the sizing of the island or peninsula, suitable ventilation solutions, and bespoke storage fittings, for a kitchen that stays comfortable day to day as much as it feels elegant when entertaining.",
+            "**Thinking about opening up your kitchen onto your living room?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What's the minimum floor area for an open kitchen with a central island?** A comfortable central island generally needs a room of at least 15 to 20 m², to keep at least 90 to 100 cm of circulation around it. Below that, a peninsula or an L-shaped layout along a wall is often better suited.",
+            "**How can I stop cooking smells spreading into the living room?** An extractor hood correctly sized for the room's volume, combined with good mechanical ventilation and, if needed, an extraction system built into the hob, significantly limits smells spreading into the living room.",
+            "**Should the kitchen use different materials from the living room?** No: material continuity (flooring, front colours, worktops that extend into the furniture) is exactly what sets a successful open-plan kitchen apart from a simple room without a partition. For examples of premium materials and finishes, our article on the [bespoke open-plan kitchen in a high-end living space](/en/journal/cuisine-ouverte-haut-de-gamme-agencement-sur-mesure) goes into this approach in detail.",
+            "**What budget should I plan for opening up and fitting out a kitchen in Paris?** The budget depends heavily on whether a load-bearing wall is involved, whether services need to be moved, and the level of bespoke fitting required. For detailed price ranges, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "Open-plan kitchen Paris",
+        "Open kitchen layout",
+        "Central kitchen island",
+      ],
+    },
+    it: {
+      title: "Cucina open space a Parigi: come riuscire l'allestimento ottimale",
+      metaTitle: "Cucina Open Space Parigi: Allestimento Ottimale",
+      excerpt:
+        "Triangolo di attività, isola o penisola, gestione di odori e rumori: come pensare l'allestimento di una cucina open space parigina perché resti confortevole ogni giorno.",
+      category: "Architettura d'Interni & Arredo",
+      readingTime: "7 min",
+      intro:
+        "Aprire la cucina sul soggiorno è diventato, a Parigi, uno dei progetti di ristrutturazione più richiesti. Più luce, uno spazio giorno che sembra più grande, una convivialità ritrovata tra la preparazione di un pasto e la vita della famiglia: i benefici sono reali. Ma abbattere una parete non basta mai a fare una buona cucina open space. Una cucina open space mal pensata può al contrario diventare una fonte di disagio quotidiano: odori che invadono il soggiorno, rumore della cappa durante una conversazione, disordine visibile dal divano, circolazione ostacolata tra due persone che cucinano. L'allestimento ottimale di una cucina open space non è quindi solo una questione estetica: è un vero e proprio esercizio di architettura d'interni, che deve anticipare gli usi prima di scegliere i materiali.",
+      sections: [
+        {
+          heading: "Pensare l'allestimento prima dell'apertura stessa",
+          paragraphs: [
+            "Il primo errore consiste nel considerare l'apertura di una cucina come una semplice rimozione di parete. Prima di qualsiasi demolizione, bisogna porsi le domande giuste: come cucina realmente la famiglia? Quante persone sono attive contemporaneamente in cucina? La stanza deve potersi richiudere visivamente durante un ricevimento? Che posto occupa il tavolo da pranzo in questa equazione?",
+            "Queste domande determinano la disposizione della cucina ben prima della scelta dei materiali o dei colori. Una coppia che cucina raramente insieme non ha le stesse esigenze di circolazione di una famiglia in cui più persone si muovono contemporaneamente attorno al piano di lavoro. Un monolocale o un bilocale parigino non consente gli stessi volumi di un appartamento familiare di 90 m². L'allestimento ottimale parte sempre da questi usi reali, mai da una pianta tipo riprodotta da un progetto all'altro.",
+          ],
+        },
+        {
+          heading: "Organizzare la circolazione attorno al triangolo di attività",
+          paragraphs: [
+            "In cucina, tre zone concentrano l'essenziale dell'attività: la cottura, il lavaggio e la conservazione (frigorifero e dispensa). La disposizione di questi tre poli — ciò che gli architetti d'interni chiamano il triangolo di attività — condiziona direttamente il confort d'uso quotidiano.",
+            "In una cucina open space, questo triangolo deve restare compatto e senza ostacoli, pur lasciando una circolazione fluida verso il soggiorno. Un piano di lavoro troppo lungo obbliga a spostamenti inutili; un triangolo troppo stretto può al contrario creare incroci fastidiosi quando più persone cucinano insieme. L'equilibrio giusto dipende dalla superficie disponibile, dalla forma della stanza e dal numero di utilizzatori abituali della cucina. È anche a questo punto che si decide la posizione dell'isola o della penisola, spesso il fulcro dell'allestimento.",
+          ],
+          image: {
+            src: "/assets/images/ilot-cuisine-ouverte-convivialite-appartement-parisien.jpg",
+            caption: "Isola centrale e circolazione fluida verso il soggiorno, appartamento parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Isola o penisola: quale soluzione secondo la superficie?",
+          paragraphs: [
+            "L'isola centrale si è imposta come il simbolo della cucina open space contemporanea: struttura lo spazio, offre un piano di lavoro supplementare e diventa naturalmente un luogo di vita dove sorseggiare un caffè chiacchierando. Ma l'isola richiede uno spazio libero sufficiente sul suo perimetro — almeno 90-100 cm di circolazione su ogni lato — per restare confortevole all'uso. In una cucina troppo ristretta, un'isola mal dimensionata diventa un ostacolo piuttosto che un vantaggio.",
+            "Negli appartamenti parigini di dimensioni più modeste, la penisola — un piano di lavoro prolungato e addossato su un lato — offre spesso un'alternativa più pertinente: conserva i vantaggi funzionali e sociali dell'isola liberando al contempo più spazio di circolazione. La scelta tra le due soluzioni va fatta a partire dalle dimensioni reali della stanza, non da una semplice preferenza estetica.",
+          ],
+        },
+        {
+          heading: "Gestire odori e rumori: la sfida invisibile di una cucina open space",
+          paragraphs: [
+            "È spesso l'aspetto meno anticipato, eppure il più determinante per il confort quotidiano. Una cucina aperta sul soggiorno espone immediatamente tutto lo spazio giorno agli odori di cottura e al rumore degli elettrodomestici. Una cappa sottodimensionata o mal posizionata, o un piano cottura senza un'aspirazione efficace, possono rapidamente rendere la cucina open space scomoda, in particolare con cotture dall'odore intenso.",
+            "Diverse soluzioni permettono di anticipare questo problema fin dalla progettazione: una cappa ad alta capacità di aspirazione correttamente dimensionata per il volume della stanza, un sistema di aspirazione integrato nel piano cottura per ridurre i disturbi sonori e visivi, oppure una ventilazione meccanica rinforzata. La scelta dipende anche dai vincoli tecnici dell'edificio — in un condominio parigino, la possibilità di scarico verso l'esterno o verso un cavedio collettivo esistente va verificata prima di qualsiasi impegno, il che presuppone una buona conoscenza del regolamento condominiale e degli impianti esistenti.",
+          ],
+        },
+        {
+          heading: "Contenitori pensati per scomparire",
+          paragraphs: [
+            "Una cucina open space funziona tanto meglio quanto più sa farsi discreta al di fuori dei momenti di preparazione. L'arredo su misura permette di integrare gli elettrodomestici dietro fronti in continuità con il resto dei mobili, di moltiplicare i contenitori in altezza per liberare il piano di lavoro, e di nascondere le stoviglie di uso quotidiano in cassetti profondi piuttosto che su mensole aperte.",
+            "Questa ricerca di continuità visiva con il resto dello spazio giorno è ciò che distingue una cucina open space riuscita da una semplice cucina senza porta. La scelta dei materiali — la stessa tonalità di fronte dei contenitori del soggiorno, un piano di lavoro che prolunga una consolle o un mobile basso — rafforza questa sensazione di unità, piuttosto che giustapporre due universi distinti nella stessa stanza.",
+          ],
+        },
+        {
+          heading: "Luce e continuità con il soggiorno",
+          paragraphs: [
+            "Una cucina open space ben allestita non si distingue dal soggiorno per una rottura di stile, ma per una continuità controllata. Un'illuminazione a zone — sospensioni basse sopra l'isola, illuminazione indiretta integrata nei fronti, faretti dedicati al piano di lavoro — permette di distinguere gli usi senza compartimentare visivamente lo spazio. La scelta di una pavimentazione continua tra cucina e soggiorno contribuisce anch'essa a questa sensazione di unità, essenziale negli appartamenti parigini dove ogni metro quadro deve sembrare generoso.",
+          ],
+        },
+        {
+          heading: "I vincoli tecnici da anticipare a Parigi",
+          paragraphs: [
+            "Nell'edilizia antica parigina, aprire una cucina implica quasi sempre confrontarsi con vincoli tecnici: presenza di un muro portante che richiede uno studio strutturale, spostamento degli allacci idraulici e degli scarichi, adeguamento dell'impianto elettrico per gli elettrodomestici, o verifica delle possibilità di ventilazione in condominio. Questi elementi vanno studiati fin dalla fase di fattibilità, ancor prima di disegnare la pianta definitiva della cucina, per evitare sorprese costose in corso d'opera.",
+          ],
+        },
+        {
+          heading: "Come affrontiamo un progetto di cucina open space da Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, l'allestimento di una cucina open space inizia sempre con una lettura precisa degli usi della famiglia e dei vincoli tecnici dell'abitazione, prima di qualsiasi questione di materiali o stile. Studiamo la circolazione, il dimensionamento dell'isola o della penisola, le soluzioni di ventilazione adeguate, e l'arredo su misura dei contenitori, per una cucina che resti confortevole ogni giorno tanto quanto elegante durante un ricevimento.",
+            "**State pensando di aprire la vostra cucina sul soggiorno?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è la superficie minima per aprire una cucina con isola centrale?** Un'isola centrale confortevole richiede generalmente una stanza di almeno 15-20 m², per conservare almeno 90-100 cm di circolazione sul suo perimetro. Al di sotto di questa superficie, una penisola o una pianta a L lungo una parete restano spesso più adatte.",
+            "**Come evitare che gli odori di cucina invadano il soggiorno?** Una cappa correttamente dimensionata per il volume della stanza, associata a una buona ventilazione meccanica e, se necessario, a un sistema di aspirazione integrato nel piano cottura, permette di limitare significativamente la propagazione degli odori verso il soggiorno.",
+            "**Bisogna privilegiare materiali diversi tra cucina e soggiorno?** No: la continuità dei materiali (pavimento, tonalità dei fronti, piani di lavoro in prolungamento dei mobili) è proprio ciò che distingue una cucina open space riuscita da una semplice stanza senza tramezzo. Per esempi di materiali e finiture di alta gamma, il nostro articolo sulla [cucina open space su misura in uno spazio giorno di alta gamma](/it/journal/cuisine-ouverte-haut-de-gamme-agencement-sur-mesure) approfondisce questo approccio.",
+            "**Che budget prevedere per l'apertura e l'allestimento di una cucina a Parigi?** Il budget dipende molto dalla presenza o meno di un muro portante, dallo spostamento degli impianti e dal livello di arredo su misura desiderato. Per fasce di prezzo dettagliate, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "Cucina open space Parigi",
+        "Allestimento cucina open space",
+        "Isola centrale cucina",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {

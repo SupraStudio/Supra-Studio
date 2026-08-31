@@ -983,6 +983,94 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },
+  {
+    slug: "cuisine-ouverte-paris-amenagement-optimal",
+    title: "Cuisine ouverte à Paris : comment réussir l'aménagement optimal ?",
+    metaTitle: "Cuisine Ouverte Paris : Aménagement Optimal",
+    excerpt:
+      "Triangle d'activité, îlot ou péninsule, gestion des odeurs et du bruit : comment penser l'aménagement d'une cuisine ouverte parisienne pour qu'elle reste confortable au quotidien.",
+    date: "2026-08-31",
+    category: "Architecture d'Intérieur & Agencement",
+    cover: "/assets/images/cuisine-ouverte-ilot-central-paris-vue-tour-eiffel.jpg",
+    readingTime: "7 min",
+    intro:
+      "Ouvrir sa cuisine sur le séjour est devenu, à Paris, l'un des projets de rénovation les plus demandés. Plus de lumière, une pièce de vie qui semble plus grande, une convivialité retrouvée entre la préparation d'un repas et la vie du foyer : les bénéfices sont réels. Mais abattre une cloison ne suffit jamais à faire une bonne cuisine ouverte. Une cuisine ouverte mal pensée peut au contraire devenir une source de gêne quotidienne : odeurs qui envahissent le séjour, bruit de la hotte pendant une conversation, désordre visible depuis le canapé, circulation entravée entre deux personnes qui cuisinent. L'aménagement optimal d'une cuisine ouverte n'est donc pas une question d'esthétique seule : c'est un exercice d'architecture intérieure à part entière, qui doit anticiper les usages avant de choisir les matériaux.",
+    sections: [
+      {
+        heading: "Penser l'aménagement avant l'ouverture elle-même",
+        paragraphs: [
+          "La première erreur consiste à considérer l'ouverture d'une cuisine comme une simple suppression de mur. Avant toute démolition, il faut se poser les bonnes questions : comment le foyer cuisine-t-il réellement ? Combien de personnes s'activent en même temps dans la cuisine ? La pièce doit-elle pouvoir se refermer visuellement lors d'une réception ? Quelle place occupe la table à manger dans l'équation ?",
+          "Ces questions déterminent l'implantation de la cuisine bien avant le choix des matériaux ou des couleurs. Un couple qui cuisine rarement à deux n'a pas les mêmes besoins de circulation qu'une famille où plusieurs personnes s'activent simultanément autour du plan de travail. Un studio ou un deux-pièces parisien n'autorise pas les mêmes volumes qu'un appartement familial de 90 m². L'aménagement optimal part toujours de ces usages réels, jamais d'un plan type reproduit d'un projet à l'autre.",
+        ],
+      },
+      {
+        heading: "Organiser la circulation autour du triangle d'activité",
+        paragraphs: [
+          "En cuisine, trois zones concentrent l'essentiel de l'activité : la cuisson, le lavage et le rangement (réfrigérateur et garde-manger). La disposition de ces trois pôles — ce que les architectes d'intérieur appellent le triangle d'activité — conditionne directement le confort d'usage au quotidien.",
+          "Dans une cuisine ouverte, ce triangle doit rester compact et sans obstacle, tout en laissant une circulation fluide vers le séjour. Un plan de travail trop long oblige à des déplacements inutiles ; un triangle trop resserré peut au contraire créer des croisements gênants lorsque plusieurs personnes cuisinent ensemble. L'équilibre juste dépend de la surface disponible, de la forme de la pièce et du nombre d'utilisateurs réguliers de la cuisine. C'est également à ce stade que se décide l'implantation de l'îlot ou de la péninsule, souvent le point central de l'aménagement.",
+        ],
+        image: {
+          src: "/assets/images/ilot-cuisine-ouverte-convivialite-appartement-parisien.jpg",
+          caption: "Îlot central et circulation fluide vers le séjour, appartement parisien, Supra Studio",
+        },
+      },
+      {
+        heading: "Îlot ou péninsule : quelle solution selon la surface ?",
+        paragraphs: [
+          "L'îlot central s'est imposé comme le symbole de la cuisine ouverte contemporaine : il structure l'espace, offre un plan de travail supplémentaire et devient naturellement un lieu de vie où l'on peut prendre un café en discutant. Mais l'îlot exige un dégagement suffisant sur son pourtour — au moins 90 cm à 100 cm de circulation de chaque côté — pour rester confortable à l'usage. Dans une cuisine trop restreinte, un îlot mal dimensionné devient un obstacle plutôt qu'un atout.",
+          "Dans les appartements parisiens de taille plus modeste, la péninsule — un plan de travail prolongé et adossé sur un côté — offre souvent une alternative plus pertinente : elle conserve les avantages fonctionnels et sociaux de l'îlot tout en libérant davantage d'espace de circulation. Le choix entre les deux solutions doit se faire à partir des dimensions réelles de la pièce, et non par simple préférence esthétique.",
+        ],
+      },
+      {
+        heading: "Maîtriser les odeurs et le bruit : l'enjeu invisible d'une cuisine ouverte",
+        paragraphs: [
+          "C'est souvent l'aspect le moins anticipé, et pourtant le plus déterminant pour le confort au quotidien. Une cuisine ouverte sur le séjour expose immédiatement toute la pièce de vie aux odeurs de cuisson et au bruit des appareils. Une hotte sous-dimensionnée ou mal positionnée, ou une table de cuisson sans extraction efficace, peuvent rapidement rendre la cuisine ouverte inconfortable, en particulier avec une cuisson à forte odeur.",
+          "Plusieurs solutions permettent d'anticiper ce problème dès la conception : une hotte à forte capacité d'extraction correctement dimensionnée pour le volume de la pièce, un système d'aspiration intégré à la table de cuisson pour réduire les nuisances sonores et visuelles, ou encore une ventilation mécanique renforcée. Le choix dépend aussi des contraintes techniques de l'immeuble — en copropriété parisienne, l'évacuation vers l'extérieur ou vers une gaine collective existante doit être vérifiée avant tout engagement, ce qui suppose une bonne connaissance des règles de copropriété et des réseaux existants.",
+        ],
+      },
+      {
+        heading: "Des rangements pensés pour disparaître",
+        paragraphs: [
+          "Une cuisine ouverte fonctionne d'autant mieux qu'elle sait se faire discrète en dehors des moments de préparation. L'agencement sur mesure permet d'intégrer l'électroménager derrière des façades continues avec le reste du mobilier, de multiplier les rangements en hauteur pour libérer le plan de travail, et de dissimuler la vaisselle du quotidien dans des tiroirs profonds plutôt que sur des étagères ouvertes.",
+          "Cette recherche de continuité visuelle avec le reste de la pièce de vie est ce qui distingue une cuisine ouverte réussie d'une simple cuisine sans porte. Le choix des matériaux — une même teinte de façade que les rangements du séjour, un plan de travail qui prolonge une console ou un meuble bas — renforce cette impression d'unité, plutôt que de juxtaposer deux univers distincts dans la même pièce.",
+        ],
+      },
+      {
+        heading: "Lumière et continuité avec le séjour",
+        paragraphs: [
+          "Une cuisine ouverte bien aménagée ne se distingue pas du séjour par une rupture de style, mais par une continuité maîtrisée. Un éclairage zoné — suspensions basses au-dessus de l'îlot, éclairage indirect intégré aux façades, spots dédiés au plan de travail — permet de distinguer les usages sans cloisonner visuellement l'espace. Le choix d'un revêtement de sol continu entre la cuisine et le séjour participe également à cette impression d'unité, essentielle dans les appartements parisiens où chaque mètre carré doit sembler généreux.",
+        ],
+      },
+      {
+        heading: "Les contraintes techniques à anticiper à Paris",
+        paragraphs: [
+          "Dans l'ancien parisien, ouvrir une cuisine implique presque toujours de composer avec des contraintes techniques : présence d'un mur porteur nécessitant une étude structurelle, déplacement des arrivées d'eau et d'évacuation, mise aux normes du réseau électrique pour l'électroménager, ou encore vérification des possibilités de ventilation en copropriété. Ces éléments doivent être étudiés dès la phase de faisabilité, avant même de dessiner le plan définitif de la cuisine, pour éviter des surprises coûteuses en cours de chantier.",
+        ],
+      },
+      {
+        heading: "Comment nous abordons un projet de cuisine ouverte chez Supra Studio",
+        paragraphs: [
+          "Chez Supra Studio, l'aménagement d'une cuisine ouverte commence toujours par une lecture précise des usages du foyer et des contraintes techniques du logement, avant toute question de matériaux ou de style. Nous étudions la circulation, le dimensionnement de l'îlot ou de la péninsule, les solutions de ventilation adaptées, et l'agencement sur mesure des rangements, pour une cuisine qui reste confortable au quotidien autant qu'élégante lors d'une réception.",
+          "**Vous envisagez d'ouvrir votre cuisine sur votre séjour ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quelle surface minimale pour ouvrir une cuisine avec îlot central ?** Un îlot central confortable nécessite généralement une pièce d'au moins 15 à 20 m², afin de conserver une circulation d'au moins 90 cm à 100 cm sur son pourtour. En dessous de cette surface, une péninsule ou un plan en L le long d'un mur reste souvent plus adapté.",
+          "**Comment éviter que les odeurs de cuisine envahissent le séjour ?** Une hotte correctement dimensionnée pour le volume de la pièce, associée à une bonne ventilation mécanique et, si besoin, un système d'aspiration intégré à la table de cuisson, permettent de limiter significativement la propagation des odeurs vers le séjour.",
+          "**Faut-il privilégier des matériaux différents entre la cuisine et le séjour ?** Non : la continuité des matériaux (sol, teintes de façade, plans de travail en prolongement du mobilier) est justement ce qui distingue une cuisine ouverte réussie d'une simple pièce sans cloison. Pour des exemples de matières et de finitions haut de gamme, notre article sur la [cuisine ouverte sur-mesure en pièce de vie haut de gamme](/journal/cuisine-ouverte-haut-de-gamme-agencement-sur-mesure) détaille cette approche.",
+          "**Quel budget prévoir pour l'ouverture et l'aménagement d'une cuisine à Paris ?** Le budget dépend fortement de la présence ou non d'un mur porteur, du déplacement des réseaux et du niveau d'agencement sur mesure souhaité. Pour des fourchettes de prix détaillées, consultez notre article sur le [prix d'un architecte d'intérieur à Paris](/journal/prix-architecte-interieur-paris-m2-2026).",
+        ],
+      },
+    ],
+    keywords: [
+      "Cuisine ouverte Paris",
+      "Aménagement cuisine ouverte",
+      "Îlot central cuisine",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
