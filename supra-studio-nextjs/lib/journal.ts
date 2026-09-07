@@ -1071,6 +1071,96 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },
+  {
+    slug: "amenagement-duplex-paris-exploiter-hauteur",
+    title: "Aménagement d'un duplex à Paris : comment exploiter pleinement la hauteur ?",
+    metaTitle: "Aménagement Duplex Paris : Exploiter la Hauteur",
+    excerpt:
+      "Escalier, double hauteur, niveau sous combles : comment penser l'aménagement d'un duplex parisien pour que la hauteur devienne un atout architectural plutôt qu'un volume perdu.",
+    date: "2026-09-07",
+    category: "Vision & Architecture d'Intérieur",
+    cover: "/assets/images/duplex-parisien-double-hauteur-charpente-bois-verriere.jpg",
+    readingTime: "8 min",
+    intro:
+      "Un duplex parisien est un privilège rare : la hauteur, l'escalier intérieur, parfois une double hauteur sous verrière ou sous charpente — autant d'éléments qui distinguent immédiatement ce type de bien de l'appartement standard. Mais cette hauteur, si elle n'est pas pensée avec rigueur, se transforme vite en volume perdu : un plafond haut ne fait pas à lui seul un appartement réussi. L'enjeu d'un aménagement de duplex n'est donc pas de constater la hauteur disponible, mais de la faire vivre — par la lumière, la circulation, les proportions et le choix des matériaux. Chez Supra Studio, nous abordons chaque duplex comme un projet à part entière, où l'escalier, le niveau sous combles et la double hauteur deviennent des éléments de composition architecturale, et non de simples contraintes à gérer.",
+    sections: [
+      {
+        heading: "Le duplex parisien : un potentiel architectural souvent sous-exploité",
+        paragraphs: [
+          "À Paris, les duplex prennent des formes très variées : dernier étage d'un immeuble haussmannien avec combles aménagés, ancien atelier d'artiste à verrière, loft industriel reconverti, ou appartement neuf conçu dès l'origine sur deux niveaux. Chacune de ces configurations impose ses propres contraintes — hauteur sous charpente variable, pentes de toiture, poutres apparentes, verrière à préserver — mais partage un même potentiel : celui d'offrir des volumes que l'on ne retrouve dans aucun appartement de plain-pied.",
+          "Trop souvent, ce potentiel reste sous-exploité : un escalier disgracieux planté au milieu d'une pièce, un niveau supérieur réduit à une simple chambre sous les toits, une double hauteur qui n'apporte rien de plus qu'un volume vide au-dessus du canapé. Un aménagement réussi part au contraire d'une question simple : qu'est-ce que cette hauteur permet de faire, que l'appartement ne pourrait pas faire autrement ?",
+        ],
+      },
+      {
+        heading: "L'escalier, pièce maîtresse de la composition",
+        paragraphs: [
+          "Dans un duplex, l'escalier n'est jamais un simple élément de circulation : c'est souvent la pièce la plus visible de l'appartement, celle qui structure le regard depuis l'entrée jusqu'au niveau supérieur. Son positionnement mérite donc une réflexion à part entière, au même titre que l'implantation d'une cuisine ou d'une salle de bains.",
+          "Un escalier peut être traité comme un objet sculptural — ossature métallique fine, marches suspendues, garde-corps en verre pour ne pas obstruer la lumière — ou au contraire s'intégrer discrètement dans un caisson en bois qui dialogue avec le reste du mobilier. Le choix dépend de l'ambiance recherchée, mais aussi d'une contrainte très concrète : un escalier mal positionné peut condamner un mur entier ou fragmenter inutilement une pièce du rez-de-chaussée. Nous étudions systématiquement plusieurs implantations avant de figer un plan, pour que l'escalier serve la composition plutôt que de la subir.",
+          "L'espace sous l'escalier, souvent négligé, représente également un gisement de rangement précieux dans un duplex parisien où chaque mètre carré compte : placards sur mesure, bibliothèque intégrée, ou même un bureau glissé dans la hauteur disponible.",
+        ],
+        image: {
+          src: "/assets/images/escalier-duplex-mezzanine-bibliotheque-appartement-paris.jpg",
+          caption: "Escalier et mezzanine bibliothèque sous charpente, duplex parisien, Supra Studio",
+        },
+      },
+      {
+        heading: "Exploiter la double hauteur sans la sacrifier",
+        paragraphs: [
+          "La double hauteur est l'atout le plus spectaculaire d'un duplex — et le plus délicat à doser. Conserver un vide sur toute la hauteur du séjour crée un effet architectural fort, baigne la pièce de lumière verticale et donne une sensation d'ampleur rare dans Paris. Mais un vide mal dimensionné peut aussi devenir un volume froid, difficile à chauffer et à meubler, qui prive l'étage d'une surface au sol dont l'appartement aurait pourtant besoin.",
+          "La question n'est donc pas de choisir entre double hauteur et surface utile, mais de doser précisément où l'une justifie de renoncer à l'autre. Conserver le vide au-dessus du séjour tout en fermant partiellement l'étage au-dessus de la cuisine ou d'une salle d'eau permet souvent de profiter du meilleur des deux options : un geste architectural fort là où il a le plus d'impact visuel, et une surface généreuse là où le quotidien en a le plus besoin.",
+        ],
+      },
+      {
+        heading: "Aménager le niveau sous combles",
+        paragraphs: [
+          "Le niveau supérieur d'un duplex parisien se glisse souvent sous une toiture en pente, ce qui impose de penser le mobilier différemment d'un plafond droit. La règle est simple : placer les usages qui demandent le plus de hauteur — passage, dressing, tête de lit — au point le plus haut, et réserver les zones sous pente aux rangements bas, aux assises ou au rangement pur, où une hauteur réduite ne pose aucune gêne.",
+          "Le mobilier sur mesure prend ici tout son sens : un lit dessiné pour s'encastrer précisément sous une pente, des rangements dont la façade suit l'inclinaison du toit plutôt que de créer des recoins morts, une tête de lit qui habille la partie la plus basse de la pièce. Les fenêtres de toit jouent également un rôle déterminant : bien positionnées, elles apportent une lumière zénithale qui manque souvent aux étages sous combles, et peuvent transformer une pièce autrement sombre en espace parmi les plus lumineux de l'appartement.",
+        ],
+      },
+      {
+        heading: "Créer une continuité entre les deux niveaux",
+        paragraphs: [
+          "Un duplex réussi ne se limite pas à deux appartements superposés reliés par un escalier : il fonctionne comme un seul espace de vie continu, où le regard circule librement d'un niveau à l'autre. Un garde-corps en verre plutôt qu'une rambarde pleine, une trémie d'escalier qui laisse deviner l'étage depuis le séjour, des matériaux de sol ou des teintes murales qui se répondent entre les deux niveaux : ces choix renforcent la sensation d'unité architecturale, plutôt que de traiter chaque étage comme un lot indépendant.",
+          "Cette continuité se joue aussi dans la lumière : une fenêtre de toit au niveau supérieur peut éclairer indirectement le rez-de-chaussée à travers un vide central, si l'implantation de l'escalier et des cloisons le permet. Anticiper cette circulation de la lumière dès la conception évite d'avoir, une fois les travaux terminés, un rez-de-chaussée sombre sous un étage lumineux.",
+        ],
+      },
+      {
+        heading: "Bruit et intimité entre les niveaux",
+        paragraphs: [
+          "Un duplex pose une question rarement anticipée avant travaux : celle du bruit d'un niveau à l'autre. Sans isolation acoustique adaptée entre les planchers, les bruits de pas ou d'activité à l'étage se répercutent directement dans les pièces du dessous — un désagrément quotidien qui n'apparaît qu'une fois l'appartement habité.",
+          "Le choix des fonctions par niveau mérite donc d'être pensé en amont : les chambres, qui demandent le plus de calme, se prêtent généralement mieux à un niveau haut légèrement à l'écart de la vie commune, tandis que les pièces de réception restent au rez-de-chaussée. Un traitement acoustique du plancher (chape flottante, sous-couche résiliente) reste également recommandé dès lors que le niveau supérieur accueille une chambre au-dessus d'une pièce de vie.",
+        ],
+      },
+      {
+        heading: "Les contraintes techniques propres à un duplex parisien",
+        paragraphs: [
+          "Aménager un duplex dans l'ancien parisien implique souvent de composer avec des contraintes spécifiques : charpente à préserver ou à renforcer selon les modifications envisagées, réglementation incendie applicable aux mezzanines et trémies au-delà d'une certaine surface, isolation thermique renforcée sous toiture, et selon les cas, autorisation de copropriété pour toute intervention touchant à la structure ou aux parties communes de la toiture. Ces éléments doivent être vérifiés dès la phase de faisabilité, avant même d'esquisser le plan définitif, pour sécuriser à la fois le budget et le calendrier du projet.",
+        ],
+      },
+      {
+        heading: "Comment nous abordons un projet de duplex chez Supra Studio",
+        paragraphs: [
+          "Un duplex se pense dans sa globalité, jamais niveau par niveau. Notre approche commence par une visite-conseil sur place pour évaluer la structure existante, la lumière naturelle à chaque niveau et les usages prioritaires du foyer. Nous étudions ensuite plusieurs scénarios d'implantation pour l'escalier, le dosage entre double hauteur et surface utile, et l'agencement sur mesure du niveau sous combles, avant de figer une conception qui met en valeur ce que seul un duplex peut offrir.",
+          "**Vous envisagez d'aménager ou de rénover un duplex à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quelle hauteur minimum pour créer une mezzanine dans un duplex ?** Une mezzanine confortable nécessite généralement au moins 2,50 m de hauteur au point le plus haut, pour conserver un dégagement suffisant à la fois en dessous et au-dessus. En dessous de ce seuil, un espace ouvert sans plancher supplémentaire reste souvent préférable.",
+          "**Faut-il obligatoirement fermer la double hauteur pour gagner de la surface ?** Non. La bonne approche consiste généralement à doser : conserver le vide là où il a le plus d'impact architectural (au-dessus du séjour, par exemple), et fermer partiellement l'étage ailleurs pour gagner de la surface utile sans sacrifier l'effet de hauteur.",
+          "**Quel budget prévoir pour l'aménagement d'un duplex à Paris ?** Le budget dépend fortement de l'ampleur des travaux : création ou déplacement d'un escalier, renforcement de charpente, isolation sous toiture. Pour des fourchettes de prix détaillées selon le type d'intervention, consultez notre article sur le [prix d'un architecte d'intérieur à Paris](/journal/prix-architecte-interieur-paris-m2-2026).",
+          "**Comment limiter le bruit entre les deux niveaux d'un duplex ?** Un traitement acoustique du plancher (chape flottante, sous-couche résiliente sous le revêtement de sol) reste la solution la plus efficace, en particulier lorsque le niveau supérieur accueille une chambre. Le choix des fonctions par niveau — pièces calmes en hauteur, pièces de réception au rez-de-chaussée — limite également les nuisances au quotidien.",
+        ],
+      },
+    ],
+    keywords: [
+      "Aménagement duplex Paris",
+      "Duplex mezzanine Paris",
+      "Double hauteur appartement",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

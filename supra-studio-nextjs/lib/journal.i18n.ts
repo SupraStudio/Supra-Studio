@@ -1988,6 +1988,180 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "amenagement-duplex-paris-exploiter-hauteur": {
+    en: {
+      title: "Designing a duplex apartment in Paris: how to make the most of the height",
+      metaTitle: "Duplex Apartment Paris: Making the Most of Height",
+      excerpt:
+        "Staircase, double height, attic level: how to design a Parisian duplex so its height becomes an architectural asset rather than wasted volume.",
+      category: "Vision & Interior Architecture",
+      readingTime: "8 min",
+      intro:
+        "A Parisian duplex is a rare privilege: height, an interior staircase, sometimes double-height space beneath a glass roof or exposed timber frame — features that immediately set this type of property apart from a standard flat. But without careful design, that height can quickly turn into wasted volume: a high ceiling alone doesn't make a successful apartment. The challenge of designing a duplex isn't simply to note the available height, but to bring it to life — through light, circulation, proportion and the choice of materials. At Supra Studio, we treat every duplex as a project in its own right, where the staircase, the attic level and the double-height space become elements of architectural composition, not just constraints to manage.",
+      sections: [
+        {
+          heading: "The Parisian duplex: architectural potential that's often underused",
+          paragraphs: [
+            "In Paris, duplexes come in many forms: the top floor of a Haussmann-era building with converted attic space, a former artist's studio with a glazed roof, a converted industrial loft, or a new-build apartment designed from the outset across two levels. Each of these configurations brings its own constraints — varying headroom under the roof structure, sloped ceilings, exposed beams, a glass roof to preserve — but they share the same potential: offering volumes found in no single-storey apartment.",
+            "Too often, this potential goes underused: an awkwardly placed staircase stuck in the middle of a room, an upper level reduced to a simple bedroom under the eaves, a double-height space that adds nothing beyond an empty void above the sofa. A successful layout instead starts from a simple question: what does this height allow that the apartment couldn't achieve any other way?",
+          ],
+        },
+        {
+          heading: "The staircase: the centrepiece of the composition",
+          paragraphs: [
+            "In a duplex, the staircase is never just a way of getting from one floor to another: it's often the most visible feature of the apartment, the one that structures the eye's journey from the entrance up to the upper level. Its position deserves as much thought as the layout of a kitchen or a bathroom.",
+            "A staircase can be treated as a sculptural object — a slender steel frame, floating treads, a glass balustrade that doesn't block the light — or, conversely, tucked discreetly into a wooden housing that blends with the rest of the furniture. The choice depends on the atmosphere sought, but also on a very concrete constraint: a badly positioned staircase can rule out an entire wall or needlessly fragment a ground-floor room. We systematically study several possible positions before finalising a plan, so the staircase serves the overall composition rather than working against it.",
+            "The space under the stairs, often overlooked, also represents a valuable storage opportunity in a Parisian duplex where every square metre counts: bespoke cupboards, an integrated bookcase, or even a desk slotted into the available height.",
+          ],
+          image: {
+            src: "/assets/images/escalier-duplex-mezzanine-bibliotheque-appartement-paris.jpg",
+            caption: "Staircase and mezzanine library under the roof frame, Parisian duplex, Supra Studio",
+          },
+        },
+        {
+          heading: "Making the most of double height without sacrificing it",
+          paragraphs: [
+            "Double height is a duplex's most spectacular feature — and the trickiest to balance. Keeping an open void across the full height of the living room creates a powerful architectural effect, floods the room with vertical light and gives a rare sense of scale for Paris. But a poorly proportioned void can also become a cold volume, hard to heat and hard to furnish, one that deprives the upper floor of floor area the apartment may actually need.",
+            "The question, then, isn't choosing between double height and usable floor area, but precisely deciding where one is worth sacrificing for the other. Keeping the void above the living room while partially closing off the floor above the kitchen or a bathroom often captures the best of both: a strong architectural gesture where it has the most visual impact, and generous floor space where everyday life needs it most.",
+          ],
+        },
+        {
+          heading: "Designing the level under the eaves",
+          paragraphs: [
+            "The upper level of a Parisian duplex often sits under a sloped roof, which calls for thinking about furniture differently from a flat ceiling. The rule is simple: place the uses that need the most headroom — walkways, a dressing area, the head of a bed — at the highest point, and reserve the sloped zones for low storage, seating or pure storage space, where reduced height is no drawback.",
+            "This is where bespoke furniture really comes into its own: a bed designed to fit precisely under a slope, storage whose front follows the pitch of the roof rather than creating dead corners, a headboard that dresses the lowest part of the room. Roof windows also play a decisive role: well positioned, they bring in overhead light that attic-level rooms often lack, and can turn an otherwise dark space into one of the brightest in the apartment.",
+          ],
+        },
+        {
+          heading: "Creating continuity between the two levels",
+          paragraphs: [
+            "A successful duplex isn't just two stacked apartments connected by a staircase: it works as a single continuous living space, where the eye moves freely from one level to the other. A glass balustrade rather than a solid rail, a stairwell opening that hints at the floor above from the living room, flooring or wall tones that echo each other across the two levels: these choices reinforce a sense of architectural unity, rather than treating each floor as a separate unit.",
+            "This continuity also plays out through light: a roof window on the upper level can indirectly light the ground floor through a central void, if the position of the staircase and partitions allows it. Anticipating this flow of light at the design stage avoids ending up, once the work is done, with a dark ground floor beneath a bright upper level.",
+          ],
+        },
+        {
+          heading: "Noise and privacy between levels",
+          paragraphs: [
+            "A duplex raises a question rarely anticipated before work begins: noise travelling from one level to the other. Without suitable acoustic insulation between floors, footsteps or activity upstairs carry straight through to the rooms below — a daily annoyance that only becomes apparent once the apartment is lived in.",
+            "The choice of which functions go on which level is worth planning in advance: bedrooms, which need the most quiet, generally work better on an upper level slightly set apart from communal life, while reception rooms stay on the ground floor. Acoustic treatment of the floor (a floating screed, a resilient underlay) is also recommended whenever the upper level houses a bedroom above a living space.",
+          ],
+        },
+        {
+          heading: "Technical constraints specific to a Parisian duplex",
+          paragraphs: [
+            "Fitting out a duplex in an older Parisian building often means dealing with specific constraints: a roof frame to preserve or reinforce depending on the changes planned, fire safety regulations that apply to mezzanines and stairwell openings beyond a certain size, enhanced thermal insulation under the roof, and, depending on the case, co-ownership approval for any work affecting the structure or the shared parts of the roof. These elements need to be checked at the feasibility stage, before even sketching the final layout, to secure both the budget and the schedule.",
+          ],
+        },
+        {
+          heading: "How we approach a duplex project at Supra Studio",
+          paragraphs: [
+            "A duplex needs to be thought through as a whole, never level by level. Our approach starts with an on-site consultation visit to assess the existing structure, the natural light at each level and the household's priority uses. We then explore several scenarios for positioning the staircase, balancing double height against usable floor area, and designing bespoke fittings for the level under the eaves, before finalising a design that makes the most of what only a duplex can offer.",
+            "**Planning to fit out or renovate a duplex in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What's the minimum ceiling height for a mezzanine in a duplex?** A comfortable mezzanine generally needs at least 2.50 m of height at its highest point, to keep enough clearance both below and above. Below that threshold, an open space without an added floor is often preferable.",
+            "**Do you always have to close off the double height to gain floor space?** No. The right approach is usually to strike a balance: keep the void where it has the most architectural impact (above the living room, for instance), and partially close off the floor elsewhere to gain usable space without losing the effect of height.",
+            "**What budget should I plan for fitting out a duplex in Paris?** The budget depends heavily on the scale of the works: creating or moving a staircase, reinforcing the roof frame, insulating under the roof. For detailed price ranges by type of work, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**How can noise between the two levels of a duplex be reduced?** Acoustic treatment of the floor (a floating screed, a resilient underlay beneath the flooring) remains the most effective solution, particularly when the upper level houses a bedroom. Choosing which functions go on which level — quiet rooms upstairs, reception rooms on the ground floor — also limits everyday noise disturbance.",
+          ],
+        },
+      ],
+      keywords: [
+        "Duplex apartment Paris",
+        "Duplex mezzanine Paris",
+        "Double-height apartment",
+      ],
+    },
+    it: {
+      title: "Allestire un duplex a Parigi: come sfruttare pienamente l'altezza",
+      metaTitle: "Allestimento Duplex Parigi: Sfruttare l'Altezza",
+      excerpt:
+        "Scala, doppia altezza, livello sottotetto: come pensare l'allestimento di un duplex parigino perché l'altezza diventi un vantaggio architettonico e non un volume sprecato.",
+      category: "Visione & Architettura d'Interni",
+      readingTime: "8 min",
+      intro:
+        "Un duplex parigino è un privilegio raro: l'altezza, la scala interna, talvolta una doppia altezza sotto una vetrata o una capriata a vista — elementi che distinguono immediatamente questo tipo di immobile da un appartamento standard. Ma questa altezza, se non pensata con rigore, si trasforma rapidamente in volume sprecato: un soffitto alto da solo non fa un appartamento riuscito. La sfida dell'allestimento di un duplex non è quindi constatare l'altezza disponibile, ma farla vivere — attraverso la luce, la circolazione, le proporzioni e la scelta dei materiali. Da Supra Studio, affrontiamo ogni duplex come un progetto a sé stante, in cui la scala, il livello sottotetto e la doppia altezza diventano elementi di composizione architettonica, e non semplici vincoli da gestire.",
+      sections: [
+        {
+          heading: "Il duplex parigino: un potenziale architettonico spesso sottoutilizzato",
+          paragraphs: [
+            "A Parigi, i duplex assumono forme molto varie: ultimo piano di un palazzo haussmanniano con sottotetto allestito, ex atelier d'artista con vetrata, loft industriale riconvertito, o appartamento nuovo concepito fin dall'origine su due livelli. Ognuna di queste configurazioni impone i propri vincoli — altezza sotto capriata variabile, falde del tetto, travi a vista, vetrata da preservare — ma condivide uno stesso potenziale: quello di offrire volumi che non si trovano in nessun appartamento su un solo piano.",
+            "Troppo spesso, questo potenziale resta sottoutilizzato: una scala sgraziata piazzata in mezzo a una stanza, un livello superiore ridotto a una semplice camera sotto i tetti, una doppia altezza che non porta nulla di più di un volume vuoto sopra il divano. Un allestimento riuscito parte al contrario da una domanda semplice: cosa permette di fare questa altezza, che l'appartamento non potrebbe fare altrimenti?",
+          ],
+        },
+        {
+          heading: "La scala, elemento centrale della composizione",
+          paragraphs: [
+            "In un duplex, la scala non è mai un semplice elemento di circolazione: è spesso lo spazio più visibile dell'appartamento, quello che struttura lo sguardo dall'ingresso fino al livello superiore. La sua posizione merita quindi una riflessione a sé stante, allo stesso titolo della disposizione di una cucina o di un bagno.",
+            "Una scala può essere trattata come un oggetto scultoreo — struttura metallica sottile, gradini sospesi, parapetto in vetro per non ostruire la luce — oppure integrarsi discretamente in un rivestimento in legno che dialoga con il resto dell'arredo. La scelta dipende dall'atmosfera ricercata, ma anche da un vincolo molto concreto: una scala mal posizionata può condannare un'intera parete o frammentare inutilmente una stanza al piano terra. Studiamo sistematicamente diverse disposizioni prima di fissare una pianta, perché la scala serva la composizione piuttosto che subirla.",
+            "Lo spazio sotto la scala, spesso trascurato, rappresenta inoltre una preziosa risorsa di contenimento in un duplex parigino dove ogni metro quadro conta: armadi su misura, libreria integrata, o persino una scrivania inserita nell'altezza disponibile.",
+          ],
+          image: {
+            src: "/assets/images/escalier-duplex-mezzanine-bibliotheque-appartement-paris.jpg",
+            caption: "Scala e mezzanino biblioteca sotto la capriata, duplex parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Sfruttare la doppia altezza senza sacrificarla",
+          paragraphs: [
+            "La doppia altezza è il vantaggio più spettacolare di un duplex — e il più delicato da dosare. Conservare un vuoto su tutta l'altezza del soggiorno crea un effetto architettonico forte, inonda la stanza di luce verticale e dà una sensazione di ampiezza rara a Parigi. Ma un vuoto mal dimensionato può anche diventare un volume freddo, difficile da riscaldare e arredare, che priva il piano superiore di una superficie a terra di cui l'appartamento avrebbe invece bisogno.",
+            "La questione non è quindi scegliere tra doppia altezza e superficie utile, ma dosare con precisione dove l'una giustifica di rinunciare all'altra. Conservare il vuoto sopra il soggiorno chiudendo parzialmente il piano sopra la cucina o un bagno permette spesso di godere del meglio di entrambe le opzioni: un gesto architettonico forte dove ha il maggiore impatto visivo, e una superficie generosa dove la quotidianità ne ha più bisogno.",
+          ],
+        },
+        {
+          heading: "Allestire il livello sottotetto",
+          paragraphs: [
+            "Il livello superiore di un duplex parigino si trova spesso sotto una copertura a falda, il che impone di pensare l'arredo in modo diverso rispetto a un soffitto piano. La regola è semplice: collocare gli usi che richiedono più altezza — passaggio, cabina armadio, testiera del letto — nel punto più alto, e riservare le zone sotto falda ai contenitori bassi, alle sedute o al puro stoccaggio, dove un'altezza ridotta non crea alcun disagio.",
+            "L'arredo su misura trova qui pieno significato: un letto disegnato per incastrarsi precisamente sotto una falda, contenitori il cui fronte segue l'inclinazione del tetto piuttosto che creare angoli morti, una testiera che veste la parte più bassa della stanza. Anche le finestre da tetto giocano un ruolo determinante: ben posizionate, apportano una luce zenitale che spesso manca ai piani sottotetto, e possono trasformare una stanza altrimenti buia in uno degli spazi più luminosi dell'appartamento.",
+          ],
+        },
+        {
+          heading: "Creare una continuità tra i due livelli",
+          paragraphs: [
+            "Un duplex riuscito non si limita a due appartamenti sovrapposti collegati da una scala: funziona come un unico spazio di vita continuo, in cui lo sguardo circola liberamente da un livello all'altro. Un parapetto in vetro piuttosto che una ringhiera piena, un'apertura della scala che lascia intuire il piano dal soggiorno, materiali di pavimento o tonalità murarie che si rispondono tra i due livelli: queste scelte rafforzano la sensazione di unità architettonica, piuttosto che trattare ogni piano come un lotto indipendente.",
+            "Questa continuità si gioca anche nella luce: una finestra da tetto al livello superiore può illuminare indirettamente il piano terra attraverso un vuoto centrale, se la disposizione della scala e delle pareti lo consente. Anticipare questa circolazione della luce fin dalla progettazione evita di ritrovarsi, a lavori ultimati, con un piano terra buio sotto un piano luminoso.",
+          ],
+        },
+        {
+          heading: "Rumore e intimità tra i livelli",
+          paragraphs: [
+            "Un duplex pone una questione raramente anticipata prima dei lavori: quella del rumore da un livello all'altro. Senza un isolamento acustico adeguato tra i solai, i rumori di passi o di attività al piano superiore si ripercuotono direttamente nelle stanze sottostanti — un disagio quotidiano che emerge solo una volta abitato l'appartamento.",
+            "La scelta delle funzioni per livello merita quindi di essere pensata in anticipo: le camere, che richiedono più tranquillità, si prestano generalmente meglio a un livello alto leggermente appartato dalla vita comune, mentre gli ambienti di ricevimento restano al piano terra. Un trattamento acustico del solaio (massetto galleggiante, sottostrato resiliente) resta inoltre raccomandato ogniqualvolta il livello superiore ospiti una camera sopra un ambiente di vita.",
+          ],
+        },
+        {
+          heading: "I vincoli tecnici propri di un duplex parigino",
+          paragraphs: [
+            "Allestire un duplex nell'edilizia antica parigina implica spesso confrontarsi con vincoli specifici: capriata da preservare o rinforzare secondo le modifiche previste, normativa antincendio applicabile a mezzanini e aperture oltre una certa superficie, isolamento termico rinforzato sotto la copertura, e secondo i casi, autorizzazione condominiale per qualsiasi intervento che tocchi la struttura o le parti comuni della copertura. Questi elementi vanno verificati fin dalla fase di fattibilità, ancor prima di abbozzare la pianta definitiva, per garantire sia il budget che il calendario del progetto.",
+          ],
+        },
+        {
+          heading: "Come affrontiamo un progetto di duplex da Supra Studio",
+          paragraphs: [
+            "Un duplex va pensato nella sua globalità, mai livello per livello. Il nostro approccio inizia con una visita conoscitiva sul posto per valutare la struttura esistente, la luce naturale a ogni livello e gli usi prioritari della famiglia. Studiamo poi diversi scenari di posizionamento per la scala, il dosaggio tra doppia altezza e superficie utile, e l'arredo su misura del livello sottotetto, prima di fissare una progettazione che valorizzi ciò che solo un duplex può offrire.",
+            "**State pensando di allestire o ristrutturare un duplex a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è l'altezza minima per creare un mezzanino in un duplex?** Un mezzanino confortevole richiede generalmente almeno 2,50 m di altezza nel punto più alto, per conservare uno spazio sufficiente sia sotto che sopra. Al di sotto di questa soglia, uno spazio aperto senza solaio supplementare resta spesso preferibile.",
+            "**Bisogna necessariamente chiudere la doppia altezza per guadagnare superficie?** No. L'approccio giusto consiste generalmente nel dosare: conservare il vuoto dove ha il maggiore impatto architettonico (sopra il soggiorno, ad esempio), e chiudere parzialmente il piano altrove per guadagnare superficie utile senza sacrificare l'effetto di altezza.",
+            "**Che budget prevedere per l'allestimento di un duplex a Parigi?** Il budget dipende molto dall'ampiezza dei lavori: creazione o spostamento di una scala, rinforzo della capriata, isolamento sotto copertura. Per fasce di prezzo dettagliate secondo il tipo di intervento, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Come limitare il rumore tra i due livelli di un duplex?** Un trattamento acustico del solaio (massetto galleggiante, sottostrato resiliente sotto la pavimentazione) resta la soluzione più efficace, in particolare quando il livello superiore ospita una camera. La scelta delle funzioni per livello — ambienti tranquilli in alto, ambienti di ricevimento al piano terra — limita anch'essa i disturbi quotidiani.",
+          ],
+        },
+      ],
+      keywords: [
+        "Allestimento duplex Parigi",
+        "Duplex mezzanino Parigi",
+        "Appartamento doppia altezza",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {
