@@ -2162,6 +2162,156 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "plu-bioclimatique-paris-paysagiste": {
+    en: {
+      title:
+        "Paris' bioclimatic local plan: why work with a landscape designer for your outdoor space?",
+      metaTitle: "Paris Bioclimatic Local Plan: Why Hire a Landscape Designer",
+      excerpt:
+        "Unsealed ground, planted roofs and façades, protected trees: what Paris' new bioclimatic local plan changes for your garden, and why a landscape designer becomes essential.",
+      category: "Landscape Design & Urban Spaces",
+      readingTime: "7 min",
+      intro:
+        "Since November 2024, any project touching an outdoor space in Paris — garden, courtyard, roof, façade — falls under a renewed regulatory framework: the bioclimatic Local Urban Plan (Plan Local d'Urbanisme bioclimatique, or PLUb). The first document of its kind adopted in France, it profoundly redefines the place of greenery in the city, with precise rules on unsealed ground, desealing of surfaces, and planted buildings. For anyone planning to develop an outdoor space in Paris, this new framework changes things: a garden or terrace project can no longer be designed on use and aesthetics alone, but also has to account for precise regulatory ratios specific to each plot. This is exactly the context in which working with a landscape designer becomes a real asset — not just for the design itself, but for the project's very compliance.",
+      sections: [
+        {
+          heading: "What is Paris' bioclimatic local plan?",
+          paragraphs: [
+            "Adopted by the Conseil de Paris on 20 November 2024, the bioclimatic local plan replaces the previous Local Urban Plan, which dated back to 2006. It is the first local plan in France explicitly built around climate issues: adapting to climate change, desealing ground surfaces, prioritising renovation of existing buildings over demolition and rebuilding, and strengthening the place of greenery within the urban fabric.",
+            "This new framework is not limited to large-scale property developments: it applies to the full range of projects subject to planning permission, right down to the scale of a private garden, a building courtyard, or a green roof.",
+          ],
+        },
+        {
+          heading: "What changes for a private garden or courtyard: unsealed ground",
+          paragraphs: [
+            "One of the most concrete provisions of the bioclimatic local plan concerns the notion of \"pleine terre\", or unsealed ground: on any plot larger than 150 m², up to 65% of the area must remain unsealed — that is, ground that is not covered by an impermeable surface, capable of absorbing rainwater and allowing plant roots to develop — as opposed to a layer of soil laid over a slab, such as on a roof or an underground car park.",
+            "The bioclimatic local plan also introduces a new definition of \"espaces libres de construction\" (ELC, open spaces free of construction), which now takes into account space available both above and below ground. A minimum ELC rate is required depending on the zone, with an obligation to keep these areas unsealed or planted, and planting-density requirements that increase with the size of the project. In practice, this means a garden or courtyard design now has to factor in these ratios from the very first sketches, or risk having to be reworked once the planning application is filed.",
+          ],
+          image: {
+            src: "/assets/images/cour-parisienne-vegetalisee-pleine-terre-jardin.jpg",
+            caption: "Planted Parisian courtyard on unsealed ground, Supra Studio",
+          },
+        },
+        {
+          heading: "Planted buildings: roofs and façades",
+          paragraphs: [
+            "Beyond the ground itself, the bioclimatic local plan introduces a building greening index, which requires planted surfaces on roofs or façades for many projects. This requirement turns a building's roof or façade into a genuine landscape-design space, rather than a purely technical surface.",
+            "In Paris' many protected districts, these projects have to work with an additional stakeholder: the Architectes des Bâtiments de France (heritage architects), systematically consulted whenever a project affects the external appearance of a building in a protected area. A green roof or a planted façade therefore has to be designed with both the climate requirements of the bioclimatic local plan and the heritage expectations of the ABF in mind — a balancing act that calls for genuine technical and regulatory expertise.",
+          ],
+        },
+        {
+          heading: "Protected spaces and trees to be aware of",
+          paragraphs: [
+            "The bioclimatic local plan also strengthens the protection of existing greenery: protected green spaces, around 100,000 street-aligned trees, 266 remarkable trees recorded on both public and private land, as well as protected open spaces to be planted and protected shared gardens.",
+            "For a private landscape project, this means it is essential to check beforehand whether the plot concerned is subject to any of these protections, before even sketching a plan: a remarkable tree present on the land, for instance, directly shapes what can be built or planted. This check can be made via the Paris planning rules portal, which lists the protections that apply plot by plot.",
+          ],
+        },
+        {
+          heading: "Why working with a landscape designer becomes essential",
+          paragraphs: [
+            "Given this new regulatory density, designing a garden or outdoor space in Paris is no longer just a matter of aesthetic choice. Precisely calculating the required unsealed-ground ratio, checking the protections that apply to a given plot, liaising with the authorities and, where relevant, with the ABF, all while keeping the space genuinely pleasant to use: this calls for a combination of technical and creative skill.",
+            "A landscape designer familiar with this regulatory framework knows how to turn these constraints into design opportunities rather than mere obstacles: a requirement for unsealed ground can become the occasion to entirely rethink a garden's layout; an obligation to green the building can become the opportunity to create a planted roof that visually extends the home's interior. It is precisely this ability to combine regulatory compliance with quality of use that sets a professionally designed landscape apart from one carried out without support.",
+          ],
+        },
+        {
+          heading:
+            "How we approach a landscape project subject to the bioclimatic local plan at Supra Studio",
+          paragraphs: [
+            "At Supra Studio, every landscape project in Paris begins with a check of the rules that apply to the plot in question — unsealed ground, open spaces free of construction, any heritage or plant-related protections — before a single plan is sketched. This often-underestimated technical step nonetheless shapes the whole project: it allows us to design a garden or outdoor space that complies with the regulatory framework from the outset, rather than having to correct it after the fact.",
+            "**Planning a garden, courtyard or green roof project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**Does the bioclimatic local plan apply to every plot in Paris?** The 65% unsealed-ground requirement applies to plots larger than 150 m². Smaller plots remain subject to other provisions, notably the building greening index or specific protections (remarkable trees, protected green spaces), which apply regardless of plot size.",
+            "**How can I find out whether my land is affected by a protection under the bioclimatic local plan?** This can be checked via the Paris planning rules portal, which lists, plot by plot, protected green spaces, remarkable trees and other applicable protections. This step is systematically included in our feasibility study phase.",
+            "**Does the bioclimatic local plan apply to renovations too, or only to new builds?** It applies broadly to both: the bioclimatic local plan in fact prioritises renovating existing buildings over demolition and rebuilding, and the building greening requirements also apply to energy-renovation projects on existing buildings.",
+            "**What budget should I plan for a landscape project compliant with the bioclimatic local plan in Paris?** The budget depends on the size of the project, the required level of unsealed ground or greening, and any specific protections that need to be factored into the design. For a general overview of fees, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "Paris bioclimatic local plan",
+        "Landscape designer Paris",
+        "Paris greening",
+      ],
+    },
+    it: {
+      title:
+        "PLU bioclimatico di Parigi: perché rivolgersi a un paesaggista per il vostro esterno?",
+      metaTitle: "PLU Bioclimatico Parigi: Perché Rivolgersi a un Paesaggista",
+      excerpt:
+        "Piena terra, verde su edifici, alberi protetti: cosa cambia il PLU bioclimatico di Parigi per il vostro giardino, e perché l'accompagnamento di un paesaggista diventa essenziale.",
+      category: "Paesaggio Urbano & Spazi Cittadini",
+      readingTime: "7 min",
+      intro:
+        "Da novembre 2024, ogni progetto che riguarda uno spazio esterno a Parigi — giardino, cortile, tetto, facciata — si inserisce in un quadro normativo rinnovato: il Piano Urbanistico Locale bioclimatico (PLU bioclimatique, o PLUb). Primo documento di questo tipo adottato in Francia, ridefinisce profondamente il posto del verde in città, con regole precise su piena terra, deimpermeabilizzazione dei suoli e verde sugli edifici. Per chi progetta di allestire uno spazio esterno a Parigi, questo nuovo quadro cambia le carte in tavola: un progetto di giardino o di terrazza non si pensa più solo in funzione dell'uso e dell'estetica, ma anche di rapporti normativi precisi, propri a ogni particella. È in questo contesto che l'accompagnamento di un paesaggista diventa un vero vantaggio — non più solo per la progettazione, ma per la conformità stessa del progetto.",
+      sections: [
+        {
+          heading: "Cos'è il PLU bioclimatico di Parigi?",
+          paragraphs: [
+            "Adottato dal Consiglio di Parigi il 20 novembre 2024, il PLU bioclimatico sostituisce il precedente Piano Urbanistico Locale, risalente al 2006. Si tratta del primo PLU in Francia concepito esplicitamente attorno alle sfide climatiche: adattamento al cambiamento climatico, deimpermeabilizzazione dei suoli, ristrutturazione dell'esistente piuttosto che demolizione-ricostruzione, e rafforzamento del posto del verde nello spazio urbano.",
+            "Questo nuovo quadro non si limita ai grandi progetti immobiliari: si applica all'insieme dei progetti di allestimento soggetti ad autorizzazione urbanistica, compresa la scala di un giardino privato, di un cortile condominiale o di un tetto verde.",
+          ],
+        },
+        {
+          heading: "Cosa cambia per un giardino o un cortile privato: la piena terra",
+          paragraphs: [
+            "Una delle disposizioni più concrete del PLU bioclimatico riguarda la nozione di piena terra: su ogni particella superiore a 150 m², fino al 65% della superficie deve restare in piena terra, ossia un suolo non impermeabilizzato, capace di infiltrare l'acqua piovana e di permettere lo sviluppo radicale delle piante — in opposizione a una soletta ricoperta di terra in superficie, come su un tetto o un parcheggio interrato.",
+            "Il PLU bioclimatico introduce inoltre una nuova definizione degli spazi liberi da costruzione (ELC), che tiene ora conto dello spazio disponibile sia in elevazione che in sottosuolo. Un tasso minimo di ELC è imposto secondo le zone, con l'obbligo di realizzarli in piena terra o di renderli verdi, e requisiti di densità di piantumazione che aumentano con la superficie del progetto. In pratica, questo significa che la progettazione di un giardino o di un cortile deve ormai integrare questi rapporti fin dai primi schizzi, pena dover rivedere il progetto in corso di presentazione del permesso.",
+          ],
+          image: {
+            src: "/assets/images/cour-parisienne-vegetalisee-pleine-terre-jardin.jpg",
+            caption: "Cortile parigino verdeggiante in piena terra, Supra Studio",
+          },
+        },
+        {
+          heading: "Il verde sugli edifici: tetti e facciate",
+          paragraphs: [
+            "Al di là del suolo, il PLU bioclimatico istituisce un indice di verde sugli edifici, che impone la realizzazione di superfici verdi in copertura o in facciata per numerosi progetti. Questa esigenza trasforma il tetto o la facciata di un edificio in un vero e proprio spazio di progettazione paesaggistica, e non più in una semplice superficie tecnica.",
+            "Nei numerosi settori protetti di Parigi, questi allestimenti devono fare i conti con un attore supplementare: gli Architetti dei Monumenti di Francia (ABF), sistematicamente consultati non appena un progetto tocca l'aspetto esterno di un edificio in settore protetto. Un tetto verde o una facciata piantumata devono quindi essere concepiti anticipando sia l'esigenza climatica del PLU bioclimatico che le aspettative patrimoniali dell'ABF — un esercizio di equilibrio che richiede una vera competenza tecnica e normativa.",
+          ],
+        },
+        {
+          heading: "Gli spazi e gli alberi protetti da conoscere",
+          paragraphs: [
+            "Il PLU bioclimatico rafforza anche la protezione degli elementi vegetali esistenti: spazi verdi protetti, circa 100.000 alberi di allineamento, 266 alberi notevoli censiti sul demanio pubblico come su particelle private, così come spazi liberi protetti da rendere verdi e giardini condivisi protetti.",
+            "Per un progetto di paesaggio privato, questo significa che è essenziale verificare a monte se la particella interessata è soggetta a una di queste protezioni, ancor prima di abbozzare una pianta: un albero notevole presente sul terreno, ad esempio, condiziona direttamente le possibilità di insediamento e di piantumazione. Questa verifica si effettua tramite il Portale delle regole urbanistiche di Parigi, che censisce le protezioni applicabili particella per particella.",
+          ],
+        },
+        {
+          heading: "Perché l'accompagnamento di un paesaggista diventa indispensabile",
+          paragraphs: [
+            "Di fronte a questa nuova densità normativa, progettare un giardino o uno spazio esterno a Parigi non è più solo una questione di scelta estetica. Calcolare con precisione il rapporto di piena terra richiesto, verificare le protezioni applicabili a una particella, dialogare con l'amministrazione e, se necessario, con l'ABF, mantenendo al contempo uno spazio realmente piacevole da vivere: è un esercizio che richiede una doppia competenza, tecnica e creativa.",
+            "Un paesaggista abituato a questo quadro normativo sa trasformare questi vincoli in elementi di composizione piuttosto che in semplici ostacoli: un'esigenza di piena terra può diventare l'occasione per ripensare integralmente l'insediamento di un giardino; un obbligo di verde sull'edificio, l'opportunità di creare un tetto verde che prolunghi visivamente l'interno dell'abitazione. È proprio questa articolazione tra conformità normativa e qualità d'uso che distingue un progetto di paesaggio professionale da un allestimento condotto senza accompagnamento.",
+          ],
+        },
+        {
+          heading:
+            "Come affrontiamo un progetto di paesaggio soggetto al PLU bioclimatico da Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, ogni progetto di paesaggio a Parigi inizia con una verifica delle regole applicabili alla particella interessata — piena terra, spazi liberi da costruzione, eventuali protezioni patrimoniali o vegetali — ancor prima di abbozzare una pianta. Questa fase tecnica, spesso sottovalutata, condiziona tuttavia l'intero progetto: permette di concepire un giardino o uno spazio esterno che rispetti il quadro normativo fin dalla progettazione, piuttosto che doverlo correggere in un secondo momento.",
+            "**State progettando un giardino, un cortile o un tetto verde a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Il PLU bioclimatico si applica a tutte le particelle parigine?** L'obbligo di piena terra al 65% riguarda le particelle superiori a 150 m². Le particelle più piccole restano comunque interessate da altre disposizioni, in particolare l'indice di verde sugli edifici o le protezioni specifiche (alberi notevoli, spazi verdi protetti), che si applicano indipendentemente dalla dimensione del terreno.",
+            "**Come sapere se il mio terreno è interessato da una protezione del PLU bioclimatico?** La verifica si effettua tramite il Portale delle regole urbanistiche di Parigi, che censisce particella per particella gli spazi verdi protetti, gli alberi notevoli e le altre protezioni applicabili. Questa fase è sistematicamente integrata nella nostra fase di studio di fattibilità.",
+            "**Il PLU bioclimatico si applica anche alle ristrutturazioni, o solo alle nuove costruzioni?** Si applica ampiamente a entrambe: il PLU bioclimatico dà anzi priorità alla ristrutturazione dell'esistente piuttosto che alla demolizione-ricostruzione, e le esigenze di verde sugli edifici riguardano anche i progetti di riqualificazione energetica di edifici esistenti.",
+            "**Che budget prevedere per un progetto di paesaggio conforme al PLU bioclimatico a Parigi?** Il budget dipende dalla superficie del progetto, dal livello di esigenza in piena terra o in verde, e dall'eventuale presenza di protezioni specifiche da integrare fin dalla progettazione. Per un approccio generale agli onorari, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "PLU bioclimatico Parigi",
+        "Paesaggista Parigi",
+        "Verde urbano Parigi",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {

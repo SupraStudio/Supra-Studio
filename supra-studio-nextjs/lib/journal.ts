@@ -1161,6 +1161,84 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },
+  {
+    slug: "plu-bioclimatique-paris-paysagiste",
+    title:
+      "PLU bioclimatique à Paris : pourquoi faire appel à un paysagiste pour aménager votre extérieur ?",
+    metaTitle: "PLU Bioclimatique Paris : Pourquoi Faire Appel à un Paysagiste",
+    excerpt:
+      "Pleine terre, végétalisation du bâti, arbres protégés : ce que change le PLU bioclimatique de Paris pour votre jardin, et pourquoi l'accompagnement d'un paysagiste devient essentiel.",
+    date: "2026-09-15",
+    category: "Design Paysager & Espaces Urbains",
+    cover: "/assets/images/toiture-vegetalisee-paris-vue-tour-eiffel-sacre-coeur.jpg",
+    readingTime: "7 min",
+    intro:
+      "Depuis novembre 2024, tout projet touchant à un espace extérieur à Paris — jardin, cour, toiture, façade — s'inscrit dans un cadre réglementaire renouvelé : le Plan Local d'Urbanisme bioclimatique, ou PLU bioclimatique. Premier document de ce type adopté en France, il redéfinit en profondeur la place du végétal dans la ville, avec des règles précises sur la pleine terre, la désimperméabilisation des sols et la végétalisation du bâti. Pour un particulier ou une entreprise qui envisage d'aménager un extérieur à Paris, ce nouveau cadre change la donne : un projet de jardin ou de terrasse ne se pense plus seulement en fonction de l'usage et de l'esthétique, mais aussi de ratios réglementaires précis, propres à chaque parcelle. C'est dans ce contexte que l'accompagnement d'un paysagiste devient un vrai atout — non plus seulement pour la conception, mais pour la conformité même du projet.",
+    sections: [
+      {
+        heading: "Qu'est-ce que le PLU bioclimatique de Paris ?",
+        paragraphs: [
+          "Adopté par le Conseil de Paris le 20 novembre 2024, le PLU bioclimatique remplace l'ancien Plan Local d'Urbanisme qui datait de 2006. Il s'agit du premier PLU en France conçu explicitement autour des enjeux climatiques : adaptation au changement climatique, désimperméabilisation des sols, rénovation du bâti existant plutôt que démolition-reconstruction, et renforcement de la place du végétal dans l'espace urbain.",
+          "Ce nouveau cadre ne se limite pas aux grands projets immobiliers : il s'applique à l'ensemble des projets d'aménagement soumis à autorisation d'urbanisme, y compris à l'échelle d'un jardin privé, d'une cour d'immeuble ou d'une toiture végétalisée.",
+        ],
+      },
+      {
+        heading: "Ce qui change pour un jardin ou une cour privée : la pleine terre",
+        paragraphs: [
+          "L'une des dispositions les plus concrètes du PLU bioclimatique concerne la notion de pleine terre : sur toute parcelle de plus de 150 m², jusqu'à 65 % de la surface doit rester en pleine terre, c'est-à-dire un sol non imperméabilisé, capable d'infiltrer l'eau de pluie et de permettre le développement racinaire des végétaux — par opposition à une dalle recouverte de terre en surface, comme sur une toiture ou un parking souterrain.",
+          "Le PLU bioclimatique introduit également une nouvelle définition des espaces libres de construction (ELC), qui prend désormais en compte l'espace disponible en élévation comme en sous-sol. Un taux minimal d'ELC est imposé selon les zones, avec l'obligation de les réaliser en pleine terre ou de les végétaliser, et des exigences de densité de plantation qui augmentent avec la surface du projet. Concrètement, cela signifie que la conception d'un jardin ou d'une cour doit désormais intégrer ces ratios dès les premières esquisses, sous peine de devoir revoir le projet en cours de dépôt de permis.",
+        ],
+        image: {
+          src: "/assets/images/cour-parisienne-vegetalisee-pleine-terre-jardin.jpg",
+          caption: "Cour parisienne végétalisée en pleine terre, Supra Studio",
+        },
+      },
+      {
+        heading: "La végétalisation du bâti : toitures et façades",
+        paragraphs: [
+          "Au-delà du sol, le PLU bioclimatique instaure un indice de végétalisation du bâti, qui impose la réalisation de surfaces végétalisées en toiture ou en façade pour de nombreux projets. Cette exigence transforme la toiture ou la façade d'un bâtiment en un espace de conception paysagère à part entière, et non plus en simple surface technique.",
+          "Dans les nombreux secteurs protégés de Paris, ces aménagements doivent composer avec un acteur supplémentaire : les Architectes des Bâtiments de France, systématiquement consultés dès lors qu'un projet touche à l'aspect extérieur d'un bâtiment en secteur protégé. Une toiture végétalisée ou une façade plantée doit donc être conçue en anticipant à la fois l'exigence climatique du PLU bioclimatique et les attentes patrimoniales de l'ABF — un exercice d'équilibre qui demande une vraie expertise technique et réglementaire.",
+        ],
+      },
+      {
+        heading: "Les espaces et arbres protégés à connaître",
+        paragraphs: [
+          "Le PLU bioclimatique renforce également la protection des éléments végétaux existants : espaces verts protégés, environ 100 000 arbres d'alignement, 266 arbres remarquables recensés sur le domaine public comme sur des parcelles privées, ainsi que des espaces libres protégés à végétaliser et des jardins partagés protégés.",
+          "Pour un projet de paysage privé, cela signifie qu'il est essentiel de vérifier en amont si la parcelle concernée est soumise à l'une de ces protections, avant même d'esquisser un plan : un arbre remarquable présent sur le terrain, par exemple, encadre directement les possibilités d'implantation et de plantation. Cette vérification se fait via le Portail des règles d'urbanisme de Paris, qui recense les protections applicables parcelle par parcelle.",
+        ],
+      },
+      {
+        heading: "Pourquoi l'accompagnement d'un paysagiste devient indispensable",
+        paragraphs: [
+          "Face à cette densité réglementaire nouvelle, concevoir un jardin ou un espace extérieur à Paris ne relève plus seulement du choix esthétique. Calculer précisément le ratio de pleine terre exigé, vérifier les protections applicables à une parcelle, dialoguer avec l'administration et, le cas échéant, avec l'ABF, tout en conservant un espace réellement agréable à vivre : c'est un exercice qui demande une double compétence, technique et créative.",
+          "Un paysagiste habitué à ce cadre réglementaire sait transformer ces contraintes en éléments de composition plutôt qu'en simples obstacles : une exigence de pleine terre peut devenir l'occasion de repenser intégralement l'implantation d'un jardin ; une obligation de végétalisation du bâti, l'opportunité de créer une toiture plantée qui prolonge visuellement l'intérieur du logement. C'est précisément l'articulation entre conformité réglementaire et qualité d'usage qui distingue un projet de paysage professionnel d'un aménagement mené sans accompagnement.",
+        ],
+      },
+      {
+        heading:
+          "Comment nous abordons un projet de paysage soumis au PLU bioclimatique chez Supra Studio",
+        paragraphs: [
+          "Chez Supra Studio, chaque projet de paysage à Paris commence par une vérification des règles applicables à la parcelle concernée — pleine terre, espaces libres de construction, éventuelles protections patrimoniales ou végétales — avant même d'esquisser un plan. Cette étape technique, souvent sous-estimée, conditionne pourtant l'ensemble du projet : elle permet de concevoir un jardin ou un espace extérieur qui respecte le cadre réglementaire dès la conception, plutôt que de devoir le corriger a posteriori.",
+          "**Vous envisagez un projet de jardin, de cour ou de toiture végétalisée à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Le PLU bioclimatique s'applique-t-il à toutes les parcelles parisiennes ?** L'obligation de pleine terre à hauteur de 65 % concerne les parcelles de plus de 150 m². Les parcelles plus petites restent néanmoins concernées par d'autres dispositions, notamment l'indice de végétalisation du bâti ou les protections spécifiques (arbres remarquables, espaces verts protégés) qui s'appliquent indépendamment de la taille du terrain.",
+          "**Comment savoir si mon terrain est concerné par une protection du PLU bioclimatique ?** La vérification se fait via le Portail des règles d'urbanisme de Paris, qui recense parcelle par parcelle les espaces verts protégés, les arbres remarquables et les autres protections applicables. Cette étape est systématiquement intégrée à notre phase d'étude de faisabilité.",
+          "**Le PLU bioclimatique s'applique-t-il aussi aux rénovations, ou seulement aux constructions neuves ?** Il s'applique largement aux deux : le PLU bioclimatique donne d'ailleurs la priorité à la rénovation du bâti existant plutôt qu'à la démolition-reconstruction, et les exigences de végétalisation du bâti concernent aussi les projets de rénovation énergétique d'immeubles existants.",
+          "**Quel budget prévoir pour un projet de paysage conforme au PLU bioclimatique à Paris ?** Le budget dépend de la surface du projet, du niveau d'exigence en pleine terre ou en végétalisation, et de la présence éventuelle de protections spécifiques à intégrer dès la conception. Pour une approche générale des honoraires, consultez notre article sur le [prix d'un architecte d'intérieur à Paris](/journal/prix-architecte-interieur-paris-m2-2026).",
+        ],
+      },
+    ],
+    keywords: [
+      "PLU bioclimatique Paris",
+      "Paysagiste Paris",
+      "Végétalisation Paris",
+    ],
+    relatedProjects: ["giardino-de-ninno"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
