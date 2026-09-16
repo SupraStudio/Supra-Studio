@@ -4,7 +4,7 @@ import CookieConsent from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.suprastudio.fr"),
-  title: "Supra Studio — Architecte d'intérieur & Paysagiste à Paris",
+  title: "Supra Studio | Architecte d'intérieur Paris | Paysagiste Paris",
   description:
     "Architecte d'intérieur et paysagiste à Paris : rénovation, maisons neuves et jardins sur-mesure. Duo franco-italien, entre Paris, Bordeaux et Rome.",
   keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "aménagement intérieur sur-mesure",
   ],
   openGraph: {
-    title: "Supra Studio — Architecte d'intérieur & Paysagiste à Paris",
+    title: "Supra Studio | Architecte d'intérieur Paris | Paysagiste Paris",
     description:
       "Architecte d'intérieur et paysagiste à Paris : rénovation, maisons neuves et jardins sur-mesure, entre Paris, Bordeaux et Rome.",
     url: "https://www.suprastudio.fr",

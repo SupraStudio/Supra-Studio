@@ -36,7 +36,7 @@ export const dict = {
       decline: "Refuser",
     },
     home: {
-      heroTitleLines: ["Architecte d'intérieur Paris", "| Paysagiste Paris", "| Supra Studio"],
+      heroTitleLines: ["Architecte d'intérieur Paris", "| Paysagiste Paris"],
       heroSub:
         "Rénovation d'appartements, maisons neuves, commerces, hôtels, restaurants, bureaux et jardins, conçus dans une même vision architecturale.",
       introQuote:
@@ -307,7 +307,7 @@ export const dict = {
     },
     meta: {
       home: {
-        title: "Supra Studio — Architecte d'intérieur & Paysagiste à Paris",
+        title: "Supra Studio | Architecte d'intérieur Paris | Paysagiste Paris",
         description:
           "Architecte d'intérieur et paysagiste à Paris : rénovation, maisons neuves et jardins sur-mesure. Duo franco-italien, entre Paris, Bordeaux et Rome.",
       },
@@ -376,7 +376,7 @@ export const dict = {
       decline: "Decline",
     },
     home: {
-      heroTitleLines: ["Interior Architect Paris", "| Landscape Designer Paris", "| Supra Studio"],
+      heroTitleLines: ["Interior Architect Paris", "| Landscape Designer Paris"],
       heroSub:
         "Apartment renovations, new houses, shops, hotels, restaurants, offices and gardens, designed within a single architectural vision.",
       introQuote:
@@ -647,7 +647,7 @@ export const dict = {
     },
     meta: {
       home: {
-        title: "Supra Studio — Interior Architect & Landscape Designer in Paris",
+        title: "Supra Studio | Interior Architect Paris | Landscape Designer Paris",
         description:
           "Interior architect and landscape designer in Paris: renovations, new-build homes and bespoke gardens. French-Italian duo, between Paris, Bordeaux and Rome.",
       },
@@ -716,7 +716,7 @@ export const dict = {
       decline: "Rifiuta",
     },
     home: {
-      heroTitleLines: ["Architetto d'Interni Parigi", "| Paesaggista Parigi", "| Supra Studio"],
+      heroTitleLines: ["Architetto d'Interni Parigi", "| Paesaggista Parigi"],
       heroSub:
         "Ristrutturazione di appartamenti, case nuove, negozi, hotel, ristoranti, uffici e giardini, concepiti secondo un'unica visione architettonica.",
       introQuote:
@@ -987,7 +987,7 @@ export const dict = {
     },
     meta: {
       home: {
-        title: "Supra Studio — Architetto d'interni e Paesaggista a Parigi",
+        title: "Supra Studio | Architetto d'Interni Parigi | Paesaggista Parigi",
         description:
           "Architetto d'interni e paesaggista a Parigi: ristrutturazioni, case nuove e giardini su misura. Duo franco-italiano, tra Parigi, Bordeaux e Roma.",
       },
