@@ -36,7 +36,7 @@ export const dict = {
       decline: "Refuser",
     },
     home: {
-      heroTitleLines: ["Architecte d'intérieur Paris", "| Paysagiste Paris"],
+      heroTitleLines: ["Architecte d'intérieur Paris", "Paysagiste Paris"],
       heroSub:
         "Rénovation d'appartements, maisons neuves, commerces, hôtels, restaurants, bureaux et jardins, conçus dans une même vision architecturale.",
       introQuote:
@@ -376,7 +376,7 @@ export const dict = {
       decline: "Decline",
     },
     home: {
-      heroTitleLines: ["Interior Architect Paris", "| Landscape Designer Paris"],
+      heroTitleLines: ["Interior Architect Paris", "Landscape Designer Paris"],
       heroSub:
         "Apartment renovations, new houses, shops, hotels, restaurants, offices and gardens, designed within a single architectural vision.",
       introQuote:
@@ -716,7 +716,7 @@ export const dict = {
       decline: "Rifiuta",
     },
     home: {
-      heroTitleLines: ["Architetto d'Interni Parigi", "| Paesaggista Parigi"],
+      heroTitleLines: ["Architetto d'Interni Parigi", "Paesaggista Parigi"],
       heroSub:
         "Ristrutturazione di appartamenti, case nuove, negozi, hotel, ristoranti, uffici e giardini, concepiti secondo un'unica visione architettonica.",
       introQuote:
