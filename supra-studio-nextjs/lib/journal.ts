@@ -782,6 +782,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "**Le prix dépend-il de la taille de l'appartement ?** Oui, mais pas de façon strictement proportionnelle : les coûts fixes d'un projet (démarches administratives, installation de chantier, coordination) se répartissent sur un plus grand nombre de m² dans les grandes surfaces, ce qui explique un prix au m² légèrement dégressif au-delà de 80-100 m².",
           "**Un petit budget permet-il de faire appel à un architecte d'intérieur ?** Oui. Une mission ponctuelle — visite-conseil, avis sur un plan, accompagnement partiel — reste accessible dès 2 500 € environ, et peut suffire à sécuriser les choix essentiels d'un projet sans mobiliser un budget d'honoraires complet.",
           "**Faut-il inclure le coût des travaux dans le budget de l'architecte ?** Non : les honoraires de conception et de suivi sont distincts du coût des travaux réalisés par les artisans. Il est essentiel de budgéter les deux séparément pour avoir une vision réaliste du coût total du projet.",
+          "**Comment sont concrètement calculés ces honoraires ?** Les modes de calcul (pourcentage des travaux, forfait, taux horaire, tarif au m²) et les critères à vérifier avant de signer un devis sont détaillés dans notre article sur les [honoraires d'un architecte d'intérieur à Paris](/journal/honoraires-architecte-interieur-paris).",
         ],
       },
     ],
@@ -1238,6 +1239,90 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "Végétalisation Paris",
     ],
     relatedProjects: ["giardino-de-ninno"],
+  },
+  {
+    slug: "honoraires-architecte-interieur-paris",
+    title: "Honoraires d'un architecte d'intérieur à Paris : comment sont-ils calculés ?",
+    metaTitle: "Honoraires Architecte d'Intérieur Paris : Comment Sont-ils Calculés ?",
+    excerpt:
+      "Pourcentage des travaux, forfait, taux horaire ou tarif au m² : comment se construit le montant des honoraires d'un architecte d'intérieur à Paris, et comment bien évaluer un devis.",
+    date: "2026-09-21",
+    category: "Conseils & expertise",
+    cover: "/assets/images/architecte-interieur-paris-conception-plans-materiaux.jpg",
+    readingTime: "7 min",
+    intro:
+      "Faire appel à un architecte d'intérieur à Paris soulève rapidement une question centrale : comment se construit le montant des honoraires ? Contrairement à une idée répandue, il n'existe pas de grille tarifaire unique ni de norme réglementaire fixant un prix standard. Chaque studio définit sa propre méthode de facturation, en fonction de la nature de la mission, de l'ampleur du projet et du niveau d'accompagnement proposé. Comprendre ces mécanismes permet d'aborder un projet de rénovation ou d'aménagement avec une vision budgétaire claire, et d'éviter les mauvaises surprises entre le premier rendez-vous et la livraison du chantier.",
+    sections: [
+      {
+        heading: "Le pourcentage du montant des travaux",
+        paragraphs: [
+          "C'est le mode de facturation historique de la profession, encore majoritairement utilisé à Paris. L'architecte d'intérieur applique un taux, généralement compris entre 8 % et 15 %, calculé sur le montant total des travaux hors mobilier ou hors taxes selon les studios. Ce taux varie selon la complexité technique du chantier, la surface concernée et le niveau de finition visé.",
+          "Ce mode de calcul présente une logique intéressante : il aligne l'intérêt de l'architecte sur celui du client. Un projet plus ambitieux, nécessitant davantage de coordination et de suivi, génère naturellement des honoraires proportionnellement plus élevés — sans pour autant inciter l'architecte à faire gonfler artificiellement le budget travaux, puisque sa réputation dépend avant tout de la qualité du résultat livré.",
+        ],
+      },
+      {
+        heading: "Le forfait",
+        paragraphs: [
+          "Pour des missions au périmètre bien délimité — conception d'un plan d'aménagement, définition d'une palette de matériaux, accompagnement sur une pièce spécifique — de nombreux studios proposent désormais un forfait fixe, établi en amont selon la surface et la nature exacte de la prestation.",
+          "L'avantage principal de ce mode de facturation réside dans sa prévisibilité : le client connaît le montant exact dès la signature, indépendamment de l'évolution du budget travaux en cours de chantier. C'est une option particulièrement adaptée aux projets dont le périmètre est clairement identifiable dès le départ.",
+        ],
+      },
+      {
+        heading: "Le taux horaire et la facturation au mètre carré",
+        paragraphs: [
+          "Certaines missions ponctuelles ne justifient pas une facturation au pourcentage ou au forfait : un conseil sur un plan existant, une validation technique, un accompagnement limité dans le temps. Dans ces cas, la facturation à l'heure — généralement entre 80 € et 150 € à Paris selon l'expérience du professionnel — offre une flexibilité adaptée à des besoins circonscrits.",
+          "Plus rare, la facturation au mètre carré s'applique surtout aux projets de grande envergure, où un tarif est fixé par mètre carré aménagé, généralement entre 100 € et 300 €/m² selon le niveau de prestation. Elle permet une estimation rapide dès les premières esquisses, avant même d'avoir un chiffrage détaillé des travaux.",
+        ],
+        image: {
+          src: "/assets/images/moodboard-materiaux-architecte-interieur-salon-parisien.jpg",
+          caption: "Sélection de matériaux et d'ambiances, salon parisien, Supra Studio",
+        },
+      },
+      {
+        heading: "Les facteurs qui font varier le montant des honoraires",
+        paragraphs: [
+          "Au-delà du mode de calcul choisi, plusieurs paramètres influencent directement le niveau des honoraires. La nature et la complexité du bien jouent un rôle déterminant : un appartement haussmannien avec moulures à préserver, un loft nécessitant une restructuration complète, ou un duplex avec création d'escalier n'impliquent pas le même niveau d'intervention technique.",
+          "L'étendue de la mission confiée compte également : un simple conseil en aménagement n'a rien de comparable avec une mission complète intégrant conception, sélection des matériaux, coordination des artisans et suivi de chantier jusqu'à la livraison. Le niveau de prestation recherché influence aussi le montant — entre une rénovation fonctionnelle et un projet haut de gamme sur-mesure, l'écart de temps de conception, et donc d'honoraires, peut être significatif.",
+          "Les contraintes spécifiques au bien parisien pèsent enfin dans la balance : copropriété avec règlement strict, immeuble classé ou situé en secteur protégé, accès complexe pour les artisans — autant d'éléments qui allongent le temps de gestion du projet. L'expérience et la notoriété du studio se reflètent également, comme dans toute profession créative, dans sa grille tarifaire.",
+        ],
+      },
+      {
+        heading: "Ce que couvrent généralement les honoraires",
+        paragraphs: [
+          "Une mission complète d'architecture d'intérieur inclut habituellement plusieurs volets, qu'il est essentiel de clarifier avant signature : la phase de conception avec les plans d'aménagement et les propositions d'esquisses, le choix des matériaux, finitions et mobilier avec constitution d'un book de prescription, la coordination des artisans et le pilotage du calendrier de chantier, les démarches administratives nécessaires — notamment auprès du syndic ou pour certaines autorisations d'urbanisme — et le suivi jusqu'à la livraison, incluant généralement un nombre défini de visites de chantier.",
+          "Ce périmètre varie sensiblement d'un studio à l'autre : certains incluent un nombre illimité de retouches de plans, d'autres facturent chaque modification au-delà d'un seuil défini. C'est précisément ce qui justifie une lecture attentive du devis avant tout engagement.",
+        ],
+      },
+      {
+        heading: "Comment évaluer un devis d'architecte d'intérieur",
+        paragraphs: [
+          "Avant de s'engager, plusieurs vérifications permettent d'éviter les incompréhensions ultérieures. Il faut d'abord clarifier le périmètre exact de la mission — conception seule, ou conception associée à un suivi complet de chantier — puis demander le détail du mode de calcul des honoraires, et la base sur laquelle il s'applique (montant travaux HT ou TTC, mobilier inclus ou non).",
+          "Il est également essentiel d'identifier ce qui est inclus dans le forfait ou le taux appliqué — nombre de visites de chantier, de réunions, de jeux de plans révisés — et de comparer plusieurs propositions à périmètre strictement équivalent, plutôt que sur le seul montant affiché.",
+        ],
+      },
+      {
+        heading: "Comment nous établissons nos honoraires chez Supra Studio",
+        paragraphs: [
+          "Chez Supra Studio, chaque devis est construit sur mesure, après une première visite du bien et un échange approfondi sur les attentes du projet. Nous détaillons systématiquement le périmètre exact de notre mission — conception, sélection des matériaux, coordination de chantier — ainsi que le mode de calcul retenu, afin que chaque client dispose d'une vision budgétaire claire dès le démarrage du projet.",
+          "**Vous envisagez un projet de rénovation ou d'aménagement intérieur à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour un premier échange, ou [contactez-nous](/contact) pour obtenir un devis personnalisé.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quel est le pourcentage moyen appliqué par un architecte d'intérieur à Paris ?** Le taux se situe généralement entre 8 % et 15 % du montant des travaux, selon la complexité du projet et le niveau de prestation. Ce taux doit systématiquement être précisé par écrit dans le devis, avec la base de calcul exacte (montant HT ou TTC, mobilier inclus ou non). Pour des fourchettes de budget détaillées selon le type de projet, consultez notre article sur le [prix d'un architecte d'intérieur à Paris](/journal/prix-architecte-interieur-paris-m2-2026).",
+          "**Le devis d'un architecte d'intérieur est-il gratuit ?** Cela dépend de chaque studio : certains proposent un premier rendez-vous de découverte gratuit, d'autres facturent une prestation d'étude de faisabilité en amont, notamment pour les projets complexes nécessitant une visite technique approfondie. Il est recommandé de clarifier ce point dès le premier contact.",
+          "**Peut-on négocier les honoraires d'un architecte d'intérieur ?** Le montant dépend avant tout du périmètre de la mission plutôt que d'une simple négociation tarifaire. Il est en revanche tout à fait possible d'ajuster le périmètre confié — par exemple en limitant la mission à la conception sans suivi de chantier — pour adapter le montant global au budget disponible.",
+          "**Faut-il prévoir un budget supplémentaire en cours de projet ?** Selon le mode de facturation choisi, une évolution du montant des travaux en cours de chantier peut faire varier les honoraires calculés au pourcentage. C'est pourquoi il est essentiel de définir dès le départ un budget travaux réaliste, incluant une marge pour les imprévus, afin d'anticiper l'impact sur le montant final des honoraires.",
+        ],
+      },
+    ],
+    keywords: [
+      "Honoraires architecte d'intérieur",
+      "Devis architecte d'intérieur Paris",
+      "Tarif architecte d'intérieur",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
   },
 ];
 

@@ -1366,6 +1366,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Does the price depend on the size of the apartment?** Yes, but not in strict proportion: a project's fixed costs (administrative procedures, site setup, coordination) are spread over a larger number of m² in bigger spaces, which explains a price per m² that decreases slightly beyond 80–100 m².",
             "**Can you hire an interior architect on a small budget?** Yes. A one-off brief — a consultation visit, an opinion on a plan, partial support — remains accessible from around €2,500, and can be enough to secure the essential choices of a project without committing to a full fee budget.",
             "**Should the cost of the works be included in the architect's budget?** No: design and supervision fees are separate from the cost of the works carried out by contractors. It is essential to budget for both separately to get a realistic picture of the project's total cost.",
+            "**How exactly are these fees calculated?** The billing methods (percentage of works, fixed fee, hourly rate, price per m²) and what to check before signing a quote are detailed in our article on [interior architect fees in Paris](/en/journal/honoraires-architecte-interieur-paris).",
           ],
         },
       ],
@@ -1438,6 +1439,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Il prezzo dipende dalla dimensione dell'appartamento?** Sì, ma non in modo strettamente proporzionale: i costi fissi di un progetto (pratiche amministrative, allestimento del cantiere, coordinamento) si ripartiscono su un numero maggiore di m² nelle grandi superfici, il che spiega un prezzo al m² leggermente decrescente oltre gli 80-100 m².",
             "**Un budget limitato permette di rivolgersi a un architetto d'interni?** Sì. Un incarico puntuale — visita conoscitiva, parere su un piano, accompagnamento parziale — resta accessibile a partire da circa 2.500 €, e può bastare a garantire le scelte essenziali di un progetto senza impegnare un budget di onorari completo.",
             "**Bisogna includere il costo dei lavori nel budget dell'architetto?** No: gli onorari di progettazione e direzione lavori sono distinti dal costo dei lavori realizzati dagli artigiani. È essenziale preventivare i due separatamente per avere una visione realistica del costo totale del progetto.",
+            "**Come vengono calcolati esattamente questi onorari?** Le modalità di fatturazione (percentuale sui lavori, forfait, tariffa oraria, tariffa al m²) e i criteri da verificare prima di firmare un preventivo sono dettagliati nel nostro articolo sugli [onorari di un architetto d'interni a Parigi](/it/journal/honoraires-architecte-interieur-paris).",
           ],
         },
       ],
@@ -2309,6 +2311,168 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
         "PLU bioclimatico Parigi",
         "Paesaggista Parigi",
         "Verde urbano Parigi",
+      ],
+    },
+  },
+  "honoraires-architecte-interieur-paris": {
+    en: {
+      title: "Interior architect fees in Paris: how are they calculated?",
+      metaTitle: "Interior Architect Fees Paris: How Are They Calculated?",
+      excerpt:
+        "Percentage of works, fixed fee, hourly rate or price per m²: how an interior architect's fees are structured in Paris, and how to properly evaluate a quote.",
+      category: "Advice & Expertise",
+      readingTime: "7 min",
+      intro:
+        "Hiring an interior architect in Paris quickly raises a central question: how is the fee actually worked out? Contrary to a common assumption, there is no single fee scale or regulatory standard setting a fixed price. Each practice defines its own billing method, depending on the nature of the brief, the scale of the project and the level of support offered. Understanding these mechanisms makes it possible to approach a renovation or fit-out project with a clear budget picture, and to avoid unpleasant surprises between the first meeting and the completion of the works.",
+      sections: [
+        {
+          heading: "Percentage of the works cost",
+          paragraphs: [
+            "This is the profession's historical billing method, still widely used in Paris today. The interior architect applies a rate, generally between 8% and 15%, calculated on the total cost of the works excluding furniture or excluding tax depending on the practice. This rate varies according to the technical complexity of the site, the floor area involved and the intended level of finish.",
+            "This method of calculation follows an interesting logic: it aligns the architect's interest with the client's. A more ambitious project, requiring more coordination and supervision, naturally generates proportionally higher fees — without encouraging the architect to artificially inflate the works budget, since their reputation ultimately depends on the quality of the finished result.",
+          ],
+        },
+        {
+          heading: "The fixed fee",
+          paragraphs: [
+            "For briefs with a clearly defined scope — designing a floor plan, defining a material palette, support on a specific room — many practices now offer a fixed fee, agreed in advance based on the floor area and the exact nature of the service.",
+            "The main advantage of this billing method lies in its predictability: the client knows the exact amount from the moment of signing, regardless of how the works budget evolves during the project. It is a particularly suitable option for projects whose scope is clearly identifiable from the outset.",
+          ],
+        },
+        {
+          heading: "Hourly rate and price per square metre",
+          paragraphs: [
+            "Some one-off briefs don't justify billing by percentage or fixed fee: advice on an existing plan, a technical review, limited-time support. In these cases, hourly billing — generally between €80 and €150 in Paris depending on the professional's experience — offers flexibility suited to narrowly defined needs.",
+            "Rarer, pricing per square metre mainly applies to large-scale projects, where a rate is set per square metre fitted out, generally between €100 and €300/m² depending on the level of service. It allows for a quick estimate from the earliest sketches, even before a detailed costing of the works is available.",
+          ],
+          image: {
+            src: "/assets/images/moodboard-materiaux-architecte-interieur-salon-parisien.jpg",
+            caption: "Material and mood selection, Parisian living room, Supra Studio",
+          },
+        },
+        {
+          heading: "The factors that make fees vary",
+          paragraphs: [
+            "Beyond the chosen billing method, several parameters directly influence the level of fees. The nature and complexity of the property play a decisive role: a Haussmann-era apartment with mouldings to preserve, a loft requiring a complete restructuring, or a duplex involving the creation of a staircase do not call for the same level of technical involvement.",
+            "The scope of the brief also matters: simple design advice is nothing like a full brief combining design, material selection, coordination of tradespeople and site supervision through to completion. The desired level of finish also affects the fee — between a functional renovation and a high-end bespoke project, the difference in design time, and therefore in fees, can be significant.",
+            "The specific constraints of a Parisian property finally weigh into the balance: a co-ownership with strict regulations, a listed building or one located in a protected area, difficult access for tradespeople — all factors that extend the time needed to manage the project. An architect's experience and reputation are also reflected, as in any creative profession, in their fee scale.",
+          ],
+        },
+        {
+          heading: "What fees generally cover",
+          paragraphs: [
+            "A full interior architecture brief usually includes several components, which are essential to clarify before signing: the design phase, including floor plans and initial sketches; the choice of materials, finishes and furniture, with a specification book drawn up; coordination of tradespeople and management of the site schedule; the necessary administrative steps, particularly with the building manager or for certain planning approvals; and follow-through to completion, generally including a defined number of site visits.",
+            "This scope varies considerably from one practice to another: some include unlimited plan revisions, others charge for each change beyond a defined threshold. This is precisely why a careful reading of the quote is essential before any commitment.",
+          ],
+        },
+        {
+          heading: "How to evaluate an interior architect's quote",
+          paragraphs: [
+            "Before committing, several checks help avoid misunderstandings later on. First, clarify the exact scope of the brief — design only, or design combined with full site supervision — then ask for the details of how fees are calculated, and the basis on which they apply (works cost excl. or incl. VAT, furniture included or not).",
+            "It is also essential to identify what is included in the fixed fee or rate applied — number of site visits, meetings, revised sets of plans — and to compare several proposals on a strictly equivalent scope, rather than on the headline amount alone.",
+          ],
+        },
+        {
+          heading: "How we set our fees at Supra Studio",
+          paragraphs: [
+            "At Supra Studio, every quote is drawn up on a bespoke basis, after an initial visit to the property and an in-depth discussion of the project's expectations. We systematically detail the exact scope of our brief — design, material selection, site coordination — as well as the billing method used, so that every client has a clear budget picture from the very start of the project.",
+            "**Planning a renovation or interior fit-out project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an initial conversation, or [get in touch](/en/contact) for a personalised quote.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What is the average percentage applied by an interior architect in Paris?** The rate is generally between 8% and 15% of the works cost, depending on the complexity of the project and the level of service. This rate should always be specified in writing in the quote, along with the exact basis of calculation (excl. or incl. VAT, furniture included or not). For detailed budget ranges by project type, see our article on [interior architect fees per m² in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Is an interior architect's quote free?** This depends on each practice: some offer a free initial discovery meeting, others charge for a feasibility study upfront, particularly for complex projects requiring an in-depth technical visit. It is recommended to clarify this point from the first contact.",
+            "**Can an interior architect's fees be negotiated?** The amount depends above all on the scope of the brief rather than simple price negotiation. It is, however, entirely possible to adjust the scope entrusted — for example by limiting the brief to design without site supervision — to adapt the overall amount to the available budget.",
+            "**Should extra budget be planned for during the project?** Depending on the billing method chosen, a change in the works budget during the project can affect fees calculated by percentage. This is why it is essential to set a realistic works budget from the outset, including a margin for unforeseen costs, in order to anticipate the impact on the final fee amount.",
+          ],
+        },
+      ],
+      keywords: [
+        "Interior architect fees",
+        "Interior architect quote Paris",
+        "Interior architect rate",
+      ],
+    },
+    it: {
+      title: "Onorari di un architetto d'interni a Parigi: come vengono calcolati?",
+      metaTitle: "Onorari Architetto d'Interni Parigi: Come Vengono Calcolati?",
+      excerpt:
+        "Percentuale sui lavori, forfait, tariffa oraria o al m²: come si costruisce l'importo degli onorari di un architetto d'interni a Parigi, e come valutare bene un preventivo.",
+      category: "Consigli & competenza",
+      readingTime: "7 min",
+      intro:
+        "Rivolgersi a un architetto d'interni a Parigi porta rapidamente a una domanda centrale: come si costruisce l'importo degli onorari? Contrariamente a un'idea diffusa, non esiste un listino tariffario unico né una norma che fissi un prezzo standard. Ogni studio definisce il proprio metodo di fatturazione, in base alla natura dell'incarico, all'ampiezza del progetto e al livello di accompagnamento proposto. Comprendere questi meccanismi permette di affrontare un progetto di ristrutturazione o allestimento con una visione di budget chiara, ed evitare brutte sorprese tra il primo appuntamento e la consegna del cantiere.",
+      sections: [
+        {
+          heading: "La percentuale sull'importo dei lavori",
+          paragraphs: [
+            "È il metodo di fatturazione storico della professione, ancora ampiamente utilizzato a Parigi. L'architetto d'interni applica una percentuale, generalmente compresa tra l'8% e il 15%, calcolata sull'importo totale dei lavori esclusi i mobili o al netto delle tasse a seconda degli studi. Questa percentuale varia secondo la complessità tecnica del cantiere, la superficie interessata e il livello di finitura ricercato.",
+            "Questo metodo di calcolo presenta una logica interessante: allinea l'interesse dell'architetto a quello del cliente. Un progetto più ambizioso, che richiede maggiore coordinamento e supervisione, genera naturalmente onorari proporzionalmente più elevati — senza però incentivare l'architetto a gonfiare artificialmente il budget lavori, poiché la sua reputazione dipende soprattutto dalla qualità del risultato consegnato.",
+          ],
+        },
+        {
+          heading: "Il forfait",
+          paragraphs: [
+            "Per incarichi dal perimetro ben delimitato — progettazione di una pianta di allestimento, definizione di una palette di materiali, accompagnamento su un ambiente specifico — numerosi studi propongono ormai un forfait fisso, stabilito in anticipo secondo la superficie e la natura esatta della prestazione.",
+            "Il vantaggio principale di questo metodo di fatturazione risiede nella sua prevedibilità: il cliente conosce l'importo esatto fin dalla firma, indipendentemente dall'evoluzione del budget lavori in corso di cantiere. È un'opzione particolarmente adatta ai progetti il cui perimetro è chiaramente identificabile fin dall'inizio.",
+          ],
+        },
+        {
+          heading: "La tariffa oraria e la fatturazione al metro quadro",
+          paragraphs: [
+            "Alcuni incarichi puntuali non giustificano una fatturazione a percentuale o a forfait: un consiglio su una pianta esistente, una validazione tecnica, un accompagnamento limitato nel tempo. In questi casi, la fatturazione oraria — generalmente tra 80 € e 150 € a Parigi secondo l'esperienza del professionista — offre una flessibilità adatta a esigenze circoscritte.",
+            "Più rara, la fatturazione al metro quadro si applica soprattutto ai progetti di grande portata, dove viene fissata una tariffa per metro quadro allestito, generalmente tra 100 € e 300 €/m² secondo il livello di prestazione. Permette una stima rapida fin dai primi schizzi, ancor prima di avere un computo dettagliato dei lavori.",
+          ],
+          image: {
+            src: "/assets/images/moodboard-materiaux-architecte-interieur-salon-parisien.jpg",
+            caption: "Selezione di materiali e atmosfere, salotto parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "I fattori che fanno variare l'importo degli onorari",
+          paragraphs: [
+            "Al di là del metodo di calcolo scelto, diversi parametri influenzano direttamente il livello degli onorari. La natura e la complessità dell'immobile giocano un ruolo determinante: un appartamento haussmanniano con cornici da preservare, un loft che richiede una ristrutturazione completa, o un duplex con creazione di una scala non implicano lo stesso livello di intervento tecnico.",
+            "Conta anche l'ampiezza dell'incarico affidato: un semplice consiglio di allestimento non ha nulla a che vedere con un incarico completo che integra progettazione, selezione dei materiali, coordinamento degli artigiani e direzione lavori fino alla consegna. Anche il livello di prestazione ricercato influenza l'importo — tra una ristrutturazione funzionale e un progetto di alta gamma su misura, lo scarto di tempo di progettazione, e quindi di onorari, può essere significativo.",
+            "I vincoli specifici dell'immobile parigino pesano infine sulla bilancia: condominio con regolamento rigido, edificio vincolato o situato in zona protetta, accesso complesso per gli artigiani — tutti elementi che allungano il tempo di gestione del progetto. Anche l'esperienza e la notorietà dello studio si riflettono, come in ogni professione creativa, nel suo listino tariffario.",
+          ],
+        },
+        {
+          heading: "Cosa coprono generalmente gli onorari",
+          paragraphs: [
+            "Un incarico completo di architettura d'interni include solitamente più fasi, che è essenziale chiarire prima della firma: la fase di progettazione, con le piante di allestimento e le proposte di bozze; la scelta dei materiali, delle finiture e dei mobili, con la costituzione di un book di prescrizione; il coordinamento degli artigiani e la gestione del calendario di cantiere; le pratiche amministrative necessarie, in particolare presso l'amministratore condominiale o per alcune autorizzazioni urbanistiche; e il seguito fino alla consegna, che include generalmente un numero definito di visite di cantiere.",
+            "Questo perimetro varia sensibilmente da uno studio all'altro: alcuni includono un numero illimitato di revisioni delle piante, altri fatturano ogni modifica oltre una soglia definita. È proprio questo che giustifica una lettura attenta del preventivo prima di qualsiasi impegno.",
+          ],
+        },
+        {
+          heading: "Come valutare un preventivo di architetto d'interni",
+          paragraphs: [
+            "Prima di impegnarsi, diverse verifiche permettono di evitare incomprensioni successive. Bisogna innanzitutto chiarire il perimetro esatto dell'incarico — sola progettazione, o progettazione associata a una direzione lavori completa — poi chiedere il dettaglio del metodo di calcolo degli onorari, e la base su cui si applica (importo lavori al netto o lordo IVA, mobili inclusi o meno).",
+            "È inoltre essenziale identificare cosa è incluso nel forfait o nella tariffa applicata — numero di visite di cantiere, di riunioni, di set di piante rivisti — e confrontare più proposte a perimetro strettamente equivalente, piuttosto che sul solo importo indicato.",
+          ],
+        },
+        {
+          heading: "Come stabiliamo i nostri onorari da Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, ogni preventivo è costruito su misura, dopo una prima visita dell'immobile e uno scambio approfondito sulle aspettative del progetto. Dettagliamo sistematicamente il perimetro esatto del nostro incarico — progettazione, selezione dei materiali, coordinamento del cantiere — così come il metodo di calcolo scelto, affinché ogni cliente disponga di una visione di budget chiara fin dall'avvio del progetto.",
+            "**State progettando una ristrutturazione o un allestimento d'interni a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un primo scambio, oppure [contattateci](/it/contact) per un preventivo personalizzato.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è la percentuale media applicata da un architetto d'interni a Parigi?** La percentuale si situa generalmente tra l'8% e il 15% dell'importo dei lavori, secondo la complessità del progetto e il livello di prestazione. Questa percentuale va sempre precisata per iscritto nel preventivo, con la base di calcolo esatta (importo al netto o lordo IVA, mobili inclusi o meno). Per fasce di budget dettagliate secondo il tipo di progetto, consultate il nostro articolo sul [prezzo di un architetto d'interni al m² a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Il preventivo di un architetto d'interni è gratuito?** Dipende da ogni studio: alcuni propongono un primo appuntamento conoscitivo gratuito, altri fatturano una prestazione di studio di fattibilità a monte, in particolare per i progetti complessi che richiedono una visita tecnica approfondita. Si raccomanda di chiarire questo punto fin dal primo contatto.",
+            "**Si possono negoziare gli onorari di un architetto d'interni?** L'importo dipende soprattutto dal perimetro dell'incarico piuttosto che da una semplice negoziazione tariffaria. È invece del tutto possibile modificare il perimetro affidato — ad esempio limitando l'incarico alla progettazione senza direzione lavori — per adattare l'importo complessivo al budget disponibile.",
+            "**Bisogna prevedere un budget supplementare in corso di progetto?** Secondo il metodo di fatturazione scelto, un'evoluzione dell'importo dei lavori in corso di cantiere può far variare gli onorari calcolati a percentuale. Per questo è essenziale definire fin dall'inizio un budget lavori realistico, includendo un margine per gli imprevisti, per anticipare l'impatto sull'importo finale degli onorari.",
+          ],
+        },
+      ],
+      keywords: [
+        "Onorari architetto d'interni",
+        "Preventivo architetto d'interni Parigi",
+        "Tariffa architetto d'interni",
       ],
     },
   },
