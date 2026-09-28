@@ -1,0 +1,2486 @@
+import type { JournalArticle } from "./journal";
+import type { Lang } from "./i18n";
+
+type ArticleTranslation = {
+  title?: string;
+  metaTitle?: string;
+  excerpt?: string;
+  category?: string;
+  readingTime?: string;
+  intro?: string;
+  content?: string[];
+  sections?: {
+    heading: string;
+    paragraphs: string[];
+    image?: { src: string; caption?: string; afterParagraph?: number };
+  }[];
+  keywords?: string[];
+};
+
+export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTranslation>>> = {
+  "renovation-appartement-ancien-patrimoine-contemporain": {
+    en: {
+      title: "Renovating a period apartment: Successfully blending heritage and contemporary design",
+      metaTitle: "Renovating a Period Apartment: Blending Heritage and Modernity",
+      excerpt:
+        "How do you renovate a Haussmannian or period apartment in Paris? Preserving mouldings, contemporary layout and noble materials.",
+      category: "Renovation & Interior Architecture",
+      readingTime: "5 min",
+      intro:
+        "Herringbone parquet, sculpted mouldings, marble fireplaces and generous ceiling heights: the charm of period buildings remains a safe bet. How do you enhance this architectural heritage while adapting it to contemporary living?",
+      sections: [
+        {
+          heading: "Enhancing history without freezing it in place",
+          paragraphs: [
+            "Renovating a Haussmannian or period apartment requires a delicate balance. The goal is neither to turn the place into a nostalgic museum, nor to erase its history with cold minimalism. The challenge is to make the classical vocabulary dialogue with bespoke, clean and functional architectural lines.",
+          ],
+        },
+        {
+          heading: "1. Restoring and showcasing the original features",
+          paragraphs: [
+            "Before introducing contemporary elements, the first step of a successful renovation project lies in preserving what already exists:",
+            "**The period parquet floors:** preservation, sanding back to bare wood and protection with matte oils or invisible varnishes to restore the original patina.",
+            "**Mouldings and plasterwork:** artisanal repair of plaster ornamentation damaged by time or former partitions.",
+            "**Fireplaces and gilded mirrors:** marble restoration and integration as centrepieces within the new scenography.",
+          ],
+          image: {
+            src: "/assets/images/renovation-appartement-haussmannien-chantier-moulures-paris.jpg",
+            caption: "Restoration site of a period apartment, mouldings and herringbone parquet",
+          },
+        },
+        {
+          heading: "2. Redefining the volumes for today's way of living",
+          paragraphs: [
+            "19th-century apartments were designed with a highly compartmentalised layout (a suite of interconnecting rooms, isolated service areas). Contemporary renovation aims to reintroduce fluidity and clarity.",
+            "Opening up large living spaces (living room/kitchen) is achieved by removing non-load-bearing partitions or creating openings under steel beams. To preserve the memory of the original rooms, ceiling mouldings that subtly mark the former boundaries are kept.",
+          ],
+          image: {
+            src: "/assets/images/renovation-appartement-ancien-salon-cheminee-marbre-paris.jpg",
+            caption: "Renovated living room: restored marble fireplace and herringbone parquet",
+          },
+        },
+        {
+          heading: "3. Bespoke joinery as a bridge between eras",
+          paragraphs: [
+            "Inserting bespoke, cleanly designed fittings (built-in bookcases, full-height dressing rooms, mineral kitchen islands) offers a striking, elegant contrast with the classical envelope.",
+            "By designing furniture that aligns perfectly with the wainscoting or stops just short of the mouldings without ever crowding them, a harmonious dialogue is created between today's cabinetmaking craft and the artisanship of the past.",
+          ],
+          image: {
+            src: "/assets/images/renovation-appartement-ancien-cuisine-ilot-marbre-paris.jpg",
+            caption: "Mineral kitchen island integrated into a period apartment renovation",
+          },
+        },
+        {
+          heading: "4. Discreetly modernising technical comfort",
+          paragraphs: [
+            "One of the greatest challenges of interior architecture in period buildings concerns integrating modern equipment without altering the aesthetic:",
+            "**Recessed routing of electrical and plumbing networks.**",
+            "**Integration of invisible air conditioning or ducted ventilation networks within partial false ceilings.**",
+            "**Lighting design combining indirect ambient lighting (light coves) and discreet adjustable spotlights to showcase the ceiling heights.**",
+          ],
+        },
+        {
+          heading: "Your renovation project with our Studio",
+          paragraphs: [
+            "Our interior architecture studio supports discerning owners in the complete restructuring and enhancement of exceptional apartments.",
+            "**Looking to renovate a period or Haussmannian apartment?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+      ],
+      keywords: ["Period apartment renovation", "Haussmannian apartment", "Architectural heritage"],
+    },
+    it: {
+      title: "Ristrutturare un appartamento d'epoca: Riuscire l'alleanza tra patrimonio e contemporaneo",
+      metaTitle: "Ristrutturare un Appartamento d'Epoca: Unire Patrimonio e Modernità",
+      excerpt:
+        "Come ristrutturare un appartamento haussmanniano o d'epoca a Parigi? Conservazione delle cornici, layout contemporaneo e materiali nobili.",
+      category: "Ristrutturazione & Architettura d'Interni",
+      readingTime: "5 min",
+      intro:
+        "Parquet a spina di pesce ungherese, cornici scolpite, camini in marmo e generose altezze dei soffitti: il fascino dell'epoca resta un valore sicuro. Come valorizzare questa eredità architettonica adattandola ai modi di vita contemporanei?",
+      sections: [
+        {
+          heading: "Valorizzare la storia senza fissarla nel tempo",
+          paragraphs: [
+            "Ristrutturare un appartamento haussmanniano o d'epoca richiede un equilibrio delicato. Non si tratta né di trasformare il luogo in un museo nostalgico, né di cancellarne la storia con un minimalismo freddo. La sfida è far dialogare il vocabolario classico con linee architettoniche su misura, essenziali e funzionali.",
+          ],
+        },
+        {
+          heading: "1. Restaurare e valorizzare gli elementi originali",
+          paragraphs: [
+            "Prima di inserire elementi contemporanei, il primo passo di un progetto di ristrutturazione riuscito risiede nella salvaguardia dell'esistente:",
+            "**I parquet antichi:** conservazione, levigatura a vivo e protezione con oli opachi o vernici invisibili per ripristinare la patina originale.",
+            "**Le cornici e gli stucchi:** riparazione artigianale degli ornamenti in gesso danneggiati dal tempo o dalle vecchie tramezzature.",
+            "**I camini e gli specchi dorati:** restauro del marmo e integrazione come elementi centrali nella nuova scenografia.",
+          ],
+          image: {
+            src: "/assets/images/renovation-appartement-haussmannien-chantier-moulures-paris.jpg",
+            caption: "Cantiere di restauro di un appartamento d'epoca, cornici e parquet a spina ungherese",
+          },
+        },
+        {
+          heading: "2. Ridefinire i volumi per la vita di oggi",
+          paragraphs: [
+            "Gli appartamenti del XIX secolo erano concepiti secondo una distribuzione molto compartimentata (infilata di saloni, ambienti di servizio isolati). La ristrutturazione contemporanea mira a reintrodurre fluidità e chiarezza.",
+            "L'apertura di grandi spazi di vita (soggiorno/cucina) avviene grazie alla rimozione di tramezzature non portanti o alla creazione di aperture su travi metalliche. Per conservare la memoria degli ambienti originali, si mantengono a soffitto le cornici che segnano sottilmente gli antichi limiti.",
+          ],
+          image: {
+            src: "/assets/images/renovation-appartement-ancien-salon-cheminee-marbre-paris.jpg",
+            caption: "Salotto ristrutturato: camino in marmo e parquet a spina ungherese restaurati",
+          },
+        },
+        {
+          heading: "3. La falegnameria su misura come trait d'union",
+          paragraphs: [
+            "L'inserimento di arredi su misura dal design essenziale (librerie integrate, cabina armadio a tutta altezza, isole cucina minerali) offre un contrasto sorprendente ed elegante con l'involucro classico.",
+            "Disegnando mobili che si allineano perfettamente agli zoccoli o che si fermano a pochi centimetri dalle cornici senza mai soffocarle, si crea un dialogo armonioso tra il saper fare ebanista di oggi e l'artigianato di un tempo.",
+          ],
+          image: {
+            src: "/assets/images/renovation-appartement-ancien-cuisine-ilot-marbre-paris.jpg",
+            caption: "Isola cucina minerale integrata in una ristrutturazione di appartamento d'epoca",
+          },
+        },
+        {
+          heading: "4. Modernizzare il comfort tecnico con la massima discrezione",
+          paragraphs: [
+            "Una delle maggiori sfide dell'architettura d'interni negli edifici d'epoca riguarda l'integrazione degli impianti moderni senza alterare l'estetica:",
+            "**Passaggio incassato delle reti elettriche e idrauliche.**",
+            "**Integrazione di climatizzatori invisibili o reti di ventilazione canalizzate in controsoffitti parziali.**",
+            "**Scenografia luminosa che combina illuminazione d'ambiente indiretta (velette luminose) e faretti orientabili discreti per valorizzare le altezze.**",
+          ],
+        },
+        {
+          heading: "Il vostro progetto di ristrutturazione con il nostro Studio",
+          paragraphs: [
+            "Il nostro studio di architettura d'interni accompagna proprietari esigenti nella ristrutturazione globale e nella valorizzazione di appartamenti d'eccezione.",
+            "**Desiderate ristrutturare un appartamento d'epoca o haussmanniano?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+      ],
+      keywords: ["Ristrutturazione appartamento d'epoca", "Appartamento haussmanniano", "Patrimonio architettonico"],
+    },
+  },
+  "cuisine-ouverte-haut-de-gamme-agencement-sur-mesure": {
+    en: {
+      title: "Bespoke open-plan kitchens: The art of integrating one into a high-end living space",
+      metaTitle: "High-End Open-Plan Kitchen: Bespoke Layout & Luxury",
+      excerpt:
+        "How do you integrate a bespoke open-plan kitchen into a high-end living space? Noble materials, mineral central island and hidden appliances.",
+      category: "Interior Architecture & Layout",
+      readingTime: "5 min",
+      intro:
+        "Long relegated to purely technical functions, the kitchen now stands as the beating heart of the contemporary home. When it opens onto the living room, the architectural challenge is to erase its utilitarian character and turn it into an object of exceptional design, fully integrated into the vocabulary of the living space.",
+      sections: [
+        {
+          heading: "Redefining the kitchen: From functional room to centrepiece",
+          paragraphs: [
+            "In a high-end residential renovation, opening up the kitchen isn't simply about knocking down a wall. It means rethinking the visual balance, managing odours and noise, and the overall circulation. The kitchen must know how to stay discreet when entertaining while offering absolute everyday comfort.",
+          ],
+        },
+        {
+          heading: "1. The monolithic central island: Mineral sculpture and gathering point",
+          paragraphs: [
+            "The central island is the centrepiece of the open-plan kitchen. To preserve the elegance of the living room, the architectural approach favours strong forms and exceptional materials.",
+            "**Natural stone blocks:** Calacatta marble, quartzite or honed travertin shaped as a single block. The continuity of the veining across the waterfall edges brings a sculptural dimension.",
+            "**Dialogue with fine furniture:** the island should no longer resemble a technical piece of furniture, but echo the lines of the dining table or the living room sideboard.",
+            "**Hidden functions:** induction hobs with integrated extraction built into the cooktop to remove the traditional suspended hood and fully free up the visual perspectives.",
+          ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-piece-de-vie-salon-rome.jpg",
+            caption: "The kitchen island in dialogue with the living space furniture",
+          },
+        },
+        {
+          heading: "2. The \"Invisible Kitchen\" concept: Full-height fittings",
+          paragraphs: [
+            "To blend the kitchen into the decor of the apartment or house, bespoke joinery plays a leading role.",
+            "The principle of **pocket sliding door fronts** conceals the appliances, the washing area and small appliances behind large full-height panels in noble wood (smoked oak, American walnut, satin lacquer). Once the doors are closed, the kitchen disappears entirely in favour of a clean fitted wall.",
+          ],
+        },
+        {
+          heading: "3. Noble materials and floor transition",
+          paragraphs: [
+            "To successfully bridge the living room and the kitchen:",
+            "**Floor harmony:** either by extending the herringbone parquet into the kitchen area with high-resistance surface treatments, or by creating a bespoke pattern inlaying natural stone or terrazzo into the wood.",
+            "**The splashback as a work of art:** using brushed brass, aged leaf-gilded mirror or artisanal ceramic to reflect the living room's light.",
+          ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-bois-sur-mesure-famille.jpg",
+            caption: "Noble materials and bespoke wood in a family open-plan kitchen",
+          },
+        },
+        {
+          heading: "4. Lighting: Shifting from prep mode to entertaining mode",
+          paragraphs: [
+            "Lighting in an open-plan kitchen needs to be adjustable:",
+            "**Targeted functional lighting:** invisible LED strips built into the wall units to evenly light the worktop.",
+            "**Theatrical ambient lighting:** designer pendants above the island and recessed low-glare spotlights to create a warm, intimate atmosphere once the meal is served.",
+          ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-sur-mesure-salon-vue-paris.jpg",
+            caption: "Open-plan kitchen in entertaining mode, at dusk",
+          },
+        },
+        {
+          heading: "Your bespoke layout project with the Studio",
+          paragraphs: [
+            "Every kitchen designed by our studio is a unique creation, made to measure in collaboration with our cabinetmakers and stone masons.",
+            "**Picture a bespoke open-plan kitchen for your living space?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) to discuss it, or [get in touch](/en/contact) to tell us about your project.",
+          ],
+        },
+      ],
+      keywords: ["Bespoke open-plan kitchen", "High-end layout", "Marble central island"],
+    },
+    it: {
+      title: "Cucine open space su misura: L'arte di integrarle in un ambiente di vita di alta gamma",
+      metaTitle: "Cucina Open Space di Alta Gamma: Layout e Lusso su Misura",
+      excerpt:
+        "Come integrare una cucina open space su misura in un ambiente di vita di alta gamma? Materiali nobili, isola centrale minerale ed elettrodomestici invisibili.",
+      category: "Architettura d'Interni e Arredo",
+      readingTime: "5 min",
+      intro:
+        "A lungo relegata a funzioni puramente tecniche, la cucina si impone ormai come il cuore pulsante dell'abitazione contemporanea. Quando si apre sul soggiorno, la sfida architettonica consiste nel cancellarne il carattere utilitario per farne un oggetto di design d'eccezione, perfettamente integrato nel linguaggio dell'ambiente di vita.",
+      sections: [
+        {
+          heading: "Ridefinire la cucina: Dal funzionale all'elemento centrale",
+          paragraphs: [
+            "In una ristrutturazione residenziale di alta gamma, aprire la cucina non significa semplicemente abbattere un muro. Significa ripensare l'equilibrio visivo, la gestione degli odori e del rumore, oltre alla circolazione globale. La cucina deve saper farsi discreta durante i ricevimenti offrendo al contempo un comfort d'uso assoluto ogni giorno.",
+          ],
+        },
+        {
+          heading: "1. L'isola centrale monolitica: Scultura minerale e punto di ritrovo",
+          paragraphs: [
+            "L'isola centrale è l'elemento principale della cucina open space. Per preservare l'eleganza del soggiorno, la scelta architettonica si orienta verso forme decise e materiali d'eccezione.",
+            "**I blocchi di pietra naturale:** marmo di Calacatta, quarzite o travertino levigato lavorati in monoblocco. La continuità della venatura sulle cascate laterali conferisce una dimensione scultorea.",
+            "**Il dialogo con l'arredo d'arte:** l'isola non deve più somigliare a un mobile tecnico, ma rispondere alle linee del tavolo da pranzo o della credenza del salotto.",
+            "**Le funzioni dissimulate:** piani a induzione con aspirazione integrata nel piano cottura per eliminare la cappa sospesa tradizionale e liberare completamente le prospettive visive.",
+          ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-piece-de-vie-salon-rome.jpg",
+            caption: "L'isola cucina in dialogo con l'arredo dell'ambiente di vita",
+          },
+        },
+        {
+          heading: "2. Il concetto di \"Cucina Invisibile\": Arredi a tutta altezza",
+          paragraphs: [
+            "Per fondere la cucina nel décor dell'appartamento o della casa, la falegnameria su misura gioca un ruolo preponderante.",
+            "Il principio delle **ante scorrevoli a scomparsa** permette di dissimulare gli elettrodomestici, la zona lavaggio e i piccoli elettrodomestici dietro grandi pannelli a tutta altezza in legno nobile (rovere affumicato, noce americano, laccato satinato). Una volta chiuse le ante, la cucina si dissolve completamente a favore di una parete d'arredo essenziale.",
+          ],
+        },
+        {
+          heading: "3. Materiali nobili e transizione del pavimento",
+          paragraphs: [
+            "Per riuscire nel collegamento tra soggiorno e cucina:",
+            "**L'armonia dei pavimenti:** o prolungando il parquet a spina ungherese nella zona cucina grazie a trattamenti superficiali ad alta resistenza, oppure creando una composizione su misura incastonando una pietra naturale o un terrazzo nel legno.",
+            "**Il rivestimento come opera d'arte:** utilizzo di ottone spazzolato, specchio invecchiato a foglia o ceramica artigianale per riflettere la luce del soggiorno.",
+          ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-bois-sur-mesure-famille.jpg",
+            caption: "Materiali nobili e legno su misura in una cucina open space familiare",
+          },
+        },
+        {
+          heading: "4. Illuminazione: Passare dalla modalità preparazione alla modalità ricevimento",
+          paragraphs: [
+            "L'illuminazione di una cucina open space deve essere modulabile:",
+            "**Un'illuminazione funzionale mirata:** strisce LED invisibili integrate sotto i pensili per illuminare il piano di lavoro in modo omogeneo.",
+            "**Un'illuminazione d'atmosfera teatrale:** sospensioni di design sopra l'isola e faretti incassati a bassa luminanza per creare un'atmosfera calda e intima non appena il pasto viene servito.",
+          ],
+          image: {
+            src: "/assets/images/cuisine-ouverte-sur-mesure-salon-vue-paris.jpg",
+            caption: "Cucina open space in modalità ricevimento, al calar della sera",
+          },
+        },
+        {
+          heading: "Il vostro progetto di arredo su misura con lo Studio",
+          paragraphs: [
+            "Ogni cucina disegnata dal nostro studio è una creazione unica, concepita su misura in collaborazione con i nostri artigiani ebanisti e marmisti.",
+            "**Immaginate una cucina open space su misura per il vostro ambiente di vita?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per parlarne, oppure [contattateci](/it/contact) per presentarci il vostro progetto.",
+          ],
+        },
+      ],
+      keywords: ["Cucina open space su misura", "Arredo di alta gamma", "Isola centrale in marmo"],
+    },
+  },
+  "suite-parentale-haut-de-gamme-dressing-salle-de-bains": {
+    en: {
+      title: "Designing an exceptional primary suite: Where comfort meets bespoke craftsmanship",
+      metaTitle: "Designing an Exceptional Primary Suite: Luxury, Dressing Room & Bath",
+      excerpt:
+        "How do you design a high-end primary suite? Space planning, bespoke dressing room and boutique-hotel-style bathroom.",
+      category: "Interior Architecture & Private Spaces",
+      readingTime: "5 min",
+      intro:
+        "A true private sanctuary at the heart of the home, the primary suite has evolved profoundly. Far from a simple bedroom with an adjoining bathroom, it is now conceived as a boutique-hotel suite: a fluid, intimate space bringing together the sleeping area, a bespoke dressing room and a wellness bathroom.",
+      sections: [
+        {
+          heading: "Rethinking the primary suite as a fluid space",
+          paragraphs: [
+            "A successful primary suite layout is built around circulation. Boundaries become lighter: traditional hinged doors give way to wooden screens, patinated metal glazed partitions or sliding Japanese-style panels, allowing light to travel through the full depth of the space.",
+          ],
+          image: {
+            src: "/assets/images/suite-parentale-chambre-parisienne-salle-de-bain-marbre.jpg",
+            caption: "Parisian primary suite, bedroom and marble bathroom",
+          },
+        },
+        {
+          heading: "1. The architectural headboard: The bedroom's founding element",
+          paragraphs: [
+            "In the sleeping area, the headboard designed by the interior architect structures the room:",
+            "**Multi-function integration:** it brings together, within a single joinery composition, suspended bedside tables, recessed reading lights, hidden sockets and display niches.",
+            "**Enveloping materials:** fluted wood panelling, acoustic stretched velvet or lime-wash paint are used to bring texture and a soothing cocoon-like feel.",
+          ],
+        },
+        {
+          heading: "2. The bespoke dressing room: The elegance of haute couture",
+          paragraphs: [
+            "A high-end dressing room does more than store: it stages the wardrobe.",
+            "**Interior joinery:** warm wood species (walnut, tinted ash) paired with leather or suede inserts in the accessory drawers.",
+            "**Plays of transparency:** tinted glass fronts with ultra-fine aluminium frames to hint at what's inside without visually overloading the space.",
+            "**Integrated lighting:** indirect LED lighting with presence detection under every shelf, for a visual comfort worthy of the grandest luxury houses.",
+          ],
+          image: {
+            src: "/assets/images/suite-parentale-dressing-sur-mesure-baignoire-ilot.jpg",
+            caption: "Bespoke dressing room and open bathroom, primary suite",
+          },
+        },
+        {
+          heading: "3. The bathroom: A spa experience at home",
+          paragraphs: [
+            "The primary suite's bathroom becomes a place of restoration.",
+            "**A sculptural freestanding tub or an XXL walk-in shower:** flush natural-stone shower trays with a built-in bench and recessed rain shower ceiling head.",
+            "**Mineral, durable materials:** large-format terrazzo, honed travertin, recessed taps in bronze or brushed brass finish.",
+            "**Managing ventilation and light:** discreet integration of technical equipment and enhancement of natural light through frosted glazing or ribbed glass.",
+          ],
+          image: {
+            src: "/assets/images/suite-parentale-salle-de-bain-terre-cuite-douche-italienne.jpg",
+            caption: "Walk-in shower and natural materials, primary suite bathroom",
+          },
+        },
+        {
+          heading: "Create your private cocoon with our Studio",
+          paragraphs: [
+            "From redistributing the volumes to selecting every last textile, our team of interior architects designs exceptional primary suites tailored to your pace of life.",
+            "**Dreaming of a bespoke primary suite?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) to discuss it, or [get in touch](/en/contact) to tell us about your project.",
+          ],
+        },
+      ],
+      keywords: ["Primary suite", "Bespoke dressing room", "Luxury bathroom"],
+    },
+    it: {
+      title: "Progettare una suite padronale d'eccezione: L'alleanza tra comfort e su misura",
+      metaTitle: "Progettare una Suite Padronale d'Eccezione: Lusso, Cabina Armadio e Bagno",
+      excerpt:
+        "Come arredare una suite padronale di alta gamma? Organizzazione dello spazio, cabina armadio su misura e bagno stile hotel de charme.",
+      category: "Architettura d'Interni e Spazi Privati",
+      readingTime: "5 min",
+      intro:
+        "Vero santuario privato nel cuore dell'abitazione, la suite padronale si è evoluta profondamente. Lontana dalla semplice camera con bagno annesso, oggi è pensata come una suite di un hotel de charme: uno spazio fluido e intimo che riunisce zona notte, cabina armadio su misura e bagno benessere.",
+      sections: [
+        {
+          heading: "Ripensare la suite padronale come uno spazio fluido",
+          paragraphs: [
+            "L'organizzazione di una suite padronale riuscita si basa sulla circolazione. I confini si alleggeriscono: le porte battenti tradizionali lasciano il posto a frangivista in legno, vetrate in metallo patinato o pareti scorrevoli in stile giapponese, permettendo alla luce di attraversare tutta la profondità del volume.",
+          ],
+          image: {
+            src: "/assets/images/suite-parentale-chambre-parisienne-salle-de-bain-marbre.jpg",
+            caption: "Suite padronale parigina, camera e bagno in marmo",
+          },
+        },
+        {
+          heading: "1. La testata del letto architettonica: Elemento fondante della camera",
+          paragraphs: [
+            "Nella zona notte, la testata del letto disegnata dall'architetto d'interni struttura l'ambiente:",
+            "**Integrazione multifunzione:** riunisce in un'unica composizione di falegnameria i comodini sospesi, le luci di lettura incassate, le prese invisibili e le nicchie espositive.",
+            "**Materiali avvolgenti:** utilizzo di pannelli in legno scanalato, velluto teso acustico o pitture a calce per dare rilievo e una sensazione di bozzolo rassicurante.",
+          ],
+        },
+        {
+          heading: "2. La cabina armadio su misura: L'eleganza dell'alta moda",
+          paragraphs: [
+            "Una cabina armadio di alta gamma non si limita a riporre: mette in scena il guardaroba.",
+            "**Falegnameria interna:** essenze di legno calde (noce, frassino tinto) associate a inserti in pelle o alcantara nei cassetti degli accessori.",
+            "**Giochi di trasparenza:** ante in vetro colorato con strutture in alluminio ultra-sottili per lasciare intuire i capi senza appesantire visivamente lo spazio.",
+            "**Illuminazione integrata:** luce LED indiretta con rilevamento di presenza sotto ogni ripiano, per un comfort visivo degno delle più grandi maison di lusso.",
+          ],
+          image: {
+            src: "/assets/images/suite-parentale-dressing-sur-mesure-baignoire-ilot.jpg",
+            caption: "Cabina armadio su misura e bagno aperto, suite padronale",
+          },
+        },
+        {
+          heading: "3. Il bagno: Un'esperienza spa a domicilio",
+          paragraphs: [
+            "Il bagno della suite padronale diventa un luogo di rigenerazione.",
+            "**Vasca a isola scultorea o doccia walk-in XXL:** piatti doccia a filo pavimento in pietra naturale con panca in muratura e soffione a pioggia incassato a soffitto.",
+            "**Materiali minerali e durevoli:** terrazzo grande formato, travertino levigato, rubinetteria incassata in finitura bronzo o ottone spazzolato.",
+            "**Gestione della ventilazione e della luce:** integrazione discreta degli impianti tecnici e valorizzazione della luce naturale attraverso vetrate satinate o vetro striato.",
+          ],
+          image: {
+            src: "/assets/images/suite-parentale-salle-de-bain-terre-cuite-douche-italienne.jpg",
+            caption: "Doccia walk-in e materiali naturali, bagno della suite padronale",
+          },
+        },
+        {
+          heading: "Create il vostro bozzolo privato con il nostro Studio",
+          paragraphs: [
+            "Dalla redistribuzione dei volumi fino alla scelta del più piccolo tessile, il nostro team di architetti d'interni progetta suite padronali d'eccezione su misura per il vostro ritmo di vita.",
+            "**Sognate una suite padronale su misura?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per parlarne, oppure [contattateci](/it/contact) per presentarci il vostro progetto.",
+          ],
+        },
+      ],
+      keywords: ["Suite padronale", "Cabina armadio su misura", "Bagno di lusso"],
+    },
+  },
+  "renovation-globale-appartement-maison-architecture-interieur": {
+    en: {
+      title: "Exceptional whole-home renovation: Redesigning the art of living and enhancing heritage value",
+      metaTitle: "Whole-Home Renovation of Apartments & Houses: An Interior Architecture Guide",
+      excerpt:
+        "How do you approach the whole-home renovation and complete restructuring of an exceptional property? Process, redistribution of volumes and heritage value.",
+      category: "Renovation & Interior Architecture",
+      readingTime: "6 min",
+      intro:
+        "Undertaking the whole-home renovation of an exceptional apartment or house goes far beyond a simple refresh. It's an opportunity to entirely rethink the experience of the home, adapt a place to a contemporary way of living, and secure its heritage value through demanding choices in layout and materials.",
+      sections: [
+        {
+          heading: "Whole-home renovation: An indispensable overall vision",
+          paragraphs: [
+            "Undertaking work room by room often leads to visual and technical fragmentation. Conversely, a complete restructuring orchestrated by an interior architect allows for an overall diagnosis of the property: circulation flow, natural light input, structural logic and aesthetic coherence from one end of the space to the other.",
+          ],
+        },
+        {
+          heading: "1. Redistributing the volumes: Unlocking the spatial potential",
+          paragraphs: [
+            "Every place has its own architectural character. The interior architect's first role is to read this original structure in order to reveal its full potential.",
+            "**Rationalising the spaces:** eliminating wasted square metres (dark corridors, superfluous landings) to enlarge reception rooms and create through-perspectives.",
+            "**Working with natural light:** rethinking the orientation of functions according to the sun's path, creating bespoke glazed openings or inserting light partitions that let daylight travel through.",
+            "**Hierarchising the zones:** marking a fluid but clear separation between reception spaces (living room, dining room, kitchen) and the private sphere (bedrooms, dressing rooms, suites).",
+          ],
+        },
+        {
+          heading: "2. The invisible integration of technology and comfort",
+          paragraphs: [
+            "The hallmark of a high-end renovation lies in what cannot be seen. Technical performance is integrated in a completely imperceptible way, leaving all the room for aesthetics.",
+            "**Insulation and energy efficiency:** improving thermal and acoustic performance (high-performance insulating linings, bespoke exterior joinery respecting planning constraints).",
+            "**Home automation and lighting design:** centralised management of ambiances, concealment of electrical networks and discreet integration of indirect lighting (light coves, recessed slots).",
+            "**Climate comfort:** invisible integration of heating and cooling systems within false ceilings or fitted joinery.",
+          ],
+        },
+        {
+          heading: "3. Continuity of materials: Creating a unified visual signature",
+          paragraphs: [
+            "To offer a sense of calm and overall harmony, the choice of materials follows a rigorous common thread.",
+            "Rather than accumulating different stylistic effects in each room, a whole-home renovation favours a restrained palette of noble, timeless materials — solid wood flooring, lime renders, natural stone, brushed brass — subtly declined throughout the entire project.",
+          ],
+        },
+        {
+          heading: "4. From sketch to site supervision: Rigorous project management",
+          paragraphs: [
+            "Successfully carrying out a complete renovation requires a proven support method:",
+            "**Design phase (preliminary and detailed design):** 2D plans, 3D modelling, choice of materials and detailed costing.",
+            "**Consultation and selection of craftspeople:** mobilising a network of skilled tradespeople and qualified firms for every trade.",
+            "**Site supervision and project management:** rigorous coordination of schedules, quality control of execution and adherence to budget commitments through to turnkey handover.",
+          ],
+          image: {
+            src: "/assets/images/renovation-globale-suivi-chantier-artisans-cuisine.jpg",
+            caption: "Site supervision and coordination of craftspeople, whole-home renovation",
+          },
+        },
+        {
+          heading: "Entrust your whole-home renovation project to the Studio",
+          paragraphs: [
+            "Whether you have just acquired a property to restructure or wish to transform your current residence, our interior architecture practice designs bespoke projects built to last.",
+            "**Have a whole-home renovation project?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+          image: {
+            src: "/assets/images/renovation-globale-maitrise-oeuvre-architecte-client.jpg",
+            caption: "A trusted relationship between architect and client, from first conversation to handover",
+          },
+        },
+      ],
+      keywords: ["Whole-home renovation", "Apartment restructuring", "Site supervision"],
+    },
+    it: {
+      title: "Ristrutturazione globale d'eccezione: Ridisegnare l'arte di vivere e valorizzare il patrimonio",
+      metaTitle: "Ristrutturazione Globale di Appartamenti e Case: Guida all'Architettura d'Interni",
+      excerpt:
+        "Come affrontare la ristrutturazione globale e la ristrutturazione completa di un immobile d'eccezione? Processo, redistribuzione dei volumi e valore patrimoniale.",
+      category: "Ristrutturazione & Architettura d'Interni",
+      readingTime: "6 min",
+      intro:
+        "Intraprendere la ristrutturazione globale di un appartamento o di una casa d'eccezione va ben oltre un semplice rinnovamento. È l'opportunità di ripensare integralmente l'esperienza dell'abitare, adattare un luogo a uno stile di vita contemporaneo e consolidarne il valore patrimoniale attraverso scelte di arredo e materiali esigenti.",
+      sections: [
+        {
+          heading: "La ristrutturazione globale: Una visione d'insieme indispensabile",
+          paragraphs: [
+            "Intraprendere lavori stanza per stanza porta spesso a una frammentazione visiva e tecnica. Al contrario, la ristrutturazione completa orchestrata da un architetto d'interni permette di porre una diagnosi globale sull'immobile: flussi di circolazione, apporto di luce naturale, logica strutturale e coerenza estetica da un capo all'altro dello spazio.",
+          ],
+        },
+        {
+          heading: "1. La redistribuzione dei volumi: Liberare il potenziale spaziale",
+          paragraphs: [
+            "Ogni luogo possiede la propria scrittura architettonica. Il primo ruolo dell'architetto d'interni consiste nel leggere questa struttura originale per rivelarne tutto il potenziale.",
+            "**La razionalizzazione degli spazi:** eliminare i metri quadri persi (corridoi bui, disimpegni superflui) per ampliare gli ambienti di ricevimento e creare prospettive passanti.",
+            "**Il lavoro sulla luce naturale:** ripensare l'orientamento delle funzioni secondo il percorso del sole, creare vetrate su misura o inserire tramezzature leggere che lasciano filtrare la luce.",
+            "**La gerarchizzazione delle zone:** segnare una separazione fluida ma chiara tra gli spazi di ricevimento (salotto, sala da pranzo, cucina) e la sfera intima (camere, cabine armadio, suite).",
+          ],
+        },
+        {
+          heading: "2. L'integrazione invisibile della tecnica e del comfort",
+          paragraphs: [
+            "Il segno distintivo di una ristrutturazione di alta gamma risiede in ciò che non si vede. Le prestazioni tecniche si integrano in modo del tutto impercettibile per lasciare tutto lo spazio all'estetica.",
+            "**L'isolamento e l'efficienza energetica:** miglioramento delle prestazioni termiche e acustiche (rivestimenti isolanti ad alte prestazioni, serramenti esterni su misura nel rispetto dei vincoli urbanistici).",
+            "**La domotica e la scenografia luminosa:** gestione centralizzata delle atmosfere, dissimulazione delle reti elettriche e integrazione discreta di illuminazioni indirette (velette luminose, fessure incassate).",
+            "**Il comfort climatico:** integrazione invisibile dei sistemi di riscaldamento e raffrescamento all'interno di controsoffitti o arredi su misura.",
+          ],
+        },
+        {
+          heading: "3. La continuità dei materiali: Creare una firma visiva unificata",
+          paragraphs: [
+            "Per offrire una sensazione di pacatezza e di armonia globale, la scelta dei materiali risponde a un filo conduttore rigoroso.",
+            "Piuttosto che accumulare effetti di stile diversi in ogni stanza, la ristrutturazione globale privilegia una palette ristretta di materiali nobili e senza tempo — parquet in legno massello, intonaci a calce, pietre naturali, ottone spazzolato — declinata con sottigliezza attraverso l'intero progetto.",
+          ],
+        },
+        {
+          heading: "4. Dallo schizzo alla direzione lavori: La rigorosa direzione dei lavori",
+          paragraphs: [
+            "Portare a termine una ristrutturazione completa richiede un metodo di accompagnamento collaudato:",
+            "**Fase di progettazione (preliminare e definitiva):** piante 2D, modellazioni 3D, scelta dei materiali e computo dettagliato.",
+            "**Consultazione e selezione degli artigiani:** mobilitazione di una rete di maestranze e imprese qualificate per ogni categoria di lavoro.",
+            "**Direzione lavori e monitoraggio del cantiere:** coordinamento rigoroso dei tempi, controllo della qualità di esecuzione e rispetto degli impegni di budget fino alla consegna chiavi in mano.",
+          ],
+          image: {
+            src: "/assets/images/renovation-globale-suivi-chantier-artisans-cuisine.jpg",
+            caption: "Monitoraggio del cantiere e coordinamento degli artigiani, ristrutturazione globale",
+          },
+        },
+        {
+          heading: "Affidate il vostro progetto di ristrutturazione globale allo Studio",
+          paragraphs: [
+            "Che abbiate appena acquisito un immobile da ristrutturare o desideriate trasformare la vostra residenza attuale, il nostro studio di architettura d'interni progetta interventi su misura pensati per durare.",
+            "**Avete un progetto di ristrutturazione globale?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+          image: {
+            src: "/assets/images/renovation-globale-maitrise-oeuvre-architecte-client.jpg",
+            caption: "Un rapporto di fiducia tra architetto e cliente, dal primo incontro alla consegna",
+          },
+        },
+      ],
+      keywords: ["Ristrutturazione globale", "Ristrutturazione appartamento", "Direzione lavori"],
+    },
+  },
+  "vision-architecturale-volumes-lumiere-matiere": {
+    en: {
+      title: "Sculpting space: When architectural vision transcends the interior",
+      metaTitle: "Interior Architecture: Sculpting Volumes, Light & Material",
+      excerpt:
+        "How does architectural vision transform a space? Discover the art of sculpting volumes, taming light and orchestrating noble materials.",
+      category: "Vision & Interior Architecture",
+      readingTime: "6 min",
+      intro:
+        "Beyond layout and furnishing, interior architecture engages with the very substance of a place. It doesn't dress existing rooms: it orchestrates the empty space, shapes the volumes and captures the light to create living places that stir a lasting emotion.",
+      sections: [
+        {
+          heading: "1. Volumetry: Playing with mass and void",
+          paragraphs: [
+            "Every architecture project begins with a three-dimensional reading of the space. Even before considering the slightest colour, the challenge is to define the right proportions.",
+            "**Verticality and ceiling height:** enhancing volumes with full-height vertical elements (full-height doors without transoms, integrated joinery, geometric screens) that draw the eye upward.",
+            "**Working with the void:** knowing how to preserve pockets of air and breathing room. In high-end contemporary architecture, the void isn't a lack but a compositional element in its own right that showcases the key pieces.",
+            "**Perspectives and alignments:** creating visual enfilades and clear vanishing lines that run through the apartment or house from end to end.",
+          ],
+          image: {
+            src: "/assets/images/architecture-interieur-volumes-lumiere-escalier-suspendu.jpg",
+            caption: "Suspended staircase and skylight, a play of architectural volumes",
+          },
+        },
+        {
+          heading: "2. Light as a building material",
+          paragraphs: [
+            "Light isn't just a functional input; it's the architect's most alive material. It reveals textures, transforms hues over the course of the day and sets its rhythm.",
+            "**Capturing daylight:** rethinking openings, using bespoke architectural glazing or textured glass to diffuse soft light into blind areas.",
+            "**Night-time architectural lighting:** banishing the single central light fixture in favour of invisible lighting design. Integrating light coves, recessed slots and low-glare spotlights allows forms to be sculpted from dusk onward.",
+          ],
+          image: {
+            src: "/assets/images/architecture-interieur-matiere-cuisine-travertin-oliviers.jpg",
+            caption: "Natural light enhances the material, a kitchen opening onto an olive grove",
+          },
+        },
+        {
+          heading: "3. The truth of material: In praise of the raw and the noble",
+          paragraphs: [
+            "Contemporary architecture moves away from artifice to celebrate the nobility of textured, enduring materials.",
+            "The pairing of mineral surfaces (honed natural stone, architectural concrete, lime or clay renders) with warm touches (solid wood, patinated brass, raw linen textiles) creates an elegant visual tension. This contrast brings the interior a tactile presence and a patina that grows more beautiful with time.",
+          ],
+          image: {
+            src: "/assets/images/architecture-interieur-matiere-travertin-salle-de-bain.jpg",
+            caption: "Natural stone and noble materials, contemporary bathroom",
+          },
+        },
+        {
+          heading: "4. The invisible integration of technical detail",
+          paragraphs: [
+            "What sets a rigorous architectural approach apart from a simple fit-out is the care given to the detail of execution:",
+            "**Flush skirting boards:** integrated flush with the wall for an absolute purity of line.",
+            "**Pocket doors and invisible frames:** with no visible casing (Filomuro-type system), allowing partitions to present themselves as pure planes of mass.",
+            "**Millimetre-precise setting-out:** the perfect alignment of tile joints, stone slabs and wood patterns for flawless geometric harmony.",
+          ],
+        },
+        {
+          heading: "Bringing your space into dialogue with architecture, with the Studio",
+          paragraphs: [
+            "Our studio approaches every project with the rigour of the architect and the sensibility of the designer, to build bespoke spaces where every detail finds its justification.",
+            "**Have a vision for your space?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) to discuss it, or [get in touch](/en/contact) to tell us about your project.",
+          ],
+        },
+      ],
+      keywords: ["Interior architecture", "Volumes and light", "Noble materials"],
+    },
+    it: {
+      title: "Scolpire lo spazio: Quando la visione architettonica trascende l'interno",
+      metaTitle: "Architettura d'Interni: Scolpire Volumi, Luce e Materia",
+      excerpt:
+        "Come la visione architettonica trasforma uno spazio? Scoprite l'arte di scolpire i volumi, addomesticare la luce e orchestrare i materiali nobili.",
+      category: "Visione & Architettura d'Interni",
+      readingTime: "6 min",
+      intro:
+        "Al di là dell'arredo e dell'ammobiliamento, l'architettura d'interni si dedica alla sostanza stessa del luogo. Non veste ambienti esistenti: orchestra i vuoti, plasma i volumi e cattura la luce per creare luoghi di vita che suscitano un'emozione duratura.",
+      sections: [
+        {
+          heading: "1. La volumetria: Giocare con i pieni e i vuoti",
+          paragraphs: [
+            "Ogni progetto di architettura inizia con una lettura tridimensionale dello spazio. Ancor prima di considerare il minimo colore, la sfida è definire proporzioni corrette.",
+            "**La verticalità e l'altezza dei soffitti:** valorizzare i volumi con elementi verticali a tutta altezza (porte a tutta altezza senza sopraluce, falegnameria integrata, frangivista geometrici) che allungano lo sguardo.",
+            "**Il lavoro sul vuoto:** saper preservare spazi d'aria e di respiro. In un'architettura contemporanea di alta gamma, il vuoto non è una mancanza, ma un elemento compositivo a pieno titolo che valorizza gli elementi principali.",
+            "**Le prospettive e gli allineamenti:** creare infilate visive e assi di fuga chiari che attraversano l'appartamento o la casa da un capo all'altro.",
+          ],
+          image: {
+            src: "/assets/images/architecture-interieur-volumes-lumiere-escalier-suspendu.jpg",
+            caption: "Scala sospesa e lucernario, un gioco di volumi architettonici",
+          },
+        },
+        {
+          heading: "2. La luce come materiale da costruzione",
+          paragraphs: [
+            "La luce non è un semplice apporto funzionale; è il materiale più vivo dell'architetto. Rivela le texture, trasforma le tonalità nel corso delle ore e scandisce la giornata.",
+            "**La cattura della luce diurna:** ripensare le aperture, utilizzare vetrate architettoniche su misura o vetro strutturato per diffondere una luce dolce nelle zone cieche.",
+            "**L'illuminazione architettonica notturna:** bandire il punto luce centrale unico a favore di una scenografia luminosa invisibile. L'integrazione di velette luminose, fessure incassate e faretti a bassa luminanza permette di scolpire le forme fin dal crepuscolo.",
+          ],
+          image: {
+            src: "/assets/images/architecture-interieur-matiere-cuisine-travertin-oliviers.jpg",
+            caption: "La luce naturale esalta la materia, una cucina aperta su un uliveto",
+          },
+        },
+        {
+          heading: "3. La verità della materia: L'elogio del grezzo e del nobile",
+          paragraphs: [
+            "L'architettura contemporanea si allontana dagli artifici per celebrare la nobiltà delle materie testurizzate e durevoli.",
+            "L'associazione di superfici minerali (pietra naturale levigata, cemento architettonico, intonaci a calce o all'argilla) e tocchi caldi (legno massello, ottone patinato, tessuti in lino grezzo) crea una tensione visiva elegante. Questo contrasto conferisce all'interno una presenza tattile e una patina che si abbellisce nel tempo.",
+          ],
+          image: {
+            src: "/assets/images/architecture-interieur-matiere-travertin-salle-de-bain.jpg",
+            caption: "Pietra naturale e materiali nobili, bagno contemporaneo",
+          },
+        },
+        {
+          heading: "4. L'integrazione invisibile del dettaglio tecnico",
+          paragraphs: [
+            "Ciò che distingue un approccio architettonico rigoroso da un semplice allestimento è la cura riservata al dettaglio esecutivo:",
+            "**I battiscopa a filo:** integrati a filo del muro per una purezza di linea assoluta.",
+            "**Le porte a scomparsa e i telai invisibili:** senza cornice apparente (sistema tipo Filomuro), che permettono alle pareti di presentarsi come puri piani di massa.",
+            "**La posa millimetrica:** l'allineamento perfetto dei giunti delle piastrelle, delle lastre di pietra e delle composizioni in legno per un'armonia geometrica perfetta.",
+          ],
+        },
+        {
+          heading: "Fate dialogare il vostro luogo con l'architettura, con lo Studio",
+          paragraphs: [
+            "Il nostro studio affronta ogni progetto con il rigore dell'architetto e la sensibilità del designer, per costruire spazi su misura dove ogni dettaglio trova la propria giustificazione.",
+            "**Avete una visione per il vostro spazio?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per parlarne, oppure [contattateci](/it/contact) per presentarci il vostro progetto.",
+          ],
+        },
+      ],
+      keywords: ["Architettura d'interni", "Volumi e luce", "Materiali nobili"],
+    },
+  },
+  "comment-vegetaliser-terrasse-rooftop-urbain-paris": {
+    en: {
+      title: "How to plant and green a rooftop or urban terrace in Paris?",
+      metaTitle: "Designing a Terrace or Rooftop in Paris: Design & Landscape Guide",
+      excerpt:
+        "How do you plant and design a rooftop or urban terrace in Paris? Technical constraints, plant selection and bespoke furniture.",
+      category: "Landscape Design & Urban Spaces",
+      readingTime: "5 min",
+      intro:
+        "In an urban setting, having a terrace or a rooftop is a rare privilege. Turning these square metres of open sky into true suspended green gems, however, calls for rigorous mastery of technical, climatic and aesthetic constraints.",
+      sections: [
+        {
+          heading: "The challenges of landscaping at height",
+          paragraphs: [
+            "Designing a rooftop in Paris — or in any major city — isn't something to improvise. Unlike a garden at ground level, elevated outdoor spaces are subject to strict structural constraints (load per square metre, wind exposure, intense sun exposure) and require bespoke solutions.",
+          ],
+          image: {
+            src: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
+            caption: "Planted rooftop with a view of the Eiffel Tower",
+          },
+        },
+        {
+          heading: "1. Confirming the technical and load constraints",
+          paragraphs: [
+            "Before any landscape sketch, a technical feasibility study is essential:",
+            "**Slab load-bearing capacity:** determining the maximum weight allowed per square metre (water-saturated soil, planters, furniture and occupants). This analysis dictates the choice of planters and substrate density.",
+            "**Waterproofing and drainage:** protecting the original structure by integrating effective drainage systems and adjustable pedestals beneath the decking.",
+            "**Wind resistance:** at height, winds are amplified. Structures (pergolas, screens, potted trees) must be safely anchored and guyed.",
+          ],
+        },
+        {
+          heading: "2. Creating a sense of privacy without blocking the view",
+          paragraphs: [
+            "The main challenge of a Parisian terrace lies in managing overlooking sightlines while preserving open views over the city.",
+            "To achieve this, favour a dynamic planted screen over a rigid, view-blocking wall. Combining non-invasive clumping bamboo (Fargesia), tall ornamental grasses (Miscanthus, Stipa) and evergreen shrubs creates a light green filter that moves in the breeze and preserves your privacy with elegance.",
+          ],
+          image: {
+            src: "/assets/images/rooftop-bordeaux-vue-cathedrale.png",
+            caption: "Bespoke planters and rooftop view over Bordeaux",
+          },
+        },
+        {
+          heading: "3. Selecting a resilient, elegant plant palette",
+          paragraphs: [
+            "On a rooftop, plants are exposed to a demanding microclimate: intense summer sun, drying wind and a limited volume of soil. Plant selection must therefore combine hardiness with timeless beauty.",
+            "**Structuring evergreen foliage:** star jasmine (Trachelospermum jasminoides) for its fragrant flowers and dark green foliage, dwarf stone pines, or myrtles.",
+            "**Light perennials and grasses:** gaura, lavender, shrubby sage and pennisetum, which bring movement and lightness.",
+            "**Automatic drip irrigation:** essential equipment to ensure the plantings thrive without wasting water.",
+          ],
+        },
+        {
+          heading: "4. Bespoke joinery and outdoor fittings",
+          paragraphs: [
+            "To make the most of every square metre, bespoke design is key. Designing thermolacquered aluminium or corten steel planters integrated into the railings maximises floor space.",
+            "Adding built-in storage benches in rot-resistant timber (Ipe or Kebony), a discreet summer kitchen and retractable shade turns the terrace into a genuine extra living room, usable from spring through autumn.",
+          ],
+          image: {
+            src: "/assets/images/rooftop-rome-cuisine-ete-colisee.png",
+            caption: "Summer kitchen and bespoke pergola, rooftop in Rome",
+          },
+        },
+        {
+          heading: "Entrust your rooftop to the Studio's experts",
+          paragraphs: [
+            "From checking co-ownership and planning permissions through to planting the final species, our team designs exceptional, bespoke terraces.",
+            "**Dreaming of a bespoke, planted rooftop or terrace?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) to assess the feasibility of your project, or [get in touch](/en/contact) to tell us more.",
+          ],
+        },
+      ],
+      keywords: ["Rooftop Paris", "Planted terrace", "Urban landscape design"],
+    },
+    it: {
+      title: "Come rinverdire un rooftop o una terrazza urbana a Parigi?",
+      metaTitle: "Progettare una Terrazza o un Rooftop a Parigi: Guida Design e Paesaggio",
+      excerpt:
+        "Come rinverdire e sistemare un rooftop o una terrazza urbana a Parigi? Vincoli tecnici, scelta delle piante e arredi su misura.",
+      category: "Design del Paesaggio e Spazi Urbani",
+      readingTime: "5 min",
+      intro:
+        "In ambiente urbano, disporre di una terrazza o di un rooftop è un privilegio raro. Trasformare questi metri quadri a cielo aperto in vere gemme vegetali sospese richiede tuttavia un rigoroso controllo dei vincoli tecnici, climatici ed estetici.",
+      sections: [
+        {
+          heading: "Le sfide di una sistemazione paesaggistica in quota",
+          paragraphs: [
+            "Sistemare un rooftop a Parigi, o in qualsiasi metropoli, non si improvvisa. A differenza di un giardino a terra, gli spazi esterni in quota sono soggetti a rigidi vincoli strutturali (carico al m², esposizione al vento, forte irraggiamento solare) e richiedono soluzioni su misura.",
+          ],
+          image: {
+            src: "/assets/images/rooftop-vegetalise-paris-tour-eiffel.png",
+            caption: "Rooftop con vista sulla Torre Eiffel",
+          },
+        },
+        {
+          heading: "1. Verificare i vincoli tecnici e di carico",
+          paragraphs: [
+            "Prima di qualsiasi schizzo paesaggistico, lo studio di fattibilità tecnica è indispensabile:",
+            "**La capacità portante della soletta:** determinare il peso massimo consentito al m² (terra satura d'acqua, fioriere, arredi e persone). Questa analisi condiziona la scelta delle vasche e la densità dei substrati.",
+            "**L'impermeabilizzazione e il drenaggio delle acque:** preservare il supporto originale integrando sistemi di drenaggio efficaci e supporti regolabili sotto il decking.",
+            "**La resistenza al vento:** in quota, i venti sono amplificati. Le strutture (pergole, frangivista, alberi in vaso) devono essere ancorate e tirantate in sicurezza.",
+          ],
+        },
+        {
+          heading: "2. Creare un'intimità senza oscurare la vista",
+          paragraphs: [
+            "La principale sfida di una terrazza parigina risiede nella gestione della vista reciproca preservando al contempo le prospettive aperte sulla città.",
+            "Per riuscirci, privilegiate uno schermo vegetale dinamico piuttosto che un muro rigido che oscura la vista. L'abbinamento di bambù non invasivi (Fargesia), graminacee alte (Miscanthus, Stipa) e arbusti sempreverdi crea un filtro vegetale leggero che si muove con la brezza e preserva la vostra intimità con eleganza.",
+          ],
+          image: {
+            src: "/assets/images/rooftop-bordeaux-vue-cathedrale.png",
+            caption: "Fioriere su misura e vista sui tetti di Bordeaux",
+          },
+        },
+        {
+          heading: "3. Selezionare una palette vegetale resiliente ed elegante",
+          paragraphs: [
+            "Su un rooftop, le piante sono esposte a un microclima esigente: forte irraggiamento estivo, vento essiccante e volume di terra limitato. La scelta delle essenze deve quindi coniugare robustezza e bellezza senza tempo.",
+            "**Il fogliame sempreverde e strutturante:** falso gelsomino (Trachelospermum jasminoides) per i suoi fiori profumati e il fogliame verde scuro, pini domestici nani, o mirti.",
+            "**Le perenni e le graminacee leggere:** gaura, lavanda, salvia arbustiva e pennisetum, che apportano movimento e leggerezza.",
+            "**L'irrigazione automatica a goccia:** attrezzatura indispensabile per garantire la durata delle piantumazioni senza sprecare acqua.",
+          ],
+        },
+        {
+          heading: "4. Falegnameria su misura e sistemazione esterna",
+          paragraphs: [
+            "Per ottimizzare ogni metro quadro, il ricorso al su misura è la chiave. Disegnare fioriere in alluminio termolaccato o in acciaio corten integrate nei parapetti permette di massimizzare lo spazio a terra.",
+            "L'integrazione di panche contenitore in legno imputrescibile (Ipé o Kebony), di una cucina estiva discreta e di un ombreggiamento retrattile trasforma la terrazza in un vero e proprio ambiente di vita supplementare, utilizzabile dalla primavera all'autunno.",
+          ],
+          image: {
+            src: "/assets/images/rooftop-rome-cuisine-ete-colisee.png",
+            caption: "Cucina estiva e pergola su misura, rooftop a Roma",
+          },
+        },
+        {
+          heading: "Affidate il vostro rooftop agli esperti dello Studio",
+          paragraphs: [
+            "Dalla verifica delle autorizzazioni condominiali/urbanistiche fino alla piantumazione delle ultime essenze, il nostro team progetta terrazze d'eccezione su misura.",
+            "**Sognate un rooftop o una terrazza verde su misura?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per valutare la fattibilità del vostro progetto, oppure [contattateci](/it/contact) per raccontarci di più.",
+          ],
+        },
+      ],
+      keywords: ["Rooftop Parigi", "Terrazza verde", "Design paesaggistico urbano"],
+    },
+  },
+  "continuite-visuelle-interieur-jardin-architecture-in-out": {
+    en: {
+      title: "How to create visual continuity between the interior and the garden?",
+      metaTitle: "In & Out Architecture: Creating Continuity Between Interior and Garden",
+      excerpt:
+        "Discover how interior architecture and landscape design come together to blur the boundaries between house and garden. Expert In & Out advice.",
+      category: "Interior Architecture & Landscape",
+      readingTime: "5 min",
+      intro:
+        "Erasing the boundary between the indoor cocoon and the outdoor landscape is one of the pillars of contemporary architecture. When the living room seems to extend onto the terrace and the garden makes its way into the lounge, the space gains in volume, serenity and clarity. A closer look at an In & Out design approach.",
+      sections: [
+        {
+          heading: "In & Out Architecture: Redefining the Boundaries of Living",
+          paragraphs: [
+            "For a long time, architecture treated the house and the garden as two separate entities: the interior for comfort and shelter, the exterior for nature and relaxation. Today, the global In & Out approach overturns this rigid boundary to create a fluid, unified living space.",
+            "Creating true visual continuity isn't just about installing a picture window. It's a careful orchestration in which materials, light, planting and room geometry work together to create a constant sense of openness.",
+          ],
+        },
+        {
+          heading: "1. Aligning the floors: the illusion of infinite space",
+          paragraphs: [
+            "The first vector of continuity is the floor. When the eye glides uninterrupted from the living room to the terrace, the brain immediately perceives the outdoors as a natural extension of the lounge.",
+            "**Material continuity:** using the same material — or its weather-adapted equivalent — indoors and out. Polished concrete indoors paired with a coordinated exposed-aggregate concrete, or natural stone laid in a pattern indoors and continued as non-slip slabs on the terrace.",
+            "**The recessed threshold:** eliminating visual and physical steps with pocket sliding doors set on rails recessed into the floor. The transition becomes perfectly invisible.",
+            "**The laying pattern:** keeping the same laying direction for indoor flooring and outdoor timber or porcelain stoneware decking.",
+          ],
+          image: {
+            src: "/assets/images/continuite-interieur-jardin-terrasse-jour.png",
+            caption: "Continuity of the floor between the living room and the terrace",
+          },
+        },
+        {
+          heading: "2. A chromatic and mineral palette as a common thread",
+          paragraphs: [
+            "For the garden to resonate with your interior decor, the choice of tones and textures needs to be considered as a whole from the design stage onward.",
+            "By choosing noble, understated materials — such as oak wood, brushed lime render, honed granite or black thermolacquered steel — you create a timeless backdrop. Echoing the colours of interior walls on garden walls or shaded patio façades subtly ties the built structure to the surrounding nature.",
+          ],
+        },
+        {
+          heading: "3. Staging the landscape from indoors",
+          paragraphs: [
+            "Thinking of the garden from the lounge means creating \"living paintings.\" Every opening becomes a frame that showcases the landscape composition.",
+            "By placing a sculptural plant specimen (a centuries-old olive tree, a Japanese maple with flaming foliage, or a cloud-pruned pine) in line with a picture window or a circulation corridor, the outdoors becomes a dynamic decorative element that evolves with the seasons.",
+            "*\"A well-designed garden isn't only appreciated when you walk through it; it inhabits the house every day of the year.\"*",
+          ],
+        },
+        {
+          heading: "4. Scenographic lighting: merging the spaces at night",
+          paragraphs: [
+            "At nightfall, if the garden goes dark, the picture window turns into a black mirror, visually closing the lounge in on itself. Well-designed landscape lighting keeps that sense of space alive even at the heart of the night.",
+            "By subtly lighting target features in the garden (a bed of ornamental grasses, a tree trunk, a dry-stone wall), you extend the depth of field as seen from your sofa. Favour warm, grazing light (2700K to 3000K) to preserve the magic of the place without glare.",
+          ],
+          image: {
+            src: "/assets/images/continuite-interieur-jardin-eclairage-nuit.jpg",
+            caption: "The garden staged by light, at nightfall",
+          },
+        },
+        {
+          heading: "Designing your In & Out project with the Studio",
+          paragraphs: [
+            "Whether it's restructuring an apartment with a terrace in Paris or designing a family home, bringing together interior architecture and landscape design is the key to an exceptional home.",
+            "**Dreaming of a place where the interior and the garden become one?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) to discuss it, or [get in touch](/en/contact) to tell us about your project.",
+          ],
+        },
+      ],
+      keywords: ["In & Out architecture", "Indoor-outdoor continuity", "Landscape design"],
+    },
+    it: {
+      title: "Come creare una continuità visiva tra l'interno e il giardino?",
+      metaTitle: "Architettura In & Out: Creare una Continuità tra Interno e Giardino",
+      excerpt:
+        "Scoprite come l'architettura d'interni e il design del paesaggio si uniscono per cancellare i confini tra casa e giardino. Consigli d'esperto In & Out.",
+      category: "Architettura d'Interni e Paesaggio",
+      readingTime: "5 min",
+      intro:
+        "Cancellare il confine tra il bozzolo interno e il paesaggio esterno è uno dei pilastri dell'architettura contemporanea. Quando il soggiorno sembra prolungarsi sulla terrazza e il giardino si affaccia nel salotto, lo spazio guadagna in volume, serenità e chiarezza. Analisi di un approccio progettuale In & Out.",
+      sections: [
+        {
+          heading: "L'Architettura In & Out: Ridefinire i limiti dell'abitare",
+          paragraphs: [
+            "Per molto tempo, l'architettura ha pensato la casa e il giardino come due entità distinte: l'interno per il comfort e il riparo, l'esterno per la natura e il relax. Oggi, l'approccio globale In & Out ribalta questo confine rigido per creare uno spazio di vita fluido e unificato.",
+            "Creare una vera continuità visiva non si riduce a installare una vetrata. Si tratta di un'orchestrazione meticolosa in cui materiali, luce, palette vegetale e geometria degli ambienti dialogano per offrire una sensazione di respiro permanente.",
+          ],
+        },
+        {
+          heading: "1. L'allineamento dei pavimenti: l'illusione di uno spazio infinito",
+          paragraphs: [
+            "Il primo vettore di continuità è il pavimento. Quando lo sguardo scivola senza interruzioni dal soggiorno alla terrazza, il cervello percepisce immediatamente l'esterno come un'estensione naturale del salotto.",
+            "**La continuità materica:** utilizzare lo stesso materiale — o la sua declinazione adatta alle intemperie — all'interno e all'esterno. Un cemento lucidato d'interno abbinato a un cemento industriale coordinato, oppure una pietra naturale posata in opus all'interno e declinata in lastre antiscivolo sulla terrazza.",
+            "**La soglia incassata:** eliminare i dislivelli visivi e fisici grazie a vetrate scorrevoli a scomparsa con binari incassati nel pavimento. La transizione diventa perfettamente invisibile.",
+            "**La trama di posa:** mantenere lo stesso senso di posa per le doghe del parquet interno e le doghe della terrazza in legno o gres porcellanato esterno.",
+          ],
+          image: {
+            src: "/assets/images/continuite-interieur-jardin-terrasse-jour.png",
+            caption: "Continuità del pavimento tra il soggiorno e la terrazza",
+          },
+        },
+        {
+          heading: "2. La palette cromatica e minerale come filo conduttore",
+          paragraphs: [
+            "Perché il giardino risuoni con la vostra decorazione d'interni, la scelta delle tonalità e delle texture deve essere oggetto di un lavoro d'insieme fin dalla fase di progettazione.",
+            "Scegliendo materiali nobili e sobri — come il legno di rovere, la calce spazzolata, il granito levigato o l'acciaio termolaccato nero — create uno sfondo senza tempo. Riprendere le tonalità delle pareti interne sui muretti del giardino o sulle facciate ombreggiate del patio permette di legare sottilmente il costruito alla natura circostante.",
+          ],
+        },
+        {
+          heading: "3. Scenografare il paesaggio dall'interno",
+          paragraphs: [
+            "Pensare il giardino dal salotto significa creare dei \"quadri viventi\". Ogni apertura diventa una cornice che valorizza la composizione paesaggistica.",
+            "Posizionando un soggetto vegetale scultoreo (un ulivo millenario, un acero giapponese dal fogliame fiammeggiante o un pino potato a nuvola) nell'asse di una vetrata o di un corridoio di passaggio, l'esterno diventa un elemento decorativo dinamico che evolve con le stagioni.",
+            "*\"Un giardino ben pensato non si contempla solo quando lo si attraversa; abita la casa ogni giorno dell'anno.\"*",
+          ],
+        },
+        {
+          heading: "4. L'illuminazione scenografica: fondere gli spazi di notte",
+          paragraphs: [
+            "Al calar della notte, se il giardino si spegne, la vetrata si trasforma in uno specchio nero, richiudendo visivamente il salotto su se stesso. Un'illuminazione paesaggistica ben studiata permette di conservare questa sensazione di spazio anche nel cuore della notte.",
+            "Illuminando con sobrietà elementi mirati del giardino (una macchia di graminacee, un tronco d'albero, un muro in pietra a secco), estendete la profondità di campo dal vostro divano. Privilegiate luci radenti e calde (2700K-3000K) per preservare la magia del luogo senza abbagliare.",
+          ],
+          image: {
+            src: "/assets/images/continuite-interieur-jardin-eclairage-nuit.jpg",
+            caption: "Il giardino messo in scena dalla luce, al calar della notte",
+          },
+        },
+        {
+          heading: "Progettare il vostro progetto In & Out con lo Studio",
+          paragraphs: [
+            "Che si tratti della ristrutturazione di un appartamento con terrazza a Parigi o della progettazione di un'abitazione principale, l'alleanza tra architettura d'interni e design del paesaggio è la chiave di un'abitazione d'eccezione.",
+            "**Sognate un luogo in cui l'interno e il giardino diventino un tutt'uno?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per parlarne, oppure [contattateci](/it/contact) per presentarci il vostro progetto.",
+          ],
+        },
+      ],
+      keywords: ["Architettura In & Out", "Continuità interno-esterno", "Design del paesaggio"],
+    },
+  },
+  "pourquoi-faire-appel-architecte-interieur-paris": {
+    en: {
+      title: "Why hire an interior architect in Paris?",
+      excerpt:
+        "Renovation, time savings, a network of skilled craftspeople, added property value: discover why hiring an interior architect in Paris changes everything about your project.",
+      category: "Advice & expertise",
+      readingTime: "6 min",
+      sections: [
+        {
+          heading: "A profession that goes far beyond choosing colours and furniture",
+          paragraphs: [
+            "It's probably the most persistent misconception: people imagine the interior architect as someone who comes to choose a paint colour or match up cushions. In reality, their work begins much earlier — with understanding what already exists. Structural constraints of the building, the flow of natural light, the location of utilities (water, electricity, ventilation), co-ownership rules: all technical elements that an untrained eye doesn't always know how to read, yet which determine what is actually possible to do in a space.",
+            "An interior architect designs a project as a whole — layout, volumes, materials, light, uses — before turning to decoration. It's this overall vision that sets a thoughtfully designed interior apart from one that has simply been decorated.",
+          ],
+          image: {
+            src: "/assets/images/architectes-echange-materiaux-projet-paris.png",
+            caption: "Discussing materials and plans for a project, Supra Studio",
+          },
+        },
+        {
+          heading: "Saving time and avoiding costly mistakes",
+          paragraphs: [
+            "In Paris, a poorly anticipated renovation project quickly turns into surprises: a load-bearing wall that can't be knocked down, a kitchen that has to be moved because of an existing drain, work that takes twice as long as planned for lack of proper sequencing.",
+            "An interior architect identifies these constraints upfront, from the feasibility study stage, before the site work even begins. This preparatory work, often seen as an extra expense, is in fact what avoids the largest unplanned costs: rework, mid-project plan changes, materials ordered and then found unsuitable.",
+          ],
+        },
+        {
+          heading: "Access to a network of qualified craftspeople and firms",
+          paragraphs: [
+            "Finding a trustworthy tradesperson in Paris — available, skilled, able to meet a deadline — remains one of the most time-consuming parts of a renovation project handled alone. An interior architect works with a network of firms and craftspeople already tried and tested, chosen as much for the quality of their work as for their reliability.",
+            "This support doesn't stop at making the introduction: site supervision makes sure that what is being built matches faithfully what was designed, without the client needing to be on site at all times to arbitrate every detail.",
+          ],
+        },
+        {
+          heading: "Sustainably increasing the value of your property",
+          paragraphs: [
+            "A well-designed interior — one that optimises light, streamlines circulation and makes intelligent use of every square metre — has a direct impact on a property's value, especially in a Parisian market where every square metre counts. Conversely, a poorly designed renovation, even with quality materials, can at best add nothing, and at worst hurt a future resale.",
+            "Hiring an interior architect is therefore also a long-term choice: a space designed to stand the test of time, rather than follow a trend that will eventually date.",
+          ],
+        },
+        {
+          heading: "An interior designed for your way of life, not a catalogue",
+          paragraphs: [
+            "Every household, every family, every way of entertaining or working from home is different. A good interior architect doesn't offer a fixed style to apply everywhere: they build a bespoke response, based on your actual habits — how you move through your home, how you entertain, how you work, how you live day to day.",
+            "It's this bespoke dimension that sets an interior architecture project apart from a simple makeover: the space adapts to you, not the other way around.",
+          ],
+        },
+        {
+          heading: "Why choose Supra Studio?",
+          paragraphs: [
+            "At Supra Studio, we approach every project with a simple conviction: light and the rightness of materials are, most of the time, enough to transform a space — without artifice or excess. Our studio, founded by a French-Italian duo, brings together dual expertise in interior architecture and landscape design, a rare combination that lets us think of your indoor and outdoor spaces as one coherent whole, rather than two separate projects.",
+            "In practice, our support unfolds in four clear steps: a **consultation visit** to understand your space and needs before any commitment, a technical and budgetary **feasibility study**, a **design** phase where layout, volumes and materials take shape, then rigorous **site supervision** through to handover — with our network of local craftspeople and firms, chosen with the same rigour for every project.",
+            "Based between Paris, Bordeaux and Rome, we favour natural materials, clean lines and an eco-responsible approach, for sensitive, lasting interiors rather than a passing trend. Whether your project is an apartment renovation, the design of a new-build house or the layout of a garden, our studio supports you from the first sketch through to handover.",
+            "**Have a renovation or interior design project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+          image: {
+            src: "/assets/images/paul-beatrice-fondateurs-supra-studio.jpg",
+            caption: "Paul and Beatrice, founders of Supra Studio",
+            afterParagraph: 0,
+          },
+        },
+      ],
+      keywords: ["Interior architect Paris", "Apartment renovation Paris", "Renovation advice"],
+    },
+    it: {
+      title: "Perché rivolgersi a un architetto d'interni a Parigi?",
+      excerpt:
+        "Ristrutturazione, risparmio di tempo, rete di artigiani, valorizzazione dell'immobile: scoprite perché rivolgersi a un architetto d'interni a Parigi cambia tutto nel vostro progetto.",
+      category: "Consigli & competenza",
+      readingTime: "6 min",
+      sections: [
+        {
+          heading: "Un mestiere che va ben oltre la scelta dei colori e dell'arredamento",
+          paragraphs: [
+            "È probabilmente il luogo comune più radicato: si immagina l'architetto d'interni come qualcuno che viene a scegliere una tinta o ad abbinare dei cuscini. In realtà, il suo lavoro inizia molto prima — nella comprensione dell'esistente. Vincoli strutturali dell'edificio, distribuzione della luce naturale, posizione degli impianti (acqua, elettricità, ventilazione), regole condominiali: tutti elementi tecnici che un occhio inesperto non sa sempre leggere, ma che determinano ciò che è realmente possibile fare in un luogo.",
+            "Un architetto d'interni concepisce un progetto globale — piante, volumi, materiali, luce, usi — prima di occuparsi della decorazione. È questa visione d'insieme a distinguere un interno pensato da un interno semplicemente decorato.",
+          ],
+          image: {
+            src: "/assets/images/architectes-echange-materiaux-projet-paris.png",
+            caption: "Confronto sui materiali e sulle piante di un progetto, Supra Studio",
+          },
+        },
+        {
+          heading: "Risparmiare tempo ed evitare errori costosi",
+          paragraphs: [
+            "A Parigi, un progetto di ristrutturazione mal anticipato si traduce rapidamente in imprevisti: un muro portante che non si può abbattere, una cucina da spostare a causa di uno scarico esistente, lavori che richiedono il doppio del tempo previsto per mancanza di una corretta sequenza.",
+            "Un architetto d'interni individua questi vincoli a monte, fin dalla fase di studio di fattibilità, prima che il cantiere inizi. Questo lavoro preparatorio, spesso percepito come una spesa aggiuntiva, è in realtà ciò che evita le spese impreviste più importanti: riprese dei lavori, cambi di progetto in corso d'opera, materiali ordinati e poi rivelatisi inadatti.",
+          ],
+        },
+        {
+          heading: "Un accesso a una rete di artigiani e imprese qualificate",
+          paragraphs: [
+            "Trovare un artigiano di fiducia a Parigi — disponibile, competente, capace di rispettare una scadenza — resta uno degli aspetti più dispendiosi in termini di tempo di un progetto di ristrutturazione condotto da soli. Un architetto d'interni lavora con una rete di imprese e artigiani già collaudati, scelti tanto per la qualità del loro lavoro quanto per la loro affidabilità.",
+            "Questo accompagnamento non si ferma alla messa in relazione: la direzione lavori permette di verificare che quanto realizzato corrisponda fedelmente a quanto progettato, senza che il cliente debba essere presente in cantiere in permanenza per arbitrare ogni dettaglio.",
+          ],
+        },
+        {
+          heading: "Valorizzare durevolmente il vostro immobile",
+          paragraphs: [
+            "Un interno ben concepito — che ottimizza la luce, fluidifica gli spazi di passaggio e sfrutta in modo intelligente ogni metro quadro — ha un impatto diretto sul valore di un immobile, in particolare in un mercato parigino dove ogni metro quadro conta. Al contrario, una ristrutturazione mal concepita, anche con materiali di qualità, può nella migliore delle ipotesi non apportare nulla, nella peggiore penalizzare una futura rivendita.",
+            "Rivolgersi a un architetto d'interni è quindi anche una scelta patrimoniale: quella di un luogo pensato per attraversare il tempo, piuttosto che seguire una tendenza destinata a passare di moda.",
+          ],
+        },
+        {
+          heading: "Un interno pensato per il vostro stile di vita, non per un catalogo",
+          paragraphs: [
+            "Ogni famiglia, ogni modo di ricevere o di lavorare in casa è diverso. Un buon architetto d'interni non propone uno stile fisso da applicare ovunque: costruisce una risposta su misura, a partire dai vostri usi reali — il modo in cui vi muovete nella vostra abitazione, in cui ricevete, in cui lavorate, in cui vivete quotidianamente.",
+            "È questa dimensione su misura a distinguere un progetto di architettura d'interni da un semplice restyling: è il luogo ad adattarsi a voi, non il contrario.",
+          ],
+        },
+        {
+          heading: "Perché scegliere Supra Studio?",
+          paragraphs: [
+            "Da Supra Studio, affrontiamo ogni progetto con una convinzione semplice: la luce e la coerenza dei materiali bastano, il più delle volte, a trasformare un luogo — senza artifici né superfluo. Il nostro studio, fondato da un duo franco-italiano, riunisce una doppia competenza in architettura d'interni e architettura del paesaggio, una combinazione rara che ci permette di pensare i vostri spazi interni ed esterni come un insieme coerente, piuttosto che come due progetti separati.",
+            "Concretamente, il nostro accompagnamento si svolge in quattro fasi chiare: una **visita conoscitiva** per comprendere il vostro spazio e le vostre esigenze prima di qualsiasi impegno, uno studio di **fattibilità** tecnica e di budget, una fase di **progettazione** in cui piante, volumi e materiali prendono forma, poi una **direzione lavori** rigorosa fino alla consegna — con la nostra rete di artigiani e imprese locali, scelti con la stessa esigenza per ogni progetto.",
+            "Con sede tra Parigi, Bordeaux e Roma, privilegiamo i materiali naturali, le linee essenziali e un approccio ecoresponsabile, per interni sensibili e duraturi piuttosto che seguendo una moda passeggera. Che il vostro progetto sia la ristrutturazione di un appartamento, la progettazione di una casa nuova o la sistemazione di un giardino, il nostro studio vi accompagna dal primo schizzo fino alla consegna del cantiere.",
+            "**Avete un progetto di ristrutturazione o di sistemazione d'interni a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+          image: {
+            src: "/assets/images/paul-beatrice-fondateurs-supra-studio.jpg",
+            caption: "Paul e Beatrice, fondatori di Supra Studio",
+            afterParagraph: 0,
+          },
+        },
+      ],
+      keywords: [
+        "Architetto d'interni Parigi",
+        "Ristrutturazione appartamento Parigi",
+        "Consigli ristrutturazione",
+      ],
+    },
+  },
+  "materiaux-biosources-architecture-durable-interieur-paysage": {
+    en: {
+      title:
+        "Bio-based materials in architecture: designing sustainable, healthy and beautiful spaces",
+      metaTitle: "Bio-Based Materials in Architecture: Sustainable, Healthy Spaces",
+      excerpt:
+        "Wood, hemp, straw, cork: how bio-based materials are transforming architecture, interior design and landscaping towards more sobriety and sensitivity.",
+      category: "Materials & Eco-Design",
+      readingTime: "6 min",
+      intro:
+        "Faced with today's environmental challenges, architecture is moving towards more responsible practices, integrating more natural and renewable materials into the design of buildings, interior spaces and gardens. At Supra Studio, we see bio-based materials as a genuine architectural opportunity: they help create places that are more sensitive, more sustainable and more connected to their surroundings.",
+      sections: [
+        {
+          heading: "What is a bio-based material?",
+          paragraphs: [
+            "A bio-based material is a material derived, in part or entirely, from renewable resources of living origin: plants, animals or agricultural by-products. Unlike conventional materials derived mainly from fossil or mineral resources, it contributes to a more circular architecture by making use of available natural matter.",
+            "Among the most widely used in architecture are wood and its derivatives, straw, hemp, cork, wood fibre, linen, sheep's wool, cellulose wadding, and natural earth or lime-based renders. These materials can be used in a building's structure as much as in its insulation, interior fittings or landscaped spaces.",
+          ],
+        },
+        {
+          heading: "Wood, a timeless architectural material",
+          paragraphs: [
+            "Wood is probably the best-known and most widely used bio-based material in construction. Thanks to its mechanical qualities, low carbon footprint and warm appearance, it finds its place in many contemporary projects: framing, roof structures, exterior cladding, joinery, bespoke furniture, interior fittings.",
+            "Beyond its technical performance, wood brings a sensory dimension to architecture. Its texture, natural ageing and variations in tone create spaces that feel alive and authentic. In an overall architectural approach, the choice of species, origin and implementation becomes a genuine aesthetic statement.",
+          ],
+          image: {
+            src: "/assets/images/salon-materiaux-biosources-bois-pierre-paris.png",
+            caption:
+              "Parisian living room combining solid wood, natural stone and terracotta, Supra Studio",
+          },
+        },
+        {
+          heading: "Hemp and straw: high-performance natural insulation",
+          paragraphs: [
+            "Bio-based insulation materials are seeing strong growth today thanks to their thermal performance and their capacity to improve indoor comfort. Hemp, for instance, offers good natural humidity regulation, effective thermal insulation, appreciable acoustic comfort and a low environmental impact.",
+            "Straw, often associated with alternative ecological architecture, is also a high-performance material when correctly implemented. It makes it possible to build energy-efficient structures while making use of a local agricultural resource — proof that sustainable architecture can also be innovative and contemporary.",
+          ],
+        },
+        {
+          heading: "Wood, cork and natural fibres in interior design",
+          paragraphs: [
+            "The use of bio-based materials is not limited to construction: they also play a major role in interior architecture. Interior spaces directly shape our perception of comfort and quality of life, and natural materials help create warmer, timeless atmospheres.",
+            "In an interior architecture project, they can be integrated through bespoke solid-wood fittings, decorative panels in natural fibres, cork wall coverings, natural textiles (linen, wool, hemp) or natural paints and renders. They bring a particular sensory richness — touch, texture, scent, light — for interiors that remain pleasant to live in over the long term, not just pleasant to look at.",
+          ],
+        },
+        {
+          heading:
+            "Natural materials in the landscape: reconnecting architecture and nature",
+          paragraphs: [
+            "The bio-based approach goes beyond the limits of the building and also concerns the design of outdoor spaces. In a landscape project, the choice of materials strongly influences the relationship between architecture and environment: local wood decking, untreated wood fencing, outdoor furniture in natural materials, vegetal mulching, plant-fibre structures, layouts using local resources.",
+            "The aim is to create outdoor spaces that blend naturally into their context while limiting their environmental impact. The landscape then becomes an extension of the architecture, designed with the same attention to materials and uses.",
+          ],
+          image: {
+            src: "/assets/images/patio-terre-crue-pierre-naturelle-materiaux-biosources.png",
+            caption: "Courtyard in raw earth and natural stone, Mediterranean planting",
+            afterParagraph: 1,
+          },
+        },
+        {
+          heading: "Reducing the project's environmental impact",
+          paragraphs: [
+            "Bio-based materials help reduce the carbon footprint of buildings thanks to their renewable origin, the carbon-storage capacity of certain materials such as wood, often less energy-intensive production, and the use of local resources. They thus contribute to a more responsible approach to architecture.",
+          ],
+        },
+        {
+          heading: "Improving residents' comfort",
+          paragraphs: [
+            "Beyond the environmental aspect, natural materials also improve the quality of spaces: better humidity regulation, enhanced thermal comfort, better acoustic quality and a healthier indoor atmosphere. Sustainable architecture is therefore not limited to energy performance: it is also about the daily well-being of occupants.",
+          ],
+        },
+        {
+          heading: "Giving the project a unique identity",
+          paragraphs: [
+            "Every material has a history, a texture and a particular way of ageing. Choosing bio-based materials makes it possible to create spaces that are more authentic and less standardised. In a bespoke architectural approach, matter becomes an essential element of the project, on a par with light, volume or use.",
+          ],
+        },
+        {
+          heading: "Towards a more sustainable, more sensitive architecture",
+          paragraphs: [
+            "The use of bio-based materials represents a major shift in the professions of architecture, interior architecture and landscape design. More than a simple ecological trend, they offer a new way of designing spaces: an architecture attentive to resources, uses and sensations.",
+            "At Supra Studio, we bring this thinking into our projects, seeking a balance between contemporary design, quality of materials and respect for the environment. Sustainable architecture is not just architecture that consumes less: it is architecture that creates places that are more pleasant, fairer and more enduring over time.",
+            "**Working on a project involving natural materials?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a first consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions about bio-based materials",
+          paragraphs: [
+            "**What are the main bio-based materials used in architecture?** Wood, hemp, straw, cork, wood fibre, linen, sheep's wool and cellulose wadding.",
+            "**Are bio-based materials suitable for renovation?** Yes: their insulating qualities, humidity regulation and ability to improve indoor comfort make them a particularly relevant choice for renovation projects.",
+            "**Are bio-based materials more expensive?** Cost depends on the material chosen, its availability and how it is implemented. Some represent a higher initial investment, but often deliver lasting benefits in terms of comfort and performance.",
+            "**Can bio-based materials be used in a high-end project?** Yes: they are widely used today in premium architectural projects thanks to their aesthetic quality, authenticity and ability to create unique spaces.",
+          ],
+        },
+      ],
+      keywords: ["Bio-based materials", "Sustainable architecture", "Eco-design"],
+    },
+    it: {
+      title:
+        "I materiali biobased in architettura: progettare spazi sostenibili, sani ed estetici",
+      metaTitle: "Materiali Biobased in Architettura: Spazi Sostenibili e Sani",
+      excerpt:
+        "Legno, canapa, paglia, sughero: come i materiali biobased trasformano l'architettura, l'interior design e il paesaggio verso più sobrietà e sensibilità.",
+      category: "Materiali & Eco-progettazione",
+      readingTime: "6 min",
+      intro:
+        "Di fronte alle attuali sfide ambientali, l'architettura si evolve verso pratiche più responsabili, integrando sempre più materiali naturali e rinnovabili nella progettazione di edifici, spazi interni e giardini. Da Supra Studio consideriamo i materiali biobased una vera opportunità architettonica: permettono di creare luoghi più sensibili, più durevoli e più connessi al loro ambiente.",
+      sections: [
+        {
+          heading: "Cos'è un materiale biobased?",
+          paragraphs: [
+            "Un materiale biobased è un materiale derivato, in parte o totalmente, da risorse rinnovabili di origine vivente: vegetali, animali o sottoprodotti agricoli. A differenza dei materiali convenzionali derivati principalmente da risorse fossili o minerali, contribuisce a un'architettura più circolare valorizzando materie naturali disponibili.",
+            "Tra i più utilizzati in architettura troviamo il legno e i suoi derivati, la paglia, la canapa, il sughero, la fibra di legno, il lino, la lana di pecora, l'ovatta di cellulosa, oltre a intonaci naturali a base di terra o di calce. Questi materiali possono essere impiegati sia nella struttura di un edificio che nel suo isolamento, nell'allestimento interno o negli spazi paesaggistici.",
+          ],
+        },
+        {
+          heading: "Il legno, un materiale architettonico intramontabile",
+          paragraphs: [
+            "Il legno è probabilmente il materiale biobased più noto e utilizzato nell'edilizia. Grazie alle sue qualità meccaniche, al basso impatto di carbonio e all'aspetto caldo, trova spazio in numerosi progetti contemporanei: struttura, copertura, rivestimento esterno, serramenti, mobili su misura, allestimenti interni.",
+            "Oltre alle prestazioni tecniche, il legno porta una dimensione sensibile all'architettura. La sua texture, l'invecchiamento naturale e le variazioni di tonalità creano spazi vivi e autentici. In un approccio architettonico globale, la scelta dell'essenza, della sua origine e della sua messa in opera diventa una vera scelta estetica.",
+          ],
+          image: {
+            src: "/assets/images/salon-materiaux-biosources-bois-pierre-paris.png",
+            caption:
+              "Salotto parigino che unisce legno massello, pietra naturale e cotto, Supra Studio",
+          },
+        },
+        {
+          heading: "Canapa e paglia: isolanti naturali performanti",
+          paragraphs: [
+            "Gli isolanti biobased conoscono oggi un forte sviluppo grazie alle loro prestazioni termiche e alla capacità di migliorare il confort interno. La canapa, ad esempio, offre una buona regolazione naturale dell'umidità, un buon isolamento termico, un confort acustico apprezzabile e un basso impatto ambientale.",
+            "La paglia, spesso associata a un'architettura ecologica alternativa, è anch'essa un materiale performante se correttamente messa in opera. Permette di realizzare edifici energeticamente efficienti valorizzando al contempo una risorsa agricola locale — la prova che un'architettura sostenibile può essere anche innovativa e contemporanea.",
+          ],
+        },
+        {
+          heading: "Legno, sughero e fibre naturali nell'allestimento interno",
+          paragraphs: [
+            "L'uso dei materiali biobased non riguarda solo l'edilizia: essi giocano anche un ruolo importante nell'architettura d'interni. Gli spazi interni influenzano direttamente la nostra percezione del confort e della qualità della vita, e i materiali naturali permettono di creare atmosfere più calde e intramontabili.",
+            "In un progetto di architettura d'interni, si integrano tramite allestimenti su misura in legno massello, pannelli decorativi in fibre naturali, rivestimenti in sughero, tessuti naturali (lino, lana, canapa) o pitture e intonaci naturali. Portano una particolare ricchezza sensoriale — tatto, materia, profumo, luce — per interni piacevoli da vivere nel tempo, non solo belli da vedere.",
+          ],
+        },
+        {
+          heading:
+            "I materiali naturali nel paesaggio: riconnettere architettura e natura",
+          paragraphs: [
+            "L'approccio biobased supera i limiti dell'edificio e riguarda anche la progettazione degli spazi esterni. In un progetto paesaggistico, la scelta dei materiali influenza fortemente il rapporto tra architettura e ambiente: terrazze in legno locale, recinzioni in legno non trattato, arredi esterni in materiali naturali, pacciamature vegetali, strutture in fibre vegetali, allestimenti che utilizzano risorse locali.",
+            "L'obiettivo è creare spazi esterni che si integrino naturalmente nel loro contesto limitando l'impatto ambientale. Il paesaggio diventa così un prolungamento dell'architettura, progettato con la stessa attenzione ai materiali e agli usi.",
+          ],
+          image: {
+            src: "/assets/images/patio-terre-crue-pierre-naturelle-materiaux-biosources.png",
+            caption: "Patio in terra cruda e pietra naturale, vegetazione mediterranea",
+            afterParagraph: 1,
+          },
+        },
+        {
+          heading: "Ridurre l'impatto ambientale del progetto",
+          paragraphs: [
+            "I materiali biobased contribuiscono a diminuire l'impronta di carbonio delle costruzioni grazie alla loro origine rinnovabile, alla capacità di stoccaggio del carbonio di alcuni materiali come il legno, a una produzione spesso meno energivora e alla valorizzazione delle risorse locali. Partecipano così a un approccio architettonico più responsabile.",
+          ],
+        },
+        {
+          heading: "Migliorare il confort degli abitanti",
+          paragraphs: [
+            "Oltre all'aspetto ambientale, i materiali naturali migliorano anche la qualità degli spazi: migliore regolazione dell'umidità, confort termico rafforzato, migliore qualità acustica e atmosfera interna più sana. L'architettura sostenibile non si limita quindi alla performance energetica: riguarda anche il benessere quotidiano degli abitanti.",
+          ],
+        },
+        {
+          heading: "Dare un'identità unica al progetto",
+          paragraphs: [
+            "Ogni materiale ha una storia, una texture e un modo particolare di invecchiare. La scelta di materiali biobased permette di creare spazi più autentici e meno standardizzati. In un approccio architettonico su misura, la materia diventa un elemento essenziale del progetto, allo stesso livello della luce, dei volumi o degli usi.",
+          ],
+        },
+        {
+          heading: "Verso un'architettura più sostenibile e più sensibile",
+          paragraphs: [
+            "L'uso dei materiali biobased rappresenta un'evoluzione importante nei mestieri dell'architettura, dell'architettura d'interni e del paesaggio. Più di una semplice tendenza ecologica, offrono un nuovo modo di concepire gli spazi: un'architettura attenta alle risorse, agli usi e alle sensazioni.",
+            "Da Supra Studio integriamo questa riflessione nei nostri progetti ricercando un equilibrio tra design contemporaneo, qualità dei materiali e rispetto dell'ambiente. Un'architettura sostenibile non è solo un'architettura che consuma meno: è un'architettura che crea luoghi più piacevoli, più giusti e più durevoli nel tempo.",
+            "**Avete un progetto che integra materiali naturali?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una prima visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti sui materiali biobased",
+          paragraphs: [
+            "**Quali sono i principali materiali biobased usati in architettura?** Legno, canapa, paglia, sughero, fibra di legno, lino, lana di pecora e ovatta di cellulosa.",
+            "**I materiali biobased sono adatti alla ristrutturazione?** Sì: le loro qualità isolanti, di regolazione dell'umidità e la capacità di migliorare il confort interno ne fanno una scelta particolarmente pertinente in ristrutturazione.",
+            "**I materiali biobased sono più costosi?** Il costo dipende dal materiale scelto, dalla sua disponibilità e dalla sua messa in opera. Alcuni rappresentano un investimento iniziale superiore, ma offrono spesso benefici duraturi in termini di confort e prestazioni.",
+            "**Si possono usare materiali biobased in un progetto di alta gamma?** Sì: oggi sono ampiamente utilizzati in progetti architettonici premium grazie alla loro qualità estetica, autenticità e capacità di creare spazi unici.",
+          ],
+        },
+      ],
+      keywords: ["Materiali biobased", "Architettura sostenibile", "Eco-progettazione"],
+    },
+  },
+  "prix-architecte-interieur-paris-m2-2026": {
+    en: {
+      title:
+        "Interior architect fees in Paris per m² in 2026: what to budget for your project",
+      metaTitle: "Interior Architect Fees Paris per m² 2026: Costs & Budget",
+      excerpt:
+        "Hourly rate, price per m², or percentage of works cost: the fee ranges in Paris in 2026 and the factors that make a project's budget vary.",
+      category: "Advice & Expertise",
+      readingTime: "7 min",
+      intro:
+        "Renovating an apartment in Paris quickly raises a question: how much does hiring an interior architect actually cost? Between hourly rates, price per square metre and a percentage of the works cost, billing methods vary from one practice to another, which makes comparing quotes difficult for anyone unfamiliar with the sector. At Supra Studio, we believe a clear budget, explained upfront, is part of building trust with our clients.",
+      sections: [
+        {
+          heading: "Hourly rate",
+          paragraphs: [
+            "Suited to a one-off service — an opinion, a consultation visit, reviewing a plan — the hourly rate offers full transparency on the time spent by the architect. In Paris, it generally falls between €100 and €200 excl. VAT per hour in 2026, depending on the practice's experience and the complexity of the question at hand. It is the most flexible formula, but also the hardest to anticipate if the need is not clearly defined from the outset.",
+          ],
+        },
+        {
+          heading: "Price per square metre for design",
+          paragraphs: [
+            "Widely used for a design brief — plans, renderings, material selection — the price per m² makes it possible to know the budget from the launch of the project. In Paris, it ranges in 2026 from €90 to €200 per m² for design alone, and can rise to between €150 and €300 per m² when the brief includes a detailed technical file (execution drawings, coordination with a structural consultant). The advantage of this formula is its predictability: the amount is fixed before work begins, whatever the actual design time required.",
+          ],
+          image: {
+            src: "/assets/images/rendez-vous-architecte-interieur-devis-paris.png",
+            caption: "Drawing up a personalised quote during a consultation visit, Supra Studio",
+          },
+        },
+        {
+          heading: "Percentage of the works cost",
+          paragraphs: [
+            "This is the reference model for a fully managed renovation, with on-site supervision. Fees are then calculated on the total amount of the contractors' quotes (masonry, electrical work, plumbing, painting, joinery). In Paris in 2026, this rate is most often between 10% and 15% of the works cost excl. VAT, decreasing with the scale of the project: around 12–15% for works under €100,000, 10–12% between €100,000 and €200,000, and 7–10% beyond €200,000. This method aligns the architect's fee with the real scale of the project, but requires a good early estimate of the works cost to avoid unpleasant surprises.",
+          ],
+        },
+        {
+          heading: "What to budget in practice",
+          paragraphs: [
+            "As a rough guide: a full brief (design, plans, site supervision) for a 60 m² Parisian apartment represents a 2026 fee budget of between €8,000 and €12,000 excl. VAT, excluding the cost of the works themselves. For a small space or a one-off advisory brief, the budget can start at around €2,500. For the complete renovation of a large family apartment involving a full reconfiguration of the space, it can exceed €20,000.",
+            "These fees, however, are only part of the overall budget of a renovation project. In Paris in 2026, the cost of the works themselves varies significantly depending on their scale: a simple refresh (paint, flooring, minor plumbing) sits around €300 to €800 per m², a standard renovation without major structural work between €700 and €1,400 per m², and a heavy renovation involving reconfiguring partitions, redoing the plumbing and creating new spaces between €1,200 and €2,500 per m², or even more in older Haussmann-era buildings requiring a complete transformation. Including architect's fees, site coordination and insurance, the overall budget for a well-supported Parisian project is most often between €1,400 and €1,800 per m².",
+          ],
+        },
+        {
+          heading: "The factors that make the price vary",
+          paragraphs: [
+            "Several factors explain why two projects of comparable size can show very different budgets. The condition of the existing building plays a decisive role: a Haussmann-era building requiring deep renovation, with warped floors or old plumbing to be entirely replaced, costs noticeably more to work on than a recent building in good condition.",
+            "The scope of the brief directly affects the fee budget: a simple consultation visit has nothing to do with a full brief including design, filing planning applications and site supervision through to completion. Changing the layout has a specific cost: every wall moved involves a structural study, co-ownership approval, demolition and rebuilding, which can add several thousand euros to the overall budget.",
+            "The co-ownership regulations can also weigh on the schedule, and therefore on the cost: restricted working hours or a ban on certain structural works extend the length of the works. Finally, the desired level of finish can make the budget vary twofold: between a standard paint finish and a bespoke lime render or polished concrete, the price difference is significant — a choice that is as much about aesthetics as about the budget allocated to the project.",
+          ],
+        },
+        {
+          heading: "How we set a budget at Supra Studio",
+          paragraphs: [
+            "As every project is unique, we do not offer a fixed price list. Our first step is always an on-site consultation visit, which allows us to assess the condition of the building, the technical complexity of the project and the real scope of the brief required — from simple design advice to full support through to completion of the works. On this basis, we draw up a personalised, detailed quote, before any commitment on your part.",
+            "This approach allows us to adjust our fees to the reality of each place rather than applying a generic flat rate — in keeping with our conviction that a successful project is built on a precise reading of the existing building, before any question of budget.",
+            "**Planning a renovation project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What is the average price of an interior architect in Paris in 2026?** Fees are most often between €90 and €200 per m² for a design brief, or between 10% and 15% of the works cost for a full brief with site supervision.",
+            "**Does the price depend on the size of the apartment?** Yes, but not in strict proportion: a project's fixed costs (administrative procedures, site setup, coordination) are spread over a larger number of m² in bigger spaces, which explains a price per m² that decreases slightly beyond 80–100 m².",
+            "**Can you hire an interior architect on a small budget?** Yes. A one-off brief — a consultation visit, an opinion on a plan, partial support — remains accessible from around €2,500, and can be enough to secure the essential choices of a project without committing to a full fee budget.",
+            "**Should the cost of the works be included in the architect's budget?** No: design and supervision fees are separate from the cost of the works carried out by contractors. It is essential to budget for both separately to get a realistic picture of the project's total cost.",
+            "**How exactly are these fees calculated?** The billing methods (percentage of works, fixed fee, hourly rate, price per m²) and what to check before signing a quote are detailed in our article on [interior architect fees in Paris](/en/journal/honoraires-architecte-interieur-paris).",
+          ],
+        },
+      ],
+      keywords: [
+        "Interior architect fees Paris",
+        "Interior architect price per m2",
+        "Renovation budget Paris",
+      ],
+    },
+    it: {
+      title:
+        "Prezzo di un architetto d'interni a Parigi al m² nel 2026: cosa prevedere per il vostro progetto",
+      metaTitle: "Prezzo Architetto d'Interni Parigi al m² 2026: Costi e Budget",
+      excerpt:
+        "Tariffa oraria, forfait al m² o percentuale sui lavori: le fasce di prezzo praticate a Parigi nel 2026 e i criteri che fanno variare il budget di un progetto.",
+      category: "Consigli & competenza",
+      readingTime: "7 min",
+      intro:
+        "Ristrutturare un appartamento a Parigi porta rapidamente a una domanda: quanto costa realmente l'intervento di un architetto d'interni? Tra tariffa oraria, forfait al metro quadro e percentuale sull'importo dei lavori, i metodi di fatturazione variano da uno studio all'altro, il che rende difficile confrontare i preventivi per chi non è del settore. Da Supra Studio, riteniamo che un budget chiaro, spiegato in anticipo, faccia parte integrante di un rapporto di fiducia con i nostri clienti.",
+      sections: [
+        {
+          heading: "La tariffa oraria",
+          paragraphs: [
+            "Adatta a una prestazione puntuale — un parere, una visita conoscitiva, la revisione di un piano — la tariffa oraria offre una trasparenza totale sul tempo dedicato dall'architetto. A Parigi, nel 2026 si situa generalmente tra 100 € e 200 € + IVA all'ora, secondo l'esperienza dello studio e la complessità della richiesta. È la formula più flessibile, ma anche la più difficile da anticipare se il bisogno non è chiaramente definito in partenza.",
+          ],
+        },
+        {
+          heading: "Il forfait al metro quadro per la progettazione",
+          paragraphs: [
+            "Molto diffuso per un incarico di progettazione — piani, rendering, scelta dei materiali — il forfait al m² permette di conoscere il budget già dall'avvio del progetto. A Parigi, nel 2026 oscilla tra 90 € e 200 € al m² per la sola progettazione, e può salire tra 150 € e 300 € al m² quando l'incarico include un fascicolo tecnico dettagliato (piani esecutivi, coordinamento con uno studio tecnico). Il vantaggio di questa formula è la sua prevedibilità: l'importo è fissato prima dell'avvio dei lavori, indipendentemente dalla durata reale della progettazione.",
+          ],
+          image: {
+            src: "/assets/images/rendez-vous-architecte-interieur-devis-paris.png",
+            caption: "Elaborazione di un preventivo personalizzato durante una visita conoscitiva, Supra Studio",
+          },
+        },
+        {
+          heading: "La percentuale sull'importo dei lavori",
+          paragraphs: [
+            "È il modello di riferimento per una ristrutturazione gestita dall'inizio alla fine, con direzione lavori. Gli onorari sono allora calcolati sull'importo totale dei preventivi degli artigiani (muratura, elettricità, idraulica, pittura, falegnameria). Nel 2026 a Parigi, questa percentuale si situa più spesso tra il 10% e il 15% dell'importo dei lavori + IVA, con una progressione decrescente secondo l'ampiezza del cantiere: intorno al 12-15% per lavori inferiori a 100.000 €, 10-12% tra 100.000 € e 200.000 €, e 7-10% oltre 200.000 €. Questo metodo allinea la remunerazione dell'architetto all'ampiezza reale del progetto, ma richiede di anticipare bene l'importo dei lavori per evitare brutte sorprese.",
+          ],
+        },
+        {
+          heading: "Quanto prevedere in concreto",
+          paragraphs: [
+            "Per dare un ordine di grandezza: un incarico completo (progettazione, piani, direzione lavori) per un appartamento parigino di 60 m² rappresenta nel 2026 un budget di onorari compreso tra 8.000 € e 12.000 € + IVA, escluso il costo dei lavori stessi. Per una piccola superficie o un incarico di consulenza puntuale, il budget può partire da circa 2.500 €. Per la ristrutturazione completa di un grande appartamento familiare con riorganizzazione dei volumi, può superare i 20.000 €.",
+            "Questi onorari rappresentano tuttavia solo una parte del budget complessivo di un progetto di ristrutturazione. A Parigi nel 2026, il costo dei lavori stessi varia molto secondo la loro ampiezza: un semplice rinnovamento (pitture, pavimenti, piccola idraulica) si situa intorno a 300-800 € al m², una ristrutturazione standard senza opere murarie importanti tra 700 € e 1.400 € al m², e una ristrutturazione pesante con riorganizzazione delle pareti, rifacimento dell'impianto idraulico e creazione di nuovi spazi tra 1.200 € e 2.500 € al m², talvolta di più negli edifici haussmanniani antichi che richiedono una trasformazione completa. Integrando onorari dell'architetto, coordinamento del cantiere e assicurazioni, il budget complessivo di un progetto parigino ben accompagnato si situa più spesso tra 1.400 € e 1.800 € al m².",
+          ],
+        },
+        {
+          heading: "I fattori che fanno variare il prezzo",
+          paragraphs: [
+            "Diversi elementi spiegano perché due progetti di superficie comparabile possano presentare budget molto diversi. Lo stato dell'edificio esistente gioca un ruolo determinante: un palazzo haussmanniano da ristrutturare in profondità, con pavimenti deformati o un impianto idraulico antico da sostituire integralmente, costa sensibilmente di più da trattare rispetto a un edificio recente in buone condizioni.",
+            "L'ampiezza dell'incarico influenza direttamente il budget di onorari: una semplice visita conoscitiva non ha nulla a che vedere con un incarico completo che include la progettazione, il deposito delle autorizzazioni e la direzione lavori fino alla consegna. La modifica della pianta ha un costo specifico: ogni parete spostata implica uno studio strutturale, un'autorizzazione condominiale, la demolizione e il ripristino, il che può aggiungere diverse migliaia di euro al budget complessivo.",
+            "Il regolamento condominiale può inoltre pesare sul calendario, e quindi sul costo: orari di cantiere limitati o il divieto di alcune opere murarie importanti allungano la durata dei lavori. Il livello di finitura desiderato infine fa variare il budget anche del doppio: tra una pittura standard e un intonaco a base di calce o un cemento levigato su misura, la differenza di prezzo è significativa — una scelta che riguarda tanto l'estetica quanto il budget destinato al progetto.",
+          ],
+        },
+        {
+          heading: "Come stabiliamo un budget da Supra Studio",
+          paragraphs: [
+            "Poiché ogni progetto è unico, non proponiamo un listino tariffario fisso. Il nostro primo passo è sempre una visita conoscitiva sul posto, che ci permette di valutare lo stato dell'edificio, la complessità tecnica del progetto e l'ampiezza reale dell'incarico desiderato — dalla semplice consulenza progettuale all'accompagnamento completo fino alla consegna del cantiere. Su questa base, elaboriamo un preventivo personalizzato e dettagliato, prima di qualsiasi impegno da parte vostra.",
+            "Questo approccio ci permette di adattare i nostri onorari alla realtà di ogni luogo piuttosto che applicare un forfait generico — in continuità con la nostra convinzione che un progetto riuscito si costruisca su una lettura precisa dell'edificio, prima di qualsiasi questione di budget.",
+            "**State preparando un progetto di ristrutturazione a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è il prezzo medio di un architetto d'interni a Parigi nel 2026?** Gli onorari si situano più spesso tra 90 € e 200 € al m² per un incarico di progettazione, oppure tra il 10% e il 15% dell'importo dei lavori per un incarico completo con direzione lavori.",
+            "**Il prezzo dipende dalla dimensione dell'appartamento?** Sì, ma non in modo strettamente proporzionale: i costi fissi di un progetto (pratiche amministrative, allestimento del cantiere, coordinamento) si ripartiscono su un numero maggiore di m² nelle grandi superfici, il che spiega un prezzo al m² leggermente decrescente oltre gli 80-100 m².",
+            "**Un budget limitato permette di rivolgersi a un architetto d'interni?** Sì. Un incarico puntuale — visita conoscitiva, parere su un piano, accompagnamento parziale — resta accessibile a partire da circa 2.500 €, e può bastare a garantire le scelte essenziali di un progetto senza impegnare un budget di onorari completo.",
+            "**Bisogna includere il costo dei lavori nel budget dell'architetto?** No: gli onorari di progettazione e direzione lavori sono distinti dal costo dei lavori realizzati dagli artigiani. È essenziale preventivare i due separatamente per avere una visione realistica del costo totale del progetto.",
+            "**Come vengono calcolati esattamente questi onorari?** Le modalità di fatturazione (percentuale sui lavori, forfait, tariffa oraria, tariffa al m²) e i criteri da verificare prima di firmare un preventivo sono dettagliati nel nostro articolo sugli [onorari di un architetto d'interni a Parigi](/it/journal/honoraires-architecte-interieur-paris).",
+          ],
+        },
+      ],
+      keywords: [
+        "Prezzo architetto d'interni Parigi",
+        "Onorari architetto d'interni",
+        "Budget ristrutturazione Parigi",
+      ],
+    },
+  },
+  "amenagement-studio-paris-optimiser-30m2": {
+    en: {
+      title: "Studio apartment layout in Paris: how to make the most of 30 m²?",
+      metaTitle: "Studio Apartment Layout Paris 30 m²: Our Architect's Advice",
+      excerpt:
+        "Layout, a fold-down bed or mezzanine, a compact kitchen, bespoke storage: how a 30 m² Parisian studio can offer real everyday comfort without ever feeling cramped.",
+      category: "Interior Architecture & Fittings",
+      readingTime: "6 min",
+      intro:
+        "A 30 m² studio in Paris is not simply a small apartment: it is a design exercise in its own right, where every square metre has to serve several functions at once. Sleeping, cooking, working, entertaining — in a studio, all these different lives unfold in the same room, sometimes in the same square metre depending on the time of day. Well designed, a studio of this size can nonetheless offer real everyday comfort, without ever feeling cramped.",
+      sections: [
+        {
+          heading: "Rethinking the layout before buying a single piece of furniture",
+          paragraphs: [
+            "The first mistake in a small space is to start with the furniture. A well-designed studio instead starts with an analysis of the existing layout: where the natural light falls, what the technical constraints are (water supply, electrical network, load-bearing walls), and which uses need to coexist during the day. A 30 m² studio actually contains several invisible \"rooms\" — a sleeping area, a dining area, a work area, sometimes a living area — which need to be organised in sequence rather than stacked on top of one another.",
+            "This layout work often makes it possible to gain several usable square metres without touching the structure: moving a kitchenette a few tens of centimetres, orienting the bed differently, or redrawing the circulation between the entrance and the window can transform how the space feels, well before any question of decoration.",
+          ],
+        },
+        {
+          heading: "The bed: the studio's strategic piece",
+          paragraphs: [
+            "In a studio, the bed often takes up the largest volume on the floor — so it is the first element to rethink. Several solutions free up the space it occupies during the day: a fold-down bed integrated into a bespoke unit, a mezzanine if the ceiling height allows it (generally from 2.50 m), or a good-quality sofa bed if the budget or layout do not allow for a fixed installation.",
+            "The mezzanine remains the most radical and most effective solution in terms of square metres regained: it completely frees the floor for a living area or an office, at the cost of a reduced ceiling height for sleeping. The fold-down bed, meanwhile, offers an interesting compromise in studios with standard ceiling heights, provided it is integrated into a bespoke fitting that hides the mechanism and extends the aesthetic of the rest of the room.",
+          ],
+          image: {
+            src: "/assets/images/lit-escamotable-kitchenette-studio-paris.jpg",
+            caption: "Integrated fold-down bed and bespoke kitchenette, Parisian studio, Supra Studio",
+          },
+        },
+        {
+          heading: "A compact but fully functional kitchen",
+          paragraphs: [
+            "A studio kitchenette does not need to be large to be efficient, but it needs to be designed with the same rigour as a 20 m² open kitchen. A bespoke layout makes it possible to use every centimetre of worktop, to integrate reduced-size appliances without losing functionality, and to conceal the kitchen behind a front that matches the rest of the room when it is not in use — for example with sliding doors or a closed cabinet.",
+            "The choice of materials plays an important role here: using the same tone or the same material for the kitchen front and the adjacent storage allows the eye to perceive a single coherent volume, rather than a collection of separate elements, which visually enlarges the space.",
+          ],
+        },
+        {
+          heading: "Bespoke storage to make use of every corner",
+          paragraphs: [
+            "In a studio, standard off-the-shelf storage rarely adapts well to the available volumes — it almost always leaves wasted space. Bespoke fittings, by contrast, make it possible to use corners that would otherwise go to waste: a recess turned into a wardrobe, ceiling height put to use with high-level storage, the space under a raised bed converted into a dressing area or a desk.",
+            "Full-height storage, reaching the ceiling, is particularly effective in a studio: it multiplies storage capacity without adding to the floor footprint, and its continuous vertical line also gives an impression of height to the room.",
+          ],
+        },
+        {
+          heading: "Light, mirrors and visual continuity",
+          paragraphs: [
+            "A well-designed studio always feels larger than it actually is — an effect achieved as much through light as through layout. Favouring a light, continuous palette across walls, floors and furniture avoids visually fragmenting the space into separate zones. A well-placed mirror, especially facing the window, extends the natural light and creates a sense of depth.",
+            "Artificial lighting deserves the same attention: rather than a single central ceiling light, several low, indirect light sources (wall lights, floor lamps, lighting built into the storage) create a warmer atmosphere and help distinguish the room's different uses, even without partitions.",
+          ],
+        },
+        {
+          heading: "A bathroom designed down to the millimetre",
+          paragraphs: [
+            "In a studio, the bathroom is often the most space-constrained room. An extra-flat shower tray rather than a bathtub, a wall-hung vanity unit to visually free up the floor, or a glazed shower screen rather than a curtain all help create a greater sense of space without sacrificing everyday comfort. As with the kitchenette, a bespoke layout makes it possible to use the entire available volume, including the least obvious corners.",
+          ],
+        },
+        {
+          heading: "How we approach a studio project at Supra Studio",
+          paragraphs: [
+            "A 30 m² studio is never a \"small project\" in the true sense: it is often the most demanding exercise in interior architecture, where every layout decision affects the whole space. Our approach begins, as with any project, with an on-site consultation visit, to assess the existing configuration, the light, the technical constraints and the future occupant's priority uses. We then design a layout and bespoke fittings — furniture, storage, kitchen, bathroom — conceived as a coherent whole rather than a succession of separately purchased pieces of furniture.",
+            "**Planning to lay out a studio in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What is the minimum ceiling height for a mezzanine in a studio?** A mezzanine generally requires a ceiling height of at least 2.50 m at its highest point, to keep sufficient headroom both below and above. Below that, a fold-down bed or a good-quality sofa bed remain the most suitable solutions.",
+            "**Is bespoke fitting worth it in a studio, even on a small budget?** Bespoke fittings cost more upfront than standard furniture, but they make it possible to use volumes that no off-the-shelf furniture can occupy efficiently. In a studio, where every centimetre counts, this investment often translates into a functional gain that would be hard to achieve otherwise.",
+            "**How can spaces be separated in a studio without building partitions?** Several solutions exist without building a partition: a change of flooring material, a change in level, a low piece of furniture acting as a visual divider, or lighting varied by zone. These techniques distinguish the different uses while keeping the sense of an open, bright space.",
+            "**Can a 30 m² studio fit in a real work corner?** Yes, provided it is built into the layout from the design stage rather than added afterwards. A desk integrated into a bespoke fitting — for example extending a storage unit or slotted under a mezzanine — takes up far less space than a freestanding desk while remaining fully functional.",
+          ],
+        },
+      ],
+      keywords: [
+        "Studio apartment layout Paris",
+        "Optimising small spaces",
+        "Bespoke studio fittings",
+      ],
+    },
+    it: {
+      title: "Allestimento monolocale a Parigi: come ottimizzare 30 m²?",
+      metaTitle: "Allestimento Monolocale Parigi 30 m²: I Consigli del Nostro Studio",
+      excerpt:
+        "Pianta, letto a scomparsa o soppalco, cucina compatta, contenitori su misura: come un monolocale parigino di 30 m² può offrire un vero confort quotidiano senza mai sembrare stretto.",
+      category: "Architettura d'Interni & Arredo",
+      readingTime: "6 min",
+      intro:
+        "Un monolocale di 30 m² a Parigi non è semplicemente un piccolo appartamento: è un vero e proprio esercizio di progettazione, in cui ogni metro quadro deve svolgere più funzioni contemporaneamente. Dormire, cucinare, lavorare, ricevere ospiti — in un monolocale, tutte queste vite si svolgono nella stessa stanza, talvolta nello stesso metro quadro a seconda dell'ora del giorno. Ben progettato, un monolocale di queste dimensioni può comunque offrire un confort di vita reale, senza mai dare l'impressione di essere stretti.",
+      sections: [
+        {
+          heading: "Ripensare la pianta prima di acquistare qualsiasi mobile",
+          paragraphs: [
+            "Il primo errore, in uno spazio ridotto, è iniziare dai mobili. Un monolocale ben pensato parte al contrario da un'analisi della pianta esistente: dove si trova la luce naturale, quali sono i vincoli tecnici (allacci idraulici, impianto elettrico, muri portanti), e quali usi devono convivere durante la giornata. Un monolocale di 30 m² ospita in realtà diverse \"stanze\" invisibili — un angolo notte, un angolo pranzo, un angolo lavoro, talvolta un angolo salotto — che vanno organizzate in sequenza piuttosto che sovrapposte.",
+            "Questa riflessione sulla pianta permette spesso di guadagnare diversi metri quadri utili senza toccare la struttura: spostare una cucina compatta di qualche decina di centimetri, orientare diversamente il letto, o ridisegnare la circolazione tra l'ingresso e la finestra può trasformare la percezione dello spazio, ben prima di qualsiasi questione decorativa.",
+          ],
+        },
+        {
+          heading: "Il letto, elemento strategico del monolocale",
+          paragraphs: [
+            "In un monolocale, il letto occupa spesso il volume maggiore a terra — è quindi il primo elemento da ripensare. Diverse soluzioni permettono di liberare lo spazio che occupa di giorno: un letto a scomparsa integrato in un mobile su misura, un soppalco se l'altezza del soffitto lo consente (generalmente a partire da 2,50 m), o un divano letto di qualità se il budget o la configurazione non permettono un'installazione fissa.",
+            "Il soppalco resta la soluzione più radicale e più efficace in termini di metri quadri recuperati: libera completamente il pavimento per un soggiorno o uno studio, al prezzo di un'altezza ridotta per dormire. Il letto a scomparsa, invece, offre un compromesso interessante nei monolocali con altezza standard, a condizione di essere integrato in un arredo su misura che nasconda il meccanismo e prolunghi l'estetica del resto della stanza.",
+          ],
+          image: {
+            src: "/assets/images/lit-escamotable-kitchenette-studio-paris.jpg",
+            caption: "Letto a scomparsa integrato e cucina compatta su misura, monolocale parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Una cucina compatta, ma pienamente funzionale",
+          paragraphs: [
+            "La cucina di un monolocale non ha bisogno di essere grande per essere efficiente, ma va pensata con lo stesso rigore di una cucina aperta di 20 m². Un arredo su misura permette di sfruttare ogni centimetro di piano di lavoro, di integrare elettrodomestici di dimensioni ridotte senza perdere funzionalità, e di nascondere la cucina dietro un fronte coordinato con il resto della stanza quando non è in uso — ad esempio tramite ante scorrevoli o un mobile chiuso.",
+            "La scelta dei materiali gioca qui un ruolo importante: una stessa tonalità o uno stesso materiale tra il fronte cucina e i contenitori adiacenti permette all'occhio di percepire un unico volume coerente, piuttosto che un accumulo di elementi distinti, il che amplia visivamente lo spazio.",
+          ],
+        },
+        {
+          heading: "Contenitori su misura per sfruttare ogni angolo",
+          paragraphs: [
+            "In un monolocale, i mobili contenitori standard reperibili in commercio raramente si adattano bene ai volumi disponibili — lasciano quasi sempre spazi inutilizzati. L'arredo su misura permette invece di sfruttare angoli altrimenti inutilizzabili: un rientro trasformato in guardaroba, un'altezza valorizzata da contenitori nella parte alta, uno spazio sotto un letto rialzato convertito in cabina armadio o scrivania.",
+            "I contenitori a tutta altezza, fino al soffitto, sono particolarmente efficaci in un monolocale: moltiplicano la capacità di contenimento senza aggiungere ingombro a terra, e la loro linea verticale continua dà anche un'impressione di altezza alla stanza.",
+          ],
+        },
+        {
+          heading: "Luce, specchi e continuità visiva",
+          paragraphs: [
+            "Un monolocale ben allestito si percepisce sempre più grande di quanto non sia in realtà — un effetto ottenuto tanto dalla luce quanto dalla pianta. Privilegiare una palette di tonalità chiare e continue tra pareti, pavimenti e mobili evita di frammentare visivamente lo spazio in più zone. Uno specchio ben posizionato, in particolare di fronte alla finestra, prolunga la luce naturale e dà una sensazione di profondità.",
+            "La luce artificiale merita la stessa attenzione: piuttosto che un plafoniere centrale unico, più fonti di luce basse e indirette (applique, lampade da terra, illuminazione integrata nei contenitori) creano un'atmosfera più calda e permettono di distinguere i diversi usi della stanza, anche in assenza di pareti divisorie.",
+          ],
+        },
+        {
+          heading: "Un bagno pensato al millimetro",
+          paragraphs: [
+            "In un monolocale, il bagno è spesso la stanza più limitata in termini di superficie. Un piatto doccia extra-piatto piuttosto che una vasca, un mobile lavabo sospeso per liberare visivamente il pavimento, o una parete doccia in vetro piuttosto che una tenda permettono di guadagnare in sensazione di spazio senza sacrificare il confort d'uso. Come per la cucina, un arredo su misura permette di utilizzare l'intero volume disponibile, compresi gli angoli meno evidenti.",
+          ],
+        },
+        {
+          heading: "Come affrontiamo un progetto di monolocale da Supra Studio",
+          paragraphs: [
+            "Un monolocale di 30 m² non è mai un \"piccolo progetto\" in senso proprio: è spesso l'esercizio più impegnativo in architettura d'interni, dove ogni decisione sulla pianta ha ripercussioni sull'intero spazio. Il nostro approccio inizia, come per ogni progetto, con una visita conoscitiva sul posto, per valutare la configurazione esistente, la luce, i vincoli tecnici e gli usi prioritari del futuro abitante. Progettiamo poi una pianta e un arredo su misura — mobili, contenitori, cucina, bagno — pensati come un insieme coerente piuttosto che come una successione di mobili acquistati separatamente.",
+            "**State progettando l'allestimento di un monolocale a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è l'altezza minima del soffitto per installare un soppalco in un monolocale?** Un soppalco richiede generalmente un'altezza del soffitto di almeno 2,50 m nel punto più alto, per conservare un'altezza sufficiente sia sotto che sopra. Al di sotto, un letto a scomparsa o un divano letto di qualità restano le soluzioni più adatte.",
+            "**Conviene puntare sul su misura in un monolocale, anche con un budget limitato?** Il su misura ha un costo iniziale più elevato di un mobile standard, ma permette di sfruttare volumi che nessun mobile in commercio può occupare efficacemente. In un monolocale, dove ogni centimetro conta, questo investimento si traduce spesso in un guadagno di funzionalità difficile da ottenere altrimenti.",
+            "**Come separare gli spazi in un monolocale senza costruire pareti divisorie?** Esistono diverse soluzioni senza costruire una parete: un cambio di materiale a terra, un dislivello, un mobile basso che funge da separazione visiva, o un gioco di illuminazione differenziato per zona. Queste tecniche permettono di distinguere gli usi mantenendo la sensazione di uno spazio aperto e luminoso.",
+            "**Un monolocale di 30 m² può ospitare un vero angolo scrivania?** Sì, a condizione di integrarlo fin dalla progettazione della pianta piuttosto che aggiungerlo in un secondo momento. Una scrivania integrata in un arredo su misura — ad esempio in prolungamento di un mobile contenitore o inserita sotto un soppalco — occupa molto meno spazio di una scrivania autonoma restando pienamente funzionale.",
+          ],
+        },
+      ],
+      keywords: [
+        "Allestimento monolocale Parigi",
+        "Ottimizzare piccoli spazi",
+        "Arredo su misura monolocale",
+      ],
+    },
+  },
+  "transformer-2-pieces-en-3-pieces-paris": {
+    en: {
+      title:
+        "Turning a 1-bedroom into a 2-bedroom apartment in Paris: rethinking space without losing comfort",
+      metaTitle: "Turning a 1-Bed into a 2-Bed Apartment in Paris",
+      excerpt:
+        "Dividing the living room, rethinking the layout, moving the kitchen: how to turn a Paris 1-bedroom into a 2-bedroom apartment without darkening it or losing everyday comfort.",
+      category: "Renovation & Interior Architecture",
+      readingTime: "8 min",
+      intro:
+        "In Paris, every square metre counts. As needs change, a one-bedroom apartment can quickly become too small: a new baby, the need for a home office, an extra bedroom, or simply a wish to better distribute the home's functions. Turning a one-bedroom into a two-bedroom apartment in Paris is rarely just a matter of adding a partition, though: in a compact apartment, creating an extra room without darkening the living room, cluttering circulation, or making the space feel cramped calls for genuine interior architecture thinking. The challenge is to gain a room without losing the quality of the space.",
+      sections: [
+        {
+          heading: "Turning a 1-bedroom into a 2-bedroom: a question of use above all",
+          paragraphs: [
+            "A one-bedroom apartment is generally made up of a living room, a bedroom, a kitchen and a bathroom. To create a second bedroom, the first idea is often to divide the living room. This can work, but it isn't always the best option. In Paris, apartments often have older layouts, load-bearing walls, few windows, and rooms that are either through-facing or, on the contrary, heavily partitioned. The transformation therefore has to start from what already exists.",
+            "Before moving a single partition, it's essential to understand how the home is actually used: where the natural light falls, which rooms benefit from windows, whether the kitchen can be moved, whether the existing partitions are load-bearing, where the water supply and drainage run, how much space can realistically be given to a new bedroom, how to keep an enjoyable living room, and whether to aim for a standard bedroom, a child's room, or a flexible office. A good transformation isn't about artificially bolting on a room — it's about reorganising the apartment around new uses.",
+          ],
+        },
+        {
+          heading: "Dividing the living room",
+          paragraphs: [
+            "This is the most obvious solution when the living room is generously sized. Part of the living room can be turned into a bedroom by adding a new partition. To keep an enjoyable living space, the design of this divider is essential.",
+            "A solid partition can quickly make the living room feel dark. Depending on the layout, it may be worth working with a glazed screen, a glass partition, a fanlight, a glazed door, or a partially open divider. The aim is to create a genuine room while keeping light flowing through the space.",
+          ],
+          image: {
+            src: "/assets/images/verriere-cloison-vitree-bureau-appartement-paris.jpg",
+            caption: "Glazed partition separating a home office from the living room, Parisian apartment, Supra Studio",
+          },
+        },
+        {
+          heading: "Rethinking the whole layout",
+          paragraphs: [
+            "In some apartments, the best solution is to reconsider the overall layout rather than simply dividing one room. Moving the kitchen, cutting an unnecessary circulation area, or reorganising the entrance hall can free up several usable square metres. An overly wide hallway, a poorly positioned kitchen, or a string of small rooms can sometimes hold significant potential — this is particularly relevant in older Parisian apartments, where the existing layout no longer necessarily matches contemporary ways of living.",
+          ],
+        },
+        {
+          heading: "Transforming a separate kitchen",
+          paragraphs: [
+            "When the kitchen is a reasonably generous size, it can sometimes be moved or merged with the living room. This strategy frees up an extra room to create a bedroom. Creating an open kitchen can also visually enlarge the living space, but it needs careful planning: the position of utilities, ventilation, drainage, storage and aesthetic integration all need to be anticipated from the design stage.",
+          ],
+        },
+        {
+          heading: "Creating a small bedroom rather than one large multi-purpose room",
+          paragraphs: [
+            "In Paris, a few extra square metres can make a real difference. A small bedroom can work perfectly well if its layout is designed bespoke: an integrated bed, full-height storage, sliding doors, made-to-measure furniture and circulation kept to a minimum. In a compact apartment, the quality of the layout often matters more than the raw size of each room.",
+          ],
+        },
+        {
+          heading: "Can a 40 m² one-bedroom become a two-bedroom apartment?",
+          paragraphs: [
+            "Yes, but feasibility depends entirely on the existing layout. A 40 m² apartment can, in some configurations, become a genuine two-bedroom home. In others, creating a second bedroom would result in spaces that are too small or poorly lit. So the question isn't only one of surface area: a well laid-out 40 m² apartment can be far more comfortable than a poorly organised 45 m² one.",
+            "For every project, it's worth studying the position and size of the windows, the ceiling height, the load-bearing walls, the service ducts, the water supply and drainage, the possibilities for moving the kitchen, the co-ownership constraints, ventilation requirements, and the size and layout of the future bedrooms. A feasibility study makes it possible to check all of this before committing to the works.",
+          ],
+        },
+        {
+          heading: "Creating an extra bedroom without darkening the apartment",
+          paragraphs: [
+            "This is probably one of the main challenges of turning a one-bedroom into a two-bedroom apartment. Natural light is especially precious in a small apartment: an extra partition can quickly turn a bright home into a series of dark rooms. Interior architecture makes it possible to work on several fronts at once — dividers can be glazed or semi-transparent, doors can slide, circulation can be reduced, and visual sightlines can be preserved from the entrance through to the living room.",
+            "Materials also play an important role: light colours, bespoke joinery, mirrors used sparingly, wood, textiles and architectural lighting all help create warm spaces without weighing them down. The aim isn't to make the apartment look artificially bigger, but to let light and sightlines flow through it coherently.",
+          ],
+        },
+        {
+          heading: "Bespoke design to gain space",
+          paragraphs: [
+            "In a Parisian apartment, furniture is an integral part of the architectural project. When a one-bedroom becomes a two-bedroom, every centimetre can be optimised: a bookcase can conceal a door, a piece of furniture can separate two functions, a headboard can double as storage, a bench seat can include hidden compartments, a kitchen can be designed right up to the ceiling.",
+            "Bespoke design above all helps avoid accumulating standalone furniture in already small rooms. This approach also gives the whole home a stronger aesthetic coherence: fewer pieces of furniture, but better integrated.",
+          ],
+        },
+        {
+          heading: "Turning a 1-bedroom into a 2-bedroom apartment in Paris: what approvals are needed?",
+          paragraphs: [
+            "Before starting works, it's important to identify the project's technical and administrative constraints. Modifying interior partitions can be relatively straightforward when it doesn't affect the building's structure. However, work on a load-bearing wall, shared services, façades or certain common areas may require specific approvals.",
+            "In a Parisian co-ownership building, the co-ownership regulations also need to be checked. Depending on the nature of the works, it may be necessary to seek approval from the co-ownership association, the local council, or bring in a structural engineer. This is why a successful transformation always starts with a precise analysis of the existing building and its constraints.",
+          ],
+        },
+        {
+          heading: "A transformation that stays true to the apartment's history",
+          paragraphs: [
+            "Transforming a Parisian apartment doesn't have to mean erasing its existing character. On the contrary, the transformation can be an opportunity to reveal certain features: period flooring, mouldings, ceiling height, doors, fireplaces, materials or proportions characteristic of the apartment. Contemporary interior architecture can engage in dialogue with these features rather than systematically replacing them. Creating an extra bedroom then becomes a wider project: improving the layout, the uses and the comfort while preserving the character of the place.",
+          ],
+        },
+        {
+          heading: "A 1-bedroom can become a 2-bedroom without losing its soul",
+          paragraphs: [
+            "Turning a one-bedroom into a two-bedroom apartment in Paris is above all an exercise in balance. It means finding the right distribution between bedroom, living room, kitchen, storage and circulation, optimising the square metres without making the apartment feel overloaded, and creating a new room while preserving light, sightlines and comfort. Every apartment has its own constraints and its own potential — so there is no standard layout for going from one bedroom to two.",
+            "At Supra Studio, we approach this type of project as a genuine exercise in interior architecture: analysing the existing building, carrying out a feasibility study, exploring several layout scenarios, designing the plan and working on materials, light and bespoke furniture. The goal is simple: make better use of the existing space, rather than simply squeezing in more rooms.",
+            "**Does your Parisian apartment no longer suit your way of life?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What budget should I plan for turning a 1-bedroom into a 2-bedroom apartment in Paris?** The budget depends on the scale of the works (a simple partition versus a full layout reorganisation with a kitchen move). For detailed price ranges by type of work, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Do I need co-ownership approval for this type of project?** It depends on the nature of the works: modifying a non-load-bearing partition generally doesn't require co-ownership approval, but any work affecting a load-bearing wall, a façade or common areas must be submitted to the building manager, and sometimes to the local council.",
+            "**How long does this type of transformation take?** Duration varies with the scale of the project: a simple partition can be completed in a few weeks, while a full layout reorganisation involving moving the kitchen and reworking utilities generally takes several months, including design time.",
+            "**Can a 1-bedroom become a 2-bedroom without touching a load-bearing wall?** Yes — this is actually the simplest and quickest configuration to carry out. It's especially the case when the living room is large enough to be divided by a non-load-bearing partition, or when the apartment has circulation areas or secondary rooms that can be reorganised without any structural work.",
+          ],
+        },
+      ],
+      keywords: [
+        "1-bed to 2-bed apartment Paris",
+        "Apartment transformation Paris",
+        "Apartment renovation Paris",
+      ],
+    },
+    it: {
+      title:
+        "Trasformare un bilocale in trilocale a Parigi: ripensare lo spazio senza perdere in confort",
+      metaTitle: "Trasformare un Bilocale in Trilocale a Parigi",
+      excerpt:
+        "Dividere il soggiorno, ripensare la pianta, spostare la cucina: come trasformare un bilocale parigino in trilocale senza oscurare l'appartamento né perdere in confort.",
+      category: "Ristrutturazione & Architettura d'Interni",
+      readingTime: "8 min",
+      intro:
+        "A Parigi, ogni metro quadro conta. Quando le esigenze cambiano, un bilocale può rapidamente diventare troppo piccolo: l'arrivo di un figlio, la necessità di uno spazio per lavorare da casa, il bisogno di una camera in più o semplicemente il desiderio di ripartire meglio le funzioni dell'abitazione. Trasformare un bilocale in trilocale a Parigi è però raramente una semplice questione di tramezzi: in un appartamento compatto, creare una stanza in più senza oscurare il soggiorno, appesantire la circolazione o dare un'impressione di ristrettezza richiede una vera riflessione di architettura d'interni. La sfida è guadagnare una stanza senza perdere la qualità dello spazio.",
+      sections: [
+        {
+          heading: "Trasformare un bilocale in trilocale: una questione di uso prima di tutto",
+          paragraphs: [
+            "Un bilocale è generalmente composto da un soggiorno, una camera, una cucina e un bagno. Per creare un trilocale, la prima idea consiste spesso nel dividere il soggiorno per ottenere una seconda camera. Questa soluzione può funzionare, ma non è sempre la migliore. A Parigi, gli appartamenti presentano spesso piante antiche, muri portanti, poche finestre, stanze passanti o al contrario molto suddivise. La trasformazione deve quindi partire dall'esistente.",
+            "Prima di spostare un tramezzo, bisogna capire come l'abitazione viene realmente utilizzata: dove si trova la luce naturale, quali stanze beneficiano delle finestre, se si può spostare la cucina, se i tramezzi esistenti sono portanti, dove si trovano gli impianti idraulici, quale superficie può realmente essere dedicata a una nuova camera, come conservare un soggiorno piacevole, e se privilegiare una camera classica, una cameretta per bambini o uno studio che possa evolvere. Una buona trasformazione non consiste nell'aggiungere artificialmente una stanza: consiste nel ricomporre l'appartamento attorno a nuovi usi.",
+          ],
+        },
+        {
+          heading: "Dividere il soggiorno",
+          paragraphs: [
+            "È la soluzione più evidente quando il soggiorno dispone di una superficie importante. Una parte del soggiorno può essere trasformata in camera creando un nuovo tramezzo. Per conservare uno spazio di vita piacevole, il disegno di questa separazione è essenziale.",
+            "Un tramezzo pieno può rapidamente rendere il soggiorno buio. A seconda della configurazione, si può allora lavorare con una vetrata, una parete vetrata, un sopraluce, una porta vetrata o una separazione parzialmente aperta. L'obiettivo è creare una vera stanza conservando al contempo la circolazione della luce.",
+          ],
+          image: {
+            src: "/assets/images/verriere-cloison-vitree-bureau-appartement-paris.jpg",
+            caption: "Vetrata che separa uno studio dal soggiorno, appartamento parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Ripensare completamente la pianta",
+          paragraphs: [
+            "In alcuni appartamenti, la soluzione migliore consiste nel rivedere l'organizzazione generale piuttosto che semplicemente dividere una stanza. Spostare la cucina, ridurre una circolazione inutile o ridistribuire l'ingresso può permettere di recuperare diversi metri quadri utili. Un corridoio troppo largo, una cucina mal posizionata o una successione di piccole stanze possono talvolta rappresentare un potenziale importante — è particolarmente interessante negli appartamenti parigini antichi, dove la pianta esistente non corrisponde più necessariamente agli stili di vita contemporanei.",
+          ],
+        },
+        {
+          heading: "Trasformare una cucina separata",
+          paragraphs: [
+            "Quando la cucina possiede una superficie relativamente importante, può talvolta essere spostata o integrata nel soggiorno. Questa strategia permette di liberare una stanza supplementare per creare una camera. La creazione di una cucina aperta può inoltre ampliare visivamente lo spazio giorno, ma va studiata con cura: posizione degli impianti, ventilazione, scarichi, contenitori e integrazione estetica devono essere anticipati fin dalla progettazione.",
+          ],
+        },
+        {
+          heading: "Creare una piccola camera piuttosto che un grande ambiente multifunzionale",
+          paragraphs: [
+            "A Parigi, qualche metro quadro in più può fare una grande differenza. Una camera di piccole dimensioni può funzionare perfettamente se la sua pianta è pensata su misura: letto integrato, contenitori a tutta altezza, porte scorrevoli, mobili realizzati su misura e circolazione ridotta al minimo. In un appartamento compatto, la qualità della pianta conta spesso più della dimensione grezza di ogni stanza.",
+          ],
+        },
+        {
+          heading: "Si può trasformare un bilocale di 40 m² in trilocale?",
+          paragraphs: [
+            "Sì, ma la fattibilità dipende interamente dalla pianta esistente. Un appartamento di 40 m² può, in alcune configurazioni, diventare un vero trilocale. In altre, creare una terza stanza porterebbe a spazi troppo piccoli o poco illuminati. La questione non è quindi unicamente quella della superficie: un appartamento di 40 m² ben distribuito può essere molto più confortevole di un appartamento di 45 m² mal organizzato.",
+            "Per ogni progetto, bisogna in particolare studiare la posizione e la dimensione delle finestre, l'altezza del soffitto, i muri portanti, i cavedi tecnici, gli allacci e gli scarichi idraulici, le possibilità di spostamento della cucina, i vincoli condominiali, le esigenze di ventilazione, nonché la superficie e la configurazione delle future camere. Uno studio di fattibilità permette di verificare questi elementi prima di impegnarsi nei lavori.",
+          ],
+        },
+        {
+          heading: "Creare una camera supplementare senza oscurare l'appartamento",
+          paragraphs: [
+            "È probabilmente una delle principali sfide di una trasformazione da bilocale a trilocale. La luce naturale è particolarmente preziosa in un piccolo appartamento: un tramezzo supplementare può rapidamente trasformare un'abitazione luminosa in una successione di stanze buie. L'architettura d'interni permette allora di lavorare su più livelli — le separazioni possono essere vetrate o semi-trasparenti, le porte possono essere scorrevoli, le circolazioni possono essere ridotte, e le prospettive visive possono essere conservate dall'ingresso fino al soggiorno.",
+            "Anche i materiali giocano un ruolo importante: colori chiari, infissi su misura, specchi integrati con parsimonia, legno, tessuti e illuminazione architettonica permettono di creare spazi caldi senza appesantirli. L'obiettivo non è far sembrare artificialmente l'appartamento più grande, ma far circolare la luce e gli sguardi in modo coerente.",
+          ],
+        },
+        {
+          heading: "L'arredo su misura per guadagnare spazio",
+          paragraphs: [
+            "In un appartamento parigino, l'arredo fa parte integrante del progetto architettonico. Quando un bilocale diventa un trilocale, ogni centimetro può essere ottimizzato: una libreria può integrare una porta, un mobile può separare due funzioni, una testiera può diventare un contenitore, una panca può integrare dei cassoni, una cucina può essere disegnata fino al soffitto.",
+            "Il su misura permette soprattutto di evitare di accumulare mobili indipendenti in stanze già piccole. Questo approccio dà inoltre una coerenza estetica all'insieme dell'abitazione: meno mobili, ma meglio integrati.",
+          ],
+        },
+        {
+          heading: "Trasformare un bilocale in trilocale a Parigi: quali autorizzazioni?",
+          paragraphs: [
+            "Prima di iniziare i lavori, è importante identificare i vincoli tecnici e amministrativi del progetto. La modifica di tramezzi interni può essere relativamente semplice quando non tocca la struttura dell'edificio. Al contrario, gli interventi su un muro portante, gli impianti collettivi, le facciate o alcune parti comuni possono richiedere autorizzazioni specifiche.",
+            "In un condominio parigino, va inoltre consultato il regolamento condominiale. A seconda della natura dei lavori, può essere necessario richiedere l'accordo del condominio, del comune, o far intervenire uno studio tecnico. Per questo una trasformazione riuscita inizia sempre con un'analisi precisa dell'esistente e dei vincoli dell'edificio.",
+          ],
+        },
+        {
+          heading: "Una trasformazione coerente con la storia dell'appartamento",
+          paragraphs: [
+            "Trasformare un appartamento parigino non significa necessariamente cancellarne il carattere esistente. Al contrario, la trasformazione può essere l'occasione per rivelare alcuni elementi: parquet antico, cornici, altezza del soffitto, porte, camini, materiali o proporzioni caratteristiche dell'appartamento. L'architettura d'interni contemporanea può dialogare con questi elementi piuttosto che sostituirli sistematicamente. Creare una camera supplementare diventa allora un progetto globale: migliorare la pianta, gli usi e il confort conservando l'identità del luogo.",
+          ],
+        },
+        {
+          heading: "Un bilocale può diventare un trilocale senza perdere la sua anima",
+          paragraphs: [
+            "La trasformazione di un bilocale in trilocale a Parigi è prima di tutto un esercizio di equilibrio. Bisogna trovare la giusta ripartizione tra camera, soggiorno, cucina, contenitori e circolazioni, ottimizzare i metri quadri senza dare l'impressione di un appartamento sovraccarico, e creare una nuova stanza conservando luce, prospettive e confort. Ogni appartamento possiede i propri vincoli e il proprio potenziale: non esiste quindi una pianta tipo per passare da due a tre locali.",
+            "Da Supra Studio, affrontiamo questo tipo di progetto come un vero e proprio percorso di architettura d'interni: analisi dell'esistente, studio di fattibilità, ricerca di diversi scenari di allestimento, progettazione della pianta e lavoro su materiali, luce e arredo su misura. L'obiettivo è semplice: fare meglio con lo spazio esistente, piuttosto che semplicemente far entrare più stanze.",
+            "**Il vostro appartamento parigino non corrisponde più al vostro stile di vita?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Che budget prevedere per trasformare un bilocale in trilocale a Parigi?** Il budget dipende dall'ampiezza dei lavori (semplice tramezzo o riorganizzazione completa della pianta, spostamento della cucina). Per fasce di prezzo dettagliate secondo il tipo di intervento, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Serve l'accordo del condominio per questo tipo di progetto?** Dipende dalla natura dei lavori: la modifica di un tramezzo non portante generalmente non richiede l'autorizzazione del condominio, ma qualsiasi intervento su un muro portante, una facciata o parti comuni deve essere sottoposto all'amministratore, ed eventualmente al comune.",
+            "**Quanto tempo richiedono i lavori di trasformazione da bilocale a trilocale?** La durata varia secondo l'ampiezza del progetto: un semplice tramezzo può essere realizzato in poche settimane, mentre una riorganizzazione completa della pianta con spostamento della cucina e rifacimento degli impianti richiede generalmente diversi mesi, progettazione inclusa.",
+            "**Si può trasformare un bilocale in trilocale senza toccare un muro portante?** Sì, è anzi la configurazione più semplice e rapida da realizzare. È il caso in particolare quando il soggiorno è sufficientemente grande da essere diviso da un tramezzo non portante, o quando l'appartamento presenta circolazioni o vani accessori che possono essere riorganizzati senza interventi strutturali.",
+          ],
+        },
+      ],
+      keywords: [
+        "Bilocale in trilocale Parigi",
+        "Trasformazione appartamento Parigi",
+        "Ristrutturazione appartamento Parigi",
+      ],
+    },
+  },
+  "cuisine-ouverte-paris-amenagement-optimal": {
+    en: {
+      title: "Open-plan kitchen in Paris: how to get the layout right",
+      metaTitle: "Open-Plan Kitchen Paris: Optimal Layout",
+      excerpt:
+        "Work triangle, island or peninsula, managing smells and noise: how to plan the layout of a Parisian open-plan kitchen so it stays comfortable day to day.",
+      category: "Interior Architecture & Fittings",
+      readingTime: "7 min",
+      intro:
+        "Opening up the kitchen onto the living room has become one of the most requested renovation projects in Paris. More light, a living space that feels bigger, a renewed sense of togetherness between cooking and family life: the benefits are real. But knocking down a wall is never enough to make a good open-plan kitchen on its own. A poorly planned open kitchen can instead become a daily source of irritation: cooking smells drifting into the living room, an extractor hood droning through a conversation, mess visible from the sofa, circulation blocked when two people are cooking at once. Getting the layout of an open-plan kitchen right isn't just a question of aesthetics: it's a genuine exercise in interior architecture, one that has to anticipate real-life use before any material is chosen.",
+      sections: [
+        {
+          heading: "Planning the layout before the opening itself",
+          paragraphs: [
+            "The first mistake is to treat opening up a kitchen as simply removing a wall. Before any demolition, the right questions need to be asked: how does the household actually cook? How many people are active in the kitchen at once? Does the room need to be able to close off visually when entertaining? Where does the dining table fit into the equation?",
+            "These questions shape the kitchen's layout long before any material or colour is chosen. A couple who rarely cooks together doesn't have the same circulation needs as a family where several people are active around the worktop at once. A Paris studio or one-bedroom doesn't allow for the same volumes as a 90 m² family apartment. The optimal layout always starts from these real uses, never from a standard plan copied from one project to the next.",
+          ],
+        },
+        {
+          heading: "Organising circulation around the work triangle",
+          paragraphs: [
+            "In a kitchen, three zones concentrate most of the activity: cooking, washing up, and storage (fridge and pantry). How these three points are arranged — what interior architects call the work triangle — directly shapes everyday comfort.",
+            "In an open-plan kitchen, this triangle needs to stay compact and unobstructed, while still allowing smooth circulation towards the living room. A worktop that's too long forces unnecessary trips back and forth; a triangle that's too tight can instead create awkward crossovers when several people cook together. The right balance depends on the available floor area, the shape of the room and how many people regularly use the kitchen. This is also the stage at which the position of the island or peninsula — often the centrepiece of the layout — gets decided.",
+          ],
+          image: {
+            src: "/assets/images/ilot-cuisine-ouverte-convivialite-appartement-parisien.jpg",
+            caption: "Kitchen island and smooth circulation towards the living room, Parisian apartment, Supra Studio",
+          },
+        },
+        {
+          heading: "Island or peninsula: which solution for which floor area?",
+          paragraphs: [
+            "The central island has become the symbol of the contemporary open-plan kitchen: it structures the space, offers an extra worktop, and naturally becomes a place to linger over a coffee while chatting. But an island needs enough clearance around it — at least 90 to 100 cm of circulation on every side — to stay comfortable to use. In a kitchen that's too tight, a poorly sized island becomes an obstacle rather than an asset.",
+            "In smaller Parisian apartments, a peninsula — a worktop extended and attached along one side — is often a more relevant alternative: it keeps the functional and social advantages of an island while freeing up more circulation space. The choice between the two should be made based on the room's actual dimensions, not on aesthetic preference alone.",
+          ],
+        },
+        {
+          heading: "Managing smells and noise: the invisible challenge of an open kitchen",
+          paragraphs: [
+            "This is often the least anticipated aspect, yet the most decisive for everyday comfort. A kitchen opening onto the living room immediately exposes the whole living space to cooking smells and appliance noise. An undersized or poorly positioned extractor hood, or a hob without effective extraction, can quickly make an open-plan kitchen uncomfortable — particularly with strong-smelling cooking.",
+            "Several solutions make it possible to anticipate this issue at the design stage: a high-capacity extractor hood correctly sized for the room's volume, an extraction system integrated into the hob itself to reduce noise and visual clutter, or reinforced mechanical ventilation. The choice also depends on the building's technical constraints — in a Parisian co-ownership building, whether extraction can run to the outside or into an existing shared duct needs to be checked before any commitment, which requires a good understanding of the co-ownership rules and existing services.",
+          ],
+        },
+        {
+          heading: "Storage designed to disappear",
+          paragraphs: [
+            "An open-plan kitchen works all the better when it can stay discreet outside of meal preparation. Bespoke fittings make it possible to integrate appliances behind fronts that match the rest of the furniture, multiply high-level storage to free up the worktop, and hide everyday crockery in deep drawers rather than open shelving.",
+            "This search for visual continuity with the rest of the living space is exactly what sets a successful open-plan kitchen apart from a simple kitchen with no door. The choice of materials — a front colour that matches the living room storage, a worktop that extends a console table or a low cabinet — reinforces this sense of unity, rather than juxtaposing two separate worlds within the same room.",
+          ],
+        },
+        {
+          heading: "Light and continuity with the living room",
+          paragraphs: [
+            "A well-designed open kitchen doesn't stand apart from the living room through a change of style, but through carefully managed continuity. Zoned lighting — low pendants above the island, indirect lighting built into the fronts, dedicated spotlights over the worktop — makes it possible to distinguish uses without visually partitioning the space. A continuous floor covering between the kitchen and the living room also contributes to this sense of unity, essential in Parisian apartments where every square metre needs to feel generous.",
+          ],
+        },
+        {
+          heading: "Technical constraints to anticipate in Paris",
+          paragraphs: [
+            "In older Parisian buildings, opening up a kitchen almost always means dealing with technical constraints: a load-bearing wall requiring a structural study, moving the water supply and drainage, upgrading the electrical network for appliances, or checking ventilation options within the co-ownership building. These elements need to be studied at the feasibility stage, before even drawing up the final kitchen layout, to avoid costly surprises during the works.",
+          ],
+        },
+        {
+          heading: "How we approach an open-plan kitchen project at Supra Studio",
+          paragraphs: [
+            "At Supra Studio, designing an open-plan kitchen always starts with a precise reading of the household's uses and the property's technical constraints, before any question of materials or style. We study circulation, the sizing of the island or peninsula, suitable ventilation solutions, and bespoke storage fittings, for a kitchen that stays comfortable day to day as much as it feels elegant when entertaining.",
+            "**Thinking about opening up your kitchen onto your living room?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What's the minimum floor area for an open kitchen with a central island?** A comfortable central island generally needs a room of at least 15 to 20 m², to keep at least 90 to 100 cm of circulation around it. Below that, a peninsula or an L-shaped layout along a wall is often better suited.",
+            "**How can I stop cooking smells spreading into the living room?** An extractor hood correctly sized for the room's volume, combined with good mechanical ventilation and, if needed, an extraction system built into the hob, significantly limits smells spreading into the living room.",
+            "**Should the kitchen use different materials from the living room?** No: material continuity (flooring, front colours, worktops that extend into the furniture) is exactly what sets a successful open-plan kitchen apart from a simple room without a partition. For examples of premium materials and finishes, our article on the [bespoke open-plan kitchen in a high-end living space](/en/journal/cuisine-ouverte-haut-de-gamme-agencement-sur-mesure) goes into this approach in detail.",
+            "**What budget should I plan for opening up and fitting out a kitchen in Paris?** The budget depends heavily on whether a load-bearing wall is involved, whether services need to be moved, and the level of bespoke fitting required. For detailed price ranges, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "Open-plan kitchen Paris",
+        "Open kitchen layout",
+        "Central kitchen island",
+      ],
+    },
+    it: {
+      title: "Cucina open space a Parigi: come riuscire l'allestimento ottimale",
+      metaTitle: "Cucina Open Space Parigi: Allestimento Ottimale",
+      excerpt:
+        "Triangolo di attività, isola o penisola, gestione di odori e rumori: come pensare l'allestimento di una cucina open space parigina perché resti confortevole ogni giorno.",
+      category: "Architettura d'Interni & Arredo",
+      readingTime: "7 min",
+      intro:
+        "Aprire la cucina sul soggiorno è diventato, a Parigi, uno dei progetti di ristrutturazione più richiesti. Più luce, uno spazio giorno che sembra più grande, una convivialità ritrovata tra la preparazione di un pasto e la vita della famiglia: i benefici sono reali. Ma abbattere una parete non basta mai a fare una buona cucina open space. Una cucina open space mal pensata può al contrario diventare una fonte di disagio quotidiano: odori che invadono il soggiorno, rumore della cappa durante una conversazione, disordine visibile dal divano, circolazione ostacolata tra due persone che cucinano. L'allestimento ottimale di una cucina open space non è quindi solo una questione estetica: è un vero e proprio esercizio di architettura d'interni, che deve anticipare gli usi prima di scegliere i materiali.",
+      sections: [
+        {
+          heading: "Pensare l'allestimento prima dell'apertura stessa",
+          paragraphs: [
+            "Il primo errore consiste nel considerare l'apertura di una cucina come una semplice rimozione di parete. Prima di qualsiasi demolizione, bisogna porsi le domande giuste: come cucina realmente la famiglia? Quante persone sono attive contemporaneamente in cucina? La stanza deve potersi richiudere visivamente durante un ricevimento? Che posto occupa il tavolo da pranzo in questa equazione?",
+            "Queste domande determinano la disposizione della cucina ben prima della scelta dei materiali o dei colori. Una coppia che cucina raramente insieme non ha le stesse esigenze di circolazione di una famiglia in cui più persone si muovono contemporaneamente attorno al piano di lavoro. Un monolocale o un bilocale parigino non consente gli stessi volumi di un appartamento familiare di 90 m². L'allestimento ottimale parte sempre da questi usi reali, mai da una pianta tipo riprodotta da un progetto all'altro.",
+          ],
+        },
+        {
+          heading: "Organizzare la circolazione attorno al triangolo di attività",
+          paragraphs: [
+            "In cucina, tre zone concentrano l'essenziale dell'attività: la cottura, il lavaggio e la conservazione (frigorifero e dispensa). La disposizione di questi tre poli — ciò che gli architetti d'interni chiamano il triangolo di attività — condiziona direttamente il confort d'uso quotidiano.",
+            "In una cucina open space, questo triangolo deve restare compatto e senza ostacoli, pur lasciando una circolazione fluida verso il soggiorno. Un piano di lavoro troppo lungo obbliga a spostamenti inutili; un triangolo troppo stretto può al contrario creare incroci fastidiosi quando più persone cucinano insieme. L'equilibrio giusto dipende dalla superficie disponibile, dalla forma della stanza e dal numero di utilizzatori abituali della cucina. È anche a questo punto che si decide la posizione dell'isola o della penisola, spesso il fulcro dell'allestimento.",
+          ],
+          image: {
+            src: "/assets/images/ilot-cuisine-ouverte-convivialite-appartement-parisien.jpg",
+            caption: "Isola centrale e circolazione fluida verso il soggiorno, appartamento parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Isola o penisola: quale soluzione secondo la superficie?",
+          paragraphs: [
+            "L'isola centrale si è imposta come il simbolo della cucina open space contemporanea: struttura lo spazio, offre un piano di lavoro supplementare e diventa naturalmente un luogo di vita dove sorseggiare un caffè chiacchierando. Ma l'isola richiede uno spazio libero sufficiente sul suo perimetro — almeno 90-100 cm di circolazione su ogni lato — per restare confortevole all'uso. In una cucina troppo ristretta, un'isola mal dimensionata diventa un ostacolo piuttosto che un vantaggio.",
+            "Negli appartamenti parigini di dimensioni più modeste, la penisola — un piano di lavoro prolungato e addossato su un lato — offre spesso un'alternativa più pertinente: conserva i vantaggi funzionali e sociali dell'isola liberando al contempo più spazio di circolazione. La scelta tra le due soluzioni va fatta a partire dalle dimensioni reali della stanza, non da una semplice preferenza estetica.",
+          ],
+        },
+        {
+          heading: "Gestire odori e rumori: la sfida invisibile di una cucina open space",
+          paragraphs: [
+            "È spesso l'aspetto meno anticipato, eppure il più determinante per il confort quotidiano. Una cucina aperta sul soggiorno espone immediatamente tutto lo spazio giorno agli odori di cottura e al rumore degli elettrodomestici. Una cappa sottodimensionata o mal posizionata, o un piano cottura senza un'aspirazione efficace, possono rapidamente rendere la cucina open space scomoda, in particolare con cotture dall'odore intenso.",
+            "Diverse soluzioni permettono di anticipare questo problema fin dalla progettazione: una cappa ad alta capacità di aspirazione correttamente dimensionata per il volume della stanza, un sistema di aspirazione integrato nel piano cottura per ridurre i disturbi sonori e visivi, oppure una ventilazione meccanica rinforzata. La scelta dipende anche dai vincoli tecnici dell'edificio — in un condominio parigino, la possibilità di scarico verso l'esterno o verso un cavedio collettivo esistente va verificata prima di qualsiasi impegno, il che presuppone una buona conoscenza del regolamento condominiale e degli impianti esistenti.",
+          ],
+        },
+        {
+          heading: "Contenitori pensati per scomparire",
+          paragraphs: [
+            "Una cucina open space funziona tanto meglio quanto più sa farsi discreta al di fuori dei momenti di preparazione. L'arredo su misura permette di integrare gli elettrodomestici dietro fronti in continuità con il resto dei mobili, di moltiplicare i contenitori in altezza per liberare il piano di lavoro, e di nascondere le stoviglie di uso quotidiano in cassetti profondi piuttosto che su mensole aperte.",
+            "Questa ricerca di continuità visiva con il resto dello spazio giorno è ciò che distingue una cucina open space riuscita da una semplice cucina senza porta. La scelta dei materiali — la stessa tonalità di fronte dei contenitori del soggiorno, un piano di lavoro che prolunga una consolle o un mobile basso — rafforza questa sensazione di unità, piuttosto che giustapporre due universi distinti nella stessa stanza.",
+          ],
+        },
+        {
+          heading: "Luce e continuità con il soggiorno",
+          paragraphs: [
+            "Una cucina open space ben allestita non si distingue dal soggiorno per una rottura di stile, ma per una continuità controllata. Un'illuminazione a zone — sospensioni basse sopra l'isola, illuminazione indiretta integrata nei fronti, faretti dedicati al piano di lavoro — permette di distinguere gli usi senza compartimentare visivamente lo spazio. La scelta di una pavimentazione continua tra cucina e soggiorno contribuisce anch'essa a questa sensazione di unità, essenziale negli appartamenti parigini dove ogni metro quadro deve sembrare generoso.",
+          ],
+        },
+        {
+          heading: "I vincoli tecnici da anticipare a Parigi",
+          paragraphs: [
+            "Nell'edilizia antica parigina, aprire una cucina implica quasi sempre confrontarsi con vincoli tecnici: presenza di un muro portante che richiede uno studio strutturale, spostamento degli allacci idraulici e degli scarichi, adeguamento dell'impianto elettrico per gli elettrodomestici, o verifica delle possibilità di ventilazione in condominio. Questi elementi vanno studiati fin dalla fase di fattibilità, ancor prima di disegnare la pianta definitiva della cucina, per evitare sorprese costose in corso d'opera.",
+          ],
+        },
+        {
+          heading: "Come affrontiamo un progetto di cucina open space da Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, l'allestimento di una cucina open space inizia sempre con una lettura precisa degli usi della famiglia e dei vincoli tecnici dell'abitazione, prima di qualsiasi questione di materiali o stile. Studiamo la circolazione, il dimensionamento dell'isola o della penisola, le soluzioni di ventilazione adeguate, e l'arredo su misura dei contenitori, per una cucina che resti confortevole ogni giorno tanto quanto elegante durante un ricevimento.",
+            "**State pensando di aprire la vostra cucina sul soggiorno?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è la superficie minima per aprire una cucina con isola centrale?** Un'isola centrale confortevole richiede generalmente una stanza di almeno 15-20 m², per conservare almeno 90-100 cm di circolazione sul suo perimetro. Al di sotto di questa superficie, una penisola o una pianta a L lungo una parete restano spesso più adatte.",
+            "**Come evitare che gli odori di cucina invadano il soggiorno?** Una cappa correttamente dimensionata per il volume della stanza, associata a una buona ventilazione meccanica e, se necessario, a un sistema di aspirazione integrato nel piano cottura, permette di limitare significativamente la propagazione degli odori verso il soggiorno.",
+            "**Bisogna privilegiare materiali diversi tra cucina e soggiorno?** No: la continuità dei materiali (pavimento, tonalità dei fronti, piani di lavoro in prolungamento dei mobili) è proprio ciò che distingue una cucina open space riuscita da una semplice stanza senza tramezzo. Per esempi di materiali e finiture di alta gamma, il nostro articolo sulla [cucina open space su misura in uno spazio giorno di alta gamma](/it/journal/cuisine-ouverte-haut-de-gamme-agencement-sur-mesure) approfondisce questo approccio.",
+            "**Che budget prevedere per l'apertura e l'allestimento di una cucina a Parigi?** Il budget dipende molto dalla presenza o meno di un muro portante, dallo spostamento degli impianti e dal livello di arredo su misura desiderato. Per fasce di prezzo dettagliate, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "Cucina open space Parigi",
+        "Allestimento cucina open space",
+        "Isola centrale cucina",
+      ],
+    },
+  },
+  "amenagement-duplex-paris-exploiter-hauteur": {
+    en: {
+      title: "Designing a duplex apartment in Paris: how to make the most of the height",
+      metaTitle: "Duplex Apartment Paris: Making the Most of Height",
+      excerpt:
+        "Staircase, double height, attic level: how to design a Parisian duplex so its height becomes an architectural asset rather than wasted volume.",
+      category: "Vision & Interior Architecture",
+      readingTime: "8 min",
+      intro:
+        "A Parisian duplex is a rare privilege: height, an interior staircase, sometimes double-height space beneath a glass roof or exposed timber frame — features that immediately set this type of property apart from a standard flat. But without careful design, that height can quickly turn into wasted volume: a high ceiling alone doesn't make a successful apartment. The challenge of designing a duplex isn't simply to note the available height, but to bring it to life — through light, circulation, proportion and the choice of materials. At Supra Studio, we treat every duplex as a project in its own right, where the staircase, the attic level and the double-height space become elements of architectural composition, not just constraints to manage.",
+      sections: [
+        {
+          heading: "The Parisian duplex: architectural potential that's often underused",
+          paragraphs: [
+            "In Paris, duplexes come in many forms: the top floor of a Haussmann-era building with converted attic space, a former artist's studio with a glazed roof, a converted industrial loft, or a new-build apartment designed from the outset across two levels. Each of these configurations brings its own constraints — varying headroom under the roof structure, sloped ceilings, exposed beams, a glass roof to preserve — but they share the same potential: offering volumes found in no single-storey apartment.",
+            "Too often, this potential goes underused: an awkwardly placed staircase stuck in the middle of a room, an upper level reduced to a simple bedroom under the eaves, a double-height space that adds nothing beyond an empty void above the sofa. A successful layout instead starts from a simple question: what does this height allow that the apartment couldn't achieve any other way?",
+          ],
+        },
+        {
+          heading: "The staircase: the centrepiece of the composition",
+          paragraphs: [
+            "In a duplex, the staircase is never just a way of getting from one floor to another: it's often the most visible feature of the apartment, the one that structures the eye's journey from the entrance up to the upper level. Its position deserves as much thought as the layout of a kitchen or a bathroom.",
+            "A staircase can be treated as a sculptural object — a slender steel frame, floating treads, a glass balustrade that doesn't block the light — or, conversely, tucked discreetly into a wooden housing that blends with the rest of the furniture. The choice depends on the atmosphere sought, but also on a very concrete constraint: a badly positioned staircase can rule out an entire wall or needlessly fragment a ground-floor room. We systematically study several possible positions before finalising a plan, so the staircase serves the overall composition rather than working against it.",
+            "The space under the stairs, often overlooked, also represents a valuable storage opportunity in a Parisian duplex where every square metre counts: bespoke cupboards, an integrated bookcase, or even a desk slotted into the available height.",
+          ],
+          image: {
+            src: "/assets/images/escalier-duplex-mezzanine-bibliotheque-appartement-paris.jpg",
+            caption: "Staircase and mezzanine library under the roof frame, Parisian duplex, Supra Studio",
+          },
+        },
+        {
+          heading: "Making the most of double height without sacrificing it",
+          paragraphs: [
+            "Double height is a duplex's most spectacular feature — and the trickiest to balance. Keeping an open void across the full height of the living room creates a powerful architectural effect, floods the room with vertical light and gives a rare sense of scale for Paris. But a poorly proportioned void can also become a cold volume, hard to heat and hard to furnish, one that deprives the upper floor of floor area the apartment may actually need.",
+            "The question, then, isn't choosing between double height and usable floor area, but precisely deciding where one is worth sacrificing for the other. Keeping the void above the living room while partially closing off the floor above the kitchen or a bathroom often captures the best of both: a strong architectural gesture where it has the most visual impact, and generous floor space where everyday life needs it most.",
+          ],
+        },
+        {
+          heading: "Designing the level under the eaves",
+          paragraphs: [
+            "The upper level of a Parisian duplex often sits under a sloped roof, which calls for thinking about furniture differently from a flat ceiling. The rule is simple: place the uses that need the most headroom — walkways, a dressing area, the head of a bed — at the highest point, and reserve the sloped zones for low storage, seating or pure storage space, where reduced height is no drawback.",
+            "This is where bespoke furniture really comes into its own: a bed designed to fit precisely under a slope, storage whose front follows the pitch of the roof rather than creating dead corners, a headboard that dresses the lowest part of the room. Roof windows also play a decisive role: well positioned, they bring in overhead light that attic-level rooms often lack, and can turn an otherwise dark space into one of the brightest in the apartment.",
+          ],
+        },
+        {
+          heading: "Creating continuity between the two levels",
+          paragraphs: [
+            "A successful duplex isn't just two stacked apartments connected by a staircase: it works as a single continuous living space, where the eye moves freely from one level to the other. A glass balustrade rather than a solid rail, a stairwell opening that hints at the floor above from the living room, flooring or wall tones that echo each other across the two levels: these choices reinforce a sense of architectural unity, rather than treating each floor as a separate unit.",
+            "This continuity also plays out through light: a roof window on the upper level can indirectly light the ground floor through a central void, if the position of the staircase and partitions allows it. Anticipating this flow of light at the design stage avoids ending up, once the work is done, with a dark ground floor beneath a bright upper level.",
+          ],
+        },
+        {
+          heading: "Noise and privacy between levels",
+          paragraphs: [
+            "A duplex raises a question rarely anticipated before work begins: noise travelling from one level to the other. Without suitable acoustic insulation between floors, footsteps or activity upstairs carry straight through to the rooms below — a daily annoyance that only becomes apparent once the apartment is lived in.",
+            "The choice of which functions go on which level is worth planning in advance: bedrooms, which need the most quiet, generally work better on an upper level slightly set apart from communal life, while reception rooms stay on the ground floor. Acoustic treatment of the floor (a floating screed, a resilient underlay) is also recommended whenever the upper level houses a bedroom above a living space.",
+          ],
+        },
+        {
+          heading: "Technical constraints specific to a Parisian duplex",
+          paragraphs: [
+            "Fitting out a duplex in an older Parisian building often means dealing with specific constraints: a roof frame to preserve or reinforce depending on the changes planned, fire safety regulations that apply to mezzanines and stairwell openings beyond a certain size, enhanced thermal insulation under the roof, and, depending on the case, co-ownership approval for any work affecting the structure or the shared parts of the roof. These elements need to be checked at the feasibility stage, before even sketching the final layout, to secure both the budget and the schedule.",
+          ],
+        },
+        {
+          heading: "How we approach a duplex project at Supra Studio",
+          paragraphs: [
+            "A duplex needs to be thought through as a whole, never level by level. Our approach starts with an on-site consultation visit to assess the existing structure, the natural light at each level and the household's priority uses. We then explore several scenarios for positioning the staircase, balancing double height against usable floor area, and designing bespoke fittings for the level under the eaves, before finalising a design that makes the most of what only a duplex can offer.",
+            "**Planning to fit out or renovate a duplex in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What's the minimum ceiling height for a mezzanine in a duplex?** A comfortable mezzanine generally needs at least 2.50 m of height at its highest point, to keep enough clearance both below and above. Below that threshold, an open space without an added floor is often preferable.",
+            "**Do you always have to close off the double height to gain floor space?** No. The right approach is usually to strike a balance: keep the void where it has the most architectural impact (above the living room, for instance), and partially close off the floor elsewhere to gain usable space without losing the effect of height.",
+            "**What budget should I plan for fitting out a duplex in Paris?** The budget depends heavily on the scale of the works: creating or moving a staircase, reinforcing the roof frame, insulating under the roof. For detailed price ranges by type of work, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**How can noise between the two levels of a duplex be reduced?** Acoustic treatment of the floor (a floating screed, a resilient underlay beneath the flooring) remains the most effective solution, particularly when the upper level houses a bedroom. Choosing which functions go on which level — quiet rooms upstairs, reception rooms on the ground floor — also limits everyday noise disturbance.",
+          ],
+        },
+      ],
+      keywords: [
+        "Duplex apartment Paris",
+        "Duplex mezzanine Paris",
+        "Double-height apartment",
+      ],
+    },
+    it: {
+      title: "Allestire un duplex a Parigi: come sfruttare pienamente l'altezza",
+      metaTitle: "Allestimento Duplex Parigi: Sfruttare l'Altezza",
+      excerpt:
+        "Scala, doppia altezza, livello sottotetto: come pensare l'allestimento di un duplex parigino perché l'altezza diventi un vantaggio architettonico e non un volume sprecato.",
+      category: "Visione & Architettura d'Interni",
+      readingTime: "8 min",
+      intro:
+        "Un duplex parigino è un privilegio raro: l'altezza, la scala interna, talvolta una doppia altezza sotto una vetrata o una capriata a vista — elementi che distinguono immediatamente questo tipo di immobile da un appartamento standard. Ma questa altezza, se non pensata con rigore, si trasforma rapidamente in volume sprecato: un soffitto alto da solo non fa un appartamento riuscito. La sfida dell'allestimento di un duplex non è quindi constatare l'altezza disponibile, ma farla vivere — attraverso la luce, la circolazione, le proporzioni e la scelta dei materiali. Da Supra Studio, affrontiamo ogni duplex come un progetto a sé stante, in cui la scala, il livello sottotetto e la doppia altezza diventano elementi di composizione architettonica, e non semplici vincoli da gestire.",
+      sections: [
+        {
+          heading: "Il duplex parigino: un potenziale architettonico spesso sottoutilizzato",
+          paragraphs: [
+            "A Parigi, i duplex assumono forme molto varie: ultimo piano di un palazzo haussmanniano con sottotetto allestito, ex atelier d'artista con vetrata, loft industriale riconvertito, o appartamento nuovo concepito fin dall'origine su due livelli. Ognuna di queste configurazioni impone i propri vincoli — altezza sotto capriata variabile, falde del tetto, travi a vista, vetrata da preservare — ma condivide uno stesso potenziale: quello di offrire volumi che non si trovano in nessun appartamento su un solo piano.",
+            "Troppo spesso, questo potenziale resta sottoutilizzato: una scala sgraziata piazzata in mezzo a una stanza, un livello superiore ridotto a una semplice camera sotto i tetti, una doppia altezza che non porta nulla di più di un volume vuoto sopra il divano. Un allestimento riuscito parte al contrario da una domanda semplice: cosa permette di fare questa altezza, che l'appartamento non potrebbe fare altrimenti?",
+          ],
+        },
+        {
+          heading: "La scala, elemento centrale della composizione",
+          paragraphs: [
+            "In un duplex, la scala non è mai un semplice elemento di circolazione: è spesso lo spazio più visibile dell'appartamento, quello che struttura lo sguardo dall'ingresso fino al livello superiore. La sua posizione merita quindi una riflessione a sé stante, allo stesso titolo della disposizione di una cucina o di un bagno.",
+            "Una scala può essere trattata come un oggetto scultoreo — struttura metallica sottile, gradini sospesi, parapetto in vetro per non ostruire la luce — oppure integrarsi discretamente in un rivestimento in legno che dialoga con il resto dell'arredo. La scelta dipende dall'atmosfera ricercata, ma anche da un vincolo molto concreto: una scala mal posizionata può condannare un'intera parete o frammentare inutilmente una stanza al piano terra. Studiamo sistematicamente diverse disposizioni prima di fissare una pianta, perché la scala serva la composizione piuttosto che subirla.",
+            "Lo spazio sotto la scala, spesso trascurato, rappresenta inoltre una preziosa risorsa di contenimento in un duplex parigino dove ogni metro quadro conta: armadi su misura, libreria integrata, o persino una scrivania inserita nell'altezza disponibile.",
+          ],
+          image: {
+            src: "/assets/images/escalier-duplex-mezzanine-bibliotheque-appartement-paris.jpg",
+            caption: "Scala e mezzanino biblioteca sotto la capriata, duplex parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "Sfruttare la doppia altezza senza sacrificarla",
+          paragraphs: [
+            "La doppia altezza è il vantaggio più spettacolare di un duplex — e il più delicato da dosare. Conservare un vuoto su tutta l'altezza del soggiorno crea un effetto architettonico forte, inonda la stanza di luce verticale e dà una sensazione di ampiezza rara a Parigi. Ma un vuoto mal dimensionato può anche diventare un volume freddo, difficile da riscaldare e arredare, che priva il piano superiore di una superficie a terra di cui l'appartamento avrebbe invece bisogno.",
+            "La questione non è quindi scegliere tra doppia altezza e superficie utile, ma dosare con precisione dove l'una giustifica di rinunciare all'altra. Conservare il vuoto sopra il soggiorno chiudendo parzialmente il piano sopra la cucina o un bagno permette spesso di godere del meglio di entrambe le opzioni: un gesto architettonico forte dove ha il maggiore impatto visivo, e una superficie generosa dove la quotidianità ne ha più bisogno.",
+          ],
+        },
+        {
+          heading: "Allestire il livello sottotetto",
+          paragraphs: [
+            "Il livello superiore di un duplex parigino si trova spesso sotto una copertura a falda, il che impone di pensare l'arredo in modo diverso rispetto a un soffitto piano. La regola è semplice: collocare gli usi che richiedono più altezza — passaggio, cabina armadio, testiera del letto — nel punto più alto, e riservare le zone sotto falda ai contenitori bassi, alle sedute o al puro stoccaggio, dove un'altezza ridotta non crea alcun disagio.",
+            "L'arredo su misura trova qui pieno significato: un letto disegnato per incastrarsi precisamente sotto una falda, contenitori il cui fronte segue l'inclinazione del tetto piuttosto che creare angoli morti, una testiera che veste la parte più bassa della stanza. Anche le finestre da tetto giocano un ruolo determinante: ben posizionate, apportano una luce zenitale che spesso manca ai piani sottotetto, e possono trasformare una stanza altrimenti buia in uno degli spazi più luminosi dell'appartamento.",
+          ],
+        },
+        {
+          heading: "Creare una continuità tra i due livelli",
+          paragraphs: [
+            "Un duplex riuscito non si limita a due appartamenti sovrapposti collegati da una scala: funziona come un unico spazio di vita continuo, in cui lo sguardo circola liberamente da un livello all'altro. Un parapetto in vetro piuttosto che una ringhiera piena, un'apertura della scala che lascia intuire il piano dal soggiorno, materiali di pavimento o tonalità murarie che si rispondono tra i due livelli: queste scelte rafforzano la sensazione di unità architettonica, piuttosto che trattare ogni piano come un lotto indipendente.",
+            "Questa continuità si gioca anche nella luce: una finestra da tetto al livello superiore può illuminare indirettamente il piano terra attraverso un vuoto centrale, se la disposizione della scala e delle pareti lo consente. Anticipare questa circolazione della luce fin dalla progettazione evita di ritrovarsi, a lavori ultimati, con un piano terra buio sotto un piano luminoso.",
+          ],
+        },
+        {
+          heading: "Rumore e intimità tra i livelli",
+          paragraphs: [
+            "Un duplex pone una questione raramente anticipata prima dei lavori: quella del rumore da un livello all'altro. Senza un isolamento acustico adeguato tra i solai, i rumori di passi o di attività al piano superiore si ripercuotono direttamente nelle stanze sottostanti — un disagio quotidiano che emerge solo una volta abitato l'appartamento.",
+            "La scelta delle funzioni per livello merita quindi di essere pensata in anticipo: le camere, che richiedono più tranquillità, si prestano generalmente meglio a un livello alto leggermente appartato dalla vita comune, mentre gli ambienti di ricevimento restano al piano terra. Un trattamento acustico del solaio (massetto galleggiante, sottostrato resiliente) resta inoltre raccomandato ogniqualvolta il livello superiore ospiti una camera sopra un ambiente di vita.",
+          ],
+        },
+        {
+          heading: "I vincoli tecnici propri di un duplex parigino",
+          paragraphs: [
+            "Allestire un duplex nell'edilizia antica parigina implica spesso confrontarsi con vincoli specifici: capriata da preservare o rinforzare secondo le modifiche previste, normativa antincendio applicabile a mezzanini e aperture oltre una certa superficie, isolamento termico rinforzato sotto la copertura, e secondo i casi, autorizzazione condominiale per qualsiasi intervento che tocchi la struttura o le parti comuni della copertura. Questi elementi vanno verificati fin dalla fase di fattibilità, ancor prima di abbozzare la pianta definitiva, per garantire sia il budget che il calendario del progetto.",
+          ],
+        },
+        {
+          heading: "Come affrontiamo un progetto di duplex da Supra Studio",
+          paragraphs: [
+            "Un duplex va pensato nella sua globalità, mai livello per livello. Il nostro approccio inizia con una visita conoscitiva sul posto per valutare la struttura esistente, la luce naturale a ogni livello e gli usi prioritari della famiglia. Studiamo poi diversi scenari di posizionamento per la scala, il dosaggio tra doppia altezza e superficie utile, e l'arredo su misura del livello sottotetto, prima di fissare una progettazione che valorizzi ciò che solo un duplex può offrire.",
+            "**State pensando di allestire o ristrutturare un duplex a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è l'altezza minima per creare un mezzanino in un duplex?** Un mezzanino confortevole richiede generalmente almeno 2,50 m di altezza nel punto più alto, per conservare uno spazio sufficiente sia sotto che sopra. Al di sotto di questa soglia, uno spazio aperto senza solaio supplementare resta spesso preferibile.",
+            "**Bisogna necessariamente chiudere la doppia altezza per guadagnare superficie?** No. L'approccio giusto consiste generalmente nel dosare: conservare il vuoto dove ha il maggiore impatto architettonico (sopra il soggiorno, ad esempio), e chiudere parzialmente il piano altrove per guadagnare superficie utile senza sacrificare l'effetto di altezza.",
+            "**Che budget prevedere per l'allestimento di un duplex a Parigi?** Il budget dipende molto dall'ampiezza dei lavori: creazione o spostamento di una scala, rinforzo della capriata, isolamento sotto copertura. Per fasce di prezzo dettagliate secondo il tipo di intervento, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Come limitare il rumore tra i due livelli di un duplex?** Un trattamento acustico del solaio (massetto galleggiante, sottostrato resiliente sotto la pavimentazione) resta la soluzione più efficace, in particolare quando il livello superiore ospita una camera. La scelta delle funzioni per livello — ambienti tranquilli in alto, ambienti di ricevimento al piano terra — limita anch'essa i disturbi quotidiani.",
+          ],
+        },
+      ],
+      keywords: [
+        "Allestimento duplex Parigi",
+        "Duplex mezzanino Parigi",
+        "Appartamento doppia altezza",
+      ],
+    },
+  },
+  "plu-bioclimatique-paris-paysagiste": {
+    en: {
+      title:
+        "Paris' bioclimatic local plan: why work with a landscape designer for your outdoor space?",
+      metaTitle: "Paris Bioclimatic Local Plan: Why Hire a Landscape Designer",
+      excerpt:
+        "Unsealed ground, planted roofs and façades, protected trees: what Paris' new bioclimatic local plan changes for your garden, and why a landscape designer becomes essential.",
+      category: "Landscape Design & Urban Spaces",
+      readingTime: "7 min",
+      intro:
+        "Since November 2024, any project touching an outdoor space in Paris — garden, courtyard, roof, façade — falls under a renewed regulatory framework: the bioclimatic Local Urban Plan (Plan Local d'Urbanisme bioclimatique, or PLUb). The first document of its kind adopted in France, it profoundly redefines the place of greenery in the city, with precise rules on unsealed ground, desealing of surfaces, and planted buildings. For anyone planning to develop an outdoor space in Paris, this new framework changes things: a garden or terrace project can no longer be designed on use and aesthetics alone, but also has to account for precise regulatory ratios specific to each plot. This is exactly the context in which working with a landscape designer becomes a real asset — not just for the design itself, but for the project's very compliance.",
+      sections: [
+        {
+          heading: "What is Paris' bioclimatic local plan?",
+          paragraphs: [
+            "Adopted by the Conseil de Paris on 20 November 2024, the bioclimatic local plan replaces the previous Local Urban Plan, which dated back to 2006. It is the first local plan in France explicitly built around climate issues: adapting to climate change, desealing ground surfaces, prioritising renovation of existing buildings over demolition and rebuilding, and strengthening the place of greenery within the urban fabric.",
+            "This new framework is not limited to large-scale property developments: it applies to the full range of projects subject to planning permission, right down to the scale of a private garden, a building courtyard, or a green roof.",
+          ],
+        },
+        {
+          heading: "What changes for a private garden or courtyard: unsealed ground",
+          paragraphs: [
+            "One of the most concrete provisions of the bioclimatic local plan concerns the notion of \"pleine terre\", or unsealed ground: on any plot larger than 150 m², up to 65% of the area must remain unsealed — that is, ground that is not covered by an impermeable surface, capable of absorbing rainwater and allowing plant roots to develop — as opposed to a layer of soil laid over a slab, such as on a roof or an underground car park.",
+            "The bioclimatic local plan also introduces a new definition of \"espaces libres de construction\" (ELC, open spaces free of construction), which now takes into account space available both above and below ground. A minimum ELC rate is required depending on the zone, with an obligation to keep these areas unsealed or planted, and planting-density requirements that increase with the size of the project. In practice, this means a garden or courtyard design now has to factor in these ratios from the very first sketches, or risk having to be reworked once the planning application is filed.",
+          ],
+          image: {
+            src: "/assets/images/cour-parisienne-vegetalisee-pleine-terre-jardin.jpg",
+            caption: "Planted Parisian courtyard on unsealed ground, Supra Studio",
+          },
+        },
+        {
+          heading: "Planted buildings: roofs and façades",
+          paragraphs: [
+            "Beyond the ground itself, the bioclimatic local plan introduces a building greening index, which requires planted surfaces on roofs or façades for many projects. This requirement turns a building's roof or façade into a genuine landscape-design space, rather than a purely technical surface.",
+            "In Paris' many protected districts, these projects have to work with an additional stakeholder: the Architectes des Bâtiments de France (heritage architects), systematically consulted whenever a project affects the external appearance of a building in a protected area. A green roof or a planted façade therefore has to be designed with both the climate requirements of the bioclimatic local plan and the heritage expectations of the ABF in mind — a balancing act that calls for genuine technical and regulatory expertise.",
+          ],
+        },
+        {
+          heading: "Protected spaces and trees to be aware of",
+          paragraphs: [
+            "The bioclimatic local plan also strengthens the protection of existing greenery: protected green spaces, around 100,000 street-aligned trees, 266 remarkable trees recorded on both public and private land, as well as protected open spaces to be planted and protected shared gardens.",
+            "For a private landscape project, this means it is essential to check beforehand whether the plot concerned is subject to any of these protections, before even sketching a plan: a remarkable tree present on the land, for instance, directly shapes what can be built or planted. This check can be made via the Paris planning rules portal, which lists the protections that apply plot by plot.",
+          ],
+        },
+        {
+          heading: "Why working with a landscape designer becomes essential",
+          paragraphs: [
+            "Given this new regulatory density, designing a garden or outdoor space in Paris is no longer just a matter of aesthetic choice. Precisely calculating the required unsealed-ground ratio, checking the protections that apply to a given plot, liaising with the authorities and, where relevant, with the ABF, all while keeping the space genuinely pleasant to use: this calls for a combination of technical and creative skill.",
+            "A landscape designer familiar with this regulatory framework knows how to turn these constraints into design opportunities rather than mere obstacles: a requirement for unsealed ground can become the occasion to entirely rethink a garden's layout; an obligation to green the building can become the opportunity to create a planted roof that visually extends the home's interior. It is precisely this ability to combine regulatory compliance with quality of use that sets a professionally designed landscape apart from one carried out without support.",
+          ],
+        },
+        {
+          heading:
+            "How we approach a landscape project subject to the bioclimatic local plan at Supra Studio",
+          paragraphs: [
+            "At Supra Studio, every landscape project in Paris begins with a check of the rules that apply to the plot in question — unsealed ground, open spaces free of construction, any heritage or plant-related protections — before a single plan is sketched. This often-underestimated technical step nonetheless shapes the whole project: it allows us to design a garden or outdoor space that complies with the regulatory framework from the outset, rather than having to correct it after the fact.",
+            "**Planning a garden, courtyard or green roof project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for a consultation visit, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**Does the bioclimatic local plan apply to every plot in Paris?** The 65% unsealed-ground requirement applies to plots larger than 150 m². Smaller plots remain subject to other provisions, notably the building greening index or specific protections (remarkable trees, protected green spaces), which apply regardless of plot size.",
+            "**How can I find out whether my land is affected by a protection under the bioclimatic local plan?** This can be checked via the Paris planning rules portal, which lists, plot by plot, protected green spaces, remarkable trees and other applicable protections. This step is systematically included in our feasibility study phase.",
+            "**Does the bioclimatic local plan apply to renovations too, or only to new builds?** It applies broadly to both: the bioclimatic local plan in fact prioritises renovating existing buildings over demolition and rebuilding, and the building greening requirements also apply to energy-renovation projects on existing buildings.",
+            "**What budget should I plan for a landscape project compliant with the bioclimatic local plan in Paris?** The budget depends on the size of the project, the required level of unsealed ground or greening, and any specific protections that need to be factored into the design. For a general overview of fees, see our article on [interior architect fees in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "Paris bioclimatic local plan",
+        "Landscape designer Paris",
+        "Paris greening",
+      ],
+    },
+    it: {
+      title:
+        "PLU bioclimatico di Parigi: perché rivolgersi a un paesaggista per il vostro esterno?",
+      metaTitle: "PLU Bioclimatico Parigi: Perché Rivolgersi a un Paesaggista",
+      excerpt:
+        "Piena terra, verde su edifici, alberi protetti: cosa cambia il PLU bioclimatico di Parigi per il vostro giardino, e perché l'accompagnamento di un paesaggista diventa essenziale.",
+      category: "Paesaggio Urbano & Spazi Cittadini",
+      readingTime: "7 min",
+      intro:
+        "Da novembre 2024, ogni progetto che riguarda uno spazio esterno a Parigi — giardino, cortile, tetto, facciata — si inserisce in un quadro normativo rinnovato: il Piano Urbanistico Locale bioclimatico (PLU bioclimatique, o PLUb). Primo documento di questo tipo adottato in Francia, ridefinisce profondamente il posto del verde in città, con regole precise su piena terra, deimpermeabilizzazione dei suoli e verde sugli edifici. Per chi progetta di allestire uno spazio esterno a Parigi, questo nuovo quadro cambia le carte in tavola: un progetto di giardino o di terrazza non si pensa più solo in funzione dell'uso e dell'estetica, ma anche di rapporti normativi precisi, propri a ogni particella. È in questo contesto che l'accompagnamento di un paesaggista diventa un vero vantaggio — non più solo per la progettazione, ma per la conformità stessa del progetto.",
+      sections: [
+        {
+          heading: "Cos'è il PLU bioclimatico di Parigi?",
+          paragraphs: [
+            "Adottato dal Consiglio di Parigi il 20 novembre 2024, il PLU bioclimatico sostituisce il precedente Piano Urbanistico Locale, risalente al 2006. Si tratta del primo PLU in Francia concepito esplicitamente attorno alle sfide climatiche: adattamento al cambiamento climatico, deimpermeabilizzazione dei suoli, ristrutturazione dell'esistente piuttosto che demolizione-ricostruzione, e rafforzamento del posto del verde nello spazio urbano.",
+            "Questo nuovo quadro non si limita ai grandi progetti immobiliari: si applica all'insieme dei progetti di allestimento soggetti ad autorizzazione urbanistica, compresa la scala di un giardino privato, di un cortile condominiale o di un tetto verde.",
+          ],
+        },
+        {
+          heading: "Cosa cambia per un giardino o un cortile privato: la piena terra",
+          paragraphs: [
+            "Una delle disposizioni più concrete del PLU bioclimatico riguarda la nozione di piena terra: su ogni particella superiore a 150 m², fino al 65% della superficie deve restare in piena terra, ossia un suolo non impermeabilizzato, capace di infiltrare l'acqua piovana e di permettere lo sviluppo radicale delle piante — in opposizione a una soletta ricoperta di terra in superficie, come su un tetto o un parcheggio interrato.",
+            "Il PLU bioclimatico introduce inoltre una nuova definizione degli spazi liberi da costruzione (ELC), che tiene ora conto dello spazio disponibile sia in elevazione che in sottosuolo. Un tasso minimo di ELC è imposto secondo le zone, con l'obbligo di realizzarli in piena terra o di renderli verdi, e requisiti di densità di piantumazione che aumentano con la superficie del progetto. In pratica, questo significa che la progettazione di un giardino o di un cortile deve ormai integrare questi rapporti fin dai primi schizzi, pena dover rivedere il progetto in corso di presentazione del permesso.",
+          ],
+          image: {
+            src: "/assets/images/cour-parisienne-vegetalisee-pleine-terre-jardin.jpg",
+            caption: "Cortile parigino verdeggiante in piena terra, Supra Studio",
+          },
+        },
+        {
+          heading: "Il verde sugli edifici: tetti e facciate",
+          paragraphs: [
+            "Al di là del suolo, il PLU bioclimatico istituisce un indice di verde sugli edifici, che impone la realizzazione di superfici verdi in copertura o in facciata per numerosi progetti. Questa esigenza trasforma il tetto o la facciata di un edificio in un vero e proprio spazio di progettazione paesaggistica, e non più in una semplice superficie tecnica.",
+            "Nei numerosi settori protetti di Parigi, questi allestimenti devono fare i conti con un attore supplementare: gli Architetti dei Monumenti di Francia (ABF), sistematicamente consultati non appena un progetto tocca l'aspetto esterno di un edificio in settore protetto. Un tetto verde o una facciata piantumata devono quindi essere concepiti anticipando sia l'esigenza climatica del PLU bioclimatico che le aspettative patrimoniali dell'ABF — un esercizio di equilibrio che richiede una vera competenza tecnica e normativa.",
+          ],
+        },
+        {
+          heading: "Gli spazi e gli alberi protetti da conoscere",
+          paragraphs: [
+            "Il PLU bioclimatico rafforza anche la protezione degli elementi vegetali esistenti: spazi verdi protetti, circa 100.000 alberi di allineamento, 266 alberi notevoli censiti sul demanio pubblico come su particelle private, così come spazi liberi protetti da rendere verdi e giardini condivisi protetti.",
+            "Per un progetto di paesaggio privato, questo significa che è essenziale verificare a monte se la particella interessata è soggetta a una di queste protezioni, ancor prima di abbozzare una pianta: un albero notevole presente sul terreno, ad esempio, condiziona direttamente le possibilità di insediamento e di piantumazione. Questa verifica si effettua tramite il Portale delle regole urbanistiche di Parigi, che censisce le protezioni applicabili particella per particella.",
+          ],
+        },
+        {
+          heading: "Perché l'accompagnamento di un paesaggista diventa indispensabile",
+          paragraphs: [
+            "Di fronte a questa nuova densità normativa, progettare un giardino o uno spazio esterno a Parigi non è più solo una questione di scelta estetica. Calcolare con precisione il rapporto di piena terra richiesto, verificare le protezioni applicabili a una particella, dialogare con l'amministrazione e, se necessario, con l'ABF, mantenendo al contempo uno spazio realmente piacevole da vivere: è un esercizio che richiede una doppia competenza, tecnica e creativa.",
+            "Un paesaggista abituato a questo quadro normativo sa trasformare questi vincoli in elementi di composizione piuttosto che in semplici ostacoli: un'esigenza di piena terra può diventare l'occasione per ripensare integralmente l'insediamento di un giardino; un obbligo di verde sull'edificio, l'opportunità di creare un tetto verde che prolunghi visivamente l'interno dell'abitazione. È proprio questa articolazione tra conformità normativa e qualità d'uso che distingue un progetto di paesaggio professionale da un allestimento condotto senza accompagnamento.",
+          ],
+        },
+        {
+          heading:
+            "Come affrontiamo un progetto di paesaggio soggetto al PLU bioclimatico da Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, ogni progetto di paesaggio a Parigi inizia con una verifica delle regole applicabili alla particella interessata — piena terra, spazi liberi da costruzione, eventuali protezioni patrimoniali o vegetali — ancor prima di abbozzare una pianta. Questa fase tecnica, spesso sottovalutata, condiziona tuttavia l'intero progetto: permette di concepire un giardino o uno spazio esterno che rispetti il quadro normativo fin dalla progettazione, piuttosto che doverlo correggere in un secondo momento.",
+            "**State progettando un giardino, un cortile o un tetto verde a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per una visita conoscitiva, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Il PLU bioclimatico si applica a tutte le particelle parigine?** L'obbligo di piena terra al 65% riguarda le particelle superiori a 150 m². Le particelle più piccole restano comunque interessate da altre disposizioni, in particolare l'indice di verde sugli edifici o le protezioni specifiche (alberi notevoli, spazi verdi protetti), che si applicano indipendentemente dalla dimensione del terreno.",
+            "**Come sapere se il mio terreno è interessato da una protezione del PLU bioclimatico?** La verifica si effettua tramite il Portale delle regole urbanistiche di Parigi, che censisce particella per particella gli spazi verdi protetti, gli alberi notevoli e le altre protezioni applicabili. Questa fase è sistematicamente integrata nella nostra fase di studio di fattibilità.",
+            "**Il PLU bioclimatico si applica anche alle ristrutturazioni, o solo alle nuove costruzioni?** Si applica ampiamente a entrambe: il PLU bioclimatico dà anzi priorità alla ristrutturazione dell'esistente piuttosto che alla demolizione-ricostruzione, e le esigenze di verde sugli edifici riguardano anche i progetti di riqualificazione energetica di edifici esistenti.",
+            "**Che budget prevedere per un progetto di paesaggio conforme al PLU bioclimatico a Parigi?** Il budget dipende dalla superficie del progetto, dal livello di esigenza in piena terra o in verde, e dall'eventuale presenza di protezioni specifiche da integrare fin dalla progettazione. Per un approccio generale agli onorari, consultate il nostro articolo sul [prezzo di un architetto d'interni a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+          ],
+        },
+      ],
+      keywords: [
+        "PLU bioclimatico Parigi",
+        "Paesaggista Parigi",
+        "Verde urbano Parigi",
+      ],
+    },
+  },
+  "honoraires-architecte-interieur-paris": {
+    en: {
+      title: "Interior architect fees in Paris: how are they calculated?",
+      metaTitle: "Interior Architect Fees Paris: How Are They Calculated?",
+      excerpt:
+        "Percentage of works, fixed fee, hourly rate or price per m²: how an interior architect's fees are structured in Paris, and how to properly evaluate a quote.",
+      category: "Advice & Expertise",
+      readingTime: "7 min",
+      intro:
+        "Hiring an interior architect in Paris quickly raises a central question: how is the fee actually worked out? Contrary to a common assumption, there is no single fee scale or regulatory standard setting a fixed price. Each practice defines its own billing method, depending on the nature of the brief, the scale of the project and the level of support offered. Understanding these mechanisms makes it possible to approach a renovation or fit-out project with a clear budget picture, and to avoid unpleasant surprises between the first meeting and the completion of the works.",
+      sections: [
+        {
+          heading: "Percentage of the works cost",
+          paragraphs: [
+            "This is the profession's historical billing method, still widely used in Paris today. The interior architect applies a rate, generally between 8% and 15%, calculated on the total cost of the works excluding furniture or excluding tax depending on the practice. This rate varies according to the technical complexity of the site, the floor area involved and the intended level of finish.",
+            "This method of calculation follows an interesting logic: it aligns the architect's interest with the client's. A more ambitious project, requiring more coordination and supervision, naturally generates proportionally higher fees — without encouraging the architect to artificially inflate the works budget, since their reputation ultimately depends on the quality of the finished result.",
+          ],
+        },
+        {
+          heading: "The fixed fee",
+          paragraphs: [
+            "For briefs with a clearly defined scope — designing a floor plan, defining a material palette, support on a specific room — many practices now offer a fixed fee, agreed in advance based on the floor area and the exact nature of the service.",
+            "The main advantage of this billing method lies in its predictability: the client knows the exact amount from the moment of signing, regardless of how the works budget evolves during the project. It is a particularly suitable option for projects whose scope is clearly identifiable from the outset.",
+          ],
+        },
+        {
+          heading: "Hourly rate and price per square metre",
+          paragraphs: [
+            "Some one-off briefs don't justify billing by percentage or fixed fee: advice on an existing plan, a technical review, limited-time support. In these cases, hourly billing — generally between €80 and €150 in Paris depending on the professional's experience — offers flexibility suited to narrowly defined needs.",
+            "Rarer, pricing per square metre mainly applies to large-scale projects, where a rate is set per square metre fitted out, generally between €100 and €300/m² depending on the level of service. It allows for a quick estimate from the earliest sketches, even before a detailed costing of the works is available.",
+          ],
+          image: {
+            src: "/assets/images/moodboard-materiaux-architecte-interieur-salon-parisien.jpg",
+            caption: "Material and mood selection, Parisian living room, Supra Studio",
+          },
+        },
+        {
+          heading: "The factors that make fees vary",
+          paragraphs: [
+            "Beyond the chosen billing method, several parameters directly influence the level of fees. The nature and complexity of the property play a decisive role: a Haussmann-era apartment with mouldings to preserve, a loft requiring a complete restructuring, or a duplex involving the creation of a staircase do not call for the same level of technical involvement.",
+            "The scope of the brief also matters: simple design advice is nothing like a full brief combining design, material selection, coordination of tradespeople and site supervision through to completion. The desired level of finish also affects the fee — between a functional renovation and a high-end bespoke project, the difference in design time, and therefore in fees, can be significant.",
+            "The specific constraints of a Parisian property finally weigh into the balance: a co-ownership with strict regulations, a listed building or one located in a protected area, difficult access for tradespeople — all factors that extend the time needed to manage the project. An architect's experience and reputation are also reflected, as in any creative profession, in their fee scale.",
+          ],
+        },
+        {
+          heading: "What fees generally cover",
+          paragraphs: [
+            "A full interior architecture brief usually includes several components, which are essential to clarify before signing: the design phase, including floor plans and initial sketches; the choice of materials, finishes and furniture, with a specification book drawn up; coordination of tradespeople and management of the site schedule; the necessary administrative steps, particularly with the building manager or for certain planning approvals; and follow-through to completion, generally including a defined number of site visits.",
+            "This scope varies considerably from one practice to another: some include unlimited plan revisions, others charge for each change beyond a defined threshold. This is precisely why a careful reading of the quote is essential before any commitment.",
+          ],
+        },
+        {
+          heading: "How to evaluate an interior architect's quote",
+          paragraphs: [
+            "Before committing, several checks help avoid misunderstandings later on. First, clarify the exact scope of the brief — design only, or design combined with full site supervision — then ask for the details of how fees are calculated, and the basis on which they apply (works cost excl. or incl. VAT, furniture included or not).",
+            "It is also essential to identify what is included in the fixed fee or rate applied — number of site visits, meetings, revised sets of plans — and to compare several proposals on a strictly equivalent scope, rather than on the headline amount alone.",
+          ],
+        },
+        {
+          heading: "How we set our fees at Supra Studio",
+          paragraphs: [
+            "At Supra Studio, every quote is drawn up on a bespoke basis, after an initial visit to the property and an in-depth discussion of the project's expectations. We systematically detail the exact scope of our brief — design, material selection, site coordination — as well as the billing method used, so that every client has a clear budget picture from the very start of the project.",
+            "**Planning a renovation or interior fit-out project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an initial conversation, or [get in touch](/en/contact) for a personalised quote.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What is the average percentage applied by an interior architect in Paris?** The rate is generally between 8% and 15% of the works cost, depending on the complexity of the project and the level of service. This rate should always be specified in writing in the quote, along with the exact basis of calculation (excl. or incl. VAT, furniture included or not). For detailed budget ranges by project type, see our article on [interior architect fees per m² in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Is an interior architect's quote free?** This depends on each practice: some offer a free initial discovery meeting, others charge for a feasibility study upfront, particularly for complex projects requiring an in-depth technical visit. It is recommended to clarify this point from the first contact.",
+            "**Can an interior architect's fees be negotiated?** The amount depends above all on the scope of the brief rather than simple price negotiation. It is, however, entirely possible to adjust the scope entrusted — for example by limiting the brief to design without site supervision — to adapt the overall amount to the available budget.",
+            "**Should extra budget be planned for during the project?** Depending on the billing method chosen, a change in the works budget during the project can affect fees calculated by percentage. This is why it is essential to set a realistic works budget from the outset, including a margin for unforeseen costs, in order to anticipate the impact on the final fee amount.",
+          ],
+        },
+      ],
+      keywords: [
+        "Interior architect fees",
+        "Interior architect quote Paris",
+        "Interior architect rate",
+      ],
+    },
+    it: {
+      title: "Onorari di un architetto d'interni a Parigi: come vengono calcolati?",
+      metaTitle: "Onorari Architetto d'Interni Parigi: Come Vengono Calcolati?",
+      excerpt:
+        "Percentuale sui lavori, forfait, tariffa oraria o al m²: come si costruisce l'importo degli onorari di un architetto d'interni a Parigi, e come valutare bene un preventivo.",
+      category: "Consigli & competenza",
+      readingTime: "7 min",
+      intro:
+        "Rivolgersi a un architetto d'interni a Parigi porta rapidamente a una domanda centrale: come si costruisce l'importo degli onorari? Contrariamente a un'idea diffusa, non esiste un listino tariffario unico né una norma che fissi un prezzo standard. Ogni studio definisce il proprio metodo di fatturazione, in base alla natura dell'incarico, all'ampiezza del progetto e al livello di accompagnamento proposto. Comprendere questi meccanismi permette di affrontare un progetto di ristrutturazione o allestimento con una visione di budget chiara, ed evitare brutte sorprese tra il primo appuntamento e la consegna del cantiere.",
+      sections: [
+        {
+          heading: "La percentuale sull'importo dei lavori",
+          paragraphs: [
+            "È il metodo di fatturazione storico della professione, ancora ampiamente utilizzato a Parigi. L'architetto d'interni applica una percentuale, generalmente compresa tra l'8% e il 15%, calcolata sull'importo totale dei lavori esclusi i mobili o al netto delle tasse a seconda degli studi. Questa percentuale varia secondo la complessità tecnica del cantiere, la superficie interessata e il livello di finitura ricercato.",
+            "Questo metodo di calcolo presenta una logica interessante: allinea l'interesse dell'architetto a quello del cliente. Un progetto più ambizioso, che richiede maggiore coordinamento e supervisione, genera naturalmente onorari proporzionalmente più elevati — senza però incentivare l'architetto a gonfiare artificialmente il budget lavori, poiché la sua reputazione dipende soprattutto dalla qualità del risultato consegnato.",
+          ],
+        },
+        {
+          heading: "Il forfait",
+          paragraphs: [
+            "Per incarichi dal perimetro ben delimitato — progettazione di una pianta di allestimento, definizione di una palette di materiali, accompagnamento su un ambiente specifico — numerosi studi propongono ormai un forfait fisso, stabilito in anticipo secondo la superficie e la natura esatta della prestazione.",
+            "Il vantaggio principale di questo metodo di fatturazione risiede nella sua prevedibilità: il cliente conosce l'importo esatto fin dalla firma, indipendentemente dall'evoluzione del budget lavori in corso di cantiere. È un'opzione particolarmente adatta ai progetti il cui perimetro è chiaramente identificabile fin dall'inizio.",
+          ],
+        },
+        {
+          heading: "La tariffa oraria e la fatturazione al metro quadro",
+          paragraphs: [
+            "Alcuni incarichi puntuali non giustificano una fatturazione a percentuale o a forfait: un consiglio su una pianta esistente, una validazione tecnica, un accompagnamento limitato nel tempo. In questi casi, la fatturazione oraria — generalmente tra 80 € e 150 € a Parigi secondo l'esperienza del professionista — offre una flessibilità adatta a esigenze circoscritte.",
+            "Più rara, la fatturazione al metro quadro si applica soprattutto ai progetti di grande portata, dove viene fissata una tariffa per metro quadro allestito, generalmente tra 100 € e 300 €/m² secondo il livello di prestazione. Permette una stima rapida fin dai primi schizzi, ancor prima di avere un computo dettagliato dei lavori.",
+          ],
+          image: {
+            src: "/assets/images/moodboard-materiaux-architecte-interieur-salon-parisien.jpg",
+            caption: "Selezione di materiali e atmosfere, salotto parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "I fattori che fanno variare l'importo degli onorari",
+          paragraphs: [
+            "Al di là del metodo di calcolo scelto, diversi parametri influenzano direttamente il livello degli onorari. La natura e la complessità dell'immobile giocano un ruolo determinante: un appartamento haussmanniano con cornici da preservare, un loft che richiede una ristrutturazione completa, o un duplex con creazione di una scala non implicano lo stesso livello di intervento tecnico.",
+            "Conta anche l'ampiezza dell'incarico affidato: un semplice consiglio di allestimento non ha nulla a che vedere con un incarico completo che integra progettazione, selezione dei materiali, coordinamento degli artigiani e direzione lavori fino alla consegna. Anche il livello di prestazione ricercato influenza l'importo — tra una ristrutturazione funzionale e un progetto di alta gamma su misura, lo scarto di tempo di progettazione, e quindi di onorari, può essere significativo.",
+            "I vincoli specifici dell'immobile parigino pesano infine sulla bilancia: condominio con regolamento rigido, edificio vincolato o situato in zona protetta, accesso complesso per gli artigiani — tutti elementi che allungano il tempo di gestione del progetto. Anche l'esperienza e la notorietà dello studio si riflettono, come in ogni professione creativa, nel suo listino tariffario.",
+          ],
+        },
+        {
+          heading: "Cosa coprono generalmente gli onorari",
+          paragraphs: [
+            "Un incarico completo di architettura d'interni include solitamente più fasi, che è essenziale chiarire prima della firma: la fase di progettazione, con le piante di allestimento e le proposte di bozze; la scelta dei materiali, delle finiture e dei mobili, con la costituzione di un book di prescrizione; il coordinamento degli artigiani e la gestione del calendario di cantiere; le pratiche amministrative necessarie, in particolare presso l'amministratore condominiale o per alcune autorizzazioni urbanistiche; e il seguito fino alla consegna, che include generalmente un numero definito di visite di cantiere.",
+            "Questo perimetro varia sensibilmente da uno studio all'altro: alcuni includono un numero illimitato di revisioni delle piante, altri fatturano ogni modifica oltre una soglia definita. È proprio questo che giustifica una lettura attenta del preventivo prima di qualsiasi impegno.",
+          ],
+        },
+        {
+          heading: "Come valutare un preventivo di architetto d'interni",
+          paragraphs: [
+            "Prima di impegnarsi, diverse verifiche permettono di evitare incomprensioni successive. Bisogna innanzitutto chiarire il perimetro esatto dell'incarico — sola progettazione, o progettazione associata a una direzione lavori completa — poi chiedere il dettaglio del metodo di calcolo degli onorari, e la base su cui si applica (importo lavori al netto o lordo IVA, mobili inclusi o meno).",
+            "È inoltre essenziale identificare cosa è incluso nel forfait o nella tariffa applicata — numero di visite di cantiere, di riunioni, di set di piante rivisti — e confrontare più proposte a perimetro strettamente equivalente, piuttosto che sul solo importo indicato.",
+          ],
+        },
+        {
+          heading: "Come stabiliamo i nostri onorari da Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, ogni preventivo è costruito su misura, dopo una prima visita dell'immobile e uno scambio approfondito sulle aspettative del progetto. Dettagliamo sistematicamente il perimetro esatto del nostro incarico — progettazione, selezione dei materiali, coordinamento del cantiere — così come il metodo di calcolo scelto, affinché ogni cliente disponga di una visione di budget chiara fin dall'avvio del progetto.",
+            "**State progettando una ristrutturazione o un allestimento d'interni a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un primo scambio, oppure [contattateci](/it/contact) per un preventivo personalizzato.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Qual è la percentuale media applicata da un architetto d'interni a Parigi?** La percentuale si situa generalmente tra l'8% e il 15% dell'importo dei lavori, secondo la complessità del progetto e il livello di prestazione. Questa percentuale va sempre precisata per iscritto nel preventivo, con la base di calcolo esatta (importo al netto o lordo IVA, mobili inclusi o meno). Per fasce di budget dettagliate secondo il tipo di progetto, consultate il nostro articolo sul [prezzo di un architetto d'interni al m² a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
+            "**Il preventivo di un architetto d'interni è gratuito?** Dipende da ogni studio: alcuni propongono un primo appuntamento conoscitivo gratuito, altri fatturano una prestazione di studio di fattibilità a monte, in particolare per i progetti complessi che richiedono una visita tecnica approfondita. Si raccomanda di chiarire questo punto fin dal primo contatto.",
+            "**Si possono negoziare gli onorari di un architetto d'interni?** L'importo dipende soprattutto dal perimetro dell'incarico piuttosto che da una semplice negoziazione tariffaria. È invece del tutto possibile modificare il perimetro affidato — ad esempio limitando l'incarico alla progettazione senza direzione lavori — per adattare l'importo complessivo al budget disponibile.",
+            "**Bisogna prevedere un budget supplementare in corso di progetto?** Secondo il metodo di fatturazione scelto, un'evoluzione dell'importo dei lavori in corso di cantiere può far variare gli onorari calcolati a percentuale. Per questo è essenziale definire fin dall'inizio un budget lavori realistico, includendo un margine per gli imprevisti, per anticipare l'impatto sull'importo finale degli onorari.",
+          ],
+        },
+      ],
+      keywords: [
+        "Onorari architetto d'interni",
+        "Preventivo architetto d'interni Parigi",
+        "Tariffa architetto d'interni",
+      ],
+    },
+  },
+};
+
+export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {
+  if (lang === "fr") return article;
+  const overrides = JOURNAL_I18N[article.slug]?.[lang];
+  if (!overrides) return article;
+  return { ...article, ...overrides };
+}
