@@ -781,7 +781,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "**Quel est le prix moyen d'un architecte d'intérieur à Paris en 2026 ?** Les honoraires se situent le plus souvent entre 90 € et 200 € par m² pour une mission de conception, ou entre 10 % et 15 % du montant des travaux pour une mission complète avec suivi de chantier.",
           "**Le prix dépend-il de la taille de l'appartement ?** Oui, mais pas de façon strictement proportionnelle : les coûts fixes d'un projet (démarches administratives, installation de chantier, coordination) se répartissent sur un plus grand nombre de m² dans les grandes surfaces, ce qui explique un prix au m² légèrement dégressif au-delà de 80-100 m².",
           "**Un petit budget permet-il de faire appel à un architecte d'intérieur ?** Oui. Une mission ponctuelle — visite-conseil, avis sur un plan, accompagnement partiel — reste accessible dès 2 500 € environ, et peut suffire à sécuriser les choix essentiels d'un projet sans mobiliser un budget d'honoraires complet.",
-          "**Faut-il inclure le coût des travaux dans le budget de l'architecte ?** Non : les honoraires de conception et de suivi sont distincts du coût des travaux réalisés par les artisans. Il est essentiel de budgéter les deux séparément pour avoir une vision réaliste du coût total du projet.",
+          "**Faut-il inclure le coût des travaux dans le budget de l'architecte ?** Non : les honoraires de conception et de suivi sont distincts du coût des travaux réalisés par les artisans. Il est essentiel de budgéter les deux séparément pour avoir une vision réaliste du coût total du projet. Pour une estimation détaillée du budget des travaux poste par poste, consultez notre article sur le [coût d'une rénovation d'appartement à Paris](/journal/cout-renovation-appartement-paris-budget-complet).",
           "**Comment sont concrètement calculés ces honoraires ?** Les modes de calcul (pourcentage des travaux, forfait, taux horaire, tarif au m²) et les critères à vérifier avant de signer un devis sont détaillés dans notre article sur les [honoraires d'un architecte d'intérieur à Paris](/journal/honoraires-architecte-interieur-paris).",
         ],
       },
@@ -1313,7 +1313,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
           "**Quel est le pourcentage moyen appliqué par un architecte d'intérieur à Paris ?** Le taux se situe généralement entre 8 % et 15 % du montant des travaux, selon la complexité du projet et le niveau de prestation. Ce taux doit systématiquement être précisé par écrit dans le devis, avec la base de calcul exacte (montant HT ou TTC, mobilier inclus ou non). Pour des fourchettes de budget détaillées selon le type de projet, consultez notre article sur le [prix d'un architecte d'intérieur à Paris](/journal/prix-architecte-interieur-paris-m2-2026).",
           "**Le devis d'un architecte d'intérieur est-il gratuit ?** Cela dépend de chaque studio : certains proposent un premier rendez-vous de découverte gratuit, d'autres facturent une prestation d'étude de faisabilité en amont, notamment pour les projets complexes nécessitant une visite technique approfondie. Il est recommandé de clarifier ce point dès le premier contact.",
           "**Peut-on négocier les honoraires d'un architecte d'intérieur ?** Le montant dépend avant tout du périmètre de la mission plutôt que d'une simple négociation tarifaire. Il est en revanche tout à fait possible d'ajuster le périmètre confié — par exemple en limitant la mission à la conception sans suivi de chantier — pour adapter le montant global au budget disponible.",
-          "**Faut-il prévoir un budget supplémentaire en cours de projet ?** Selon le mode de facturation choisi, une évolution du montant des travaux en cours de chantier peut faire varier les honoraires calculés au pourcentage. C'est pourquoi il est essentiel de définir dès le départ un budget travaux réaliste, incluant une marge pour les imprévus, afin d'anticiper l'impact sur le montant final des honoraires.",
+          "**Faut-il prévoir un budget supplémentaire en cours de projet ?** Selon le mode de facturation choisi, une évolution du montant des travaux en cours de chantier peut faire varier les honoraires calculés au pourcentage. C'est pourquoi il est essentiel de définir dès le départ un budget travaux réaliste, incluant une marge pour les imprévus, afin d'anticiper l'impact sur le montant final des honoraires. Pour connaître les fourchettes de prix des travaux eux-mêmes, poste par poste, consultez notre article sur le [coût d'une rénovation d'appartement à Paris](/journal/cout-renovation-appartement-paris-budget-complet).",
         ],
       },
     ],
@@ -1321,6 +1321,100 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "Honoraires architecte d'intérieur",
       "Devis architecte d'intérieur Paris",
       "Tarif architecte d'intérieur",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
+  {
+    slug: "cout-renovation-appartement-paris-budget-complet",
+    title: "Coût rénovation appartement Paris : budget complet 2026",
+    metaTitle: "Coût Rénovation Appartement Paris : Budget Complet des Travaux 2026",
+    excerpt:
+      "Rafraîchissement, rénovation complète ou rénovation lourde : découvrez le budget réel des travaux de rénovation d'un appartement à Paris en 2026, poste par poste.",
+    date: "2026-09-28",
+    category: "Conseils & expertise",
+    cover: "/assets/images/budget-renovation-appartement-paris-2026-repartition-travaux.jpg",
+    readingTime: "8 min",
+    intro:
+      "Combien coûte réellement la rénovation d'un appartement à Paris ? C'est la première question que se posent presque tous nos futurs clients, bien avant de penser aux matériaux ou au style. Et c'est une question légitime : entre un simple rafraîchissement et une rénovation lourde avec redistribution complète des volumes, l'écart de budget peut aller de un à dix. Cet article ne traite pas des honoraires d'architecte, mais exclusivement du **budget des travaux eux-mêmes** — gros œuvre, second œuvre, finitions, cuisine, salle de bains, électricité, plomberie — pour vous donner une vision réaliste et chiffrée du coût total d'un chantier à Paris en 2026.",
+    sections: [
+      {
+        heading: "Les quatre niveaux de rénovation et leur coût au m²",
+        paragraphs: [
+          "Le coût d'une rénovation dépend avant tout de son ampleur. On distingue généralement quatre niveaux d'intervention, chacun avec sa propre fourchette de prix à Paris en 2026.",
+          "**Le rafraîchissement** se limite aux finitions : peinture, revêtements de sol, remplacement de sanitaires ou de la cuisine sans toucher aux réseaux ni aux cloisons. C'est l'option la plus économique, comptez entre 300 € et 800 € par m². Elle convient à un appartement déjà fonctionnel, où seul l'aspect esthétique doit être repris.",
+          "**La rénovation partielle** intervient dès que l'on touche à une partie de l'électricité, de la plomberie ou que l'on modifie quelques cloisons non porteuses. Cette catégorie couvre une fourchette large, de 600 € à 1 800 € par m², selon le nombre de postes concernés et l'état des réseaux existants.",
+          "**La rénovation complète** reprend l'intégralité des réseaux (électricité aux normes, plomberie neuve), les revêtements de toutes les pièces et généralement la cuisine et la ou les salles de bains. C'est la configuration la plus fréquente pour un appartement ancien acquis dans l'optique d'y vivre durablement. Comptez entre 1 200 € et 2 000 € par m², voire jusqu'à 2 500 € par m² selon le niveau de finition retenu.",
+          "**La rénovation lourde avec redistribution des volumes** implique la création ou la suppression de cloisons porteuses, une redistribution complète du plan, ou la transformation d'un logement à l'abandon depuis plusieurs décennies. Le budget grimpe alors entre 1 800 € et 3 000 € par m², et peut dépasser 3 500 € par m² dans l'ancien haussmannien nécessitant une reprise structurelle importante.",
+          "À titre d'exemple concret, pour un appartement parisien de 50 m² : un rafraîchissement représente un budget de 20 000 € à 40 000 €, une rénovation complète se situe le plus souvent entre 60 000 € et 100 000 €, et une rénovation lourde avec redistribution peut atteindre 100 000 € à 160 000 €.",
+        ],
+        image: {
+          src: "/assets/images/chantier-renovation-appartement-haussmannien-paris-parquet-plans.jpg",
+          caption: "Chantier de rénovation dans un appartement haussmannien parisien, Supra Studio",
+        },
+      },
+      {
+        heading: "La majoration parisienne : pourquoi les travaux coûtent plus cher qu'en province",
+        paragraphs: [
+          "À surface et niveau de prestation identiques, les travaux à Paris coûtent en moyenne 15 % à 25 % plus cher qu'en région. Cette majoration s'explique par plusieurs contraintes propres à la capitale : difficulté d'accès aux immeubles anciens (absence d'ascenseur, cages d'escalier étroites rendant l'évacuation des gravats et la livraison des matériaux plus longues), stationnement limité pour les artisans, horaires de chantier restreints imposés par les règlements de copropriété, et une demande soutenue qui maintient les tarifs des entreprises du bâtiment à un niveau élevé. Ce surcoût doit être intégré dès l'établissement du budget prévisionnel, sous peine de mauvaise surprise au moment des premiers devis.",
+        ],
+      },
+      {
+        heading: "Le budget poste par poste : ce que coûte chaque corps de métier",
+        paragraphs: [
+          "Au-delà du prix global au m², il est utile de comprendre comment se répartit le budget entre les différents postes de travaux, pour identifier où se concentrent les principaux coûts d'un chantier.",
+          "**La cuisine**, hors électroménager haut de gamme, représente un budget de 1 500 € à 2 500 € par m² de cuisine pour un agencement sur mesure de qualité. Pour une cuisine de 10 m², cela représente donc un investissement de 15 000 € à 25 000 €, auquel s'ajoute l'électroménager.",
+          "**La salle de bains** est, avec la cuisine, la pièce la plus coûteuse au m² en raison de la densité des équipements techniques qu'elle concentre. Comptez entre 1 200 € et 2 500 € par m², soit un budget total de 4 500 € à 25 000 € selon la surface de la pièce et le niveau de gamme de la robinetterie, du carrelage et de la faïence choisis.",
+          "**La plomberie** : la reprise complète des réseaux (alimentation et évacuation) représente un coût de 60 € à 110 € HT par m² habitable, un poste qui devient incontournable dès qu'un appartement ancien n'a pas été rénové depuis plusieurs décennies.",
+          "**L'électricité** : la mise aux normes, obligatoire dans la plupart des rénovations lourdes, se chiffre entre 40 € et 130 € par m² selon l'état de l'installation existante et le nombre de points lumineux et de prises souhaités.",
+          "**La peinture** standard sur murs et plafonds préparés coûte entre 25 € et 50 € HT par m², un tarif qui peut monter jusqu'à 80 € par m² pour des effets décoratifs (enduit à la chaux, béton ciré, papier peint haut de gamme).",
+          "**Le déplacement de cloisons** : créer une cloison non porteuse coûte généralement entre 50 € et 90 € HT par m² de cloison, tandis que sa démolition revient à 30 € à 60 € HT par m². L'ouverture d'un mur porteur, qui nécessite la pose d'un IPN et une étude structurelle préalable, représente un budget spécifique de 3 500 € à 8 000 € selon la portée à franchir et la complexité de la reprise de charge.",
+        ],
+      },
+      {
+        heading: "Les facteurs qui font varier le budget d'un chantier",
+        paragraphs: [
+          "Deux appartements de surface identique peuvent afficher des budgets de travaux très différents. Plusieurs facteurs expliquent ces écarts.",
+          "**L'état du bâti existant** est le premier critère : un appartement haussmannien avec parquet à reprendre, moulures à restaurer et plomberie en plomb à remplacer intégralement coûte nettement plus cher à traiter qu'un appartement des années 1990 en bon état général.",
+          "**L'ampleur de la redistribution** pèse directement sur le budget : chaque mur déplacé implique une étude, une autorisation de copropriété si le mur est mitoyen ou porteur, la dépose, la reprise des sols et plafonds, et la remise en peinture des surfaces concernées.",
+          "**Le règlement de copropriété** peut allonger la durée du chantier — horaires de travaux restreints, interdiction de certains gros œuvres les jours fériés — ce qui se répercute sur le coût de main-d'œuvre facturé par les entreprises.",
+          "**Le niveau de finition** fait varier le budget du simple au double : le choix entre un carrelage d'entrée de gamme et une pierre naturelle, ou entre une peinture standard et un enduit à la chaux appliqué à la main, peut représenter plusieurs dizaines de milliers d'euros d'écart sur un projet de taille moyenne.",
+        ],
+      },
+      {
+        heading: "La TVA applicable aux travaux de rénovation",
+        paragraphs: [
+          "Le taux de TVA appliqué aux travaux dépend de leur nature et de l'ancienneté du logement. Le taux normal de 20 % s'applique aux logements de moins de deux ans ou aux travaux assimilés à une reconstruction. Le taux intermédiaire de 10 % couvre la grande majorité des travaux d'amélioration, de transformation et d'entretien réalisés dans un logement achevé depuis plus de deux ans — c'est le taux le plus fréquent pour une rénovation d'appartement parisien. Enfin, le taux réduit de 5,5 % s'applique spécifiquement aux travaux d'amélioration de la performance énergétique, à condition d'être réalisés par une entreprise certifiée RGE dans un logement de plus de deux ans.",
+          "Ces taux réduits peuvent se cumuler avec des aides publiques telles que MaPrimeRénov', les Certificats d'Économie d'Énergie (CEE) ou l'Éco-PTZ, pour les projets intégrant une dimension de rénovation énergétique — un point à vérifier systématiquement en amont, car ces dispositifs peuvent alléger significativement le budget global.",
+        ],
+      },
+      {
+        heading: "Combien de temps dure un chantier, et pourquoi cela compte pour le budget",
+        paragraphs: [
+          "La durée du chantier a un impact direct sur le coût final, car chaque semaine supplémentaire représente des frais fixes (location d'engins, gardiennage de chantier, coordination). Un rafraîchissement simple se réalise en 2 à 4 semaines. Une rénovation complète avec reprise des réseaux demande généralement 2 à 4 mois. Une rénovation lourde avec modification du plan et démarches d'autorisation peut s'étendre sur 3 à 6 mois de travaux, auxquels s'ajoutent les délais de conception et d'instruction administrative en amont — portant la durée totale du projet, de la décision initiale à la livraison, à 4 à 6 mois en moyenne.",
+        ],
+      },
+      {
+        heading: "Comment nous établissons un budget de travaux chez Supra Studio",
+        paragraphs: [
+          "Chez Supra Studio, l'établissement d'un budget de travaux ne se limite jamais à l'application d'un prix au m² théorique. Notre première visite sur place nous permet d'évaluer précisément l'état du bâti, d'identifier les postes qui nécessiteront une reprise complète (réseaux, structure, isolation) et ceux qui pourront être conservés, puis de faire chiffrer chaque poste par les entreprises avec lesquelles nous travaillons régulièrement. Cette méthode permet d'obtenir un budget réaliste et détaillé, poste par poste, avant tout engagement de votre part.",
+          "**Vous préparez un projet de rénovation à Paris ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour évaluer le budget de votre projet.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quel budget prévoir pour rénover un appartement de 50 m² à Paris ?** Pour un rafraîchissement simple, comptez 20 000 € à 40 000 €. Pour une rénovation complète avec reprise des réseaux, le budget se situe généralement entre 60 000 € et 100 000 €. Pour une rénovation lourde avec redistribution des volumes, il faut prévoir entre 100 000 € et 160 000 €.",
+          "**Quelle est la différence entre le budget des travaux et les honoraires d'architecte ?** Le budget des travaux couvre uniquement ce que facturent les artisans (gros œuvre, second œuvre, finitions). Les honoraires d'architecte d'intérieur, calculés séparément selon un forfait, un pourcentage des travaux ou un tarif horaire, rémunèrent la conception et le suivi de chantier. Le détail de ces modes de calcul est disponible dans notre article sur les [honoraires d'un architecte d'intérieur à Paris](/journal/honoraires-architecte-interieur-paris).",
+          "**Pourquoi les travaux coûtent-ils plus cher à Paris qu'en province ?** Principalement en raison des contraintes d'accès aux immeubles anciens, du stationnement limité pour les artisans et des horaires de chantier souvent restreints par les règlements de copropriété. Cette majoration représente en moyenne 15 % à 25 % par rapport à un chantier équivalent en région.",
+          "**Quels travaux bénéficient du taux de TVA réduit à 5,5 % ?** Seuls les travaux d'amélioration de la performance énergétique réalisés par une entreprise certifiée RGE, dans un logement achevé depuis plus de deux ans, bénéficient de ce taux réduit. La majorité des autres travaux de rénovation relèvent du taux intermédiaire de 10 %.",
+          "**Faut-il prévoir une marge de sécurité dans le budget des travaux ?** Oui, il est recommandé de prévoir une marge de 10 % à 15 % du budget total pour absorber les imprévus fréquents dans l'ancien parisien : découverte d'un réseau électrique non conforme, d'une poutre à traiter, ou d'un aléa structurel révélé une fois les cloisons ouvertes.",
+        ],
+      },
+    ],
+    keywords: [
+      "Coût rénovation appartement Paris",
+      "Budget travaux rénovation Paris",
+      "Prix rénovation appartement m2",
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },

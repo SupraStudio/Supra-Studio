@@ -1365,7 +1365,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**What is the average price of an interior architect in Paris in 2026?** Fees are most often between €90 and €200 per m² for a design brief, or between 10% and 15% of the works cost for a full brief with site supervision.",
             "**Does the price depend on the size of the apartment?** Yes, but not in strict proportion: a project's fixed costs (administrative procedures, site setup, coordination) are spread over a larger number of m² in bigger spaces, which explains a price per m² that decreases slightly beyond 80–100 m².",
             "**Can you hire an interior architect on a small budget?** Yes. A one-off brief — a consultation visit, an opinion on a plan, partial support — remains accessible from around €2,500, and can be enough to secure the essential choices of a project without committing to a full fee budget.",
-            "**Should the cost of the works be included in the architect's budget?** No: design and supervision fees are separate from the cost of the works carried out by contractors. It is essential to budget for both separately to get a realistic picture of the project's total cost.",
+            "**Should the cost of the works be included in the architect's budget?** No: design and supervision fees are separate from the cost of the works carried out by contractors. It is essential to budget for both separately to get a realistic picture of the project's total cost. For a detailed, item-by-item breakdown of the works budget, see our article on the [cost of renovating an apartment in Paris](/en/journal/cout-renovation-appartement-paris-budget-complet).",
             "**How exactly are these fees calculated?** The billing methods (percentage of works, fixed fee, hourly rate, price per m²) and what to check before signing a quote are detailed in our article on [interior architect fees in Paris](/en/journal/honoraires-architecte-interieur-paris).",
           ],
         },
@@ -1438,7 +1438,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Qual è il prezzo medio di un architetto d'interni a Parigi nel 2026?** Gli onorari si situano più spesso tra 90 € e 200 € al m² per un incarico di progettazione, oppure tra il 10% e il 15% dell'importo dei lavori per un incarico completo con direzione lavori.",
             "**Il prezzo dipende dalla dimensione dell'appartamento?** Sì, ma non in modo strettamente proporzionale: i costi fissi di un progetto (pratiche amministrative, allestimento del cantiere, coordinamento) si ripartiscono su un numero maggiore di m² nelle grandi superfici, il che spiega un prezzo al m² leggermente decrescente oltre gli 80-100 m².",
             "**Un budget limitato permette di rivolgersi a un architetto d'interni?** Sì. Un incarico puntuale — visita conoscitiva, parere su un piano, accompagnamento parziale — resta accessibile a partire da circa 2.500 €, e può bastare a garantire le scelte essenziali di un progetto senza impegnare un budget di onorari completo.",
-            "**Bisogna includere il costo dei lavori nel budget dell'architetto?** No: gli onorari di progettazione e direzione lavori sono distinti dal costo dei lavori realizzati dagli artigiani. È essenziale preventivare i due separatamente per avere una visione realistica del costo totale del progetto.",
+            "**Bisogna includere il costo dei lavori nel budget dell'architetto?** No: gli onorari di progettazione e direzione lavori sono distinti dal costo dei lavori realizzati dagli artigiani. È essenziale preventivare i due separatamente per avere una visione realistica del costo totale del progetto. Per una ripartizione dettagliata del budget lavori, voce per voce, consultate il nostro articolo sul [costo di una ristrutturazione di un appartamento a Parigi](/it/journal/cout-renovation-appartement-paris-budget-complet).",
             "**Come vengono calcolati esattamente questi onorari?** Le modalità di fatturazione (percentuale sui lavori, forfait, tariffa oraria, tariffa al m²) e i criteri da verificare prima di firmare un preventivo sono dettagliati nel nostro articolo sugli [onorari di un architetto d'interni a Parigi](/it/journal/honoraires-architecte-interieur-paris).",
           ],
         },
@@ -2385,7 +2385,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**What is the average percentage applied by an interior architect in Paris?** The rate is generally between 8% and 15% of the works cost, depending on the complexity of the project and the level of service. This rate should always be specified in writing in the quote, along with the exact basis of calculation (excl. or incl. VAT, furniture included or not). For detailed budget ranges by project type, see our article on [interior architect fees per m² in Paris](/en/journal/prix-architecte-interieur-paris-m2-2026).",
             "**Is an interior architect's quote free?** This depends on each practice: some offer a free initial discovery meeting, others charge for a feasibility study upfront, particularly for complex projects requiring an in-depth technical visit. It is recommended to clarify this point from the first contact.",
             "**Can an interior architect's fees be negotiated?** The amount depends above all on the scope of the brief rather than simple price negotiation. It is, however, entirely possible to adjust the scope entrusted — for example by limiting the brief to design without site supervision — to adapt the overall amount to the available budget.",
-            "**Should extra budget be planned for during the project?** Depending on the billing method chosen, a change in the works budget during the project can affect fees calculated by percentage. This is why it is essential to set a realistic works budget from the outset, including a margin for unforeseen costs, in order to anticipate the impact on the final fee amount.",
+            "**Should extra budget be planned for during the project?** Depending on the billing method chosen, a change in the works budget during the project can affect fees calculated by percentage. This is why it is essential to set a realistic works budget from the outset, including a margin for unforeseen costs, in order to anticipate the impact on the final fee amount. For detailed price ranges for the works themselves, item by item, see our article on the [cost of renovating an apartment in Paris](/en/journal/cout-renovation-appartement-paris-budget-complet).",
           ],
         },
       ],
@@ -2465,7 +2465,7 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
             "**Qual è la percentuale media applicata da un architetto d'interni a Parigi?** La percentuale si situa generalmente tra l'8% e il 15% dell'importo dei lavori, secondo la complessità del progetto e il livello di prestazione. Questa percentuale va sempre precisata per iscritto nel preventivo, con la base di calcolo esatta (importo al netto o lordo IVA, mobili inclusi o meno). Per fasce di budget dettagliate secondo il tipo di progetto, consultate il nostro articolo sul [prezzo di un architetto d'interni al m² a Parigi](/it/journal/prix-architecte-interieur-paris-m2-2026).",
             "**Il preventivo di un architetto d'interni è gratuito?** Dipende da ogni studio: alcuni propongono un primo appuntamento conoscitivo gratuito, altri fatturano una prestazione di studio di fattibilità a monte, in particolare per i progetti complessi che richiedono una visita tecnica approfondita. Si raccomanda di chiarire questo punto fin dal primo contatto.",
             "**Si possono negoziare gli onorari di un architetto d'interni?** L'importo dipende soprattutto dal perimetro dell'incarico piuttosto che da una semplice negoziazione tariffaria. È invece del tutto possibile modificare il perimetro affidato — ad esempio limitando l'incarico alla progettazione senza direzione lavori — per adattare l'importo complessivo al budget disponibile.",
-            "**Bisogna prevedere un budget supplementare in corso di progetto?** Secondo il metodo di fatturazione scelto, un'evoluzione dell'importo dei lavori in corso di cantiere può far variare gli onorari calcolati a percentuale. Per questo è essenziale definire fin dall'inizio un budget lavori realistico, includendo un margine per gli imprevisti, per anticipare l'impatto sull'importo finale degli onorari.",
+            "**Bisogna prevedere un budget supplementare in corso di progetto?** Secondo il metodo di fatturazione scelto, un'evoluzione dell'importo dei lavori in corso di cantiere può far variare gli onorari calcolati a percentuale. Per questo è essenziale definire fin dall'inizio un budget lavori realistico, includendo un margine per gli imprevisti, per anticipare l'impatto sull'importo finale degli onorari. Per fasce di prezzo dettagliate dei lavori stessi, voce per voce, consultate il nostro articolo sul [costo di una ristrutturazione di un appartamento a Parigi](/it/journal/cout-renovation-appartement-paris-budget-complet).",
           ],
         },
       ],
@@ -2473,6 +2473,188 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
         "Onorari architetto d'interni",
         "Preventivo architetto d'interni Parigi",
         "Tariffa architetto d'interni",
+      ],
+    },
+  },
+  "cout-renovation-appartement-paris-budget-complet": {
+    en: {
+      title: "Renovation Cost for an Apartment in Paris: Complete Budget 2026",
+      metaTitle: "Renovation Cost Paris Apartment: Complete Works Budget 2026",
+      excerpt:
+        "Light refresh, full renovation or heavy renovation: discover the real cost of renovation works for an apartment in Paris in 2026, broken down item by item.",
+      category: "Advice & Expertise",
+      readingTime: "8 min",
+      intro:
+        "How much does it really cost to renovate an apartment in Paris? This is the first question almost every prospective client asks us, long before thinking about materials or style. And it's a fair question: between a simple refresh and a heavy renovation with a full redistribution of space, the budget can vary by a factor of ten. This article does not cover architect fees, but focuses exclusively on **the cost of the works themselves** — structural work, systems, finishes, kitchen, bathroom, electrics, plumbing — to give you a realistic, costed view of the total price of a building project in Paris in 2026.",
+      sections: [
+        {
+          heading: "The four levels of renovation and their cost per m²",
+          paragraphs: [
+            "The cost of a renovation depends above all on its scale. Four levels of intervention are generally distinguished, each with its own price range in Paris in 2026.",
+            "**A light refresh** is limited to finishes: paint, flooring, replacing bathroom fixtures or the kitchen without touching the systems or partitions. This is the most economical option, costing between €300 and €800 per m². It suits an apartment that is already functional, where only the aesthetics need updating.",
+            "**A partial renovation** comes into play as soon as part of the electrics or plumbing is touched, or a few non-structural partitions are altered. This category covers a wide range, from €600 to €1,800 per m², depending on how many trades are involved and the condition of the existing systems.",
+            "**A full renovation** redoes all the systems (electrics brought up to code, new plumbing), the finishes in every room, and generally the kitchen and bathroom(s). This is the most common configuration for an older apartment bought with a long-term view to living in it. Budget between €1,200 and €2,000 per m², or up to €2,500 per m² depending on the chosen level of finish.",
+            "**A heavy renovation with full redistribution of space** involves creating or removing load-bearing partitions, a complete redesign of the layout, or transforming a home left derelict for decades. The budget then climbs to between €1,800 and €3,000 per m², and can exceed €3,500 per m² in older Haussmann-era buildings requiring substantial structural work.",
+            "As a concrete example, for a 50 m² Parisian apartment: a light refresh represents a budget of €20,000 to €40,000, a full renovation is most often between €60,000 and €100,000, and a heavy renovation with redistribution can reach €100,000 to €160,000.",
+          ],
+          image: {
+            src: "/assets/images/chantier-renovation-appartement-haussmannien-paris-parquet-plans.jpg",
+            caption: "Renovation site in a Haussmann-era Parisian apartment, Supra Studio",
+          },
+        },
+        {
+          heading: "The Paris premium: why works cost more than in the provinces",
+          paragraphs: [
+            "For the same floor area and level of finish, works in Paris cost on average 15% to 25% more than in the regions. This premium is explained by several constraints specific to the capital: difficult access to older buildings (no lift, narrow stairwells making rubble removal and material deliveries slower), limited parking for tradespeople, restricted working hours imposed by co-ownership regulations, and sustained demand that keeps building trade rates high. This extra cost must be factored in from the earliest budget planning, to avoid unpleasant surprises when the first quotes come in.",
+          ],
+        },
+        {
+          heading: "The budget item by item: what each trade costs",
+          paragraphs: [
+            "Beyond the overall price per m², it is useful to understand how the budget breaks down across the different trades, to identify where the main costs of a project are concentrated.",
+            "**The kitchen**, excluding high-end appliances, represents a budget of €1,500 to €2,500 per m² of kitchen for quality bespoke joinery. For a 10 m² kitchen, that means an investment of €15,000 to €25,000, plus appliances.",
+            "**The bathroom** is, along with the kitchen, the most expensive room per m² due to the density of technical fittings it concentrates. Budget between €1,200 and €2,500 per m², or a total budget of €4,500 to €25,000 depending on the size of the room and the quality level of the taps, tiling and sanitaryware chosen.",
+            "**Plumbing**: fully redoing the pipework (supply and drainage) costs €60 to €110 excl. VAT per m² of living space, an item that becomes unavoidable as soon as an older apartment hasn't been renovated in several decades.",
+            "**Electrics**: bringing the wiring up to code, mandatory in most heavy renovations, costs between €40 and €130 per m² depending on the condition of the existing installation and the number of light points and sockets required.",
+            "**Standard paintwork** on prepared walls and ceilings costs €25 to €50 excl. VAT per m², a rate that can rise to €80 per m² for decorative finishes (lime render, polished concrete, high-end wallpaper).",
+            "**Moving partitions**: building a non-structural partition generally costs €50 to €90 excl. VAT per m² of partition, while demolishing one costs €30 to €60 excl. VAT per m². Opening up a load-bearing wall, which requires installing a steel beam and a prior structural survey, represents a specific budget of €3,500 to €8,000 depending on the span and the complexity of the load transfer.",
+          ],
+        },
+        {
+          heading: "The factors that make a project's budget vary",
+          paragraphs: [
+            "Two apartments of identical floor area can show very different works budgets. Several factors explain these differences.",
+            "**The condition of the existing building** is the first criterion: a Haussmann-era apartment with flooring to redo, mouldings to restore and lead plumbing to fully replace costs noticeably more to treat than a 1990s apartment in overall good condition.",
+            "**The scale of the redistribution** weighs directly on the budget: every wall that is moved requires a survey, co-ownership approval if the wall is party or load-bearing, removal, redoing floors and ceilings, and repainting the affected surfaces.",
+            "**Co-ownership regulations** can extend the length of the project — restricted working hours, a ban on certain structural work on public holidays — which feeds through into the labour cost charged by companies.",
+            "**The level of finish** can double the budget: choosing between entry-level tiling and natural stone, or between standard paint and hand-applied lime render, can represent a difference of several tens of thousands of euros on a mid-sized project.",
+          ],
+        },
+        {
+          heading: "VAT rates applicable to renovation works",
+          paragraphs: [
+            "The VAT rate applied to works depends on their nature and the age of the property. The standard rate of 20% applies to homes less than two years old or works classed as a reconstruction. The intermediate rate of 10% covers the vast majority of improvement, alteration and maintenance works carried out in a home completed more than two years ago — this is the most common rate for renovating a Parisian apartment. Finally, the reduced rate of 5.5% applies specifically to energy-performance improvement works, provided they are carried out by an RGE-certified contractor in a home more than two years old.",
+            "These reduced rates can be combined with public grants such as MaPrimeRénov', Energy Saving Certificates (CEE) or the zero-interest Éco-PTZ loan, for projects with an energy-renovation component — a point systematically worth checking in advance, as these schemes can significantly reduce the overall budget.",
+          ],
+        },
+        {
+          heading: "How long does a project take, and why it matters for the budget",
+          paragraphs: [
+            "The length of a project has a direct impact on the final cost, since every extra week represents fixed costs (equipment hire, site security, coordination). A simple refresh takes 2 to 4 weeks. A full renovation redoing the systems generally takes 2 to 4 months. A heavy renovation with layout changes and permit applications can span 3 to 6 months of works, on top of the design and administrative approval time beforehand — bringing the total project length, from initial decision to handover, to 4 to 6 months on average.",
+          ],
+        },
+        {
+          heading: "How we set a works budget at Supra Studio",
+          paragraphs: [
+            "At Supra Studio, setting a works budget is never limited to applying a theoretical price per m². Our first site visit allows us to precisely assess the condition of the building, identify the items that will need a full overhaul (systems, structure, insulation) and those that can be kept, then have each item costed by the companies we work with regularly. This method delivers a realistic, detailed, item-by-item budget before you commit to anything.",
+            "**Planning a renovation project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an on-site consultation, or [get in touch](/en/contact) to assess your project's budget.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What budget should I plan for renovating a 50 m² apartment in Paris?** For a simple refresh, budget €20,000 to €40,000. For a full renovation redoing the systems, the budget is generally between €60,000 and €100,000. For a heavy renovation with redistribution of space, plan for €100,000 to €160,000.",
+            "**What's the difference between the works budget and architect fees?** The works budget only covers what tradespeople charge (structural work, systems, finishes). Interior architect fees, calculated separately as a fixed fee, a percentage of the works or an hourly rate, cover design and site supervision. The details of these calculation methods are available in our article on [interior architect fees in Paris](/en/journal/honoraires-architecte-interieur-paris).",
+            "**Why do works cost more in Paris than in the provinces?** Mainly due to access constraints in older buildings, limited parking for tradespeople and working hours often restricted by co-ownership regulations. This premium averages 15% to 25% compared with an equivalent project in the regions.",
+            "**Which works qualify for the reduced 5.5% VAT rate?** Only energy-performance improvement works carried out by an RGE-certified contractor, in a home completed more than two years ago, qualify for this reduced rate. Most other renovation works fall under the intermediate 10% rate.",
+            "**Should a safety margin be included in the works budget?** Yes, it is recommended to allow a margin of 10% to 15% of the total budget to absorb the unforeseen issues that are common in older Parisian buildings: discovering non-compliant wiring, a beam that needs treating, or a structural issue revealed once the partitions are opened up.",
+          ],
+        },
+      ],
+      keywords: [
+        "Renovation cost apartment Paris",
+        "Renovation works budget Paris",
+        "Renovation price per m2",
+      ],
+    },
+    it: {
+      title: "Costo ristrutturazione appartamento Parigi: budget completo 2026",
+      metaTitle: "Costo Ristrutturazione Appartamento Parigi: Budget Lavori Completo 2026",
+      excerpt:
+        "Rinfresco, ristrutturazione completa o ristrutturazione pesante: scoprite il budget reale dei lavori di ristrutturazione di un appartamento a Parigi nel 2026, voce per voce.",
+      category: "Consigli & competenza",
+      readingTime: "8 min",
+      intro:
+        "Quanto costa realmente ristrutturare un appartamento a Parigi? È la prima domanda che si pongono quasi tutti i nostri futuri clienti, ben prima di pensare ai materiali o allo stile. Ed è una domanda legittima: tra un semplice rinfresco e una ristrutturazione pesante con ridistribuzione completa degli spazi, la differenza di budget può arrivare da uno a dieci. Questo articolo non tratta degli onorari dell'architetto, ma esclusivamente del **budget dei lavori stessi** — opere murarie, impianti, finiture, cucina, bagno, elettricità, idraulica — per darvi una visione realistica e quantificata del costo totale di un cantiere a Parigi nel 2026.",
+      sections: [
+        {
+          heading: "I quattro livelli di ristrutturazione e il loro costo al m²",
+          paragraphs: [
+            "Il costo di una ristrutturazione dipende innanzitutto dalla sua ampiezza. Si distinguono generalmente quattro livelli di intervento, ciascuno con la propria fascia di prezzo a Parigi nel 2026.",
+            "**Il rinfresco** si limita alle finiture: pittura, rivestimenti del pavimento, sostituzione di sanitari o della cucina senza toccare gli impianti né le pareti. È l'opzione più economica, tra 300 € e 800 € al m². È adatta a un appartamento già funzionale, dove va rivisto solo l'aspetto estetico.",
+            "**La ristrutturazione parziale** interviene non appena si tocca una parte dell'elettricità, dell'idraulica o si modificano alcune pareti non portanti. Questa categoria copre una fascia ampia, da 600 € a 1.800 € al m², a seconda del numero di voci coinvolte e dello stato degli impianti esistenti.",
+            "**La ristrutturazione completa** rifà integralmente gli impianti (elettricità a norma, idraulica nuova), i rivestimenti di tutti gli ambienti e generalmente la cucina e il bagno o i bagni. È la configurazione più frequente per un appartamento datato acquistato con l'intenzione di viverci a lungo. Prevedete tra 1.200 € e 2.000 € al m², fino a 2.500 € al m² secondo il livello di finitura scelto.",
+            "**La ristrutturazione pesante con ridistribuzione degli spazi** implica la creazione o la soppressione di pareti portanti, una ridistribuzione completa della pianta, o la trasformazione di un alloggio abbandonato da diversi decenni. Il budget sale allora tra 1.800 € e 3.000 € al m², e può superare i 3.500 € al m² nell'edilizia haussmanniana che richiede un importante intervento strutturale.",
+            "A titolo di esempio concreto, per un appartamento parigino di 50 m²: un rinfresco rappresenta un budget di 20.000 € - 40.000 €, una ristrutturazione completa si situa il più delle volte tra 60.000 € e 100.000 €, e una ristrutturazione pesante con ridistribuzione può raggiungere 100.000 € - 160.000 €.",
+          ],
+          image: {
+            src: "/assets/images/chantier-renovation-appartement-haussmannien-paris-parquet-plans.jpg",
+            caption: "Cantiere di ristrutturazione in un appartamento haussmanniano parigino, Supra Studio",
+          },
+        },
+        {
+          heading: "La maggiorazione parigina: perché i lavori costano più che in provincia",
+          paragraphs: [
+            "A parità di superficie e livello di prestazione, i lavori a Parigi costano in media dal 15% al 25% in più rispetto alla provincia. Questa maggiorazione si spiega con diversi vincoli propri della capitale: difficoltà di accesso agli edifici antichi (assenza di ascensore, vani scala stretti che rallentano lo smaltimento delle macerie e la consegna dei materiali), parcheggio limitato per gli artigiani, orari di cantiere ristretti imposti dai regolamenti condominiali, e una domanda sostenuta che mantiene elevate le tariffe delle imprese edili. Questo sovraccosto va integrato fin dalla definizione del budget previsionale, per evitare brutte sorprese al momento dei primi preventivi.",
+          ],
+        },
+        {
+          heading: "Il budget voce per voce: cosa costa ogni mestiere",
+          paragraphs: [
+            "Al di là del prezzo complessivo al m², è utile capire come si ripartisce il budget tra le diverse voci di lavoro, per individuare dove si concentrano i costi principali di un cantiere.",
+            "**La cucina**, esclusi gli elettrodomestici di fascia alta, rappresenta un budget di 1.500 € - 2.500 € al m² di cucina per un allestimento su misura di qualità. Per una cucina di 10 m², ciò rappresenta quindi un investimento di 15.000 € - 25.000 €, a cui si aggiungono gli elettrodomestici.",
+            "**Il bagno** è, insieme alla cucina, l'ambiente più costoso al m² per la densità di impianti tecnici che concentra. Prevedete tra 1.200 € e 2.500 € al m², ossia un budget totale di 4.500 € - 25.000 € secondo la superficie dell'ambiente e il livello di gamma di rubinetteria, piastrelle e sanitari scelti.",
+            "**L'idraulica**: il rifacimento completo degli impianti (adduzione e scarico) rappresenta un costo di 60 € - 110 € IVA esclusa al m² abitabile, una voce che diventa indispensabile non appena un appartamento datato non è stato ristrutturato da diversi decenni.",
+            "**L'elettricità**: la messa a norma, obbligatoria nella maggior parte delle ristrutturazioni pesanti, si aggira tra 40 € e 130 € al m² secondo lo stato dell'impianto esistente e il numero di punti luce e prese desiderati.",
+            "**La pittura** standard su pareti e soffitti preparati costa tra 25 € e 50 € IVA esclusa al m², una tariffa che può salire fino a 80 € al m² per effetti decorativi (intonaco a calce, cemento levigato, carta da parati di pregio).",
+            "**Lo spostamento di pareti**: creare una parete non portante costa generalmente tra 50 € e 90 € IVA esclusa al m² di parete, mentre demolirla costa 30 € - 60 € IVA esclusa al m². L'apertura di un muro portante, che richiede la posa di una trave IPN e uno studio strutturale preliminare, rappresenta un budget specifico di 3.500 € - 8.000 € secondo la luce da coprire e la complessità della ripresa del carico.",
+          ],
+        },
+        {
+          heading: "I fattori che fanno variare il budget di un cantiere",
+          paragraphs: [
+            "Due appartamenti di superficie identica possono presentare budget lavori molto diversi. Diversi fattori spiegano questi scarti.",
+            "**Lo stato dell'edificio esistente** è il primo criterio: un appartamento haussmanniano con parquet da rifare, cornici da restaurare e tubature in piombo da sostituire integralmente costa sensibilmente di più da trattare rispetto a un appartamento degli anni '90 in buono stato generale.",
+            "**L'ampiezza della ridistribuzione** pesa direttamente sul budget: ogni parete spostata implica uno studio, un'autorizzazione condominiale se la parete è comune o portante, la rimozione, il rifacimento di pavimenti e soffitti, e la ritinteggiatura delle superfici interessate.",
+            "**Il regolamento condominiale** può allungare la durata del cantiere — orari di lavoro ristretti, divieto di alcune opere murarie nei giorni festivi — il che si ripercuote sul costo della manodopera fatturato dalle imprese.",
+            "**Il livello di finitura** fa variare il budget anche del doppio: la scelta tra un piastrellato di fascia base e una pietra naturale, o tra una pittura standard e un intonaco a calce applicato a mano, può rappresentare uno scarto di diverse decine di migliaia di euro su un progetto di media dimensione.",
+          ],
+        },
+        {
+          heading: "L'IVA applicabile ai lavori di ristrutturazione",
+          paragraphs: [
+            "L'aliquota IVA applicata ai lavori dipende dalla loro natura e dall'anzianità dell'alloggio. L'aliquota normale del 20% si applica agli alloggi di meno di due anni o ai lavori assimilati a una ricostruzione. L'aliquota intermedia del 10% copre la grande maggioranza dei lavori di miglioramento, trasformazione e manutenzione realizzati in un alloggio ultimato da più di due anni — è l'aliquota più frequente per una ristrutturazione di appartamento parigino. Infine, l'aliquota ridotta del 5,5% si applica specificamente ai lavori di miglioramento delle prestazioni energetiche, a condizione che siano realizzati da un'impresa certificata RGE in un alloggio di oltre due anni.",
+            "Queste aliquote ridotte possono cumularsi con aiuti pubblici come MaPrimeRénov', i Certificati di Risparmio Energetico (CEE) o il prestito a tasso zero Éco-PTZ, per i progetti che integrano una componente di riqualificazione energetica — un punto da verificare sistematicamente in anticipo, poiché questi dispositivi possono alleggerire notevolmente il budget complessivo.",
+          ],
+        },
+        {
+          heading: "Quanto dura un cantiere, e perché questo conta per il budget",
+          paragraphs: [
+            "La durata del cantiere ha un impatto diretto sul costo finale, poiché ogni settimana supplementare rappresenta costi fissi (noleggio attrezzature, sorveglianza del cantiere, coordinamento). Un rinfresco semplice si realizza in 2-4 settimane. Una ristrutturazione completa con rifacimento degli impianti richiede generalmente 2-4 mesi. Una ristrutturazione pesante con modifica della pianta e pratiche autorizzative può estendersi su 3-6 mesi di lavori, a cui si aggiungono i tempi di progettazione e istruttoria amministrativa a monte — portando la durata totale del progetto, dalla decisione iniziale alla consegna, a 4-6 mesi in media.",
+          ],
+        },
+        {
+          heading: "Come stabiliamo un budget lavori da Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, la definizione di un budget lavori non si limita mai all'applicazione di un prezzo al m² teorico. Il nostro primo sopralluogo ci permette di valutare con precisione lo stato dell'edificio, identificare le voci che richiederanno un rifacimento completo (impianti, struttura, isolamento) e quelle che potranno essere conservate, per poi far quantificare ogni voce dalle imprese con cui lavoriamo regolarmente. Questo metodo permette di ottenere un budget realistico e dettagliato, voce per voce, prima di qualsiasi impegno da parte vostra.",
+            "**State preparando un progetto di ristrutturazione a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un sopralluogo conoscitivo, oppure [contattateci](/it/contact) per valutare il budget del vostro progetto.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Che budget prevedere per ristrutturare un appartamento di 50 m² a Parigi?** Per un semplice rinfresco, prevedete 20.000 € - 40.000 €. Per una ristrutturazione completa con rifacimento degli impianti, il budget si situa generalmente tra 60.000 € e 100.000 €. Per una ristrutturazione pesante con ridistribuzione degli spazi, occorre prevedere tra 100.000 € e 160.000 €.",
+            "**Qual è la differenza tra il budget lavori e gli onorari dell'architetto?** Il budget lavori copre solo quanto fatturano gli artigiani (opere murarie, impianti, finiture). Gli onorari dell'architetto d'interni, calcolati separatamente secondo un forfait, una percentuale sui lavori o una tariffa oraria, retribuiscono la progettazione e la direzione lavori. Il dettaglio di questi metodi di calcolo è disponibile nel nostro articolo sugli [onorari di un architetto d'interni a Parigi](/it/journal/honoraires-architecte-interieur-paris).",
+            "**Perché i lavori costano di più a Parigi che in provincia?** Principalmente per i vincoli di accesso agli edifici antichi, il parcheggio limitato per gli artigiani e gli orari di cantiere spesso ristretti dai regolamenti condominiali. Questa maggiorazione rappresenta in media dal 15% al 25% rispetto a un cantiere equivalente in provincia.",
+            "**Quali lavori beneficiano dell'aliquota IVA ridotta al 5,5%?** Solo i lavori di miglioramento delle prestazioni energetiche realizzati da un'impresa certificata RGE, in un alloggio ultimato da più di due anni, beneficiano di questa aliquota ridotta. La maggior parte degli altri lavori di ristrutturazione rientra nell'aliquota intermedia del 10%.",
+            "**Bisogna prevedere un margine di sicurezza nel budget lavori?** Sì, si raccomanda di prevedere un margine del 10%-15% del budget totale per assorbire gli imprevisti frequenti negli edifici antichi parigini: scoperta di un impianto elettrico non conforme, di una trave da trattare, o di un imprevisto strutturale rivelato una volta aperte le pareti.",
+          ],
+        },
+      ],
+      keywords: [
+        "Costo ristrutturazione appartamento Parigi",
+        "Budget lavori ristrutturazione Parigi",
+        "Prezzo ristrutturazione al m2",
       ],
     },
   },
