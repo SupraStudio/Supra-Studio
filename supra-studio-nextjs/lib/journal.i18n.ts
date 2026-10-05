@@ -2658,6 +2658,166 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "choisir-architecte-interieur-paris": {
+    en: {
+      title: "Choosing your interior architect in Paris: beyond style, a way of thinking",
+      metaTitle: "Choosing an Interior Architect in Paris: Guide and Selection Criteria",
+      excerpt:
+        "Beyond a portfolio of past work, how do you really choose your interior architect in Paris? The real criteria: listening, reasoning, and the ability to turn your constraints into assets.",
+      category: "Advice & Expertise",
+      readingTime: "7 min",
+      intro:
+        "Most searches start the same way: hours spent collecting images, following accounts, saving interiors that appeal without always knowing why. That's a natural, even necessary step. But it feeds a common confusion: choosing an interior architect based solely on what they've already produced, as if picking a style from a catalogue. At Supra Studio, we believe this approach misses the point entirely — and sets you up for a common disappointment once the project is underway: an aesthetically successful interior that doesn't actually resemble the people living in it.",
+      sections: [
+        {
+          heading: "What's really at stake behind an interior project",
+          paragraphs: [
+            "An apartment isn't simply an assembly of tastefully chosen materials and colours. It's a response to a way of living: how you entertain, how you work from home, how you move through the space in a morning rush, how much quiet you need in the evening. Two people who share exactly the same aesthetic references — the same tones, the same furniture, the same materials — can need two radically different projects, simply because their relationship to space, light or privacy isn't the same.",
+            "This is why the first question to ask when meeting an architect isn't \"do I like what they do?\", but \"are they trying to understand how I live, before drawing anything at all?\". That distinction changes everything that follows.",
+          ],
+        },
+        {
+          heading: "Between technical mastery and genuine listening",
+          paragraphs: [
+            "The interior architecture profession combines two skills rarely found at the same level in the same person: a sharp technical and spatial understanding — structure, light, circulation, volumes, the constraints of the existing building — and a capacity for listening fine enough to translate a client's needs, sometimes poorly articulated, into design decisions.",
+            "A good architect doesn't just optimise a floor plan. They observe how you describe your daily life, pick up on what you don't say explicitly but your habits reveal, and turn that material into concrete decisions: where to place a partition, how to organise circulation, which room deserves the best light of the day. This dual skill — technical and human — is precisely what sets a truly designed project apart from one that has simply been decorated.",
+          ],
+          image: {
+            src: "/assets/images/architecte-interieur-paris-conception-plans-bureau-etude.jpg",
+            caption: "Working on plans and project design, Supra Studio",
+          },
+        },
+        {
+          heading: "Designing a space that works, before thinking about aesthetics",
+          paragraphs: [
+            "A successful interior isn't judged on its photograph alone. It's judged by how it's used, over time: does the kitchen stay practical on a busy weeknight? Does the bedroom stay restful despite street noise? Does the home office remain functional six months after moving in, once the excitement of novelty has worn off?",
+            "This is where the real role of the interior architect lies: beyond aesthetics, they design a space that works. \"Pretty\" is a consequence of that work, never its starting point. An interior can be spectacular in a photo and yet uncomfortable to live in; conversely, a rigorously designed interior provides a quiet comfort that isn't always immediately obvious, but is felt every single day.",
+          ],
+        },
+        {
+          heading: "Turning your home's constraints into genuine assets",
+          paragraphs: [
+            "An older Parisian apartment, poorly laid out, with awkward volumes or limited floor space, is often seen by its owner as a string of problems to solve: a room that's too small, a corridor that eats up space, a layout that has seemed fixed for decades.",
+            "This is exactly where the value of a good architect comes in: where you see only a constraint, they see a design opportunity. A wall seen as a nuisance can become the starting point for rethinking an entire circulation. A windowless room can become a space worth living in, thanks to a clever use of indirect light. This ability to turn a difficulty into a design decision is one of the most reliable signs of an experienced professional — and one of the hardest things to assess from a simple portfolio.",
+          ],
+        },
+        {
+          heading: "The signs of genuinely sound reasoning",
+          paragraphs: [
+            "If there is one single selection criterion to remember, it is this: judge how an architect reasons, not only what they visually produce. During a first meeting, certain signs don't lie: **they ask questions about your daily life before talking about style or materials**; **they explain the why behind a proposal**, not just how it will be built; **they are able to challenge an idea you had in mind**, explaining their reasoning rather than simply executing it without question; and **they clearly distinguish, in how they speak, between their own personal taste and your actual use of the space**.",
+            "A portfolio of past work is useful for assessing a general sensibility, a quality of execution, a consistency of approach. But it should never be the only selection criterion: an interior you don't find \"to your taste\" in a photo may well have been designed with impeccable reasoning, for a client whose needs simply weren't yours.",
+          ],
+        },
+        {
+          heading: "Revealing an identity rather than reproducing a trend",
+          paragraphs: [
+            "Trends pass. An interior designed purely to fit the aesthetic of the moment ages badly, precisely because it was never designed for the people living in it, but for an era. Conversely, an interior designed from genuine listening — to your habits, your history, your way of inhabiting a place — stands the test of time, because it never tried to follow a trend: it tried to reveal an identity.",
+            "That's the whole point of choosing your interior architect well: not looking for someone who will reproduce a style you spotted elsewhere, but someone capable of taking ownership of your ideas, structuring them, and bringing them to life with their expertise. The architect isn't there to impose their own signature at all costs; they're there to give shape, with skill and rigour, to who you really are.",
+          ],
+        },
+        {
+          heading: "Supra Studio's approach",
+          paragraphs: [
+            "At Supra Studio, every project begins with a conversation, long before the first sketch. Understanding how you live, what weighs on you in your current home, what you absolutely don't want to give up: this listening phase shapes every decision that follows. Our role isn't to offer you a signature style of our own, duplicated from one project to the next, but to design, from your identity and the real constraints of your property, an interior that genuinely reflects who you are, for years to come.",
+            "**Planning a renovation or fit-out project in Paris?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an initial conversation, or [get in touch](/en/contact) to discuss your project.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**How do I know if an interior architect is right for me, beyond their portfolio?** Watch how they ask questions during the first meeting: do they first take an interest in your lifestyle, or do they jump straight to aesthetic choices? A good architect clearly distinguishes their own personal preferences from your actual use of the space.",
+            "**Should I choose an architect whose style exactly matches my taste?** Not necessarily. A skilled architect is able to adapt their reasoning and sensibility to very different clients. The deciding factor is their capacity to listen and the rigour of their design thinking, far more than any stylistic resemblance to their previous projects.",
+            "**Why can an architect see opportunities where I only see constraints?** Because their training and experience let them reason in terms of volumes, light and circulation, beyond the existing layout. An apparent constraint — a wall, a poorly lit room — then becomes a starting point for design rather than an obstacle.",
+            "**What's the difference between a \"trendy\" interior and one designed to last?** A trendy interior reflects the aesthetic of the moment, which fades with time. An interior designed from genuine listening to the client reflects a distinct identity, which stays relevant and enjoyable to live in regardless of trends. For a concrete look at how we build this listening process before any costing, see our article on [interior architect fees in Paris](/en/journal/honoraires-architecte-interieur-paris).",
+          ],
+        },
+      ],
+      keywords: [
+        "Choosing an interior architect Paris",
+        "Interior architect selection criteria",
+        "How to choose an interior architect",
+      ],
+    },
+    it: {
+      title: "Scegliere il proprio architetto d'interni a Parigi: oltre lo stile, un modo di pensare",
+      metaTitle: "Scegliere un Architetto d'Interni a Parigi: Guida e Criteri di Selezione",
+      excerpt:
+        "Al di là di un portfolio di realizzazioni, come scegliere davvero il proprio architetto d'interni a Parigi? I veri criteri: ascolto, ragionamento, capacità di trasformare i vostri vincoli in punti di forza.",
+      category: "Consigli & competenza",
+      readingTime: "7 min",
+      intro:
+        "La maggior parte delle ricerche inizia allo stesso modo: ore passate a raccogliere immagini, seguire profili, salvare interni che piacciono senza sapere sempre perché. È una tappa naturale, persino necessaria. Ma alimenta una confusione frequente: scegliere un architetto d'interni in base a ciò che ha già realizzato, come se si trattasse di un catalogo da cui pescare uno stile. Da Supra Studio, pensiamo che questo approccio trascuri l'essenziale — ed esponga a una delusione frequente, una volta avviato il progetto: un interno esteticamente riuscito, ma che non assomiglia a chi lo abita.",
+      sections: [
+        {
+          heading: "Cosa si gioca realmente dietro un progetto d'interni",
+          paragraphs: [
+            "Un appartamento non è una somma di materiali e colori assemblati con gusto. È una risposta a un modo di vivere: il modo in cui si ricevono gli ospiti, in cui si lavora da casa, in cui ci si muove la mattina con fretta, in cui si ha bisogno di silenzio la sera. Due persone che condividono esattamente gli stessi riferimenti estetici — le stesse tonalità, gli stessi mobili, gli stessi materiali — possono aver bisogno di due progetti radicalmente diversi, semplicemente perché il loro rapporto con lo spazio, la luce o l'intimità non è lo stesso.",
+            "Per questo la prima domanda da porsi di fronte a un architetto non è «mi piace quello che fa?», ma «cerca di capire come vivo, prima di disegnare qualsiasi cosa?». Questa sfumatura cambia tutto nel proseguimento del progetto.",
+          ],
+        },
+        {
+          heading: "Tra padronanza tecnica e vero ascolto del cliente",
+          paragraphs: [
+            "Il mestiere di architetto d'interni riunisce due competenze raramente presenti allo stesso livello nella stessa persona: una comprensione tecnica e spaziale acuta — struttura, luce, circolazione, volumi, vincoli dell'edificio — e una capacità di ascolto sufficientemente fine da tradurre i bisogni, talvolta mal formulati, di un cliente in scelte progettuali.",
+            "Un buon architetto non si limita a ottimizzare una pianta. Osserva come descrivete la vostra quotidianità, coglie ciò che non dite esplicitamente ma che le vostre abitudini rivelano, e trasforma questa materia in decisioni concrete: dove collocare una parete, come organizzare un percorso, quale ambiente merita la luce migliore della giornata. Questa doppia competenza — tecnica e umana — è proprio ciò che distingue un progetto pensato da un progetto semplicemente decorato.",
+          ],
+          image: {
+            src: "/assets/images/architecte-interieur-paris-conception-plans-bureau-etude.jpg",
+            caption: "Studio di piante e progettazione di un progetto, Supra Studio",
+          },
+        },
+        {
+          heading: "Concepire uno spazio che funziona, prima di pensare all'estetica",
+          paragraphs: [
+            "Un interno riuscito non si giudica solo dalla fotografia. Si giudica dall'uso, nel tempo: la cucina resta pratica una sera infrasettimanale impegnativa? La camera resta riposante nonostante il rumore della strada? Lo spazio di lavoro resta funzionale sei mesi dopo il trasloco, una volta svanito l'entusiasmo della novità?",
+            "È qui che si colloca il vero ruolo dell'architetto d'interni: al di là dell'estetica, concepisce uno spazio che funziona. Il «bello» è una conseguenza di questo lavoro, mai il suo punto di partenza. Un interno può essere spettacolare in foto e tuttavia scomodo da vivere; al contrario, un interno concepito con rigore procura un comfort silenzioso, che non sempre salta subito all'occhio, ma che si avverte ogni giorno.",
+          ],
+        },
+        {
+          heading: "Trasformare i vincoli del vostro alloggio in veri punti di forza",
+          paragraphs: [
+            "Un appartamento parigino datato, mal distribuito, con volumi complessi o superfici limitate, è spesso percepito dal proprietario come una serie di problemi da risolvere: una stanza troppo piccola, un corridoio che consuma spazio, una configurazione che sembra immutabile da decenni.",
+            "È proprio qui che interviene il valore di un buon architetto: dove voi vedete solo un vincolo, lui vede un'opportunità progettuale. Un muro giudicato fastidioso può diventare l'occasione per ripensare l'intera circolazione. Una stanza cieca può trasformarsi in uno spazio vivibile grazie a un gioco di luce indiretta. Questa capacità di trasformare una difficoltà in una scelta architettonica è uno dei segni più affidabili di un professionista esperto — e uno degli elementi più difficili da valutare da un semplice portfolio di realizzazioni.",
+          ],
+        },
+        {
+          heading: "I segnali che rivelano una vera qualità di ragionamento",
+          paragraphs: [
+            "Se si dovesse trattenere un solo criterio di selezione, sarebbe questo: giudicate il modo in cui un architetto ragiona, non solo ciò che produce visivamente. Durante un primo incontro, alcuni segnali non ingannano: **pone domande sulla vostra quotidianità prima di parlare di stile o materiali**; **spiega il perché di una proposta**, non solo come verrà realizzata; **è capace di rimettere in discussione un'idea che avevate in mente**, spiegando il proprio ragionamento, piuttosto che eseguirla senza riflettere; e **distingue chiaramente, nel suo discorso, ciò che appartiene ai suoi gusti personali da ciò che appartiene al vostro uso reale dello spazio**.",
+            "Un portfolio di realizzazioni è utile per valutare una sensibilità generale, una qualità di esecuzione, una coerenza di lavoro. Ma non deve mai essere l'unico criterio di scelta: un interno che non trovate «di vostro gusto» in foto può essere stato concepito secondo un ragionamento ineccepibile, per un cliente le cui esigenze semplicemente non erano le vostre.",
+          ],
+        },
+        {
+          heading: "Rivelare un'identità piuttosto che riprodurre una moda",
+          paragraphs: [
+            "Le tendenze passano. Un interno concepito unicamente per aderire all'estetica del momento invecchia male, proprio perché non è mai stato pensato per chi lo abita, ma per un'epoca. Al contrario, un interno concepito a partire da un ascolto reale — delle vostre abitudini, della vostra storia, del vostro modo di abitare un luogo — attraversa gli anni senza passare di moda, perché non ha mai cercato di seguire una tendenza: ha cercato di rivelare un'identità.",
+            "È tutta la posta in gioco nello scegliere bene il proprio architetto d'interni: non cercare qualcuno che riprodurrà uno stile notato altrove, ma qualcuno capace di appropriarsi delle vostre idee, di strutturarle, e di realizzarle con la propria competenza. L'architetto non è lì per imporre la propria firma a tutti i costi; è lì per dare forma, con competenza ed esigenza, a ciò che siete realmente.",
+          ],
+        },
+        {
+          heading: "L'approccio di Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, ogni progetto inizia con una conversazione, ben prima del primo schizzo. Capire come vivete, cosa vi pesa nel vostro alloggio attuale, a cosa non volete assolutamente rinunciare: questa fase di ascolto condiziona tutte le decisioni successive. Il nostro ruolo non è proporvi uno stile tutto nostro che duplicheremmo da un progetto all'altro, ma concepire, a partire dalla vostra identità e dai vincoli reali del vostro immobile, un interno che vi assomiglia durevolmente.",
+            "**State progettando una ristrutturazione o un allestimento a Parigi?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un primo scambio, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Come capire se un architetto d'interni fa al caso mio, al di là del suo portfolio?** Osservate il modo in cui pone domande durante il primo incontro: si interessa prima al vostro stile di vita, o passa direttamente alle scelte estetiche? Un buon architetto distingue chiaramente le proprie preferenze personali dal vostro uso reale dello spazio.",
+            "**Bisogna scegliere un architetto il cui stile corrisponda esattamente ai nostri gusti?** No, non necessariamente. Un architetto competente è capace di adattare il proprio ragionamento e la propria sensibilità a clienti molto diversi. Il criterio determinante è la sua capacità di ascolto e il suo rigore progettuale, molto più della somiglianza stilistica con i suoi progetti precedenti.",
+            "**Perché un architetto può vedere opportunità dove io vedo solo vincoli?** Perché la sua formazione e la sua esperienza gli permettono di ragionare in termini di volumi, luce e circolazione, al di là della distribuzione esistente. Un vincolo apparente — un muro, una stanza mal esposta — diventa allora un punto di partenza progettuale piuttosto che un ostacolo.",
+            "**Qual è la differenza tra un interno «di tendenza» e un interno concepito per durare?** Un interno di tendenza risponde a un'estetica del momento, che passa di moda col tempo. Un interno concepito a partire da un vero ascolto del cliente riflette un'identità propria, che resta pertinente e piacevole da vivere indipendentemente dalle mode. Per capire concretamente come costruiamo questo ascolto a monte di un preventivo, consultate il nostro articolo sugli [onorari di un architetto d'interni a Parigi](/it/journal/honoraires-architecte-interieur-paris).",
+          ],
+        },
+      ],
+      keywords: [
+        "Scegliere architetto d'interni Parigi",
+        "Criteri selezione architetto d'interni",
+        "Come scegliere il proprio architetto d'interni",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {
