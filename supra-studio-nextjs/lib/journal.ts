@@ -1501,6 +1501,104 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },
+  {
+    slug: "optimiser-espace-appartement-paris-sans-abattre-cloison",
+    title: "Optimiser l'espace d'un appartement à Paris sans abattre une cloison",
+    metaTitle: "Optimiser l'Espace d'un Appartement à Paris Sans Abattre de Mur",
+    excerpt:
+      "Hauteur, sur-mesure, recoins, modularité, lumière : comment gagner de la place dans un appartement parisien sans toucher à la structure, en repensant l'usage de chaque volume.",
+    date: "2026-10-12",
+    category: "Conseils & expertise",
+    cover: "/assets/images/optimiser-espace-appartement-paris-verriere-claustra-banquette-sur-mesure.jpg",
+    readingTime: "7 min",
+    intro:
+      "Dans un appartement parisien, on pense presque toujours à la même solution quand l'espace manque : abattre une cloison. Elle est parfois pertinente, mais elle est rarement la première question à se poser. Dans la plupart des logements que nous visitons, les mètres carrés ne manquent pas : ils sont mal distribués, mal exploités ou mal perçus. Avant de toucher à la structure, il existe une façon plus fine, plus économique et souvent plus élégante de gagner de la place, qui consiste à repenser l'usage de chaque volume existant.",
+    sections: [
+      {
+        heading: "Commencer par observer comment on vit vraiment son logement",
+        paragraphs: [
+          "Optimiser un espace ne commence pas par un meuble ou une peinture, mais par une observation. Pendant quelques jours, il suffit de noter où l'on s'assoit réellement, quelles zones restent inutilisées, où les objets s'accumulent faute de place, et quels trajets du quotidien sont gênés. Ce diagnostic révèle presque toujours les mêmes constats : un couloir qui ne sert qu'à passer, un angle que l'on contourne, un mur qui ne porte rien alors qu'il pourrait tout porter.",
+          "C'est ce travail de lecture, avant tout dessin, qui permet à un architecte d'intérieur de distinguer le manque d'espace réel du simple manque d'organisation. Un salon de vingt mètres carrés peut paraître étriqué parce que ses circulations sont mal tracées, et un petit deux-pièces peut sembler généreux parce que chaque zone y a une fonction claire.",
+        ],
+      },
+      {
+        heading: "Raisonner en volume plutôt qu'en surface",
+        paragraphs: [
+          "Le réflexe habituel consiste à compter les mètres carrés au sol. Or un appartement ancien offre souvent une ressource que l'on exploite peu : sa hauteur. Avec des plafonds de 2,70 m à plus de 3 m dans l'ancien parisien, la partie haute des murs reste généralement vide, alors qu'elle peut accueillir de la bibliothèque, des rangements fermés ou un dressing qui libère le reste de la pièce.",
+          "Monter les rangements jusqu'au plafond change la perception autant que l'usage : les lignes verticales étirent visuellement la pièce, et tout ce qui encombre habituellement le sol trouve sa place en hauteur. Nous développons cette logique de façon plus poussée dans notre article consacré à l'[aménagement d'un duplex pour exploiter la hauteur](/journal/amenagement-duplex-paris-exploiter-hauteur), mais le principe vaut dès la première pièce : dans un logement parisien, la hauteur est la surface que l'on oublie de compter.",
+        ],
+      },
+      {
+        heading: "Le sur-mesure, un outil d'optimisation avant d'être un choix esthétique",
+        paragraphs: [
+          "Un meuble standard répond à une dimension standard, rarement à celle d'un mur, d'une niche ou d'une alcôve. Le sur-mesure permet au contraire de loger des rangements dans des profondeurs que le commerce ne couvre pas, de faire disparaître un ballon d'eau chaude ou un tableau électrique derrière une façade continue, ou de transformer une simple cloison en bibliothèque qui sépare sans cloisonner.",
+          "Ce que l'on gagne n'est pas seulement du volume de rangement. On gagne aussi de la continuité visuelle : des façades alignées, des joints discrets et des teintes homogènes donnent l'impression d'une pièce plus calme, donc plus grande. C'est dans ce sens que le sur-mesure est une solution d'optimisation à part entière et non un simple supplément de confort.",
+        ],
+        image: {
+          src: "/assets/images/rangements-sur-mesure-hauteur-appartement-haussmannien-paris.jpg",
+          caption: "Rangements sur mesure jusqu'au plafond et banquette de fenêtre, appartement haussmannien, Supra Studio",
+        },
+      },
+      {
+        heading: "Exploiter les recoins que l'on ne voit plus",
+        paragraphs: [
+          "Tout logement parisien comporte ces espaces que l'on a cessé de remarquer : le dessous d'un escalier, l'embrasure profonde d'une fenêtre, le renfoncement d'une cheminée condamnée, l'angle d'une entrée ou le haut d'un couloir. Chacun de ces espaces, pris isolément, paraît trop modeste pour servir à quelque chose. Réunis par un projet d'ensemble, ils représentent souvent plusieurs mètres carrés utiles.",
+          "Une embrasure de fenêtre devient une banquette de lecture avec rangement dans sa partie basse. Un renfoncement de cheminée accueille un bureau discret ou une cave à vin. Un angle d'entrée se transforme en vestiaire fermé qui libère toute la circulation. L'enjeu est de donner à chaque recoin une fonction précise plutôt que de le laisser en réserve.",
+        ],
+      },
+      {
+        heading: "Faire d'une même pièce plusieurs pièces",
+        paragraphs: [
+          "L'espace se gagne aussi dans le temps. Une pièce qui sert de bureau le jour, de chambre d'amis le week-end et de salon d'appoint lors d'une réception fonctionne comme un logement plus grand que sa surface réelle. Les solutions sont nombreuses : un lit escamotable qui libère la pièce en journée, une table que l'on déploie à la demande, une cloison coulissante qui isole un coin de travail sans fermer définitivement la pièce, ou des assises qui cachent un couchage.",
+          "Cette modularité demande de la précision : un mécanisme qui coince ou un meuble trop lourd à manipuler finit par ne plus être utilisé. C'est là que le rôle de l'architecte est déterminant, car il dimensionne chaque dispositif en fonction de la fréquence réelle de son usage. Pour un exemple concret appliqué à une petite surface, notre article sur l'[aménagement d'un studio parisien de 30 m²](/journal/amenagement-studio-paris-optimiser-30m2) montre comment ces principes s'articulent dans un seul volume.",
+        ],
+      },
+      {
+        heading: "La lumière et les transparences, premiers alliés de la sensation d'espace",
+        paragraphs: [
+          "Un espace paraît grand quand le regard peut le traverser. Une verrière d'atelier entre une chambre et un séjour, une porte vitrée à la place d'une porte pleine, un claustra ajouré ou un miroir bien placé laissent la lumière circuler sans qu'aucun mur ne tombe. La pièce la plus sombre bénéficie alors de la lumière de sa voisine, et deux petits volumes se lisent comme un seul.",
+          "Ce travail de transparence fonctionne aussi avec la lumière artificielle : un éclairage indirect qui souligne la hauteur des murs, des points lumineux répartis plutôt qu'un plafonnier unique, des teintes claires sur les surfaces qui renvoient la lumière. Nous revenons sur cette logique de continuité entre les pièces dans notre article sur la [cuisine ouverte à Paris](/journal/cuisine-ouverte-paris-amenagement-optimal), où la question de la lumière conditionne l'ensemble du plan.",
+        ],
+      },
+      {
+        heading: "Des matériaux choisis pour apaiser plutôt que pour décorer",
+        paragraphs: [
+          "Dans un volume contraint, la profusion de matières et de couleurs fatigue l'œil et fait paraître la pièce plus petite. Mieux vaut resserrer la palette : un même revêtement de sol d'une pièce à l'autre, deux ou trois teintes qui se répondent, une seule essence de bois pour les menuiseries et les rangements. Cette retenue ne rend pas l'intérieur terne, elle lui donne au contraire de la profondeur, parce que la qualité de chaque matière peut enfin s'exprimer.",
+          "Les finitions mates, les surfaces peu réfléchissantes pour les grands aplats et quelques matières nobles placées aux bons endroits — un plan de travail en pierre, une façade en chêne massif, un enduit à la chaux — suffisent à installer une ambiance soignée sans alourdir l'espace.",
+        ],
+      },
+      {
+        heading: "Quand abattre une cloison devient vraiment pertinent",
+        paragraphs: [
+          "Cette approche n'exclut pas de toucher à la structure quand elle se justifie. Elle permet simplement de décider en connaissance de cause. Si, malgré une exploitation fine de la hauteur, des recoins et de la lumière, la circulation reste contrainte ou qu'une pièce borgne ne peut pas recevoir de lumière autrement, ouvrir devient une vraie réponse. Nous détaillons ces situations dans notre article sur la [transformation d'un deux-pièces en trois-pièces à Paris](/journal/transformer-2-pieces-en-3-pieces-paris).",
+          "Dans l'intervalle, l'optimisation sans gros travaux présente un avantage souvent sous-estimé : elle évite les contraintes d'autorisation de copropriété, les études structurelles et les délais qui accompagnent l'ouverture d'un mur porteur, tout en conservant l'esprit d'origine du logement.",
+        ],
+      },
+      {
+        heading: "L'approche de Supra Studio",
+        paragraphs: [
+          "Chez Supra Studio, chaque projet d'optimisation commence par une visite du logement et une lecture attentive de la façon dont il est habité. Nous identifions les volumes sous-utilisés, les circulations à rééquilibrer et les recoins à valoriser, avant de proposer un plan qui améliore l'usage sans bouleverser la structure lorsque ce n'est pas nécessaire. Notre rôle est de vous montrer que votre appartement contient souvent plus de place que vous ne l'imaginiez.",
+          "**Vous avez le sentiment de manquer de place dans votre appartement ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Peut-on vraiment gagner de la place sans casser de mur ?** Oui, dans la grande majorité des cas. L'exploitation de la hauteur, le sur-mesure, la valorisation des recoins et le travail de la lumière permettent de gagner à la fois de l'espace utile et de la sensation d'espace, sans toucher à la structure du logement.",
+          "**Par où commencer pour optimiser un petit appartement ?** Par un diagnostic d'usage : repérer les zones inutilisées, les circulations gênées et les endroits où les objets s'accumulent. C'est cette lecture qui détermine ensuite les solutions de rangement, de modularité ou de redistribution à privilégier.",
+          "**Le sur-mesure est-il réservé aux budgets élevés ?** Non. Il peut être ciblé sur quelques zones à fort impact (un mur de rangement, une niche, un dressing) plutôt que déployé dans tout le logement. Il est souvent plus rentable que l'accumulation de meubles standards qui ne s'ajustent à aucun mur.",
+          "**Les miroirs et les couleurs claires suffisent-ils à agrandir une pièce ?** Ils aident, mais ils ne remplacent pas un travail sur la circulation, les rangements et la hauteur. Une pièce encombrée restera étriquée quelle que soit sa couleur ; la perception de l'espace repose d'abord sur une organisation juste.",
+          "**À partir de quand faut-il envisager de modifier la structure ?** Lorsque, malgré une optimisation fine, la circulation reste contrainte ou qu'une pièce manque durablement de lumière. Un architecte d'intérieur peut alors évaluer la faisabilité d'une ouverture et ses conséquences en copropriété avant tout engagement.",
+        ],
+      },
+    ],
+    keywords: [
+      "Optimiser espace appartement Paris",
+      "Gagner de la place sans travaux lourds",
+      "Aménagement sur mesure Paris",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

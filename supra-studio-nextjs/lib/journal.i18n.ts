@@ -2818,6 +2818,196 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "optimiser-espace-appartement-paris-sans-abattre-cloison": {
+    en: {
+      title: "Making the most of space in a Paris apartment without knocking down a wall",
+      metaTitle: "Optimising Space in a Paris Apartment Without Knocking Down Walls",
+      excerpt:
+        "Height, bespoke joinery, forgotten corners, flexibility, light: how to gain space in a Parisian apartment without touching the structure, by rethinking how every volume is used.",
+      category: "Advice & Expertise",
+      readingTime: "7 min",
+      intro:
+        "In a Parisian apartment, almost everyone reaches for the same solution when space runs short: knocking down a wall. It is sometimes the right answer, but it is rarely the first question to ask. In most homes we visit, square metres are not actually lacking: they are poorly distributed, poorly used or poorly perceived. Before touching the structure, there is a finer, more economical and often more elegant way to gain space, which is to rethink how each existing volume is used.",
+      sections: [
+        {
+          heading: "Start by observing how you really live in your home",
+          paragraphs: [
+            "Optimising a space does not start with a piece of furniture or a coat of paint, but with observation. For a few days, simply note where you actually sit, which areas go unused, where objects pile up for lack of room, and which everyday routes are obstructed. This diagnosis almost always reveals the same findings: a corridor used only to pass through, a corner you walk around, a wall that carries nothing when it could carry everything.",
+            "This reading of the space, before any drawing, is what allows an interior architect to tell a genuine lack of space from a simple lack of organisation. A twenty-square-metre living room can feel cramped because its circulation is badly laid out, and a small two-room flat can feel generous because every area has a clear function.",
+          ],
+        },
+        {
+          heading: "Think in volume rather than floor area",
+          paragraphs: [
+            "The usual reflex is to count square metres on the floor. Yet an older apartment often offers a resource that is under-used: its height. With ceilings from 2.70 m to over 3 m in older Parisian buildings, the upper part of the walls is generally left empty, when it could house bookshelves, closed storage or a wardrobe that frees up the rest of the room.",
+            "Running storage up to the ceiling changes the perception as much as the use: vertical lines visually stretch the room, and everything that normally clutters the floor finds its place higher up. We take this logic further in our article on [fitting out a duplex to make the most of its height](/en/journal/amenagement-duplex-paris-exploiter-hauteur), but the principle applies from the very first room: in a Parisian home, height is the surface we forget to count.",
+          ],
+        },
+        {
+          heading: "Bespoke joinery: an optimisation tool before an aesthetic choice",
+          paragraphs: [
+            "Standard furniture answers a standard dimension, rarely that of a wall, a niche or an alcove. Bespoke joinery, by contrast, makes it possible to fit storage into depths the retail market doesn't cover, to hide a water heater or an electrical panel behind a continuous façade, or to turn a simple partition into a bookcase that separates without closing off.",
+            "What you gain is not just storage volume. You also gain visual continuity: aligned fronts, discreet joints and consistent tones give the impression of a calmer, and therefore larger, room. In this sense, bespoke joinery is an optimisation solution in its own right, not simply an added comfort.",
+          ],
+          image: {
+            src: "/assets/images/rangements-sur-mesure-hauteur-appartement-haussmannien-paris.jpg",
+            caption: "Bespoke storage up to the ceiling and window seat, Haussmann-era apartment, Supra Studio",
+          },
+        },
+        {
+          heading: "Making use of corners we no longer notice",
+          paragraphs: [
+            "Every Parisian home has these spaces we have stopped noticing: the area under a staircase, the deep recess of a window, the alcove of a disused fireplace, the corner of an entrance hall or the top of a corridor. Taken individually, each seems too modest to be of any use. Brought together in an overall project, they often add up to several useful square metres.",
+            "A window recess becomes a reading bench with storage beneath. A fireplace alcove houses a discreet desk or a wine cellar. An entrance corner turns into a closed cloakroom that frees up the whole circulation. The point is to give each corner a precise function rather than leaving it in reserve.",
+          ],
+        },
+        {
+          heading: "Making one room serve as several",
+          paragraphs: [
+            "Space is also gained over time. A room that serves as an office by day, a guest bedroom at the weekend and an extra lounge when entertaining works like a home larger than its actual floor area. The solutions are many: a fold-away bed that frees the room during the day, a table you unfold on demand, a sliding partition that screens off a work corner without permanently closing the room, or seating that conceals a bed.",
+            "This flexibility demands precision: a mechanism that sticks or a piece of furniture too heavy to move ends up no longer being used. This is where the architect's role is decisive, sizing each device according to how often it will really be used. For a concrete example applied to a small floor area, our article on [fitting out a 30 m² Paris studio](/en/journal/amenagement-studio-paris-optimiser-30m2) shows how these principles fit together within a single volume.",
+          ],
+        },
+        {
+          heading: "Light and transparency, the first allies of a sense of space",
+          paragraphs: [
+            "A space feels large when the eye can travel through it. A workshop-style glazed partition between a bedroom and a living room, a glazed door in place of a solid one, an open slatted screen or a well-placed mirror let light circulate without a single wall coming down. The darkest room then benefits from its neighbour's light, and two small volumes read as one.",
+            "This work on transparency also applies to artificial light: indirect lighting that emphasises the height of the walls, light points spread around rather than a single ceiling fitting, pale tones on surfaces that reflect light. We come back to this logic of continuity between rooms in our article on the [open-plan kitchen in Paris](/en/journal/cuisine-ouverte-paris-amenagement-optimal), where light shapes the entire plan.",
+          ],
+        },
+        {
+          heading: "Materials chosen to calm rather than to decorate",
+          paragraphs: [
+            "In a constrained volume, a profusion of materials and colours tires the eye and makes the room feel smaller. It is better to narrow the palette: the same flooring from one room to the next, two or three tones that echo each other, a single wood species for joinery and storage. This restraint doesn't make the interior dull; on the contrary, it gives it depth, because the quality of each material can finally come through.",
+            "Matt finishes, low-reflectance surfaces for large flat areas and a few noble materials in the right places — a stone worktop, a solid oak front, a lime plaster — are enough to create a refined atmosphere without weighing down the space.",
+          ],
+        },
+        {
+          heading: "When knocking down a wall really makes sense",
+          paragraphs: [
+            "This approach doesn't rule out touching the structure when it is justified. It simply lets you decide with full knowledge. If, despite fine use of height, corners and light, circulation remains constrained or a windowless room cannot receive light any other way, opening up becomes a genuine answer. We detail these situations in our article on [turning a two-room flat into a three-room flat in Paris](/en/journal/transformer-2-pieces-en-3-pieces-paris).",
+            "In the meantime, optimising without major works has an often underestimated advantage: it avoids the co-ownership approvals, structural studies and delays that come with opening up a load-bearing wall, while preserving the original spirit of the home.",
+          ],
+        },
+        {
+          heading: "Supra Studio's approach",
+          paragraphs: [
+            "At Supra Studio, every optimisation project begins with a visit to the home and a careful reading of how it is lived in. We identify under-used volumes, circulation to rebalance and corners to enhance, before proposing a plan that improves use without disturbing the structure when that isn't necessary. Our role is to show you that your apartment often holds more space than you imagined.",
+            "**Feel you're short of space in your apartment?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an on-site consultation, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**Can you really gain space without knocking down a wall?** Yes, in the vast majority of cases. Using height, bespoke joinery, enhancing corners and working with light all make it possible to gain both usable space and a sense of space, without touching the structure of the home.",
+            "**Where should you start when optimising a small apartment?** With a usage diagnosis: identifying unused areas, obstructed circulation and the places where objects pile up. This reading then determines which storage, flexibility or redistribution solutions to favour.",
+            "**Is bespoke joinery reserved for large budgets?** No. It can be targeted on a few high-impact areas (a storage wall, a niche, a wardrobe) rather than rolled out across the whole home. It is often more cost-effective than accumulating standard furniture that fits no wall properly.",
+            "**Are mirrors and pale colours enough to make a room look bigger?** They help, but they don't replace work on circulation, storage and height. A cluttered room will stay cramped whatever its colour; the perception of space rests first on sound organisation.",
+            "**At what point should you consider altering the structure?** When, despite fine optimisation, circulation remains constrained or a room lacks light on a lasting basis. An interior architect can then assess the feasibility of an opening and its consequences in co-ownership before any commitment.",
+          ],
+        },
+      ],
+      keywords: [
+        "Optimise space Paris apartment",
+        "Gain space without major works",
+        "Bespoke joinery Paris",
+      ],
+    },
+    it: {
+      title: "Ottimizzare lo spazio di un appartamento a Parigi senza abbattere una parete",
+      metaTitle: "Ottimizzare lo Spazio di un Appartamento a Parigi Senza Abbattere Muri",
+      excerpt:
+        "Altezza, su misura, angoli dimenticati, modularità, luce: come guadagnare spazio in un appartamento parigino senza toccare la struttura, ripensando l'uso di ogni volume.",
+      category: "Consigli & competenza",
+      readingTime: "7 min",
+      intro:
+        "In un appartamento parigino, quando lo spazio manca si pensa quasi sempre alla stessa soluzione: abbattere una parete. A volte è pertinente, ma raramente è la prima domanda da porsi. Nella maggior parte degli alloggi che visitiamo, i metri quadrati non mancano: sono mal distribuiti, mal sfruttati o mal percepiti. Prima di toccare la struttura esiste un modo più fine, più economico e spesso più elegante di guadagnare spazio, che consiste nel ripensare l'uso di ogni volume esistente.",
+      sections: [
+        {
+          heading: "Iniziare osservando come si vive davvero la propria casa",
+          paragraphs: [
+            "Ottimizzare uno spazio non comincia da un mobile o da una mano di pittura, ma da un'osservazione. Per qualche giorno basta annotare dove ci si siede realmente, quali zone restano inutilizzate, dove gli oggetti si accumulano per mancanza di posto, e quali percorsi quotidiani sono ostacolati. Questa diagnosi rivela quasi sempre gli stessi dati: un corridoio che serve solo per passare, un angolo che si aggira, una parete che non porta nulla mentre potrebbe portare tutto.",
+            "È questo lavoro di lettura, prima di qualsiasi disegno, che permette a un architetto d'interni di distinguere la reale mancanza di spazio dalla semplice mancanza di organizzazione. Un soggiorno di venti metri quadrati può sembrare angusto perché le sue circolazioni sono mal tracciate, e un piccolo bilocale può sembrare generoso perché ogni zona ha una funzione chiara.",
+          ],
+        },
+        {
+          heading: "Ragionare in volume piuttosto che in superficie",
+          paragraphs: [
+            "Il riflesso abituale consiste nel contare i metri quadrati a terra. Eppure un appartamento antico offre spesso una risorsa poco sfruttata: la sua altezza. Con soffitti da 2,70 m a oltre 3 m nell'edilizia parigina antica, la parte alta delle pareti resta generalmente vuota, mentre potrebbe accogliere librerie, contenitori chiusi o una cabina armadio che libera il resto della stanza.",
+            "Portare i contenitori fino al soffitto cambia la percezione quanto l'uso: le linee verticali allungano otticamente la stanza, e tutto ciò che di solito ingombra il pavimento trova posto in alto. Sviluppiamo questa logica in modo più approfondito nel nostro articolo sull'[allestimento di un duplex per sfruttare l'altezza](/it/journal/amenagement-duplex-paris-exploiter-hauteur), ma il principio vale fin dalla prima stanza: in un alloggio parigino, l'altezza è la superficie che si dimentica di contare.",
+          ],
+        },
+        {
+          heading: "Il su misura, uno strumento di ottimizzazione prima che una scelta estetica",
+          paragraphs: [
+            "Un mobile standard risponde a una misura standard, raramente a quella di una parete, di una nicchia o di un'alcova. Il su misura permette invece di collocare contenitori in profondità che il commercio non copre, di far sparire uno scaldabagno o un quadro elettrico dietro una facciata continua, o di trasformare una semplice parete in una libreria che separa senza chiudere.",
+            "Ciò che si guadagna non è solo volume di contenimento. Si guadagna anche continuità visiva: ante allineate, giunti discreti e tonalità omogenee danno l'impressione di una stanza più calma, quindi più grande. In questo senso il su misura è una soluzione di ottimizzazione a pieno titolo e non un semplice extra di comfort.",
+          ],
+          image: {
+            src: "/assets/images/rangements-sur-mesure-hauteur-appartement-haussmannien-paris.jpg",
+            caption: "Contenitori su misura fino al soffitto e panca alla finestra, appartamento haussmanniano, Supra Studio",
+          },
+        },
+        {
+          heading: "Sfruttare gli angoli che non si vedono più",
+          paragraphs: [
+            "Ogni alloggio parigino ha questi spazi che si è smesso di notare: il sottoscala, lo sguincio profondo di una finestra, la rientranza di un camino condannato, l'angolo di un ingresso o la parte alta di un corridoio. Ognuno di questi spazi, preso singolarmente, sembra troppo modesto per servire a qualcosa. Riuniti da un progetto d'insieme, rappresentano spesso diversi metri quadrati utili.",
+            "Lo sguincio di una finestra diventa una panca per leggere con contenitore nella parte bassa. La rientranza di un camino accoglie una scrivania discreta o una cantinetta. L'angolo di un ingresso si trasforma in un guardaroba chiuso che libera tutta la circolazione. La sfida è dare a ogni angolo una funzione precisa piuttosto che lasciarlo di riserva.",
+          ],
+        },
+        {
+          heading: "Fare di una stessa stanza più stanze",
+          paragraphs: [
+            "Lo spazio si guadagna anche nel tempo. Una stanza che di giorno serve da ufficio, nel fine settimana da camera per gli ospiti e da salotto d'appoggio durante un ricevimento funziona come un alloggio più grande della sua superficie reale. Le soluzioni sono numerose: un letto a scomparsa che libera la stanza di giorno, un tavolo che si apre su richiesta, una parete scorrevole che isola un angolo di lavoro senza chiudere definitivamente la stanza, o sedute che nascondono un letto.",
+            "Questa modularità richiede precisione: un meccanismo che si blocca o un mobile troppo pesante da manovrare finisce per non essere più usato. Qui il ruolo dell'architetto è determinante, perché dimensiona ogni dispositivo in base alla frequenza reale del suo uso. Per un esempio concreto applicato a una piccola superficie, il nostro articolo sull'[allestimento di un monolocale parigino di 30 m²](/it/journal/amenagement-studio-paris-optimiser-30m2) mostra come questi principi si articolano in un unico volume.",
+          ],
+        },
+        {
+          heading: "La luce e le trasparenze, primi alleati della sensazione di spazio",
+          paragraphs: [
+            "Uno spazio sembra grande quando lo sguardo può attraversarlo. Una vetrata da atelier tra una camera e un soggiorno, una porta a vetri al posto di una porta cieca, un frangivista a listelli o uno specchio ben posizionato lasciano circolare la luce senza che cada alcun muro. La stanza più buia beneficia allora della luce della vicina, e due piccoli volumi si leggono come uno solo.",
+            "Questo lavoro sulla trasparenza funziona anche con la luce artificiale: un'illuminazione indiretta che sottolinea l'altezza delle pareti, punti luce distribuiti invece di un'unica plafoniera, tonalità chiare sulle superfici che riflettono la luce. Torniamo su questa logica di continuità tra gli ambienti nel nostro articolo sulla [cucina aperta a Parigi](/it/journal/cuisine-ouverte-paris-amenagement-optimal), dove la questione della luce condiziona l'intera pianta.",
+          ],
+        },
+        {
+          heading: "Materiali scelti per rasserenare piuttosto che per decorare",
+          paragraphs: [
+            "In un volume contenuto, la profusione di materiali e colori affatica l'occhio e fa sembrare la stanza più piccola. Meglio restringere la tavolozza: uno stesso rivestimento di pavimento da una stanza all'altra, due o tre tonalità che si rispondono, una sola essenza di legno per falegnamerie e contenitori. Questa sobrietà non rende l'interno spento, al contrario gli dà profondità, perché la qualità di ogni materia può finalmente esprimersi.",
+            "Finiture opache, superfici poco riflettenti per le grandi campiture e alcuni materiali nobili collocati nei punti giusti — un piano in pietra, un'anta in rovere massello, un intonaco a calce — bastano a creare un'atmosfera curata senza appesantire lo spazio.",
+          ],
+        },
+        {
+          heading: "Quando abbattere una parete diventa davvero pertinente",
+          paragraphs: [
+            "Questo approccio non esclude di toccare la struttura quando è giustificato. Permette semplicemente di decidere con cognizione di causa. Se, nonostante un uso attento di altezza, angoli e luce, la circolazione resta vincolata o una stanza cieca non può ricevere luce in altro modo, aprire diventa una vera risposta. Dettagliamo queste situazioni nel nostro articolo sulla [trasformazione di un bilocale in trilocale a Parigi](/it/journal/transformer-2-pieces-en-3-pieces-paris).",
+            "Nel frattempo, l'ottimizzazione senza grandi lavori presenta un vantaggio spesso sottovalutato: evita i vincoli di autorizzazione condominiale, gli studi strutturali e i tempi che accompagnano l'apertura di un muro portante, conservando lo spirito originario dell'alloggio.",
+          ],
+        },
+        {
+          heading: "L'approccio di Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, ogni progetto di ottimizzazione inizia con una visita dell'alloggio e una lettura attenta di come viene abitato. Individuiamo i volumi sottoutilizzati, le circolazioni da riequilibrare e gli angoli da valorizzare, prima di proporre un piano che migliora l'uso senza stravolgere la struttura quando non è necessario. Il nostro ruolo è mostrarvi che il vostro appartamento contiene spesso più spazio di quanto immaginaste.",
+            "**Avete la sensazione di mancare di spazio nel vostro appartamento?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un sopralluogo conoscitivo, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Si può davvero guadagnare spazio senza abbattere pareti?** Sì, nella grande maggioranza dei casi. Lo sfruttamento dell'altezza, il su misura, la valorizzazione degli angoli e il lavoro sulla luce permettono di guadagnare sia spazio utile sia sensazione di spazio, senza toccare la struttura dell'alloggio.",
+            "**Da dove iniziare per ottimizzare un piccolo appartamento?** Da una diagnosi d'uso: individuare le zone inutilizzate, le circolazioni ostacolate e i punti in cui gli oggetti si accumulano. È questa lettura che determina poi le soluzioni di contenimento, modularità o ridistribuzione da privilegiare.",
+            "**Il su misura è riservato ai budget elevati?** No. Può essere mirato su alcune zone ad alto impatto (una parete attrezzata, una nicchia, una cabina armadio) invece di essere esteso a tutto l'alloggio. È spesso più conveniente dell'accumulo di mobili standard che non si adattano a nessuna parete.",
+            "**Specchi e colori chiari bastano per ingrandire una stanza?** Aiutano, ma non sostituiscono un lavoro su circolazione, contenitori e altezza. Una stanza ingombra resterà angusta qualunque sia il suo colore; la percezione dello spazio poggia innanzitutto su una giusta organizzazione.",
+            "**Da quando bisogna considerare di modificare la struttura?** Quando, nonostante un'ottimizzazione accurata, la circolazione resta vincolata o una stanza manca durevolmente di luce. Un architetto d'interni può allora valutare la fattibilità di un'apertura e le sue conseguenze in condominio prima di qualsiasi impegno.",
+          ],
+        },
+      ],
+      keywords: [
+        "Ottimizzare spazio appartamento Parigi",
+        "Guadagnare spazio senza grandi lavori",
+        "Su misura Parigi",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {
