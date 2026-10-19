@@ -3008,6 +3008,196 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "budget-travaux-renovation-paris-part-invisible": {
+    en: {
+      title: "Half of your renovation budget will never be seen",
+      metaTitle: "Renovation Budget Paris: The Invisible Share That Counts",
+      excerpt:
+        "Electrics, plumbing, waterproofing, substrates: nearly half of a renovation budget disappears behind the walls. Why this is where you should never cut corners.",
+      category: "Advice & Expertise",
+      readingTime: "8 min",
+      intro:
+        "When we picture a renovation project, we think of a kitchen, a parquet floor, the shade of a wall. We rarely think of what lies behind. Yet once the works are finished, a considerable share of the budget has vanished under plaster, tiling and paint: cables, pipes, waterproofing, substrates, insulation. These items can't be photographed and are shown to no one, but they decide how your apartment will age. Learning to recognise them is the first condition for making budget trade-offs you won't regret in ten years.",
+      sections: [
+        {
+          heading: "What we forget are the things we cannot see",
+          paragraphs: [
+            "In an owner's mind, a renovation budget is divided between what can be seen: the kitchen, the bathroom, the floors, the paintwork. In the reality of a building site, the visible is only half the bill. In an example estimate for a full 60 m² renovation, compliant electrics account for around 15% of the budget, full plumbing 12%, partitions and plasterwork 10%, and demolition with structural work 9%. These four items, which you never look at once the works are finished, already represent nearly half of the total.",
+            "This is an order of magnitude, not a rule: the breakdown varies with the condition of the building, the level of finish and the floor area. But the lesson is constant. The older an apartment, the larger the hidden share of the budget, and the more it deserves to be dealt with first. In Paris, where most renovation work is on older buildings, this share is rarely negotiable.",
+          ],
+          image: {
+            src: "/assets/images/cloison-verriere-appartement-haussmannien-apres-travaux-paris.jpg",
+            caption: "The same space once the partitions are closed up: services and substrates have disappeared behind the glazed partition",
+          },
+        },
+        {
+          heading: "Make trade-offs, yes, but not just anything",
+          paragraphs: [
+            "Every budget ends up forcing choices. The question isn't whether to make trade-offs, but on what. We apply a simple rule, which we call the reversibility rule: what can be changed without breaking anything can wait; what will be enclosed behind a wall or under a floor cannot.",
+            "A door handle, a light fitting, a paint colour, a sofa or a table can be replaced on a Saturday afternoon, with no dust and no tradesperson. A pipe embedded in a partition, electrics under a render or waterproofing under tiling can only be replaced by destroying what you have just paid for. Lowering the quality of what is visible is a reasonable trade-off, because it can be corrected later. Lowering the quality of what is hidden is a deferred expense, with interest.",
+          ],
+        },
+        {
+          heading: "Electrics, the home's first insurance",
+          paragraphs: [
+            "In an older apartment, the electrical installation is often the first thing to redo. The NF C 15-100 standard governs the design of installations: a consumer unit organised into dedicated circuits, effective earthing, residual-current protection devices, and in particular a 30 mA residual-current device in wet rooms, which cuts the power as soon as a leak is detected. Where the installation is completely redone, a certificate of conformity issued by Consuel may be required before power is reconnected.",
+            "This work is not spectacular. It takes place in ducts, behind skirting boards and in a panel nobody looks at. Yet it is what protects the home from overheating, short circuits and, ultimately, the risk of fire. Together with plumbing, electrics generally account for between 12% and 20% of a renovation budget, an amount rarely remembered once the project is over, but one you would regret not having done if you had to go back.",
+          ],
+        },
+        {
+          heading: "Plumbing and waterproofing, protecting your neighbours",
+          paragraphs: [
+            "In a co-owned building, water damage is never just your own concern. A leak behind a partition can reach the neighbour below, leading to surveys, insurance disputes and months of disruption. This is why plumbing and the waterproofing of wet rooms are among the items on which you should never economise.",
+            "Redoing the ageing supply and drainage pipes of an older building, checking the falls, taking care over the joints before closing up, and fitting a waterproofing system that complies with best practice under the tiling of showers and bathrooms: this is what distinguishes a bathroom that lasts from one that leaks after a few years. The tiling you choose will be identical in both cases: it is what lies beneath that makes all the difference.",
+          ],
+        },
+        {
+          heading: "Substrates, insulation and ventilation: the comfort we can't put a name to",
+          paragraphs: [
+            "There is a third group of items that you only notice through their effects. A poorly repaired floor, and the new parquet creaks. A damp wall badly treated, and the paint blisters within months. Neglected sound insulation, and the slightest noise from the floor above becomes a permanent nuisance. Insufficient ventilation, and indoor air becomes laden with moisture.",
+            "These defects are rarely attributed to their true cause: we blame the parquet, the paint or the neighbour. Yet they almost always originate in a poorly prepared substrate, a poorly insulated wall or poorly renewed air. In a Parisian apartment, where walls are shared and floors are often old, these points call for particular attention from the design stage.",
+          ],
+        },
+        {
+          heading: "Why everything is decided before the partitions are closed",
+          paragraphs: [
+            "There is a moment when everything is decided: when the services are installed but the partitions and floors are not yet closed up. It is the last window to check, correct or add what is missing. A forgotten socket, a badly positioned duct, a poorly sloped drain can be sorted out in a few hours at this stage, and cost far more once the finishes are in place, since you then have to break out to repair.",
+            "This is also why site supervision proves its worth before, not after, the finishes. A well-timed visit makes it possible to check what will later disappear, to photograph the position of the services and to keep a useful record for any future work. We return to this role in our article on [interior architect fees in Paris](/en/journal/honoraires-architecte-interieur-paris), where we detail what site supervision really involves.",
+          ],
+        },
+        {
+          heading: "How to prioritise your budget",
+          paragraphs: [
+            "To make sound trade-offs, simply rank priorities by the consequence of a mistake. First come safety and structure, which leave no room for compromise. Then services and waterproofing, whose failure is very costly and shows up very late. Then lasting comfort: insulation, ventilation, acoustics. Last come finishes and furnishings, which are the easiest to change over the years.",
+            "To this hierarchy we add a contingency reserve, which we recommend at no less than 10% to 15% of the budget, and which can rise to 20% or more in a badly deteriorated older building. It is not a luxury: in a Parisian apartment, it is only by opening the partitions that you discover the real condition of the services. To place these items within an overall budget, our article on the [cost of renovating an apartment in Paris](/en/journal/cout-renovation-appartement-paris-budget-complet) details price ranges by trade.",
+          ],
+        },
+        {
+          heading: "Reading a quote differently",
+          paragraphs: [
+            "A very low quote catches the eye, but it should be read with caution. The first question to ask is always the same: where have the invisible items gone? A quote that precisely details the redoing of services, the type of waterproofing, the preparation of substrates and the treatment of damp describes a project that has been properly thought through. A quote that dwells on finishes and stays vague about services generally ends up showing the same total at the end of the project, but in the form of extras.",
+            "Comparing two quotes is therefore comparing what will be buried, far more than the price displayed for what will be visible.",
+          ],
+        },
+        {
+          heading: "Supra Studio's approach",
+          paragraphs: [
+            "At Supra Studio, we believe the quality of a renovation is measured by what you cannot see. We build budgets by starting with services, waterproofing and substrates, and reserving trade-offs for items that can evolve. During site supervision, we make a point of examining the work at key stages, in particular before partitions and floors close over it.",
+            "**Planning a renovation in Paris and want to build a solid budget?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an on-site consultation, or [get in touch](/en/contact) to discuss it.",
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          paragraphs: [
+            "**What share of the budget goes on work you can't see?** It depends on the condition of the home, but in a full renovation of an older apartment, services (electrics, plumbing), partitions and structural repairs often represent nearly half the budget. In an example estimate for a 60 m² apartment, these items add up to around 46%.",
+            "**Can you cut the bill without sacrificing quality?** Yes, by making trade-offs on items that can be changed later (light fittings, furniture, some finishes) rather than on those that will be enclosed behind a wall or floor: electrics, plumbing, waterproofing, substrates.",
+            "**Do you have to redo all the electrics during a renovation?** Not necessarily, but it is frequently needed in an older apartment whose installation no longer complies. An electrician can carry out a precise diagnosis, and a complete rework comes with a new consumer unit, dedicated circuits, earthing and protective devices suited to wet rooms.",
+            "**Why is the waterproofing of a bathroom so important?** Because a failure is often discovered late, when water has already reached the walls or the ceiling of the neighbour below. Compliant waterproofing under the tiling avoids water damage, insurance surveys and the removal of new tiling to carry out repairs.",
+            "**What margin should you allow for the unexpected?** At least 10% to 15% of the budget, and up to 20% or more in a deteriorated older building. It is once the partitions are opened that the real condition of the services and substrates is discovered.",
+          ],
+        },
+      ],
+      keywords: [
+        "Renovation budget Paris",
+        "Electrics plumbing apartment renovation",
+        "Bathroom waterproofing",
+      ],
+    },
+    it: {
+      title: "La metà del vostro budget lavori non si vedrà mai",
+      metaTitle: "Budget Lavori Ristrutturazione Parigi: la Parte Invisibile che Conta",
+      excerpt:
+        "Impianto elettrico, idraulica, impermeabilizzazione, supporti: quasi la metà del budget di una ristrutturazione sparisce dietro i muri. Perché è proprio lì che non bisogna mai risparmiare.",
+      category: "Consigli & competenza",
+      readingTime: "8 min",
+      intro:
+        "Quando si immagina un progetto di ristrutturazione, si pensa a una cucina, a un parquet, alla tonalità di una parete. Si pensa raramente a ciò che sta dietro. Eppure, a lavori finiti, una parte considerevole del budget è sparita sotto l'intonaco, le piastrelle e la pittura: cavi, tubazioni, impermeabilizzazione, supporti, isolamento. Queste voci non si fotografano e non si mostrano a nessuno, ma sono loro a decidere come invecchierà il vostro appartamento. Saperle riconoscere è la prima condizione per fare scelte di budget senza pentirsene tra dieci anni.",
+      sections: [
+        {
+          heading: "Ciò che si dimentica sono le cose che non si vedono",
+          paragraphs: [
+            "Nell'immaginario di un proprietario, un budget di ristrutturazione si ripartisce tra ciò che si vede: la cucina, il bagno, i pavimenti, le pitture. Nella realtà di un cantiere, il visibile è solo metà del conto. In un esempio di stima per una ristrutturazione completa di 60 m², l'impianto elettrico a norma pesa circa il 15% del budget, l'idraulica completa il 12%, le pareti e il cartongesso il 10% e le demolizioni con le opere murarie il 9%. Queste quattro voci, che non si contemplano mai a lavori ultimati, rappresentano già quasi la metà del totale.",
+            "Si tratta di un ordine di grandezza, non di una regola: la ripartizione varia secondo lo stato dell'edificio, il livello di finitura e la superficie. Ma la lezione è costante. Più un appartamento è antico, più aumenta la parte nascosta del budget, e più merita di essere trattata con priorità. A Parigi, dove si ristruttura soprattutto l'antico, questa parte è raramente negoziabile.",
+          ],
+          image: {
+            src: "/assets/images/cloison-verriere-appartement-haussmannien-apres-travaux-paris.jpg",
+            caption: "Lo stesso spazio a pareti chiuse: impianti e supporti sono scomparsi dietro la vetrata",
+          },
+        },
+        {
+          heading: "Scegliere cosa tagliare sì, ma non a caso",
+          paragraphs: [
+            "Ogni budget finisce per imporre delle scelte. La questione non è se bisogna fare delle rinunce, ma su cosa. Applichiamo una regola semplice, che chiamiamo regola della reversibilità: ciò che si può cambiare senza demolire può aspettare, ciò che sarà racchiuso dietro un muro o sotto un pavimento no.",
+            "Una maniglia, un'applique, un colore di pittura, un divano o un tavolo si sostituiscono un sabato pomeriggio, senza polvere e senza artigiano. Una tubazione annegata in una parete, un impianto elettrico sotto un intonaco o un'impermeabilizzazione sotto le piastrelle si sostituiscono solo distruggendo ciò che si è appena pagato. Ridurre la qualità di ciò che è visibile è una scelta ragionevole, perché si corregge in seguito. Ridurre quella di ciò che è nascosto è una spesa rimandata, con gli interessi.",
+          ],
+        },
+        {
+          heading: "L'impianto elettrico, prima assicurazione della casa",
+          paragraphs: [
+            "In un appartamento antico, l'impianto elettrico è spesso la prima cosa da rifare. La norma NF C 15-100 inquadra la progettazione degli impianti: un quadro elettrico organizzato in circuiti dedicati, una messa a terra efficace, dispositivi differenziali di protezione, e in particolare un differenziale da 30 mA nei locali umidi, che interrompe la corrente non appena viene rilevata una dispersione. In caso di rifacimento completo dell'impianto, può essere richiesta un'attestazione di conformità rilasciata dal Consuel prima della rimessa in tensione.",
+            "Questo lavoro non ha nulla di spettacolare. Si svolge in canaline, dietro i battiscopa e in un quadro che nessuno guarda. È però lui a proteggere l'alloggio da surriscaldamenti, cortocircuiti e, a termine, dal rischio di incendio. Insieme all'idraulica, l'impianto elettrico rappresenta in generale tra il 12% e il 20% del budget di una ristrutturazione, un importo che si ricorda raramente a cantiere concluso, ma che si rimpiangerebbe di non aver fatto se si dovesse tornarci.",
+          ],
+        },
+        {
+          heading: "Idraulica e impermeabilizzazione, la sicurezza del vicinato",
+          paragraphs: [
+            "In condominio, un danno da acqua non riguarda mai solo se stessi. Una perdita dietro una parete può raggiungere il vicino del piano di sotto, comportando perizie, contenziosi assicurativi e mesi di disagi. Per questo l'idraulica e l'impermeabilizzazione dei locali umidi fanno parte delle voci su cui non bisogna mai risparmiare.",
+            "Rifare le adduzioni e gli scarichi invecchiati di un edificio antico, verificare le pendenze, curare i raccordi prima di chiudere, e posare sotto le piastrelle di docce e bagni un sistema di impermeabilizzazione conforme alla regola dell'arte: ecco ciò che distingue un bagno che regge da uno che perde dopo qualche anno. Le piastrelle scelte saranno identiche nei due casi: è ciò che c'è sotto a fare la differenza.",
+          ],
+        },
+        {
+          heading: "Supporti, isolamento e ventilazione: il comfort che non sappiamo nominare",
+          paragraphs: [
+            "Esiste un terzo insieme di voci che si notano solo dai loro effetti. Un solaio mal ripreso, e il parquet nuovo scricchiola. Un muro umido trattato male, e la pittura si gonfia in pochi mesi. Un isolamento acustico trascurato, e il minimo rumore del piano di sopra diventa un disagio permanente. Una ventilazione insufficiente, e l'aria interna si carica di umidità.",
+            "Questi difetti sono raramente attribuiti alla loro vera causa: si accusano il parquet, la pittura o il vicino. Eppure hanno quasi sempre origine in un supporto mal preparato, una parete mal isolata o un'aria mal rinnovata. In un appartamento parigino, dove i muri sono in comune e i solai spesso antichi, questi punti richiedono un'attenzione particolare fin dalla progettazione.",
+          ],
+        },
+        {
+          heading: "Perché tutto si decide prima della chiusura delle pareti",
+          paragraphs: [
+            "Esiste un momento in cui tutto si decide: quello in cui gli impianti sono posati ma le pareti e i pavimenti non sono ancora richiusi. È l'ultima finestra per verificare, correggere o aggiungere ciò che manca. Una presa dimenticata, un passaggio di canalina mal posizionato, uno scarico con pendenza sbagliata si sistemano in poche ore in questa fase, e costano molto di più una volta posate le finiture, perché bisogna allora demolire per riparare.",
+            "È anche per questo motivo che la direzione lavori dà il meglio di sé prima, e non dopo, le finiture. Una visita al momento giusto permette di controllare ciò che scomparirà poi, di fotografare la posizione degli impianti e di conservare una traccia utile per ogni intervento futuro. Torniamo su questo ruolo nel nostro articolo sugli [onorari di un architetto d'interni a Parigi](/it/journal/honoraires-architecte-interieur-paris), dove dettagliamo cosa comprende realmente una direzione lavori.",
+          ],
+        },
+        {
+          heading: "Come gerarchizzare il proprio budget",
+          paragraphs: [
+            "Per scegliere senza sbagliare, basta ordinare le priorità secondo la conseguenza di un errore. Al primo posto la sicurezza e la struttura, che non ammettono compromessi. Poi gli impianti e l'impermeabilizzazione, il cui difetto si paga molto caro e molto tardi. Poi il comfort duraturo: isolamento, ventilazione, acustica. Per ultime le finiture e l'arredo, i più facili da far evolvere negli anni.",
+            "A questa gerarchia si aggiunge una riserva per imprevisti, che raccomandiamo di almeno il 10%-15% del budget, e che può salire fino al 20% o oltre in un edificio antico molto degradato. Non è un lusso: in un appartamento parigino, è aprendo le pareti che si scopre lo stato reale degli impianti. Per collocare queste voci in un budget complessivo, il nostro articolo sul [costo di una ristrutturazione di un appartamento a Parigi](/it/journal/cout-renovation-appartement-paris-budget-complet) dettaglia le fasce di prezzo per categoria.",
+          ],
+        },
+        {
+          heading: "Leggere un preventivo in modo diverso",
+          paragraphs: [
+            "Un preventivo molto basso attira l'occhio, ma va letto con diffidenza. La prima domanda da porsi è sempre la stessa: dove sono finite le voci invisibili? Un preventivo che dettaglia con precisione il rifacimento degli impianti, la natura dell'impermeabilizzazione, la preparazione dei supporti e il trattamento dell'umidità descrive un progetto che è stato pensato. Un preventivo che si dilunga sulle finiture e resta vago sugli impianti lascia in genere comparire lo stesso importo a fine cantiere, ma sotto forma di supplemento.",
+            "Confrontare due preventivi significa quindi confrontare il contenuto di ciò che sarà sepolto, molto più del prezzo indicato per ciò che sarà visibile.",
+          ],
+        },
+        {
+          heading: "L'approccio di Supra Studio",
+          paragraphs: [
+            "Da Supra Studio, riteniamo che la qualità di una ristrutturazione si misuri da ciò che non si vede. Costruiamo i budget partendo da impianti, impermeabilizzazione e supporti, e riservando le rinunce alle voci che possono evolvere. Durante la direzione lavori, ci premuriamo di esaminare le opere nelle fasi chiave, in particolare prima che pareti e pavimenti si richiudano su di esse.",
+            "**State preparando una ristrutturazione a Parigi e volete costruire un budget solido?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un sopralluogo conoscitivo, oppure [contattateci](/it/contact) per parlarne.",
+          ],
+        },
+        {
+          heading: "Domande frequenti",
+          paragraphs: [
+            "**Quale parte del budget rappresentano i lavori che non si vedono?** Dipende dallo stato dell'alloggio, ma in una ristrutturazione completa di un appartamento antico, gli impianti (elettricità, idraulica), le pareti e il ripristino delle opere murarie rappresentano spesso quasi la metà del budget. In un esempio di stima per un appartamento di 60 m², queste voci totalizzano circa il 46%.",
+            "**Si può ridurre la fattura senza sacrificare la qualità?** Sì, scegliendo di rinunciare a elementi che si possono modificare in seguito (apparecchi di illuminazione, arredi, alcune finiture) piuttosto che a quelli che saranno racchiusi dietro un muro o un pavimento: impianti elettrici, idraulica, impermeabilizzazione, supporti.",
+            "**Bisogna rifare tutto l'impianto elettrico durante una ristrutturazione?** Non sistematicamente, ma è spesso necessario in un appartamento antico il cui impianto non è più conforme. Un elettricista può stabilire una diagnosi precisa, e un rifacimento completo comporta un quadro nuovo, circuiti dedicati, una messa a terra e dispositivi di protezione adatti ai locali umidi.",
+            "**Perché l'impermeabilizzazione di un bagno è così importante?** Perché un difetto si scopre spesso tardi, quando l'acqua ha già raggiunto le pareti o il soffitto del vicino di sotto. Un'impermeabilizzazione conforme sotto le piastrelle evita danni da acqua, perizie assicurative e la rimozione di piastrelle nuove per riparare.",
+            "**Che margine prevedere per gli imprevisti?** Almeno il 10%-15% del budget, e fino al 20% o più in un edificio antico degradato. È una volta aperte le pareti che si scopre lo stato reale di impianti e supporti.",
+          ],
+        },
+      ],
+      keywords: [
+        "Budget ristrutturazione Parigi",
+        "Impianto elettrico idraulica ristrutturazione appartamento",
+        "Impermeabilizzazione bagno",
+      ],
+    },
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {

@@ -1599,6 +1599,104 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },
+  {
+    slug: "budget-travaux-renovation-paris-part-invisible",
+    title: "La moitié de votre budget travaux ne se verra jamais",
+    metaTitle: "Budget Travaux Rénovation Paris : la Part Invisible qui Compte",
+    excerpt:
+      "Électricité, plomberie, étanchéité, supports : près de la moitié d'un budget de rénovation disparaît derrière les murs. Pourquoi c'est là qu'il ne faut jamais économiser.",
+    date: "2026-10-19",
+    category: "Conseils & expertise",
+    cover: "/assets/images/reseaux-plomberie-electricite-chantier-renovation-appartement-paris.jpg",
+    readingTime: "8 min",
+    intro:
+      "Quand on imagine un projet de rénovation, on pense à une cuisine, à un parquet, à la teinte d'un mur. On pense rarement à ce qui se trouve derrière. Pourtant, une fois le chantier terminé, une part considérable du budget a disparu sous le plâtre, le carrelage et la peinture : câbles, canalisations, étanchéité, supports, isolation. Ces postes ne se photographient pas et ne se montrent à personne, mais ce sont eux qui décident de la façon dont votre appartement vieillira. Savoir les reconnaître, c'est la première condition pour arbitrer un budget sans le regretter dans dix ans.",
+    sections: [
+      {
+        heading: "Ce que l'on oublie, ce sont les choses que l'on ne voit pas",
+        paragraphs: [
+          "Dans l'imaginaire d'un propriétaire, un budget de rénovation se répartit entre ce qui se voit : la cuisine, la salle de bains, les sols, les peintures. Dans la réalité d'un chantier, le visible n'est que la moitié de l'ardoise. Sur un exemple d'estimation d'une rénovation complète de 60 m², l'électricité aux normes pèse environ 15 % du budget, la plomberie complète 12 %, les cloisons et la plâtrerie 10 % et la démolition avec le gros œuvre 9 %. Ces quatre postes, que l'on ne contemple jamais une fois les travaux achevés, représentent déjà près de la moitié de l'ensemble.",
+          "Il s'agit d'un ordre de grandeur, et non d'une règle : la répartition varie selon l'état du bâti, le niveau de finition et la surface. Mais l'enseignement est constant. Plus un appartement est ancien, plus la part cachée du budget augmente, et plus elle mérite d'être traitée en priorité. À Paris, où l'on rénove surtout de l'ancien, cette part est rarement négociable.",
+        ],
+        image: {
+          src: "/assets/images/cloison-verriere-appartement-haussmannien-apres-travaux-paris.jpg",
+          caption: "Le même espace une fois les cloisons refermées : réseaux et supports ont disparu derrière la verrière",
+        },
+      },
+      {
+        heading: "Arbitrer oui, mais pas n'importe quoi",
+        paragraphs: [
+          "Tout budget finit par imposer des choix. La question n'est pas de savoir s'il faut arbitrer, mais sur quoi. Nous appliquons une règle simple, que nous appelons la règle de la réversibilité : ce que l'on peut changer sans casser peut attendre, ce qui sera enfermé derrière un mur ou sous un sol ne le peut pas.",
+          "Une poignée de porte, un luminaire, une couleur de peinture, un canapé ou une table se remplacent un samedi après-midi, sans poussière et sans artisan. Une canalisation noyée dans une cloison, un réseau électrique sous un enduit ou une étanchéité sous un carrelage ne se remplacent qu'en détruisant ce que l'on vient de payer. Réduire la qualité de ce qui est visible est un arbitrage raisonnable, car il se corrige plus tard. Réduire celle de ce qui est caché est un report de dépense, avec intérêts.",
+        ],
+      },
+      {
+        heading: "L'électricité, première assurance de la maison",
+        paragraphs: [
+          "Dans un appartement ancien, l'installation électrique est souvent la première chose à reprendre. La norme NF C 15-100 encadre la conception des installations : un tableau électrique organisé en circuits dédiés, une mise à la terre efficace, des dispositifs différentiels de protection, et notamment un différentiel 30 mA dans les pièces d'eau, qui coupe le courant dès qu'une fuite est détectée. Dans le cas d'une reprise complète de l'installation, une attestation de conformité délivrée par le Consuel peut être exigée avant la remise sous tension.",
+          "Ce travail n'a rien de spectaculaire. Il se joue dans des gaines, derrière des plinthes et dans un tableau que personne ne regarde. C'est pourtant lui qui protège le logement des échauffements, des courts-circuits et, à terme, du risque d'incendie. Avec la plomberie, l'électricité représente en général entre 12 % et 20 % du budget d'une rénovation, un montant que l'on retrouve rarement dans le souvenir que l'on garde du chantier, mais que l'on regrettera de n'avoir pas fait si l'on devait y revenir.",
+        ],
+      },
+      {
+        heading: "La plomberie et l'étanchéité, la sécurité du voisinage",
+        paragraphs: [
+          "En copropriété, un dégât des eaux ne concerne jamais que soi. Une fuite derrière une cloison peut toucher le voisin du dessous, entraîner des expertises, des contentieux d'assurance et des mois de désagrément. C'est la raison pour laquelle la plomberie et l'étanchéité des pièces d'eau font partie des postes sur lesquels il ne faut jamais économiser.",
+          "Reprendre les alimentations et les évacuations vieillissantes d'un immeuble ancien, vérifier les pentes, soigner les raccords avant de fermer, et poser sous le carrelage des douches et des salles de bains un système d'étanchéité conforme aux règles de l'art, voilà ce qui distingue une salle de bains qui tient de celle qui fuit au bout de quelques années. Le carrelage choisi, lui, sera identique dans les deux cas : c'est ce qu'il y a dessous qui change tout.",
+        ],
+      },
+      {
+        heading: "Les supports, l'isolation et la ventilation : le confort que l'on ne sait pas nommer",
+        paragraphs: [
+          "Il existe un troisième ensemble de postes que l'on ne remarque que par ses effets. Un plancher mal repris, et le parquet neuf grince. Un mur humide mal traité, et la peinture cloque en quelques mois. Une isolation phonique négligée, et le moindre bruit de l'étage supérieur devient une gêne permanente. Une ventilation insuffisante, et l'air intérieur se charge d'humidité.",
+          "Ces défauts sont rarement attribués à leur véritable cause : on accuse le parquet, la peinture ou le voisin. Or ils trouvent presque toujours leur origine dans un support mal préparé, une paroi mal isolée ou un air mal renouvelé. Dans un appartement parisien, où les murs sont mitoyens et les planchers souvent anciens, ces points demandent une attention particulière dès la conception.",
+        ],
+      },
+      {
+        heading: "Pourquoi tout se joue avant la fermeture des cloisons",
+        paragraphs: [
+          "Il existe un moment où tout se décide : celui où les réseaux sont posés mais où les cloisons et les sols ne sont pas encore refermés. C'est la dernière fenêtre pour vérifier, corriger ou ajouter ce qui manque. Une prise oubliée, un passage de gaine mal placé, une évacuation mal pentée se règlent en quelques heures à ce stade, et coûtent bien plus cher une fois les finitions posées, car il faut alors casser pour réparer.",
+          "C'est aussi pour cette raison que le suivi de chantier prend toute sa valeur avant, et non après, les finitions. Une visite au bon moment permet de contrôler ce qui disparaîtra ensuite, de photographier l'emplacement des réseaux et de conserver une trace utile pour toute intervention future. Nous revenons sur ce rôle dans notre article sur les [honoraires d'un architecte d'intérieur à Paris](/journal/honoraires-architecte-interieur-paris), où nous détaillons ce que recouvre réellement un suivi de chantier.",
+        ],
+      },
+      {
+        heading: "Comment hiérarchiser son budget",
+        paragraphs: [
+          "Pour arbitrer sans se tromper, il suffit d'ordonner les priorités selon la conséquence d'une erreur. En premier viennent la sécurité et la structure, qui n'ont aucune marge de compromis. Viennent ensuite les réseaux et l'étanchéité, dont la défaillance se paie très cher et très tard. Puis le confort durable : isolation, ventilation, acoustique. En dernier, les finitions et le mobilier, qui sont les plus faciles à faire évoluer au fil des années.",
+          "À cette hiérarchie s'ajoute une réserve pour imprévus, que nous recommandons d'au moins 10 % à 15 % du budget, et qui peut monter jusqu'à 20 % ou davantage dans un bâti ancien très dégradé. Elle n'est pas un luxe : dans un appartement parisien, c'est en ouvrant les cloisons que l'on découvre l'état réel des réseaux. Pour situer ces postes dans un budget global, notre article sur le [coût d'une rénovation d'appartement à Paris](/journal/cout-renovation-appartement-paris-budget-complet) détaille les fourchettes de prix par corps de métier.",
+        ],
+      },
+      {
+        heading: "Lire un devis autrement",
+        paragraphs: [
+          "Un devis très bas attire l'œil, mais il se lit avec méfiance. La première question à poser est toujours la même : où sont passés les postes invisibles ? Un devis qui détaille précisément la reprise des réseaux, la nature de l'étanchéité, la préparation des supports et le traitement de l'humidité décrit un projet qui a été réfléchi. Un devis qui s'étend sur les finitions et reste vague sur les réseaux laisse en général apparaître le même montant en fin de chantier, mais sous forme de supplément.",
+          "Comparer deux devis, c'est donc comparer le contenu de ce qui sera enfoui, bien plus que le prix affiché pour ce qui sera visible.",
+        ],
+      },
+      {
+        heading: "L'approche de Supra Studio",
+        paragraphs: [
+          "Chez Supra Studio, nous considérons que la qualité d'une rénovation se mesure à ce que l'on ne voit pas. Nous établissons les budgets en commençant par les réseaux, l'étanchéité et les supports, et en réservant les arbitrages aux postes qui peuvent évoluer. Lors du suivi de chantier, nous veillons à examiner les ouvrages aux étapes clés, notamment avant que les cloisons et les sols ne se referment sur eux.",
+          "**Vous préparez une rénovation à Paris et souhaitez construire un budget solide ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter.",
+        ],
+      },
+      {
+        heading: "Questions fréquentes",
+        paragraphs: [
+          "**Quelle part du budget représentent les travaux que l'on ne voit pas ?** Cela dépend de l'état du logement, mais dans une rénovation complète d'un appartement ancien, les réseaux (électricité, plomberie), les cloisons et la reprise du gros œuvre représentent souvent près de la moitié du budget. Dans un exemple d'estimation pour un appartement de 60 m², ces postes totalisent environ 46 %.",
+          "**Peut-on réduire la facture sans sacrifier la qualité ?** Oui, en arbitrant sur les éléments que l'on peut modifier plus tard (luminaires, mobilier, certaines finitions) plutôt que sur ceux qui seront enfermés derrière un mur ou un sol : réseaux électriques, plomberie, étanchéité, supports.",
+          "**Faut-il refaire toute l'électricité lors d'une rénovation ?** Pas systématiquement, mais c'est fréquemment nécessaire dans un appartement ancien dont l'installation n'est plus conforme. Un électricien peut établir un diagnostic précis, et une reprise complète s'accompagne d'un tableau neuf, de circuits dédiés, d'une mise à la terre et de dispositifs de protection adaptés aux pièces d'eau.",
+          "**Pourquoi l'étanchéité d'une salle de bains est-elle si importante ?** Parce qu'une défaillance se découvre souvent tard, lorsque l'eau a déjà atteint les parois ou le plafond du voisin du dessous. Une étanchéité conforme sous le carrelage évite les dégâts des eaux, les expertises d'assurance et la dépose d'un carrelage neuf pour réparer.",
+          "**Quelle marge prévoir pour les imprévus ?** Au moins 10 % à 15 % du budget, et jusqu'à 20 % ou plus dans un bâti ancien dégradé. C'est une fois les cloisons ouvertes que l'on découvre l'état réel des réseaux et des supports.",
+        ],
+      },
+    ],
+    keywords: [
+      "Budget travaux rénovation Paris",
+      "Électricité plomberie rénovation appartement",
+      "Étanchéité salle de bains",
+    ],
+    relatedProjects: ["casa-duy", "maison-kleber"],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
