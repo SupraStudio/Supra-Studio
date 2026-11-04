@@ -19,7 +19,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
     notice: {
       label: "Informations légales",
       title: "Mentions légales",
-      updated: "Dernière mise à jour : juillet 2026",
+      updated: "Dernière mise à jour : novembre 2026",
       sections: [
         {
           heading: "1. Éditeur du site",
@@ -44,33 +44,40 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           ],
         },
         {
-          heading: "4. Propriété intellectuelle",
+          heading: "4. Assurance professionnelle",
+          paragraphs: [
+            "Supra Studio est assurée en responsabilité civile professionnelle et en responsabilité décennale auprès d'EUROMAF SA (Mutuelle des Architectes Français), 189 boulevard Malesherbes, 75017 Paris, contrat n° 7012339/S.",
+            "Couverture géographique : France métropolitaine et départements d'outre-mer.",
+          ],
+        },
+        {
+          heading: "5. Propriété intellectuelle",
           paragraphs: [
             "L'ensemble des éléments composant ce site — textes, photographies, perspectives, plans, logos, identité visuelle, mise en page — est la propriété exclusive de Supra Studio ou de ses partenaires, et est protégé par le Code de la propriété intellectuelle.",
             "Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie de ces éléments, quel que soit le moyen ou le procédé utilisé, est interdite sans l'autorisation écrite préalable de Supra Studio.",
           ],
         },
         {
-          heading: "5. Crédits",
+          heading: "6. Crédits",
           paragraphs: [
             "Conception et développement du site : Supra Studio.",
             "Visuels, perspectives et plans des projets présentés : Supra Studio, sauf mention contraire.",
           ],
         },
         {
-          heading: "6. Liens hypertextes",
+          heading: "7. Liens hypertextes",
           paragraphs: [
             "Le site peut contenir des liens vers des sites tiers (Calendly, réseaux sociaux, etc.). Supra Studio n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou à leur politique de confidentialité.",
           ],
         },
         {
-          heading: "7. Données personnelles",
+          heading: "8. Données personnelles",
           paragraphs: [
             "Le traitement des données personnelles collectées via ce site est détaillé dans notre Politique de confidentialité, accessible depuis le pied de page du site.",
           ],
         },
         {
-          heading: "8. Droit applicable",
+          heading: "9. Droit applicable",
           paragraphs: [
             "Les présentes mentions légales sont soumises au droit français. En cas de litige, et à défaut de résolution amiable, les tribunaux français seront seuls compétents.",
           ],
@@ -80,7 +87,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
     privacy: {
       label: "Vie privée",
       title: "Politique de confidentialité",
-      updated: "Dernière mise à jour : juillet 2026",
+      updated: "Dernière mise à jour : novembre 2026",
       intro:
         "Supra Studio attache une grande importance à la protection des données personnelles des visiteurs et clients de ce site. Cette politique explique quelles données sont collectées, pourquoi, et comment vous pouvez exercer vos droits, conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.",
       sections: [
@@ -94,6 +101,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           heading: "2. Données collectées",
           paragraphs: [
             "Lorsque vous utilisez le formulaire de contact du site, nous collectons les données suivantes : nom, adresse email, numéro de téléphone (facultatif) et le contenu de votre message.",
+            "Lorsque vous utilisez le formulaire de demande de projet (page « Votre projet »), nous collectons : prénom, numéro de téléphone, adresse email, code postal, ainsi que vos réponses sur votre projet (propriétaire ou non, type de bien, type de projet, budget et délai envisagés). Nous enregistrons également la date de la demande, l'adresse de la page d'origine et, si vous arrivez depuis une annonce Google, l'identifiant de clic Google Ads (« gclid »).",
             "Nous ne collectons aucune autre donnée personnelle à votre insu. Le site utilise Google Analytics pour mesurer sa fréquentation (voir la section « Cookies » ci-dessous).",
           ],
         },
@@ -114,7 +122,8 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
         {
           heading: "5. Destinataires des données",
           paragraphs: [
-            "Les données transmises via le formulaire de contact sont acheminées par notre prestataire de gestion de formulaires (Formspree) et ne sont accessibles qu'aux membres de l'équipe Supra Studio habilités à traiter votre demande. Elles ne sont ni vendues, ni cédées, ni louées à des tiers à des fins commerciales.",
+            "Les données transmises via le formulaire de contact sont acheminées par email grâce à notre prestataire d'envoi (Resend). Les demandes de projet sont enregistrées dans un tableur Google Sheets et transmises par email à l'équipe ; elles sont hébergées par Google. Elles peuvent aussi être reportées dans l'outil interne de suivi des projets de Supra Studio.",
+            "Ces données ne sont accessibles qu'aux membres de l'équipe Supra Studio habilités à traiter votre demande. Elles ne sont ni vendues, ni cédées, ni louées à des tiers à des fins commerciales.",
             "La prise de rendez-vous via Calendly implique la transmission de certaines données (nom, email, créneau choisi) directement à ce prestataire, dont l'utilisation est soumise à sa propre politique de confidentialité.",
           ],
         },
@@ -128,9 +137,8 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           heading: "7. Cookies",
           paragraphs: [
             "Ce site utilise des cookies techniques strictement nécessaires à son fonctionnement (par exemple pour mémoriser votre choix de langue).",
-            "Il utilise également Google Analytics afin de mesurer la fréquentation du site (nombre de visites, pages consultées, provenance). Les adresses IP sont anonymisées avant traitement. Ces données sont traitées par Google LLC, qui peut les transférer hors de l'Union européenne dans le cadre des clauses contractuelles types de la Commission européenne. Vous pouvez vous opposer à ce suivi via le module de désactivation proposé par Google : https://tools.google.com/dlpage/gaoptout.",
-            "Aucun cookie publicitaire n'est déposé sur ce site.",
-            "Lors de votre première visite, un bandeau vous permet d'accepter ou de refuser le dépôt du cookie Google Analytics. Votre choix est mémorisé sur votre appareil ; vous pouvez le modifier à tout moment en effaçant les données de navigation de ce site dans votre navigateur.",
+            "Avec votre accord, il utilise également Google Analytics afin de mesurer la fréquentation du site (nombre de visites, pages consultées, provenance), ainsi que la balise Google Ads afin de mesurer l'efficacité de nos annonces (par exemple, savoir si une demande de projet ou un appel fait suite à un clic sur une annonce). Les adresses IP sont anonymisées dans Google Analytics. Ces données sont traitées par Google, qui peut les transférer hors de l'Union européenne dans le cadre des clauses contractuelles types de la Commission européenne.",
+            "Ces cookies ne sont déposés qu'après votre acceptation. Lors de votre première visite, un bandeau vous permet de les accepter ou de les refuser, avec la même facilité. Votre choix est mémorisé sur votre appareil ; vous pouvez le modifier à tout moment en effaçant les données de navigation de ce site dans votre navigateur.",
           ],
         },
         {
@@ -270,7 +278,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           paragraphs: [
             "This website uses technical cookies that are strictly necessary for it to function (for example, to remember your language preference).",
             "It also uses Google Analytics to measure website traffic (number of visits, pages viewed, referral source). IP addresses are anonymised before processing. This data is processed by Google LLC, which may transfer it outside the European Union under the European Commission's standard contractual clauses. You can opt out of this tracking using Google's opt-out tool: https://tools.google.com/dlpage/gaoptout.",
-            "No advertising cookies are set on this website.",
+            "With your consent, the website also uses the Google Ads tag to measure the performance of our ads. These cookies are only set after you accept them.",
             "On your first visit, a banner lets you accept or decline the Google Analytics cookie. Your choice is stored on your device; you can change it at any time by clearing this website's browsing data in your browser.",
           ],
         },
@@ -411,7 +419,7 @@ export const LEGAL: Record<Lang, { notice: LegalDoc; privacy: LegalDoc }> = {
           paragraphs: [
             "Questo sito utilizza cookie tecnici strettamente necessari al suo funzionamento (ad esempio per memorizzare la lingua scelta).",
             "Utilizza inoltre Google Analytics per misurare l'affluenza al sito (numero di visite, pagine consultate, provenienza). Gli indirizzi IP vengono anonimizzati prima del trattamento. Questi dati sono trattati da Google LLC, che può trasferirli al di fuori dell'Unione Europea nell'ambito delle clausole contrattuali tipo della Commissione Europea. Potete opporvi a questo tracciamento tramite lo strumento di disattivazione proposto da Google: https://tools.google.com/dlpage/gaoptout.",
-            "Nessun cookie pubblicitario è installato su questo sito.",
+            "Con il vostro consenso, il sito utilizza anche il tag Google Ads per misurare l'efficacia dei nostri annunci. Questi cookie vengono installati solo dopo la vostra accettazione.",
             "Alla vostra prima visita, un banner vi permette di accettare o rifiutare il cookie di Google Analytics. La vostra scelta viene memorizzata sul vostro dispositivo; potete modificarla in qualsiasi momento cancellando i dati di navigazione di questo sito dal vostro browser.",
           ],
         },

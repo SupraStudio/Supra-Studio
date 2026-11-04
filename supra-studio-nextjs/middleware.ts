@@ -20,6 +20,8 @@ function isStaticOrExcludedPath(pathname: string) {
     pathname.startsWith("/en") ||
     pathname.startsWith("/it") ||
     pathname.startsWith("/api") ||
+    // Landing page Google Ads : uniquement en français, jamais redirigée vers /en ou /it
+    pathname.startsWith("/votre-projet") ||
     pathname.startsWith("/_next") ||
     pathname.startsWith("/assets") ||
     pathname === "/robots.txt" ||

@@ -61,6 +61,14 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        {/* Consent Mode v2 : tout est refusé par défaut, avant toute balise Google.
+            Le bandeau cookies passe ces signaux à « accordé » si le visiteur accepte. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});",
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link

@@ -9,6 +9,7 @@ import {
   localizedHref,
   stripLocaleFromPath,
 } from "@/lib/i18n";
+import { ADS_ID } from "@/lib/landing";
 
 type Consent = "accepted" | "declined" | null;
 
@@ -60,22 +61,34 @@ export default function CookieConsent({ gaId }: { gaId?: string }) {
       // ignore — the banner still hides for this session via state.
     }
     setConsent(value);
+    // Prévient la page merci (conversion Google Ads) que le choix vient d'être fait.
+    window.dispatchEvent(new CustomEvent("supra-consent", { detail: value }));
   }
 
   return (
     <>
-      {gaId && consent === "accepted" && (
+      {/* Google Ads + Google Analytics, chargés uniquement après acceptation (exigence CNIL).
+          L'état de consentement par défaut (« refusé ») est déclaré dans app/layout.tsx
+          (Consent Mode v2) ; on le passe ici à « accordé ». */}
+      {consent === "accepted" && (
         <>
           <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=${gaId || ADS_ID}`}
             strategy="afterInteractive"
           />
-          <Script id="ga4-init" strategy="afterInteractive">
+          <Script id="gtag-init" strategy="afterInteractive">
             {`
               window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
+              window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+              gtag('consent', 'update', {
+                ad_storage: 'granted',
+                ad_user_data: 'granted',
+                ad_personalization: 'granted',
+                analytics_storage: 'granted'
+              });
               gtag('js', new Date());
-              gtag('config', '${gaId}', { anonymize_ip: true });
+              ${gaId ? `gtag('config', '${gaId}', { anonymize_ip: true });` : ""}
+              gtag('config', '${ADS_ID}');
             `}
           </Script>
         </>
