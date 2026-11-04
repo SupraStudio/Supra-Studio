@@ -158,7 +158,7 @@ export default function VotreProjetPage() {
         </section>
 
         {/* ---------- Offre de premier contact ---------- */}
-        <section className="lp-section lp-offer">
+        <section className="lp-section lp-offer" id="offre">
           <div className="lp-wrap lp-offer-inner">
             <div>
               <p className="lp-label">Premier rendez-vous</p>
@@ -179,7 +179,7 @@ export default function VotreProjetPage() {
         </section>
 
         {/* ---------- Projets ---------- */}
-        <section className="lp-section">
+        <section className="lp-section" id="realisation">
           <div className="lp-wrap">
             <p className="lp-label">Nos projets en cours</p>
             <h2>Des espaces qui élèvent le quotidien</h2>
@@ -241,7 +241,7 @@ export default function VotreProjetPage() {
         </section>
 
         {/* ---------- Méthode ---------- */}
-        <section className="lp-section">
+        <section className="lp-section" id="methode">
           <div className="lp-wrap">
             <p className="lp-label">Notre méthode</p>
             <h2>Trois étapes, un projet maîtrisé</h2>

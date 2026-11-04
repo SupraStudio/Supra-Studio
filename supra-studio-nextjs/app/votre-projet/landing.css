@@ -358,7 +358,7 @@
 }
 
 /* ---------- Sections ---------- */
-.lp-section { padding: clamp(56px, 7vw, 112px) 0; border-top: 1px solid var(--bleu-line); }
+.lp-section { scroll-margin-top: 0; padding: clamp(56px, 7vw, 112px) 0; border-top: 1px solid var(--bleu-line); }
 .lp-section h2 { font-size: clamp(26px, 3.6vw, 44px); line-height: 1.05; margin-bottom: 28px; }
 .lp-section p { font-size: 15.5px; line-height: 1.6; }
 
