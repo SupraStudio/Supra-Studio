@@ -89,50 +89,51 @@ const AREAS = [
 export default function VotreProjetPage() {
   return (
     <div className="lp">
-      <header className="lp-header">
-        <img
-          className="lp-logo"
-          src="/assets/icons/logo-supra-studio-bleu.svg"
-          alt="Supra Studio"
-          width={132}
-          height={50}
-        />
-        <PhoneLink className="lp-header-call" ariaLabel={`Appeler le ${PHONE_DISPLAY}`}>
-          <span className="lp-header-call-label">Appeler</span> {PHONE_DISPLAY}
-        </PhoneLink>
-      </header>
-
       <main>
-        {/* ---------- Hero : titre + formulaire visibles sans faire défiler ---------- */}
+        {/* ---------- Hero plein écran : même photo que la page d'accueil ---------- */}
         <section className="lp-hero">
-          <div className="lp-hero-text">
-            <p className="lp-eyebrow">Supra Studio · Architecture intérieure et paysage</p>
-            <h1>Architecte d&apos;intérieur à&nbsp;Paris</h1>
-            <p className="lp-lead">
-              Rénovation complète d&apos;appartements, de maisons et de locaux professionnels, de
-              la conception au suivi de chantier. Une seule équipe pour l&apos;intérieur, le
-              paysage et le mobilier sur mesure.
-            </p>
-            <ul className="lp-proofs">
-              <li>
-                <strong>5,0 ★</strong> sur Google
-              </li>
-              <li>Visite sur place offerte</li>
-              <li>Rappel {CALLBACK_PROMISE.replace(", du lundi au vendredi", "")}</li>
-              <li>Assurés RC pro et décennale</li>
-            </ul>
-          </div>
-
-          <LeadForm />
-
-          <figure className="lp-hero-visual">
+          <div className="lp-hero-media">
             <img
-              src="/assets/images/maison-kleber-bordeaux-salon-cuisine-ouverte.jpg"
-              alt="Perspective d'un séjour avec cuisine ouverte, projet Maison Kléber"
+              src="/assets/images/architecte-interieur-paris-salon-renove.jpg"
+              alt="Salon d'un appartement parisien rénové"
               fetchPriority="high"
             />
-            <figcaption>Maison Kléber, Bordeaux · perspective de conception</figcaption>
-          </figure>
+          </div>
+
+          <header className="lp-header">
+            <img
+              className="lp-logo"
+              src="/assets/icons/logo-supra-studio-bleu.svg"
+              alt="Supra Studio"
+              width={132}
+              height={50}
+            />
+            <PhoneLink className="lp-header-call" ariaLabel={`Appeler le ${PHONE_DISPLAY}`}>
+              <span className="lp-header-call-label">Appeler</span> {PHONE_DISPLAY}
+            </PhoneLink>
+          </header>
+
+          <div className="lp-hero-inner">
+            <div className="lp-hero-text">
+              <p className="lp-eyebrow">Architecture intérieure et paysage</p>
+              <h1>Architecte d&apos;intérieur à&nbsp;Paris</h1>
+              <p className="lp-lead">
+                Rénovation complète d&apos;appartements, de maisons et de locaux professionnels, de
+                la conception au suivi de chantier. Une seule équipe pour l&apos;intérieur, le
+                paysage et le mobilier sur mesure.
+              </p>
+              <ul className="lp-proofs">
+                <li>
+                  <strong>5,0 ★</strong> sur Google
+                </li>
+                <li>Visite sur place offerte</li>
+                <li>Rappel {CALLBACK_PROMISE.replace(", du lundi au vendredi", "")}</li>
+                <li>Assurés RC pro et décennale</li>
+              </ul>
+            </div>
+
+            <LeadForm />
+          </div>
         </section>
 
         {/* ---------- Offre de premier contact ---------- */}
