@@ -7,7 +7,7 @@ export const ADS_ID = "AW-18555508947";
 export const ADS_LABEL_FORM = "rkj_CLbf-bEdENOx-o9F";
 // Conversion secondaire « Clic téléphone » : coller ici le libellé quand il sera créé.
 // Tant qu'il est vide, aucun événement n'est envoyé.
-export const ADS_LABEL_PHONE = "";
+export const ADS_LABEL_PHONE = "O2UTCIGYjLIdENOx-o9F";
 
 // --- Réception des prospects (Google Apps Script → Google Sheet + email) ---
 export const LEADS_ENDPOINT =
