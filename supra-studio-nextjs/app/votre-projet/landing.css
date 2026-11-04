@@ -6,7 +6,7 @@
 
 .lp {
   /* Mêmes marges latérales que le site (--gutter) */
-  --lp-max: none; /* pleine largeur : les contenus s'alignent sur le logo et le titre */
+  --lp-max: 1360px; /* identique au .wrap du site (page d'accueil) */
   --lp-pad: var(--gutter);
   background: var(--ivoire);
   color: var(--charbon);

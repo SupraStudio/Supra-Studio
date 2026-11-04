@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 
 const PROJECTS = [
   {
-    img: "/assets/images/maison-kleber-bordeaux-salon-escalier.jpg",
-    alt: "Perspective du séjour de la Maison Kléber, organisé autour d'un escalier longitudinal",
+    img: "/assets/images/maison-kleber-bordeaux-facade-jour.jpg",
+    alt: "Perspective de la façade sur rue de la Maison Kléber, à Bordeaux",
     name: "Maison Kléber",
     place: "Bordeaux",
     text: "Transformation d'un ancien garage en maison familiale de 120 m², organisée autour d'un grand escalier qui distribue la lumière sur trois niveaux.",
@@ -40,7 +40,7 @@ const PROJECTS = [
 const REVIEWS = [
   {
     author: "Henri",
-    context: "Maison Kléber, Bordeaux",
+    context: "Avis Google",
     quote:
       "Le projet n'était pas simple avec une parcelle étroite, mais ils ont su imaginer une maison dans laquelle nous nous projetons pleinement. Nous avons beaucoup apprécié leur capacité à créer de l'espace et de la lumière en jouant avec la verticalité, tout en restant attentifs à nos besoins et à notre façon de vivre.",
   },
