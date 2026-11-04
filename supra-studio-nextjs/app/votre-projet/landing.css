@@ -5,8 +5,9 @@
    ============================================ */
 
 .lp {
-  --lp-max: 1180px;
-  --lp-pad: clamp(16px, 4vw, 48px);
+  /* Mêmes marges latérales que le site (--gutter) */
+  --lp-max: none; /* pleine largeur : les contenus s'alignent sur le logo et le titre */
+  --lp-pad: var(--gutter);
   background: var(--ivoire);
   color: var(--charbon);
   min-height: 100vh;
@@ -30,52 +31,69 @@
   padding: 0 var(--lp-pad);
 }
 
+/* Étiquette de section : filet + petites capitales, comme sur la page d'accueil */
 .lp-label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   font-family: var(--f-body);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--bleu);
-  margin-bottom: 14px !important;
+  margin-bottom: 28px !important;
+}
+.lp-label::before {
+  content: '';
+  width: 40px;
+  height: 1px;
+  background: currentColor;
+  flex-shrink: 0;
 }
 
-/* ---------- En-tête ---------- */
+/* ---------- En-tête (page merci) ---------- */
 .lp-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  max-width: var(--lp-max);
-  margin: 0 auto;
-  padding: 14px var(--lp-pad);
+  padding: 24px var(--gutter);
 }
-.lp-logo { width: 112px; height: auto; }
+.lp-logo { width: 132px; height: auto; display: block; }
 .lp-header-call {
+  display: inline-flex;
+  align-items: center;
   font-family: var(--f-body);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--bleu);
-  border: 1px solid var(--bleu);
+  border: 1px solid currentColor;
   border-radius: var(--radius);
-  padding: 9px 14px;
+  padding: 9px 18px;
   white-space: nowrap;
-  transition: background-color .25s var(--ease), color .25s var(--ease);
+  transition: background-color .3s var(--ease), color .3s var(--ease);
 }
 .lp-header-call:hover { background: var(--bleu); color: var(--ivoire); }
-.lp-header-call-label { display: none; }
+.lp-call-short { display: none; }
 
-/* ---------- Hero plein écran (même principe que la page d'accueil) ---------- */
+/* ---------- Hero plein écran : mêmes proportions que la page d'accueil ---------- */
 .lp-hero {
   position: relative;
+  height: 100svh;
+  min-height: 560px;
+  display: flex;
+  align-items: flex-end;
   color: var(--ivoire);
+  overflow: hidden;
   isolation: isolate;
 }
 .lp-hero-media {
   position: absolute;
   inset: 0;
   z-index: -1;
-  overflow: hidden;
 }
 .lp-hero-media img {
   width: 100%;
@@ -89,36 +107,40 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,.38) 0%, rgba(0,0,0,.12) 30%, rgba(0,0,0,.6) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,.18) 0%, rgba(0,0,0,.05) 35%, rgba(0,0,0,.55) 100%);
 }
 
-/* En-tête posé sur la photo : logo et bouton en ivoire */
-.lp-hero .lp-logo { filter: brightness(0) invert(1); }
-.lp-hero .lp-header-call {
-  color: var(--ivoire);
-  border-color: rgba(239, 237, 232, .8);
-  background: rgba(0, 0, 0, .12);
+/* En-tête posé sur la photo : mêmes dimensions que l'en-tête du site */
+.lp-hero .lp-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
+.lp-hero .lp-logo {
+  width: 270px;
+  filter: brightness(0) invert(1);
+}
+.lp-hero .lp-header-call { color: var(--ivoire); }
 .lp-hero .lp-header-call:hover { background: var(--ivoire); color: var(--bleu); }
 
-.lp-hero-inner {
-  max-width: var(--lp-max);
-  margin: 0 auto;
-  padding: 12px var(--lp-pad) 32px;
-  display: grid;
-  gap: 24px;
+.lp-hero-content {
+  position: relative;
+  width: 100%;
+  padding: 0 var(--gutter) clamp(48px, 7vw, 88px);
 }
-
 .lp-eyebrow {
   font-family: var(--f-body);
-  font-size: 11.5px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--ivoire);
+  opacity: .95;
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 14px !important;
+  margin-bottom: 22px !important;
   text-shadow: 0 1px 3px rgba(0,0,0,.5), 0 4px 18px rgba(0,0,0,.4);
 }
 .lp-eyebrow::before {
@@ -130,44 +152,86 @@
 }
 .lp .lp-hero h1 {
   color: var(--ivoire);
-  font-size: clamp(34px, 6.4vw, 68px);
-  line-height: 1.04;
-  margin-bottom: 14px;
-  text-shadow: 0 2px 24px rgba(0,0,0,.25);
+  font-size: clamp(30px, 5.2vw, 68px);
+  line-height: 1.05;
+  max-width: 24ch;
+  margin-bottom: 28px;
+}
+.lp-hero-foot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 .lp-lead {
   font-size: 15px;
-  line-height: 1.55;
-  max-width: 50ch;
+  max-width: 42ch;
   color: var(--ivoire);
-  text-shadow: 0 1px 3px rgba(0,0,0,.45);
+  opacity: .95;
 }
 .lp-proofs {
   list-style: none;
   padding: 0;
-  margin: 16px 0 0;
+  margin: 18px 0 0;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  max-width: 560px;
 }
 .lp-proofs li {
-  font-size: 12.5px;
+  font-size: 12px;
   color: var(--ivoire);
   border: 1px solid rgba(239, 237, 232, .55);
   border-radius: 999px;
   padding: 5px 11px;
-  background: rgba(0, 0, 0, .18);
+  background: rgba(0, 0, 0, .15);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
 .lp-proofs strong { font-weight: 500; }
 
+/* Bouton en bas à droite, à la place de « Découvrir le studio » */
+.lp-hero-cta {
+  display: inline-block;
+  font-family: var(--f-body);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ivoire);
+  border: 1px solid var(--ivoire);
+  border-radius: var(--radius);
+  padding: 16px 26px;
+  white-space: nowrap;
+  transition: background-color .3s var(--ease), color .3s var(--ease);
+}
+.lp-hero-cta:hover { background: var(--ivoire); color: var(--bleu); }
+
 .lp-section-intro {
   font-size: 12.5px;
   color: var(--charbon);
   opacity: .7;
-  margin-top: 8px;
+  margin-top: -16px !important;
+  margin-bottom: 8px !important;
 }
+
+/* ---------- Bandeau formulaire ---------- */
+.lp-form-band {
+  background: var(--ivoire-deep);
+  border-bottom: 1px solid var(--bleu-line);
+  padding: clamp(48px, 6vw, 96px) 0;
+  scroll-margin-top: 0;
+}
+.lp-form-band-inner {
+  display: grid;
+  gap: 28px;
+  align-items: start;
+}
+.lp-form-band-text h2 { font-size: clamp(26px, 3.6vw, 44px); line-height: 1.05; margin-bottom: 18px; }
+.lp-form-band-text p { font-size: 15.5px; line-height: 1.6; max-width: 40ch; }
+.lp-form-band-call { margin-top: 14px !important; color: var(--bleu); }
+.lp-inline-call { text-decoration: underline; text-underline-offset: 3px; font-weight: 500; }
 
 /* ---------- Formulaire ---------- */
 .lp-form {
@@ -176,8 +240,7 @@
   border: 1px solid var(--bleu-line);
   border-radius: 4px;
   padding: 20px;
-  box-shadow: 0 18px 50px -30px rgba(0, 61, 255, .35);
-  scroll-margin-top: 16px;
+  box-shadow: 0 18px 50px -34px rgba(0, 61, 255, .3);
 }
 .lp-form-top {
   display: flex;
@@ -295,8 +358,8 @@
 }
 
 /* ---------- Sections ---------- */
-.lp-section { padding: 56px 0; border-top: 1px solid var(--bleu-line); }
-.lp-section h2 { font-size: clamp(26px, 4vw, 40px); line-height: 1.1; margin-bottom: 16px; }
+.lp-section { padding: clamp(56px, 7vw, 112px) 0; border-top: 1px solid var(--bleu-line); }
+.lp-section h2 { font-size: clamp(26px, 3.6vw, 44px); line-height: 1.05; margin-bottom: 28px; }
 .lp-section p { font-size: 15.5px; line-height: 1.6; }
 
 .lp-offer-inner { display: grid; gap: 16px; }
@@ -351,6 +414,7 @@
 .lp-review figcaption strong { font-weight: 500; color: var(--bleu); }
 
 .lp-final-inner { text-align: center; }
+.lp-final-inner .lp-label { justify-content: center; }
 .lp-areas { color: var(--bleu); font-size: 14.5px !important; }
 .lp-final-actions {
   display: flex;
@@ -432,8 +496,6 @@
 
 /* ---------- Tablette et ordinateur ---------- */
 @media (min-width: 720px) {
-  .lp-header-call-label { display: inline; }
-  .lp-logo { width: 132px; }
   .lp-projects { grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .lp-reviews-grid { grid-template-columns: repeat(3, 1fr); }
   .lp-steps { grid-template-columns: repeat(3, 1fr); gap: 32px; }
@@ -441,27 +503,50 @@
 }
 
 @media (min-width: 960px) {
-  .lp-hero {
-    min-height: 100svh;
-    display: flex;
-    flex-direction: column;
-  }
-  .lp-hero .lp-header { width: 100%; padding-top: 24px; }
-  .lp-hero-inner {
-    flex: 1;
-    width: 100%;
-    grid-template-columns: minmax(0, 1.2fr) minmax(360px, 0.8fr);
-    column-gap: 64px;
-    align-items: end;
-    padding-top: 32px;
-    padding-bottom: clamp(48px, 7vw, 88px);
-  }
-  .lp .lp-form { padding: 28px; }
-  .lp-lead { font-size: 17px; max-width: 46ch; }
-  .lp-section { padding: 88px 0; }
-  .lp-duo-inner { grid-template-columns: 0.8fr 1.2fr; gap: 64px; }
+  .lp-form-band-inner { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: clamp(48px, 6vw, 112px); }
+  .lp .lp-form { padding: 32px 36px; }
+  .lp-options { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .lp-options-two { grid-template-columns: 1fr 1fr; }
+  .lp-contact { grid-template-columns: 1fr 1fr; column-gap: 14px; }
+  .lp-contact .lp-question,
+  .lp-contact .lp-hp,
+  .lp-contact .lp-error,
+  .lp-contact .lp-submit,
+  .lp-contact .lp-legal { grid-column: 1 / -1; }
+  .lp-section { padding: clamp(72px, 8vw, 128px) 0; }
+  .lp-section p { font-size: 16px; }
+  .lp-duo-inner { grid-template-columns: minmax(0, 0.55fr) minmax(0, 1.45fr); gap: clamp(48px, 7vw, 120px); }
+  .lp-duo-img img { max-height: 620px; }
+  .lp-offer-inner { gap: clamp(48px, 7vw, 120px); }
+  .lp-projects { gap: clamp(24px, 3vw, 40px); }
   .lp-sticky { display: none; }
   .lp-footer { padding-bottom: 28px; }
+}
+
+/* Petits écrans : logo et bouton plus compacts, hero moins haut pour que le
+   formulaire apparaisse vite */
+@media (max-width: 860px) {
+  .lp-hero { height: auto; min-height: 78svh; padding-top: 120px; }
+  .lp-hero .lp-logo { width: 190px; }
+  .lp-hero-cta { display: none; }
+}
+@media (max-width: 560px) {
+  .lp-hero { min-height: 0; padding-bottom: 0; }
+  /* Photo plus claire en haut sur mobile : voile renforcé pour la lisibilité du titre */
+  .lp-hero-media::after {
+    background: linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.38) 45%, rgba(0,0,0,.62) 100%);
+  }
+  .lp-form-band { padding: 40px 0; }
+  .lp-form-band-inner { gap: 20px; }
+  .lp-form-band-text .lp-label { margin-bottom: 16px !important; }
+  .lp-form-band-text h2 { margin-bottom: 10px; }
+  .lp-form-band-text p { font-size: 14.5px; }
+  .lp-eyebrow { font-size: 11px; letter-spacing: 0.16em; margin-bottom: 16px !important; }
+  .lp-hero-content { padding-bottom: 32px; }
+  .lp-hero .lp-logo { width: 160px; }
+  .lp-header-call { padding: 10px 12px; }
+  .lp-call-full { display: none; }
+  .lp-call-short { display: inline; }
 }
 
 @media (prefers-reduced-motion: reduce) {

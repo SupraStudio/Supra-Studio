@@ -118,9 +118,9 @@ export default function LeadForm() {
   const progress = Math.round(((step + 1) / TOTAL) * 100);
 
   return (
-    <div className="lp-form" id="formulaire">
+    <div className="lp-form">
       <div className="lp-form-top">
-        <p className="lp-form-kicker">Parlons de votre projet</p>
+        <p className="lp-form-kicker">Votre demande</p>
         <p className="lp-form-count">
           Étape {step + 1} / {TOTAL}
         </p>

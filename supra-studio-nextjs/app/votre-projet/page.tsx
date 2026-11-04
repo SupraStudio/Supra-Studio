@@ -103,35 +103,56 @@ export default function VotreProjetPage() {
           <header className="lp-header">
             <img
               className="lp-logo"
-              src="/assets/icons/logo-supra-studio-bleu.svg"
+              src="/assets/icons/logo-supra-studio-architecte-interieur-paysagiste.svg"
               alt="Supra Studio"
-              width={132}
-              height={50}
             />
             <PhoneLink className="lp-header-call" ariaLabel={`Appeler le ${PHONE_DISPLAY}`}>
-              <span className="lp-header-call-label">Appeler</span> {PHONE_DISPLAY}
+              <span className="lp-call-full">Appeler {PHONE_DISPLAY}</span>
+              <span className="lp-call-short">Appeler</span>
             </PhoneLink>
           </header>
 
-          <div className="lp-hero-inner">
-            <div className="lp-hero-text">
-              <p className="lp-eyebrow">Architecture intérieure et paysage</p>
-              <h1>Architecte d&apos;intérieur à&nbsp;Paris</h1>
-              <p className="lp-lead">
-                Rénovation complète d&apos;appartements, de maisons et de locaux professionnels, de
-                la conception au suivi de chantier. Une seule équipe pour l&apos;intérieur, le
-                paysage et le mobilier sur mesure.
-              </p>
-              <ul className="lp-proofs">
-                <li>
-                  <strong>5,0 ★</strong> sur Google
-                </li>
-                <li>Visite sur place offerte</li>
-                <li>Rappel {CALLBACK_PROMISE.replace(", du lundi au vendredi", "")}</li>
-                <li>Assurés RC pro et décennale</li>
-              </ul>
+          <div className="lp-hero-content">
+            <p className="lp-eyebrow">Architecture intérieure et paysage</p>
+            <h1>Architecte d&apos;intérieur à&nbsp;Paris</h1>
+            <div className="lp-hero-foot">
+              <div>
+                <p className="lp-lead">
+                  Rénovation complète d&apos;appartements, de maisons et de locaux professionnels,
+                  de la conception au suivi de chantier. Une seule équipe pour l&apos;intérieur, le
+                  paysage et le mobilier sur mesure.
+                </p>
+                <ul className="lp-proofs">
+                  <li>
+                    <strong>5,0 ★</strong> sur Google
+                  </li>
+                  <li>Visite sur place offerte</li>
+                  <li>Rappel {CALLBACK_PROMISE.replace(", du lundi au vendredi", "")}</li>
+                  <li>Assurés RC pro et décennale</li>
+                </ul>
+              </div>
+              <a href="#formulaire" className="lp-hero-cta">
+                Décrire mon projet
+              </a>
             </div>
+          </div>
+        </section>
 
+        {/* ---------- Bandeau formulaire, sur toute la largeur ---------- */}
+        <section className="lp-form-band" id="formulaire">
+          <div className="lp-wrap lp-form-band-inner">
+            <div className="lp-form-band-text">
+              <p className="lp-label">Votre projet</p>
+              <h2>Parlons de votre projet</h2>
+              <p>
+                Cinq questions rapides, puis vos coordonnées. Nous vous rappelons{" "}
+                {CALLBACK_PROMISE}.
+              </p>
+              <p className="lp-form-band-call">
+                Vous préférez appeler ?{" "}
+                <PhoneLink className="lp-inline-call">{PHONE_DISPLAY}</PhoneLink>
+              </p>
+            </div>
             <LeadForm />
           </div>
         </section>
