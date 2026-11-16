@@ -3198,6 +3198,214 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ],
     },
   },
+  "declaration-prealable-travaux-paris": {
+    "en": {
+      "title": "Prior Declaration of Works in Paris: What to Know Before Filing",
+      "metaTitle": "Prior Declaration of Works in Paris: Rules, Timelines, File",
+      "excerpt": "Windows, facades, the Marais, the 7th arrondissement: when a prior declaration is required in Paris, how long to allow, and how to build a file that gets approved.",
+      "category": "Advice & Expertise",
+      "readingTime": "8 min",
+      "intro": "In Paris, the same window can be replaced within days in one street, and require two months of review and the approval of an Architecte des Bâtiments de France in the next. The prior declaration of works (déclaration préalable) is the most common procedure, and one of the least understood: people assume it is reserved for large projects, when it covers very ordinary works, and discover too late that the neighbourhood changes everything. Here is how to find your way: when it applies, what heritage districts change, the real timelines, the contents of the file, and how we support our clients through it.",
+      "sections": [
+        {
+          "heading": "When is a prior declaration required?",
+          "paragraphs": [
+            "The basic rule comes down to one idea: as soon as works change the outward appearance of a building, or its use, a planning authorisation is required. For modest works, it is the prior declaration that applies, rather than a building permit.",
+            "In Paris, it applies in particular to: changes to a building's external appearance (façade restoration, replacing or altering windows, changing the roofing, creating or altering a shopfront); the creation of between 5 and 20 m² of floor area, for example by converting an existing volume; a change of use of a premises without altering the façade or structure, for example turning a shop into housing; changes to the unbuilt areas around a building (courtyard, garden) when they lie within a remarkable heritage site or in the vicinity of a historic monument; and the installation of equipment visible from outside: blinds, shutters, air conditioners.",
+            "Conversely, a purely interior renovation (electrics, plumbing, finishes, non-load-bearing partitions, kitchen, bathroom) generally requires no prior declaration. This is good news for most apartments, with two major reservations detailed below: change of use and certain protected districts.",
+            "Beyond 20 m² of floor area created, or as soon as a change of use comes with a change to the façade or load-bearing structure, you move to a building permit, with a longer review. These thresholds are indicative: the exact nature of your project and the local rules can alter them, which is why it is worth having them checked before filing."
+          ]
+        },
+        {
+          "heading": "Paris is not a uniform territory",
+          "paragraphs": [
+            "This is the point most often underestimated. The same works are not reviewed in the same way depending on the address, because several layers of rules overlap.",
+            "**The bioclimatic PLU** (the local urban plan) sets the general rules applicable across the capital: façade appearance, heights, materials, protection of certain elements of the built heritage. It can be consulted address by address, and is the first document to examine.",
+            "**The vicinity of historic monuments** forms a second layer. As soon as a building stands near a listed or registered monument, the opinion of the Architecte des Bâtiments de France (ABF) is required on works visible from outside. In Paris this situation is so common that the City itself states that reviewing a prior declaration often takes two months, precisely because the ABF is consulted.",
+            "**Remarkable heritage sites** form the most protective level. They cover two areas in Paris, which follow their own rules."
+          ]
+        },
+        {
+          "heading": "The Marais and the 7th arrondissement: rules of their own",
+          "paragraphs": [
+            "The Marais (3rd and 4th arrondissements, around 126 hectares) is one of the first protected areas in France, created in 1964. The 7th arrondissement also has a remarkable heritage site of around 194 hectares, covering most of the eastern part of the arrondissement and extending as far as Les Invalides. Within these two perimeters, the PLU no longer applies; a safeguarding and enhancement plan (PSMV) does, a specific regulation whose aim is to protect the heritage and avoid any irreversible damage, while still allowing buildings to evolve.",
+            "In practice, this changes several things:",
+            "**Planning authorisations are subject to the ABF's approval**, which may attach requirements: choice of a material, a joinery profile, a colour, a construction detail. Without his approval, the authorisation cannot be issued.",
+            "**The scope of works concerned is wider.** Replacing a window, working in a courtyard, altering an architectural or decorative element is subject to authorisation.",
+            "**Interior works may be concerned.** In the Marais and the 7th arrondissement, interior works that alter a protected element (staircase, panelling, decorative features, structure of a notable building) may require authorisation. You should therefore not assume that an interior project is free of any procedure in these districts: it has to be checked building by building.",
+            "One positive point: the ABF can be consulted very early, on a preliminary design, before any filing. This is the method we favour, as it avoids discovering a reservation on a file already submitted."
+          ]
+        },
+        {
+          "heading": "Timelines: allow plenty of time",
+          "paragraphs": [
+            "The schedule of a prior declaration breaks down as follows:",
+            "**Within one month of filing**, the authority sends a letter specifying the applicable review period and, where relevant, the list of missing documents. An incomplete file costs time, as the review only really starts once the file is complete.",
+            "**One month** is the standard review period for a prior declaration.",
+            "**Two months** when the ABF is consulted, that is, in the vicinity of historic monuments and in remarkable heritage sites. The ABF itself has one month to give its opinion on a prior declaration.",
+            "In Paris, most files therefore fall under the two-month period. In practice, we advise allowing **two to three months between launching the file and starting the works concerned**, including preparing the drawings, filing, any request for further documents, and display of the notice.",
+            "A few useful rules: the authorisation must be displayed on site, visible from the public highway, for the duration of the works; in the case of tacit authorisation (no reply within the period), it is advisable to request a certificate from the reviewing department; and at the end of the project, a declaration certifying completion and compliance of the works must be submitted."
+          ]
+        },
+        {
+          "heading": "The file: what it contains",
+          "paragraphs": [
+            "A prior declaration consists of the Cerfa form corresponding to your project, accompanied by drawings and descriptive documents. The usual items are: the site location plan; the site plan, when the project alters the exterior; the plans and façades of the existing building and of the project, which clearly show what changes; a representation of the exterior appearance after works, by sketch or photomontage; photographs situating the project in its near and distant surroundings; and a notice describing the materials, colours and technical choices.",
+            "Depending on the nature of the works (façade restoration, change of use, shopfront, blind), the City of Paris provides sheets specifying the documents expected. For façade restoration or external insulation works, a dedicated sheet exists.",
+            "As for filing, it is done online through the City's e-service. It is mandatory for legal entities (co-ownerships, companies) since 7 April 2025; individuals may still file on paper."
+          ],
+          "image": {
+            "src": "/assets/images/salon-haussmannien-plans-architecte-autorisation-travaux-paris.jpg",
+            "caption": "Plans, façades and photomontages: the file is prepared before anything is filed",
+            "afterParagraph": 0
+          }
+        },
+        {
+          "heading": "Mistakes that cost time",
+          "paragraphs": [
+            "We keep encountering the same pitfalls:",
+            "**Starting works before the decision.** Even for a like-for-like window replacement, starting without authorisation exposes you to a stop-work order and a costly compliance process.",
+            "**Forgetting the co-ownership.** Planning authorisation does not replace the co-ownership's agreement: any change to the façade or common parts generally goes through a general meeting. It therefore has to be factored into the schedule.",
+            "**Choosing joinery without checking the district's rules.** In a protected site, a window model outside the requirements leads to refusal or requests for changes.",
+            "**Filing too thin a file.** A blurred drawing or an incomplete notice triggers a request for documents, and each round trip lengthens the timeline.",
+            "**Discovering the heritage constraint mid-project**, when it should have guided the design from day one."
+          ]
+        },
+        {
+          "heading": "Our support",
+          "paragraphs": [
+            "At Supra Studio, we build planning procedures into the design from the start, not afterwards. When a project in Paris requires a prior declaration, we take charge of the whole process:",
+            "**The feasibility check**: reading the rules applicable at the address (PLU, vicinity of monuments, heritage site), identifying the authorisation needed and the ABF's constraints, before any commitment.",
+            "**Design adapted to the regulatory framework**: materials, colours, joinery profiles and compositional choices designed to be accepted while respecting your project.",
+            "**Putting the file together**: form, plans of the existing building and of the project, façades, photomontages, photographs and notice.",
+            "**Filing and following the review**: dealings with the reviewing department, replies to requests for documents and, if needed, dialogue with the ABF.",
+            "**Follow-up until the end of the works**: display, consistency of the site with the authorisation obtained and declaration of completion.",
+            "Our role is to turn a procedure often seen as an obstacle into a controlled stage, whose timetable is built into the project schedule.",
+            "**Planning works in Paris and wondering whether an authorisation is needed?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an on-site consultation, or [get in touch](/en/contact) to discuss it. To place these procedures within an overall project, our articles on [the cost of renovating an apartment in Paris](/en/journal/cout-renovation-appartement-paris-budget-complet) and on [turning a two-room into a three-room apartment](/en/journal/transformer-2-pieces-en-3-pieces-paris) will give you further benchmarks.",
+            "*The information in this article is indicative and reflects the rules in force at the date of publication. Each project must be checked with the City of Paris planning department.*"
+          ]
+        },
+        {
+          "heading": "Frequently asked questions",
+          "paragraphs": [
+            "**Do you need a prior declaration to replace your windows in Paris?** Yes, in most cases, as replacing windows changes the building's outward appearance. In a protected site or near a historic monument, the ABF may impose requirements on the model, materials and colour.",
+            "**Does an interior renovation require authorisation in Paris?** Generally not, where it changes neither the exterior appearance nor the use of the premises. The notable exception is the Marais and the 7th arrondissement, where interior works affecting a protected element may require authorisation. A check address by address is essential.",
+            "**How long does it take to obtain a prior declaration in Paris?** The standard period is one month, but it rises to two months when the ABF is consulted, which is very common in Paris. Counting the preparation of the file, it is prudent to allow two to three months before the works concerned begin.",
+            "**Is an architect compulsory for a prior declaration?** No, it is not compulsory for this type of procedure. It is, however, very useful for designing a project compatible with local rules, producing precise drawings and photomontages and dealing with the authorities.",
+            "**What happens if you start works without authorisation?** You risk a stop-work order, penalties and an obligation to restore the premises to compliance, which can cost far more than the procedure itself. It is always better to check before starting."
+          ]
+        }
+      ],
+      "keywords": [
+        "Prior declaration of works Paris",
+        "Planning permission Paris ABF",
+        "Marais 7th arrondissement protected area"
+      ]
+    },
+    "it": {
+      "title": "Dichiarazione preventiva dei lavori a Parigi: cosa sapere prima di presentare la pratica",
+      "metaTitle": "Dichiarazione Preventiva Lavori a Parigi: Regole, Tempi, Pratica",
+      "excerpt": "Finestre, facciate, Marais, 7º arrondissement: quando serve una dichiarazione preventiva a Parigi, quali tempi prevedere e come costruire una pratica che venga approvata.",
+      "category": "Consigli & competenza",
+      "readingTime": "8 min",
+      "intro": "A Parigi, la stessa finestra può essere sostituita in pochi giorni in una via, e richiedere due mesi di istruttoria e il consenso di un Architecte des Bâtiments de France in quella accanto. La dichiarazione preventiva dei lavori (déclaration préalable) è la pratica più comune, e una delle meno comprese: la si crede riservata ai grandi progetti, mentre riguarda lavori molto ordinari, e si scopre troppo tardi che il quartiere cambia tutto. Ecco come orientarsi: quando serve, cosa cambiano i quartieri patrimoniali, i tempi reali, il contenuto della pratica e il modo in cui accompagniamo i nostri clienti.",
+      "sections": [
+        {
+          "heading": "Quando è necessaria una dichiarazione preventiva?",
+          "paragraphs": [
+            "La regola di base si riassume in un'idea: non appena dei lavori modificano l'aspetto esterno di un edificio, o il suo uso, è richiesta un'autorizzazione urbanistica. Per lavori di entità modesta, si applica la dichiarazione preventiva, anziché il permesso di costruire.",
+            "A Parigi riguarda in particolare: la modifica dell'aspetto esterno di un immobile (ripristino della facciata, sostituzione o modifica di finestre, cambio della copertura, creazione o modifica di una vetrina); la creazione di una superficie di calpestio compresa tra 5 e 20 m², ad esempio trasformando un volume esistente; il cambio di destinazione d'uso di un locale senza modifica della facciata né della struttura, ad esempio trasformare un negozio in abitazione; la modifica degli spazi non edificati attorno a un immobile (cortile, giardino) quando si trovano in un sito patrimoniale notevole o nei pressi di un monumento storico; e l'installazione di dotazioni visibili dall'esterno: tende, persiane, condizionatori.",
+            "All'inverso, una ristrutturazione puramente interna (impianto elettrico, idraulica, rivestimenti, pareti non portanti, cucina, bagno) non richiede in genere alcuna dichiarazione preventiva. È una buona notizia per la maggior parte degli appartamenti, con due riserve importanti che dettagliamo più avanti: il cambio di destinazione d'uso e alcuni quartieri protetti.",
+            "Oltre i 20 m² di superficie creata, o non appena un cambio di destinazione d'uso si accompagna a una modifica della facciata o delle strutture portanti, si passa al permesso di costruire, con un'istruttoria più lunga. Queste soglie sono indicative: la natura esatta del progetto e le regole del luogo possono farle variare, da cui l'utilità di far verificare prima di presentare la pratica."
+          ]
+        },
+        {
+          "heading": "Parigi non è un territorio uniforme",
+          "paragraphs": [
+            "È il punto più sottovalutato. Gli stessi lavori non sono istruiti allo stesso modo a seconda dell'indirizzo, perché si sovrappongono più livelli di regole.",
+            "**Il PLU bioclimatico** (il piano urbanistico locale) fissa le regole generali applicabili in tutta la capitale: aspetto delle facciate, altezze, materiali, tutela di alcuni elementi del patrimonio edilizio. Si può consultare indirizzo per indirizzo, ed è il primo documento da esaminare.",
+            "**I dintorni dei monumenti storici** formano un secondo livello. Non appena un immobile si trova vicino a un monumento classificato o iscritto, è richiesto il parere dell'Architecte des Bâtiments de France (ABF) sui lavori visibili dall'esterno. A Parigi questa situazione è così frequente che la stessa Città indica che l'istruttoria di una dichiarazione preventiva richiede spesso due mesi, proprio perché l'ABF viene consultato.",
+            "**I siti patrimoniali notevoli** costituiscono il livello più protettivo. Riguardano due zone a Parigi, che seguono regole proprie."
+          ]
+        },
+        {
+          "heading": "Il Marais e il 7º arrondissement: regole a parte",
+          "paragraphs": [
+            "Il Marais (3º e 4º arrondissement, circa 126 ettari) è una delle prime zone tutelate di Francia, istituita nel 1964. Anche il 7º arrondissement dispone di un sito patrimoniale notevole di circa 194 ettari, che copre gran parte della zona orientale dell'arrondissement e si estende fino agli Invalides. In questi due perimetri non si applica più il PLU, ma un piano di salvaguardia e valorizzazione (PSMV), un regolamento specifico il cui obiettivo è proteggere il patrimonio, evitare ogni danno irreversibile, consentendo comunque agli edifici di evolvere.",
+            "In concreto, questo cambia diverse cose:",
+            "**Le autorizzazioni urbanistiche sono soggette al consenso dell'ABF**, che può accompagnarlo da prescrizioni: scelta di un materiale, di un profilo di serramento, di una tinta, di un dettaglio esecutivo. Senza il suo consenso, l'autorizzazione non può essere rilasciata.",
+            "**Il perimetro dei lavori interessati è più ampio.** Sostituire una finestra, intervenire in un cortile, modificare un elemento architettonico o decorativo è soggetto ad autorizzazione.",
+            "**I lavori interni possono essere interessati.** Nel Marais e nel 7º arrondissement, lavori interni che modificano un elemento protetto (scala, boiserie, decorazioni, struttura di un edificio notevole) possono richiedere un'autorizzazione. Non bisogna quindi partire dal presupposto che un cantiere interno sia libero da ogni pratica in questi quartieri: occorre verificare immobile per immobile.",
+            "Un punto positivo: l'ABF può essere consultato molto in anticipo, su un progetto preliminare, prima di qualsiasi presentazione. È il metodo che privilegiamo, perché evita di scoprire una riserva su una pratica già presentata."
+          ]
+        },
+        {
+          "heading": "I tempi: prevedere ampio margine",
+          "paragraphs": [
+            "Il calendario di una dichiarazione preventiva si articola così:",
+            "**Entro un mese dalla presentazione**, l'amministrazione invia una lettera che precisa il termine di istruttoria applicabile e, se del caso, l'elenco dei documenti mancanti. Una pratica incompleta fa perdere tempo, perché l'istruttoria parte davvero solo quando la pratica è completa.",
+            "**Un mese** è il termine di principio per una dichiarazione preventiva.",
+            "**Due mesi** quando l'ABF viene consultato, cioè nei dintorni dei monumenti storici e nei siti patrimoniali notevoli. L'ABF stesso dispone di un mese per dare il suo parere su una dichiarazione preventiva.",
+            "A Parigi, la maggior parte delle pratiche rientra quindi nel termine di due mesi. In pratica, consigliamo di contare **da due a tre mesi tra l'avvio della pratica e l'inizio dei lavori interessati**, includendo la preparazione degli elaborati, la presentazione, l'eventuale integrazione dei documenti e l'affissione.",
+            "Alcune regole utili da conoscere: l'autorizzazione deve essere affissa nel cantiere, visibile dalla pubblica via, per tutta la durata dei lavori; in caso di autorizzazione tacita (assenza di risposta nel termine), è consigliabile richiedere un'attestazione al servizio istruttore; e a fine cantiere va trasmessa una dichiarazione che attesti il completamento e la conformità dei lavori."
+          ]
+        },
+        {
+          "heading": "La pratica: cosa contiene",
+          "paragraphs": [
+            "Una dichiarazione preventiva si compone del modulo Cerfa corrispondente al progetto, accompagnato da elaborati grafici e descrittivi. Gli elementi abituali sono: la planimetria di inquadramento del terreno; la planimetria generale, quando il progetto modifica l'esterno; le piante e i prospetti dell'esistente e del progetto, che mostrano chiaramente cosa cambia; una rappresentazione dell'aspetto esterno dopo i lavori, con uno schizzo o un fotomontaggio; fotografie che collocano il progetto nel suo ambiente vicino e lontano; e una relazione che descrive materiali, colori e scelte tecniche.",
+            "A seconda della natura dei lavori (ripristino della facciata, cambio di destinazione d'uso, vetrina, tenda), la Città di Parigi mette a disposizione schede che precisano i documenti attesi. Per i lavori di ripristino della facciata o di isolamento esterno esiste una scheda dedicata.",
+            "Quanto alla presentazione, avviene online tramite il servizio telematico della Città. È obbligatoria per le persone giuridiche (condomini, società) dal 7 aprile 2025; i privati possono ancora presentare la pratica in formato cartaceo."
+          ],
+          "image": {
+            "src": "/assets/images/salon-haussmannien-plans-architecte-autorisation-travaux-paris.jpg",
+            "caption": "Piante, prospetti e fotomontaggi: la pratica si prepara prima di ogni presentazione",
+            "afterParagraph": 0
+          }
+        },
+        {
+          "heading": "Gli errori che fanno perdere tempo",
+          "paragraphs": [
+            "Ritroviamo continuamente gli stessi ostacoli:",
+            "**Iniziare i lavori prima della decisione.** Anche per una sostituzione di finestre identica all'esistente, iniziare senza autorizzazione espone a un blocco del cantiere e a una costosa messa in conformità.",
+            "**Dimenticare il condominio.** L'autorizzazione urbanistica non sostituisce il consenso del condominio: ogni modifica della facciata o delle parti comuni passa in genere da un'assemblea. Occorre quindi tenerne conto nel calendario.",
+            "**Scegliere un serramento senza guardare le regole del quartiere.** In un sito protetto, un modello di finestra fuori prescrizioni comporta un rifiuto o richieste di modifica.",
+            "**Presentare una pratica troppo sommaria.** Un disegno impreciso o una relazione incompleta fa scattare una richiesta di documenti, e ogni andirivieni allunga i tempi.",
+            "**Scoprire il vincolo patrimoniale a progetto avviato**, quando avrebbe dovuto orientare la progettazione fin dal primo giorno."
+          ]
+        },
+        {
+          "heading": "Il nostro accompagnamento",
+          "paragraphs": [
+            "Da Supra Studio, integriamo le pratiche urbanistiche fin dalla progettazione, e non dopo. Quando un progetto a Parigi richiede una dichiarazione preventiva, ci facciamo carico dell'intero percorso:",
+            "**La verifica di fattibilità**: lettura delle regole applicabili all'indirizzo (PLU, dintorni dei monumenti, sito patrimoniale), individuazione dell'autorizzazione necessaria e dei vincoli dell'ABF, prima di ogni impegno.",
+            "**La progettazione adattata al quadro normativo**: materiali, tinte, profili dei serramenti e scelte compositive pensati per essere accettati nel rispetto del vostro progetto.",
+            "**La costituzione della pratica**: modulo, piante dell'esistente e del progetto, prospetti, fotomontaggi, fotografie e relazione.",
+            "**La presentazione e il seguito dell'istruttoria**: contatti con il servizio istruttore, risposte alle richieste di documenti e, se necessario, dialogo con l'ABF.",
+            "**Il seguito fino a fine lavori**: affissione, coerenza del cantiere con l'autorizzazione ottenuta e dichiarazione di ultimazione.",
+            "Il nostro ruolo è trasformare una pratica percepita come un ostacolo in una tappa padroneggiata, il cui calendario è integrato nella programmazione del progetto.",
+            "**State pensando a dei lavori a Parigi e vi chiedete se serva un'autorizzazione?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un sopralluogo conoscitivo, oppure [contattateci](/it/contact) per parlarne. Per collocare queste pratiche in un progetto complessivo, i nostri articoli sul [costo di una ristrutturazione di un appartamento a Parigi](/it/journal/cout-renovation-appartement-paris-budget-complet) e sulla [trasformazione di un bilocale in trilocale](/it/journal/transformer-2-pieces-en-3-pieces-paris) vi daranno ulteriori punti di riferimento.",
+            "*Le informazioni di questo articolo sono indicative e riflettono le regole in vigore alla data di pubblicazione. Ogni progetto deve essere verificato presso il servizio urbanistica della Città di Parigi.*"
+          ]
+        },
+        {
+          "heading": "Domande frequenti",
+          "paragraphs": [
+            "**Serve una dichiarazione preventiva per sostituire le finestre a Parigi?** Sì, nella maggior parte dei casi, perché la sostituzione delle finestre modifica l'aspetto esterno dell'immobile. In un sito protetto o nei pressi di un monumento storico, l'ABF può imporre prescrizioni su modello, materiali e tinta.",
+            "**Una ristrutturazione interna richiede un'autorizzazione a Parigi?** In genere no, quando non cambia né l'aspetto esterno né la destinazione d'uso dei locali. L'eccezione notevole riguarda il Marais e il 7º arrondissement, dove lavori interni che toccano un elemento protetto possono essere soggetti ad autorizzazione. Una verifica indirizzo per indirizzo è indispensabile.",
+            "**Quanto tempo serve per ottenere una dichiarazione preventiva a Parigi?** Il termine di principio è di un mese, ma sale a due mesi quando l'ABF viene consultato, cosa molto frequente a Parigi. Contando la preparazione della pratica, è prudente prevedere da due a tre mesi prima dell'inizio dei lavori interessati.",
+            "**L'architetto è obbligatorio per una dichiarazione preventiva?** No, non è obbligatorio per questo tipo di pratica. È tuttavia molto utile per progettare un intervento compatibile con le regole del luogo, produrre elaborati e fotomontaggi precisi e dialogare con l'amministrazione.",
+            "**Cosa succede se si iniziano i lavori senza autorizzazione?** Si rischia un blocco del cantiere, sanzioni e l'obbligo di rimettere i luoghi in conformità, il che può costare molto più della pratica stessa. È sempre meglio verificare prima di iniziare."
+          ]
+        }
+      ],
+      "keywords": [
+        "Dichiarazione preventiva lavori Parigi",
+        "Autorizzazione lavori Parigi ABF",
+        "Marais 7º arrondissement zona tutelata"
+      ]
+    }
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {

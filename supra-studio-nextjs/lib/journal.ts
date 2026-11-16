@@ -1697,6 +1697,116 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
     relatedProjects: ["casa-duy", "maison-kleber"],
   },
+  {
+    "slug": "declaration-prealable-travaux-paris",
+    "title": "Déclaration préalable de travaux à Paris : ce qu'il faut savoir avant de déposer son dossier",
+    "metaTitle": "Déclaration Préalable de Travaux à Paris : Règles, Délais, Dossier",
+    "excerpt": "Fenêtres, façades, Marais, 7e arrondissement : quand une déclaration préalable est nécessaire à Paris, quels délais prévoir et comment constituer un dossier accepté.",
+    "date": "2026-11-16",
+    "category": "Conseils & expertise",
+    "cover": "/assets/images/facade-pierre-fenetres-renovees-declaration-prealable-travaux-paris-marais.jpg",
+    "readingTime": "8 min",
+    "intro": "À Paris, une même fenêtre peut être remplacée en quelques jours dans une rue, et nécessiter deux mois d'instruction et l'accord d'un architecte des Bâtiments de France dans la rue d'à côté. La déclaration préalable de travaux est la démarche la plus courante, et pourtant l'une des plus mal comprises : on la croit réservée aux grands projets, alors qu'elle concerne des travaux très ordinaires, et l'on découvre trop tard que le quartier change tout. Voici comment s'y retrouver : quand elle s'impose, ce que les quartiers patrimoniaux changent, les délais réels, le contenu du dossier, et la façon dont nous accompagnons nos clients.",
+    "sections": [
+      {
+        "heading": "Quand une déclaration préalable est-elle nécessaire ?",
+        "paragraphs": [
+          "La règle de base tient en une idée : dès que des travaux modifient l'aspect extérieur d'un bâtiment, ou son usage, une autorisation d'urbanisme est requise. Pour des travaux de taille modeste, c'est la déclaration préalable qui s'applique, plutôt que le permis de construire.",
+          "À Paris, elle concerne notamment : la modification de l'aspect extérieur d'un immeuble : ravalement, remplacement ou modification de fenêtres, changement de couverture, création ou modification d'une devanture ; la création de surface de plancher comprise entre 5 et 20 m², par exemple en transformant un volume existant ; le changement de destination d'un local sans modification de la façade ni de la structure, par exemple transformer un commerce en habitation ; la modification des espaces non bâtis autour d'un immeuble (cour, jardin) lorsqu'ils se situent dans un site patrimonial remarquable ou aux abords d'un monument historique ; l'installation d'équipements visibles de l'extérieur : stores, volets, climatiseurs.",
+          "À l'inverse, une rénovation purement intérieure (électricité, plomberie, revêtements, cloisons non porteuses, cuisine, salle de bains) ne demande en général aucune déclaration préalable. C'est une bonne nouvelle pour la plupart des appartements, avec deux réserves majeures que nous détaillons plus bas : le changement de destination et certains quartiers protégés.",
+          "Au-delà de 20 m² de surface créée, ou dès qu'un changement de destination s'accompagne d'une modification de la façade ou des structures porteuses, on passe au permis de construire, avec une instruction plus longue. Ces seuils sont indicatifs : la nature exacte de votre projet et les règles du lieu peuvent les faire varier, d'où l'intérêt de faire vérifier avant de déposer."
+        ]
+      },
+      {
+        "heading": "Paris n'est pas un territoire uniforme",
+        "paragraphs": [
+          "C'est le point que l'on sous-estime le plus. Les mêmes travaux ne sont pas instruits de la même manière selon l'adresse, car plusieurs niveaux de règles se superposent.",
+          "**Le PLU bioclimatique** fixe les règles générales applicables sur l'ensemble de la capitale : aspect des façades, hauteurs, matériaux, protection de certains éléments du patrimoine bâti. Il est consultable adresse par adresse, et il est le premier document à examiner.",
+          "**Les abords de monuments historiques** forment une deuxième couche. Dès qu'un immeuble se situe à proximité d'un monument classé ou inscrit, l'avis de l'architecte des Bâtiments de France (ABF) est requis sur les travaux visibles de l'extérieur. À Paris, cette situation est si fréquente que la Ville indique elle-même que l'instruction d'une déclaration préalable prend souvent deux mois, précisément parce que l'ABF est consulté.",
+          "**Les sites patrimoniaux remarquables** constituent le niveau le plus protecteur. Ils concernent deux secteurs à Paris, qui obéissent à des règles propres."
+        ]
+      },
+      {
+        "heading": "Le Marais et le 7e arrondissement : des règles à part",
+        "paragraphs": [
+          "Le Marais (3e et 4e arrondissements, environ 126 hectares) est l'un des premiers secteurs sauvegardés de France, créé en 1964. Le 7e arrondissement compte lui aussi un site patrimonial remarquable d'environ 194 hectares, qui couvre l'essentiel de la partie orientale de l'arrondissement et s'étend jusqu'aux Invalides. Dans ces deux périmètres, ce n'est plus le PLU qui s'applique, mais un plan de sauvegarde et de mise en valeur (PSMV), un règlement spécifique dont l'objectif est de protéger le patrimoine, d'éviter toute atteinte irréversible, tout en permettant aux immeubles d'évoluer.",
+          "Concrètement, cela change plusieurs choses :",
+          "**Les autorisations d'urbanisme sont soumises à l'accord de l'ABF**, qui peut l'assortir de prescriptions : choix d'un matériau, d'un profil de menuiserie, d'une teinte, d'un détail de mise en œuvre. Sans son accord, l'autorisation ne peut pas être délivrée.",
+          "**Le périmètre des travaux concernés est plus large.** Remplacer une fenêtre, intervenir dans une cour, modifier un élément d'architecture ou de décoration est soumis à autorisation.",
+          "**Les travaux intérieurs peuvent être concernés.** Dans le Marais et le 7e arrondissement, des travaux intérieurs qui modifient un élément protégé (escalier, boiseries, décors, structure d'un bâtiment remarquable) peuvent nécessiter une autorisation. Il ne faut donc pas partir du principe qu'un chantier intérieur est libre de toute démarche dans ces quartiers : il faut vérifier immeuble par immeuble.",
+          "Un point positif : l'ABF peut être consulté très en amont, sur un avant-projet, avant tout dépôt. C'est la méthode que nous privilégions, car elle évite de découvrir une réserve sur un dossier déjà déposé."
+        ]
+      },
+      {
+        "heading": "Les délais : prévoir large",
+        "paragraphs": [
+          "Le calendrier d'une déclaration préalable se décompose ainsi :",
+          "**Dans le mois suivant le dépôt**, l'administration envoie un courrier qui précise le délai d'instruction applicable et, le cas échéant, la liste des pièces manquantes. Un dossier incomplet fait perdre du temps, car l'instruction ne démarre réellement qu'une fois le dossier complet.",
+          "**Un mois** est le délai de principe pour une déclaration préalable.",
+          "**Deux mois** lorsque l'ABF est consulté, c'est-à-dire aux abords des monuments historiques et en site patrimonial remarquable. L'ABF dispose lui-même d'un mois pour rendre son avis sur une déclaration préalable.",
+          "À Paris, la plupart des dossiers relèvent donc du délai de deux mois. En pratique, nous conseillons de compter **deux à trois mois entre le lancement du dossier et le démarrage des travaux concernés**, en incluant la préparation des plans, le dépôt, l'éventuel complément de pièces et l'affichage.",
+          "Quelques règles utiles à connaître : l'autorisation doit être affichée sur le site, visible depuis la voie publique, pendant la durée des travaux ; en cas d'autorisation tacite (absence de réponse dans le délai), il est recommandé de demander une attestation au service instructeur ; et à la fin du chantier, une déclaration attestant l'achèvement et la conformité des travaux doit être transmise."
+        ]
+      },
+      {
+        "heading": "Le dossier : ce qu'il contient",
+        "paragraphs": [
+          "Une déclaration préalable se compose du formulaire Cerfa correspondant à votre projet, accompagné de pièces graphiques et descriptives. Les éléments habituels sont : le plan de situation du terrain ; le plan de masse, lorsque le projet modifie l'extérieur ; les plans et façades de l'existant et du projet, qui montrent clairement ce qui change ; une représentation de l'aspect extérieur après travaux, par un croquis ou un photomontage ; des photographies qui situent le projet dans son environnement proche et lointain ; une notice qui décrit les matériaux, les couleurs et les choix techniques.",
+          "Selon la nature des travaux (ravalement, changement de destination, devanture, store), la Ville de Paris met à disposition des fiches qui précisent les pièces attendues. Pour les travaux de ravalement ou d'isolation par l'extérieur, une fiche dédiée existe.",
+          "Côté dépôt, la démarche se fait en ligne via le téléservice de la Ville. Il est obligatoire pour les personnes morales (copropriétés, sociétés) depuis le 7 avril 2025 ; les particuliers peuvent encore déposer en version papier."
+        ],
+        "image": {
+          "src": "/assets/images/salon-haussmannien-plans-architecte-autorisation-travaux-paris.jpg",
+          "caption": "Plans, façades et photomontages : le dossier se prépare avant tout dépôt",
+          "afterParagraph": 0
+        }
+      },
+      {
+        "heading": "Les erreurs qui coûtent du temps",
+        "paragraphs": [
+          "Nous retrouvons sans cesse les mêmes écueils :",
+          "**Commencer les travaux avant la décision.** Même pour un remplacement de fenêtres à l'identique, démarrer sans autorisation expose à un arrêt de chantier et à une mise en conformité coûteuse.",
+          "**Oublier la copropriété.** L'autorisation d'urbanisme ne remplace pas l'accord de la copropriété : toute modification de façade ou de parties communes passe généralement par une assemblée générale. Il faut donc en tenir compte dans le calendrier.",
+          "**Choisir une menuiserie sans regarder les règles du quartier.** En site protégé, un modèle de fenêtre hors prescriptions entraîne un refus ou des demandes de modification.",
+          "**Déposer un dossier trop sommaire.** Un plan flou ou une notice incomplète déclenche une demande de pièces, et chaque aller-retour rallonge le délai.",
+          "**Découvrir la contrainte patrimoniale en cours de projet**, alors qu'elle aurait dû orienter la conception dès le premier jour."
+        ]
+      },
+      {
+        "heading": "Notre accompagnement",
+        "paragraphs": [
+          "Chez Supra Studio, nous intégrons les démarches d'urbanisme dès la conception, et non après. Lorsqu'un projet à Paris nécessite une déclaration préalable, nous prenons en charge l'ensemble du parcours :",
+          "**La vérification de faisabilité** : lecture des règles applicables à l'adresse (PLU, abords, site patrimonial), identification de l'autorisation nécessaire et des contraintes de l'ABF, avant tout engagement.",
+          "**La conception adaptée au cadre réglementaire** : matériaux, teintes, profils de menuiseries et choix de composition pensés pour être acceptés tout en respectant votre projet.",
+          "**La constitution du dossier** : formulaire, plans de l'existant et du projet, façades, photomontages, photographies et notice.",
+          "**Le dépôt et le suivi de l'instruction** : échanges avec le service instructeur, réponse aux demandes de pièces et, si besoin, dialogue avec l'ABF.",
+          "**Le suivi jusqu'à la fin des travaux** : affichage, cohérence du chantier avec l'autorisation obtenue et déclaration d'achèvement.",
+          "Notre rôle est de transformer une démarche perçue comme un obstacle en une étape maîtrisée, dont le calendrier est intégré au planning du projet.",
+          "**Vous envisagez des travaux à Paris et vous vous demandez si une autorisation est nécessaire ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter. Pour situer ces démarches dans un projet global, nos articles sur [le coût d'une rénovation d'appartement à Paris](/journal/cout-renovation-appartement-paris-budget-complet) et sur [la transformation d'un deux-pièces en trois-pièces](/journal/transformer-2-pieces-en-3-pieces-paris) vous donneront des repères complémentaires.",
+          "*Les informations de cet article sont indicatives et reflètent les règles en vigueur à la date de publication. Chaque projet doit être vérifié auprès du service d'urbanisme de la Ville de Paris.*"
+        ]
+      },
+      {
+        "heading": "Questions fréquentes",
+        "paragraphs": [
+          "**Faut-il une déclaration préalable pour remplacer ses fenêtres à Paris ?** Oui, dans la plupart des cas, car le remplacement de fenêtres modifie l'aspect extérieur de l'immeuble. Dans un site protégé ou aux abords d'un monument historique, l'ABF peut imposer des prescriptions sur le modèle, les matériaux et la teinte.",
+          "**Une rénovation intérieure nécessite-t-elle une autorisation à Paris ?** En général non, lorsqu'elle ne change ni l'aspect extérieur ni la destination des locaux. L'exception notable concerne le Marais et le 7e arrondissement, où des travaux intérieurs touchant un élément protégé peuvent être soumis à autorisation. Une vérification adresse par adresse est indispensable.",
+          "**Combien de temps faut-il pour obtenir une déclaration préalable à Paris ?** Le délai de principe est d'un mois, mais il passe à deux mois lorsque l'ABF est consulté, ce qui est très fréquent à Paris. En comptant la préparation du dossier, il est prudent de prévoir deux à trois mois avant le démarrage des travaux concernés.",
+          "**Un architecte est-il obligatoire pour une déclaration préalable ?** Non, il n'est pas obligatoire pour ce type de démarche. Il est en revanche très utile pour concevoir un projet compatible avec les règles du lieu, produire des plans et des photomontages précis et dialoguer avec l'administration.",
+          "**Que se passe-t-il si l'on commence les travaux sans autorisation ?** On s'expose à un arrêt de chantier, à des sanctions et à l'obligation de remettre les lieux en conformité, ce qui peut coûter bien plus cher que la démarche elle-même. Il vaut toujours mieux vérifier avant de commencer."
+        ]
+      }
+    ],
+    "keywords": [
+      "Déclaration préalable travaux Paris",
+      "Autorisation travaux Paris ABF",
+      "Marais 7e arrondissement secteur sauvegardé"
+    ],
+    "relatedProjects": [
+      "casa-duy",
+      "maison-kleber"
+    ]
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
