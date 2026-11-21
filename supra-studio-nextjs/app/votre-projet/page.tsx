@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./landing.css";
 import LeadForm from "@/components/landing/LeadForm";
 import PhoneLink from "@/components/landing/PhoneLink";
+import StickyBar from "@/components/landing/StickyBar";
 import { CALLBACK_PROMISE, PHONE_DISPLAY } from "@/lib/landing";
 
 // Landing page Google Ads : hors référencement naturel, hors sitemap, sans menu.
@@ -145,7 +146,7 @@ export default function VotreProjetPage() {
               <p className="lp-label">Votre projet</p>
               <h2>Parlons de votre projet</h2>
               <p>
-                Cinq questions rapides, puis vos coordonnées. Nous vous rappelons{" "}
+                Quatre questions rapides, puis vos coordonnées. Nous vous rappelons{" "}
                 {CALLBACK_PROMISE}.
               </p>
               <p className="lp-form-band-call">
@@ -305,13 +306,8 @@ export default function VotreProjetPage() {
         </p>
       </footer>
 
-      {/* Barre d'appel fixe, sur mobile uniquement */}
-      <div className="lp-sticky">
-        <PhoneLink className="lp-sticky-call">Appeler</PhoneLink>
-        <a href="#formulaire" className="lp-sticky-form">
-          Être rappelé
-        </a>
-      </div>
+      {/* Barre d'action fixe, sur mobile uniquement */}
+      <StickyBar />
     </div>
   );
 }

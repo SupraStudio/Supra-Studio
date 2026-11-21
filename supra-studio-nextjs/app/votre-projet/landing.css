@@ -191,7 +191,7 @@
 }
 .lp-proofs strong { font-weight: 500; }
 
-/* Bouton en bas à droite, à la place de « Découvrir le studio » */
+/* Bouton principal du hero : plein, bien visible sur la photo */
 .lp-hero-cta {
   display: inline-block;
   font-family: var(--f-body);
@@ -199,14 +199,16 @@
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ivoire);
+  color: var(--bleu);
+  background: var(--ivoire);
   border: 1px solid var(--ivoire);
   border-radius: var(--radius);
-  padding: 16px 26px;
+  padding: 18px 30px;
   white-space: nowrap;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .28);
   transition: background-color .3s var(--ease), color .3s var(--ease);
 }
-.lp-hero-cta:hover { background: var(--ivoire); color: var(--bleu); }
+.lp-hero-cta:hover { background: var(--bleu); border-color: var(--bleu); color: var(--ivoire); }
 
 .lp-section-intro {
   font-size: 12.5px;
@@ -460,7 +462,7 @@
   bottom: 0;
   z-index: 150;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 8px;
   padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
   background: rgba(239, 237, 232, .94);
@@ -476,8 +478,8 @@
   border-radius: var(--radius);
   border: 1px solid var(--bleu);
 }
-.lp-sticky-call { background: var(--bleu); color: var(--ivoire); }
-.lp-sticky-form { color: var(--bleu); }
+.lp-sticky-form { background: var(--bleu); color: var(--ivoire); }
+.lp-sticky-call { color: var(--bleu); }
 
 /* ---------- Page merci ---------- */
 .lp-thanks {
@@ -528,7 +530,8 @@
 @media (max-width: 860px) {
   .lp-hero { height: auto; min-height: 78svh; padding-top: 120px; }
   .lp-hero .lp-logo { width: 190px; }
-  .lp-hero-cta { display: none; }
+  .lp-hero-cta { display: block; width: 100%; text-align: center; margin-top: 4px; }
+  .lp-hero-foot > div { width: 100%; }
 }
 @media (max-width: 560px) {
   .lp-hero { min-height: 0; padding-bottom: 0; }

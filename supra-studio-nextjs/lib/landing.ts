@@ -23,6 +23,8 @@ export const LANDING_PATH = "/votre-projet";
 export const THANKS_PATH = "/votre-projet/merci";
 
 // --- Étapes du formulaire ---
+// La question du budget a été retirée (nov. 2026) : elle freinait les demandes ; le budget
+// est abordé lors du rappel téléphonique. Pour la remettre, recréer une étape field: "budget".
 export type Step = {
   field: "proprietaire" | "type_bien" | "projet" | "budget" | "delai";
   question: string;
@@ -57,17 +59,6 @@ export const FORM_STEPS: Step[] = [
       "Extension",
       "Aménagement extérieur",
       "Aménagement d'un local professionnel",
-    ],
-  },
-  {
-    field: "budget",
-    question: "Quel budget travaux envisagez-vous ?",
-    options: [
-      "Moins de 50 000 €",
-      "50 000 à 100 000 €",
-      "100 000 à 150 000 €",
-      "Plus de 150 000 €",
-      "Je ne sais pas encore",
     ],
   },
   {
