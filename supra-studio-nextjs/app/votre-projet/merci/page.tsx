@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "../landing.css";
 import PhoneLink from "@/components/landing/PhoneLink";
 import ThanksClient from "@/components/landing/ThanksClient";
-import { CALLBACK_PROMISE, PHONE_DISPLAY } from "@/lib/landing";
+import { CALLBACK_PROMISE } from "@/lib/landing";
 
 export const metadata: Metadata = {
   title: "Merci | Supra Studio",
@@ -34,7 +34,7 @@ export default function MerciPage() {
         </p>
 
         <PhoneLink className="lp-btn lp-btn-solid lp-thanks-call">
-          Vous préférez appeler ? {PHONE_DISPLAY}
+          Appeler directement
         </PhoneLink>
 
         <div className="lp-thanks-offer">

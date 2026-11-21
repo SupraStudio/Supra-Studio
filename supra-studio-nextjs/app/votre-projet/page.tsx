@@ -3,7 +3,7 @@ import "./landing.css";
 import LeadForm from "@/components/landing/LeadForm";
 import PhoneLink from "@/components/landing/PhoneLink";
 import StickyBar from "@/components/landing/StickyBar";
-import { CALLBACK_PROMISE, PHONE_DISPLAY } from "@/lib/landing";
+import { CALLBACK_PROMISE } from "@/lib/landing";
 
 // Landing page Google Ads : hors référencement naturel, hors sitemap, sans menu.
 export const metadata: Metadata = {
@@ -107,9 +107,8 @@ export default function VotreProjetPage() {
               src="/assets/icons/logo-supra-studio-architecte-interieur-paysagiste.svg"
               alt="Supra Studio"
             />
-            <PhoneLink className="lp-header-call" ariaLabel={`Appeler le ${PHONE_DISPLAY}`}>
-              <span className="lp-call-full">Appeler {PHONE_DISPLAY}</span>
-              <span className="lp-call-short">Appeler</span>
+            <PhoneLink className="lp-header-call" ariaLabel="Appeler Supra Studio">
+              Appeler
             </PhoneLink>
           </header>
 
@@ -149,7 +148,7 @@ export default function VotreProjetPage() {
               </p>
               <p className="lp-form-band-call">
                 Vous préférez appeler ?{" "}
-                <PhoneLink className="lp-inline-call">{PHONE_DISPLAY}</PhoneLink>
+                <PhoneLink className="lp-inline-call">Appelez-nous</PhoneLink>
               </p>
             </div>
             <LeadForm />
@@ -262,7 +261,7 @@ export default function VotreProjetPage() {
               <a href="#formulaire" className="lp-btn lp-btn-solid">
                 Décrire mon projet
               </a>
-              <PhoneLink className="lp-btn lp-btn-ghost">Appeler le {PHONE_DISPLAY}</PhoneLink>
+              <PhoneLink className="lp-btn lp-btn-ghost">Appeler</PhoneLink>
             </div>
             <p className="lp-final-note">Rappel {CALLBACK_PROMISE}.</p>
           </div>
