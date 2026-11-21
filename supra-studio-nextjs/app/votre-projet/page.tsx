@@ -241,7 +241,7 @@ export default function VotreProjetPage() {
                   <p className="lp-stars" aria-label="5 étoiles sur 5">
                     ★★★★★
                   </p>
-                  <blockquote>« {r.quote} »</blockquote>
+                  <blockquote>{r.quote}</blockquote>
                   <figcaption>
                     <strong>{r.author}</strong> · {r.context}
                   </figcaption>
@@ -256,7 +256,7 @@ export default function VotreProjetPage() {
           <div className="lp-wrap lp-final-inner">
             <p className="lp-label">Zone d&apos;intervention</p>
             <h2>Un projet à Paris ou en proche banlieue ?</h2>
-            <p className="lp-areas">{AREAS.join(" · ")}</p>
+            <p className="lp-areas">{AREAS.map((a) => a.replace(/-/g, "\u2011")).join(" · ")}</p>
             <div className="lp-final-actions">
               <a href="#formulaire" className="lp-btn lp-btn-solid">
                 Décrire mon projet
