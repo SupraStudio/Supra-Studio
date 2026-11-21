@@ -469,6 +469,15 @@
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border-top: 1px solid var(--bleu-line);
+  /* Masquée tant que le bouton « Appeler » du haut de page est visible */
+  transform: translateY(100%);
+  visibility: hidden;
+  transition: transform .3s var(--ease), visibility 0s linear .3s;
+}
+.lp-sticky.is-shown {
+  transform: translateY(0);
+  visibility: visible;
+  transition: transform .3s var(--ease), visibility 0s;
 }
 .lp-sticky a {
   text-align: center;

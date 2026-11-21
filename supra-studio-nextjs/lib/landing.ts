@@ -16,7 +16,7 @@ export const LEADS_ENDPOINT =
 // --- Coordonnées ---
 export const PHONE_DISPLAY = "06 43 85 37 61";
 export const PHONE_HREF = "tel:+33643853761";
-export const CALLBACK_PROMISE = "sous 2 h ouvrées, du lundi au vendredi";
+export const CALLBACK_PROMISE = "sous 24 h, du lundi au vendredi";
 
 // --- Chemins ---
 export const LANDING_PATH = "/votre-projet";
