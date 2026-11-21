@@ -58,7 +58,7 @@ export const FORM_STEPS: Step[] = [
       "Réaménagement des espaces",
       "Extension",
       "Aménagement extérieur",
-      "Aménagement d'un local professionnel",
+      "Autre",
     ],
   },
   {
