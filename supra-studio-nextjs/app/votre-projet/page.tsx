@@ -3,6 +3,7 @@ import "./landing.css";
 import LeadForm from "@/components/landing/LeadForm";
 import PhoneLink from "@/components/landing/PhoneLink";
 import StickyBar from "@/components/landing/StickyBar";
+import LandingTracker from "@/components/landing/LandingTracker";
 import { CALLBACK_PROMISE } from "@/lib/landing";
 
 // Landing page Google Ads : hors référencement naturel, hors sitemap, sans menu.
@@ -107,7 +108,7 @@ export default function VotreProjetPage() {
               src="/assets/icons/logo-supra-studio-architecte-interieur-paysagiste.svg"
               alt="Supra Studio"
             />
-            <PhoneLink className="lp-header-call" ariaLabel="Appeler Supra Studio">
+            <PhoneLink className="lp-header-call" ariaLabel="Appeler Supra Studio" location="entete">
               Appeler
             </PhoneLink>
           </header>
@@ -129,7 +130,7 @@ export default function VotreProjetPage() {
                   <li>Rappel {CALLBACK_PROMISE.replace(", du lundi au vendredi", "")}</li>
                 </ul>
               </div>
-              <a href="#formulaire" className="lp-hero-cta">
+              <a href="#formulaire" className="lp-hero-cta" data-track-cta="hero">
                 Décrire mon projet
               </a>
             </div>
@@ -148,7 +149,9 @@ export default function VotreProjetPage() {
               </p>
               <p className="lp-form-band-call">
                 Vous préférez appeler ?{" "}
-                <PhoneLink className="lp-inline-call">Appelez-nous</PhoneLink>
+                <PhoneLink className="lp-inline-call" location="bandeau_formulaire">
+                  Appelez-nous
+                </PhoneLink>
               </p>
             </div>
             <LeadForm />
@@ -258,10 +261,12 @@ export default function VotreProjetPage() {
             <h2>Un projet à Paris ou en proche banlieue ?</h2>
             <p className="lp-areas">{AREAS.map((a) => a.replace(/-/g, "\u2011")).join(" · ")}</p>
             <div className="lp-final-actions">
-              <a href="#formulaire" className="lp-btn lp-btn-solid">
+              <a href="#formulaire" className="lp-btn lp-btn-solid" data-track-cta="section_finale">
                 Décrire mon projet
               </a>
-              <PhoneLink className="lp-btn lp-btn-ghost">Appeler</PhoneLink>
+              <PhoneLink className="lp-btn lp-btn-ghost" location="section_finale">
+                Appeler
+              </PhoneLink>
             </div>
             <p className="lp-final-note">Rappel {CALLBACK_PROMISE}.</p>
           </div>
@@ -278,6 +283,9 @@ export default function VotreProjetPage() {
 
       {/* Barre d'action fixe, sur mobile uniquement */}
       <StickyBar />
+
+      {/* Suivi GA4 du parcours (formulaire vu, défilement, boutons) */}
+      <LandingTracker />
     </div>
   );
 }

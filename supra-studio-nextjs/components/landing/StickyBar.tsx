@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ADS_LABEL_PHONE, PHONE_HREF, trackConversion } from "@/lib/landing";
+import { ADS_LABEL_PHONE, PHONE_HREF, trackConversion, trackEvent } from "@/lib/landing";
 
 // Barre d'action fixe en bas de l'écran (mobile uniquement, voir landing.css).
 // Le bouton principal est « Être rappelé » (formulaire) ; « Appeler » est secondaire.
@@ -49,13 +49,20 @@ export default function StickyBar() {
       style={{ bottom: offset }}
       aria-hidden={!shown}
     >
-      <a href="#formulaire" className="lp-sticky-form">
+      <a
+        href="#formulaire"
+        className="lp-sticky-form"
+        onClick={() => trackEvent("lp_cta_click", { location: "barre_mobile" })}
+      >
         Être rappelé
       </a>
       <a
         href={PHONE_HREF}
         className="lp-sticky-call"
-        onClick={() => trackConversion(ADS_LABEL_PHONE)}
+        onClick={() => {
+          trackConversion(ADS_LABEL_PHONE);
+          trackEvent("lp_phone_click", { location: "barre_mobile" });
+        }}
       >
         Appeler
       </a>

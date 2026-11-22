@@ -33,7 +33,7 @@ export default function MerciPage() {
           votre projet et convenir d&apos;une visite.
         </p>
 
-        <PhoneLink className="lp-btn lp-btn-solid lp-thanks-call">
+        <PhoneLink className="lp-btn lp-btn-solid lp-thanks-call" location="merci">
           Appeler directement
         </PhoneLink>
 

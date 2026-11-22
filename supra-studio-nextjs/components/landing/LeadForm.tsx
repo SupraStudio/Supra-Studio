@@ -9,6 +9,8 @@ import {
   SS_GCLID,
   SS_LEAD,
   THANKS_PATH,
+  trackEvent,
+  trackEventOnce,
 } from "@/lib/landing";
 
 type Answers = Record<string, string>;
@@ -38,14 +40,20 @@ export default function LeadForm() {
   // Accessibilité : focus sur la nouvelle question à chaque étape
   useEffect(() => {
     if (step > 0) headingRef.current?.focus();
+    // Suivi : arrivée sur l'étape des coordonnées
+    if (step === FORM_STEPS.length) trackEventOnce("lp_contact_view");
   }, [step]);
 
   function choose(field: string, value: string) {
+    // Suivi : première réponse = formulaire commencé, puis chaque réponse donnée
+    if (step === 0) trackEventOnce("lp_form_start");
+    trackEvent("lp_form_step", { step_number: step + 1, step_name: field, answer: value });
     setAnswers((a) => ({ ...a, [field]: value }));
     setStep((s) => s + 1);
   }
 
   function back() {
+    trackEvent("lp_form_back", { step_number: step + 1 });
     setError("");
     setStep((s) => Math.max(0, s - 1));
   }
@@ -62,14 +70,17 @@ export default function LeadForm() {
     const code_postal = String(data.get("code_postal") || "").trim();
 
     if (!prenom || !telephone || !email || !code_postal) {
+      trackEvent("lp_form_error", { error_type: "champs_vides" });
       setError("Merci de remplir les quatre champs.");
       return;
     }
     if (telephone.replace(/[^\d]/g, "").length < 9) {
+      trackEvent("lp_form_error", { error_type: "telephone" });
       setError("Le numéro de téléphone semble incomplet.");
       return;
     }
     if (!/^\d{5}$/.test(code_postal)) {
+      trackEvent("lp_form_error", { error_type: "code_postal" });
       setError("Le code postal doit comporter 5 chiffres.");
       return;
     }
@@ -98,10 +109,14 @@ export default function LeadForm() {
       // mais la demande est bien reçue et enregistrée.
       await fetch(LEADS_ENDPOINT, { method: "POST", mode: "no-cors", body: payload });
     } catch {
+      trackEvent("lp_form_error", { error_type: "connexion" });
       setSending(false);
       setError("La connexion a échoué. Réessayez, ou appelez-nous directement.");
       return;
     }
+
+    // Suivi : demande envoyée (événement GA4 recommandé, sans aucune donnée personnelle)
+    trackEvent("generate_lead", { form: "votre-projet" });
 
     try {
       window.sessionStorage.setItem(

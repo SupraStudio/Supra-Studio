@@ -95,3 +95,29 @@ export function trackConversion(label: string, extra: Record<string, unknown> = 
     ...extra,
   });
 }
+
+// --- Suivi Google Analytics 4 (parcours sur la landing page) ---
+// Identifiant GA4 défini dans Vercel (variable NEXT_PUBLIC_GA_ID). S'il est absent,
+// aucun événement n'est envoyé.
+const GA4_ID = process.env.NEXT_PUBLIC_GA_ID || "";
+const CONSENT_KEY = "supra_cookie_consent";
+const sentOnce = new Set<string>();
+
+// Envoie un événement GA4 uniquement si le visiteur a accepté les cookies.
+// Ne JAMAIS y mettre le prénom, le téléphone, l'email ou le code postal.
+export function trackEvent(name: string, params: Record<string, string | number> = {}) {
+  if (!GA4_ID || typeof window === "undefined" || typeof window.gtag !== "function") return;
+  try {
+    if (window.localStorage.getItem(CONSENT_KEY) !== "accepted") return;
+  } catch {
+    return;
+  }
+  window.gtag("event", name, { ...params, send_to: GA4_ID });
+}
+
+// Même chose, mais une seule fois par page vue (ex. « formulaire vu »).
+export function trackEventOnce(name: string, params: Record<string, string | number> = {}) {
+  if (sentOnce.has(name)) return;
+  sentOnce.add(name);
+  trackEvent(name, params);
+}
