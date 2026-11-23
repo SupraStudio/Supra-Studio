@@ -1807,6 +1807,114 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       "maison-kleber"
     ]
   },
+  {
+    "slug": "renovation-energetique-appartement-ancien-paris",
+    "title": "Rénovation énergétique d'un appartement ancien à Paris : par où commencer ?",
+    "metaTitle": "Rénovation Énergétique Appartement Ancien Paris : DPE, Isolation, Fenêtres",
+    "excerpt": "DPE, interdictions de location, isolation, fenêtres, copropriété : par où commencer la rénovation énergétique d'un appartement ancien à Paris, sans en perdre le caractère.",
+    "date": "2026-11-23",
+    "category": "Conseils & expertise",
+    "cover": "/assets/images/salon-haussmannien-fenetres-bois-renovation-energetique-paris.jpg",
+    "readingTime": "8 min",
+    "intro": "Un appartement haussmannien a de nombreuses qualités : des volumes généreux, de la lumière, des murs épais, des moulures, un parquet qui a traversé un siècle. Il a aussi, très souvent, un diagnostic de performance énergétique médiocre. Entre les interdictions de location qui se rapprochent, les aides qui évoluent et les contraintes propres à Paris, la question revient dans presque tous nos premiers rendez-vous : que faut-il faire, dans quel ordre, et comment améliorer le confort sans abîmer ce qui fait le caractère du lieu ? Voici notre méthode pour aborder la rénovation énergétique d'un appartement ancien, avec un regard d'architectes.",
+    "sections": [
+      {
+        "heading": "Pourquoi le sujet devient incontournable",
+        "paragraphs": [
+          "Le calendrier réglementaire est désormais clair. Les logements classés G au diagnostic de performance énergétique ne peuvent plus être loués depuis le 1er janvier 2025 : ils sont considérés comme non décents. Les logements classés F suivront le 1er janvier 2028, puis les logements classés E le 1er janvier 2034. Un bail signé avant ces dates n'est pas touché immédiatement, mais l'interdiction s'applique au renouvellement ou à la reconduction du contrat.",
+          "Cette échéance concerne d'abord les propriétaires bailleurs. Mais elle pèse aussi sur les propriétaires occupants, car un mauvais classement se retrouve tôt ou tard au moment de la vente, et surtout dans le quotidien : murs froids l'hiver, surchauffe l'été, courants d'air, factures élevées.",
+          "Une précision utile : le mode de calcul du diagnostic a évolué. Depuis le 1er janvier 2026, le coefficient qui convertit l'électricité en énergie primaire est passé de 2,3 à 1,9. Certains logements chauffés à l'électricité, notamment de petite surface, ont donc pu gagner une classe sans aucuns travaux. Cela ne remplace pas une vraie amélioration du confort, et ne dit rien de l'état réel de l'enveloppe du logement. C'est pourquoi nous raisonnons toujours à partir du bâtiment et de son usage, pas seulement de l'étiquette."
+        ]
+      },
+      {
+        "heading": "Comprendre comment un appartement parisien perd de la chaleur",
+        "paragraphs": [
+          "Avant de choisir des travaux, il faut comprendre où la chaleur s'échappe. Dans un immeuble ancien parisien, les pertes se répartissent différemment d'une maison individuelle.",
+          "Les murs de façade, en pierre de taille ou en moellon, sont épais et inertes. Ils ne sont pas aussi mauvais qu'on le croit, et ils jouent un rôle précieux pour le confort d'été. Les murs mitoyens et les cloisons sur les parties communes, souvent oubliés, comptent aussi.",
+          "Les fenêtres sont fréquemment le premier point faible : menuiseries bois anciennes, joints fatigués, simple vitrage. C'est en général là que le gain est le plus rapide et le plus visible.",
+          "Les planchers et les plafonds, quand l'appartement donne sur un étage non chauffé, sur une cave, sur un passage ou sous les combles, peuvent représenter une part importante des déperditions. La ventilation, enfin, est un sujet à part entière : un logement trop étanche sans renouvellement d'air maîtrisé développe humidité et moisissures, un logement trop poreux gaspille son énergie."
+        ]
+      },
+      {
+        "heading": "Un ordre de priorités, plutôt qu'une liste de gestes",
+        "paragraphs": [
+          "La tentation est de traiter les travaux un par un : changer les fenêtres cette année, la chaudière l'an prochain. C'est rarement la meilleure approche. Un seul geste isolé peut déséquilibrer le logement : de nouvelles fenêtres très étanches sans ventilation adaptée, par exemple, créent de la condensation.",
+          "Nous procédons plutôt en quatre temps. D'abord un diagnostic précis du bâtiment et des usages : orientation, étage, état des murs, système de chauffage, habitudes de vie. Ensuite la définition d'un scénario cohérent, qui hiérarchise les interventions selon leur efficacité et leur compatibilité avec le bâti. Puis un phasage des travaux, éventuellement étalé dans le temps, pour tenir compte du budget et du calendrier de la copropriété. Enfin un suivi attentif du chantier, car la qualité de mise en œuvre fait la performance : un pont thermique mal traité annule une bonne partie des gains attendus."
+        ]
+      },
+      {
+        "heading": "Isoler les murs sans les abîmer",
+        "paragraphs": [
+          "Dans un immeuble en pierre, l'isolation par l'extérieur est quasiment exclue : elle modifierait la façade et nécessite de toute façon l'accord de la copropriété et de l'administration. Reste l'isolation par l'intérieur, qui a un coût en surface habitable (quelques centimètres perdus sur chaque mur concerné) et exige de la rigueur.",
+          "Le point d'attention principal est la gestion de l'humidité. Les murs anciens fonctionnent par échange de vapeur d'eau avec l'ambiance intérieure et extérieure. Les recouvrir d'un isolant étanche et d'un pare-vapeur inadaptés peut emprisonner l'humidité et dégrader le mur à terme. Nous privilégions donc des matériaux dits perspirants, compatibles avec ce fonctionnement : fibre de bois, chaux-chanvre, liège ou enduits isolants à la chaux. Ils sont souvent un peu plus coûteux, mais bien plus adaptés à la pierre.",
+          "Nous isolons en priorité les murs les plus exposés : façades nord, pignons, murs donnant sur l'extérieur ou sur des parties communes non chauffées. Il n'est pas toujours nécessaire de tout traiter : un bon projet cible les parois où le gain est le plus net, et préserve les moulures et les cheminées là où elles méritent d'être conservées."
+        ]
+      },
+      {
+        "heading": "Fenêtres : conserver, améliorer ou remplacer",
+        "paragraphs": [
+          "Les fenêtres à la française en bois, avec leurs petits-bois et leurs profils fins, font partie de l'identité d'un immeuble ancien. Avant de les remplacer, il faut se demander si elles peuvent être restaurées : reprise des joints, remise en état du bois, installation d'un vitrage isolant fin dans la menuiserie existante, voire pose d'une seconde fenêtre intérieure, qui apporte aussi un très bon gain acoustique. Ces solutions sont souvent moins coûteuses qu'un remplacement complet, et plus respectueuses de la façade.",
+          "Quand le remplacement est nécessaire, la fidélité au modèle d'origine est essentielle : proportions, section des profils, teinte, matériau. À Paris, cela n'est pas qu'une question d'esthétique. Les fenêtres modifient l'aspect extérieur de l'immeuble : elles supposent généralement une déclaration préalable de travaux, et dans un secteur protégé ou aux abords d'un monument historique, l'architecte des Bâtiments de France peut imposer des prescriptions précises, voire s'opposer à certains matériaux. Nous détaillons ces démarches dans notre article sur [la déclaration préalable de travaux à Paris](/journal/declaration-prealable-travaux-paris)."
+        ]
+      },
+      {
+        "heading": "Ventilation et confort d'été : les deux oubliés",
+        "paragraphs": [
+          "On parle beaucoup d'hiver, beaucoup moins d'été. Pourtant, les épisodes de forte chaleur sont de plus en plus fréquents à Paris, et les appartements situés sous les toits ou exposés plein sud sont les premiers touchés. Les solutions sont souvent simples et peu coûteuses : protections solaires extérieures (volets, stores, sous réserve des règles de la copropriété et de la Ville), ventilation nocturne, choix de matériaux à bonne inertie, couleurs claires en toiture ou en façade lorsque c'est possible.",
+          "La ventilation mérite autant d'attention. Lorsqu'on améliore l'étanchéité à l'air d'un logement, il faut s'assurer qu'un renouvellement d'air suffisant est maintenu : entrées d'air dans les menuiseries, extraction dans les pièces humides, et dans certains cas une ventilation mécanique adaptée. C'est un travail de conception, qui doit être pensé avec le reste du projet."
+        ]
+      },
+      {
+        "heading": "Le chauffage, en dernier ou presque",
+        "paragraphs": [
+          "Il peut sembler étrange de traiter le chauffage en dernier. C'est pourtant logique : une fois l'enveloppe améliorée, les besoins baissent, et l'on dimensionne mieux le système, souvent plus petit. À Paris, beaucoup d'immeubles disposent d'un chauffage collectif, parfois raccordé au réseau de chaleur urbain. Le choix individuel est alors limité, et les décisions passent par la copropriété. Dans les appartements à chauffage individuel, l'arbitrage se fait entre électricité, gaz et pompe à chaleur, avec une contrainte spécifique à la capitale : l'installation d'une unité extérieure est strictement encadrée, par le règlement de copropriété comme par les règles d'urbanisme."
+        ]
+      },
+      {
+        "heading": "Copropriété et autorisations : le vrai calendrier",
+        "paragraphs": [
+          "C'est souvent le point qui surprend le plus les propriétaires. Dans un immeuble en copropriété, tout ce qui touche aux parties communes ou à l'aspect extérieur dépend de l'assemblée générale : isolation des façades ou de la toiture, remplacement des fenêtres lorsque cela modifie l'aspect de l'immeuble, installation d'équipements en façade. La décision doit être inscrite à l'ordre du jour de l'assemblée, ce qui impose d'anticiper plusieurs mois.",
+          "À cela s'ajoute, lorsqu'ils modifient l'aspect extérieur, l'autorisation d'urbanisme, avec l'avis possible de l'architecte des Bâtiments de France. Notre conseil est de prévoir cette phase administrative très en amont, parallèlement à la conception, pour ne pas perdre de temps au moment du chantier."
+        ]
+      },
+      {
+        "heading": "Les aides financières : à vérifier au moment de votre projet",
+        "paragraphs": [
+          "Plusieurs dispositifs peuvent soutenir une rénovation énergétique. MaPrimeRénov' pour une rénovation d'ampleur est destinée aux propriétaires occupants et bailleurs de logements de plus de quinze ans, avec des conditions précises : un gain de deux classes énergétiques au minimum, au moins deux gestes d'isolation, des travaux réalisés par des entreprises certifiées RGE, un accompagnement obligatoire par un conseiller France Rénov' puis par un accompagnateur dédié. Pour les parties communes d'un immeuble, il existe une aide spécifique à la copropriété, déposée par le syndic. L'éco-prêt à taux zéro et la TVA à taux réduit peuvent se cumuler sous conditions.",
+          "Ces dispositifs, leurs montants et leurs conditions changent régulièrement. Avant tout engagement, vérifiez la situation à jour auprès de [France Rénov'](https://france-renov.gouv.fr) et ne signez aucun devis avant d'avoir obtenu votre accord de financement lorsque l'aide l'exige."
+        ]
+      },
+      {
+        "heading": "Notre accompagnement",
+        "paragraphs": [
+          "Chez Supra Studio, nous abordons la rénovation énergétique comme une composante du projet d'architecture, et non comme une liste de travaux techniques à ajouter après coup. Concrètement, nous commençons par une visite sur place pour comprendre le bâtiment, l'orientation, les contraintes de copropriété et vos usages. Nous construisons ensuite un scénario qui conjugue confort thermique, qualité de l'espace et respect du patrimoine : une isolation intégrée à l'agencement, des fenêtres restaurées ou remplacées avec le bon dessin, des protections solaires pensées avec l'esthétique du lieu.",
+          "Nous préparons les plans et les pièces nécessaires aux démarches, nous vous aidons à présenter le dossier à la copropriété, nous coordonnons les entreprises et nous suivons le chantier jusqu'à la réception. L'objectif est un appartement plus confortable, plus sobre en énergie, et qui conserve ce qui fait son caractère.",
+          "**Vous envisagez des travaux d'amélioration énergétique dans un appartement ancien ?** [Prenez rendez-vous](https://calendly.com/paul-cohen-suprastudio/30min) pour une visite-conseil, ou [contactez-nous](/contact) pour en discuter. Pour situer ces travaux dans un budget global, notre article sur [le coût d'une rénovation d'appartement à Paris](/journal/cout-renovation-appartement-paris-budget-complet) vous donnera des repères.",
+          "*Les informations de cet article sont indicatives et reflètent les règles en vigueur à la date de publication. Chaque projet doit être vérifié selon la situation du bâtiment, le règlement de copropriété et les règles d'urbanisme de la Ville de Paris.*"
+        ]
+      },
+      {
+        "heading": "Questions fréquentes",
+        "paragraphs": [
+          "**À partir de quand un logement classé F ou G ne peut-il plus être loué ?** Les logements classés G sont non décents et ne peuvent plus être loués à partir du 1er janvier 2025 (pour les contrats signés, renouvelés ou reconduits à partir de cette date). Les logements classés F suivront au 1er janvier 2028, puis les logements classés E au 1er janvier 2034.",
+          "**Quels travaux faut-il faire en premier dans un appartement ancien ?** Il n'existe pas de réponse unique, mais l'ordre logique est de traiter d'abord l'enveloppe (fenêtres, étanchéité à l'air, parois les plus déperditives), de vérifier la ventilation, puis d'adapter le chauffage. Un diagnostic précis du bâtiment permet de hiérarchiser les travaux selon leur efficacité.",
+          "**Peut-on isoler un appartement haussmannien par l'extérieur ?** En pratique, très rarement : cela modifierait la façade, demande l'accord de la copropriété et de l'administration, et reste souvent incompatible avec le caractère du bâtiment. L'isolation par l'intérieur, avec des matériaux compatibles avec les murs anciens, est la solution la plus courante.",
+          "**Faut-il une autorisation pour changer ses fenêtres à Paris ?** Oui, dans la plupart des cas, car le remplacement modifie l'aspect extérieur de l'immeuble : une déclaration préalable est généralement nécessaire, et l'accord de la copropriété peut l'être aussi. Dans un secteur protégé ou aux abords d'un monument historique, l'architecte des Bâtiments de France peut imposer le modèle, la matière et la teinte.",
+          "**Faut-il passer par un architecte pour une rénovation énergétique ?** Ce n'est pas obligatoire pour un projet limité, mais c'est très utile dès que plusieurs travaux se combinent, que l'immeuble est ancien ou protégé, ou que la rénovation s'inscrit dans un projet plus large. L'architecte coordonne les choix techniques, prépare les dossiers d'autorisation et veille à ce que les gains énergétiques ne se fassent pas au détriment de l'espace ni du caractère du lieu.",
+          "**Les aides financières sont-elles toujours disponibles ?** Les dispositifs d'aide évoluent régulièrement. Vérifiez toujours leurs conditions à jour sur le site de France Rénov' avant de lancer les travaux, et attendez l'accord de financement lorsque c'est nécessaire."
+        ]
+      }
+    ],
+    "keywords": [
+      "Rénovation énergétique appartement Paris",
+      "DPE appartement ancien",
+      "Isolation appartement haussmannien"
+    ],
+    "relatedProjects": [
+      "casa-duy",
+      "maison-kleber"
+    ]
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

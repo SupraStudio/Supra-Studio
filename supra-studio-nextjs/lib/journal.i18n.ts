@@ -3406,6 +3406,210 @@ export const JOURNAL_I18N: Record<string, Partial<Record<"en" | "it", ArticleTra
       ]
     }
   },
+  "renovation-energetique-appartement-ancien-paris": {
+    "en": {
+      "title": "Energy Renovation of an Older Paris Apartment: Where to Start?",
+      "metaTitle": "Energy Renovation of an Older Paris Apartment: EPC, Insulation, Windows",
+      "excerpt": "EPC rating, rental bans, insulation, windows, co-ownership: where to start the energy renovation of an older Paris apartment without losing its character.",
+      "category": "Advice & Expertise",
+      "readingTime": "8 min",
+      "intro": "A Haussmann-era apartment has many qualities: generous volumes, light, thick walls, mouldings, a parquet floor that has lasted a century. Very often, it also has a poor energy performance rating. With rental bans drawing closer, subsidies that keep changing and constraints specific to Paris, the same question comes up in almost all of our first meetings: what needs to be done, in what order, and how can comfort be improved without damaging what gives the place its character? Here is how we approach the energy renovation of an older apartment, through an architect's eyes.",
+      "sections": [
+        {
+          "heading": "Why the subject can no longer be ignored",
+          "paragraphs": [
+            "The regulatory timetable is now clear. Homes rated G on the energy performance certificate (DPE, or EPC) have not been lettable since 1 January 2025: they are considered unfit for habitation. Homes rated F follow on 1 January 2028, then homes rated E on 1 January 2034. A lease signed before these dates is not affected immediately, but the ban applies when the contract is renewed or tacitly extended.",
+            "This deadline concerns landlords first. But it also weighs on owner-occupiers, because a poor rating eventually shows up at the time of sale, and above all in daily life: cold walls in winter, overheating in summer, draughts, high bills.",
+            "A useful point: the way the certificate is calculated has changed. Since 1 January 2026, the coefficient that converts electricity into primary energy has dropped from 2.3 to 1.9. Some electrically heated homes, particularly small ones, may therefore have moved up a class without any work at all. This does not replace a genuine improvement in comfort, and says nothing about the real condition of the building envelope. That is why we always reason from the building and how it is used, not only from the label."
+          ]
+        },
+        {
+          "heading": "Understanding how a Paris apartment loses heat",
+          "paragraphs": [
+            "Before choosing works, you need to understand where the heat escapes. In an older Parisian building, the losses are distributed differently from those of a detached house.",
+            "Façade walls, in ashlar stone or rubble, are thick and have high thermal inertia. They are not as bad as people think, and they play a valuable role in summer comfort. Party walls and partitions facing common areas, often forgotten, also count.",
+            "Windows are frequently the first weak point: old timber frames, tired seals, single glazing. This is generally where the gain is quickest and most visible.",
+            "Floors and ceilings, when the apartment sits above an unheated floor, a cellar or a passageway, or beneath the attic, can account for a significant share of heat loss. Finally, ventilation is a subject in its own right: a home that is too airtight without controlled air renewal develops damp and mould, while a home that is too porous wastes its energy."
+          ]
+        },
+        {
+          "heading": "An order of priorities, rather than a list of measures",
+          "paragraphs": [
+            "The temptation is to treat works one by one: change the windows this year, the boiler next year. This is rarely the best approach. A single isolated measure can unbalance the home: very airtight new windows without suitable ventilation, for example, create condensation.",
+            "We prefer to proceed in four stages. First, a precise diagnosis of the building and how it is used: orientation, floor, condition of the walls, heating system, lifestyle. Then the definition of a coherent scenario, which ranks interventions by effectiveness and compatibility with the existing fabric. Next, a phasing of the works, possibly spread over time, to take account of the budget and the co-ownership calendar. Finally, close site supervision, because the quality of execution is what delivers the performance: a poorly treated thermal bridge cancels out a good part of the expected gains."
+          ]
+        },
+        {
+          "heading": "Insulating walls without damaging them",
+          "paragraphs": [
+            "In a stone building, external insulation is almost ruled out: it would alter the façade and in any case requires the approval of the co-ownership and of the authorities. That leaves internal insulation, which costs living space (a few centimetres lost on each wall concerned) and demands rigour.",
+            "The main point of attention is moisture management. Old walls work by exchanging water vapour with the indoor and outdoor air. Covering them with an unsuitable waterproof insulation and vapour barrier can trap moisture and degrade the wall over time. We therefore favour so-called breathable materials, compatible with this behaviour: wood fibre, lime-hemp, cork or insulating lime renders. They are often a little more expensive, but far better suited to stone.",
+            "We insulate the most exposed walls first: north-facing façades, gable walls, walls facing the outside or unheated common areas. It is not always necessary to treat everything: a good project targets the walls where the gain is clearest, and preserves mouldings and fireplaces where they deserve to be kept."
+          ]
+        },
+        {
+          "heading": "Windows: keep, improve or replace",
+          "paragraphs": [
+            "French-style timber windows, with their glazing bars and slender profiles, are part of the identity of an older building. Before replacing them, ask whether they can be restored: reworking the seals, restoring the timber, fitting slim insulating glazing into the existing frame, or even adding a second interior window, which also brings a very good acoustic gain. These solutions are often cheaper than a full replacement, and more respectful of the façade.",
+            "When replacement is necessary, fidelity to the original model is essential: proportions, section of the profiles, colour, material. In Paris, this is not only a matter of aesthetics. Windows change the outward appearance of the building: they generally require a prior declaration of works, and in a protected area or near a listed monument, the Architecte des Bâtiments de France may impose precise requirements, or even oppose certain materials. We detail these procedures in our article on the [prior declaration of works in Paris](/en/journal/declaration-prealable-travaux-paris)."
+          ]
+        },
+        {
+          "heading": "Ventilation and summer comfort: the two forgotten ones",
+          "paragraphs": [
+            "People talk a great deal about winter, far less about summer. Yet episodes of intense heat are increasingly frequent in Paris, and apartments under the roof or facing due south are the first affected. The solutions are often simple and inexpensive: external solar protection (shutters, blinds, subject to co-ownership and City rules), night ventilation, materials with good thermal inertia, light colours on roofs or façades where possible.",
+            "Ventilation deserves just as much attention. When a home's airtightness is improved, you must make sure that sufficient air renewal is maintained: air inlets in the window frames, extraction in wet rooms, and in some cases suitable mechanical ventilation. This is design work, which must be thought through together with the rest of the project."
+          ]
+        },
+        {
+          "heading": "Heating: last, or almost",
+          "paragraphs": [
+            "It may seem odd to deal with heating last. Yet it is logical: once the envelope is improved, needs fall, and the system can be sized better, often smaller. In Paris, many buildings have collective heating, sometimes connected to the urban heat network. Individual choice is then limited, and decisions go through the co-ownership. In apartments with individual heating, the choice is between electricity, gas and a heat pump, with a constraint specific to the capital: installing an outdoor unit is strictly regulated, by the co-ownership rules as well as by planning rules."
+          ]
+        },
+        {
+          "heading": "Co-ownership and authorisations: the real timetable",
+          "paragraphs": [
+            "This is often what surprises owners most. In a co-owned building, everything that touches common parts or the outward appearance depends on the general meeting: insulating façades or the roof, replacing windows when this changes the appearance of the building, installing equipment on the façade. The decision must be placed on the meeting's agenda, which means planning several months ahead.",
+            "On top of this, when they alter the outward appearance, comes the planning authorisation, with the possible opinion of the Architecte des Bâtiments de France. Our advice is to plan this administrative phase very early, in parallel with the design, so as not to lose time when the works begin."
+          ]
+        },
+        {
+          "heading": "Financial support: to check at the time of your project",
+          "paragraphs": [
+            "Several schemes can support an energy renovation. MaPrimeRénov' for a major renovation is intended for owner-occupiers and landlords of homes more than fifteen years old, with precise conditions: a gain of at least two energy classes, at least two insulation measures, works carried out by RGE-certified contractors, and compulsory support from a France Rénov' adviser and then from a dedicated companion. For the common parts of a building, there is a specific co-ownership scheme, filed by the managing agent. The zero-rate eco-loan and the reduced VAT rate can be combined under conditions.",
+            "These schemes, their amounts and their conditions change regularly. Before any commitment, check the up-to-date situation with [France Rénov'](https://france-renov.gouv.fr), and do not sign any quote before you have obtained your funding agreement when the subsidy requires it."
+          ]
+        },
+        {
+          "heading": "Our support",
+          "paragraphs": [
+            "At Supra Studio, we approach energy renovation as a component of the architectural project, not as a list of technical works added afterwards. In practice, we begin with a site visit to understand the building, its orientation, the co-ownership constraints and how you live. We then build a scenario that combines thermal comfort, quality of space and respect for heritage: insulation integrated into the layout, windows restored or replaced with the right design, solar protection designed together with the aesthetics of the place.",
+            "We prepare the plans and documents needed for the procedures, help you present the file to the co-ownership, coordinate the contractors and follow the works through to handover. The goal is an apartment that is more comfortable, more economical in energy, and that keeps what gives it its character.",
+            "**Are you considering energy-improvement works in an older apartment?** [Book an appointment](https://calendly.com/paul-cohen-suprastudio/30min) for an advisory visit, or [contact us](/en/contact) to discuss it. To place these works within an overall budget, our article on the [cost of renovating an apartment in Paris](/en/journal/cout-renovation-appartement-paris-budget-complet) will give you benchmarks.",
+            "*The information in this article is indicative and reflects the rules in force at the date of publication. Each project must be checked according to the situation of the building, the co-ownership regulations and the planning rules of the City of Paris.*"
+          ]
+        },
+        {
+          "heading": "Frequently asked questions",
+          "paragraphs": [
+            "**From when can a home rated F or G no longer be let?** Homes rated G are unfit for habitation and can no longer be let from 1 January 2025 (for contracts signed, renewed or tacitly extended from that date). Homes rated F follow on 1 January 2028, then homes rated E on 1 January 2034.",
+            "**Which works should come first in an older apartment?** There is no single answer, but the logical order is to deal first with the envelope (windows, airtightness, the most heat-losing walls), check the ventilation, then adapt the heating. A precise diagnosis of the building makes it possible to rank the works by effectiveness.",
+            "**Can a Haussmann apartment be insulated from the outside?** In practice, very rarely: it would alter the façade, requires the approval of the co-ownership and the authorities, and is often incompatible with the character of the building. Internal insulation, with materials compatible with old walls, is the most common solution.",
+            "**Is authorisation needed to change windows in Paris?** Yes, in most cases, because replacement changes the outward appearance of the building: a prior declaration of works is generally required, and the agreement of the co-ownership may be too. In a protected area or near a listed monument, the Architecte des Bâtiments de France may impose the model, material and colour.",
+            "**Do you need an architect for an energy renovation?** It is not compulsory for a limited project, but it is very useful as soon as several works are combined, when the building is old or protected, or when the renovation is part of a wider project. The architect coordinates technical choices, prepares the authorisation files and ensures that energy gains do not come at the expense of space or the character of the place.",
+            "**Are financial subsidies still available?** The schemes change regularly. Always check their up-to-date conditions on the France Rénov' website before starting the works, and wait for the funding agreement when it is required."
+          ]
+        }
+      ],
+      "keywords": [
+        "Energy renovation apartment Paris",
+        "EPC older apartment",
+        "Insulation Haussmann apartment"
+      ]
+    },
+    "it": {
+      "title": "Riqualificazione energetica di un appartamento d'epoca a Parigi: da dove cominciare?",
+      "metaTitle": "Riqualificazione Energetica Appartamento d'Epoca Parigi: DPE, Isolamento, Finestre",
+      "excerpt": "Classe energetica, divieti di locazione, isolamento, finestre, condominio: da dove cominciare la riqualificazione energetica di un appartamento d'epoca a Parigi senza perderne il carattere.",
+      "category": "Consigli & competenza",
+      "readingTime": "8 min",
+      "intro": "Un appartamento haussmanniano ha molti pregi: volumi generosi, luce, muri spessi, modanature, un parquet che ha attraversato un secolo. Molto spesso ha anche una prestazione energetica mediocre. Tra i divieti di locazione che si avvicinano, gli incentivi che cambiano e i vincoli propri di Parigi, la stessa domanda ricorre in quasi tutti i nostri primi incontri: cosa bisogna fare, in quale ordine, e come migliorare il comfort senza rovinare ciò che dà carattere al luogo? Ecco come affrontiamo la riqualificazione energetica di un appartamento d'epoca, con lo sguardo di architetti.",
+      "sections": [
+        {
+          "heading": "Perché il tema è diventato ineludibile",
+          "paragraphs": [
+            "Il calendario normativo è ormai chiaro. Gli alloggi di classe G nella diagnosi di prestazione energetica (DPE) non possono più essere locati dal 1º gennaio 2025: sono considerati non decenti. Gli alloggi di classe F seguiranno il 1º gennaio 2028, poi quelli di classe E il 1º gennaio 2034. Un contratto firmato prima di queste date non è colpito subito, ma il divieto si applica al rinnovo o alla tacita proroga del contratto.",
+            "Questa scadenza riguarda in primo luogo i proprietari che affittano. Ma pesa anche sui proprietari che abitano l'alloggio, perché una cattiva classificazione prima o poi riemerge al momento della vendita, e soprattutto nella vita quotidiana: pareti fredde in inverno, surriscaldamento in estate, spifferi, bollette elevate.",
+            "Una precisazione utile: il metodo di calcolo della diagnosi è cambiato. Dal 1º gennaio 2026 il coefficiente che converte l'elettricità in energia primaria è passato da 2,3 a 1,9. Alcuni alloggi riscaldati a elettricità, in particolare di piccola superficie, possono quindi aver guadagnato una classe senza alcun intervento. Ciò non sostituisce un reale miglioramento del comfort, e non dice nulla sullo stato reale dell'involucro dell'edificio. Per questo ragioniamo sempre a partire dall'edificio e dal suo uso, non solo dall'etichetta."
+          ]
+        },
+        {
+          "heading": "Capire come un appartamento parigino disperde calore",
+          "paragraphs": [
+            "Prima di scegliere i lavori bisogna capire da dove sfugge il calore. In un edificio d'epoca parigino le dispersioni si ripartiscono in modo diverso rispetto a una casa unifamiliare.",
+            "I muri di facciata, in pietra da taglio o in muratura di pietrame, sono spessi e dotati di grande inerzia. Non sono così scadenti come si pensa, e svolgono un ruolo prezioso per il comfort estivo. Contano anche i muri in comune con i vicini e le pareti verso le parti comuni, spesso dimenticati.",
+            "Le finestre sono frequentemente il primo punto debole: infissi in legno datati, guarnizioni stanche, vetro singolo. È in genere qui che il guadagno è più rapido e più visibile.",
+            "Pavimenti e soffitti, quando l'appartamento si trova sopra un piano non riscaldato, una cantina o un passaggio, oppure sotto il sottotetto, possono rappresentare una quota importante delle dispersioni. Infine la ventilazione è un tema a sé: un alloggio troppo stagno senza ricambio d'aria controllato sviluppa umidità e muffe, mentre uno troppo poroso spreca la propria energia."
+          ]
+        },
+        {
+          "heading": "Un ordine di priorità, più che un elenco di interventi",
+          "paragraphs": [
+            "La tentazione è trattare i lavori uno alla volta: cambiare le finestre quest'anno, la caldaia il prossimo. È raramente l'approccio migliore. Un singolo intervento isolato può squilibrare l'alloggio: nuove finestre molto stagne senza una ventilazione adeguata, ad esempio, creano condensa.",
+            "Preferiamo procedere in quattro tempi. Innanzitutto una diagnosi precisa dell'edificio e degli usi: orientamento, piano, stato dei muri, sistema di riscaldamento, abitudini di vita. Poi la definizione di uno scenario coerente, che gerarchizza gli interventi in base all'efficacia e alla compatibilità con l'esistente. Quindi una programmazione dei lavori per fasi, eventualmente distribuita nel tempo, per tener conto del budget e del calendario del condominio. Infine un attento seguimento del cantiere, perché la qualità dell'esecuzione fa la prestazione: un ponte termico trattato male annulla buona parte dei benefici attesi."
+          ]
+        },
+        {
+          "heading": "Isolare i muri senza rovinarli",
+          "paragraphs": [
+            "In un edificio in pietra l'isolamento dall'esterno è quasi escluso: modificherebbe la facciata e richiede comunque il consenso del condominio e dell'amministrazione. Resta l'isolamento dall'interno, che costa superficie abitabile (qualche centimetro perso su ogni muro interessato) ed esige rigore.",
+            "Il principale punto di attenzione è la gestione dell'umidità. I muri antichi funzionano scambiando vapore acqueo con l'aria interna ed esterna. Rivestirli con un isolante stagno e una barriera al vapore inadatti può intrappolare l'umidità e degradare il muro nel tempo. Privilegiamo quindi materiali detti traspiranti, compatibili con questo funzionamento: fibra di legno, calce-canapa, sughero o intonaci isolanti a calce. Sono spesso un po' più costosi, ma molto più adatti alla pietra.",
+            "Isoliamo in via prioritaria i muri più esposti: facciate a nord, muri di testata, pareti verso l'esterno o verso parti comuni non riscaldate. Non sempre è necessario trattare tutto: un buon progetto mira alle pareti dove il guadagno è più netto, e preserva modanature e camini dove meritano di essere conservati."
+          ]
+        },
+        {
+          "heading": "Finestre: conservare, migliorare o sostituire",
+          "paragraphs": [
+            "Le finestre in legno alla francese, con i loro sottili listelli e profili slanciati, fanno parte dell'identità di un edificio d'epoca. Prima di sostituirle bisogna chiedersi se possono essere restaurate: ripristino delle guarnizioni, recupero del legno, inserimento di un vetro isolante sottile nell'infisso esistente, o anche posa di una seconda finestra interna, che offre anche un ottimo guadagno acustico. Queste soluzioni sono spesso meno costose di una sostituzione completa, e più rispettose della facciata.",
+            "Quando la sostituzione è necessaria, la fedeltà al modello originale è essenziale: proporzioni, sezione dei profili, colore, materiale. A Parigi non è solo una questione estetica. Le finestre modificano l'aspetto esterno dell'edificio: richiedono in genere una dichiarazione preventiva dei lavori e, in un'area tutelata o nei pressi di un monumento storico, l'Architecte des Bâtiments de France può imporre prescrizioni precise, o addirittura opporsi a certi materiali. Dettagliamo queste pratiche nel nostro articolo sulla [dichiarazione preventiva dei lavori a Parigi](/it/journal/declaration-prealable-travaux-paris)."
+          ]
+        },
+        {
+          "heading": "Ventilazione e comfort estivo: i due dimenticati",
+          "paragraphs": [
+            "Si parla molto d'inverno, molto meno d'estate. Eppure gli episodi di forte caldo sono sempre più frequenti a Parigi, e gli appartamenti sotto il tetto o esposti a sud sono i primi colpiti. Le soluzioni sono spesso semplici e poco costose: protezioni solari esterne (persiane, tende, nel rispetto delle regole del condominio e della Città), ventilazione notturna, materiali con buona inerzia, colori chiari su coperture o facciate quando è possibile.",
+            "La ventilazione merita altrettanta attenzione. Quando si migliora la tenuta all'aria di un alloggio, bisogna assicurarsi che venga mantenuto un ricambio d'aria sufficiente: prese d'aria negli infissi, estrazione nei locali umidi e, in alcuni casi, una ventilazione meccanica adeguata. È un lavoro di progettazione, che va pensato insieme al resto del progetto."
+          ]
+        },
+        {
+          "heading": "Il riscaldamento, per ultimo o quasi",
+          "paragraphs": [
+            "Può sembrare strano trattare il riscaldamento per ultimo. È invece logico: una volta migliorato l'involucro, i fabbisogni calano e l'impianto si dimensiona meglio, spesso più piccolo. A Parigi molti edifici dispongono di un riscaldamento centralizzato, a volte collegato alla rete di teleriscaldamento urbano. La scelta individuale è allora limitata e le decisioni passano per il condominio. Negli appartamenti con riscaldamento autonomo, la scelta è tra elettricità, gas e pompa di calore, con un vincolo specifico della capitale: l'installazione di un'unità esterna è rigorosamente regolamentata, sia dal regolamento di condominio sia dalle norme urbanistiche."
+          ]
+        },
+        {
+          "heading": "Condominio e autorizzazioni: il vero calendario",
+          "paragraphs": [
+            "È spesso ciò che sorprende di più i proprietari. In un edificio in condominio, tutto ciò che tocca le parti comuni o l'aspetto esterno dipende dall'assemblea: isolamento delle facciate o del tetto, sostituzione delle finestre quando modifica l'aspetto dell'edificio, installazione di apparecchiature in facciata. La decisione deve essere iscritta all'ordine del giorno dell'assemblea, il che impone di anticipare di diversi mesi.",
+            "A ciò si aggiunge, quando modificano l'aspetto esterno, l'autorizzazione urbanistica, con il possibile parere dell'Architecte des Bâtiments de France. Il nostro consiglio è prevedere questa fase amministrativa molto in anticipo, parallelamente alla progettazione, per non perdere tempo al momento del cantiere."
+          ]
+        },
+        {
+          "heading": "Gli incentivi finanziari: da verificare al momento del vostro progetto",
+          "paragraphs": [
+            "Diversi dispositivi possono sostenere una riqualificazione energetica. MaPrimeRénov' per una ristrutturazione di ampia portata è destinata a proprietari che abitano l'alloggio e a proprietari locatori di alloggi con più di quindici anni, con condizioni precise: un salto di almeno due classi energetiche, almeno due interventi di isolamento, lavori eseguiti da imprese certificate RGE, un accompagnamento obbligatorio da parte di un consulente France Rénov' e poi di un accompagnatore dedicato. Per le parti comuni di un edificio esiste un incentivo specifico per i condomini, presentato dall'amministratore. Il prestito a tasso zero per la riqualificazione e l'IVA ridotta possono cumularsi a certe condizioni.",
+            "Questi dispositivi, i loro importi e le loro condizioni cambiano regolarmente. Prima di qualsiasi impegno, verificate la situazione aggiornata presso [France Rénov'](https://france-renov.gouv.fr) e non firmate alcun preventivo prima di aver ottenuto l'accordo di finanziamento quando l'incentivo lo richiede."
+          ]
+        },
+        {
+          "heading": "Il nostro accompagnamento",
+          "paragraphs": [
+            "In Supra Studio affrontiamo la riqualificazione energetica come una componente del progetto di architettura, e non come un elenco di lavori tecnici da aggiungere a posteriori. Concretamente, cominciamo con un sopralluogo per comprendere l'edificio, l'orientamento, i vincoli del condominio e i vostri usi. Costruiamo poi uno scenario che unisce comfort termico, qualità dello spazio e rispetto del patrimonio: un isolamento integrato nell'arredo, finestre restaurate o sostituite con il disegno giusto, protezioni solari pensate insieme all'estetica del luogo.",
+            "Prepariamo le piante e i documenti necessari alle pratiche, vi aiutiamo a presentare il dossier al condominio, coordiniamo le imprese e seguiamo il cantiere fino alla consegna. L'obiettivo è un appartamento più confortevole, più sobrio in termini di energia, che conserva ciò che ne fa il carattere.",
+            "**State valutando lavori di miglioramento energetico in un appartamento d'epoca?** [Prenotate un appuntamento](https://calendly.com/paul-cohen-suprastudio/30min) per un sopralluogo di consulenza, oppure [contattateci](/it/contact) per parlarne. Per inserire questi lavori in un budget complessivo, il nostro articolo sul [costo di una ristrutturazione di un appartamento a Parigi](/it/journal/cout-renovation-appartement-paris-budget-complet) vi darà dei punti di riferimento.",
+            "*Le informazioni di questo articolo sono indicative e riflettono le regole in vigore alla data di pubblicazione. Ogni progetto va verificato in base alla situazione dell'edificio, al regolamento di condominio e alle norme urbanistiche della Città di Parigi.*"
+          ]
+        },
+        {
+          "heading": "Domande frequenti",
+          "paragraphs": [
+            "**Da quando un alloggio di classe F o G non può più essere locato?** Gli alloggi di classe G sono non decenti e non possono più essere locati dal 1º gennaio 2025 (per i contratti firmati, rinnovati o tacitamente prorogati da quella data). Gli alloggi di classe F seguiranno il 1º gennaio 2028, poi quelli di classe E il 1º gennaio 2034.",
+            "**Quali lavori fare per primi in un appartamento d'epoca?** Non esiste una risposta unica, ma l'ordine logico è trattare prima l'involucro (finestre, tenuta all'aria, pareti più disperdenti), verificare la ventilazione, poi adeguare il riscaldamento. Una diagnosi precisa dell'edificio permette di gerarchizzare i lavori in base all'efficacia.",
+            "**Si può isolare dall'esterno un appartamento haussmanniano?** In pratica, molto raramente: modificherebbe la facciata, richiede il consenso del condominio e dell'amministrazione ed è spesso incompatibile con il carattere dell'edificio. L'isolamento dall'interno, con materiali compatibili con i muri antichi, è la soluzione più comune.",
+            "**Serve un'autorizzazione per cambiare le finestre a Parigi?** Sì, nella maggior parte dei casi, perché la sostituzione modifica l'aspetto esterno dell'edificio: in genere è necessaria una dichiarazione preventiva dei lavori, e può esserlo anche l'accordo del condominio. In un'area tutelata o nei pressi di un monumento storico, l'Architecte des Bâtiments de France può imporre modello, materiale e colore.",
+            "**Bisogna rivolgersi a un architetto per una riqualificazione energetica?** Non è obbligatorio per un progetto limitato, ma è molto utile quando si combinano più lavori, quando l'edificio è antico o tutelato, o quando la riqualificazione rientra in un progetto più ampio. L'architetto coordina le scelte tecniche, prepara i dossier di autorizzazione e vigila perché i benefici energetici non vadano a scapito dello spazio né del carattere del luogo.",
+            "**Gli incentivi finanziari sono sempre disponibili?** I dispositivi cambiano regolarmente. Verificate sempre le condizioni aggiornate sul sito di France Rénov' prima di avviare i lavori, e attendete l'accordo di finanziamento quando è richiesto."
+          ]
+        }
+      ],
+      "keywords": [
+        "Riqualificazione energetica appartamento Parigi",
+        "DPE appartamento d'epoca",
+        "Isolamento appartamento haussmanniano"
+      ]
+    }
+  },
 };
 
 export function localizeArticle(article: JournalArticle, lang: Lang): JournalArticle {
