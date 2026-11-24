@@ -103,9 +103,56 @@ const GA4_ID = process.env.NEXT_PUBLIC_GA_ID || "";
 const CONSENT_KEY = "supra_cookie_consent";
 const sentOnce = new Set<string>();
 
+// --- Comptage anonyme du parcours (sans cookie, exempté de consentement CNIL) ---
+// Chaque étape atteinte envoie seulement « étape X, source, type d'appareil » au script
+// Google Apps Script, qui ajoute +1 dans l'onglet « Entonnoir » de la Google Sheet.
+// Aucun cookie, aucun stockage, aucun identifiant : une étape n'est comptée qu'une fois
+// par page chargée. Rien n'est compté hors de suprastudio.fr, pour les robots,
+// ni si l'adresse contient ?nocount (pour vos propres visites).
+const counted = new Set<string>();
+
+export function countStep(step: string) {
+  if (typeof window === "undefined" || counted.has(step)) return;
+  counted.add(step);
+  try {
+    if (!/(^|\.)suprastudio\.fr$/.test(window.location.hostname)) return;
+    if (navigator.webdriver) return;
+    const url = new URLSearchParams(window.location.search);
+    if (url.has("nocount")) return;
+    const body = new URLSearchParams({
+      funnel: step,
+      source: url.has("gclid") ? "ads" : "autre",
+      device: window.matchMedia("(max-width: 860px)").matches ? "mobile" : "ordinateur",
+    });
+    if (!navigator.sendBeacon?.(LEADS_ENDPOINT, body)) {
+      fetch(LEADS_ENDPOINT, { method: "POST", mode: "no-cors", keepalive: true, body }).catch(() => {});
+    }
+  } catch {
+    // le comptage ne doit jamais gêner le visiteur
+  }
+}
+
+// Correspondance entre les événements de la page et les colonnes de l'entonnoir
+function funnelStepFor(name: string, params: Record<string, string | number>): string | null {
+  switch (name) {
+    case "lp_form_visible": return "formulaire_vu";
+    case "lp_cta_click": return "bouton_projet";
+    case "lp_form_step": return `reponse_${params.step_number}`;
+    case "lp_contact_view": return "coordonnees";
+    case "lp_form_error": return "erreur";
+    case "generate_lead": return "envoi";
+    case "lp_phone_click": return "appel";
+    case "lp_scroll_50": return "lecture_50";
+    default: return null;
+  }
+}
+
 // Envoie un événement GA4 uniquement si le visiteur a accepté les cookies.
 // Ne JAMAIS y mettre le prénom, le téléphone, l'email ou le code postal.
+// Le comptage anonyme de l'entonnoir, lui, part pour tous les visiteurs.
 export function trackEvent(name: string, params: Record<string, string | number> = {}) {
+  const step = funnelStepFor(name, params);
+  if (step) countStep(step);
   if (!GA4_ID || typeof window === "undefined" || typeof window.gtag !== "function") return;
   try {
     if (window.localStorage.getItem(CONSENT_KEY) !== "accepted") return;

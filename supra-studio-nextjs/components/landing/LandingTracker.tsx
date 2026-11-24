@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { trackEvent, trackEventOnce } from "@/lib/landing";
+import { countStep, trackEvent, trackEventOnce } from "@/lib/landing";
 
 // Suivi du parcours sur la landing page (GA4), sans rien afficher :
 // - lp_form_visible : le formulaire apparaît au moins à moitié à l'écran (une fois) ;
@@ -10,6 +10,9 @@ import { trackEvent, trackEventOnce } from "@/lib/landing";
 // Les événements ne partent que si le visiteur a accepté les cookies (voir trackEvent).
 export default function LandingTracker() {
   useEffect(() => {
+    // 0. Visite (comptage anonyme, sans cookie)
+    countStep("visite");
+
     // 1. Formulaire vu
     const form = document.querySelector(".lp-form");
     let io: IntersectionObserver | undefined;
